@@ -6,6 +6,7 @@ on:
   schedule:
     # Low activity: 23:00-08:00 UTC
     - cron: '53 2 * * 0'
+    - cron: '13 7 * * 3'
   push:
     branches:
       - main

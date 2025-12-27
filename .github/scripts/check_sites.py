@@ -28,8 +28,8 @@ from bs4 import BeautifulSoup
 from tabulate import tabulate  # type: ignore[import-untyped]
 
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
-TIMEOUT_SECONDS = 60
-MAX_CONCURRENT = 45
+TIMEOUT_SECONDS = 65
+MAX_CONCURRENT = 48
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -64,12 +64,12 @@ class CheckResult:
 
 
 REPORT_SECTIONS: list[tuple[str, Status]] = [
-    ("Errors", Status.ERROR),
-    ("Redirects", Status.REDIRECT),
-    ("Warnings", Status.WARNING),
-    ("Cloudflare Blocked", Status.CF_BLOCK),
-    ("Cloudflare IUAM", Status.CF_IUAM),
     ("OK", Status.OK),
+    ("Redirects", Status.REDIRECT),
+    ("Cloudflare IUAM", Status.CF_IUAM),
+    ("Cloudflare Blocked", Status.CF_BLOCK),
+    ("Warnings", Status.WARNING),
+    ("Errors", Status.ERROR),
 ]
 
 
@@ -159,9 +159,8 @@ def _escape_pipes(text: str) -> str:
 def render_report(user_agent: str, results: list[CheckResult]) -> str:
     buf = ""
     buf += "# Site Status Report\n\n"
-    buf += f"- User-Agent: `{user_agent}`\n"
-    buf += f"- Count: {len(results)}\n"
-    buf += "\n"
+    buf += f"Count: {len(results)}\\\n"
+    buf += f"User-Agent: `{user_agent}`\n\n"
 
     for title, status in REPORT_SECTIONS:
         rows = [
