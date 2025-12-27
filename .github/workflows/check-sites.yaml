@@ -1,0 +1,22 @@
+---
+name: Check sites
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Low activity: 23:00-08:00 UTC
+    - cron: '53 2 * * 0'
+
+permissions:
+  contents: write
+
+jobs:
+  check-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v7
+      - run: .github/scripts/check_sites.py
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: 'chore: update status'
