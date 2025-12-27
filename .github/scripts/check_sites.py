@@ -27,8 +27,8 @@ from fake_useragent import UserAgent
 from tabulate import tabulate  # type: ignore[import-untyped]
 
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
-TIMEOUT_SECONDS = 10
-MAX_CONCURRENT = 30
+TIMEOUT_SECONDS = 15
+MAX_CONCURRENT = 40
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -123,12 +123,14 @@ def _escape_pipes(text: str) -> str:
 def render_report(results: list[CheckResult]) -> str:
     buf = ""
     buf += "# Site Status Report\n\n"
-    buf += f"Last updated: {datetime.now(tz=timezone.utc).isoformat()}\n\n"
+    buf += f"Updated: {datetime.now(tz=timezone.utc).isoformat(timespec='seconds')}\\\n"
+    buf += f"Count: {len(results)}\n\n"
 
     for title, status in REPORT_SECTIONS:
         rows = [tuple(_escape_pipes(c) for c in r.as_row()) for r in results if r.status == status]
+        buf += f"## {title}\n\n"
+        buf += f"Count: {len(rows)}\n\n"
         if rows:
-            buf += f"## {title} ({len(rows)})\n"
             buf += tabulate(rows, ["Status", "Name", "URL", "Info"], tablefmt="github")
             buf += "\n\n"
 
