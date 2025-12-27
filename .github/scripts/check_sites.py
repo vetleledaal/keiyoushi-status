@@ -2,10 +2,10 @@
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
-#   "aiohttp",
+#   "aiohttp[speedups]",
 #   "anyio",
 #   "beautifulsoup4",
-#   "fake-useragent",
+#   "ua-generator",
 #   "tabulate",
 # ]
 # ///
@@ -14,21 +14,22 @@ from __future__ import annotations
 
 import asyncio
 import logging
+import random
 from dataclasses import dataclass
-from datetime import datetime, timezone
 from enum import StrEnum
 from http import HTTPStatus
+from operator import attrgetter
 from typing import Any, NamedTuple
 
 import aiohttp
+import ua_generator
 from anyio import Path
 from bs4 import BeautifulSoup
-from fake_useragent import UserAgent
 from tabulate import tabulate  # type: ignore[import-untyped]
 
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
-TIMEOUT_SECONDS = 40
-MAX_CONCURRENT = 25
+TIMEOUT_SECONDS = 60
+MAX_CONCURRENT = 45
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -54,17 +55,21 @@ class CheckResult:
     status: Status
     info: str = ""
 
+    @property
+    def sort_key(self) -> tuple[str, str]:
+        return (self.source.name.lower(), self.source.url.lower())
+
     def as_row(self) -> tuple[str, str, str, str]:
         return (self.status.value, self.source.name, self.source.url, self.info)
 
 
 REPORT_SECTIONS: list[tuple[str, Status]] = [
-    ("OK", Status.OK),
-    ("Cloudflare Blocked", Status.CF_BLOCK),
-    ("Cloudflare IUAM", Status.CF_IUAM),
+    ("Errors", Status.ERROR),
     ("Redirects", Status.REDIRECT),
     ("Warnings", Status.WARNING),
-    ("Errors", Status.ERROR),
+    ("Cloudflare Blocked", Status.CF_BLOCK),
+    ("Cloudflare IUAM", Status.CF_IUAM),
+    ("OK", Status.OK),
 ]
 
 
@@ -76,6 +81,37 @@ def extract_sources(repo: list[dict[str, Any]]) -> list[Source]:
         for url in source["baseUrl"].split("#, ")
     }
     return sorted(sources)
+
+
+def generate_headers(sources: list[Source]) -> dict[str, str]:
+    seed = ",".join(f"{source.name}:{source.url}" for source in sources)
+
+    rng_state = random.getstate()
+    random.seed(seed)
+    ua = ua_generator.generate(device="desktop", browser=["chrome", "edge"])
+    random.setstate(rng_state)
+
+    log.info("Using User-Agent: %s", str(ua))
+    headers = {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-US,en;q=0.6",
+        "Priority": "u=0, i",
+        "Referer": "https://search.brave.com/",
+        "Sec-Ch-Ua": None,
+        "Sec-Ch-Ua-Mobile": None,
+        "Sec-Ch-Ua-Platform": None,
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "cross-site",
+        "Sec-Fetch-User": "?1",
+        "Sec-Gpc": "1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": None,
+    }
+    headers_ua = {k.title(): v for k, v in ua.headers.get().items()}
+    headers.update(headers_ua)
+    return headers
 
 
 async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckResult:
@@ -120,14 +156,18 @@ def _escape_pipes(text: str) -> str:
     return text.replace("|", r"\|")
 
 
-def render_report(results: list[CheckResult]) -> str:
+def render_report(user_agent: str, results: list[CheckResult]) -> str:
     buf = ""
     buf += "# Site Status Report\n\n"
-    buf += f"Updated: {datetime.now(tz=timezone.utc).isoformat(timespec='seconds')}\\\n"
-    buf += f"Count: {len(results)}\n\n"
+    buf += f"- User-Agent: `{user_agent}`\n"
+    buf += f"- Count: {len(results)}\n"
+    buf += "\n"
 
     for title, status in REPORT_SECTIONS:
-        rows = [tuple(_escape_pipes(c) for c in r.as_row()) for r in results if r.status == status]
+        rows = [
+            tuple(_escape_pipes(c) for c in r.as_row())
+            for r in sorted((r for r in results if r.status == status), key=attrgetter("sort_key"))
+        ]
         buf += f"## {title}\n\n"
         buf += f"Count: {len(rows)}\n\n"
         if rows:
@@ -138,23 +178,25 @@ def render_report(results: list[CheckResult]) -> str:
 
 
 async def main() -> None:
-    ua = UserAgent(browsers=["Edge", "Chrome"], os="Windows", platforms="desktop")
-    user_agent = ua.random
-    log.info("Using User-Agent: %s", user_agent)
-
-    async with aiohttp.ClientSession(
-        timeout=aiohttp.ClientTimeout(total=TIMEOUT_SECONDS),
-        headers={"User-Agent": user_agent},
-    ) as session:
+    async with aiohttp.ClientSession() as session:
         log.info("Fetching repository index from %s", REPO_INDEX_URL)
         async with session.get(REPO_INDEX_URL) as resp:
             repository = await resp.json(content_type=None)
 
-        sources = extract_sources(repository)
-        log.info("Checking %d unique sources", len(sources))
-        results = await check_all(session, sources)
+    sources = extract_sources(repository)
+    log.info("Checking %d unique sources", len(sources))
 
-    report = render_report(results)
+    headers = generate_headers(sources)
+
+    async with aiohttp.ClientSession(
+        timeout=aiohttp.ClientTimeout(total=TIMEOUT_SECONDS),
+        headers=headers,
+    ) as session:
+        sources_shuffled = sources.copy()
+        random.shuffle(sources_shuffled)
+        results = await check_all(session, sources_shuffled)
+
+    report = render_report(headers["User-Agent"], results)
     await Path("STATUS.md").write_text(report, encoding="utf-8")
 
 

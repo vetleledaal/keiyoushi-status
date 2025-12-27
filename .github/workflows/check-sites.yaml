@@ -6,6 +6,12 @@ on:
   schedule:
     # Low activity: 23:00-08:00 UTC
     - cron: '53 2 * * 0'
+  push:
+    branches:
+      - main
+    paths:
+      - .github/scripts/check_sites.py
+      - .github/workflows/check-sites.yaml
 
 permissions:
   contents: write
