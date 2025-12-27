@@ -1,8 +1,12 @@
 # Site Status Report
 
-Last updated: 2025-12-27T01:01:05.433484+00:00
+Updated: 2025-12-27T01:16:48+00:00\
+Count: 1426
 
-## OK (769)
+## OK
+
+Count: 831
+
 | Status   | Name                                              | URL                                          | Info   |
 |----------|---------------------------------------------------|----------------------------------------------|--------|
 | ✅        | 11toon                                            | https://www.11toon.com                       |        |
@@ -14,13 +18,13 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | AComics                                           | https://acomics.ru                           |        |
 | ✅        | AHottie                                           | https://ahottie.net                          |        |
 | ✅        | AKAYA                                             | https://akaya.io                             |        |
+| ✅        | AP Comics                                         | https://apcomics.org                         |        |
 | ✅        | Adonis Fansub                                     | https://manga.adonisfansub.com               |        |
 | ✅        | Adult Webtoon                                     | https://adultwebtoon.com                     |        |
 | ✅        | Alandal                                           | https://alandal.com                          |        |
 | ✅        | AllHentai                                         | https://20.allhen.online                     |        |
 | ✅        | AllManga                                          | https://allmanga.to                          |        |
 | ✅        | Alucard Scans                                     | https://alucardscans.com                     |        |
-| ✅        | Amuy                                              | https://apenasmaisumyaoi.com                 |        |
 | ✅        | Anime GDR Club                                    | http://www.agcscanlation.it/                 |        |
 | ✅        | AnimeSama                                         | https://anime-sama.si                        |        |
 | ✅        | AnimeXNovel                                       | https://www.animexnovel.com                  |        |
@@ -35,6 +39,10 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Armoni Scans                                      | https://armoniscans.net                      |        |
 | ✅        | Art Lapsa                                         | https://artlapsa.com                         |        |
 | ✅        | Arven Scans                                       | https://arvencomics.com                      |        |
+| ✅        | Arya Scans                                        | https://brainrotcomics.com                   |        |
+| ✅        | Asemi Fansub                                      | https://asemifansub.com                      |        |
+| ✅        | Asia Lotus                                        | https://asialotuss.com                       |        |
+| ✅        | AsmHentai                                         | https://asmhentai.com                        |        |
 | ✅        | Asmodeus Scans                                    | https://asmotoon.com                         |        |
 | ✅        | Assorted Scans                                    | https://assortedscans.com                    |        |
 | ✅        | AstralManga                                       | https://astral-manga.fr                      |        |
@@ -42,7 +50,6 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Atemporal                                         | https://atemporal.cloud                      |        |
 | ✅        | Atsumaru                                          | https://atsu.moe                             |        |
 | ✅        | Aurora                                            | https://comicaurora.com                      |        |
-| ✅        | BR Yaoi                                           | https://bryaoi.com                           |        |
 | ✅        | Bakai                                             | https://bakai.org                            |        |
 | ✅        | Bakkin                                            | https://bakkin.moe/reader/                   |        |
 | ✅        | Bato.to                                           | https://ato.to                               |        |
@@ -101,29 +108,36 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Bato.to                                           | https://zbato.com                            |        |
 | ✅        | Bato.to                                           | https://zbato.net                            |        |
 | ✅        | Bato.to                                           | https://zbato.org                            |        |
+| ✅        | Biblio Panda                                      | https://bibliopanda.com                      |        |
 | ✅        | Big Comics                                        | https://bigcomics.jp                         |        |
 | ✅        | BigSolo                                           | https://bigsolo.org                          |        |
 | ✅        | BirdToon                                          | https://birdtoon.shop                        |        |
 | ✅        | Blue Solo                                         | https://bluesolo.org                         |        |
 | ✅        | BokugenTranslation                                | https://bokugents.com                        |        |
 | ✅        | BookWalker Global                                 | https://global.bookwalker.jp                 |        |
+| ✅        | Borat Scans                                       | https://boratscans.com                       |        |
+| ✅        | Boruto Explorer                                   | https://leitor.borutoexplorer.com.br         |        |
 | ✅        | BoxManhwa                                         | https://boxmanhwa.com                        |        |
 | ✅        | Brakeout                                          | https://brakeout.xyz                         |        |
 | ✅        | Brasil Hentai                                     | https://brasilhentai.com                     |        |
 | ✅        | Buttsmithy                                        | https://incase.buttsmithy.com                |        |
+| ✅        | Bymichi Scan                                      | https://bymichiby.com                        |        |
 | ✅        | CBHentai                                          | https://2tencb.top                           |        |
 | ✅        | CCC追漫台                                            | https://www.creative-comic.tw                |        |
 | ✅        | COLAMANGA                                         | https://www.colamanga.com                    |        |
 | ✅        | COMIC FUZ                                         | https://comic-fuz.com                        |        |
 | ✅        | Casa Comic                                        | https://casacomic.com                        |        |
 | ✅        | Cat300                                            | https://cat-300.com                          |        |
+| ✅        | CatManhwas                                        | https://newcat1.xyz                          |        |
 | ✅        | Catharsis World                                   | https://catharsisworld.dig-it.info           |        |
+| ✅        | Celestial Moon                                    | https://celestialmoonscan.es                 |        |
 | ✅        | Cerberus Series                                   | https://legionscans.com/wp                   |        |
 | ✅        | Cerise Scan                                       | https://loverstoon.com                       |        |
 | ✅        | Champion Cross                                    | https://championcross.jp                     |        |
 | ✅        | Ciao Plus                                         | https://ciao.shogakukan.co.jp                |        |
 | ✅        | Clan Marcial                                      | https://clanmarcial.com                      |        |
 | ✅        | Clone Manga                                       | https://manga.clone-army.org/                |        |
+| ✅        | Clown Corps                                       | https://clowncorps.net                       |        |
 | ✅        | Coco Rip                                          | https://cocorip.net                          |        |
 | ✅        | Cocomic                                           | https://cocomic.co                           |        |
 | ✅        | Collected Curios                                  | https://www.collectedcurios.com              |        |
@@ -166,6 +180,7 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Decadence Scans                                   | https://reader.decadencescans.com            |        |
 | ✅        | Desu                                              | https://desu.uno                             |        |
 | ✅        | DiamondFansub                                     | https://diamondfansub.com                    |        |
+| ✅        | Digital Comic Museum                              | https://digitalcomicmuseum.com               |        |
 | ✅        | Dilar                                             | https://golden.rest                          |        |
 | ✅        | Diva Scans                                        | https://divatoon.com                         |        |
 | ✅        | DocTruyen5s                                       | https://manga.io.vn                          |        |
@@ -176,6 +191,7 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | DoujinHentai                                      | https://doujinhentai.net                     |        |
 | ✅        | DoujinZa                                          | https://doujinza.com                         |        |
 | ✅        | Doujins                                           | https://doujins.com                          |        |
+| ✅        | DoujinsHell                                       | https://doujinshell.net                      |        |
 | ✅        | Dragon Ball Multiverse                            | https://www.dragonball-multiverse.com        |        |
 | ✅        | Dragon Ball Multiverse Parody                     | https://www.dragonball-multiverse.com        |        |
 | ✅        | DragonTranslation.org                             | https://dragontranslation.org                |        |
@@ -195,6 +211,7 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Emperor Scan                                      | https://emperorscan.mundoalterno.org         |        |
 | ✅        | Es.Mi2Manga                                       | https://es.mi2manga.com                      |        |
 | ✅        | Escaneo de Leyendas                               | https://escaneodeleyendas.com                |        |
+| ✅        | Euphoria Scan                                     | https://euphoriascan.com                     |        |
 | ✅        | Eva Scans                                         | https://evascans.org                         |        |
 | ✅        | Everia.club                                       | https://everia.club                          |        |
 | ✅        | ExHentai.net.br                                   | https://exhentai.net.br                      |        |
@@ -220,6 +237,7 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | GTO The Great Site                                | https://reader.gtothegreatsite.net           |        |
 | ✅        | Gaiatoon                                          | https://gaiatoon.com                         |        |
 | ✅        | Galaxy Manga                                      | https://galaxymanga.io                       |        |
+| ✅        | GalaxyDegenScans                                  | https://gdscans.com                          |        |
 | ✅        | Gangan Online                                     | https://www.ganganonline.com                 |        |
 | ✅        | Garcia Manga                                      | https://garciamanga.com                      |        |
 | ✅        | Geass Comics                                      | https://geasscomics.xyz                      |        |
@@ -230,21 +248,26 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | God-Doujin                                        | https://god-doujin.com                       |        |
 | ✅        | Gone with the Blastwave                           | https://www.blastwave-comic.com              |        |
 | ✅        | Grabber Zone                                      | https://grabber.zone                         |        |
+| ✅        | Gremory Mangas                                    | https://gremorymangas.com                    |        |
 | ✅        | Grrl Power Comic                                  | https://www.grrlpowercomic.com               |        |
 | ✅        | Gunnerkrigg Court                                 | https://www.gunnerkrigg.com                  |        |
 | ✅        | Guya                                              | https://guya.cubari.moe                      |        |
 | ✅        | HANMAN18                                          | https://hanman18.com                         |        |
 | ✅        | HDoujin                                           | https://hdoujin.org                          |        |
 | ✅        | HM2D                                              | https://doujindistrict.com                   |        |
+| ✅        | HNI-Scantrad                                      | https://hni-scantrad.net                     |        |
 | ✅        | HOLONOMETRIA                                      | https://holoearth.com                        |        |
 | ✅        | HQ Now!                                           | https://www.hq-now.com                       |        |
 | ✅        | Hachirumi                                         | https://hachirumi.com                        |        |
 | ✅        | Hades no Fansub                                   | https://lectorhades.latamtoon.com            |        |
+| ✅        | Hanami Heaven                                     | https://hanamiheaven.org                     |        |
 | ✅        | Hanuman Scan                                      | https://hanumanscan.com                      |        |
 | ✅        | Harem de Kira                                     | https://kiraproject.lat                      |        |
 | ✅        | Harimanga                                         | https://harimanga.me                         |        |
 | ✅        | Hasta Team                                        | https://reader.hastateam.com                 |        |
 | ✅        | Hayalistic                                        | https://hayalistic.net                       |        |
+| ✅        | HeavenManga                                       | https://heavenmanga.com                      |        |
+| ✅        | HenChan                                           | https://xxl.hentaichan.live                  |        |
 | ✅        | Hennojin                                          | https://hennojin.com                         |        |
 | ✅        | Hentai Cosplay                                    | https://hentai-cosplay-xxx.com               |        |
 | ✅        | Hentai Manga                                      | https://hentaimanga.me                       |        |
@@ -273,9 +296,11 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Hiveworks Comics                                  | https://hiveworkscomics.com                  |        |
 | ✅        | HoneyManga                                        | https://honey-manga.com.ua                   |        |
 | ✅        | Honkai Impact 3rd                                 | https://manga.honkaiimpact3.com              |        |
+| ✅        | Hot Cabaret Scan                                  | https://hotcabaretscan.com                   |        |
 | ✅        | House Of Otakus                                   | https://houseofotakusv2.xyz                  |        |
 | ✅        | Hunters Scan                                      | https://readhunters.xyz                      |        |
 | ✅        | Hyakuro Translations                              | https://hyakuro.net                          |        |
+| ✅        | I Roved Out                                       | https://www.irovedout.com                    |        |
 | ✅        | IMHentai                                          | https://imhentai.xxx                         |        |
 | ✅        | Ichicomi                                          | https://ichicomi.com                         |        |
 | ✅        | Idol. gravureprincess .date                       | https://idol.gravureprincess.date            |        |
@@ -286,6 +311,7 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Inventario Oculto                                 | https://inventariooculto.com                 |        |
 | ✅        | IsekaiScanManga (unoriginal)                      | https://isekaiscanmanga.com                  |        |
 | ✅        | J-N Books                                         | https://comic.j-nbooks.jp                    |        |
+| ✅        | Jeaz Scans                                        | https://lectorhub.j5z.xyz                    |        |
 | ✅        | Joymii Hub                                        | https://www.joymiihub.com                    |        |
 | ✅        | Junmeitu                                          | https://meijuntu.com                         |        |
 | ✅        | K Manga                                           | https://kmanga.kodansha.com                  |        |
@@ -303,6 +329,7 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Kemono                                            | https://kemono.cr                            |        |
 | ✅        | Ken Scans                                         | https://kencomics.com                        |        |
 | ✅        | Kewn Scans                                        | https://kewnscans.org                        |        |
+| ✅        | KillSixBillionDemons                              | https://killsixbilliondemons.com             |        |
 | ✅        | KimiComi                                          | https://kimicomi.com                         |        |
 | ✅        | King of Shojo                                     | https://kingofshojo.com                      |        |
 | ✅        | Kira Scans                                        | https://kirascans.com                        |        |
@@ -318,6 +345,7 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Komiktap                                          | https://komiktap.info                        |        |
 | ✅        | Komiku                                            | https://komiku.org                           |        |
 | ✅        | Koreli Scans                                      | https://koreliscans.net                      |        |
+| ✅        | KumaPoi                                           | https://kumapoi.info                         |        |
 | ✅        | Kurage Bunch                                      | https://kuragebunch.com                      |        |
 | ✅        | Lagoon Scans                                      | https://lagoonscans.com                      |        |
 | ✅        | Lami-Manga                                        | https://mangalami.com                        |        |
@@ -329,13 +357,16 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Ler Toons                                         | https://www.readmangas.org                   |        |
 | ✅        | Les Poroiniens                                    | https://lesporoiniens.org                    |        |
 | ✅        | Leva Scans                                        | https://levascans.com                        |        |
+| ✅        | LianScans                                         | https://www.lianscans.com                    |        |
 | ✅        | LikeManga                                         | https://likemanga.ink                        |        |
 | ✅        | LikeMangaIn                                       | https://likemanga.in                         |        |
+| ✅        | Limbo Scan                                        | https://limboscan.com.br                     |        |
 | ✅        | Little Tyrant                                     | https://tiraninha.baby                       |        |
 | ✅        | Loading Artist                                    | https://loadingartist.com                    |        |
 | ✅        | Lolivault                                         | https://lector.lolivault.net                 |        |
 | ✅        | Loner Translations                                | https://loner-tl.blogspot.com                |        |
 | ✅        | Love4u                                            | https://love4u.net                           |        |
+| ✅        | Luna Scans                                        | https://tuhafscans.com                       |        |
 | ✅        | Lunar Manga                                       | https://lunaranime.ru                        |        |
 | ✅        | LupiTeam                                          | https://lupiteam.net                         |        |
 | ✅        | MAGCOMI                                           | https://magcomi.com                          |        |
@@ -343,9 +374,11 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | MANGA Plus by SHUEISHA                            | https://mangaplus.shueisha.co.jp             |        |
 | ✅        | MANGARAW+                                         | https://mangarawx.net                        |        |
 | ✅        | MGJinx                                            | https://mgjinx.com                           |        |
+| ✅        | MR Yaoi                                           | https://mrtenzus.com                         |        |
 | ✅        | MagKan                                            | https://kansai.mag-garden.co.jp              |        |
 | ✅        | Magazine Pocket                                   | https://pocket.shonenmagazine.com            |        |
 | ✅        | Magical Translators                               | https://mahoushoujobu.com                    |        |
+| ✅        | Maid - Manga                                      | https://www.maid.my.id                       |        |
 | ✅        | Maid Scan                                         | https://empreguetes.xyz                      |        |
 | ✅        | Maid Secret                                       | https://maidsecret.com                       |        |
 | ✅        | Makimaaaaa                                        | https://makimaaaaa.com                       |        |
@@ -355,16 +388,17 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Manga Crab                                        | https://mangacrab.org                        |        |
 | ✅        | Manga Dass                                        | https://mangadass.com                        |        |
 | ✅        | Manga District                                    | https://mangadistrict.com                    |        |
-| ✅        | Manga Empress                                     | https://mangaempress.com                     |        |
 | ✅        | Manga Hentai                                      | https://mangahentai.me                       |        |
 | ✅        | Manga Kings                                       | https://mangakings.com.tr                    |        |
 | ✅        | Manga Koleji                                      | https://mangakoleji.com                      |        |
 | ✅        | Manga Livre Blog                                  | https://mangalivre.blog                      |        |
 | ✅        | Manga Livre.to                                    | https://mangalivre.to                        |        |
+| ✅        | Manga Mukai                                       | https://mangamukai.com                       |        |
 | ✅        | Manga Mura                                        | https://mangamura.net                        |        |
 | ✅        | Manga Online Team                                 | https://mangaonlineteam.com                  |        |
 | ✅        | Manga Planet                                      | https://mangaplanet.com                      |        |
 | ✅        | Manga Read                                        | https://mangaread.co                         |        |
+| ✅        | Manga Romance                                     | https://mangaromance19.com                   |        |
 | ✅        | Manga Sect                                        | https://mangasect.net                        |        |
 | ✅        | Manga Ship                                        | https://www.mangaship.net                    |        |
 | ✅        | Manga Soul                                        | https://www.manga-soul.com                   |        |
@@ -375,6 +409,8 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Manga Tube                                        | https://manga-tube.me                        |        |
 | ✅        | Manga UP!                                         | https://global.manga-up.com                  |        |
 | ✅        | Manga Şehri.net                                   | https://manga-sehri.net                      |        |
+| ✅        | Manga-Corporation                                 | https://manga-corporation.com                |        |
+| ✅        | Manga-TR                                          | https://manga-tr.com                         |        |
 | ✅        | Manga-shi                                         | https://manga-shi.org                        |        |
 | ✅        | Manga18.me                                        | https://manga18.me                           |        |
 | ✅        | Manga18Free                                       | https://manga18free.com                      |        |
@@ -440,9 +476,11 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Mangastep                                         | https://mangastep.com                        |        |
 | ✅        | Mangasushi                                        | https://mangasushi.org                       |        |
 | ✅        | Mangasusu                                         | https://mangasusuku.com                      |        |
+| ✅        | Mangatellers                                      | https://reader.mangatellers.gr               |        |
 | ✅        | Mangatown                                         | https://www.mangatown.com                    |        |
 | ✅        | MangaworldAdult                                   | https://www.mangaworldadult.net              |        |
 | ✅        | Manhastro                                         | https://manhastro.net                        |        |
+| ✅        | Manhatic                                          | https://manhatic.com                         |        |
 | ✅        | Manhatok                                          | https://manhatok.blogspot.com                |        |
 | ✅        | Manhua ES                                         | https://manhuaes.com                         |        |
 | ✅        | ManhuaFast                                        | https://manhuafast.com                       |        |
@@ -477,11 +515,13 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | ManyToon                                          | https://manytoon.com                         |        |
 | ✅        | ManyToon.me                                       | https://manytoon.me                          |        |
 | ✅        | ManyToonClub                                      | https://manytoon.club                        |        |
+| ✅        | Marmota                                           | https://marmota.me                           |        |
 | ✅        | MeHentai                                          | https://mehentai.tv                          |        |
 | ✅        | Mediocre Toons                                    | https://mediocrescan.com                     |        |
 | ✅        | Megatokyo                                         | https://megatokyo.com                        |        |
 | ✅        | Mehgazone                                         | https://mehgazone.com                        |        |
 | ✅        | Menudo-Fansub                                     | https://www.menudo-fansub.com                |        |
+| ✅        | MeowSubs                                          | https://meowsubs.com                         |        |
 | ✅        | Metart Hunter                                     | https://www.metarthunter.com                 |        |
 | ✅        | Miau Scan                                         | https://leemiau.com                          |        |
 | ✅        | MikoRoku                                          | https://www.mikoroku.com                     |        |
@@ -490,11 +530,15 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | MissKon                                           | https://misskon.com                          |        |
 | ✅        | Monochrome Custom                                 | https://monochromecms.netlify.app            |        |
 | ✅        | Monochrome Scans                                  | https://manga.d34d.one                       |        |
+| ✅        | Monsure                                           | https://monsuresu.com                        |        |
+| ✅        | Monte Tai                                         | https://montetaiscanlator.xyz                |        |
 | ✅        | Moodtoon                                          | https://moon-toon.com                        |        |
+| ✅        | Mugiwaras Oficial                                 | https://mugiwarasoficial.com                 |        |
 | ✅        | Muito Hentai                                      | https://www.muitohentai.com                  |        |
 | ✅        | Multporn                                          | https://multporn.net                         |        |
 | ✅        | Mundo Manhwa                                      | https://mundomanhwa.com                      |        |
 | ✅        | MyComic                                           | https://mycomic.com                          |        |
+| ✅        | NIFTeam                                           | https://read-nifteam.info                    |        |
 | ✅        | NamiComi                                          | https://namicomi.com                         |        |
 | ✅        | Natsu                                             | https://natsu.tv                             |        |
 | ✅        | Naver Webtoon                                     | https://comic.naver.com                      |        |
@@ -511,11 +555,11 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Nikkangecchan                                     | https://nikkangecchan.jp                     |        |
 | ✅        | Nimemob                                           | https://www.nimemob.my.id                    |        |
 | ✅        | NineAnime                                         | https://www.nineanime.com                    |        |
+| ✅        | Ninja Scan                                        | https://ninjacomics.xyz                      |        |
 | ✅        | Nirvana Manga                                     | https://nirvanamanga.com                     |        |
 | ✅        | Nitro Scans                                       | https://nitroscans.net                       |        |
 | ✅        | Nivera Fansub                                     | https://niverafansub.org                     |        |
 | ✅        | Noblesse Translations                             | https://nobledicion.yoveo.xyz                |        |
-| ✅        | Noromax                                           | https://noromax01.my.id                      |        |
 | ✅        | Novato Scans                                      | https://www.novatoscans.top                  |        |
 | ✅        | NovelCool                                         | https://br.novelcool.com                     |        |
 | ✅        | NovelCool                                         | https://de.novelcool.com                     |        |
@@ -536,12 +580,15 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Ohta Web Comic                                    | https://webcomic.ohtabooks.com               |        |
 | ✅        | Olympus Scanlation                                | https://olympusbiblioteca.com                |        |
 | ✅        | Omega Scans                                       | https://omegascans.org                       |        |
+| ✅        | One Piece Berwarna                                | https://onepieceberwarna.com                 |        |
 | ✅        | One Piece TECA                                    | https://onepieceteca.com                     |        |
 | ✅        | One Punch Man Online                              | https://w10.1punchman.com                    |        |
 | ✅        | Oppai Stream                                      | https://read.oppai.stream                    |        |
+| ✅        | Origami Orpheans                                  | https://origami-orpheans.com                 |        |
 | ✅        | Osaka Scan                                        | https://www.osakascan.com                    |        |
 | ✅        | Ota Scans                                         | https://yurilabs.my.id                       |        |
 | ✅        | PandaChaika                                       | https://panda.chaika.moe                     |        |
+| ✅        | Pantheon Scan                                     | https://pantheon-scan.com                    |        |
 | ✅        | Paradise BL                                       | https://paradise-bl.com                      |        |
 | ✅        | Patch Friday                                      | https://patchfriday.com                      |        |
 | ✅        | Paw Manga                                         | https://pawmanga.com                         |        |
@@ -553,10 +600,13 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Pijamalı Koi                                      | https://pijamalikoi.com/m                    |        |
 | ✅        | Pink Rosa                                         | https://scanpinkrosa.blogspot.com            |        |
 | ✅        | Pink Sea Unicorn                                  | https://psunicorn.com                        |        |
+| ✅        | Pirulito Rosa                                     | https://pirulitorosa.site                    |        |
 | ✅        | Pixiv                                             | https://www.pixiv.net                        |        |
 | ✅        | Pixivコミック                                         | https://comic.pixiv.net                      |        |
 | ✅        | Pizzaria Scan                                     | https://pizzariacomics.com                   |        |
 | ✅        | Playmate Hunter                                   | https://pmatehunter.com                      |        |
+| ✅        | PoManga                                           | https://pomanga.com                          |        |
+| ✅        | Point Zero Toons                                  | https://pointzerotoons.com                   |        |
 | ✅        | PopsManga                                         | https://popsmanga.com                        |        |
 | ✅        | PornPics                                          | https://www.pornpics.com                     |        |
 | ✅        | Pornhwa Scans                                     | https://pornhwascans.fr                      |        |
@@ -566,10 +616,12 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | QToon                                             | https://qtoon.com                            |        |
 | ✅        | Qi Scans                                          | https://qiscans.org                          |        |
 | ✅        | Questionable Content                              | https://www.questionablecontent.net          |        |
+| ✅        | Rackus                                            | https://rackusreads.com                      |        |
 | ✅        | Rage Scans                                        | https://ragescans.com                        |        |
 | ✅        | Ragnar Scans                                      | https://ragnarscans.com                      |        |
 | ✅        | Raiki Scan                                        | https://raikiscan.com                        |        |
 | ✅        | Rain Of Snow                                      | https://rainofsnow.com                       |        |
+| ✅        | Raindrop Fansub                                   | https://www.raindropteamfan.com              |        |
 | ✅        | Rama                                              | https://www.ramareader.it                    |        |
 | ✅        | Randowiz                                          | https://randowis.com                         |        |
 | ✅        | RavenManga                                        | https://ravensword.lat                       |        |
@@ -579,6 +631,7 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | RawINU                                            | https://rawinu.com                           |        |
 | ✅        | Rawdevart.art                                     | https://rawdevart.art                        |        |
 | ✅        | Rawkuma                                           | https://rawkuma.net                          |        |
+| ✅        | Razure                                            | https://razure.org                           |        |
 | ✅        | ReYume                                            | https://www.re-yume.my.id                    |        |
 | ✅        | Read Attack on Titan Shingeki no Kyojin Manga     | https://ww11.readsnk.com                     |        |
 | ✅        | Read Black Clover Manga Online                    | https://ww10.readblackclover.com             |        |
@@ -597,14 +650,17 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | ReadFreeComics                                    | https://readfreecomics.com                   |        |
 | ✅        | ReadManga                                         | https://a.zazaza.me                          |        |
 | ✅        | Real Life Comics                                  | https://reallifecomics.com                   |        |
+| ✅        | Reaper Scans                                      | https://reaper-scans.fr                      |        |
 | ✅        | ReaperTrans                                       | https://reapertrans.com                      |        |
 | ✅        | Rezo Scans                                        | https://rezoscan.org                         |        |
+| ✅        | RichtoScan                                        | https://r1.richtoon.top                      |        |
 | ✅        | RitharScans                                       | https://ritharscans.com                      |        |
 | ✅        | Rizz Comic                                        | https://rizzfables.com                       |        |
 | ✅        | Rizz Comic (unoriginal)                           | https://rizzcomic.com                        |        |
 | ✅        | Rocks Manga                                       | https://rocksmanga.com                       |        |
 | ✅        | RokariComics                                      | https://rokaricomics.com                     |        |
 | ✅        | Rolia Scan                                        | https://roliascan.com                        |        |
+| ✅        | Rose Squad Scans                                  | https://rosesquadscans.aishiteru.org         |        |
 | ✅        | Royal Manga                                       | https://www.royalmanga.com                   |        |
 | ✅        | RuMIX                                             | https://rumix.me                             |        |
 | ✅        | Rüya Manga                                        | https://www.ruyamanga2.com                   |        |
@@ -616,6 +672,7 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Saturday Morning Breakfast Comics                 | https://smbc-comics.com                      |        |
 | ✅        | SayHentai                                         | https://sayhentai.live                       |        |
 | ✅        | ScanR                                             | https://teamscanr.fr                         |        |
+| ✅        | Scantrad Union                                    | https://scantrad-union.com                   |        |
 | ✅        | Schlock Mercenary                                 | https://www.schlockmercenary.com             |        |
 | ✅        | SectScans                                         | https://sectscans.com                        |        |
 | ✅        | SeiManga                                          | https://1.seimanga.me                        |        |
@@ -623,6 +680,8 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | SelfManga                                         | https://1.selfmanga.live                     |        |
 | ✅        | Sen Manga                                         | https://raw.senmanga.com                     |        |
 | ✅        | Senshi Manga                                      | https://senshimanga.capibaratraductor.com    |        |
+| ✅        | SeraphicDeviltry                                  | https://seraphic-deviltry.com                |        |
+| ✅        | SeraphicDeviltry                                  | https://spanish.seraphic-deviltry.com        |        |
 | ✅        | Shadow Çeviri                                     | https://shadowceviri.blogspot.com            |        |
 | ✅        | Shijie Scans                                      | https://shijiescans.com                      |        |
 | ✅        | ShiyuraSub                                        | https://shiyurasub.blogspot.com              |        |
@@ -641,6 +700,7 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Sunday Web Every                                  | https://www.sunday-webry.com                 |        |
 | ✅        | Sunshine Butterfly Scans                          | https://wings.sbs                            |        |
 | ✅        | Sushiscan.fr                                      | https://sushiscan.fr                         |        |
+| ✅        | Sword Of Oblivion                                 | https://swordofoblivion.com                  |        |
 | ✅        | Swords Comic                                      | https://swordscomic.com                      |        |
 | ✅        | SyoSetu                                           | https://syosetu.gs                           |        |
 | ✅        | TCB Scans                                         | https://tcbonepiecechapters.com              |        |
@@ -658,12 +718,15 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | Taurus Fansub                                     | https://lectortaurus.com                     |        |
 | ✅        | Temaki mangás                                     | https://temakimangas.blogspot.com            |        |
 | ✅        | Terco Scans                                       | https://tecnocomic1.xyz                      |        |
+| ✅        | Territorio Lealtad                                | https://territorioleal.com                   |        |
 | ✅        | The Duck Webcomics                                | https://www.theduckwebcomics.com             |        |
 | ✅        | The Library of Ohara                              | https://thelibraryofohara.com                |        |
+| ✅        | The Property of Hate                              | https://jolleycomics.com                     |        |
 | ✅        | Thunder Scans                                     | https://en-thunderscans.com                  |        |
 | ✅        | Tia Manhwa                                        | https://tiamanhwa.com                        |        |
 | ✅        | TodayManga                                        | https://todaymanga.com                       |        |
 | ✅        | Tonari no Young Jump                              | https://tonarinoyj.jp                        |        |
+| ✅        | TonizuToon                                        | https://tonizu.top                           |        |
 | ✅        | ToomTam-Manga                                     | https://toomtam-manga.com                    |        |
 | ✅        | Toomics (Only free chapters)                      | https://global.toomics.com                   |        |
 | ✅        | ToonBr                                            | https://beta.toonbr.com                      |        |
@@ -687,10 +750,12 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | TuttoAnimeManga                                   | https://tuttoanimemanga.net                  |        |
 | ✅        | Twi4                                              | https://sai-zen-sen.jp/comics/twi4/          |        |
 | ✅        | Twicomi                                           | https://twicomi.com                          |        |
+| ✅        | Türkçe Manga Oku                                  | https://trmangaoku.com                       |        |
 | ✅        | Türkçe Manga Oku TR                               | https://turkcemangaoku.com.tr                |        |
 | ✅        | Uchuujin Projects                                 | https://uchuujinmangas.com                   |        |
 | ✅        | UniComics                                         | https://unicomics.ru                         |        |
 | ✅        | Universo Hentai                                   | https://universohentai.com                   |        |
+| ✅        | Utsukushii                                        | https://utsukushii-bg.com                    |        |
 | ✅        | VIZ Manga                                         | https://www.viz.com                          |        |
 | ✅        | VIZ Shonen Jump                                   | https://www.viz.com                          |        |
 | ✅        | Ver Manhwas                                       | https://vermanhwa.com                        |        |
@@ -714,6 +779,7 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | XAsiat Albums                                     | https://www.xasiat.com/albums                |        |
 | ✅        | YSK Comics                                        | https://www.ysk-comics.com                   |        |
 | ✅        | YagamiProject                                     | https://read.yagami.me                       |        |
+| ✅        | YakshaComics                                      | https://yakshacomics.com                     |        |
 | ✅        | YakshaScans                                       | https://yakshascans.com                      |        |
 | ✅        | Yaoi Fan Club                                     | https://www.yaoifanclub.com                  |        |
 | ✅        | Yaoi Flix                                         | https://yaoiflix.lat                         |        |
@@ -775,7 +841,10 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ✅        | 늑대닷컴 - 웹툰                                         | https://wfwf446.com                          |        |
 | ✅        | 늑대닷컴 - 포토툰                                        | https://wfwf446.com                          |        |
 
-## Cloudflare Blocked (32)
+## Cloudflare Blocked
+
+Count: 32
+
 | Status   | Name                              | URL                           | Info                                        |
 |----------|-----------------------------------|-------------------------------|---------------------------------------------|
 | 🛑        | Battle In 5 Seconds After Meeting | https://www.deatte5.com       | HTTP 403: Attention Required! \| Cloudflare |
@@ -811,7 +880,10 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | 🛑        | Zin-Manga.com                     | https://zin-manga.com         | HTTP 403: Attention Required! \| Cloudflare |
 | 🛑        | هنتاي العرب                       | https://arabshentai.com       | HTTP 403: Attention Required! \| Cloudflare |
 
-## Cloudflare IUAM (306)
+## Cloudflare IUAM
+
+Count: 306
+
 | Status   | Name                          | URL                                              | Info                       |
 |----------|-------------------------------|--------------------------------------------------|----------------------------|
 | 🚧        | 18漫画                          | https://18mh.org                                 | HTTP 403: Just a moment... |
@@ -1121,130 +1193,125 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | 🚧        | 漫蛙                            | https://manwa.me                                 | HTTP 403: Just a moment... |
 | 🚧        | 禁漫天堂                          | https://18comic.vip                              | HTTP 403: Just a moment... |
 
-## Redirects (107)
-| Status   | Name                                     | URL                                   | Info                                                                                                                                       |
-|----------|------------------------------------------|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| 🔀        | ApeComics                                | https://apecomics.net                 | Redirected: https://capitoons.com/                                                                                                         |
-| 🔀        | Arcanescans                              | https://arcanescans.com               | Redirected: https://arcanescans.org/                                                                                                       |
-| 🔀        | Athena Manga                             | https://athenamanga.com               | Redirected: http://ww38.athenamanga.com/                                                                                                   |
-| 🔀        | Atikrost                                 | https://www.mangaoku.org              | Redirected: https://www.atikrost.com/                                                                                                      |
-| 🔀        | Azuki                                    | https://www.azuki.co                  | Redirected: https://www.omoi.com/                                                                                                          |
-| 🔀        | BaoBua                                   | https://www.baobua.net                | Redirected: https://baobua.net/                                                                                                            |
-| 🔀        | BarManga                                 | https://libribar.com                  | Redirected: https://archiviumbar.com/                                                                                                      |
-| 🔀        | Blackout Comics                          | https://toptoon.com.co                | Redirected: https://blackoutcomics.com/                                                                                                    |
-| 🔀        | Catzaa                                   | https://catzaa.com                    | Redirected: https://catzaa.net/                                                                                                            |
-| 🔀        | Coffee Manga                             | https://coffeemanga.io                | Redirected: https://coffeemanga.ink/                                                                                                       |
-| 🔀        | Comics Kingdom                           | https://wp.comicskingdom.com          | Redirected: https://comicskingdom.com/                                                                                                     |
-| 🔀        | Dango Scan                               | https://dangoscan.com.br              | Redirected: https://www.dangoscan.com.br/                                                                                                  |
-| 🔀        | Dark Nebulus                             | https://www.darknebulus.com           | Redirected: https://www.stacksocial.com/?irclickid=3LDxqEXW6xycWAKVw13DORAeUkpVg4WmyXu8Vk0&aid=a-8lz3a0zc&irgwc=1&afsrc=1&partnerid=363646 |
-| 🔀        | Doujinku                                 | https://doujinku.xyz                  | Redirected: https://doujinku.org                                                                                                           |
-| 🔀        | Empire Webtoon                           | https://webtoonempire-ron.com         | Redirected: https://webtoonempire-bl.com/                                                                                                  |
-| 🔀        | Epsilon Scan                             | https://epsilonscan.to                | Redirected: https://beta.epsilonscan.to/                                                                                                   |
-| 🔀        | Eros Scans                               | https://erosvoid.xyz                  | Redirected: https://erosxsun.xyz/                                                                                                          |
-| 🔀        | First Kiss Manhua                        | https://1stkissmanhua.net             | Redirected: http://ww38.1stkissmanhua.net/                                                                                                 |
-| 🔀        | Foy Scan                                 | https://foyscan.xyz                   | Redirected: http://ww25.foyscan.xyz/?subid1=20251227-1200-2232-9107-0030bffa5355                                                           |
-| 🔀        | Futari                                   | https://futari.info                   | Redirected: http://ww25.futari.info/?subid1=20251227-1200-221d-be03-a77fcddd037a                                                           |
-| 🔀        | Ghost Hentai                             | https://ghosthentai.com               | Redirected: https://ghosthentai.pro/                                                                                                       |
-| 🔀        | Gremory Mangas                           | https://gremorymangas.com             | Redirected: http://ww1.gremorymangas.com                                                                                                   |
-| 🔀        | HangTruyen                               | https://hangtruyen.top                | Redirected: https://hangtruyen.page/                                                                                                       |
-| 🔀        | Hattori Manga                            | https://hattorimanga.net              | Redirected: https://hattoriscans.com/                                                                                                      |
-| 🔀        | HotComics                                | https://hotcomics.me                  | Redirected: https://w1.hotcomics.me/                                                                                                       |
-| 🔀        | Ikigai Mangas                            | https://viralikigai.melauroral.com    | Redirected: https://ikigaimangas.com/                                                                                                      |
-| 🔀        | KomikGO                                  | https://komikgo.xyz                   | Redirected: http://ww38.komikgo.xyz/                                                                                                       |
-| 🔀        | Komikindo                                | https://komikindo4.link               | Redirected: https://komikindo.vip/                                                                                                         |
-| 🔀        | LeerCapitulo                             | https://www.leercapitulo.re           | Redirected: https://www.leercapitulo.co/                                                                                                   |
-| 🔀        | LilyumFansub                             | https://lilyumfansub.com.tr           | Redirected: https://lilyumfansub.pro/                                                                                                      |
-| 🔀        | Little Garden                            | https://littlexgarden.com/            | Redirected: https://punkrecordz.com/                                                                                                       |
-| 🔀        | MHScans                                  | https://curiosidadtop.com             | Redirected: https://twobluescans.com/                                                                                                      |
-| 🔀        | Manga BR                                 | https://mangabr.net                   | Redirected: https://mangabr.org/                                                                                                           |
-| 🔀        | Manga Koma                               | https://mangakoma01.com               | Redirected: https://mangakoma01.top/                                                                                                       |
-| 🔀        | Manga Leveling                           | https://mangaleveling.com             | Redirected: https://expireddomains.com/domain/mangaleveling.com                                                                            |
-| 🔀        | Manga Mammy                              | https://mangamammy.ru                 | Redirected: https://p.nimanga.com/                                                                                                         |
-| 🔀        | Manga Okusana                            | https://mangaokusana.com              | Redirected: http://ww25.mangaokusana.com/?subid1=20251227-1200-302f-a4a7-e5d2257ef7c7                                                      |
-| 🔀        | Manga Online                             | https://mangaonline.app               | Redirected: https://mangasonline.blog/                                                                                                     |
-| 🔀        | Manga Pro                                | https://promanga.net                  | Redirected: https://prochan.net/                                                                                                           |
-| 🔀        | Manga1000                                | https://manga1000.top                 | Redirected: https://hachiraw.win/                                                                                                          |
-| 🔀        | MangaBin                                 | https://mangabin.com                  | Redirected: https://summanga.com                                                                                                           |
-| 🔀        | MangaHen                                 | https://manga-hen.com                 | Redirected: https://gensura.net/                                                                                                           |
-| 🔀        | MangaPeak                                | https://mangapeak.org                 | Redirected: http://ww38.mangapeak.org/                                                                                                     |
-| 🔀        | MangaPoisk                               | https://mangapoisk.live               | Redirected: https://mangap.ru                                                                                                              |
-| 🔀        | MangaSpark                               | https://manga-spark.net               | Redirected: https://manga-spark.com/                                                                                                       |
-| 🔀        | MangaTyrant                              | https://mangatyrant.com               | Redirected: https://newtokihub.com/                                                                                                        |
-| 🔀        | Mangaworld                               | https://www.mangaworld.cx             | Redirected: https://www.mangaworld.mx/                                                                                                     |
-| 🔀        | Manhua AZ                                | https://manhuaaz.com                  | Redirected: http://ww25.manhuaaz.com/?subid1=20251227-1200-352c-8fa0-215049495f62                                                          |
-| 🔀        | Manhwa Freake                            | https://manhwafreake.com              | Redirected: http://ww38.manhwafreake.com/                                                                                                  |
-| 🔀        | Manhwa Indo                              | https://manhwaindo.com                | Redirected: https://www.manhwaindo.my/                                                                                                     |
-| 🔀        | ManhwaManhua                             | https://manhwamanhua.com              | Redirected: https://www.manhwamanhua.com/                                                                                                  |
-| 🔀        | Manhwax                                  | https://manhwax.org                   | Redirected: https://manhwax.top/                                                                                                           |
-| 🔀        | Merlin Scans                             | https://merlinscans.com               | Redirected: https://merlintoon.com/                                                                                                        |
-| 🔀        | Mihentai                                 | https://mihentai.com                  | Redirected: https://mihentai.net/                                                                                                          |
-| 🔀        | MilaSub                                  | https://www.milascan.com              | Redirected: https://www.millascan.com/                                                                                                     |
-| 🔀        | Moon Daisy Scans                         | https://moondaisyscans.art            | Redirected: https://moondaisyscans.lol/                                                                                                    |
-| 🔀        | MultiManga                               | https://multi-manga.com               | Redirected: https://multi-manga.today/                                                                                                     |
-| 🔀        | Neko Toons                               | https://nekotoons.site                | Redirected: https://beta.norus.site/                                                                                                       |
-| 🔀        | NekoScans                                | https://nekoscans.org                 | Redirected: http://ww38.nekoscans.org/                                                                                                     |
-| 🔀        | One-Manga                                | https://one-manga.com                 | Redirected: https://mangablackcat.com/                                                                                                     |
-| 🔀        | Opiatoon                                 | https://opiatoon.art                  | Redirected: https://opiatoon.lat/                                                                                                          |
-| 🔀        | PoManga                                  | https://pomanga.com                   | Redirected: http://ww1.pomanga.com                                                                                                         |
-| 🔀        | PornComix                                | https://porncomix.online              | Redirected: https://bestporncomix.com/                                                                                                     |
-| 🔀        | Raven Scans                              | https://ravenscans.com                | Redirected: https://ravenscans.org/                                                                                                        |
-| 🔀        | RawXZ                                    | https://rawxjp.com                    | Redirected: https://rawjx.com/                                                                                                             |
-| 🔀        | Read Dr. Stone Manga Online              | https://ww7.readdrstone.com           | Redirected: https://mangabolt.com/                                                                                                         |
-| 🔀        | Read Dragon Ball Super Chou Manga Online | https://ww10.dbsmanga.com             | Redirected: https://mangabolt.com/                                                                                                         |
-| 🔀        | Read Hunter x Hunter Manga Online        | https://ww6.readhxh.com               | Redirected: https://mangabolt.com/                                                                                                         |
-| 🔀        | Read Kaguya-sama Manga Online            | https://ww4.readkaguyasama.com        | Redirected: https://mangabolt.com/                                                                                                         |
-| 🔀        | Read The Promised Neverland Manga Online | https://ww7.readneverland.com         | Redirected: https://mangabolt.com/                                                                                                         |
-| 🔀        | Read Vinland Saga Manga Online           | https://ww5.readvinlandsaga.com       | Redirected: https://mangabolt.com/                                                                                                         |
-| 🔀        | ReadMangaFree                            | https://readmangafree.net             | Redirected: http://ww38.readmangafree.net/                                                                                                 |
-| 🔀        | RyujinManga                              | https://ryujinmanga.com               | Redirected: http://ww1.ryujinmanga.com                                                                                                     |
-| 🔀        | S2Manga.io                               | https://s2manga.io                    | Redirected: https://s2manga.com/                                                                                                           |
-| 🔀        | Sadscans                                 | https://sadscans.com                  | Redirected: https://sadscans.net/                                                                                                          |
-| 🔀        | SapphireScan                             | https://sapphirescan.com              | Redirected: https://www.sapphirescan.com/                                                                                                  |
-| 🔀        | Sarcasm Scans                            | https://sarcasmscans.com              | Redirected: http://ww38.sarcasmscans.com/                                                                                                  |
-| 🔀        | SchaleNetwork                            | https://schale.network                | Redirected: https://anchira.to/                                                                                                            |
-| 🔀        | Seraph Manga                             | https://www.seraphmanga.com           | Redirected: http://ww38.seraphmanga.com/                                                                                                   |
-| 🔀        | Soft Epsilon Scan                        | https://epsilonsoft.to                | Redirected: https://beta.epsilonsoft.to/                                                                                                   |
-| 🔀        | Speed Manga                              | https://speed-manga.com               | Redirected: https://speed-manga.net/                                                                                                       |
-| 🔀        | Superdoujin.org                          | https://www.superdoujin.org           | Redirected: https://www.superdoujin.net/                                                                                                   |
-| 🔀        | Sussy Toons                              | https://www.sussytoons.wtf            | Redirected: https://discord.com/invite/bdj2BcDu9r                                                                                          |
-| 🔀        | Tojimangas                               | https://manhwass.com                  | Redirected: https://tojimangas.com/                                                                                                        |
-| 🔀        | Top Truyen                               | https://www.toptruyentv11.com         | Redirected: https://www.toptruyentv14.com/                                                                                                 |
-| 🔀        | Tortuga Ceviri                           | https://tortuga-ceviri.com            | Redirected: https://tortugaceviri.com/                                                                                                     |
-| 🔀        | TruyenTranh3Q                            | https://truyentranh3qe.com            | Redirected: https://truyentranh3qr.com/                                                                                                    |
-| 🔀        | UmeTruyen                                | https://umetruyenhay.com              | Redirected: https://umetruyenz.net/                                                                                                        |
-| 🔀        | VCP                                      | https://vercomicsporno.com            | Redirected: http://vercomicsporno.com/comics-porno/                                                                                        |
-| 🔀        | War For Rayuba                           | https://xrabohrok.github.io/WarMap/#/ | Redirected: https://xrabohrok.github.io/WarMap/                                                                                            |
-| 🔀        | Webtoons.com Translations                | https://translate.webtoons.com        | Redirected: https://www.webtoons.com/en/                                                                                                   |
-| 🔀        | YaoiChan                                 | https://yaoi-chan.me                  | Redirected: https://v15.yaoi-chan.me/                                                                                                      |
-| 🔀        | YaoiToon                                 | https://yaoitoon.com                  | Redirected: https://yaoitoon.net/home                                                                                                      |
-| 🔀        | Yaoihub                                  | https://yaoihub.com                   | Redirected: https://yaoihub.net/                                                                                                           |
-| 🔀        | Yomu Comics                              | https://yomucomics.com                | Redirected: https://yomu.com.br/auth/login?callbackUrl=/                                                                                   |
-| 🔀        | Yomu Mangás                              | https://yomumangas.com                | Redirected: https://global.yomumangas.com/                                                                                                 |
-| 🔀        | ZinChanManga.com                         | https://zinchangmanga.com             | Redirected: http://zinchangmanga.net/                                                                                                      |
-| 🔀        | Zinmanga.net                             | https://zinmanga.net                  | Redirected: https://www.zinmanga.net/                                                                                                      |
-| 🔀        | vomic                                    | http://www.vomicmh.com                | Redirected: https://www.vomicmh.com/                                                                                                       |
-| 🔀        | Ưng Tỷ Comics                            | https://ungtycomicsa.com              | Redirected: https://ungtycomicso.com/                                                                                                      |
-| 🔀        | مانجا ليك                                | https://lekmanga.com                  | Redirected: https://lekmanga.site/                                                                                                         |
-| 🔀        | مانجا ليك                                | https://lekmanga.net                  | Redirected: https://lek-manga.net/                                                                                                         |
-| 🔀        | مانجا ليك                                | https://lekmanga.org                  | Redirected: https://lekmanga.online/                                                                                                       |
-| 🔀        | 性感美女                                     | http://xgmn8.vip                      | Redirected: http://a21.876519.xyz/                                                                                                         |
-| 🔀        | 肉漫屋                                      | https://roum22.xyz                    | Redirected: https://roum26.xyz/                                                                                                            |
-| 🔀        | 香香腐宅                                     | https://boylove1.mobi                 | Redirected: https://boylove.cc/                                                                                                            |
-| 🔀        | 블랙툰                                      | https://blacktoon.me                  | Redirected: https://blacktoon410.com/                                                                                                      |
+## Redirects
 
-## Warnings (106)
+Count: 101
+
+| Status   | Name                                     | URL                                   | Info                                                                                  |
+|----------|------------------------------------------|---------------------------------------|---------------------------------------------------------------------------------------|
+| 🔀        | ApeComics                                | https://apecomics.net                 | Redirected: https://capitoons.com/                                                    |
+| 🔀        | Arcanescans                              | https://arcanescans.com               | Redirected: https://arcanescans.org/                                                  |
+| 🔀        | Atikrost                                 | https://www.mangaoku.org              | Redirected: https://www.atikrost.com/                                                 |
+| 🔀        | Azuki                                    | https://www.azuki.co                  | Redirected: https://www.omoi.com/                                                     |
+| 🔀        | BaoBua                                   | https://www.baobua.net                | Redirected: https://baobua.net/                                                       |
+| 🔀        | BarManga                                 | https://libribar.com                  | Redirected: https://archiviumbar.com/                                                 |
+| 🔀        | Blackout Comics                          | https://toptoon.com.co                | Redirected: https://blackoutcomics.com/                                               |
+| 🔀        | Catzaa                                   | https://catzaa.com                    | Redirected: https://catzaa.net/                                                       |
+| 🔀        | Coffee Manga                             | https://coffeemanga.io                | Redirected: https://coffeemanga.ink/                                                  |
+| 🔀        | Comics Kingdom                           | https://wp.comicskingdom.com          | Redirected: https://comicskingdom.com/                                                |
+| 🔀        | Dango Scan                               | https://dangoscan.com.br              | Redirected: https://www.dangoscan.com.br/                                             |
+| 🔀        | Dark Nebulus                             | https://www.darknebulus.com           | Redirected: https://aditmedia.g2afse.com                                              |
+| 🔀        | Doujinku                                 | https://doujinku.xyz                  | Redirected: https://doujinku.org                                                      |
+| 🔀        | Empire Webtoon                           | https://webtoonempire-ron.com         | Redirected: https://webtoonempire-bl.com/                                             |
+| 🔀        | Epsilon Scan                             | https://epsilonscan.to                | Redirected: https://beta.epsilonscan.to/                                              |
+| 🔀        | Eros Scans                               | https://erosvoid.xyz                  | Redirected: https://erosxsun.xyz/                                                     |
+| 🔀        | Foy Scan                                 | https://foyscan.xyz                   | Redirected: http://ww25.foyscan.xyz/?subid1=20251227-1216-0458-bbe9-90011fd0910b      |
+| 🔀        | Futari                                   | https://futari.info                   | Redirected: http://ww25.futari.info/?subid1=20251227-1216-04eb-92bb-c1fe0e00909f      |
+| 🔀        | Ghost Hentai                             | https://ghosthentai.com               | Redirected: https://ghosthentai.pro/                                                  |
+| 🔀        | HangTruyen                               | https://hangtruyen.top                | Redirected: https://hangtruyen.page/                                                  |
+| 🔀        | Hattori Manga                            | https://hattorimanga.net              | Redirected: https://hattoriscans.com/                                                 |
+| 🔀        | HotComics                                | https://hotcomics.me                  | Redirected: https://w1.hotcomics.me/                                                  |
+| 🔀        | Ikigai Mangas                            | https://viralikigai.melauroral.com    | Redirected: https://ikigaimangas.com/                                                 |
+| 🔀        | Inari Manga                              | https://clubinari.org                 | Redirected: https://www.clubinari.org/                                                |
+| 🔀        | IsekaiScan.top (unoriginal)              | https://isekaiscan.top                | Redirected: https://www.isekaiscan.top/                                               |
+| 🔀        | Komikindo                                | https://komikindo4.link               | Redirected: https://komikindo.vip/                                                    |
+| 🔀        | LeerCapitulo                             | https://www.leercapitulo.re           | Redirected: https://www.leercapitulo.co/                                              |
+| 🔀        | LilyumFansub                             | https://lilyumfansub.com.tr           | Redirected: https://lilyumfansub.pro/                                                 |
+| 🔀        | Little Garden                            | https://littlexgarden.com/            | Redirected: https://punkrecordz.com/                                                  |
+| 🔀        | LowerWorld                               | https://lower-world.com               | Redirected: https://www.topline-charts.com/default.htm                                |
+| 🔀        | MHScans                                  | https://curiosidadtop.com             | Redirected: https://twobluescans.com/                                                 |
+| 🔀        | Manga BR                                 | https://mangabr.net                   | Redirected: https://mangabr.org/                                                      |
+| 🔀        | Manga Koma                               | https://mangakoma01.com               | Redirected: https://mangakoma01.top/                                                  |
+| 🔀        | Manga Leveling                           | https://mangaleveling.com             | Redirected: https://expireddomains.com/domain/mangaleveling.com                       |
+| 🔀        | Manga Mammy                              | https://mangamammy.ru                 | Redirected: https://p.nimanga.com/                                                    |
+| 🔀        | Manga Okusana                            | https://mangaokusana.com              | Redirected: http://ww25.mangaokusana.com/?subid1=20251227-1216-1186-a74d-7e9fe2beca40 |
+| 🔀        | Manga Online                             | https://mangaonline.app               | Redirected: https://mangasonline.blog/                                                |
+| 🔀        | Manga Pro                                | https://promanga.net                  | Redirected: https://prochan.net/                                                      |
+| 🔀        | Manga1000                                | https://manga1000.top                 | Redirected: https://hachiraw.win/                                                     |
+| 🔀        | MangaBin                                 | https://mangabin.com                  | Redirected: https://summanga.com                                                      |
+| 🔀        | MangaHen                                 | https://manga-hen.com                 | Redirected: https://gensura.net/                                                      |
+| 🔀        | MangaPoisk                               | https://mangapoisk.live               | Redirected: https://mangap.ru                                                         |
+| 🔀        | MangaSpark                               | https://manga-spark.net               | Redirected: https://manga-spark.com/                                                  |
+| 🔀        | MangaSwat                                | https://appswat.com                   | Redirected: https://meshmanga.com/                                                    |
+| 🔀        | MangaTyrant                              | https://mangatyrant.com               | Redirected: https://newtokihub.com/                                                   |
+| 🔀        | Mangaworld                               | https://www.mangaworld.cx             | Redirected: https://www.mangaworld.mx/                                                |
+| 🔀        | Manhua AZ                                | https://manhuaaz.com                  | Redirected: http://ww25.manhuaaz.com/?subid1=20251227-1216-1559-9b8c-ac802488ea71     |
+| 🔀        | Manhwa Indo                              | https://manhwaindo.com                | Redirected: https://www.manhwaindo.my/                                                |
+| 🔀        | ManhwaManhua                             | https://manhwamanhua.com              | Redirected: https://www.manhwamanhua.com/                                             |
+| 🔀        | Manhwax                                  | https://manhwax.org                   | Redirected: https://manhwax.top/                                                      |
+| 🔀        | Merlin Scans                             | https://merlinscans.com               | Redirected: https://merlintoon.com/                                                   |
+| 🔀        | Mihentai                                 | https://mihentai.com                  | Redirected: https://mihentai.net/                                                     |
+| 🔀        | MilaSub                                  | https://www.milascan.com              | Redirected: https://www.millascan.com/                                                |
+| 🔀        | Moon Daisy Scans                         | https://moondaisyscans.art            | Redirected: https://moondaisyscans.lol/                                               |
+| 🔀        | MultiManga                               | https://multi-manga.com               | Redirected: https://multi-manga.today/                                                |
+| 🔀        | Neko Toons                               | https://nekotoons.site                | Redirected: https://beta.norus.site/                                                  |
+| 🔀        | One-Manga                                | https://one-manga.com                 | Redirected: https://mangablackcat.com/                                                |
+| 🔀        | Opiatoon                                 | https://opiatoon.art                  | Redirected: https://opiatoon.lat/                                                     |
+| 🔀        | PornComix                                | https://porncomix.online              | Redirected: https://bestporncomix.com/                                                |
+| 🔀        | Raven Scans                              | https://ravenscans.com                | Redirected: https://ravenscans.org/                                                   |
+| 🔀        | RawXZ                                    | https://rawxjp.com                    | Redirected: https://rawjx.com/                                                        |
+| 🔀        | Read Dr. Stone Manga Online              | https://ww7.readdrstone.com           | Redirected: https://mangabolt.com/                                                    |
+| 🔀        | Read Dragon Ball Super Chou Manga Online | https://ww10.dbsmanga.com             | Redirected: https://mangabolt.com/                                                    |
+| 🔀        | Read Hunter x Hunter Manga Online        | https://ww6.readhxh.com               | Redirected: https://mangabolt.com/                                                    |
+| 🔀        | Read Kaguya-sama Manga Online            | https://ww4.readkaguyasama.com        | Redirected: https://mangabolt.com/                                                    |
+| 🔀        | Read The Promised Neverland Manga Online | https://ww7.readneverland.com         | Redirected: https://mangabolt.com/                                                    |
+| 🔀        | Read Vinland Saga Manga Online           | https://ww5.readvinlandsaga.com       | Redirected: https://mangabolt.com/                                                    |
+| 🔀        | RyujinManga                              | https://ryujinmanga.com               | Redirected: http://ww1.ryujinmanga.com                                                |
+| 🔀        | S2Manga.io                               | https://s2manga.io                    | Redirected: https://s2manga.com/                                                      |
+| 🔀        | Sadscans                                 | https://sadscans.com                  | Redirected: https://sadscans.net/                                                     |
+| 🔀        | SapphireScan                             | https://sapphirescan.com              | Redirected: https://www.sapphirescan.com/                                             |
+| 🔀        | SchaleNetwork                            | https://schale.network                | Redirected: https://anchira.to/                                                       |
+| 🔀        | Soft Epsilon Scan                        | https://epsilonsoft.to                | Redirected: https://beta.epsilonsoft.to/                                              |
+| 🔀        | Speed Manga                              | https://speed-manga.com               | Redirected: https://speed-manga.net/                                                  |
+| 🔀        | Superdoujin.org                          | https://www.superdoujin.org           | Redirected: https://www.superdoujin.net/                                              |
+| 🔀        | Sussy Toons                              | https://www.sussytoons.wtf            | Redirected: https://discord.com/invite/bdj2BcDu9r                                     |
+| 🔀        | Temple Scan                              | https://aedexnox.kawi.lat             | Redirected: https://templescanesp.net/                                                |
+| 🔀        | Tojimangas                               | https://manhwass.com                  | Redirected: https://tojimangas.com/                                                   |
+| 🔀        | Top Truyen                               | https://www.toptruyentv11.com         | Redirected: https://www.toptruyentv14.com/                                            |
+| 🔀        | Tortuga Ceviri                           | https://tortuga-ceviri.com            | Redirected: https://tortugaceviri.com/                                                |
+| 🔀        | TruyenTranh3Q                            | https://truyentranh3qe.com            | Redirected: https://truyentranh3qr.com/                                               |
+| 🔀        | UmeTruyen                                | https://umetruyenhay.com              | Redirected: https://umetruyenz.net/                                                   |
+| 🔀        | VCP                                      | https://vercomicsporno.com            | Redirected: http://vercomicsporno.com/comics-porno/                                   |
+| 🔀        | War For Rayuba                           | https://xrabohrok.github.io/WarMap/#/ | Redirected: https://xrabohrok.github.io/WarMap/                                       |
+| 🔀        | Webtoons.com Translations                | https://translate.webtoons.com        | Redirected: https://www.webtoons.com/en/                                              |
+| 🔀        | YaoiChan                                 | https://yaoi-chan.me                  | Redirected: https://v15.yaoi-chan.me/                                                 |
+| 🔀        | YaoiToon                                 | https://yaoitoon.com                  | Redirected: https://yaoitoon.net/home                                                 |
+| 🔀        | Yaoihub                                  | https://yaoihub.com                   | Redirected: https://yaoihub.net/                                                      |
+| 🔀        | Yomu Comics                              | https://yomucomics.com                | Redirected: https://yomu.com.br/auth/login?callbackUrl=/                              |
+| 🔀        | Yomu Mangás                              | https://yomumangas.com                | Redirected: https://global.yomumangas.com/                                            |
+| 🔀        | ZinChanManga.com                         | https://zinchangmanga.com             | Redirected: http://zinchangmanga.net/                                                 |
+| 🔀        | Zinmanga.net                             | https://zinmanga.net                  | Redirected: https://www.zinmanga.net/                                                 |
+| 🔀        | vomic                                    | http://www.vomicmh.com                | Redirected: https://www.vomicmh.com/                                                  |
+| 🔀        | Ưng Tỷ Comics                            | https://ungtycomicsa.com              | Redirected: https://ungtycomicso.com/                                                 |
+| 🔀        | مانجا ليك                                | https://lekmanga.com                  | Redirected: https://lekmanga.site/                                                    |
+| 🔀        | مانجا ليك                                | https://lekmanga.net                  | Redirected: https://lek-manga.net/                                                    |
+| 🔀        | مانجا ليك                                | https://lekmanga.org                  | Redirected: https://lekmanga.online/                                                  |
+| 🔀        | 性感美女                                     | http://xgmn8.vip                      | Redirected: http://a21.876519.xyz/                                                    |
+| 🔀        | 肉漫屋                                      | https://roum22.xyz                    | Redirected: https://roum26.xyz/                                                       |
+| 🔀        | 香香腐宅                                     | https://boylove1.mobi                 | Redirected: https://boylove.cc/                                                       |
+| 🔀        | 블랙툰                                      | https://blacktoon.me                  | Redirected: https://blacktoon410.com/                                                 |
+
+## Warnings
+
+Count: 62
+
 | Status   | Name                 | URL                                               | Info                                                               |
 |----------|----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | ⚠️       | ARESManga            | https://fl-ares.com                               | HTTP 521: fl-ares.com \| 521: Web server is down                   |
 | ⚠️       | Akuma                | https://akuma.moe                                 | HTTP 403: DDoS-Guard                                               |
 | ⚠️       | Alphapolis           | https://www.alphapolis.co.jp                      | HTTP 202:                                                          |
 | ⚠️       | Anikiga              | https://anikiga.com                               | HTTP 403: 403 Forbidden                                            |
-| ⚠️       | Asemi Fansub         | https://asemifansub.com                           | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Asia Lotus           | https://asialotuss.com                            | HTTP 415: 415 Unsupported Media Type                               |
 | ⚠️       | Baek Toons           | https://baektoons.com                             | HTTP 521:                                                          |
-| ⚠️       | Biblio Panda         | https://bibliopanda.com                           | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Bymichi Scan         | https://bymichiby.com                             | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Celestial Moon       | https://celestialmoonscan.es                      | HTTP 403: Checking your browser before accessing. Just a moment... |
 | ⚠️       | CoManhua             | https://comanhuavui.com                           | HTTP 526: comanhuavui.com \| 526: Invalid SSL certificate          |
 | ⚠️       | Com-X                | https://com-x.life                                | HTTP 404:                                                          |
 | ⚠️       | Comic Newtype        | https://comic.webnewtype.com                      | HTTP 404:                                                          |
@@ -1254,23 +1321,13 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ⚠️       | De Todo Un Poco Scan | https://dtupscan.com                              | HTTP 526: dtupscan.com \| 526: Invalid SSL certificate             |
 | ⚠️       | DeviantArt           | https://www.deviantart.com                        | HTTP 403: ERROR: The request could not be satisfied                |
 | ⚠️       | Dream Scan           | https://fairydream.com.br                         | HTTP 404: Not Found                                                |
-| ⚠️       | Euphoria Scan        | https://euphoriascan.com                          | HTTP 403: Checking your browser before accessing. Just a moment... |
-| ⚠️       | GalaxyDegenScans     | https://gdscans.com                               | HTTP 415: 415 Unsupported Media Type                               |
 | ⚠️       | Gourmet Scans        | https://gourmetsupremacy.com                      | HTTP 503: ANNOUNCEMENT - Gourmet Scans & Daddies Supremacy         |
-| ⚠️       | HNI-Scantrad         | https://hni-scantrad.net                          | HTTP 503: Test de sécurité / Security check...                     |
 | ⚠️       | Hadess               | https://www.hadess.xyz                            | HTTP 525: hadess.xyz \| 525: SSL handshake failed                  |
-| ⚠️       | Hanami Heaven        | https://hanamiheaven.org                          | HTTP 403: Checking your browser before accessing. Just a moment... |
-| ⚠️       | HeavenManga          | https://heavenmanga.com                           | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Hoi Fansub           | https://hoifansub.com                             | HTTP 521:                                                          |
-| ⚠️       | I Roved Out          | https://www.irovedout.com                         | HTTP 415: 415 Unsupported Media Type                               |
+| ⚠️       | Hoi Fansub           | https://hoifansub.com                             | HTTP 521: hoifansub.com \| 521: Web server is down                 |
 | ⚠️       | Ikuhentai            | https://ikuhentai.net/                            | HTTP 403:                                                          |
-| ⚠️       | Inari Manga          | https://clubinari.org                             | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Jeaz Scans           | https://lectorhub.j5z.xyz                         | HTTP 415: 415 Unsupported Media Type                               |
 | ⚠️       | Jiangzaitoon         | https://jiangzaitoon.run                          | HTTP 404: 404 Not Found                                            |
 | ⚠️       | KLManhua             | https://klmanhua.blogspot.com                     | HTTP 404: Redirecting                                              |
 | ⚠️       | Kabus Manga          | https://kabusmanga.com                            | HTTP 526: kabusmanga.com \| 526: Invalid SSL certificate           |
-| ⚠️       | KillSixBillionDemons | https://killsixbilliondemons.com                  | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | KumaPoi              | https://kumapoi.info                              | HTTP 415: 415 Unsupported Media Type                               |
 | ⚠️       | League of Legends    | https://universe.leagueoflegends.com/cs_cz/comic/ | HTTP 404: Universe of League of Legends                            |
 | ⚠️       | League of Legends    | https://universe.leagueoflegends.com/de_de/comic/ | HTTP 404: Universe of League of Legends                            |
 | ⚠️       | League of Legends    | https://universe.leagueoflegends.com/el_gr/comic/ | HTTP 404: Universe of League of Legends                            |
@@ -1288,166 +1345,128 @@ Last updated: 2025-12-27T01:01:05.433484+00:00
 | ⚠️       | League of Legends    | https://universe.leagueoflegends.com/ru_ru/comic/ | HTTP 404: Universe of League of Legends                            |
 | ⚠️       | League of Legends    | https://universe.leagueoflegends.com/tr_tr/comic/ | HTTP 404: Universe of League of Legends                            |
 | ⚠️       | Leitor de Mangá      | https://leitordemanga.com                         | HTTP 403: Checking your browser before accessing. Just a moment... |
-| ⚠️       | LianScans            | https://www.lianscans.com                         | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | LowerWorld           | https://lower-world.com                           | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Luna Scans           | https://tuhafscans.com                            | HTTP 415: 415 Unsupported Media Type                               |
 | ⚠️       | Lura Toon            | https://luratoons.net                             | HTTP 403:                                                          |
-| ⚠️       | MR Yaoi              | https://mrtenzus.com                              | HTTP 403: Checking your browser before accessing. Just a moment... |
 | ⚠️       | MSYToon              | https://msytoon.com                               | HTTP 503: Service Unavailable                                      |
 | ⚠️       | Madokami             | https://manga.madokami.al                         | HTTP 401: 401 Unauthorized                                         |
-| ⚠️       | Maid - Manga         | https://www.maid.my.id                            | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Manga Romance        | https://mangaromance19.com                        | HTTP 403: Checking your browser before accessing. Just a moment... |
-| ⚠️       | Manga-TR             | https://manga-tr.com                              | HTTP 403: DDoS-Guard                                               |
 | ⚠️       | MangaBuff            | https://mangabuff.ru                              | HTTP 403: DDoS-Guard                                               |
 | ⚠️       | MangaLib             | https://mangalib.me                               | HTTP 403: Код ошибки 1020 - MangaLIB                               |
-| ⚠️       | Mangatellers         | https://reader.mangatellers.gr                    | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Manhatic             | https://manhatic.com                              | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Marmota              | https://marmota.me                                | HTTP 415: 415 Unsupported Media Type                               |
 | ⚠️       | MintManga            | https://2.mintmanga.one                           | HTTP 404:                                                          |
-| ⚠️       | NIFTeam              | https://read-nifteam.info                         | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | One Piece Berwarna   | https://onepieceberwarna.com                      | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Pantheon Scan        | https://pantheon-scan.com                         | HTTP 503: Test de sécurité / Security check...                     |
-| ⚠️       | Pirulito Rosa        | https://pirulitorosa.site                         | HTTP 403: Checking your browser before accessing. Just a moment... |
-| ⚠️       | Platinum Crown       | https://platinumscans.com                         | HTTP 526: platinumscans.com \| 526: Invalid SSL certificate        |
-| ⚠️       | Point Zero Toons     | https://pointzerotoons.com                        | HTTP 403: Checking your browser before accessing. Just a moment... |
-| ⚠️       | Rackus               | https://rackusreads.com                           | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Raindrop Fansub      | https://www.raindropteamfan.com                   | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Razure               | https://razure.org                                | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Reaper Scans         | https://reaper-scans.fr                           | HTTP 403: 403 Forbidden                                            |
-| ⚠️       | Rest Scans           | https://restscans.com                             | HTTP 415: 415 Unsupported Media Type                               |
+| ⚠️       | Platinum Crown       | https://platinumscans.com                         | HTTP 526:                                                          |
 | ⚠️       | Retsu                | https://retsu.org                                 | HTTP 526: retsu.org \| 526: Invalid SSL certificate                |
-| ⚠️       | Rose Squad Scans     | https://rosesquadscans.aishiteru.org              | HTTP 415: 415 Unsupported Media Type                               |
 | ⚠️       | Scan-Manga           | https://m.scan-manga.com                          | HTTP 404: 404 Not Found                                            |
-| ⚠️       | Scantrad Union       | https://scantrad-union.com                        | HTTP 503: Test de sécurité / Security check...                     |
 | ⚠️       | Senkognito           | https://senkuro.me                                | HTTP 403: DDoS-Guard                                               |
 | ⚠️       | Senkuro              | https://senkuro.me                                | HTTP 403: DDoS-Guard                                               |
 | ⚠️       | Site Manga           | https://sitemanga.com                             | HTTP 500: Database Error                                           |
-| ⚠️       | Sword Of Oblivion    | https://swordofoblivion.com                       | HTTP 415: 415 Unsupported Media Type                               |
 | ⚠️       | TakeComic            | https://takecomic.jp                              | HTTP 403: メンテナンス中です。 \| 竹コミ！                                       |
-| ⚠️       | Temple Scan          | https://aedexnox.kawi.lat                         | HTTP 415: 415 Unsupported Media Type                               |
-| ⚠️       | Territorio Lealtad   | https://territorioleal.com                        | HTTP 403: Checking your browser before accessing. Just a moment... |
-| ⚠️       | TonizuToon           | https://tonizu.top                                | HTTP 403: Checking your browser before accessing. Just a moment... |
 | ⚠️       | ToonChill            | https://toonchill.com                             | HTTP 526: toonchill.com \| 526: Invalid SSL certificate            |
-| ⚠️       | Türkçe Manga Oku     | https://trmangaoku.com                            | HTTP 415: 415 Unsupported Media Type                               |
 | ⚠️       | Usagi                | https://web.usagi.one/                            | HTTP 404:                                                          |
-| ⚠️       | Utsukushii           | https://utsukushii-bg.com                         | HTTP 415: 415 Unsupported Media Type                               |
 | ⚠️       | Vanilla Scans        | https://vanillascans.org                          | HTTP 503:                                                          |
 | ⚠️       | Walpurgi Scan        | https://www.walpurgiscan.it                       | HTTP 503:                                                          |
 | ⚠️       | Winter Scan          | https://winterscan.com                            | HTTP 403: 403 Forbidden                                            |
 | ⚠️       | XXX Yaoi             | https://3xyaoi.com                                | HTTP 403: Acesso Bloqueado - XBodinho                              |
 | ⚠️       | Yabai                | https://yabai.si                                  | HTTP 403: DDoS-Guard                                               |
-| ⚠️       | YakshaComics         | https://yakshacomics.com                          | HTTP 403: Checking your browser before accessing. Just a moment... |
 | ⚠️       | izneo                | https://www.izneo.com/en/webtoon                  | HTTP 403: ERROR: The request could not be satisfied                |
 | ⚠️       | izneo                | https://www.izneo.com/fr/webtoon                  | HTTP 403: ERROR: The request could not be satisfied                |
 | ⚠️       | 哔咔漫画                 | https://picaapi.picacomic.com                     | HTTP 400:                                                          |
 | ⚠️       | 嗨皮漫画                 | https://m.happymh.com                             | HTTP 403: 嗨皮漫画——人机验证                                               |
 
-## Errors (106)
-| Status   | Name                        | URL                                   | Info                                                                                                                                                                                                                              |
-|----------|-----------------------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ❌        | AP Comics                   | https://apcomics.org                  | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Anisa Manga                 | https://anisamanga.net                | Cannot connect to host anisamanga.net:443 ssl:default [Temporary failure in name resolution]                                                                                                                                      |
-| ❌        | Anteiku Scan                | https://anteikuscan.fr                | Cannot connect to host anteikuscan.fr:443 ssl:default [Temporary failure in name resolution]                                                                                                                                      |
-| ❌        | Arcura Fansub               | https://arcurafansub.com              | Cannot connect to host arcurafansub.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]                                         |
-| ❌        | Arya Scans                  | https://brainrotcomics.com            | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | AsmHentai                   | https://asmhentai.com                 | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Aurora Scan                 | https://www.serenitytoons.win         | Cannot connect to host www.serenitytoons.win:443 ssl:default [Name or service not known]                                                                                                                                          |
-| ❌        | Ayatoon                     | https://ayatoon.com                   | Cannot connect to host ayatoon.com:443 ssl:default [Temporary failure in name resolution]                                                                                                                                         |
-| ❌        | Bakkin Self-hosted          | http://127.0.0.1/                     | Cannot connect to host 127.0.0.1:80 ssl:default [Connect call failed ('127.0.0.1', 80)]                                                                                                                                           |
-| ❌        | Bato.to                     | https://bato.to                       | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Borat Scans                 | https://boratscans.com                | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Boruto Explorer             | https://leitor.borutoexplorer.com.br  | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | CatManhwas                  | https://newcat1.xyz                   | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Clown Corps                 | https://clowncorps.net                | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Comicz.net v2               | https://v2.comiz.net                  | Cannot connect to host v2.comiz.net:443 ssl:default [No address associated with hostname]                                                                                                                                         |
-| ❌        | Cypher Scans                | https://cypheroscans.xyz              | Cannot connect to host cypheroscans.xyz:443 ssl:default [Name or service not known]                                                                                                                                               |
-| ❌        | DapRob                      | https://daprob.com                    | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Digital Comic Museum        | https://digitalcomicmuseum.com        | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | DoujinsHell                 | https://doujinshell.net               | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Dưa Leo Truyện              | https://dualeotruyenp.com             | 0, message='', url='https://dualeotruyenp.com'                                                                                                                                                                                    |
-| ❌        | En Ligne Manga              | https://www.enlignemanga.com          | Cannot connect to host www.enlignemanga.com:443 ssl:default [Name or service not known]                                                                                                                                           |
-| ❌        | FR Manga                    | https://www.frmanga.com               | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | FoolSlide Customizable      | https://127.0.0.1                     | Cannot connect to host 127.0.0.1:443 ssl:default [Connect call failed ('127.0.0.1', 443)]                                                                                                                                         |
-| ❌        | Fênix Manhwas               | https://fenixscan.xyz                 | Cannot connect to host fenixscan.xyz:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]                                                                                                 |
-| ❌        | Galinha Samurai Scan        | https://galinhasamurai.com            | Cannot connect to host galinhasamurai.com:443 ssl:default [No address associated with hostname]                                                                                                                                   |
-| ❌        | HenChan                     | https://xxl.hentaichan.live           | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | HentaiDex                   | https://dexhentai.com                 | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Hentaidexy                  | https://dexyscan.com                  | Cannot connect to host dexyscan.com:443 ssl:default [Connect call failed ('195.154.169.216', 443)]                                                                                                                                |
-| ❌        | Hot Cabaret Scan            | https://hotcabaretscan.com            | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Ignis Comic                 | https://manhuaga.com                  | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Invincible ComicsVF         | https://invinciblecomicsvf.fr         | Cannot connect to host invinciblecomicsvf.fr:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]                                    |
-| ❌        | IsekaiScan.top (unoriginal) | https://isekaiscan.top                | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Kai Scans                   | https://kaiscans.org                  | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Kedi.to                     | https://kedi.to                       | Cannot connect to host kedimanga.com:443 ssl:default [Temporary failure in name resolution]                                                                                                                                       |
-| ❌        | Komga                       |                                       | InvalidUrlClientError                                                                                                                                                                                                             |
-| ❌        | Komga (2)                   |                                       | InvalidUrlClientError                                                                                                                                                                                                             |
-| ❌        | Komga (3)                   |                                       | InvalidUrlClientError                                                                                                                                                                                                             |
-| ❌        | KomikGes                    | https://www.komikges.my.id            | Cannot connect to host www.komikges.my.id:443 ssl:default [Name or service not known]                                                                                                                                             |
-| ❌        | KumoTran                    | https://www.kumotran.com              | Cannot connect to host www.kumotran.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')]                                         |
-| ❌        | LANraragi (1)               | http://127.0.0.1:3000                 | Cannot connect to host 127.0.0.1:3000 ssl:default [Connect call failed ('127.0.0.1', 3000)]                                                                                                                                       |
-| ❌        | LANraragi (2)               | http://127.0.0.1:3000                 | Cannot connect to host 127.0.0.1:3000 ssl:default [Connect call failed ('127.0.0.1', 3000)]                                                                                                                                       |
-| ❌        | La Zona del Lirio           | https://lazonadellirio.com            | Cannot connect to host lazonadellirio.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]                                                                                            |
-| ❌        | Lector MOnline              | https://www.lectormangas.online       | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | LeerManga                   | https://leermanga.net                 | Cannot connect to host leermanga.net:443 ssl:default [Connect call failed ('75.126.101.229', 443)]                                                                                                                                |
-| ❌        | LegnMangas                  | https://legnmangas.com                | Cannot connect to host legnmangas.com:443 ssl:default [No address associated with hostname]                                                                                                                                       |
-| ❌        | Limbo Scan                  | https://limboscan.com.br              | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Luscious                    | https://www.luscious.net              | 400, message="Invalid header token:\n\n  b'Origin,: Cookie, User-Agent'\n          ^", url='https://www.luscious.net'                                                                                                             |
-| ❌        | Manga Efendisi              | https://mangaefendisi.net             | Cannot connect to host mangaefendisi.net:443 ssl:default [Temporary failure in name resolution]                                                                                                                                   |
-| ❌        | Manga Koinu                 | https://www.mangakoinu.com            | Cannot connect to host www.mangakoinu.com:443 ssl:default [Name or service not known]                                                                                                                                             |
-| ❌        | Manga Mukai                 | https://mangamukai.com                | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Manga Oku                   | https://mangaoku.org.tr               | Cannot connect to host mangaoku.org.tr:443 ssl:default [Name or service not known]                                                                                                                                                |
-| ❌        | Manga-Corporation           | https://manga-corporation.com         | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | MangaClub                   | https://mangaclub.ru                  | Cannot connect to host mangaclub.ru:443 ssl:default [None]                                                                                                                                                                        |
-| ❌        | MangaFoxFull                | https://mangafoxfull.com              | Cannot connect to host mangafoxfull.com:443 ssl:default [Connect call failed ('149.50.116.175', 443)]                                                                                                                             |
-| ❌        | MangaRaw                    | https://manga1001.in                  | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | MangaSwat                   | https://appswat.com                   | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | MangaTR.net                 | https://mangatr.app                   | Cannot connect to host mangatr.app:443 ssl:default [Temporary failure in name resolution]                                                                                                                                         |
-| ❌        | MangaTone                   | https://mangatone.com                 | Cannot connect to host mangatone.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]                                                                                                 |
-| ❌        | MangasX                     | https://mangasx.online                | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Mango                       |                                       | InvalidUrlClientError                                                                                                                                                                                                             |
-| ❌        | Manhwa Hentai               | https://manhwahentai.to               | Cannot connect to host manhwahentai.to:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')]                                          |
-| ❌        | Manhwas Men                 | https://manhwas.men                   | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Meitua.top                  | https://7a.meitu1.mom                 | Cannot connect to host 7a.meitu1.mom:443 ssl:default [Name or service not known]                                                                                                                                                  |
-| ❌        | MeowSubs                    | https://meowsubs.com                  | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Miae Translations           | https://miaetranslations.site         | Cannot connect to host miaetranslations.site:443 ssl:default [Temporary failure in name resolution]                                                                                                                               |
-| ❌        | Monsure                     | https://monsuresu.com                 | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Monte Tai                   | https://montetaiscanlator.xyz         | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Monzee Komik                | https://monzee01.my.id                | Cannot connect to host monzee01.my.id:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]                                           |
-| ❌        | Mugiwaras Oficial           | https://mugiwarasoficial.com          | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | MurimScan                   | https://inkreads.com                  | 0, message='', url='https://inkreads.com'                                                                                                                                                                                         |
-| ❌        | Nika Toons                  | https://nikatoons.com                 | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | NineHentai                  | https://9hentai.so                    | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Ninja Scan                  | https://ninjacomics.xyz               | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | NovelMic                    | https://novelmic.com                  | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Origami Orpheans            | https://origami-orpheans.com          | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Paragon Scans               | https://paragonscans.com              | 0, message='', url='https://paragonscans.com'                                                                                                                                                                                     |
-| ❌        | RE Manga                    | https://re-manga.com                  | Cannot connect to host re-manga.com:443 ssl:default [No address associated with hostname]                                                                                                                                         |
-| ❌        | Ravens Scans                | https://ravens-scans.com              | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Raw18                       | https://raw18.net                     | Cannot connect to host raw18.net:443 ssl:default [Temporary failure in name resolution]                                                                                                                                           |
-| ❌        | Remangas                    | https://remangas.net                  | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Rh2PlusManga                | https://www.rh2plusmanga.com          | Cannot connect to host www.rh2plusmanga.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')]                                     |
-| ❌        | RichtoScan                  | https://r1.richtoon.top               | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Rofan Toon                  | https://rofantoon.com                 | Cannot connect to host rofantoon.com:443 ssl:default [Name or service not known]                                                                                                                                                  |
-| ❌        | Rua Hap Chanh Day           | https://ruahapchanhday.com            | Cannot connect to host ruahapchanhday.com:443 ssl:default [Temporary failure in name resolution]                                                                                                                                  |
-| ❌        | Safire Scan                 | https://www.safirescan.xyz            | Cannot connect to host www.safirescan.xyz:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]                                                                                            |
-| ❌        | SeraphicDeviltry            | https://seraphic-deviltry.com         | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | SeraphicDeviltry            | https://spanish.seraphic-deviltry.com | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Spmanhwa                    | https://spmanhwa.online               | Cannot connect to host spmanhwa.online:443 ssl:default [Name or service not known]                                                                                                                                                |
-| ❌        | Stick Horse                 | https://stickhorse.cl                 | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Storm X                     | https://www.stormx.site               | Cannot connect to host www.stormx.site:443 ssl:default [None]                                                                                                                                                                     |
-| ❌        | Stray Fansub                | https://strayfansub.com               | Cannot connect to host strayfansub.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')]                                          |
-| ❌        | TMO Manga                   | https://tmomanga.com                  | Cannot connect to host tmomanga.com:443 ssl:default [Connect call failed ('75.126.104.246', 443)]                                                                                                                                 |
-| ❌        | Team Lạnh Lùng              | https://teamlanhlungday3.xyz          | Cannot connect to host teamlanhlungday3.xyz:443 ssl:default [Connect call failed ('198.54.117.242', 443)]                                                                                                                         |
-| ❌        | The Property of Hate        | https://jolleycomics.com              | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Time Naight                 | https://timenaight.org                | Cannot connect to host timenaight.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')]                                           |
-| ❌        | Titan Manga                 | https://titanmanga.com                | Cannot connect to host titanmanga.com:443 ssl:default [Temporary failure in name resolution]                                                                                                                                      |
-| ❌        | Toonkor                     | https://tkor.dog                      | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | VyvyManga.org               | https://vyvymanga.org                 | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Web Niichan                 | https://webniichan.online             | Cannot connect to host webniichan.online:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]                         |
-| ❌        | XXManhwa                    | https://google.xxmanhwa2.top          | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Zandy no Fansub             | https://zandynofansub.aishiteru.org   | Cannot connect to host zandynofansub.aishiteru.org:443 ssl:default [Name or service not known]                                                                                                                                    |
-| ❌        | Zero Scans                  | https://zscans.com                    | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | Zevep                       | https://zevep.com                     | Cannot connect to host zevep.com:443 ssl:default [Connect call failed ('34.92.165.12', 443)]                                                                                                                                      |
-| ❌        | xCaliBR Scans               | https://xcalibrscans.com              | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | 如漫画                         | https://m.rumanhua1.com               | TimeoutError                                                                                                                                                                                                                      |
-| ❌        | 读漫屋                         | https://m.dumanwu1.com                | Cannot connect to host m.dumanwu1.com:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'm.dumanwu1.com'. (_ssl.c:1000)")] |
+## Errors
+
+Count: 94
+
+| Status   | Name                   | URL                                 | Info                                                                                                                                                                                                                              |
+|----------|------------------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ❌        | Amuy                   | https://apenasmaisumyaoi.com        | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Anisa Manga            | https://anisamanga.net              | Cannot connect to host anisamanga.net:443 ssl:default [Temporary failure in name resolution]                                                                                                                                      |
+| ❌        | Anteiku Scan           | https://anteikuscan.fr              | Cannot connect to host anteikuscan.fr:443 ssl:default [Temporary failure in name resolution]                                                                                                                                      |
+| ❌        | Arcura Fansub          | https://arcurafansub.com            | Cannot connect to host arcurafansub.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]                                         |
+| ❌        | Athena Manga           | https://athenamanga.com             | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Aurora Scan            | https://www.serenitytoons.win       | Cannot connect to host www.serenitytoons.win:443 ssl:default [Name or service not known]                                                                                                                                          |
+| ❌        | Ayatoon                | https://ayatoon.com                 | Cannot connect to host ayatoon.com:443 ssl:default [Temporary failure in name resolution]                                                                                                                                         |
+| ❌        | BR Yaoi                | https://bryaoi.com                  | 0, message='', url='https://bryaoi.com'                                                                                                                                                                                           |
+| ❌        | Bakkin Self-hosted     | http://127.0.0.1/                   | Cannot connect to host 127.0.0.1:80 ssl:default [Connect call failed ('127.0.0.1', 80)]                                                                                                                                           |
+| ❌        | Bato.to                | https://bato.to                     | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Comicz.net v2          | https://v2.comiz.net                | Cannot connect to host v2.comiz.net:443 ssl:default [No address associated with hostname]                                                                                                                                         |
+| ❌        | Cypher Scans           | https://cypheroscans.xyz            | Cannot connect to host cypheroscans.xyz:443 ssl:default [Name or service not known]                                                                                                                                               |
+| ❌        | DapRob                 | https://daprob.com                  | Cannot connect to host daprob.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]                                                                                                    |
+| ❌        | Dưa Leo Truyện         | https://dualeotruyenp.com           | 0, message='', url='https://dualeotruyenp.com'                                                                                                                                                                                    |
+| ❌        | En Ligne Manga         | https://www.enlignemanga.com        | Cannot connect to host www.enlignemanga.com:443 ssl:default [Name or service not known]                                                                                                                                           |
+| ❌        | FR Manga               | https://www.frmanga.com             | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | First Kiss Manhua      | https://1stkissmanhua.net           | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | FoolSlide Customizable | https://127.0.0.1                   | Cannot connect to host 127.0.0.1:443 ssl:default [Connect call failed ('127.0.0.1', 443)]                                                                                                                                         |
+| ❌        | Fênix Manhwas          | https://fenixscan.xyz               | Cannot connect to host fenixscan.xyz:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]                                                                                                 |
+| ❌        | Galinha Samurai Scan   | https://galinhasamurai.com          | Cannot connect to host galinhasamurai.com:443 ssl:default [No address associated with hostname]                                                                                                                                   |
+| ❌        | HentaiDex              | https://dexhentai.com               | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Hentaidexy             | https://dexyscan.com                | Cannot connect to host dexyscan.com:443 ssl:default [Connect call failed ('195.154.169.216', 443)]                                                                                                                                |
+| ❌        | Ignis Comic            | https://manhuaga.com                | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Invincible ComicsVF    | https://invinciblecomicsvf.fr       | Cannot connect to host invinciblecomicsvf.fr:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')]                                    |
+| ❌        | Kai Scans              | https://kaiscans.org                | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Kedi.to                | https://kedi.to                     | Cannot connect to host kedimanga.com:443 ssl:default [Temporary failure in name resolution]                                                                                                                                       |
+| ❌        | Komga                  |                                     | InvalidUrlClientError                                                                                                                                                                                                             |
+| ❌        | Komga (2)              |                                     | InvalidUrlClientError                                                                                                                                                                                                             |
+| ❌        | Komga (3)              |                                     | InvalidUrlClientError                                                                                                                                                                                                             |
+| ❌        | KomikGO                | https://komikgo.xyz                 | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | KomikGes               | https://www.komikges.my.id          | Cannot connect to host www.komikges.my.id:443 ssl:default [Name or service not known]                                                                                                                                             |
+| ❌        | KumoTran               | https://www.kumotran.com            | Cannot connect to host www.kumotran.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')]                                         |
+| ❌        | LANraragi (1)          | http://127.0.0.1:3000               | Cannot connect to host 127.0.0.1:3000 ssl:default [Connect call failed ('127.0.0.1', 3000)]                                                                                                                                       |
+| ❌        | LANraragi (2)          | http://127.0.0.1:3000               | Cannot connect to host 127.0.0.1:3000 ssl:default [Connect call failed ('127.0.0.1', 3000)]                                                                                                                                       |
+| ❌        | La Zona del Lirio      | https://lazonadellirio.com          | Cannot connect to host lazonadellirio.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]                                                                                            |
+| ❌        | Lector MOnline         | https://www.lectormangas.online     | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | LeerManga              | https://leermanga.net               | Cannot connect to host leermanga.net:443 ssl:default [Connect call failed ('75.126.101.229', 443)]                                                                                                                                |
+| ❌        | LegnMangas             | https://legnmangas.com              | Cannot connect to host legnmangas.com:443 ssl:default [No address associated with hostname]                                                                                                                                       |
+| ❌        | Luscious               | https://www.luscious.net            | 400, message="Invalid header token:\n\n  b'Origin,: Cookie, User-Agent'\n          ^", url='https://www.luscious.net'                                                                                                             |
+| ❌        | Manga Efendisi         | https://mangaefendisi.net           | Cannot connect to host mangaefendisi.net:443 ssl:default [Temporary failure in name resolution]                                                                                                                                   |
+| ❌        | Manga Empress          | https://mangaempress.com            | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Manga Koinu            | https://www.mangakoinu.com          | Cannot connect to host www.mangakoinu.com:443 ssl:default [Name or service not known]                                                                                                                                             |
+| ❌        | Manga Oku              | https://mangaoku.org.tr             | Cannot connect to host mangaoku.org.tr:443 ssl:default [Name or service not known]                                                                                                                                                |
+| ❌        | MangaClub              | https://mangaclub.ru                | Cannot connect to host mangaclub.ru:443 ssl:default [None]                                                                                                                                                                        |
+| ❌        | MangaFoxFull           | https://mangafoxfull.com            | Cannot connect to host mangafoxfull.com:443 ssl:default [Connect call failed ('149.50.116.175', 443)]                                                                                                                             |
+| ❌        | MangaPeak              | https://mangapeak.org               | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | MangaRaw               | https://manga1001.in                | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | MangaTR.net            | https://mangatr.app                 | Cannot connect to host mangatr.app:443 ssl:default [Temporary failure in name resolution]                                                                                                                                         |
+| ❌        | MangaTone              | https://mangatone.com               | Cannot connect to host mangatone.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]                                                                                                 |
+| ❌        | MangasX                | https://mangasx.online              | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Mango                  |                                     | InvalidUrlClientError                                                                                                                                                                                                             |
+| ❌        | Manhwa Freake          | https://manhwafreake.com            | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Manhwa Hentai          | https://manhwahentai.to             | Cannot connect to host manhwahentai.to:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')]                                          |
+| ❌        | Manhwas Men            | https://manhwas.men                 | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Meitua.top             | https://7a.meitu1.mom               | Cannot connect to host 7a.meitu1.mom:443 ssl:default [Name or service not known]                                                                                                                                                  |
+| ❌        | Miae Translations      | https://miaetranslations.site       | Cannot connect to host miaetranslations.site:443 ssl:default [Temporary failure in name resolution]                                                                                                                               |
+| ❌        | Monzee Komik           | https://monzee01.my.id              | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | MurimScan              | https://inkreads.com                | 0, message='', url='https://inkreads.com'                                                                                                                                                                                         |
+| ❌        | NekoScans              | https://nekoscans.org               | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Nika Toons             | https://nikatoons.com               | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | NineHentai             | https://9hentai.so                  | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Noromax                | https://noromax01.my.id             | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | NovelMic               | https://novelmic.com                | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Paragon Scans          | https://paragonscans.com            | 0, message='', url='https://paragonscans.com'                                                                                                                                                                                     |
+| ❌        | RE Manga               | https://re-manga.com                | Cannot connect to host re-manga.com:443 ssl:default [No address associated with hostname]                                                                                                                                         |
+| ❌        | Ravens Scans           | https://ravens-scans.com            | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Raw18                  | https://raw18.net                   | Cannot connect to host raw18.net:443 ssl:default [Temporary failure in name resolution]                                                                                                                                           |
+| ❌        | ReadMangaFree          | https://readmangafree.net           | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Remangas               | https://remangas.net                | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Rest Scans             | https://restscans.com               | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Rh2PlusManga           | https://www.rh2plusmanga.com        | Cannot connect to host www.rh2plusmanga.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')]                                     |
+| ❌        | Rofan Toon             | https://rofantoon.com               | Cannot connect to host rofantoon.com:443 ssl:default [Name or service not known]                                                                                                                                                  |
+| ❌        | Rua Hap Chanh Day      | https://ruahapchanhday.com          | Cannot connect to host ruahapchanhday.com:443 ssl:default [Temporary failure in name resolution]                                                                                                                                  |
+| ❌        | Safire Scan            | https://www.safirescan.xyz          | Cannot connect to host www.safirescan.xyz:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]                                                                                            |
+| ❌        | Sarcasm Scans          | https://sarcasmscans.com            | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Seraph Manga           | https://www.seraphmanga.com         | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Spmanhwa               | https://spmanhwa.online             | Cannot connect to host spmanhwa.online:443 ssl:default [Name or service not known]                                                                                                                                                |
+| ❌        | Stick Horse            | https://stickhorse.cl               | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Storm X                | https://www.stormx.site             | Cannot connect to host www.stormx.site:443 ssl:default [None]                                                                                                                                                                     |
+| ❌        | Stray Fansub           | https://strayfansub.com             | Cannot connect to host strayfansub.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')]                                          |
+| ❌        | TMO Manga              | https://tmomanga.com                | Cannot connect to host tmomanga.com:443 ssl:default [Connect call failed ('75.126.104.246', 443)]                                                                                                                                 |
+| ❌        | Team Lạnh Lùng         | https://teamlanhlungday3.xyz        | Cannot connect to host teamlanhlungday3.xyz:443 ssl:default [Connect call failed ('198.54.117.242', 443)]                                                                                                                         |
+| ❌        | Time Naight            | https://timenaight.org              | Cannot connect to host timenaight.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')]                                           |
+| ❌        | Titan Manga            | https://titanmanga.com              | Cannot connect to host titanmanga.com:443 ssl:default [Temporary failure in name resolution]                                                                                                                                      |
+| ❌        | Toonkor                | https://tkor.dog                    | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | VyvyManga.org          | https://vyvymanga.org               | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Web Niichan            | https://webniichan.online           | Cannot connect to host webniichan.online:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]                         |
+| ❌        | XXManhwa               | https://google.xxmanhwa2.top        | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Zandy no Fansub        | https://zandynofansub.aishiteru.org | Cannot connect to host zandynofansub.aishiteru.org:443 ssl:default [Name or service not known]                                                                                                                                    |
+| ❌        | Zero Scans             | https://zscans.com                  | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | Zevep                  | https://zevep.com                   | Cannot connect to host zevep.com:443 ssl:default [Connect call failed ('34.92.165.12', 443)]                                                                                                                                      |
+| ❌        | xCaliBR Scans          | https://xcalibrscans.com            | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | 如漫画                    | https://m.rumanhua1.com             | TimeoutError                                                                                                                                                                                                                      |
+| ❌        | 读漫屋                    | https://m.dumanwu1.com              | Cannot connect to host m.dumanwu1.com:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'm.dumanwu1.com'. (_ssl.c:1000)")] |
