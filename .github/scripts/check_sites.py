@@ -27,8 +27,8 @@ from fake_useragent import UserAgent
 from tabulate import tabulate  # type: ignore[import-untyped]
 
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
-TIMEOUT_SECONDS = 15
-MAX_CONCURRENT = 40
+TIMEOUT_SECONDS = 40
+MAX_CONCURRENT = 25
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
