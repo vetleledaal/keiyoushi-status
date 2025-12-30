@@ -18,6 +18,7 @@ import random
 from dataclasses import dataclass
 from enum import StrEnum
 from http import HTTPStatus
+from itertools import groupby
 from operator import attrgetter
 from typing import Any, NamedTuple
 
@@ -30,6 +31,7 @@ from tabulate import tabulate  # type: ignore[import-untyped]
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
 TIMEOUT_SECONDS = 65
 MAX_CONCURRENT = 48
+TABLE_COLUMNS = ["Status", "Name", "URL", "Info"]
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -54,6 +56,7 @@ class CheckResult:
     source: Source
     status: Status
     info: str = ""
+    error_type: str = ""
 
     @property
     def sort_key(self) -> tuple[str, str]:
@@ -91,7 +94,7 @@ def generate_headers(sources: list[Source]) -> dict[str, str]:
     ua = ua_generator.generate(device="desktop", browser=["chrome", "edge"])
     random.setstate(rng_state)
 
-    log.info("Using User-Agent: %s", str(ua))
+    log.info("Using User-Agent: %s", ua)
     headers = {
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
         "Accept-Encoding": "gzip, deflate, br, zstd",
@@ -137,7 +140,7 @@ async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckR
             return CheckResult(source, status, f"HTTP {resp.status}: {title}")
 
     except Exception as e:
-        return CheckResult(source, Status.ERROR, str(e) or type(e).__name__)
+        return CheckResult(source, Status.ERROR, str(e) or type(e).__name__, type(e).__name__)
 
 
 async def check_all(session: aiohttp.ClientSession, sources: list[Source]) -> list[CheckResult]:
@@ -156,6 +159,11 @@ def _escape_pipes(text: str) -> str:
     return text.replace("|", r"\|")
 
 
+def _make_table(results: list[CheckResult]) -> str:
+    rows = [tuple(_escape_pipes(c) for c in r.as_row()) for r in results]
+    return tabulate(rows, TABLE_COLUMNS, tablefmt="github")
+
+
 def render_report(user_agent: str, results: list[CheckResult]) -> str:
     buf = ""
     buf += "# Site Status Report\n\n"
@@ -163,15 +171,24 @@ def render_report(user_agent: str, results: list[CheckResult]) -> str:
     buf += f"User-Agent: `{user_agent}`\n\n"
 
     for title, status in REPORT_SECTIONS:
-        rows = [
-            tuple(_escape_pipes(c) for c in r.as_row())
-            for r in sorted((r for r in results if r.status == status), key=attrgetter("sort_key"))
-        ]
+        rows = sorted((r for r in results if r.status == status), key=attrgetter("sort_key"))
         buf += f"## {title}\n\n"
         buf += f"Count: {len(rows)}\n\n"
-        if rows:
-            buf += tabulate(rows, ["Status", "Name", "URL", "Info"], tablefmt="github")
-            buf += "\n\n"
+
+        if not rows:
+            continue
+
+        if status != Status.ERROR:
+            buf += _make_table(rows) + "\n\n"
+            continue
+
+        # Subsection for each exception type
+        rows = sorted(rows, key=lambda r: (r.error_type, r.sort_key))
+        for error_type, group in groupby(rows, key=attrgetter("error_type")):
+            rows_group = list(group)
+            buf += f"### {error_type}\n\n"
+            buf += f"Count: {len(rows_group)}\n\n"
+            buf += _make_table(rows_group) + "\n\n"
 
     return buf.rstrip() + "\n"
 
