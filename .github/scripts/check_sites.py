@@ -96,10 +96,10 @@ PARKED_TITLES = [
 ]
 
 PARKED_BODIES = [
+    '''"/lander"''',
     '''"domainPrice"''',
     '''"domainRegistrant"''',
     """?tr_uuid=""",
-    """{window.location.href="/lander"}""",
     """<html data-adblockkey=""",
     """<img src="https://l.cdn-fileserver.com/bping.php?""",
     """<p><a href="/_pp">Privacy Policy</a></p>""",
@@ -109,6 +109,7 @@ PARKED_BODIES = [
     """parklogic.com""",
     """sedo.com/services/parking.php""",
     """sedoparking.com""",
+    """window.location.href="/lander""",
 ]
 
 
@@ -199,7 +200,9 @@ async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckR
                 info += "Method: body"
                 status = Status.PARKED
 
-            if status == Status.UNKNOWN:
+            if status in {Status.CF_BLOCK, Status.CF_IUAM}:
+                info = ""
+            elif status == Status.UNKNOWN:
                 status = Status.WARNING
                 if info:
                     info += ". "
