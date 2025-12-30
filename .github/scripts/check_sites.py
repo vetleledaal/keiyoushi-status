@@ -31,16 +31,17 @@ from tabulate import tabulate  # type: ignore[import-untyped]
 
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
 TIMEOUT_SECONDS = 65
-MAX_CONCURRENT = 48
+MAX_CONCURRENT = 52
 TABLE_COLUMNS = ["Status", "Name", "URL", "Info"]
 PATTERN_WWSUB = re.compile(r"^ww\d+\.")
-MIN_NODES_WARN = 17
+MIN_NODES_WARN = 20
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 
 
 class Status(StrEnum):
+    UNKNOWN = "❔"
     OK = "✅"
     ERROR = "❌"
     WARNING = "⚠️"
@@ -97,6 +98,7 @@ PARKED_TITLES = [
 PARKED_BODIES = [
     '''"domainPrice"''',
     '''"domainRegistrant"''',
+    """?tr_uuid=""",
     """{window.location.href="/lander"}""",
     """<html data-adblockkey=""",
     """<img src="https://l.cdn-fileserver.com/bping.php?""",
@@ -177,25 +179,32 @@ async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckR
 
                 return CheckResult(source, Status.REDIRECT, info)
 
+            status = Status.UNKNOWN
+            if resp.status == HTTPStatus.OK:
+                status = Status.OK
+
             title = soup.title.string.strip() if soup.title and soup.title.string else ""
             if title == "Just a moment...":
                 status = Status.CF_IUAM
             elif title == "Attention Required! | Cloudflare":
                 status = Status.CF_BLOCK
             elif title in PARKED_TITLES:
+                if info:
+                    info += ". "
+                info += "Method: title"
                 status = Status.PARKED
-
             if any(body in html for body in PARKED_BODIES):
+                if info:
+                    info += ". "
+                info += "Method: body"
                 status = Status.PARKED
 
-            if resp.status == HTTPStatus.OK:
-                return CheckResult(source, Status.OK, info)
+            if status == Status.UNKNOWN:
+                status = Status.WARNING
+                if info:
+                    info += ". "
+                info += f"HTTP {resp.status}: {title}"
 
-            status = Status.WARNING
-
-            if info:
-                info += ". "
-            info += f"HTTP {resp.status}: {title}"
             return CheckResult(source, status, info)
 
     except Exception as e:
