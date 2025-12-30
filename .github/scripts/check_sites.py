@@ -34,6 +34,7 @@ TIMEOUT_SECONDS = 65
 MAX_CONCURRENT = 48
 TABLE_COLUMNS = ["Status", "Name", "URL", "Info"]
 PATTERN_WWSUB = re.compile(r"^ww\d+\.")
+MIN_NODES_WARN = 17
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -90,12 +91,22 @@ PARKED_QUERIES = [
 
 PARKED_TITLES = [
     "Loading...",
+    "Redirecting...",
 ]
 
 PARKED_BODIES = [
-    """<script>window.park = "ey""",
+    '''"domainPrice"''',
+    '''"domainRegistrant"''',
+    """{window.location.href="/lander"}""",
+    """<html data-adblockkey=""",
     """<img src="https://l.cdn-fileserver.com/bping.php?""",
+    """<p><a href="/_pp">Privacy Policy</a></p>""",
     """<script src="\\/\\/sedoparking.com/frmpark/""",
+    """<script>window.park = "ey""",
+    """1and1.com""",
+    """parklogic.com""",
+    """sedo.com/services/parking.php""",
+    """sedoparking.com""",
 ]
 
 
@@ -141,10 +152,19 @@ def generate_headers(sources: list[Source]) -> dict[str, str]:
 
 
 async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckResult:
+    info = ""
     try:
         async with session.get(source.url) as resp:
+            html = await resp.text()
+            soup = BeautifulSoup(html, "html.parser")
+            n_nodes = len(soup.select("*"))
+            if n_nodes < MIN_NODES_WARN:
+                info = f"Low node count ({n_nodes})"
+
             if not str(resp.url).startswith(source.url):
-                info = f"Redirected: {resp.url}"
+                if info:
+                    info += ". "
+                info += f"Redirected: {resp.url}"
 
                 if resp.url.scheme == "http" and PATTERN_WWSUB.match(str(resp.url.host)):
                     return CheckResult(source, Status.PARKED, f"Method: http. {info}")
@@ -157,29 +177,33 @@ async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckR
 
                 return CheckResult(source, Status.REDIRECT, info)
 
-            if resp.status == HTTPStatus.OK:
-                return CheckResult(source, Status.OK)
-
-            html = await resp.text()
-            soup = BeautifulSoup(html, "html.parser")
             title = soup.title.string.strip() if soup.title and soup.title.string else ""
-
             if title == "Just a moment...":
                 status = Status.CF_IUAM
             elif title == "Attention Required! | Cloudflare":
                 status = Status.CF_BLOCK
             elif title in PARKED_TITLES:
                 status = Status.PARKED
-            else:
-                status = Status.WARNING
 
             if any(body in html for body in PARKED_BODIES):
                 status = Status.PARKED
 
-            return CheckResult(source, status, f"HTTP {resp.status}: {title}")
+            if resp.status == HTTPStatus.OK:
+                return CheckResult(source, Status.OK, info)
+
+            status = Status.WARNING
+
+            if info:
+                info += ". "
+            info += f"HTTP {resp.status}: {title}"
+            return CheckResult(source, status, info)
 
     except Exception as e:
-        return CheckResult(source, Status.ERROR, str(e) or type(e).__name__, type(e).__name__)
+        msg = str(e)
+        if info and msg:
+            info += ". "
+        info += msg
+        return CheckResult(source, Status.ERROR, info, type(e).__name__)
 
 
 async def check_all(session: aiohttp.ClientSession, sources: list[Source]) -> list[CheckResult]:
