@@ -15,6 +15,7 @@ from __future__ import annotations
 import asyncio
 import logging
 import random
+import re
 from dataclasses import dataclass
 from enum import StrEnum
 from http import HTTPStatus
@@ -32,6 +33,7 @@ REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/in
 TIMEOUT_SECONDS = 65
 MAX_CONCURRENT = 48
 TABLE_COLUMNS = ["Status", "Name", "URL", "Info"]
+PATTERN_WWSUB = re.compile(r"^ww\d+\.")
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -44,6 +46,7 @@ class Status(StrEnum):
     CF_BLOCK = "🛑"
     CF_IUAM = "🚧"
     REDIRECT = "🔀"
+    PARKED = "🅿️"
 
 
 class Source(NamedTuple):
@@ -71,8 +74,28 @@ REPORT_SECTIONS: list[tuple[str, Status]] = [
     ("Redirects", Status.REDIRECT),
     ("Cloudflare IUAM", Status.CF_IUAM),
     ("Cloudflare Blocked", Status.CF_BLOCK),
+    ("Parked Domains", Status.PARKED),
     ("Warnings", Status.WARNING),
     ("Errors", Status.ERROR),
+]
+
+PARKED_DOMAINS = [
+    "https://expireddomains.com/",
+    "https://teksishe.net/",
+]
+
+PARKED_QUERIES = [
+    "subid1",
+]
+
+PARKED_TITLES = [
+    "Loading...",
+]
+
+PARKED_BODIES = [
+    """<script>window.park = "ey""",
+    """<img src="https://l.cdn-fileserver.com/bping.php?""",
+    """<script src="\\/\\/sedoparking.com/frmpark/""",
 ]
 
 
@@ -121,7 +144,18 @@ async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckR
     try:
         async with session.get(source.url) as resp:
             if not str(resp.url).startswith(source.url):
-                return CheckResult(source, Status.REDIRECT, f"Redirected: {resp.url}")
+                info = f"Redirected: {resp.url}"
+
+                if resp.url.scheme == "http" and PATTERN_WWSUB.match(str(resp.url.host)):
+                    return CheckResult(source, Status.PARKED, f"Method: http. {info}")
+
+                if any(str(resp.url).startswith(domain) for domain in PARKED_DOMAINS):
+                    return CheckResult(source, Status.PARKED, f"Method: domain. {info}")
+
+                if any(resp.url.query.get(query) is not None for query in PARKED_QUERIES):
+                    return CheckResult(source, Status.PARKED, f"Method: query. {info}")
+
+                return CheckResult(source, Status.REDIRECT, info)
 
             if resp.status == HTTPStatus.OK:
                 return CheckResult(source, Status.OK)
@@ -134,8 +168,13 @@ async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckR
                 status = Status.CF_IUAM
             elif title == "Attention Required! | Cloudflare":
                 status = Status.CF_BLOCK
+            elif title in PARKED_TITLES:
+                status = Status.PARKED
             else:
                 status = Status.WARNING
+
+            if any(body in html for body in PARKED_BODIES):
+                status = Status.PARKED
 
             return CheckResult(source, status, f"HTTP {resp.status}: {title}")
 
