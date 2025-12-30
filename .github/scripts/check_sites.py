@@ -31,7 +31,7 @@ from tabulate import tabulate  # type: ignore[import-untyped]
 
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
 TIMEOUT_SECONDS = 65
-MAX_CONCURRENT = 52
+MAX_CONCURRENT = 56
 TABLE_COLUMNS = ["Status", "Name", "URL", "Info"]
 PATTERN_WWSUB = re.compile(r"^ww\d+\.")
 MIN_NODES_WARN = 20
@@ -164,6 +164,7 @@ async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckR
             if n_nodes < MIN_NODES_WARN:
                 info = f"Low node count ({n_nodes})"
 
+            status = Status.UNKNOWN
             if not str(resp.url).startswith(source.url):
                 if info:
                     info += ". "
@@ -178,16 +179,15 @@ async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckR
                 if any(resp.url.query.get(query) is not None for query in PARKED_QUERIES):
                     return CheckResult(source, Status.PARKED, f"Method: query. {info}")
 
-                return CheckResult(source, Status.REDIRECT, info)
+                status = Status.REDIRECT
 
-            status = Status.UNKNOWN
-            if resp.status == HTTPStatus.OK:
+            if status == Status.UNKNOWN and resp.status == HTTPStatus.OK:
                 status = Status.OK
 
             title = soup.title.string.strip() if soup.title and soup.title.string else ""
-            if title == "Just a moment...":
+            if status != Status.REDIRECT and title == "Just a moment...":
                 status = Status.CF_IUAM
-            elif title == "Attention Required! | Cloudflare":
+            elif status != Status.REDIRECT and title == "Attention Required! | Cloudflare":
                 status = Status.CF_BLOCK
             elif title in PARKED_TITLES:
                 if info:
