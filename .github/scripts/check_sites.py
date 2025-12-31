@@ -4,7 +4,7 @@
 # dependencies = [
 #   "aiohttp[speedups]",
 #   "anyio",
-#   "beautifulsoup4",
+#   "beautifulsoup4[lxml]",
 #   "ua-generator",
 #   "tabulate",
 # ]
@@ -31,7 +31,7 @@ from tabulate import tabulate  # type: ignore[import-untyped]
 
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
 TIMEOUT_SECONDS = 65
-MAX_CONCURRENT = 62
+MAX_CONCURRENT = 40
 TABLE_COLUMNS = ["Status", "Name", "URL", "Info"]
 PATTERN_WWSUB = re.compile(r"^ww\d+\.")
 MIN_NODES_WARN = 20
@@ -167,11 +167,11 @@ async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckR
     try:
         async with session.get(source.url) as resp:
             html = await resp.text()
-            soup = BeautifulSoup(html, "html.parser")
+            soup = BeautifulSoup(html, "lxml")
 
             node_count = len(soup.select("*"))
             if node_count < MIN_NODES_WARN:
-                infos.append(f"Low node count ({node_count})")
+                infos.append(f"Few nodes ({node_count})")
 
             redirected = not str(resp.url).startswith(source.url)
             if redirected:
@@ -203,7 +203,7 @@ async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckR
             if redirected:
                 return result(Status.REDIRECT)
             if resp.status == HTTPStatus.OK:
-                return result(Status.OK, subcategory="With Warnings" if infos else "")
+                return result(Status.OK, subcategory="With Notes" if infos else "")
 
             infos.append(f"HTTP {resp.status}: {title}")
             return result(Status.WARNING)
