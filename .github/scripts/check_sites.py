@@ -31,7 +31,7 @@ from tabulate import tabulate  # type: ignore[import-untyped]
 
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
 TIMEOUT_SECONDS = 65
-MAX_CONCURRENT = 56
+MAX_CONCURRENT = 62
 TABLE_COLUMNS = ["Status", "Name", "URL", "Info"]
 PATTERN_WWSUB = re.compile(r"^ww\d+\.")
 MIN_NODES_WARN = 20
@@ -61,7 +61,7 @@ class CheckResult:
     source: Source
     status: Status
     info: str = ""
-    error_type: str = ""
+    subcategory: str = ""
 
     @property
     def sort_key(self) -> tuple[str, str]:
@@ -155,67 +155,63 @@ def generate_headers(sources: list[Source]) -> dict[str, str]:
 
 
 async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckResult:
-    info = ""
+    infos: list[str] = []
+    parked_signals: list[str] = []
+
+    def result(status: Status, subcategory: str = "") -> CheckResult:
+        parts = infos.copy()
+        if parked_signals:
+            parts.append(f"Method: {', '.join(parked_signals)}")
+        return CheckResult(source, status, ". ".join(parts), subcategory)
+
     try:
         async with session.get(source.url) as resp:
             html = await resp.text()
             soup = BeautifulSoup(html, "html.parser")
-            n_nodes = len(soup.select("*"))
-            if n_nodes < MIN_NODES_WARN:
-                info = f"Low node count ({n_nodes})"
 
-            status = Status.UNKNOWN
-            if not str(resp.url).startswith(source.url):
-                if info:
-                    info += ". "
-                info += f"Redirected: {resp.url}"
+            node_count = len(soup.select("*"))
+            if node_count < MIN_NODES_WARN:
+                infos.append(f"Low node count ({node_count})")
 
+            redirected = not str(resp.url).startswith(source.url)
+            if redirected:
+                infos.append(f"Redirected: {resp.url}")
                 if resp.url.scheme == "http" and PATTERN_WWSUB.match(str(resp.url.host)):
-                    return CheckResult(source, Status.PARKED, f"Method: http. {info}")
-
+                    parked_signals.append("scheme")
                 if any(str(resp.url).startswith(domain) for domain in PARKED_DOMAINS):
-                    return CheckResult(source, Status.PARKED, f"Method: domain. {info}")
-
+                    parked_signals.append("domain")
                 if any(resp.url.query.get(query) is not None for query in PARKED_QUERIES):
-                    return CheckResult(source, Status.PARKED, f"Method: query. {info}")
-
-                status = Status.REDIRECT
-
-            if status == Status.UNKNOWN and resp.status == HTTPStatus.OK:
-                status = Status.OK
+                    parked_signals.append("query")
 
             title = soup.title.string.strip() if soup.title and soup.title.string else ""
-            if status != Status.REDIRECT and title == "Just a moment...":
-                status = Status.CF_IUAM
-            elif status != Status.REDIRECT and title == "Attention Required! | Cloudflare":
-                status = Status.CF_BLOCK
-            elif title in PARKED_TITLES:
-                if info:
-                    info += ". "
-                info += "Method: title"
-                status = Status.PARKED
+
+            # Cloudflare
+            if not redirected:
+                if title == "Just a moment...":
+                    return CheckResult(source, Status.CF_IUAM)
+                if title == "Attention Required! | Cloudflare":
+                    return CheckResult(source, Status.CF_BLOCK)
+
+            # Parked domains
+            if title in PARKED_TITLES:
+                parked_signals.append("title")
             if any(body in html for body in PARKED_BODIES):
-                if info:
-                    info += ". "
-                info += "Method: body"
-                status = Status.PARKED
+                parked_signals.append("body")
 
-            if status in {Status.CF_BLOCK, Status.CF_IUAM}:
-                info = ""
-            elif status == Status.UNKNOWN:
-                status = Status.WARNING
-                if info:
-                    info += ". "
-                info += f"HTTP {resp.status}: {title}"
+            if parked_signals:
+                return result(Status.PARKED)
+            if redirected:
+                return result(Status.REDIRECT)
+            if resp.status == HTTPStatus.OK:
+                return result(Status.OK, subcategory="With Warnings" if infos else "")
 
-            return CheckResult(source, status, info)
+            infos.append(f"HTTP {resp.status}: {title}")
+            return result(Status.WARNING)
 
     except Exception as e:
-        msg = str(e)
-        if info and msg:
-            info += ". "
-        info += msg
-        return CheckResult(source, Status.ERROR, info, type(e).__name__)
+        if msg := str(e):
+            infos.append(msg)
+        return result(Status.ERROR, subcategory=type(e).__name__)
 
 
 async def check_all(session: aiohttp.ClientSession, sources: list[Source]) -> list[CheckResult]:
@@ -253,15 +249,18 @@ def render_report(user_agent: str, results: list[CheckResult]) -> str:
         if not rows:
             continue
 
-        if status != Status.ERROR:
-            buf += _make_table(rows) + "\n\n"
+        rows_main = [r for r in rows if not r.subcategory]
+        if rows_main:
+            buf += _make_table(rows_main) + "\n\n"
+
+        rows_with_subcategory = [r for r in rows if r.subcategory]
+        if not rows_with_subcategory:
             continue
 
-        # Subsection for each exception type
-        rows = sorted(rows, key=lambda r: (r.error_type, r.sort_key))
-        for error_type, group in groupby(rows, key=attrgetter("error_type")):
+        rows_with_subcategory.sort(key=lambda r: (r.subcategory, r.sort_key))
+        for subcategory, group in groupby(rows_with_subcategory, key=attrgetter("subcategory")):
             rows_group = list(group)
-            buf += f"### {error_type}\n\n"
+            buf += f"### {subcategory}\n\n"
             buf += f"Count: {len(rows_group)}\n\n"
             buf += _make_table(rows_group) + "\n\n"
 
