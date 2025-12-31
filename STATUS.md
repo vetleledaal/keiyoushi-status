@@ -1,11 +1,11 @@
 # Site Status Report
 
-Count: 1431\
-User-Agent: `Mozilla/5.0 (Macintosh; Intel Mac OS X 14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36`
+Count: 1433\
+User-Agent: `Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36`
 
 ## OK
 
-Count: 801
+Count: 796
 
 | Status   | Name                                              | URL                                          | Info                |
 |----------|---------------------------------------------------|----------------------------------------------|---------------------|
@@ -21,8 +21,8 @@ Count: 801
 | ✅        | Alandal                                           | https://alandal.com                          |                     |
 | ✅        | AllHentai                                         | https://20.allhen.online                     |                     |
 | ✅        | AllManga                                          | https://allmanga.to                          |                     |
-| ✅        | Alphapolis                                        | https://www.alphapolis.co.jp                 |                     |
 | ✅        | Alucard Scans                                     | https://alucardscans.com                     |                     |
+| ✅        | Amuy                                              | https://apenasmaisumyaoi.com                 |                     |
 | ✅        | Anime GDR Club                                    | http://www.agcscanlation.it/                 |                     |
 | ✅        | AnimeXNovel                                       | https://www.animexnovel.com                  |                     |
 | ✅        | Anisa Scans                                       | https://anisascans.in                        |                     |
@@ -106,6 +106,7 @@ Count: 801
 | ✅        | Bato.to                                           | https://zbato.com                            |                     |
 | ✅        | Bato.to                                           | https://zbato.net                            |                     |
 | ✅        | Bato.to                                           | https://zbato.org                            |                     |
+| ✅        | Bato.to V4                                        | https://bato.si                              |                     |
 | ✅        | Biblio Panda                                      | https://bibliopanda.com                      |                     |
 | ✅        | Big Comics                                        | https://bigcomics.jp                         |                     |
 | ✅        | BigSolo                                           | https://bigsolo.org                          |                     |
@@ -148,9 +149,7 @@ Count: 801
 | ✅        | Comic Growl                                       | https://comic-growl.com                      |                     |
 | ✅        | Comic MeDu                                        | https://comic-medu.com                       |                     |
 | ✅        | Comic Pash                                        | https://comicpash.jp                         |                     |
-| ✅        | Comic Ride                                        | https://comicride.jp                         |                     |
 | ✅        | Comic Ryu                                         | https://www.comic-ryu.jp                     |                     |
-| ✅        | Comick (Unoriginal)                               | https://comick.live                          |                     |
 | ✅        | Comics Valley                                     | https://comicsvalley.com                     |                     |
 | ✅        | ComicTop                                          | https://comic-top.com                        |                     |
 | ✅        | Comikey                                           | https://comikey.com                          |                     |
@@ -174,7 +173,6 @@ Count: 801
 | ✅        | Death Toll Scans                                  | https://reader.deathtollscans.net            |                     |
 | ✅        | Decadence Scans                                   | https://reader.decadencescans.com            |                     |
 | ✅        | Desu                                              | https://desu.uno                             |                     |
-| ✅        | DeviantArt                                        | https://www.deviantart.com                   |                     |
 | ✅        | DiamondFansub                                     | https://diamondfansub.com                    |                     |
 | ✅        | Digital Comic Museum                              | https://digitalcomicmuseum.com               |                     |
 | ✅        | Dilar                                             | https://golden.rest                          |                     |
@@ -236,6 +234,7 @@ Count: 801
 | ✅        | Garcia Manga                                      | https://garciamanga.com                      |                     |
 | ✅        | Geass Comics                                      | https://geasscomics.xyz                      |                     |
 | ✅        | GEDE Comix                                        | https://gedecomix.com                        |                     |
+| ✅        | Ghost Scan                                        | https://ghostscan.xyz                        |                     |
 | ✅        | Gistamis House                                    | https://gistamishousefansub.blogspot.com     |                     |
 | ✅        | GlobalComix                                       | https://globalcomix.com                      |                     |
 | ✅        | GocTruyenTranh                                    | https://goctruyentranh.net                   |                     |
@@ -253,6 +252,7 @@ Count: 801
 | ✅        | Harem de Kira                                     | https://kiraproject.lat                      |                     |
 | ✅        | Harimanga                                         | https://harimanga.me                         |                     |
 | ✅        | Hasta Team                                        | https://reader.hastateam.com                 |                     |
+| ✅        | Hayalistic                                        | https://hayalistic.net                       |                     |
 | ✅        | HDoujin                                           | https://hdoujin.org                          |                     |
 | ✅        | HeavenManga                                       | https://heavenmanga.com                      |                     |
 | ✅        | HenChan                                           | https://xxl.hentaichan.live                  |                     |
@@ -264,7 +264,6 @@ Count: 801
 | ✅        | Hentai.cat                                        | https://manga.hentai.cat                     |                     |
 | ✅        | Hentai20                                          | https://hentai20.io                          |                     |
 | ✅        | Hentai2Read                                       | https://hentai2read.com                      |                     |
-| ✅        | Hentai4Free                                       | https://hentai4free.net                      |                     |
 | ✅        | HentaiArchive                                     | https://www.hentai-archive.com               |                     |
 | ✅        | HentaiEra                                         | https://hentaiera.com                        |                     |
 | ✅        | HentaiFantasy                                     | https://hentaifantasy.it/index.php           |                     |
@@ -333,7 +332,6 @@ Count: 801
 | ✅        | Komik Cast                                        | https://komikcast03.com                      |                     |
 | ✅        | Komiktap                                          | https://komiktap.info                        |                     |
 | ✅        | Komiku                                            | https://komiku.org                           |                     |
-| ✅        | Koreli Scans                                      | https://koreliscans.net                      |                     |
 | ✅        | KSGroupScans                                      | https://ksgroupscans.com                     |                     |
 | ✅        | KumaPoi                                           | https://kumapoi.info                         |                     |
 | ✅        | Kurage Bunch                                      | https://kuragebunch.com                      |                     |
@@ -376,7 +374,6 @@ Count: 801
 | ✅        | Manga Kings                                       | https://mangakings.com.tr                    | Low node count (0)  |
 | ✅        | Manga Livre Blog                                  | https://mangalivre.blog                      |                     |
 | ✅        | Manga Livre.to                                    | https://mangalivre.to                        |                     |
-| ✅        | Manga Mukai                                       | https://mangamukai.com                       | Low node count (10) |
 | ✅        | Manga Mura                                        | https://mangamura.net                        |                     |
 | ✅        | Manga Planet                                      | https://mangaplanet.com                      |                     |
 | ✅        | MANGA Plus by SHUEISHA                            | https://mangaplus.shueisha.co.jp             |                     |
@@ -385,7 +382,6 @@ Count: 801
 | ✅        | Manga Romance                                     | https://mangaromance19.com                   |                     |
 | ✅        | Manga Sect                                        | https://mangasect.net                        |                     |
 | ✅        | Manga Ship                                        | https://www.mangaship.net                    |                     |
-| ✅        | Manga Stop                                        | https://mangastop.net                        |                     |
 | ✅        | Manga Tales                                       | https://www.mangatales.com                   |                     |
 | ✅        | Manga Trend                                       | https://mangaatrend.net                      |                     |
 | ✅        | Manga Tube                                        | https://manga-tube.me                        |                     |
@@ -393,7 +389,6 @@ Count: 801
 | ✅        | Manga Şehri.net                                   | https://manga-sehri.net                      |                     |
 | ✅        | Manga-Corporation                                 | https://manga-corporation.com                |                     |
 | ✅        | Manga-shi                                         | https://manga-shi.org                        |                     |
-| ✅        | Manga-TR                                          | https://manga-tr.com                         |                     |
 | ✅        | Manga18.me                                        | https://manga18.me                           |                     |
 | ✅        | Manga18Free                                       | https://manga18free.com                      |                     |
 | ✅        | Manga18fx                                         | https://manga18fx.com                        |                     |
@@ -404,7 +399,6 @@ Count: 801
 | ✅        | Mangabz                                           | https://mangabz.com                          |                     |
 | ✅        | Mangabz                                           | https://xmanhua.com                          |                     |
 | ✅        | Mangabz                                           | https://yymanhua.com                         |                     |
-| ✅        | MangaChan                                         | https://im.manga-chan.me                     |                     |
 | ✅        | MangaClub                                         | https://mangaclub.moe                        |                     |
 | ✅        | MangaCute                                         | https://mangacute.com                        |                     |
 | ✅        | MangaDenizi                                       | https://www.mangadenizi.net                  |                     |
@@ -413,6 +407,7 @@ Count: 801
 | ✅        | MangaEsp                                          | https://mangaesp.topmanhuas.org              |                     |
 | ✅        | MangaFab                                          | https://mangafab.com                         |                     |
 | ✅        | MangaFire                                         | https://mangafire.to                         |                     |
+| ✅        | MangaFlix                                         | https://mangaflix.net                        |                     |
 | ✅        | MangaForest                                       | https://mangaforest.me                       |                     |
 | ✅        | Mangaforfree.com                                  | https://mangaforfree.com                     |                     |
 | ✅        | MangaForFree.net                                  | https://mangaforfree.net                     |                     |
@@ -425,6 +420,7 @@ Count: 801
 | ✅        | MangaHoNa                                         | https://mangahona.pl                         |                     |
 | ✅        | Mangahub                                          | https://mangahub.ru                          |                     |
 | ✅        | MangaHub                                          | https://www.mangaxhentai.com                 |                     |
+| ✅        | MangaHub.fr                                       | https://mangahub.fr                          |                     |
 | ✅        | Mangakakalot                                      | https://www.mangakakalot.gg                  |                     |
 | ✅        | MangaKatana                                       | https://mangakatana.com                      |                     |
 | ✅        | MangaKita                                         | https://mangakita.id                         |                     |
@@ -476,7 +472,6 @@ Count: 801
 | ✅        | Manhwa18.net                                      | https://manhwa18.net                         |                     |
 | ✅        | Manhwa18.org                                      | https://manhwa18.org                         |                     |
 | ✅        | ManhwaBuddy                                       | https://manhwabuddy.com                      |                     |
-| ✅        | ManhwaClub.net                                    | https://manhwaclub.net                       |                     |
 | ✅        | ManhwaDen                                         | https://www.manhwaden.com                    |                     |
 | ✅        | Manhwahana                                        | https://manhwahana.com                       |                     |
 | ✅        | Manhwahentai.me                                   | https://manhwahentai.me                      |                     |
@@ -559,7 +554,7 @@ Count: 801
 | ✅        | Ohta Web Comic                                    | https://webcomic.ohtabooks.com               |                     |
 | ✅        | Olympus Scanlation                                | https://olympusbiblioteca.com                |                     |
 | ✅        | Omega Scans                                       | https://omegascans.org                       |                     |
-| ✅        | One Piece Berwarna                                | https://onepieceberwarna.com                 | Low node count (14) |
+| ✅        | One Piece Berwarna                                | https://onepieceberwarna.com                 |                     |
 | ✅        | One Piece TECA                                    | https://onepieceteca.com                     |                     |
 | ✅        | One Punch Man Online                              | https://w10.1punchman.com                    |                     |
 | ✅        | Oppai Stream                                      | https://read.oppai.stream                    |                     |
@@ -587,6 +582,7 @@ Count: 801
 | ✅        | Pornhwa18                                         | https://pornhwa18.com                        |                     |
 | ✅        | PornPics                                          | https://www.pornpics.com                     |                     |
 | ✅        | Poseidon Scans                                    | https://poseidon-scans.com                   |                     |
+| ✅        | Pururin                                           | https://pururin.me                           |                     |
 | ✅        | Qi Scans                                          | https://qiscans.org                          |                     |
 | ✅        | QToon                                             | https://qtoon.com                            |                     |
 | ✅        | Questionable Content                              | https://www.questionablecontent.net          |                     |
@@ -595,7 +591,7 @@ Count: 801
 | ✅        | Ragnar Scans                                      | https://ragnarscans.com                      |                     |
 | ✅        | Raiki Scan                                        | https://raikiscan.com                        |                     |
 | ✅        | Rain Of Snow                                      | https://rainofsnow.com                       |                     |
-| ✅        | Raindrop Fansub                                   | https://www.raindropteamfan.com              |                     |
+| ✅        | Raindrop Fansub                                   | https://www.raindropteamfan.com              | Low node count (14) |
 | ✅        | Randowiz                                          | https://randowis.com                         |                     |
 | ✅        | RavenManga                                        | https://ravensword.lat                       |                     |
 | ✅        | Raw Otaku                                         | https://rawotaku.com                         |                     |
@@ -623,8 +619,6 @@ Count: 801
 | ✅        | ReadManga                                         | https://a.zazaza.me                          |                     |
 | ✅        | Real Life Comics                                  | https://reallifecomics.com                   |                     |
 | ✅        | Reaper Scans                                      | https://reaper-scans.fr                      | Low node count (13) |
-| ✅        | ReaperTrans                                       | https://reapertrans.com                      |                     |
-| ✅        | Rest Scans                                        | https://restscans.com                        |                     |
 | ✅        | ReYume                                            | https://www.re-yume.my.id                    |                     |
 | ✅        | Rezo Scans                                        | https://rezoscan.org                         |                     |
 | ✅        | RichtoScan                                        | https://r1.richtoon.top                      |                     |
@@ -639,6 +633,7 @@ Count: 801
 | ✅        | Rose Squad Scans                                  | https://rosesquadscans.aishiteru.org         |                     |
 | ✅        | Royal Manga                                       | https://www.royalmanga.com                   |                     |
 | ✅        | RuMIX                                             | https://rumix.me                             |                     |
+| ✅        | Rüya Manga                                        | https://www.ruyamanga2.com                   |                     |
 | ✅        | SamuraiScan                                       | https://samuraiscan.com                      |                     |
 | ✅        | Sana Scans                                        | https://sanascans.com                        |                     |
 | ✅        | Sandra and Woo                                    | https://www.sandraandwoo.com                 |                     |
@@ -669,7 +664,6 @@ Count: 801
 | ✅        | Spicy Scan                                        | https://spicyseries.com                      |                     |
 | ✅        | StoneScape                                        | https://stonescape.xyz                       |                     |
 | ✅        | Submanhwa                                         | https://www.submanhwa.com                    |                     |
-| ✅        | Summanga                                          | https://summanga.com                         |                     |
 | ✅        | SummerToon                                        | https://summertoons.com                      |                     |
 | ✅        | Sunday Web Every                                  | https://www.sunday-webry.com                 |                     |
 | ✅        | Sunshine Butterfly Scans                          | https://wings.sbs                            |                     |
@@ -680,7 +674,6 @@ Count: 801
 | ✅        | Taadd                                             | https://www.taadd.com                        | Low node count (8)  |
 | ✅        | Taddy INK (Webtoons)                              | https://taddy.org                            |                     |
 | ✅        | Taiyō                                             | https://taiyo.moe                            |                     |
-| ✅        | TakeComic                                         | https://takecomic.jp                         |                     |
 | ✅        | Tankou Hentai                                     | https://tankouhentai.com                     |                     |
 | ✅        | Tapas                                             | https://tapas.io                             |                     |
 | ✅        | Tappytoon                                         | https://www.tappytoon.com/de                 |                     |
@@ -714,6 +707,7 @@ Count: 801
 | ✅        | Traducciones Moonlight                            | https://traduccionesmoonlight.com            |                     |
 | ✅        | Traduções do Lipe                                 | https://traducoesdolipe.blogspot.com         |                     |
 | ✅        | Tranh18                                           | https://tranh18.cc                           |                     |
+| ✅        | TritiniaScans                                     | https://tritinia.org                         |                     |
 | ✅        | TruyenVN                                          | https://truyenvn.shop                        |                     |
 | ✅        | Truyện Hentai 18+                                 | https://truyenhentai18.app                   |                     |
 | ✅        | Truyện tranh đam mỹ                               | https://truyentranhdammyy.site               |                     |
@@ -722,6 +716,7 @@ Count: 801
 | ✅        | TuttoAnimeManga                                   | https://tuttoanimemanga.net                  |                     |
 | ✅        | Twi4                                              | https://sai-zen-sen.jp/comics/twi4/          |                     |
 | ✅        | Twicomi                                           | https://twicomi.com                          |                     |
+| ✅        | Türkçe Manga Oku                                  | https://trmangaoku.com                       |                     |
 | ✅        | Türkçe Manga Oku TR                               | https://turkcemangaoku.com.tr                |                     |
 | ✅        | Uchuujin Projects                                 | https://uchuujinmangas.com                   |                     |
 | ✅        | UniComics                                         | https://unicomics.ru                         |                     |
@@ -813,7 +808,7 @@ Count: 801
 
 ## Redirects
 
-Count: 96
+Count: 94
 
 | Status   | Name                                     | URL                                   | Info                                                                     |
 |----------|------------------------------------------|---------------------------------------|--------------------------------------------------------------------------|
@@ -837,8 +832,6 @@ Count: 96
 | 🔀        | Hattori Manga                            | https://hattorimanga.net              | Redirected: https://hattoriscans.com/                                    |
 | 🔀        | HotComics                                | https://hotcomics.me                  | Redirected: https://w1.hotcomics.me/                                     |
 | 🔀        | Inari Manga                              | https://clubinari.org                 | Redirected: https://www.clubinari.org/                                   |
-| 🔀        | IsekaiScan.top (unoriginal)              | https://isekaiscan.top                | Redirected: https://www.isekaiscan.top/                                  |
-| 🔀        | izneo                                    | https://www.izneo.com/en/webtoon      | Redirected: https://www.izneo.com/fr/webtoon                             |
 | 🔀        | Komikindo                                | https://komikindo4.link               | Low node count (17). Redirected: https://komikindo.vip/                  |
 | 🔀        | LeerCapitulo                             | https://www.leercapitulo.re           | Redirected: https://www.leercapitulo.co/                                 |
 | 🔀        | LilyumFansub                             | https://lilyumfansub.com.tr           | Redirected: https://lilyumfansub.pro/                                    |
@@ -850,7 +843,6 @@ Count: 96
 | 🔀        | Manga Online                             | https://mangaonline.app               | Redirected: https://mangasonline.blog/                                   |
 | 🔀        | Manga Pro                                | https://promanga.net                  | Low node count (18). Redirected: https://prochan.net/                    |
 | 🔀        | Manga1000                                | https://manga1000.top                 | Redirected: https://hachiraw.win/                                        |
-| 🔀        | MangaBin                                 | https://mangabin.com                  | Redirected: https://summanga.com                                         |
 | 🔀        | MangaHen                                 | https://manga-hen.com                 | Redirected: https://gensura.net/                                         |
 | 🔀        | MangaLionz                               | https://manga-lionz.com               | Low node count (17). Redirected: https://manga-lionz.org/                |
 | 🔀        | MangaPoisk                               | https://mangapoisk.live               | Redirected: https://mangap.ru                                            |
@@ -898,6 +890,7 @@ Count: 96
 | 🔀        | vomic                                    | http://www.vomicmh.com                | Redirected: https://www.vomicmh.com/                                     |
 | 🔀        | War For Rayuba                           | https://xrabohrok.github.io/WarMap/#/ | Redirected: https://xrabohrok.github.io/WarMap/                          |
 | 🔀        | Webtoons.com Translations                | https://translate.webtoons.com        | Redirected: https://www.webtoons.com/en/                                 |
+| 🔀        | YaoiChan                                 | https://yaoi-chan.me                  | Low node count (8). Redirected: https://v15.yaoi-chan.me/                |
 | 🔀        | Yaoihub                                  | https://yaoihub.com                   | Redirected: https://yaoihub.net/                                         |
 | 🔀        | YaoiToon                                 | https://yaoitoon.com                  | Redirected: https://yaoitoon.net/home                                    |
 | 🔀        | Yomu Mangás                              | https://yomumangas.com                | Redirected: https://global.yomumangas.com/                               |
@@ -916,7 +909,7 @@ Count: 96
 
 ## Cloudflare IUAM
 
-Count: 305
+Count: 304
 
 | Status   | Name                          | URL                                              | Info   |
 |----------|-------------------------------|--------------------------------------------------|--------|
@@ -950,6 +943,7 @@ Count: 305
 | 🚧        | ChoChoX                       | https://chochox.com                              |        |
 | 🚧        | Codex Zero                    | https://codex.readkisho.me                       |        |
 | 🚧        | ComicHubFree                  | https://comichubfree.com                         |        |
+| 🚧        | Comick (Unoriginal)           | https://comick.live                              |        |
 | 🚧        | CosmicScans.id                | https://lc4.cosmicscans.asia                     |        |
 | 🚧        | Cutie Comics                  | https://cutiecomics.com                          |        |
 | 🚧        | Danbooru                      | https://danbooru.donmai.us                       |        |
@@ -957,7 +951,6 @@ Count: 305
 | 🚧        | Dilar                         | https://dilar.tube                               |        |
 | 🚧        | DocTruyen3Q                   | https://doctruyen3qui19.com                      |        |
 | 🚧        | Doodmanga                     | https://www.doodmanga.com                        |        |
-| 🚧        | DragonTea                     | https://dragontea.ink                            |        |
 | 🚧        | Drake Scans                   | https://drakecomic.org                           |        |
 | 🚧        | ED Scanlation                 | https://edscanlation.fr                          |        |
 | 🚧        | Eggporncomics                 | https://eggporncomics.com                        |        |
@@ -988,7 +981,6 @@ Count: 305
 | 🚧        | Hachiraw                      | https://hachiraw.net                             |        |
 | 🚧        | Hanime1.me                    | https://hanime1.me                               |        |
 | 🚧        | Harmony-Scan                  | https://harmony-scan.fr                          |        |
-| 🚧        | Hayalistic                    | https://hayalistic.net                           |        |
 | 🚧        | Hentai Origines               | https://hentai-origines.fr                       |        |
 | 🚧        | Hentai Teca                   | https://hentaiteca.net                           |        |
 | 🚧        | Hentai-Scantrad               | https://hentai.scantrad-vf.cc                    |        |
@@ -1059,6 +1051,7 @@ Count: 305
 | 🚧        | Manga Oku TR                  | https://mangaokutr.com                           |        |
 | 🚧        | Manga Rose                    | https://mangarose.net                            |        |
 | 🚧        | Manga Starz                   | https://manga-starz.net                          |        |
+| 🚧        | Manga Stop                    | https://mangastop.net                            |        |
 | 🚧        | Manga Şehri                   | https://manga-sehri.com                          |        |
 | 🚧        | Manga-Lc                      | https://manga-lc.net                             |        |
 | 🚧        | MANGA/in/UA                   | https://manga.in.ua                              |        |
@@ -1173,7 +1166,6 @@ Count: 305
 | 🚧        | SpyFakku                      | https://hentalk.pw                               |        |
 | 🚧        | Starlight Scan                | https://starligthscan.com                        |        |
 | 🚧        | StellarSaber                  | https://stellarsaber.pro                         |        |
-| 🚧        | Sushi-Scan                    | https://sushiscan.net                            |        |
 | 🚧        | Tanuki-Manga                  | https://www.tanuki-manga.com                     |        |
 | 🚧        | Tarot Scans                   | https://www.tarotscans.com                       |        |
 | 🚧        | Team X                        | https://olympustaff.com                          |        |
@@ -1228,13 +1220,14 @@ Count: 305
 
 ## Cloudflare Blocked
 
-Count: 32
+Count: 34
 
 | Status   | Name                              | URL                           | Info   |
 |----------|-----------------------------------|-------------------------------|--------|
 | 🛑        | Battle In 5 Seconds After Meeting | https://www.deatte5.com       |        |
 | 🛑        | Doujin-Lc                         | https://doujin-lc.net         |        |
 | 🛑        | Doujindesu                        | https://doujindesu.tv         |        |
+| 🛑        | DragonTea                         | https://dragontea.ink         |        |
 | 🛑        | EZmanga                           | https://ezmanga.org           |        |
 | 🛑        | Inova Scans Manga                 | https://inovascanmanga.com    |        |
 | 🛑        | Lua Scans                         | https://luacomic.org          |        |
@@ -1259,6 +1252,7 @@ Count: 32
 | 🛑        | Pluma Comics                      | https://plumacomics.cloud     |        |
 | 🛑        | Saikai Scan                       | https://housesaikai.net       |        |
 | 🛑        | Simply Hentai                     | https://www.simply-hentai.com |        |
+| 🛑        | Sushi-Scan                        | https://sushiscan.net         |        |
 | 🛑        | The Blank                         | https://beta.theblank.net     |        |
 | 🛑        | Utoon                             | https://utoon.net             |        |
 | 🛑        | WebtoonXYZ                        | https://www.webtoon.xyz       |        |
@@ -1267,130 +1261,149 @@ Count: 32
 
 ## Parked Domains
 
-Count: 39
+Count: 48
 
 | Status   | Name                         | URL                          | Info                                                                                                                     |
 |----------|------------------------------|------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | 🅿️       | AHottie                      | https://ahottie.net          | Method: body                                                                                                             |
+| 🅿️       | Athena Manga                 | https://athenamanga.com      | Method: http. Redirected: http://ww38.athenamanga.com/                                                                   |
 | 🅿️       | Bato.to                      | https://batocc.com           | Low node count (3). Method: body                                                                                         |
 | 🅿️       | Casa Comic                   | https://casacomic.com        | Low node count (5). Method: title. Method: body                                                                          |
 | 🅿️       | Coco Rip                     | https://cocorip.net          | Method: body                                                                                                             |
-| 🅿️       | Dark Nebulus                 | https://www.darknebulus.com  | Low node count (5). Method: title                                                                                        |
+| 🅿️       | Dark Nebulus                 | https://www.darknebulus.com  | Low node count (5). Redirected: http://q1.quotes.com/6a46c358-e619-11f0-9807-864a083622de. Method: title                 |
 | 🅿️       | Dark Nebulus Manga           | https://darknebulusmanga.com | Low node count (10). Method: body                                                                                        |
 | 🅿️       | Elarc Toon                   | https://elarctoons.biz       | Method: body                                                                                                             |
-| 🅿️       | Foy Scan                     | https://foyscan.xyz          | Method: http. Low node count (10). Redirected: http://ww25.foyscan.xyz/?subid1=20251230-1732-4195-a671-e2b0e3a2f22d      |
-| 🅿️       | Futari                       | https://futari.info          | Method: http. Low node count (10). Redirected: http://ww25.futari.info/?subid1=20251230-1732-54c9-8cd0-d8e1de20e2aa      |
-| 🅿️       | Gremory Mangas               | https://gremorymangas.com    | Method: http. Low node count (8). Redirected: http://ww1.gremorymangas.com                                               |
+| 🅿️       | First Kiss Manhua            | https://1stkissmanhua.net    | Method: http. Redirected: http://ww38.1stkissmanhua.net/                                                                 |
+| 🅿️       | Foy Scan                     | https://foyscan.xyz          | Method: http. Low node count (10). Redirected: http://ww25.foyscan.xyz/?subid1=20251231-1822-423f-b8d2-312e119e8bb4      |
+| 🅿️       | Futari                       | https://futari.info          | Method: http. Low node count (10). Redirected: http://ww25.futari.info/?subid1=20251231-1822-3591-a516-4c70ad0ff0cd      |
 | 🅿️       | Hanuman Scan                 | https://hanumanscan.com      | Low node count (11). Method: body                                                                                        |
 | 🅿️       | IsekaiScanManga (unoriginal) | https://isekaiscanmanga.com  | Low node count (5). Method: title. Method: body                                                                          |
+| 🅿️       | KomikGO                      | https://komikgo.xyz          | Method: http. Redirected: http://ww38.komikgo.xyz/                                                                       |
 | 🅿️       | KomikMama                    | https://komikmama.org        | Low node count (5). Method: title. Method: body                                                                          |
 | 🅿️       | Ler Toons                    | https://www.readmangas.org   | Low node count (5). Method: title. Method: body                                                                          |
-| 🅿️       | Manga Empress                | https://mangaempress.com     | Low node count (11). Method: body                                                                                        |
 | 🅿️       | Manga Koleji                 | https://mangakoleji.com      | Low node count (5). Method: title. Method: body                                                                          |
 | 🅿️       | Manga Leveling               | https://mangaleveling.com    | Method: domain. Low node count (16). Redirected: https://expireddomains.com/domain/mangaleveling.com                     |
-| 🅿️       | Manga Okusana                | https://mangaokusana.com     | Method: http. Low node count (10). Redirected: http://ww25.mangaokusana.com/?subid1=20251230-1732-505d-8270-7054264c7a44 |
+| 🅿️       | Manga Okusana                | https://mangaokusana.com     | Method: http. Low node count (10). Redirected: http://ww25.mangaokusana.com/?subid1=20251231-1822-4317-b773-468091699e8b |
 | 🅿️       | Manga Online Team            | https://mangaonlineteam.com  | Low node count (3). Method: body                                                                                         |
 | 🅿️       | Manga Soul                   | https://www.manga-soul.com   | Low node count (5). Method: title. Method: body                                                                          |
 | 🅿️       | Manga3S                      | https://manga3s.com          | Method: body                                                                                                             |
+| 🅿️       | MangaBin                     | https://mangabin.com         | Low node count (3). Method: body                                                                                         |
 | 🅿️       | MangaFreak.online            | https://mangafreak.online    | Low node count (10). Method: body                                                                                        |
+| 🅿️       | MangaPeak                    | https://mangapeak.org        | Method: http. Redirected: http://ww38.mangapeak.org/                                                                     |
 | 🅿️       | MangaRabic                   | https://mangarabic.com       | Method: body                                                                                                             |
 | 🅿️       | MangaRaw                     | https://mangaraw.io          | Low node count (10). Method: body                                                                                        |
 | 🅿️       | MangaRaw                     | https://mangaraw.to          | Low node count (5). Method: title. Method: body                                                                          |
 | 🅿️       | MangaRaw                     | https://mangarawjp.io        | Low node count (5). Method: title. Method: body                                                                          |
 | 🅿️       | MANGARAW+                    | https://mangarawx.net        | Low node count (5). Method: title. Method: body                                                                          |
-| 🅿️       | Manhua AZ                    | https://manhuaaz.com         | Method: http. Low node count (10). Redirected: http://ww25.manhuaaz.com/?subid1=20251230-1733-185c-a270-f4cfb3b6a180     |
+| 🅿️       | Manhua AZ                    | https://manhuaaz.com         | Method: http. Low node count (10). Redirected: http://ww25.manhuaaz.com/?subid1=20251231-1822-32e6-8299-7c202ddc8753     |
 | 🅿️       | Manhuaga                     | https://manhua-ga.org        | Low node count (5). Method: title. Method: body                                                                          |
+| 🅿️       | Manhwa Freake                | https://manhwafreake.com     | Method: http. Low node count (10). Redirected: http://ww25.manhwafreake.com/?subid1=20251231-1822-059c-8f86-c7fc2d13c0b6 |
+| 🅿️       | NekoScans                    | https://nekoscans.org        | Method: http. Redirected: http://ww38.nekoscans.org/                                                                     |
 | 🅿️       | Pied Piper Fansub            | https://piedpiperfansub.me   | Low node count (10). Method: body                                                                                        |
 | 🅿️       | Pied Piper Fansubyy          | https://piedpiperfansubyy.me | Low node count (10). Method: body                                                                                        |
-| 🅿️       | PoManga                      | https://pomanga.com          | Low node count (5). Method: title                                                                                        |
+| 🅿️       | PoManga                      | https://pomanga.com          | Method: http. Low node count (8). Redirected: http://ww1.pomanga.com                                                     |
 | 🅿️       | Pornhwa Scans                | https://pornhwascans.fr      | Low node count (5). Method: title. Method: body                                                                          |
 | 🅿️       | Rama                         | https://www.ramareader.it    | Low node count (10). Method: body                                                                                        |
-| 🅿️       | RyujinManga                  | https://ryujinmanga.com      | Method: http. Low node count (8). Redirected: http://ww1.ryujinmanga.com                                                 |
+| 🅿️       | ReadMangaFree                | https://readmangafree.net    | Method: http. Redirected: http://ww38.readmangafree.net/                                                                 |
+| 🅿️       | ReaperTrans                  | https://reapertrans.com      | Low node count (5). Method: title. Method: body                                                                          |
+| 🅿️       | RyujinManga                  | https://ryujinmanga.com      | Low node count (5). Method: title                                                                                        |
+| 🅿️       | Sarcasm Scans                | https://sarcasmscans.com     | Method: http. Redirected: http://ww38.sarcasmscans.com/                                                                  |
+| 🅿️       | Seraph Manga                 | https://www.seraphmanga.com  | Method: http. Redirected: http://ww38.seraphmanga.com/                                                                   |
+| 🅿️       | Storm X                      | https://www.stormx.site      | Low node count (5). Method: title. Method: body                                                                          |
 | 🅿️       | SyoSetu                      | https://syosetu.gs           | Low node count (5). Method: title. Method: body                                                                          |
 | 🅿️       | TuMangas.net                 | https://tumangas.net         | Method: body                                                                                                             |
-| 🅿️       | Yaoibar                      | https://yaoibar.gay          | Low node count (10). Method: body                                                                                        |
 | 🅿️       | 動漫狂                          | https://www.cartoonmad.com   | Low node count (3). Method: body                                                                                         |
 
 ## Warnings
 
-Count: 70
+Count: 80
 
-| Status   | Name                 | URL                                               | Info                                                               |
-|----------|----------------------|---------------------------------------------------|--------------------------------------------------------------------|
-| ⚠️       | Akuma                | https://akuma.moe                                 | HTTP 500: 500 Internal Server Error — akuma.moe                    |
-| ⚠️       | Anikiga              | https://anikiga.com                               | Low node count (7). HTTP 403: 403 Forbidden                        |
-| ⚠️       | ARESManga            | https://fl-ares.com                               | HTTP 521: fl-ares.com \| 521: Web server is down                   |
-| ⚠️       | Baek Toons           | https://baektoons.com                             | Low node count (0). HTTP 521:                                      |
-| ⚠️       | Com-X                | https://com-x.life                                | Low node count (13). HTTP 404:                                     |
-| ⚠️       | CoManhua             | https://comanhuavui.com                           | HTTP 526: comanhuavui.com \| 526: Invalid SSL certificate          |
-| ⚠️       | Comic Newtype        | https://comic.webnewtype.com                      | Low node count (0). HTTP 404:                                      |
-| ⚠️       | Comicaso             | https://comicaso.space                            | HTTP 521: comicaso.space \| 521: Web server is down                |
-| ⚠️       | Culture Subs         | https://culturesubs.com                           | HTTP 525: culturesubs.com \| 525: SSL handshake failed             |
-| ⚠️       | Dark Scans           | https://darkscans.net                             | HTTP 526: darkscans.net \| 526: Invalid SSL certificate            |
-| ⚠️       | De Todo Un Poco Scan | https://dtupscan.com                              | HTTP 526: dtupscan.com \| 526: Invalid SSL certificate             |
-| ⚠️       | Dream Scan           | https://fairydream.com.br                         | HTTP 404: Not Found                                                |
-| ⚠️       | Ghost Scan           | https://ghostscan.xyz                             | Low node count (6). HTTP 429: 429 Too Many Requests                |
-| ⚠️       | Gourmet Scans        | https://gourmetsupremacy.com                      | HTTP 503: ANNOUNCEMENT - Gourmet Scans & Daddies Supremacy         |
-| ⚠️       | Hadess               | https://www.hadess.xyz                            | HTTP 526: hadess.xyz \| 526: Invalid SSL certificate               |
-| ⚠️       | HentaiDex            | https://dexhentai.com                             | Low node count (0). HTTP 522:                                      |
-| ⚠️       | Hoi Fansub           | https://hoifansub.com                             | HTTP 521: hoifansub.com \| 521: Web server is down                 |
-| ⚠️       | Ikuhentai            | https://ikuhentai.net/                            | Low node count (0). HTTP 403:                                      |
-| ⚠️       | izneo                | https://www.izneo.com/fr/webtoon                  | HTTP 404: izneo                                                    |
-| ⚠️       | Jiangzaitoon         | https://jiangzaitoon.run                          | Low node count (0). HTTP 503:                                      |
-| ⚠️       | Kabus Manga          | https://kabusmanga.com                            | HTTP 526: kabusmanga.com \| 526: Invalid SSL certificate           |
-| ⚠️       | Kai Scans            | https://kaiscans.org                              | HTTP 522: kaiscans.org \| 522: Connection timed out                |
-| ⚠️       | KLManhua             | https://klmanhua.blogspot.com                     | HTTP 404: Redirecting                                              |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/cs_cz/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/de_de/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/el_gr/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/en_us/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/es_es/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/es_mx/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/fr_fr/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/hu_hu/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/it_it/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/ja_jp/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/ko_kr/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/pl_pl/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/pt_br/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/ro_ro/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/ru_ru/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/tr_tr/comic/ | HTTP 404: Universe of League of Legends                            |
-| ⚠️       | Lector MOnline       | https://www.lectormangas.online                   | HTTP 522: lectormangas.online \| 522: Connection timed out         |
-| ⚠️       | Leitor de Mangá      | https://leitordemanga.com                         | HTTP 403: Checking your browser before accessing. Just a moment... |
-| ⚠️       | Lura Toon            | https://luratoons.net                             | Low node count (0). HTTP 403:                                      |
-| ⚠️       | Madokami             | https://manga.madokami.al                         | Low node count (4). HTTP 401: 401 Unauthorized                     |
-| ⚠️       | Manga Terra          | https://manga-terra.com                           | HTTP 522: manga-terra.com \| 522: Connection timed out             |
-| ⚠️       | MangaBuff            | https://mangabuff.ru                              | HTTP 403: DDoS-Guard                                               |
-| ⚠️       | MangaLib             | https://mangalib.me                               | HTTP 403: Код ошибки 1020 - MangaLIB                               |
-| ⚠️       | MSYToon              | https://msytoon.com                               | HTTP 503: Service Unavailable                                      |
-| ⚠️       | Nika Toons           | https://nikatoons.com                             | HTTP 522: nikatoons.com \| 522: Connection timed out               |
-| ⚠️       | NineHentai           | https://9hentai.so                                | HTTP 522: 9hentai.so \| 522: Connection timed out                  |
-| ⚠️       | NovelMic             | https://novelmic.com                              | HTTP 522: novelmic.com \| 522: Connection timed out                |
-| ⚠️       | Platinum Crown       | https://platinumscans.com                         | Low node count (0). HTTP 526:                                      |
-| ⚠️       | Retsu                | https://retsu.org                                 | Low node count (0). HTTP 526:                                      |
-| ⚠️       | Rüya Manga           | https://www.ruyamanga2.com                        | HTTP 403: 403 Forbidden                                            |
-| ⚠️       | Scan-Manga           | https://m.scan-manga.com                          | Low node count (9). HTTP 404: 404 Not Found                        |
-| ⚠️       | scanvf.org           | https://scanvf.org                                | HTTP 522: scanvf.org \| 522: Connection timed out                  |
-| ⚠️       | Senkognito           | https://senkuro.me                                | HTTP 403: DDoS-Guard                                               |
-| ⚠️       | Senkuro              | https://senkuro.me                                | HTTP 403: DDoS-Guard                                               |
-| ⚠️       | Stick Horse          | https://stickhorse.cl                             | HTTP 522: stickhorse.cl \| 522: Connection timed out               |
-| ⚠️       | Tojimangas           | https://manhwass.com                              | Low node count (15). HTTP 404: 404 Not Found                       |
-| ⚠️       | ToonChill            | https://toonchill.com                             | HTTP 526: toonchill.com \| 526: Invalid SSL certificate            |
-| ⚠️       | Vanilla Scans        | https://vanillascans.org                          | Low node count (4). HTTP 503:                                      |
-| ⚠️       | VyvyManga.org        | https://vyvymanga.org                             | Low node count (0). HTTP 522:                                      |
-| ⚠️       | Walpurgi Scan        | https://www.walpurgiscan.it                       | Low node count (16). HTTP 503:                                     |
-| ⚠️       | Winter Scan          | https://winterscan.com                            | Low node count (12). HTTP 403: 403 Forbidden                       |
-| ⚠️       | XXManhwa             | https://google.xxmanhwa2.top                      | HTTP 522: xxmanhwa2.top \| 522: Connection timed out               |
-| ⚠️       | XXX Yaoi             | https://3xyaoi.com                                | HTTP 403: Acesso Bloqueado - XBodinho                              |
-| ⚠️       | Yabai                | https://yabai.si                                  | Low node count (13). HTTP 500: Server Error                        |
-| ⚠️       | Zero Scans           | https://zscans.com                                | HTTP 525: zscans.com \| 525: SSL handshake failed                  |
-| ⚠️       | 哔咔漫画                 | https://picaapi.picacomic.com                     | Low node count (0). HTTP 400:                                      |
-| ⚠️       | 嗨皮漫画                 | https://m.happymh.com                             | HTTP 403: 嗨皮漫画——人机验证                                               |
+| Status   | Name                 | URL                                               | Info                                                                      |
+|----------|----------------------|---------------------------------------------------|---------------------------------------------------------------------------|
+| ⚠️       | Akuma                | https://akuma.moe                                 | Low node count (18). HTTP 403: DDoS-Guard                                 |
+| ⚠️       | Alphapolis           | https://www.alphapolis.co.jp                      | Low node count (13). HTTP 202:                                            |
+| ⚠️       | Anikiga              | https://anikiga.com                               | Low node count (7). HTTP 403: 403 Forbidden                               |
+| ⚠️       | ARESManga            | https://fl-ares.com                               | HTTP 521: fl-ares.com \| 521: Web server is down                          |
+| ⚠️       | Baek Toons           | https://baektoons.com                             | Low node count (0). HTTP 521:                                             |
+| ⚠️       | Com-X                | https://com-x.life                                | Low node count (13). HTTP 404:                                            |
+| ⚠️       | CoManhua             | https://comanhuavui.com                           | HTTP 526: comanhuavui.com \| 526: Invalid SSL certificate                 |
+| ⚠️       | Comic Newtype        | https://comic.webnewtype.com                      | Low node count (0). HTTP 404:                                             |
+| ⚠️       | Comicaso             | https://comicaso.space                            | HTTP 521: comicaso.space \| 521: Web server is down                       |
+| ⚠️       | Culture Subs         | https://culturesubs.com                           | HTTP 525: culturesubs.com \| 525: SSL handshake failed                    |
+| ⚠️       | Dark Scans           | https://darkscans.net                             | HTTP 526: darkscans.net \| 526: Invalid SSL certificate                   |
+| ⚠️       | De Todo Un Poco Scan | https://dtupscan.com                              | HTTP 526: dtupscan.com \| 526: Invalid SSL certificate                    |
+| ⚠️       | DeviantArt           | https://www.deviantart.com                        | Low node count (13). HTTP 403: ERROR: The request could not be satisfied  |
+| ⚠️       | Dream Scan           | https://fairydream.com.br                         | HTTP 404: Not Found                                                       |
+| ⚠️       | Gourmet Scans        | https://gourmetsupremacy.com                      | HTTP 503: ANNOUNCEMENT - Gourmet Scans & Daddies Supremacy                |
+| ⚠️       | Hadess               | https://www.hadess.xyz                            | HTTP 526: hadess.xyz \| 526: Invalid SSL certificate                      |
+| ⚠️       | Hentai4Free          | https://hentai4free.net                           | Low node count (11). HTTP 500: WordPress › Error                          |
+| ⚠️       | HentaiDex            | https://dexhentai.com                             | Low node count (0). HTTP 522:                                             |
+| ⚠️       | Hoi Fansub           | https://hoifansub.com                             | Low node count (0). HTTP 521:                                             |
+| ⚠️       | Ikuhentai            | https://ikuhentai.net/                            | Low node count (0). HTTP 403:                                             |
+| ⚠️       | izneo                | https://www.izneo.com/en/webtoon                  | Low node count (13). HTTP 403: ERROR: The request could not be satisfied  |
+| ⚠️       | izneo                | https://www.izneo.com/fr/webtoon                  | Low node count (13). HTTP 403: ERROR: The request could not be satisfied  |
+| ⚠️       | Jiangzaitoon         | https://jiangzaitoon.run                          | Low node count (0). HTTP 503:                                             |
+| ⚠️       | Kabus Manga          | https://kabusmanga.com                            | HTTP 526: kabusmanga.com \| 526: Invalid SSL certificate                  |
+| ⚠️       | Kai Scans            | https://kaiscans.org                              | HTTP 522: kaiscans.org \| 522: Connection timed out                       |
+| ⚠️       | KLManhua             | https://klmanhua.blogspot.com                     | HTTP 404: Redirecting                                                     |
+| ⚠️       | Koreli Scans         | https://koreliscans.net                           | Low node count (0). HTTP 500:                                             |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/cs_cz/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/de_de/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/el_gr/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/en_us/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/es_es/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/es_mx/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/fr_fr/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/hu_hu/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/it_it/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/ja_jp/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/ko_kr/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/pl_pl/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/pt_br/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/ro_ro/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/ru_ru/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | League of Legends    | https://universe.leagueoflegends.com/tr_tr/comic/ | HTTP 404: Universe of League of Legends                                   |
+| ⚠️       | Lector MOnline       | https://www.lectormangas.online                   | HTTP 522: lectormangas.online \| 522: Connection timed out                |
+| ⚠️       | Leitor de Mangá      | https://leitordemanga.com                         | HTTP 403: Checking your browser before accessing. Just a moment...        |
+| ⚠️       | Lura Toon            | https://luratoons.net                             | Low node count (0). HTTP 403:                                             |
+| ⚠️       | Madokami             | https://manga.madokami.al                         | Low node count (4). HTTP 401: 401 Unauthorized                            |
+| ⚠️       | Manga Mukai          | https://mangamukai.com                            | Low node count (11). HTTP 403: 403 Forbidden                              |
+| ⚠️       | Manga Terra          | https://manga-terra.com                           | HTTP 522: manga-terra.com \| 522: Connection timed out                    |
+| ⚠️       | Manga-TR             | https://manga-tr.com                              | Low node count (18). HTTP 403: DDoS-Guard                                 |
+| ⚠️       | MangaBuff            | https://mangabuff.ru                              | HTTP 403: DDoS-Guard                                                      |
+| ⚠️       | MangaChan            | https://im.manga-chan.me                          | Low node count (8). HTTP 504: 504 Gateway Time-out                        |
+| ⚠️       | MangaLib             | https://mangalib.me                               | HTTP 403: Код ошибки 1020 - MangaLIB                                      |
+| ⚠️       | ManhwaClub.net       | https://manhwaclub.net                            | HTTP 520: manhwaclub.net \| 520: Web server is returning an unknown error |
+| ⚠️       | MSYToon              | https://msytoon.com                               | HTTP 503: Service Unavailable                                             |
+| ⚠️       | Nika Toons           | https://nikatoons.com                             | HTTP 522: nikatoons.com \| 522: Connection timed out                      |
+| ⚠️       | NineHentai           | https://9hentai.so                                | HTTP 522: 9hentai.so \| 522: Connection timed out                         |
+| ⚠️       | NovelMic             | https://novelmic.com                              | HTTP 522: novelmic.com \| 522: Connection timed out                       |
+| ⚠️       | Platinum Crown       | https://platinumscans.com                         | HTTP 526: platinumscans.com \| 526: Invalid SSL certificate               |
+| ⚠️       | Rest Scans           | https://restscans.com                             | HTTP 520: restscans.com \| 520: Web server is returning an unknown error  |
+| ⚠️       | Retsu                | https://retsu.org                                 | HTTP 526: retsu.org \| 526: Invalid SSL certificate                       |
+| ⚠️       | Scan-Manga           | https://m.scan-manga.com                          | Low node count (9). HTTP 404: 404 Not Found                               |
+| ⚠️       | scanvf.org           | https://scanvf.org                                | HTTP 522: scanvf.org \| 522: Connection timed out                         |
+| ⚠️       | Senkognito           | https://senkuro.me                                | HTTP 403: DDoS-Guard                                                      |
+| ⚠️       | Senkuro              | https://senkuro.me                                | HTTP 403: DDoS-Guard                                                      |
+| ⚠️       | Stick Horse          | https://stickhorse.cl                             | HTTP 522: stickhorse.cl \| 522: Connection timed out                      |
+| ⚠️       | Summanga             | https://summanga.com                              | Low node count (10). HTTP 500: Database Error                             |
+| ⚠️       | TakeComic            | https://takecomic.jp                              | HTTP 403: メンテナンス中です。 \| 竹コミ！                                              |
+| ⚠️       | Tojimangas           | https://manhwass.com                              | Low node count (15). HTTP 404: 404 Not Found                              |
+| ⚠️       | ToonChill            | https://toonchill.com                             | HTTP 526: toonchill.com \| 526: Invalid SSL certificate                   |
+| ⚠️       | Vanilla Scans        | https://vanillascans.org                          | Low node count (4). HTTP 503:                                             |
+| ⚠️       | VyvyManga.org        | https://vyvymanga.org                             | HTTP 522: vyvymanga.org \| 522: Connection timed out                      |
+| ⚠️       | Walpurgi Scan        | https://www.walpurgiscan.it                       | Low node count (16). HTTP 503:                                            |
+| ⚠️       | Winter Scan          | https://winterscan.com                            | Low node count (12). HTTP 403: 403 Forbidden                              |
+| ⚠️       | XXManhwa             | https://google.xxmanhwa2.top                      | HTTP 522: xxmanhwa2.top \| 522: Connection timed out                      |
+| ⚠️       | XXX Yaoi             | https://3xyaoi.com                                | HTTP 403: Acesso Bloqueado - XBodinho                                     |
+| ⚠️       | Yabai                | https://yabai.si                                  | Low node count (18). HTTP 403: DDoS-Guard                                 |
+| ⚠️       | Zero Scans           | https://zscans.com                                | HTTP 525: zscans.com \| 525: SSL handshake failed                         |
+| ⚠️       | 哔咔漫画                 | https://picaapi.picacomic.com                     | Low node count (0). HTTP 400:                                             |
+| ⚠️       | 嗨皮漫画                 | https://m.happymh.com                             | HTTP 403: 嗨皮漫画——人机验证                                                      |
 
 ## Errors
 
-Count: 88
+Count: 77
 
 ### ClientConnectorCertificateError
 
@@ -1408,7 +1421,7 @@ Count: 7
 
 ### ClientConnectorDNSError
 
-Count: 28
+Count: 31
 
 | Status   | Name                 | URL                                 | Info                                                                                                |
 |----------|----------------------|-------------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -1417,6 +1430,7 @@ Count: 28
 | ❌        | Anteiku Scan         | https://anteikuscan.fr              | Cannot connect to host anteikuscan.fr:443 ssl:default [Timeout while contacting DNS servers]        |
 | ❌        | Aurora Scan          | https://www.serenitytoons.win       | Cannot connect to host www.serenitytoons.win:443 ssl:default [Domain name not found]                |
 | ❌        | Ayatoon              | https://ayatoon.com                 | Cannot connect to host ayatoon.com:443 ssl:default [Timeout while contacting DNS servers]           |
+| ❌        | Comic Ride           | https://comicride.jp                | Cannot connect to host comicride.jp:443 ssl:default [Timeout while contacting DNS servers]          |
 | ❌        | Comicz.net v2        | https://v2.comiz.net                | Cannot connect to host v2.comiz.net:443 ssl:default [DNS server returned answer with no data]       |
 | ❌        | Cypher Scans         | https://cypheroscans.xyz            | Cannot connect to host cypheroscans.xyz:443 ssl:default [Domain name not found]                     |
 | ❌        | En Ligne Manga       | https://www.enlignemanga.com        | Cannot connect to host www.enlignemanga.com:443 ssl:default [Domain name not found]                 |
@@ -1425,8 +1439,9 @@ Count: 28
 | ❌        | KomikGes             | https://www.komikges.my.id          | Cannot connect to host www.komikges.my.id:443 ssl:default [Domain name not found]                   |
 | ❌        | KumoTran             | https://www.kumotran.com            | Cannot connect to host www.kumotran.com:443 ssl:default [Timeout while contacting DNS servers]      |
 | ❌        | LegnMangas           | https://legnmangas.com              | Cannot connect to host legnmangas.com:443 ssl:default [DNS server returned answer with no data]     |
+| ❌        | Lolivault            | https://lector.lolivault.net        | Cannot connect to host lector.lolivault.net:443 ssl:default [Timeout while contacting DNS servers]  |
 | ❌        | Manga Efendisi       | https://mangaefendisi.net           | Cannot connect to host mangaefendisi.net:443 ssl:default [Timeout while contacting DNS servers]     |
-| ❌        | Manga Koinu          | https://www.mangakoinu.com          | Cannot connect to host www.mangakoinu.com:443 ssl:default [Domain name not found]                   |
+| ❌        | Manga Koinu          | https://www.mangakoinu.com          | Cannot connect to host www.mangakoinu.com:443 ssl:default [Timeout while contacting DNS servers]    |
 | ❌        | Manga Oku            | https://mangaoku.org.tr             | Cannot connect to host mangaoku.org.tr:443 ssl:default [Domain name not found]                      |
 | ❌        | MangaTR.net          | https://mangatr.app                 | Cannot connect to host mangatr.app:443 ssl:default [Timeout while contacting DNS servers]           |
 | ❌        | Meitua.top           | https://7a.meitu1.mom               | Cannot connect to host 7a.meitu1.mom:443 ssl:default [Domain name not found]                        |
@@ -1435,35 +1450,35 @@ Count: 28
 | ❌        | RE Manga             | https://re-manga.com                | Cannot connect to host re-manga.com:443 ssl:default [DNS server returned answer with no data]       |
 | ❌        | Rh2PlusManga         | https://www.rh2plusmanga.com        | Cannot connect to host www.rh2plusmanga.com:443 ssl:default [Timeout while contacting DNS servers]  |
 | ❌        | Rofan Toon           | https://rofantoon.com               | Cannot connect to host rofantoon.com:443 ssl:default [Domain name not found]                        |
-| ❌        | Rua Hap Chanh Day    | https://ruahapchanhday.com          | Cannot connect to host ruahapchanhday.com:443 ssl:default [Timeout while contacting DNS servers]    |
+| ❌        | Rua Hap Chanh Day    | https://ruahapchanhday.com          | Cannot connect to host ruahapchanhday.com:443 ssl:default [DNS server returned general failure]     |
 | ❌        | Spmanhwa             | https://spmanhwa.online             | Cannot connect to host spmanhwa.online:443 ssl:default [Domain name not found]                      |
 | ❌        | Titan Manga          | https://titanmanga.com              | Cannot connect to host titanmanga.com:443 ssl:default [Timeout while contacting DNS servers]        |
 | ❌        | TruyenTranh3Q        | https://truyentranh3qe.com          | Cannot connect to host truyentranh3qe.com:443 ssl:default [DNS server returned answer with no data] |
+| ❌        | Yaoibar              | https://yaoibar.gay                 | Cannot connect to host yaoibar.gay:443 ssl:default [Domain name not found]                          |
 | ❌        | Zandy no Fansub      | https://zandynofansub.aishiteru.org | Cannot connect to host zandynofansub.aishiteru.org:443 ssl:default [Domain name not found]          |
 
 ### ClientConnectorError
 
-Count: 13
+Count: 12
 
 | Status   | Name                   | URL                          | Info                                                                                                      |
 |----------|------------------------|------------------------------|-----------------------------------------------------------------------------------------------------------|
 | ❌        | Bakkin Self-hosted     | http://127.0.0.1/            | Cannot connect to host 127.0.0.1:80 ssl:default [Connect call failed ('127.0.0.1', 80)]                   |
 | ❌        | FoolSlide Customizable | https://127.0.0.1            | Cannot connect to host 127.0.0.1:443 ssl:default [Connect call failed ('127.0.0.1', 443)]                 |
+| ❌        | Gremory Mangas         | https://gremorymangas.com    | Cannot connect to host gremorymangas.com:443 ssl:default [Connect call failed ('216.245.214.81', 443)]    |
 | ❌        | Hentaidexy             | https://dexyscan.com         | Cannot connect to host dexyscan.com:443 ssl:default [Connect call failed ('195.154.169.216', 443)]        |
 | ❌        | LANraragi (1)          | http://127.0.0.1:3000        | Cannot connect to host 127.0.0.1:3000 ssl:default [Connect call failed ('127.0.0.1', 3000)]               |
 | ❌        | LANraragi (2)          | http://127.0.0.1:3000        | Cannot connect to host 127.0.0.1:3000 ssl:default [Connect call failed ('127.0.0.1', 3000)]               |
 | ❌        | LeerManga              | https://leermanga.net        | Cannot connect to host leermanga.net:443 ssl:default [Connect call failed ('75.126.101.229', 443)]        |
-| ❌        | Lolivault              | https://lector.lolivault.net | Cannot connect to host lector.lolivault.net:443 ssl:default [Network is unreachable]                      |
 | ❌        | MangaClub              | https://mangaclub.ru         | Cannot connect to host mangaclub.ru:443 ssl:default [None]                                                |
 | ❌        | MangaFoxFull           | https://mangafoxfull.com     | Cannot connect to host mangafoxfull.com:443 ssl:default [Connect call failed ('149.50.116.175', 443)]     |
-| ❌        | Storm X                | https://www.stormx.site      | Cannot connect to host www.stormx.site:443 ssl:default [None]                                             |
 | ❌        | Team Lạnh Lùng         | https://teamlanhlungday3.xyz | Cannot connect to host teamlanhlungday3.xyz:443 ssl:default [Connect call failed ('198.54.117.242', 443)] |
 | ❌        | TMO Manga              | https://tmomanga.com         | Cannot connect to host tmomanga.com:443 ssl:default [Connect call failed ('75.126.104.246', 443)]         |
 | ❌        | Zevep                  | https://zevep.com            | Cannot connect to host zevep.com:443 ssl:default [Connect call failed ('34.92.165.12', 443)]              |
 
 ### ClientConnectorSSLError
 
-Count: 7
+Count: 6
 
 | Status   | Name              | URL                                | Info                                                                                                                                           |
 |----------|-------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1471,9 +1486,16 @@ Count: 7
 | ❌        | Fênix Manhwas     | https://fenixscan.xyz              | Cannot connect to host fenixscan.xyz:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]              |
 | ❌        | Ikigai Mangas     | https://viralikigai.melauroral.com | Cannot connect to host viralikigai.melauroral.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)] |
 | ❌        | La Zona del Lirio | https://lazonadellirio.com         | Cannot connect to host lazonadellirio.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]         |
-| ❌        | MangaHub.fr       | https://mangahub.fr                | Cannot connect to host mangahub.fr:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]                |
 | ❌        | MangaTone         | https://mangatone.com              | Cannot connect to host mangatone.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]              |
 | ❌        | Safire Scan       | https://www.safirescan.xyz         | Cannot connect to host www.safirescan.xyz:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)]         |
+
+### ClientPayloadError
+
+Count: 1
+
+| Status   | Name                        | URL                    | Info                                                                                                                          |
+|----------|-----------------------------|------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| ❌        | IsekaiScan.top (unoriginal) | https://isekaiscan.top | Response payload is not completed: <TransferEncodingError: 400, message='Not enough data to satisfy transfer length header.'> |
 
 ### ClientResponseError
 
@@ -1496,33 +1518,21 @@ Count: 4
 
 ### TimeoutError
 
-Count: 23
+Count: 11
 
-| Status   | Name              | URL                          | Info   |
-|----------|-------------------|------------------------------|--------|
-| ❌        | Amuy              | https://apenasmaisumyaoi.com |        |
-| ❌        | Athena Manga      | https://athenamanga.com      |        |
-| ❌        | Bato.to           | https://bato.to              |        |
-| ❌        | First Kiss Manhua | https://1stkissmanhua.net    |        |
-| ❌        | FR Manga          | https://www.frmanga.com      |        |
-| ❌        | Ignis Comic       | https://manhuaga.com         |        |
-| ❌        | KomikGO           | https://komikgo.xyz          |        |
-| ❌        | MangaPeak         | https://mangapeak.org        |        |
-| ❌        | MangaRaw          | https://manga1001.in         |        |
-| ❌        | Manhwa Freake     | https://manhwafreake.com     |        |
-| ❌        | Manhwas Men       | https://manhwas.men          |        |
-| ❌        | NekoScans         | https://nekoscans.org        |        |
-| ❌        | Pururin           | https://pururin.me           |        |
-| ❌        | Ravens Scans      | https://ravens-scans.com     |        |
-| ❌        | ReadMangaFree     | https://readmangafree.net    |        |
-| ❌        | Remangas          | https://remangas.net         |        |
-| ❌        | Sarcasm Scans     | https://sarcasmscans.com     |        |
-| ❌        | Seraph Manga      | https://www.seraphmanga.com  |        |
-| ❌        | Toonkor           | https://tkor.dog             |        |
-| ❌        | TritiniaScans     | https://tritinia.org         |        |
-| ❌        | Türkçe Manga Oku  | https://trmangaoku.com       |        |
-| ❌        | xCaliBR Scans     | https://xcalibrscans.com     |        |
-| ❌        | 如漫画               | https://m.rumanhua1.com      |        |
+| Status   | Name          | URL                      | Info   |
+|----------|---------------|--------------------------|--------|
+| ❌        | Bato.to       | https://bato.to          |        |
+| ❌        | FR Manga      | https://www.frmanga.com  |        |
+| ❌        | Ignis Comic   | https://manhuaga.com     |        |
+| ❌        | Manga Empress | https://mangaempress.com |        |
+| ❌        | MangaRaw      | https://manga1001.in     |        |
+| ❌        | Manhwas Men   | https://manhwas.men      |        |
+| ❌        | Ravens Scans  | https://ravens-scans.com |        |
+| ❌        | Remangas      | https://remangas.net     |        |
+| ❌        | Toonkor       | https://tkor.dog         |        |
+| ❌        | xCaliBR Scans | https://xcalibrscans.com |        |
+| ❌        | 如漫画           | https://m.rumanhua1.com  |        |
 
 ### TooManyRedirects
 
@@ -1536,9 +1546,8 @@ Count: 3
 
 ### UnicodeDecodeError
 
-Count: 2
+Count: 1
 
 | Status   | Name       | URL                          | Info                                                                              |
 |----------|------------|------------------------------|-----------------------------------------------------------------------------------|
-| ❌        | Coven Scan | https://covendasbruxonas.com | 'utf-8' codec can't decode byte 0xc3 in position 89925: invalid continuation byte |
-| ❌        | YaoiChan   | https://yaoi-chan.me         | 'utf-8' codec can't decode byte 0xcf in position 139: invalid continuation byte   |
+| ❌        | Coven Scan | https://covendasbruxonas.com | 'utf-8' codec can't decode byte 0xc3 in position 90019: invalid continuation byte |
