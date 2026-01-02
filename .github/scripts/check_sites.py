@@ -5,8 +5,10 @@
 #   "aiohttp[speedups]",
 #   "anyio",
 #   "beautifulsoup4[lxml]",
-#   "ua-generator",
+#   "publicsuffixlist",
 #   "tabulate",
+#   "ua-generator",
+#   "yarl",
 # ]
 # ///
 
@@ -27,17 +29,20 @@ import aiohttp
 import ua_generator
 from anyio import Path
 from bs4 import BeautifulSoup
+from publicsuffixlist import PublicSuffixList
 from tabulate import tabulate  # type: ignore[import-untyped]
+from yarl import URL
 
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
 TIMEOUT_SECONDS = 65
-MAX_CONCURRENT = 40
+MAX_CONCURRENT = 70
 TABLE_COLUMNS = ["Status", "Name", "URL", "Info"]
 PATTERN_WWSUB = re.compile(r"^ww\d+\.")
 MIN_NODES_WARN = 20
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
+psl = PublicSuffixList()
 
 
 class Status(StrEnum):
@@ -201,7 +206,10 @@ async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckR
             if parked_signals:
                 return result(Status.PARKED)
             if redirected:
-                return result(Status.REDIRECT)
+                host_a = psl.privatesuffix(URL(source.url).host or "")
+                host_b = psl.privatesuffix(resp.url.host or "")
+                subcategory = "Same Authority" if host_a and host_a == host_b else ""
+                return result(Status.REDIRECT, subcategory)
             if resp.status == HTTPStatus.OK:
                 return result(Status.OK, subcategory="With Notes" if infos else "")
 
