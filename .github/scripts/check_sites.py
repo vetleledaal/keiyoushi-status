@@ -34,8 +34,8 @@ from tabulate import tabulate  # type: ignore[import-untyped]
 from yarl import URL
 
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
-TIMEOUT_SECONDS = 125
-MAX_CONCURRENT = 45
+TIMEOUT_SECONDS = 5 * 60
+MAX_CONCURRENT = 80
 TABLE_COLUMNS = ["Status", "Name", "URL", "Info"]
 PATTERN_WWSUB = re.compile(r"^ww\d+\.")
 MIN_NODES_WARN = 20
