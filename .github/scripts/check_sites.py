@@ -18,6 +18,7 @@ import asyncio
 import logging
 import random
 import re
+import time
 from dataclasses import dataclass
 from enum import StrEnum
 from http import HTTPStatus
@@ -36,9 +37,10 @@ from yarl import URL
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
 TIMEOUT_SECONDS = 5 * 60
 MAX_CONCURRENT = 80
-TABLE_COLUMNS = ["Status", "Name", "URL", "Info"]
+TABLE_COLUMNS = ["Status", "Name", "URL", "Time", "Info"]
 PATTERN_WWSUB = re.compile(r"^ww\d+\.")
 MIN_NODES_WARN = 20
+TIME_PRECISION_CUTOFF_SECONDS = 10
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -64,6 +66,7 @@ class Source(NamedTuple):
 class CheckResult:
     source: Source
     status: Status
+    duration: float = -1.0
     info: str = ""
     subcategory: str = ""
 
@@ -71,8 +74,14 @@ class CheckResult:
     def sort_key(self) -> tuple[str, str]:
         return (self.source.name.lower(), self.source.url.lower())
 
-    def as_row(self) -> tuple[str, str, str, str]:
-        return (self.status.value, self.source.name, self.source.url, self.info)
+    def as_row(self) -> tuple[str, str, str, str, str]:
+        if self.duration < TIME_PRECISION_CUTOFF_SECONDS:
+            time_str = f"{self.duration:.3f}s"
+        else:
+            s = int(self.duration)
+            m, s = divmod(s, 60)
+            time_str = f"{m}m{s}s" if m else f"{s}s"
+        return (self.status.value, self.source.name, self.source.url, time_str, self.info)
 
 
 REPORT_SECTIONS: list[tuple[str, Status]] = [
@@ -161,12 +170,14 @@ def generate_headers(sources: list[Source]) -> dict[str, str]:
 async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckResult:
     infos: list[str] = []
     parked_signals: list[str] = []
+    start = time.perf_counter()
 
     def result(status: Status, subcategory: str = "") -> CheckResult:
+        duration = time.perf_counter() - start
         parts = infos.copy()
         if parked_signals:
             parts.append(f"Method: {', '.join(parked_signals)}")
-        return CheckResult(source, status, ". ".join(parts), subcategory)
+        return CheckResult(source, status, duration, ". ".join(parts), subcategory)
 
     try:
         async with session.get(source.url) as resp:
@@ -192,9 +203,11 @@ async def check_source(session: aiohttp.ClientSession, source: Source) -> CheckR
             # Cloudflare
             if not redirected:
                 if title == "Just a moment...":
-                    return CheckResult(source, Status.CF_IUAM)
+                    infos = []
+                    return result(Status.CF_IUAM)
                 if title == "Attention Required! | Cloudflare":
-                    return CheckResult(source, Status.CF_BLOCK)
+                    infos = []
+                    return result(Status.CF_BLOCK)
 
             # Parked domains
             if title in PARKED_TITLES:
