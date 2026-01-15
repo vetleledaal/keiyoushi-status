@@ -45,6 +45,8 @@ ignore = [
   "TC006",
   "TRY003",
   "TRY400",
+  ####
+  "UP047",
 ]
 preview = true
 select = ["ALL"]

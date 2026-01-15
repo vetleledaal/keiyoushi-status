@@ -17,6 +17,7 @@ on:
       - main
     paths:
       - .github/scripts/check_sites.py
+      - .github/scripts/common.py
       - .github/workflows/check-sites.yaml
 
 permissions:
