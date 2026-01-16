@@ -179,7 +179,7 @@ async def check_url(session: aiohttp.ClientSession, pr: PrUrl) -> CheckResult:
 
     def make_result(status: Status, duration: float, info: str, subcategory: str) -> CheckResult:
         if pr.is_bare:
-            info = ",".join([*",".split(info), "Bare URL"])
+            info = f"{info}, Bare URL" if info else "Bare URL"
         return CheckResult(pr, status, duration, info, subcategory)
 
     return await check_url_generic(session, pr.url, make_result)
