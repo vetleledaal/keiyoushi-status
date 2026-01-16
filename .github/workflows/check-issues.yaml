@@ -1,5 +1,5 @@
 ---
-name: Check PRs
+name: Check issues
 
 on:
   workflow_dispatch:
@@ -16,22 +16,22 @@ on:
     branches:
       - main
     paths:
-      - .github/scripts/check_prs.py
+      - .github/scripts/check_issues.py
       - .github/scripts/common.py
-      - .github/workflows/check-prs.yaml
+      - .github/workflows/check-issues.yaml
 
 permissions:
   contents: write
 
 jobs:
-  check-prs:
+  check-issues:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: astral-sh/setup-uv@v7
       - env:
           GH_TOKEN: ${{ github.token }}
-        run: .github/scripts/check_prs.py
+        run: .github/scripts/check_issues.py
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: 'chore: update PR status'
+          commit_message: 'chore: update issues status'

@@ -16,6 +16,7 @@
 from __future__ import annotations
 
 import asyncio
+import ipaddress
 import json
 import logging
 import random
@@ -38,6 +39,7 @@ from common import (
     render_report_generic,
 )
 from publicsuffixlist import PublicSuffixList  # type: ignore[import-untyped]
+from yarl import URL
 
 REPO = "keiyoushi/extensions-source"
 LABEL = "Source Request"
@@ -48,8 +50,22 @@ log = logging.getLogger(__name__)
 psl = PublicSuffixList()
 
 URL_RE = re.compile(r"https?://[^\s\)>\]\"']+", re.IGNORECASE)
-MD_LINK_RE = re.compile(r"\[([^\]]+)\]\((https?://[^\s\)]+)\)", re.IGNORECASE)
-DOMAIN_RE = re.compile(r"\b([a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z]{2,}\b", re.IGNORECASE)
+MD_LINK_RE = re.compile(r"\[(?:[^\]]+)\]\((https?://[^\s\)]+)\)", re.IGNORECASE)
+BARE_URL_RE = re.compile(
+    r"""
+        (?:(?<=[\s(["])|^)
+        (?:
+            [0-9A-Za-z](?:[-0-9A-Za-z]*[0-9A-Za-z])?(?:\.[0-9A-Za-z](?:[-0-9A-Za-z]*[0-9A-Za-z])?)+
+        |
+            (?:\d{1,3}\.){3}\d{1,3}
+        |
+            \[(?:[a-f0-9:]+:+)+[a-f0-9]+\]
+        )
+        (?::\d{1,5})?
+        (?:\S*[)/0-9A-Za-z])?
+    """,
+    re.IGNORECASE | re.VERBOSE,
+)
 BLACKLIST_DOMAINS = {"github.blog", "github.com", "github.io", "tachiyomi.org"}
 STRIKETHROUGH_RE = re.compile(r"~+[^~\n]+~+")
 SOURCE_LINK_RES = [
@@ -61,6 +77,7 @@ SOURCE_LINK_RES = [
 class PrUrl(NamedTuple):
     pr_number: int
     url: str
+    is_bare: bool = False
 
 
 @dataclass(frozen=True, slots=True)
@@ -94,33 +111,45 @@ def is_blacklisted(url: str) -> bool:
     return any(domain in url.lower() for domain in BLACKLIST_DOMAINS)
 
 
-def extract_urls_from_text(text: str, urls: set[str]) -> None:
+def extract_explicit_urls(text: str) -> set[str]:
+    urls: set[str] = set()
+    for match in MD_LINK_RE.finditer(text):
+        url = match.group(1).rstrip(".,;:!?")
+        if not is_blacklisted(url):
+            urls.add(url)
     for match in URL_RE.finditer(text):
         url = match.group().rstrip(".,;:!?")
         if not is_blacklisted(url):
             urls.add(url)
-    for match in DOMAIN_RE.finditer(text):
-        domain = match.group().lower()
-        if is_blacklisted(domain) or any(domain in u for u in urls):
-            continue
-        suffix = psl.publicsuffix(domain)
-        if suffix and suffix != domain and psl.privatesuffix(domain):
-            urls.add(f"https://{domain}")
-
-
-def extract_urls_from_md_links(text: str, urls: set[str]) -> None:
-    for match in MD_LINK_RE.finditer(text):
-        url = match.group(2).rstrip(".,;:!?")
-        if not is_blacklisted(url):
-            urls.add(url)
-
-
-def extract_urls(text: str) -> set[str]:
-    text = STRIKETHROUGH_RE.sub("", text)
-    urls: set[str] = set()
-    extract_urls_from_md_links(text, urls)
-    extract_urls_from_text(text, urls)
     return urls
+
+
+def extract_bare_urls(text: str) -> set[str]:
+    urls: set[str] = set()
+    for match in BARE_URL_RE.finditer(text):
+        bare = match.group().rstrip(".,;:!?")
+        if "](" in bare:
+            bare = bare.split("](")[0]
+        if is_blacklisted(bare):
+            continue
+        parsed = URL(f"https://{bare}")
+        host = parsed.host or ""
+        try:
+            ipaddress.ip_address(host.strip("[]"))
+            is_ip = True
+        except ValueError:
+            is_ip = False
+        if is_ip or psl.privatesuffix(host, accept_unknown=False):
+            urls.add(str(parsed))
+    return urls
+
+
+def extract_urls(text: str) -> tuple[set[str], bool]:
+    text = STRIKETHROUGH_RE.sub("", text)
+    urls = extract_explicit_urls(text)
+    if urls:
+        return urls, False
+    return extract_bare_urls(text), True
 
 
 def fetch_issues() -> list[dict]:
@@ -134,9 +163,11 @@ def extract_pr_urls(issues: list[dict]) -> list[PrUrl]:
         number = issue["number"]
         body = issue["body"]
         section = extract_source_link_section(body)
-        urls = extract_urls(section) or extract_urls(body)
+        urls, is_bare = extract_urls(section)
+        if not urls:
+            urls, is_bare = extract_urls(body)
         if urls:
-            pr_urls.extend(PrUrl(number, url) for url in urls)
+            pr_urls.extend(PrUrl(number, url, is_bare) for url in urls)
         else:
             pr_urls.append(PrUrl(number, ""))
     return sorted(pr_urls)
@@ -147,6 +178,8 @@ async def check_url(session: aiohttp.ClientSession, pr: PrUrl) -> CheckResult:
         return CheckResult(pr, Status.NOT_FOUND)
 
     def make_result(status: Status, duration: float, info: str, subcategory: str) -> CheckResult:
+        if pr.is_bare:
+            info = ",".join([*",".split(info), "Bare URL"])
         return CheckResult(pr, status, duration, info, subcategory)
 
     return await check_url_generic(session, pr.url, make_result)
@@ -180,7 +213,7 @@ async def main() -> None:
         REPORT_SECTIONS,
         TABLE_COLUMNS,
     )
-    await Path("STATUS_PR.md").write_text(report, encoding="utf-8")
+    await Path("STATUS_ISSUE.md").write_text(report, encoding="utf-8")
 
 
 if __name__ == "__main__":
