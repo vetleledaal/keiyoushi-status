@@ -21,8 +21,8 @@ on:
       - .github/workflows/check-issues.yaml
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  group: git-auto-commit-action
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -36,9 +36,6 @@ jobs:
       - env:
           GH_TOKEN: ${{ github.token }}
         run: .github/scripts/check_issues.py
-      - uses: actions/checkout@v6
-        with:
-          clean: false
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: 'chore: update issues status'
