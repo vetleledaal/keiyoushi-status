@@ -42,8 +42,8 @@ from publicsuffixlist import PublicSuffixList  # type: ignore[import-untyped]
 from yarl import URL
 
 REPO = "keiyoushi/extensions-source"
-LABEL = "Source Request"
-TABLE_COLUMNS = ["Status", "PR", "URL", "Time", "Info"]
+LABELS = {"Source Request", "Domain changed"}
+TABLE_COLUMNS = ["Status", "PR", "URL", "Time", "Labels", "Info"]
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
@@ -77,6 +77,7 @@ SOURCE_LINK_RES = [
 class PrUrl(NamedTuple):
     pr_number: int
     url: str
+    label: str = ""
     is_bare: bool = False
 
 
@@ -95,7 +96,7 @@ class CheckResult:
     def as_row(self) -> tuple[str, ...]:
         time_str = format_duration(self.duration, TIME_PRECISION_CUTOFF_SECONDS)
         pr_link = f"[#{self.pr.pr_number}](https://github.com/{REPO}/issues/{self.pr.pr_number})"
-        return (self.status.value, pr_link, self.pr.url, time_str, self.info)
+        return (self.status.value, pr_link, self.pr.url, time_str, self.pr.label, self.info)
 
 
 def extract_source_link_section(body: str) -> str:
@@ -153,8 +154,28 @@ def extract_urls(text: str) -> tuple[set[str], bool]:
 
 
 def fetch_issues() -> list[dict]:
-    cmd = ["gh", "issue", "list", "-R", REPO, "-l", LABEL, "-s", "open", "-L", "1000", "--json", "number,body"]
-    return json.loads(subprocess.run(cmd, capture_output=True, text=True, check=True).stdout)  # noqa: S603
+    seen: dict[int, dict] = {}
+    for label in LABELS:
+        cmd = [
+            "gh",
+            "issue",
+            "list",
+            "-R",
+            REPO,
+            "-l",
+            label,
+            "-s",
+            "open",
+            "-L",
+            "1000",
+            "--json",
+            "body,labels,number",
+        ]
+        for issue in json.loads(subprocess.run(cmd, capture_output=True, text=True, check=True).stdout):  # noqa: S603
+            if issue["number"] not in seen:
+                issue["label"] = ", ".join(lbl["name"] for lbl in issue["labels"] if lbl["name"] in LABELS)
+                seen[issue["number"]] = issue
+    return list(seen.values())
 
 
 def extract_pr_urls(issues: list[dict]) -> list[PrUrl]:
@@ -162,14 +183,15 @@ def extract_pr_urls(issues: list[dict]) -> list[PrUrl]:
     for issue in issues:
         number = issue["number"]
         body = issue["body"]
+        label = issue.get("label", "")
         section = extract_source_link_section(body)
         urls, is_bare = extract_urls(section)
         if not urls:
             urls, is_bare = extract_urls(body)
         if urls:
-            pr_urls.extend(PrUrl(number, url, is_bare) for url in urls)
+            pr_urls.extend(PrUrl(number, url, label, is_bare) for url in urls)
         else:
-            pr_urls.append(PrUrl(number, ""))
+            pr_urls.append(PrUrl(number, "", label))
     return sorted(pr_urls)
 
 
