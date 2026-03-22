@@ -42,7 +42,7 @@ from publicsuffixlist import PublicSuffixList  # type: ignore[import-untyped]
 from yarl import URL
 
 REPO = "keiyoushi/extensions-source"
-LABELS = {"Source Request", "Domain changed"}
+LABELS = {"Source request", "Domain changed"}
 TABLE_COLUMNS = ["Status", "PR", "URL", "Time", "Labels", "Info"]
 
 logging.basicConfig(level=logging.INFO)
@@ -228,7 +228,7 @@ async def main() -> None:
         results = await check_all_generic(session, pr_urls_shuffled, check_url, log_result)
 
     report = render_report_generic(
-        "Source Request URLs",
+        "URLs from issues",
         len(results),
         headers["User-Agent"],
         results,
