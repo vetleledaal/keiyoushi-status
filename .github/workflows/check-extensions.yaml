@@ -1,5 +1,5 @@
 ---
-name: Check sites
+name: Check extensions
 
 on:
   workflow_dispatch:
@@ -16,9 +16,9 @@ on:
     branches:
       - main
     paths:
-      - .github/scripts/check_sites.py
+      - .github/scripts/check_extensions.py
       - .github/scripts/common.py
-      - .github/workflows/check-sites.yaml
+      - .github/workflows/check-extensions.yaml
 
 concurrency:
   group: git-auto-commit-action
@@ -28,12 +28,12 @@ permissions:
   contents: write
 
 jobs:
-  check-sources:
+  check-extensions:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: astral-sh/setup-uv@v7
-      - run: .github/scripts/check_sites.py
+      - run: .github/scripts/check_extensions.py
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: 'chore: update status'
+          commit_message: 'chore: update extensions status'
