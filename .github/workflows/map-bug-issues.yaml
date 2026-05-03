@@ -1,0 +1,43 @@
+---
+name: Map bug issues
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Low activity: 23:00-08:00 UTC
+    - cron: '53 3 * * 0'
+  push:
+    branches:
+      - main
+    paths:
+      - .github/scripts/map_bug_issues.py
+      - .github/workflows/map-bug-issues.yaml
+      - STATUS.md
+
+concurrency:
+  group: git-auto-commit-action
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  map-bug-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: astral-sh/setup-uv@v7
+      - uses: actions/checkout@v6
+      - uses: actions/checkout@v6
+        with:
+          repository: keiyoushi/extensions-source
+          path: extensions-source
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: src
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: .github/scripts/map_bug_issues.py
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: 'chore: update bug issue map'
+          file_pattern: STATUS_ISSUE_MAP.md
