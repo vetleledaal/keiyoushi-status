@@ -79,7 +79,10 @@ class StatusEntry:
 class Match:
     entry: StatusEntry
     score: float
-    method: str  # "url" | "fuzzy" | "fuzzy+kt"
+    methods: tuple[
+        str,
+        ...,
+    ]  # "url" | "gh:body→extName" | "gh:title→extName" | "gh:body→kt:name" | "gh:body→kt:factory" | "gh:body→kt:class" | "gh:body→kt:dir"
 
 
 @dataclass
@@ -104,8 +107,8 @@ def romanize(text: str) -> list[str]:
     return slugs
 
 
-def build_ext_db(src: Path) -> dict[str, set[str]]:
-    db: dict[str, set[str]] = {}
+def build_ext_db(src: Path) -> dict[str, set[tuple[str, str]]]:
+    db: dict[str, set[tuple[str, str]]] = {}
     for gradle in src.rglob("build.gradle"):
         gradle_text = gradle.read_text(errors="ignore")
         m = EXT_NAME_RE.search(gradle_text)
@@ -114,27 +117,27 @@ def build_ext_db(src: Path) -> dict[str, set[str]]:
         ext_name = m.group(1)
         mc = EXT_CLASS_RE.search(gradle_text)
         ext_class_name = mc.group(1) if mc else None
-        kt_names: set[str] = set()
+        kt_entries: set[tuple[str, str]] = set()
         for kt in gradle.parent.rglob("*.kt"):
             text = kt.read_text(errors="ignore")
-            kt_names.update(km.group(1) for km in KT_NAME_RE.finditer(text))
-            # Factory pattern: class VCP : VerComics("VCP", ...) — capture display names
+            kt_entries.update((km.group(1), "kt:name") for km in KT_NAME_RE.finditer(text))
+            # Factory pattern: class VCP : VerComics("VCP", ...) - capture display names
             # from classes inheriting non-filter base classes.
             # Require name to start uppercase to exclude ISO language codes ("af", "fr", "id" ...)
             # which MangaDex and similar factory extensions pass as the first constructor arg.
             for km in KT_CLASS_DEF_RE.finditer(text):
                 if not KT_FILTER_PARENT_RE.search(km.group(2)) and km.group(3)[0].isupper():
-                    kt_names.add(km.group(3))
-        db[ext_name.lower()] = kt_names
+                    kt_entries.add((km.group(3), "kt:factory"))
+        db[ext_name.lower()] = kt_entries
         # Also allow lookup by extClass name (e.g. "MangaGun" → {"NihonKuni"})
         if ext_class_name:
             class_key = ext_class_name.lower()
             if class_key != ext_name.lower():
-                db.setdefault(class_key, set()).add(ext_name)
+                db.setdefault(class_key, set()).add((ext_name, "kt:class"))
         # Also index by directory slug (e.g. "spectralscan" → {"Nexus Toons"})
         dir_key = gradle.parent.name.lower()
         if dir_key != ext_name.lower():
-            db.setdefault(dir_key, set()).add(ext_name)
+            db.setdefault(dir_key, set()).add((ext_name, "kt:dir"))
     return db
 
 
@@ -201,7 +204,7 @@ def match_issue(
     match_entries: list[StatusEntry],
     match_names: list[str],
     host_map: dict[str, StatusEntry],
-    ext_db: dict[str, set[str]],
+    ext_db: dict[str, set[tuple[str, str]]],
 ) -> list[Match]:
     seen: dict[str, Match] = {}
 
@@ -213,20 +216,22 @@ def match_issue(
         stripped = STRIP_PROTO_RE.sub("", url).split("?")[0].rstrip("/").lower()
         host = STRIP_WWW_RE.sub("", stripped.split("/")[0])
         if host in host_map and host_map[host].name not in seen:
-            seen[host_map[host].name] = Match(host_map[host], 100.0, "url")
+            seen[host_map[host].name] = Match(host_map[host], 100.0, ("url",))
 
-    # 2. Fuzzy: source_name + title parts + Kotlin name aliases
+    # 2. source name + title parts + Kotlin name aliases
     # Kotlin alias lookup only fires when source_name is a package ID (e.g. co.navercomic)
     title_names = [n for n in title_to_names(title) if n.lower() != source_name.lower()]
-    queries: list[tuple[str, str]] = [(source_name, "fuzzy"), *((n, "fuzzy") for n in title_names)]
+    queries: list[tuple[str, str]] = [(source_name, "gh:body→extName"), *((n, "gh:title→extName") for n in title_names)]
     # Look up by exact name, extClass, or dir slug (slug strips spaces/hyphens for e.g. "Spectral Scan" → "spectralscan")
     slug = SLUG_NORM_RE.sub("", source_name.lower())
-    kt_names = ext_db.get(source_name.lower(), set()) | ext_db.get(slug, set())
+    kt_entries = ext_db.get(source_name.lower(), set()) | ext_db.get(slug, set())
     # For pkg-style IDs (e.g. "Fr.softepsilonscan"), also look up the suffix after the dot
     if PKG_ID_RE.match(source_name):
         pkg_suffix = source_name.lower().split(".", 1)[-1]
-        kt_names |= ext_db.get(pkg_suffix, set())
-    queries.extend((kt_name, "fuzzy+kt") for kt_name in kt_names if kt_name.lower() != source_name.lower())
+        kt_entries |= ext_db.get(pkg_suffix, set())
+    queries.extend(
+        (kt_name, f"gh:body→{kind}") for kt_name, kind in kt_entries if kt_name.lower() != source_name.lower()
+    )
 
     for query, method in queries:
         for _matched_name, score, idx in process.extract(
@@ -239,10 +244,13 @@ def match_issue(
         ):
             e = match_entries[idx]
             if e.name not in seen:
-                seen[e.name] = Match(e, score, method)
+                seen[e.name] = Match(e, score, (method,))
+            elif method not in seen[e.name].methods:
+                existing = seen[e.name]
+                seen[e.name] = Match(existing.entry, max(existing.score, score), (*existing.methods, method))
 
     # URL matches first, then by score descending
-    return sorted(seen.values(), key=lambda m: (m.method != "url", -m.score))
+    return sorted(seen.values(), key=lambda m: ("url" not in m.methods, -m.score))
 
 
 def render_table(results: list[IssueResult]) -> str:
@@ -259,22 +267,48 @@ def render_table(results: list[IssueResult]) -> str:
             issue_cell = f"{issue_link} {title}" if i == 0 else f"↳ [#{r.number}]"
             src_cell = source if i == 0 else ""
             url_cell = f"[{m.entry.url}]({m.entry.url})" if m.entry.url else ""
-            score_str = f"{m.score:.0f}" if m.score < 100 else "100"
-            detail = f" `{m.method} {score_str}`" if m.method != "url" else " `url`"
+            score_str = f"{m.score:.0f}%" if m.score < 100 else "100%"
+            has_url = "url" in m.methods
+            body_direct = "gh:body→extName" in m.methods
+            # Notable methods: title only if body didn't already match directly; kt variants always
+            notable = [
+                mth
+                for mth in m.methods
+                if mth not in {"url", "gh:body→extName"} and not (mth == "gh:title→extName" and body_direct)
+            ]
+            # Rename gh:title→extName to "title" for display
+            notable_display = ["title" if mth == "gh:title→extName" else mth for mth in notable]
+            if has_url and not notable:
+                detail = " `url`"
+            elif has_url:
+                detail = f" `url {' '.join(notable_display)} {score_str}`"
+            elif not notable:
+                detail = f" `{score_str}`"
+            else:
+                detail = f" `{' '.join(notable_display)} {score_str}`"
             rows.append(
                 f"| {issue_cell} | {src_cell} | {m.entry.emoji} | {m.entry.name.replace('|', chr(92) + '|')}{detail} | {url_cell} |",
             )
         return rows
 
-    matched_results = [r for r in results if r.matches]
+    exact_results = [r for r in results if len(r.matches) == 1 and r.matches[0].entry.name == r.source_name]
+    single_results = [r for r in results if len(r.matches) == 1 and r.matches[0].entry.name != r.source_name]
+    multi_results = [r for r in results if len(r.matches) >= 2]
     unmatched_results = [r for r in results if not r.matches]
+
+    def section(heading: str, subset: list[IssueResult]) -> list[str]:
+        return [
+            f"\n## {heading} ({len(subset)})\n",
+            *table_header,
+            *(row for r in subset for row in issue_rows(r)),
+        ]
 
     lines = [
         "# Bug Issue → Extension Map\n",
         f"_Updated {today}. Matched {matched} of {len(results)} open bug issues._\n",
-        f"## Matched ({len(matched_results)})\n",
-        *table_header,
-        *(row for r in matched_results for row in issue_rows(r)),
+        *section("Exact match", exact_results),
+        *section("Single match", single_results),
+        *section("Multiple matches", multi_results),
         f"\n## No match ({len(unmatched_results)})\n",
         *table_header,
         *(
