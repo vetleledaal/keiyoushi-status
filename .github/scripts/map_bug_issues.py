@@ -48,7 +48,7 @@ SOURCE_INFO_RE = re.compile(
     r"###\s*Source\s+(?:information|name)\s*\n(.*?)(?=\n###|\n##|\Z)",
     re.IGNORECASE | re.DOTALL,
 )
-VERSION_RE = re.compile(r"\s+v?\d[\d.]*\s*$", re.IGNORECASE)
+VERSION_RE = re.compile(r"(?:\s+-\s+|\s+)v?\d[\d.]*\s*$", re.IGNORECASE)
 KANA_RE = re.compile(r"[\u3040-\u309f\u30a0-\u30ff]")
 STATUS_ROW_URL_RE = re.compile(r"\|\s*(\S+)\s*\|\s*(.+?)\s*\|\s*(https?://\S+?)\s*\|")
 STATUS_ROW_RE = re.compile(r"\|\s*(\S+)\s*\|\s*(.+?)\s*\|\s*\|")
