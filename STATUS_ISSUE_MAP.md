@@ -1,9 +1,9 @@
 # Bug Issue → Extension Map
 
-_Updated 2026-05-11. Matched 185 of 186 open bug issues._
+_Updated 2026-05-12. Matched 180 of 182 open bug issues._
 
 
-## Exact match (74)
+## Exact match (73)
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
@@ -18,7 +18,7 @@ _Updated 2026-05-11. Matched 185 of 186 open bug issues._
 | [#15509](https://github.com/keiyoushi/extensions-source/issues/15509) LectorJPG: New website URL (`visorjpg.lat`) | LectorJPG | ✅ | LectorJPG `100%` | [https://lectorjpg.com](https://lectorjpg.com) |
 | [#15409](https://github.com/keiyoushi/extensions-source/issues/15409) Moon Daisy Scans: Url changed | Moon Daisy Scans | 🚧 | Moon Daisy Scans `100%` | [https://moondaisyscans.lol](https://moondaisyscans.lol) |
 | [#15406](https://github.com/keiyoushi/extensions-source/issues/15406) RF Dragon mudou de site | RF Dragon Scan | 🚧 | RF Dragon Scan `100%` | [https://rfdragonscan.com](https://rfdragonscan.com) |
-| [#15301](https://github.com/keiyoushi/extensions-source/issues/15301) Problem merlinscans from Chapter's section | Merlin Scans | ✅ | Merlin Scans `100%` | [https://merlintoon.com](https://merlintoon.com) |
+| [#15301](https://github.com/keiyoushi/extensions-source/issues/15301) Problem merlinscans from Chapter's section | Merlin Scans | 🚧 | Merlin Scans `100%` | [https://merlintoon.com](https://merlintoon.com) |
 | [#15286](https://github.com/keiyoushi/extensions-source/issues/15286) Stray Fansub: Url and theme changed | Stray Fansub | ❌ | Stray Fansub `100%` | [https://strayfansub.net](https://strayfansub.net) |
 | [#15066](https://github.com/keiyoushi/extensions-source/issues/15066) Verdinha: `HTTP 403` error | Verdinha | ✅ | Verdinha `url` | [https://verdinha.wtf](https://verdinha.wtf) |
 | [#14927](https://github.com/keiyoushi/extensions-source/issues/14927) Softkomik failed to get session | Softkomik | ✅ | Softkomik `100%` | [https://softkomik.co](https://softkomik.co) |
@@ -68,7 +68,6 @@ _Updated 2026-05-11. Matched 185 of 186 open bug issues._
 | [#8878](https://github.com/keiyoushi/extensions-source/issues/8878) Hattori Manga Epsode url error | Hattori Manga | ✅ | Hattori Manga `100%` | [https://hattorimanga.net](https://hattorimanga.net) |
 | [#8782](https://github.com/keiyoushi/extensions-source/issues/8782) Philia Scans incorrect date for chapters | Philia Scans | 🚧 | Philia Scans `100%` | [https://philiascans.org](https://philiascans.org) |
 | [#8696](https://github.com/keiyoushi/extensions-source/issues/8696) HentaiLib ext fails to load chapters (HTTP 404) | HentaiLib | 🚧 | HentaiLib `100%` | [https://hentailib.me](https://hentailib.me) |
-| [#8261](https://github.com/keiyoushi/extensions-source/issues/8261) Nicomanga no results found | Nicomanga | ✅ | Nicomanga `100%` | [https://nicomanga.com](https://nicomanga.com) |
 | [#7385](https://github.com/keiyoushi/extensions-source/issues/7385) When opening a chapter in Senkuro, there is a long loading of the first photo that does not exist in the WebView. | Senkuro | ⚠️ | Senkuro `100%` | [https://senkuro.me](https://senkuro.me) |
 | [#6442](https://github.com/keiyoushi/extensions-source/issues/6442) hentaifox repeating entries when searched. | HentaiFox | ✅ | HentaiFox `100%` | [https://hentaifox.com](https://hentaifox.com) |
 | [#6174](https://github.com/keiyoushi/extensions-source/issues/6174) Mugiwaras Oficial: SSLHandshakeException | Mugiwaras Oficial | ✅ | Mugiwaras Oficial `100%` | [https://mugiwarasoficial.com](https://mugiwarasoficial.com) |
@@ -82,15 +81,13 @@ _Updated 2026-05-11. Matched 185 of 186 open bug issues._
 | [#2092](https://github.com/keiyoushi/extensions-source/issues/2092) Honeymanga requires logining in | HoneyManga | ✅ | HoneyManga `100%` | [https://honey-manga.com.ua](https://honey-manga.com.ua) |
 | [#1715](https://github.com/keiyoushi/extensions-source/issues/1715) MyReadingManga: App crashes when using filter | MyReadingManga | ⚠️ | MyReadingManga `100%` | [https://myreadingmanga.info](https://myreadingmanga.info) |
 
-## Single match (60)
+## Single match (56)
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#15778](https://github.com/keiyoushi/extensions-source/issues/15778) ONF MANGAS: HTTP 403 error | Onf mangas 1. | 🚧 | ONF MANGAS `100%` | [https://onfmangas.com](https://onfmangas.com) |
+| [#15801](https://github.com/keiyoushi/extensions-source/issues/15801) Batcave HTTP 404 | Batcave | 🚧 | BatCave `100%` | [https://batcave.biz](https://batcave.biz) |
 | [#15714](https://github.com/keiyoushi/extensions-source/issues/15714) Raijin scan : invalid chapter URL | Raijin scan | 🛑 | Raijin Scans `96%` | [https://raijin-scans.fr](https://raijin-scans.fr) |
 | [#15669](https://github.com/keiyoushi/extensions-source/issues/15669) New URL | es.lmtoonline | 🚧 | Lmtos `gh:body→kt:dir 100%` | [https://www.lmtos.com](https://www.lmtos.com) |
-| [#15606](https://github.com/keiyoushi/extensions-source/issues/15606) Baka Manhua All Chapter 0 | Baka Manhua | 🚧 | 巴卡漫画 `95%` | [https://bakamh.com](https://bakamh.com) |
-| [#15595](https://github.com/keiyoushi/extensions-source/issues/15595) Catharsis World: Covers display hotlink warning | Catharsis Word | ❌ | Catharsis World `100%` | [https://catharsisworld.lat](https://catharsisworld.lat) |
 | [#15594](https://github.com/keiyoushi/extensions-source/issues/15594) Little Tyrant | Não pega nd | ✅ | Little Tyrant `title 100%` | [https://tiraninha.world](https://tiraninha.world) |
 | [#15515](https://github.com/keiyoushi/extensions-source/issues/15515) Picacomic: URL change | Picacomic | ⚠️ | 哔咔漫画 `gh:body→kt:name 100%` | [https://picaapi.picacomic.com](https://picaapi.picacomic.com) |
 | [#15381](https://github.com/keiyoushi/extensions-source/issues/15381) Mangawt New Site Design | Mangawt | 🚧 | MangaWT `100%` | [https://mangawt.com](https://mangawt.com) |
@@ -118,7 +115,6 @@ _Updated 2026-05-11. Matched 185 of 186 open bug issues._
 | [#11000](https://github.com/keiyoushi/extensions-source/issues/11000) Mangabuff: Chapter images are low quality | Mangabuff | ⚠️ | MangaBuff `100%` | [https://mangabuff.ru](https://mangabuff.ru) |
 | [#10938](https://github.com/keiyoushi/extensions-source/issues/10938) Manhuawu / 漫画屋: `Field 'data' is required` error | Manhuawu / 漫画屋: `Field 'data' is required` error | ✅ | 漫画屋 `100%` | [https://www.mhua5.com](https://www.mhua5.com) |
 | [#10910](https://github.com/keiyoushi/extensions-source/issues/10910) 如漫画 / Rumanhua: `timeout` error, source is down | 如漫画 / Rumanhua: `timeout` error, source is down | ❌ | 如漫画 `100%` | [https://m.rumanhua2.com](https://m.rumanhua2.com) |
-| [#10877](https://github.com/keiyoushi/extensions-source/issues/10877) Sirenkomik: `No results found` error | Siren komik | 🚧 | Siren Komik `100%` | [https://sirenkomik.xyz](https://sirenkomik.xyz) |
 | [#10737](https://github.com/keiyoushi/extensions-source/issues/10737) Arabs Hentai : Change the chapter display format | Arabs Hentai | 🛑 | هنتاي العرب `url gh:body→kt:name 100%` | [https://arabshentai.com](https://arabshentai.com) |
 | [#10693](https://github.com/keiyoushi/extensions-source/issues/10693) 再漫画有些漫画出现Bad position的错误代码 | zaimanhua | ✅ | 再漫画 `gh:body→kt:name 100%` | [https://manhua.zaimanhua.com](https://manhua.zaimanhua.com) |
 | [#10588](https://github.com/keiyoushi/extensions-source/issues/10588) Manga Hentai search function broken | Manga Hentai 1.4.48 | ⚠️ | Manga Hentai `100%` | [https://mangahentai.me](https://mangahentai.me) |
@@ -135,24 +131,23 @@ _Updated 2026-05-11. Matched 185 of 186 open bug issues._
 | [#8386](https://github.com/keiyoushi/extensions-source/issues/8386) Unable to view chapters unlocked in WebView | TappyToon | ✅ | Tappytoon `100%` | [https://www.tappytoon.com/de](https://www.tappytoon.com/de) |
 | [#7809](https://github.com/keiyoushi/extensions-source/issues/7809) KillSixBillionDemons: Chapters not loading for all books/loading incorrectly | Kill Six Billion Demons | ✅ | KillSixBillionDemons `title gh:body→kt:name 100%` | [https://killsixbilliondemons.com](https://killsixbilliondemons.com) |
 | [#7630](https://github.com/keiyoushi/extensions-source/issues/7630) BlackToon: Images could not be loaded error | BlackToon | 🔀 | 블랙툰 `gh:body→kt:name 100%` | [https://blacktoon.me](https://blacktoon.me) |
-| [#7457](https://github.com/keiyoushi/extensions-source/issues/7457) "Gölge Bahçesi" Chapters Fail to Load After Server Selection Feature Implementation | golgebahcesi | 🚧 | Gölge Bahçesi `title gh:body→kt:dir gh:body→kt:class 100%` | [https://golgebahcesi.com](https://golgebahcesi.com) |
-| [#7355](https://github.com/keiyoushi/extensions-source/issues/7355) Ninehentai not using correct url to view galleries | Ninehentai | ✅ | NineHentai `100%` | [https://9hentai.so](https://9hentai.so) |
+| [#7457](https://github.com/keiyoushi/extensions-source/issues/7457) "Gölge Bahçesi" Chapters Fail to Load After Server Selection Feature Implementation | golgebahcesi | 🚧 | Gölge Bahçesi `title gh:body→kt:class gh:body→kt:dir 100%` | [https://golgebahcesi.com](https://golgebahcesi.com) |
+| [#7355](https://github.com/keiyoushi/extensions-source/issues/7355) Ninehentai not using correct url to view galleries | Ninehentai | ❌ | NineHentai `100%` | [https://9hentai.so](https://9hentai.so) |
 | [#7320](https://github.com/keiyoushi/extensions-source/issues/7320) MangaGun: Unable to get the next page when filtering a specific genre | MangaGun | ✅ | NihonKuni `gh:body→kt:class gh:body→kt:dir 100%` | [https://nihonkuni.com](https://nihonkuni.com) |
 | [#6594](https://github.com/keiyoushi/extensions-source/issues/6594) wnacg Browsing some galleries crashes the extension and TachiyomiSY | wnacg | ✅ | 紳士漫畫 `gh:body→kt:name 100%` | [https://www.wnacg05.cc](https://www.wnacg05.cc) |
 | [#6468](https://github.com/keiyoushi/extensions-source/issues/6468) Lura Toon: HTTP 404 Error | Lura Toon: HTTP 404 Error | ⚠️ | Lura Toon `100%` | [https://luratoons.net](https://luratoons.net) |
 | [#6109](https://github.com/keiyoushi/extensions-source/issues/6109) Manta comics can't log in to view locked chapters | Manta comics can't log in to view locked chapters | ✅ | Manta `100%` | [https://manta.net](https://manta.net) |
 | [#6032](https://github.com/keiyoushi/extensions-source/issues/6032) 無限動漫 / 8comic (Comicabc): Unexpected end of string error | Comicabc | ✅ | 無限動漫 `title gh:body→kt:name 100%` | [https://www.8comic.com](https://www.8comic.com) |
 | [#4418](https://github.com/keiyoushi/extensions-source/issues/4418) [bug] Komga Extension Library Filters  | tachiyomi-all.komga-v | ❌ | Komga `100%` |  |
-| [#3598](https://github.com/keiyoushi/extensions-source/issues/3598) NicoManga: chapter pages and browse are broken | NicoManga | ✅ | Nicomanga `100%` | [https://nicomanga.com](https://nicomanga.com) |
-| [#2010](https://github.com/keiyoushi/extensions-source/issues/2010) Hiveworks: `This comic has an unsupported chapter list` error (filter out or add support) | Hiveworks | ✅ | Hiveworks Comics `gh:body→kt:dir gh:body→kt:class 100%` | [https://hiveworkscomics.com](https://hiveworkscomics.com) |
+| [#2010](https://github.com/keiyoushi/extensions-source/issues/2010) Hiveworks: `This comic has an unsupported chapter list` error (filter out or add support) | Hiveworks | ✅ | Hiveworks Comics `gh:body→kt:class gh:body→kt:dir 100%` | [https://hiveworkscomics.com](https://hiveworkscomics.com) |
 | [#487](https://github.com/keiyoushi/extensions-source/issues/487) Comico: Chapter number mismatch | Comico | ✅ | コミコ `gh:body→kt:name 100%` | [https://www.comico.jp](https://www.comico.jp) |
 
 ## Multiple matches (51)
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#15787](https://github.com/keiyoushi/extensions-source/issues/15787) Comix: `fetch timed out` for entries randomly | Comix: | ✅ | Comix `100%` | [https://comix.to](https://comix.to) |
-| ↳ [#15787] |  | ✅ | GEDE Comix `100%` | [https://gedecomix.com](https://gedecomix.com) |
+| [#15800](https://github.com/keiyoushi/extensions-source/issues/15800) MangaDex: v1.4.208 breaks delegated source features in TachiyomiSY | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
+| ↳ [#15800] |  | ✅ | MangaDE `93%` | [https://mangade.io](https://mangade.io) |
 | [#15711](https://github.com/keiyoushi/extensions-source/issues/15711) Mangago chapter refresh marks some chapters as read | Mangago | ✅ | MangaGo.fun `100%` | [https://www.mangago.fun](https://www.mangago.fun) |
 | ↳ [#15711] |  | 🚧 | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 | [#15647](https://github.com/keiyoushi/extensions-source/issues/15647) Asura Scans: Unable to view locked chapters with Premium account signed in on WebView | Asura Scans | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
@@ -188,7 +183,6 @@ _Updated 2026-05-11. Matched 185 of 186 open bug issues._
 | [#12971](https://github.com/keiyoushi/extensions-source/issues/12971) Manga şehri.net: HTTP 500 error | Manga Şehri.net | ✅ | Manga Şehri.net `100%` | [https://manga-sehri.net](https://manga-sehri.net) |
 | ↳ [#12971] |  | 🚧 | Manga Şehri `100%` | [https://manga-sehri.com](https://manga-sehri.com) |
 | [#12537](https://github.com/keiyoushi/extensions-source/issues/12537) KuroMangas: `HTTP 401` error | Kuro Mangas | 🔀 | KuroMangas `gh:body→kt:name 100%` | [https://beta.kuromangas.com](https://beta.kuromangas.com) |
-| ↳ [#12537] |  | 🚧 | KuroManga `gh:body→kt:name 95%` | [https://kuromanga.me](https://kuromanga.me) |
 | ↳ [#12537] |  | ✅ | Kuroi Manga `91%` | [https://www.kuroimanga.top](https://www.kuroimanga.top) |
 | [#12459](https://github.com/keiyoushi/extensions-source/issues/12459) Comick (unoriginal): `Unexpected JSON token` error in specific entry | Comick | ✅ | Comick (Unoriginal) `url` | [https://comick.live](https://comick.live) |
 | ↳ [#12459] |  | ✅ | ComicK Fanmade `100%` | [https://comickfan.com](https://comickfan.com) |
@@ -198,7 +192,7 @@ _Updated 2026-05-11. Matched 185 of 186 open bug issues._
 | ↳ [#12063] |  | ⚠️ | VyvyManga.org `100%` | [https://vyvymanga.org](https://vyvymanga.org) |
 | [#12010](https://github.com/keiyoushi/extensions-source/issues/12010) Comick (unoriginal): `No chapters found` error in entries while filtering by language | Comick | ✅ | Comick (Unoriginal) `100%` | [https://comick.live](https://comick.live) |
 | ↳ [#12010] |  | ✅ | ComicK Fanmade `100%` | [https://comickfan.com](https://comickfan.com) |
-| [#11929](https://github.com/keiyoushi/extensions-source/issues/11929) GocTruyenTranhVui:  Token/ account gets frequently banned | GocTruyenTranhVui | ✅ | Goc Truyen Tranh Vui `gh:body→kt:dir gh:body→kt:class 100%` | [https://goctruyentranhvui23.com](https://goctruyentranhvui23.com) |
+| [#11929](https://github.com/keiyoushi/extensions-source/issues/11929) GocTruyenTranhVui:  Token/ account gets frequently banned | GocTruyenTranhVui | ❌ | Goc Truyen Tranh Vui `gh:body→kt:dir gh:body→kt:class 100%` | [https://goctruyentranhvui23.com](https://goctruyentranhvui23.com) |
 | ↳ [#11929] |  | ✅ | GocTruyenTranh `90%` | [https://goctruyentranh.com](https://goctruyentranh.com) |
 | [#11853](https://github.com/keiyoushi/extensions-source/issues/11853) Mangahub (RU): `HTTP 404` error, No chapters found in series | Mangahub | ✅ | Mangahub `100%` | [https://mangahub.ru](https://mangahub.ru) |
 | ↳ [#11853] |  | ✅ | MangaHub `100%` | [https://www.mangaxhentai.com](https://www.mangaxhentai.com) |
@@ -265,8 +259,9 @@ _Updated 2026-05-11. Matched 185 of 186 open bug issues._
 | ↳ [#3415] |  | ❌ | Komga (2) `100%` |  |
 | ↳ [#3415] |  | ❌ | Komga (3) `100%` |  |
 
-## No match (1)
+## No match (2)
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
 | [#15749](https://github.com/keiyoushi/extensions-source/issues/15749) هناك مشكلة في تحديث مصادر | 1.4.52/1.4.1/1.4.50/ | | | |
+| [#10877](https://github.com/keiyoushi/extensions-source/issues/10877) Sirenkomik: `No results found` error | Siren komik | | | |
