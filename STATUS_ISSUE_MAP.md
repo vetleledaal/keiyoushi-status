@@ -1,9 +1,9 @@
 # Bug Issue → Extension Map
 
-_Updated 2026-05-23. Matched 189 of 190 open bug issues._
+_Updated 2026-05-23. Matched 190 of 190 open bug issues._
 
 
-## Exact match (82)
+## Exact match (83)
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
@@ -22,6 +22,7 @@ _Updated 2026-05-23. Matched 189 of 190 open bug issues._
 | [#16052](https://github.com/keiyoushi/extensions-source/issues/16052) [ProChan] Pages not loading / duplicate pages / scrambled image reconstruction broken | ProChan | 🚧 | ProChan `100%` | [https://prochan.net](https://prochan.net) |
 | [#16051](https://github.com/keiyoushi/extensions-source/issues/16051) Raijin scan bug | Raijin Scans | 🛑 | Raijin Scans `100%` | [https://raijin-scans.fr](https://raijin-scans.fr) |
 | [#16048](https://github.com/keiyoushi/extensions-source/issues/16048) Holotoon 404 not found on Mihon but still accessible from Webview | Holotoon | 🚧 | Holotoon `100%` | [https://01.holotoon.site](https://01.holotoon.site) |
+| [#16046](https://github.com/keiyoushi/extensions-source/issues/16046) Goda漫画加载非常缓慢！ | GoDa漫画 | ✅ | GoDa漫画 `100%` | [https://baozimh.org](https://baozimh.org) |
 | [#16034](https://github.com/keiyoushi/extensions-source/issues/16034) Yomu Comics: `Payload da obra não encontrado` error | Yomu Comics | ✅ | Yomu Comics `100%` | [https://yomu.com.br](https://yomu.com.br) |
 | [#16011](https://github.com/keiyoushi/extensions-source/issues/16011) Comicazen: HTTP 403 error when reading/downloading a chapter | Comicazen | 🚧 | Comicazen `100%` | [https://comicazen.com](https://comicazen.com) |
 | [#15977](https://github.com/keiyoushi/extensions-source/issues/15977) Softkomik: `HTTP 404` error | Softkomik | ✅ | Softkomik `100%` | [https://softkomik.co](https://softkomik.co) |
@@ -103,7 +104,7 @@ _Updated 2026-05-23. Matched 189 of 190 open bug issues._
 | [#16001](https://github.com/keiyoushi/extensions-source/issues/16001) Fairy Scans: `No chapters found`, `No results found` error | Fairy scans | 🚧 | Fairy Scans `100%` | [https://fairyscans.com](https://fairyscans.com) |
 | [#15985](https://github.com/keiyoushi/extensions-source/issues/15985) The Blank `the image couldn't be loaded` | The blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
 | [#15978](https://github.com/keiyoushi/extensions-source/issues/15978) Komiic: Previously downloaded manga not detected in Komiic 1.4.6 | komiic | ✅ | Komiic `100%` | [https://komiic.com](https://komiic.com) |
-| [#15898](https://github.com/keiyoushi/extensions-source/issues/15898) Mediocre toons não carrega novos capitulos | Mediocretoons | ✅ | Mediocre Toons `gh:body→kt:dir gh:body→kt:class 100%` | [https://mediocrescan.com](https://mediocrescan.com) |
+| [#15898](https://github.com/keiyoushi/extensions-source/issues/15898) Mediocre toons não carrega novos capitulos | Mediocretoons | ✅ | Mediocre Toons `gh:body→kt:class gh:body→kt:dir 100%` | [https://mediocrescan.com](https://mediocrescan.com) |
 | [#15858](https://github.com/keiyoushi/extensions-source/issues/15858) LinkManga: `Failed to bypass Cloudflare` error | Linkmanga | 🚧 | LinkManga `100%` | [https://linkmanga.com](https://linkmanga.com) |
 | [#15857](https://github.com/keiyoushi/extensions-source/issues/15857) NixManga: `HTTP 401` error | Nixmanga | ✅ | NixManga `100%` | [https://nixmanga.com](https://nixmanga.com) |
 | [#15824](https://github.com/keiyoushi/extensions-source/issues/15824) Mikoroku fail to load | Mikoroku fail to load | 🔀 | MikoRoku `100%` | [https://www.mikoroku.com](https://www.mikoroku.com) |
@@ -140,14 +141,14 @@ _Updated 2026-05-23. Matched 189 of 190 open bug issues._
 | [#9843](https://github.com/keiyoushi/extensions-source/issues/9843) Luratoons: login expires too often | Lura toon | ⚠️ | Lura Toon `100%` | [https://luratoons.net](https://luratoons.net) |
 | [#9677](https://github.com/keiyoushi/extensions-source/issues/9677) Spectral Scan (PT-Br Source) Error `IllegalArgumentException` | Spectral Scan | 🛑 | Nexus Toons `gh:body→kt:dir 100%` | [https://nx-toons.xyz](https://nx-toons.xyz) |
 | [#9496](https://github.com/keiyoushi/extensions-source/issues/9496) マンガ図書館Z HTTP error 500 | Manga Toshokan Z | ✅ | マンガ図書館Z `gh:body→kt:name 100%` | [https://www.mangaz.com](https://www.mangaz.com) |
-| [#9389](https://github.com/keiyoushi/extensions-source/issues/9389) Jinman Tiantang: Some series is only available on their app | zh.jinmantiantang | 🚧 | 禁漫天堂 `gh:body→kt:dir gh:body→kt:class 100%` | [https://18comic.vip](https://18comic.vip) |
+| [#9389](https://github.com/keiyoushi/extensions-source/issues/9389) Jinman Tiantang: Some series is only available on their app | zh.jinmantiantang | 🚧 | 禁漫天堂 `gh:body→kt:class gh:body→kt:dir 100%` | [https://18comic.vip](https://18comic.vip) |
 | [#9298](https://github.com/keiyoushi/extensions-source/issues/9298) Senkognito: `Unexpected JSON token` error | Senkognito: `Unexpected JSON token` error | ⚠️ | Senkognito `100%` | [https://senkuro.me](https://senkuro.me) |
 | [#8819](https://github.com/keiyoushi/extensions-source/issues/8819) Vomic is up again, but fix is require | Vomic | 🔀 | vomic `100%` | [http://www.vomicmh.com](http://www.vomicmh.com) |
 | [#8386](https://github.com/keiyoushi/extensions-source/issues/8386) Unable to view chapters unlocked in WebView | TappyToon | ✅ | Tappytoon `100%` | [https://www.tappytoon.com/de](https://www.tappytoon.com/de) |
 | [#7809](https://github.com/keiyoushi/extensions-source/issues/7809) KillSixBillionDemons: Chapters not loading for all books/loading incorrectly | Kill Six Billion Demons | ✅ | KillSixBillionDemons `title gh:body→kt:name 100%` | [https://killsixbilliondemons.com](https://killsixbilliondemons.com) |
 | [#7630](https://github.com/keiyoushi/extensions-source/issues/7630) BlackToon: Images could not be loaded error | BlackToon | 🔀 | 블랙툰 `gh:body→kt:name 100%` | [https://blacktoon.me](https://blacktoon.me) |
-| [#7457](https://github.com/keiyoushi/extensions-source/issues/7457) "Gölge Bahçesi" Chapters Fail to Load After Server Selection Feature Implementation | golgebahcesi | 🚧 | Gölge Bahçesi `title gh:body→kt:dir gh:body→kt:class 100%` | [https://golgebahcesi.com](https://golgebahcesi.com) |
-| [#7320](https://github.com/keiyoushi/extensions-source/issues/7320) MangaGun: Unable to get the next page when filtering a specific genre | MangaGun | ✅ | NihonKuni `gh:body→kt:dir gh:body→kt:class 100%` | [https://nihonkuni.com](https://nihonkuni.com) |
+| [#7457](https://github.com/keiyoushi/extensions-source/issues/7457) "Gölge Bahçesi" Chapters Fail to Load After Server Selection Feature Implementation | golgebahcesi | 🚧 | Gölge Bahçesi `title gh:body→kt:class gh:body→kt:dir 100%` | [https://golgebahcesi.com](https://golgebahcesi.com) |
+| [#7320](https://github.com/keiyoushi/extensions-source/issues/7320) MangaGun: Unable to get the next page when filtering a specific genre | MangaGun | ✅ | NihonKuni `gh:body→kt:class gh:body→kt:dir 100%` | [https://nihonkuni.com](https://nihonkuni.com) |
 | [#6594](https://github.com/keiyoushi/extensions-source/issues/6594) wnacg Browsing some galleries crashes the extension and TachiyomiSY | wnacg | ✅ | 紳士漫畫 `gh:body→kt:name 100%` | [https://www.wnacg05.cc](https://www.wnacg05.cc) |
 | [#6468](https://github.com/keiyoushi/extensions-source/issues/6468) Lura Toon: HTTP 404 Error | Lura Toon: HTTP 404 Error | ⚠️ | Lura Toon `100%` | [https://luratoons.net](https://luratoons.net) |
 | [#6109](https://github.com/keiyoushi/extensions-source/issues/6109) Manta comics can't log in to view locked chapters | Manta comics can't log in to view locked chapters | ✅ | Manta `100%` | [https://manta.net](https://manta.net) |
@@ -206,7 +207,7 @@ _Updated 2026-05-23. Matched 189 of 190 open bug issues._
 | ↳ [#12063] |  | ⚠️ | VyvyManga.org `100%` | [https://vyvymanga.org](https://vyvymanga.org) |
 | [#12010](https://github.com/keiyoushi/extensions-source/issues/12010) Comick (unoriginal): `No chapters found` error in entries while filtering by language | Comick | ✅ | Comick (Unoriginal) `100%` | [https://comick.live](https://comick.live) |
 | ↳ [#12010] |  | ✅ | ComicK Fanmade `100%` | [https://comickfan.com](https://comickfan.com) |
-| [#11929](https://github.com/keiyoushi/extensions-source/issues/11929) GocTruyenTranhVui:  Token/ account gets frequently banned | GocTruyenTranhVui | 🚧 | Goc Truyen Tranh Vui `gh:body→kt:dir gh:body→kt:class 100%` | [https://goctruyentranhvuiiiiiiiiii.site](https://goctruyentranhvuiiiiiiiiii.site) |
+| [#11929](https://github.com/keiyoushi/extensions-source/issues/11929) GocTruyenTranhVui:  Token/ account gets frequently banned | GocTruyenTranhVui | 🚧 | Goc Truyen Tranh Vui `gh:body→kt:class gh:body→kt:dir 100%` | [https://goctruyentranhvuiiiiiiiiii.site](https://goctruyentranhvuiiiiiiiiii.site) |
 | ↳ [#11929] |  | ✅ | GocTruyenTranh `90%` | [https://goctruyentranh.com](https://goctruyentranh.com) |
 | [#11729](https://github.com/keiyoushi/extensions-source/issues/11729) 'Latest' tab issue on Doujindesu | Doujindesu | 🛑 | Doujindesu `100%` | [https://doujindesu.tv](https://doujindesu.tv) |
 | ↳ [#11729] |  | ❌ | DoujinDesu (Unoriginal) `100%` | [https://v2.doujindesu.fun](https://v2.doujindesu.fun) |
@@ -258,8 +259,7 @@ _Updated 2026-05-23. Matched 189 of 190 open bug issues._
 | ↳ [#3415] |  | ❌ | Komga (2) `100%` |  |
 | ↳ [#3415] |  | ❌ | Komga (3) `100%` |  |
 
-## No match (1)
+## No match (0)
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#16046](https://github.com/keiyoushi/extensions-source/issues/16046) Goda漫画加载非常缓慢！ | Goda漫画加载非常缓慢！ | | | |
