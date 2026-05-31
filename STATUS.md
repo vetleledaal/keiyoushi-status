@@ -5,1571 +5,1570 @@ User-Agent: `Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gec
 
 ## OK
 
-Count: 954
+Count: 944
 
 | Status   | Name                                              | URL                                                   | Time   | Info   |
 |----------|---------------------------------------------------|-------------------------------------------------------|--------|--------|
-| ✅        | 11toon                                            | https://www.11toon.com                                | 2.269s |        |
-| ✅        | 18 Porn Comic                                     | https://18porncomic.com                               | 1.153s |        |
-| ✅        | 24HNovel                                          | https://24hnovel.com                                  | 0.454s |        |
-| ✅        | 3600000 Beauty                                    | https://3600000.xyz                                   | 1.094s |        |
-| ✅        | 3Hentai                                           | https://3hentai.net                                   | 0.820s |        |
-| ✅        | 4KHD                                              | https://www.4khd.com                                  | 1.197s |        |
-| ✅        | 6ianfranc9                                        | https://capibaratraductor.com/6ianfranc9              | 0.399s |        |
-| ✅        | 92漫画                                              | http://www.92mh.com                                   | 0.806s |        |
-| ✅        | AComics                                           | https://acomics.ru                                    | 2.205s |        |
-| ✅        | Adonis Fansub                                     | https://manga.adonisfansub.com                        | 2.556s |        |
-| ✅        | AHottie                                           | https://ahottie.top                                   | 3.663s |        |
-| ✅        | Akai Comic                                        | https://akaicomic.org                                 | 1.114s |        |
-| ✅        | AKAYA                                             | https://akaya.io                                      | 2.834s |        |
-| ✅        | Alandal                                           | https://alandal.com                                   | 0.796s |        |
-| ✅        | AllHentai                                         | https://20.allhen.online                              | 2.284s |        |
-| ✅        | AllManga                                          | https://allmanga.to                                   | 0.752s |        |
-| ✅        | AllPornComic.io                                   | https://allporncomic.io                               | 1.098s |        |
-| ✅        | Alpha Centauri                                    | https://capibaratraductor.com/alphacentauri           | 0.195s |        |
-| ✅        | Alphapolis                                        | https://www.alphapolis.co.jp                          | 0.964s |        |
-| ✅        | Alucard Scans                                     | https://alucardscans.com                              | 2.020s |        |
-| ✅        | Amanga Planet                                     | https://www.amangaplanet.com.tr                       | 2.779s |        |
-| ✅        | Ame Fansub                                        | https://capibaratraductor.com/ame                     | 0.366s |        |
-| ✅        | Ameba Manga                                       | https://dokusho-ojikan.jp                             | 1.418s |        |
-| ✅        | Anikiga                                           | https://anikiga.com                                   | 2.601s |        |
-| ✅        | Anime GDR Club                                    | http://www.agcscanlation.it/                          | 1.454s |        |
-| ✅        | AnimeSama                                         | https://anime-sama.to                                 | 1.594s |        |
-| ✅        | AnimeXNovel                                       | https://www.animexnovel.com                           | 2.688s |        |
-| ✅        | Animu No Mansebia                                 | https://capibaratraductor.com/animunm                 | 0.427s |        |
-| ✅        | Anisa Scans                                       | https://anisascans.in                                 | 0.854s |        |
-| ✅        | AntiPatreon Scan                                  | https://capibaratraductor.com/antipatreon             | 0.335s |        |
-| ✅        | AnzManga                                          | https://www.anzmanga25.com                            | 1.468s |        |
-| ✅        | Apenas Uma Fã                                     | https://apenasuma-fa.blogspot.com                     | 1.170s |        |
-| ✅        | ApollComics                                       | https://apollcomics.es                                | 1.224s |        |
-| ✅        | Aqua Manga                                        | https://aquareader.org                                | 2.608s |        |
-| ✅        | AralosBD                                          | https://aralosbd.fr                                   | 1.399s |        |
-| ✅        | ArbxComix                                         | https://arbxcomix.com                                 | 0.780s |        |
-| ✅        | Arc-Relight                                       | https://arc-relight.com                               | 0.903s |        |
-| ✅        | Arcura Fansub                                     | https://arcurafansub.com                              | 2.460s |        |
-| ✅        | Arena Scans                                       | https://arenascan.com                                 | 2.323s |        |
-| ✅        | Argos Comics                                      | https://aniargos.com                                  | 2.019s |        |
-| ✅        | Argos Scan                                        | https://argoscomics.online                            | 1.941s |        |
-| ✅        | Arigato S.A                                       | https://capibaratraductor.com/arigatosa               | 0.322s |        |
-| ✅        | Art Lapsa                                         | https://artlapsa.com                                  | 1.242s |        |
-| ✅        | Arya Scans                                        | https://brainrotcomics.com                            | 1.247s |        |
-| ✅        | Asia Lotus                                        | https://asialotuss.com                                | 1.672s |        |
-| ✅        | AsmHentai                                         | https://asmhentai.com                                 | 1.544s |        |
-| ✅        | Asmodeus Scans                                    | https://asmotoon.com                                  | 6.027s |        |
-| ✅        | Asperuas Tradus                                   | https://capibaratraductor.com/asperuastradus          | 0.283s |        |
-| ✅        | Assorted Scans                                    | https://assortedscans.com                             | 0.758s |        |
-| ✅        | Astral Scans                                      | https://astralscans.top                               | 1.086s |        |
-| ✅        | Asuka Langley Translations                        | https://capibaratraductor.com/asukatranslations       | 0.693s |        |
-| ✅        | Asura Scans                                       | https://asurascans.com                                | 0.880s |        |
-| ✅        | Asura Scans TR                                    | https://asurascans.com.tr                             | 2.044s |        |
-| ✅        | Atsumaru                                          | https://atsu.moe                                      | 1.015s |        |
-| ✅        | Aurora                                            | https://comicaurora.com                               | 1.071s |        |
-| ✅        | Azora                                             | https://azoramoon.com                                 | 1.369s |        |
-| ✅        | Azure Bloom                                       | https://capibaratraductor.com/azurebloom              | 0.485s |        |
-| ✅        | Bacami                                            | https://bacami.net                                    | 1.753s |        |
+| ✅        | 11toon                                            | https://www.11toon.com                                | 2.621s |        |
+| ✅        | 18 Porn Comic                                     | https://18porncomic.com                               | 1.016s |        |
+| ✅        | 24HNovel                                          | https://24hnovel.com                                  | 0.687s |        |
+| ✅        | 3600000 Beauty                                    | https://3600000.xyz                                   | 0.342s |        |
+| ✅        | 3Hentai                                           | https://3hentai.net                                   | 0.619s |        |
+| ✅        | 4KHD                                              | https://www.4khd.com                                  | 1.014s |        |
+| ✅        | 6ianfranc9                                        | https://capibaratraductor.com/6ianfranc9              | 0.347s |        |
+| ✅        | AComics                                           | https://acomics.ru                                    | 2.529s |        |
+| ✅        | Adonis Fansub                                     | https://manga.adonisfansub.com                        | 1.807s |        |
+| ✅        | AHottie                                           | https://ahottie.top                                   | 4.103s |        |
+| ✅        | Akai Comic                                        | https://akaicomic.org                                 | 1.941s |        |
+| ✅        | AKAYA                                             | https://akaya.io                                      | 4.835s |        |
+| ✅        | Alandal                                           | https://alandal.com                                   | 1.591s |        |
+| ✅        | AllHentai                                         | https://20.allhen.online                              | 2.476s |        |
+| ✅        | AllManga                                          | https://allmanga.to                                   | 0.596s |        |
+| ✅        | AllPornComic.io                                   | https://allporncomic.io                               | 1.947s |        |
+| ✅        | Alpha Centauri                                    | https://capibaratraductor.com/alphacentauri           | 0.310s |        |
+| ✅        | Alucard Scans                                     | https://alucardscans.com                              | 2.104s |        |
+| ✅        | Amanga Planet                                     | https://www.amangaplanet.com.tr                       | 2.374s |        |
+| ✅        | Ame Fansub                                        | https://capibaratraductor.com/ame                     | 0.373s |        |
+| ✅        | Ameba Manga                                       | https://dokusho-ojikan.jp                             | 1.423s |        |
+| ✅        | Anikiga                                           | https://anikiga.com                                   | 2.569s |        |
+| ✅        | Anime GDR Club                                    | http://www.agcscanlation.it/                          | 1.769s |        |
+| ✅        | AnimeSama                                         | https://anime-sama.to                                 | 1.753s |        |
+| ✅        | AnimeXNovel                                       | https://www.animexnovel.com                           | 2.935s |        |
+| ✅        | Animu No Mansebia                                 | https://capibaratraductor.com/animunm                 | 0.583s |        |
+| ✅        | Anisa Scans                                       | https://anisascans.in                                 | 1.867s |        |
+| ✅        | AntiPatreon Scan                                  | https://capibaratraductor.com/antipatreon             | 0.301s |        |
+| ✅        | AnzManga                                          | https://www.anzmanga25.com                            | 1.511s |        |
+| ✅        | Apenas Uma Fã                                     | https://apenasuma-fa.blogspot.com                     | 1.610s |        |
+| ✅        | ApollComics                                       | https://apollcomics.es                                | 2.190s |        |
+| ✅        | Aqua Manga                                        | https://aquareader.org                                | 1.560s |        |
+| ✅        | AralosBD                                          | https://aralosbd.fr                                   | 1.331s |        |
+| ✅        | ArbxComix                                         | https://arbxcomix.com                                 | 1.777s |        |
+| ✅        | Arc-Relight                                       | https://arc-relight.com                               | 1.140s |        |
+| ✅        | Arcura Fansub                                     | https://arcurafansub.com                              | 2.092s |        |
+| ✅        | Arena Scans                                       | https://arenascan.com                                 | 2.595s |        |
+| ✅        | Argos Comics                                      | https://aniargos.com                                  | 2.056s |        |
+| ✅        | Argos Scan                                        | https://argoscomics.online                            | 2.322s |        |
+| ✅        | Arigato S.A                                       | https://capibaratraductor.com/arigatosa               | 1.051s |        |
+| ✅        | Art Lapsa                                         | https://artlapsa.com                                  | 2.003s |        |
+| ✅        | Arya Scans                                        | https://brainrotcomics.com                            | 2.188s |        |
+| ✅        | Asia Lotus                                        | https://asialotuss.com                                | 1.579s |        |
+| ✅        | AsmHentai                                         | https://asmhentai.com                                 | 1.307s |        |
+| ✅        | Asmodeus Scans                                    | https://asmotoon.com                                  | 1.912s |        |
+| ✅        | Asperuas Tradus                                   | https://capibaratraductor.com/asperuastradus          | 0.574s |        |
+| ✅        | Astral Scans                                      | https://astralscans.top                               | 2.365s |        |
+| ✅        | Asuka Langley Translations                        | https://capibaratraductor.com/asukatranslations       | 0.210s |        |
+| ✅        | Asura Scans                                       | https://asurascans.com                                | 0.319s |        |
+| ✅        | Asura Scans TR                                    | https://asurascans.com.tr                             | 0.920s |        |
+| ✅        | Atsumaru                                          | https://atsu.moe                                      | 1.901s |        |
+| ✅        | Aurora                                            | https://comicaurora.com                               | 4.227s |        |
+| ✅        | Azora                                             | https://azoramoon.com                                 | 1.413s |        |
+| ✅        | Azure Bloom                                       | https://capibaratraductor.com/azurebloom              | 0.541s |        |
+| ✅        | Bacami                                            | https://bacami.net                                    | 3.019s |        |
 | ✅        | Bakaguya Scanlation                               | https://capibaratraductor.com/bakaguya                | 0.431s |        |
-| ✅        | Bakai                                             | https://bakai.org                                     | 1.662s |        |
-| ✅        | Bakkin                                            | https://bakkin.moe/reader/                            | 0.381s |        |
-| ✅        | BaoBua                                            | https://baobua.net                                    | 0.653s |        |
-| ✅        | BarManga                                          | https://archiviumbar.com                              | 1.315s |        |
-| ✅        | Bbato                                             | https://bbato.com                                     | 0.670s |        |
-| ✅        | Beeg Gimp                                         | https://capibaratraductor.com/beeggimp                | 0.387s |        |
-| ✅        | Beyond Birthday Subs                              | https://capibaratraductor.com/beyondbirthdaysubs      | 0.549s |        |
-| ✅        | Biblio Panda                                      | https://bibliopanda.com                               | 1.944s |        |
-| ✅        | Big Comics                                        | https://bigcomics.jp                                  | 1.908s |        |
-| ✅        | BigSolo                                           | https://bigsolo.org                                   | 0.537s |        |
-| ✅        | Bladetoons                                        | https://bladetoons.com                                | 1.570s |        |
-| ✅        | Bloom Scans                                       | https://bloomscans.com                                | 1.018s |        |
-| ✅        | Blue Solo                                         | https://bluesolo.org                                  | 1.559s |        |
-| ✅        | Bonbon Scanlation                                 | https://capibaratraductor.com/bonbonscanlation        | 0.162s |        |
-| ✅        | Bored Slayer Scan                                 | https://capibaratraductor.com/boredslayerscan         | 0.224s |        |
-| ✅        | Boruto Explorer                                   | https://leitor.borutoexplorer.com.br                  | 1.318s |        |
-| ✅        | BR Yaoi                                           | https://bryaoi.com                                    | 0.475s |        |
-| ✅        | Brasil Hentai                                     | https://brasilhentai.com                              | 1.315s |        |
-| ✅        | Break Scan                                        | https://capibaratraductor.com/breakscan               | 0.245s |        |
-| ✅        | Broccoli Soup                                     | https://politeandgood.com                             | 0.803s |        |
-| ✅        | Bun Manga                                         | https://bunmanga.com                                  | 1.618s |        |
-| ✅        | Buon Dua                                          | https://buondua.com                                   | 0.396s |        |
-| ✅        | Buttsmithy                                        | https://incase.buttsmithy.com                         | 0.551s |        |
-| ✅        | Bymichi Scan                                      | https://bymichiby.com                                 | 1.646s |        |
-| ✅        | C'moA                                             | https://www.cmoa.jp                                   | 3.555s |        |
-| ✅        | Capitoons                                         | https://capitoons.com                                 | 3.864s |        |
-| ✅        | Cat300                                            | https://cat-300.com                                   | 1.736s |        |
-| ✅        | Catharsis World                                   | https://catharsisworld.dig-it.info                    | 1.337s |        |
-| ✅        | CatManhwas                                        | https://newcat1.xyz                                   | 1.675s |        |
-| ✅        | CCC追漫台                                            | https://www.creative-comic.tw                         | 0.809s |        |
-| ✅        | Celestial Moon                                    | https://celestialmoonscan.es                          | 2.236s |        |
-| ✅        | Cerberus Series                                   | https://legionscans.com/wp                            | 2.098s |        |
-| ✅        | Cerise Scan                                       | https://loverstoon.com                                | 2.668s |        |
-| ✅        | Champion Cross                                    | https://championcross.jp                              | 2.746s |        |
-| ✅        | Chibis Scan                                       | https://capibaratraductor.com/chibis                  | 0.217s |        |
-| ✅        | Chunchunmaru Translations                         | https://capibaratraductor.com/chunchunmarutl          | 0.274s |        |
-| ✅        | Ciao Plus                                         | https://ciao.shogakukan.co.jp                         | 3.833s |        |
-| ✅        | Clone Manga                                       | https://manga.clone-army.org                          | 0.979s |        |
-| ✅        | Clown Corps                                       | https://clowncorps.net                                | 0.809s |        |
-| ✅        | Cocomic                                           | https://cocomic.co                                    | 2.126s |        |
-| ✅        | Coffee Manga                                      | https://coffeemanga.ink                               | 0.907s |        |
-| ✅        | Collected Curios                                  | https://www.collectedcurios.com                       | 1.632s |        |
-| ✅        | Colorcito Scan                                    | https://colorcitoscan.com                             | 1.394s |        |
-| ✅        | Comic Asura                                       | https://comicasura.net                                | 1.389s |        |
-| ✅        | Comic Boost                                       | https://comic-boost.com                               | 2.982s |        |
-| ✅        | Comic Border                                      | https://comicborder.com                               | 0.612s |        |
-| ✅        | Comic Days                                        | https://comic-days.com                                | 1.096s |        |
-| ✅        | Comic Earth Star                                  | https://comic-earthstar.com                           | 1.906s |        |
-| ✅        | Comic Fury                                        | https://comicfury.com                                 | 1.438s |        |
-| ✅        | Comic Fury (No Text)                              | https://comicfury.com                                 | 0.384s |        |
-| ✅        | COMIC FUZ                                         | https://comic-fuz.com                                 | 1.354s |        |
-| ✅        | Comic Gardo                                       | https://comic-gardo.com                               | 0.541s |        |
-| ✅        | Comic Grast                                       | https://novema.jp                                     | 2.518s |        |
-| ✅        | Comic Growl                                       | https://comic-growl.com                               | 1.183s |        |
-| ✅        | Comic MeDu                                        | https://comic-medu.com                                | 1.646s |        |
-| ✅        | Comic Nettai                                      | https://www.comicnettai.com                           | 2.828s |        |
-| ✅        | Comic Pash                                        | https://comicpash.jp                                  | 1.554s |        |
-| ✅        | Comic Ride                                        | https://comicride.jp                                  | 1.867s |        |
-| ✅        | Comic Ryu                                         | https://www.comic-ryu.jp                              | 2.979s |        |
-| ✅        | Comic Verse                                       | https://arcomixverse.blogspot.com                     | 2.064s |        |
-| ✅        | Comic Y-OURs                                      | https://comic-y-ours.com                              | 2.265s |        |
-| ✅        | Comick (Unoriginal)                               | https://comick.live                                   | 0.508s |        |
-| ✅        | ComicK Fanmade                                    | https://comickfan.com                                 | 1.285s |        |
-| ✅        | ComicLand                                         | https://comicland.org                                 | 0.610s |        |
-| ✅        | Comics Valley                                     | https://comicsvalley.com                              | 0.272s |        |
-| ✅        | Comikey                                           | https://comikey.com                                   | 0.643s |        |
-| ✅        | Comikey Brasil                                    | https://br.comikey.com                                | 1.832s |        |
-| ✅        | Comiplex                                          | https://viewer.heros-web.com                          | 3.119s |        |
-| ✅        | Comivex                                           | https://comivex.com                                   | 1.995s |        |
-| ✅        | Commit Strip                                      | https://www.commitstrip.com                           | 4.032s |        |
-| ✅        | Coomer                                            | https://coomer.st                                     | 1.376s |        |
-| ✅        | Corocoro Online                                   | https://www.corocoro.jp                               | 1.638s |        |
-| ✅        | Corona EX                                         | https://en.to-corona-ex.com                           | 0.716s |        |
-| ✅        | Corona EX                                         | https://to-corona-ex.com                              | 0.803s |        |
-| ✅        | CosplayTele                                       | https://cosplaytele.com                               | 1.726s |        |
-| ✅        | Crimson Scan                                      | https://capibaratraductor.com/crimsonscan             | 0.281s |        |
-| ✅        | Crow Scans                                        | https://crowscans.xyz                                 | 1.428s |        |
-| ✅        | Cubari                                            | https://cubari.moe                                    | 0.724s |        |
-| ✅        | Cucumber Manga                                    | https://cucumbermanga.com                             | 3.322s |        |
-| ✅        | Culto a Slanesh                                   | https://capibaratraductor.com/cultoaslanesh           | 0.152s |        |
-| ✅        | CulturedWorks                                     | https://culturedworks.com                             | 2.252s |        |
-| ✅        | Cyanide & Happiness                               | https://explosm.net                                   | 0.730s |        |
-| ✅        | CyComi                                            | https://cycomi.com                                    | 1.138s |        |
-| ✅        | Daisuki na Fansub                                 | https://capibaratraductor.com/dnfansub                | 0.302s |        |
-| ✅        | Daleth Project                                    | https://capibaratraductor.com/nameless                | 0.511s |        |
-| ✅        | Danke fürs Lesen                                  | https://danke.moe                                     | 1.330s |        |
-| ✅        | DaoMeoDen                                         | https://daomeoden.net                                 | 1.786s |        |
-| ✅        | Dark Legacy Comics                                | https://www.darklegacycomics.com                      | 1.280s |        |
-| ✅        | Dark Room Fansub                                  | https://lector-darkroomfansub.blogspot.com            | 0.977s |        |
-| ✅        | Dark Science                                      | https://dresdencodak.com                              | 2.416s |        |
-| ✅        | Darths & Droids                                   | https://www.darthsanddroids.net                       | 0.997s |        |
-| ✅        | Dassou Scan                                       | https://dassouscan.com                                | 1.355s |        |
-| ✅        | Dat-Gar Scan                                      | https://datgarscanlation.blogspot.com                 | 0.455s |        |
-| ✅        | DDT Team                                          | https://ddt.hastateam.com                             | 2.739s |        |
-| ✅        | Death Toll Scans                                  | https://reader.deathtollscans.net                     | 1.746s |        |
-| ✅        | Decadence Scans                                   | https://reader.decadencescans.com                     | 1.768s |        |
-| ✅        | Despair Manga                                     | https://despair-manga.net                             | 1.390s |        |
-| ✅        | Desu                                              | https://desu.uno                                      | 1.371s |        |
-| ✅        | DeviantArt                                        | https://www.deviantart.com                            | 1.824s |        |
-| ✅        | DGManga                                           | https://dgmanga.app                                   | 1.098s |        |
-| ✅        | DiamondFansub                                     | https://diamondfansub.com                             | 1.947s |        |
-| ✅        | Digital Comic Museum                              | https://digitalcomicmuseum.com                        | 3.182s |        |
-| ✅        | Diva Scans                                        | https://divatoon.com                                  | 0.730s |        |
-| ✅        | Docomo                                            | https://dbook.docomo.ne.jp                            | 3.699s |        |
-| ✅        | DocTruyen5s                                       | https://manga.io.vn                                   | 1.828s |        |
-| ✅        | Dojing.net                                        | https://dojing.net                                    | 0.959s |        |
-| ✅        | Dokjasheart scanlation                            | https://capibaratraductor.com/dokjasheart             | 0.342s |        |
-| ✅        | Domal Fansub                                      | https://dom4lfansub.online                            | 1.442s |        |
-| ✅        | Dongman Manhua                                    | https://www.dongmanmanhua.cn                          | 3.901s |        |
-| ✅        | DORAGON NO TENSEI                                 | https://capibaratraductor.com/dnt                     | 0.280s |        |
-| ✅        | Doujin Moon                                       | https://doujinmoon.com                                | 1.257s |        |
-| ✅        | Doujin.io - J18                                   | https://doujin.io                                     | 1.809s |        |
-| ✅        | DoujinHentai                                      | https://doujinhentai.net                              | 3.123s |        |
-| ✅        | Doujins                                           | https://doujins.com                                   | 0.911s |        |
-| ✅        | DoujinsHell                                       | https://doujinshell.net                               | 0.221s |        |
-| ✅        | DoujinZa                                          | https://doujinza.com                                  | 1.002s |        |
-| ✅        | Dragon Ball Multiverse                            | https://www.dragonball-multiverse.com                 | 0.827s |        |
-| ✅        | Dragon Ball Multiverse Parody                     | https://www.dragonball-multiverse.com                 | 0.783s |        |
-| ✅        | DragonTranslation.org                             | https://dragontranslation.org                         | 1.800s |        |
-| ✅        | DreamTeams Scans                                  | https://dreamteams.space                              | 2.305s |        |
-| ✅        | Dynasty                                           | https://manhuako.net                                  | 1.471s |        |
-| ✅        | Dynasty Scans                                     | https://dynasty-scans.com                             | 1.549s |        |
-| ✅        | Dưa Leo Truyện                                    | https://dualeotruyengl.com                            | 1.949s |        |
-| ✅        | e621                                              | https://e621.net                                      | 1.153s |        |
-| ✅        | eBookJapan                                        | https://ebookjapan.yahoo.co.jp                        | 1.689s |        |
-| ✅        | Ecchi-Doujin                                      | https://ecchi-doujin.com                              | 1.559s |        |
-| ✅        | El Goonish Shive                                  | https://www.egscomics.com                             | 2.081s |        |
-| ✅        | El Scan Semanal                                   | https://capibaratraductor.com/elscansemanal           | 0.393s |        |
-| ✅        | Elan School                                       | https://elan.school                                   | 1.314s |        |
-| ✅        | Elite Babes                                       | https://www.elitebabes.com                            | 0.529s |        |
-| ✅        | Eljeksreal                                        | https://capibaratraductor.com/eljeksreal              | 0.366s |        |
-| ✅        | Emperor Scan                                      | https://imperiomanhua.com                             | 2.055s |        |
-| ✅        | EnchiladaScan                                     | https://enchiladascan.github.io/enchiladaweb          | 0.794s |        |
-| ✅        | EpicManga                                         | https://epicmanga.co                                  | 0.986s |        |
-| ✅        | Eris Greyrat Translations                         | https://capibaratraductor.com/erisgreyrattranslations | 0.246s |        |
-| ✅        | Es.Mi2Manga                                       | https://es.mi2manga.com                               | 1.910s |        |
-| ✅        | Euphoria Scan                                     | https://euphoriascan.com                              | 0.576s |        |
-| ✅        | Eva Scans                                         | https://evascans.org                                  | 2.071s |        |
-| ✅        | Everia.club                                       | https://everia.club                                   | 0.957s |        |
-| ✅        | ExHentai.net.br                                   | https://exhentai.net.br                               | 1.971s |        |
-| ✅        | Existential Comics                                | https://existentialcomics.com                         | 1.395s |        |
-| ✅        | Fable Scans                                       | https://fablescans.com                                | 1.386s |        |
-| ✅        | Fafa                                              | https://capibaratraductor.com/fafa                    | 0.400s |        |
-| ✅        | Falco Scan                                        | https://falcoscan.net                                 | 3.124s |        |
-| ✅        | Fansubs.cat                                       | https://manga.fansubs.cat                             | 1.283s |        |
-| ✅        | FaxxTraduce                                       | https://capibaratraductor.com/faxxtraduce             | 0.329s |        |
-| ✅        | Fenix Project                                     | https://fenixproject.site                             | 3.020s |        |
-| ✅        | FireCross                                         | https://firecross.jp                                  | 1.441s |        |
-| ✅        | Firescans                                         | https://firescans.xyz                                 | 1.171s |        |
-| ✅        | FlameScans.lol                                    | https://flamescans.lol                                | 1.478s |        |
-| ✅        | Flower Comics                                     | https://flowercomics.jp                               | 1.987s |        |
-| ✅        | FMTEAM                                            | https://fmteam.fr                                     | 1.369s |        |
-| ✅        | FoxTruyen                                         | https://foxtruyen2.com                                | 1.128s |        |
-| ✅        | Fstake Sukyan                                     | https://capibaratraductor.com/fstakesukyan            | 0.320s |        |
-| ✅        | FuryoSquad                                        | https://www.furyosociety.com                          | 1.766s |        |
-| ✅        | GakaMangas                                        | https://gakamangas.com                                | 1.359s |        |
-| ✅        | GALAX Scans                                       | https://galaxscanlator.blogspot.com                   | 0.384s |        |
-| ✅        | Galaxy Manga                                      | https://galaxymanga.io                                | 2.393s |        |
-| ✅        | GalaxyDegenScans                                  | https://gdscans.com                                   | 2.380s |        |
-| ✅        | Gangan Online                                     | https://www.ganganonline.com                          | 1.390s |        |
-| ✅        | GANMA!                                            | https://ganma.jp                                      | 2.484s |        |
-| ✅        | Garcia Manga                                      | https://garciamanga.com                               | 1.436s |        |
-| ✅        | Geass Comics                                      | https://geasscomics.xyz                               | 2.059s |        |
-| ✅        | GEDE Comix                                        | https://gedecomix.com                                 | 1.330s |        |
-| ✅        | Gensura                                           | https://gensura.net                                   | 2.876s |        |
-| ✅        | Genz Toons                                        | https://genztoons.org                                 | 6.062s |        |
-| ✅        | Ghost Scan                                        | https://ghostscan.xyz                                 | 2.001s |        |
-| ✅        | GhosToon                                          | https://ghostoon.com                                  | 1.802s |        |
-| ✅        | GingeRTooN                                        | https://gingertoon.com                                | 1.097s |        |
-| ✅        | GlobalComix                                       | https://globalcomix.com                               | 0.568s |        |
-| ✅        | Glowi                                             | https://capibaratraductor.com/glowi                   | 0.494s |        |
-| ✅        | Go Manga                                          | https://www.go-manga.com                              | 0.426s |        |
-| ✅        | GocTruyenTranh                                    | https://goctruyentranh.com                            | 1.948s |        |
-| ✅        | God-Doujin                                        | https://god-doujin.com                                | 1.558s |        |
-| ✅        | GoDa漫画                                            | https://baozimh.org                                   | 0.907s |        |
-| ✅        | Golden Manga                                      | https://goldenmanga.net                               | 1.917s |        |
-| ✅        | Gone with the Blastwave                           | https://www.blastwave-comic.com                       | 1.181s |        |
-| ✅        | Goon Scans                                        | https://goonscans.org                                 | 1.885s |        |
-| ✅        | Goraku Web                                        | https://gorakuweb.com                                 | 3.202s |        |
-| ✅        | Gourmet Scans                                     | https://gourmetsupremacy.com                          | 4.216s |        |
-| ✅        | Grabber Zone                                      | https://grabber.zone                                  | 1.986s |        |
-| ✅        | Greed Scans                                       | https://gojoscans.com                                 | 2.135s |        |
-| ✅        | Gremory Mangas                                    | https://gremoryhistorias.org                          | 2.110s |        |
-| ✅        | Grrl Power Comic                                  | https://www.grrlpowercomic.com                        | 1.844s |        |
-| ✅        | GTO The Great Site                                | https://reader.gtothegreatsite.net                    | 0.591s |        |
-| ✅        | Gunnerkrigg Court                                 | https://www.gunnerkrigg.com                           | 0.788s |        |
-| ✅        | Guya                                              | https://guya.cubari.moe                               | 0.918s |        |
-| ✅        | H-Comic                                           | https://h-comic.com                                   | 2.579s |        |
-| ✅        | Hachimitsu Tsuki                                  | https://capibaratraductor.com/shojopapers             | 0.222s |        |
-| ✅        | Hachirumi                                         | https://hachirumi.com                                 | 2.282s |        |
-| ✅        | Hades no Fansub                                   | https://lectorhades.latamtoon.com                     | 4.894s |        |
-| ✅        | Hades Scans                                       | https://hadesscans.com                                | 2.535s |        |
-| ✅        | Hana To Yume+                                     | https://hanayume.com                                  | 1.355s |        |
-| ✅        | Hanami Heaven                                     | https://hanamiheaven.org                              | 3.221s |        |
-| ✅        | Hangyaku no Scanlation                            | https://capibaratraductor.com/hangyakunoscanlation    | 0.198s |        |
-| ✅        | HANMAN18                                          | https://hanman18.com                                  | 1.159s |        |
-| ✅        | Hanmokku Scan                                     | https://hanmokkuscan.blogspot.com                     | 0.617s |        |
-| ✅        | Harem de Kira                                     | https://kiraproject.lat                               | 1.535s |        |
-| ✅        | Haru Scan                                         | https://capibaratraductor.com/haruscan                | 0.270s |        |
-| ✅        | Hasta Team                                        | https://reader.hastateam.com                          | 0.662s |        |
-| ✅        | Hayalistic                                        | https://hayalistic.blog                               | 2.494s |        |
-| ✅        | HDoujin                                           | https://hdoujin.org                                   | 0.973s |        |
-| ✅        | HeavenManga                                       | https://heavenmanga.com                               | 0.895s |        |
-| ✅        | HenChan                                           | https://xxl.hentaichan.live                           | 1.661s |        |
-| ✅        | Hennojin                                          | https://hennojin.com                                  | 5.530s |        |
-| ✅        | Hentai Scan Reader                                | https://hentai.scanreader.net                         | 3.532s |        |
-| ✅        | Hentai Season                                     | https://hentaiseason.com                              | 1.275s |        |
-| ✅        | Hentai Tokyo                                      | https://hentaitokyo.net                               | 0.986s |        |
-| ✅        | Hentai.cat                                        | https://manga.hentai.cat                              | 1.354s |        |
-| ✅        | HentaiArchive                                     | https://www.hentai-archive.com                        | 1.208s |        |
-| ✅        | HentaiEnvy                                        | https://hentaienvy.com                                | 3.827s |        |
-| ✅        | HentaiEra                                         | https://hentaiera.com                                 | 1.363s |        |
-| ✅        | HentaiFantasy                                     | https://hentaifantasy.it                              | 1.014s |        |
-| ✅        | HentaiFox                                         | https://hentaifox.com                                 | 0.749s |        |
-| ✅        | HentaiHand                                        | https://hentaihand.com                                | 1.362s |        |
-| ✅        | HentaiKun                                         | https://hentaikun.com                                 | 0.497s |        |
-| ✅        | HentaiNexus                                       | https://hentainexus.com                               | 1.157s |        |
-| ✅        | HentaiRead.io                                     | https://hentairead.io                                 | 1.369s |        |
-| ✅        | HentaiRox                                         | https://hentairox.com                                 | 0.504s |        |
-| ✅        | HentaiXComic                                      | https://hentaixcomic.com                              | 1.026s |        |
-| ✅        | HentaiXDickgirl                                   | https://hentaixdickgirl.com                           | 0.626s |        |
-| ✅        | HentaiXYuri                                       | https://hentaixyuri.com                               | 0.783s |        |
-| ✅        | Hentara                                           | https://hentara.com                                   | 1.402s |        |
-| ✅        | Hijala Scans                                      | https://en-hijala.com                                 | 2.056s |        |
-| ✅        | Hiperdex                                          | https://hiperdex.com                                  | 1.099s |        |
-| ✅        | HistoireDHentai                                   | https://hhentai.fr                                    | 3.863s |        |
-| ✅        | Hive Scans                                        | https://hivetoons.org                                 | 1.138s |        |
-| ✅        | Hiveworks Comics                                  | https://hiveworkscomics.com                           | 1.330s |        |
-| ✅        | HM2D                                              | https://doujindistrict.com                            | 1.398s |        |
-| ✅        | Hmangakyomi                                       | https://hmangakyomi.online                            | 1.943s |        |
-| ✅        | HNI-Scantrad                                      | https://hni-scantrad.net                              | 1.268s |        |
-| ✅        | HOLONOMETRIA                                      | https://holoearth.com                                 | 1.269s |        |
-| ✅        | HOMOcdrs                                          | https://capibaratraductor.com/hmcdrscan               | 0.267s |        |
-| ✅        | HoneyManga                                        | https://honey-manga.com.ua                            | 1.091s |        |
-| ✅        | Honeytoon                                         | https://honeytoon.com                                 | 1.237s |        |
-| ✅        | Honkai Impact 3rd                                 | https://manga.honkaiimpact3.com                       | 1.130s |        |
-| ✅        | Hot Cabaret Scan                                  | https://hotcabaretscan.com                            | 1.686s |        |
-| ✅        | House Of Otakus                                   | https://houseofotakusv2.xyz                           | 1.352s |        |
-| ✅        | HQ Now!                                           | https://www.hq-now.com                                | 0.830s |        |
-| ✅        | Hunters Scan                                      | https://readhunters.xyz                               | 2.533s |        |
-| ✅        | Hyakuro Translations                              | https://hyakuro.net                                   | 1.349s |        |
-| ✅        | I Roved Out                                       | https://www.irovedout.com                             | 2.177s |        |
-| ✅        | Ichicomi                                          | https://ichicomi.com                                  | 2.580s |        |
-| ✅        | Idol. gravureprincess .date                       | https://idol.gravureprincess.date                     | 1.636s |        |
-| ✅        | IMHentai                                          | https://imhentai.xxx                                  | 0.892s |        |
-| ✅        | InkStory                                          | https://inkstory.net                                  | 1.584s |        |
-| ✅        | Inmortal Scan                                     | https://scanimnortal.com                              | 1.012s |        |
-| ✅        | InsanosScan                                       | https://insanoslibrary.com                            | 0.624s |        |
-| ✅        | Inventario Oculto                                 | https://inventariooculto.com                          | 1.732s |        |
-| ✅        | Izanami Scans                                     | https://izanamiscans.my.id                            | 1.029s |        |
-| ✅        | J-N Books                                         | https://comic.j-nbooks.jp                             | 1.148s |        |
-| ✅        | J-Novel                                           | https://j-novel.club                                  | 1.375s |        |
-| ✅        | JComic                                            | https://jcomic.net                                    | 8.101s |        |
-| ✅        | Jinmangas                                         | https://jinmangas.com                                 | 4.094s |        |
-| ✅        | JJCOS                                             | https://jjcos.com                                     | 1.182s |        |
-| ✅        | JoshScan                                          | https://capibaratraductor.com/joshscan                | 0.595s |        |
-| ✅        | Juin Jutsu Team Reader                            | https://www.juinjutsureader.ovh                       | 1.529s |        |
-| ✅        | Jump Rookie!                                      | https://rookie.shonenjump.com                         | 1.920s |        |
-| ✅        | Junmeitu                                          | https://meijuntu.com                                  | 1.978s |        |
-| ✅        | K Manga                                           | https://kmanga.kodansha.com                           | 1.348s |        |
-| ✅        | KaiserZ Scanlation                                | https://capibaratraductor.com/kaizscan                | 0.513s |        |
-| ✅        | Kaizen Translations                               | https://capibaratraductor.com/kaizen                  | 0.271s |        |
-| ✅        | KaliScan.com                                      | https://kaliscan.com                                  | 1.066s |        |
-| ✅        | KaliScan.io                                       | https://kaliscan.io                                   | 0.309s |        |
-| ✅        | KaliScan.me                                       | https://kaliscan.me                                   | 0.756s |        |
-| ✅        | Kami Sama Explorer                                | https://leitor.kamisama.com.br                        | 1.897s |        |
-| ✅        | KamiComic                                         | https://kamicomi.com                                  | 1.792s |        |
-| ✅        | Kanzenin                                          | https://kanzenin.info                                 | 1.883s |        |
-| ✅        | KatsudonManga                                     | https://capibaratraductor.com/katsudonmanga           | 0.222s |        |
-| ✅        | Kawaragi No Fansub                                | https://capibaratraductor.com/kawaraginofansub        | 0.246s |        |
-| ✅        | Kayn Scans                                        | https://kaynscan.com                                  | 5.764s |        |
-| ✅        | Kazoku Den                                        | https://www.kazokuden.com                             | 2.325s |        |
-| ✅        | Keenspot TwoKinds                                 | https://twokinds.keenspot.com                         | 0.345s |        |
-| ✅        | Kemono                                            | https://kemono.cr                                     | 1.704s |        |
-| ✅        | Ken Scans                                         | https://kencomics.com                                 | 2.637s |        |
-| ✅        | Kewn Scans                                        | https://kewnscans.org                                 | 5.004s |        |
-| ✅        | KillSixBillionDemons                              | https://killsixbilliondemons.com                      | 0.972s |        |
-| ✅        | KimiComi                                          | https://kimicomi.com                                  | 1.601s |        |
-| ✅        | King of Shojo                                     | https://kingofshojo.com                               | 2.772s |        |
-| ✅        | Kingdom Dark Scan                                 | https://capibaratraductor.com/kingdomdarkscan         | 0.229s |        |
-| ✅        | Kiraboshi                                         | https://kirapo.jp                                     | 1.139s |        |
-| ✅        | KiraKira                                          | https://truyenkira.com                                | 2.130s |        |
-| ✅        | Kirishima Fansub                                  | https://capibaratraductor.com/kirishimafansub         | 0.409s |        |
-| ✅        | Kiutaku                                           | https://kiutaku.com                                   | 1.203s |        |
-| ✅        | Kiwiya Scans                                      | https://kiwiyascans.com                               | 2.479s |        |
-| ✅        | KL Raw                                            | https://www.klraw.info                                | 0.859s |        |
-| ✅        | Knight No Scanlation                              | https://lectorknight.com                              | 0.510s |        |
-| ✅        | Kodansha                                          | https://kodansha.us                                   | 1.209s |        |
-| ✅        | Kodoku Studio                                     | https://kodokustudio.com                              | 0.370s |        |
-| ✅        | KokoMangas                                        | https://kokomangas.com                                | 1.427s |        |
-| ✅        | Komiic                                            | https://komiic.com                                    | 0.762s |        |
-| ✅        | Komik Cast                                        | https://v2.komikcast.fit                              | 1.006s |        |
-| ✅        | Komik Next G Online                               | https://komiknextgonline.com                          | 3.124s |        |
-| ✅        | Komikhwa                                          | https://komikhwa.com                                  | 2.025s |        |
-| ✅        | KomikNesia                                        | https://02.komiknesia.asia                            | 1.971s |        |
-| ✅        | Komiktap                                          | https://komiktap.info                                 | 1.033s |        |
-| ✅        | Komiku                                            | https://komiku.org                                    | 2.074s |        |
-| ✅        | Koreli Scans                                      | https://www.nabicix.com                               | 0.905s |        |
-| ✅        | Koronesuki                                        | https://capibaratraductor.com/koronesuki              | 0.379s |        |
-| ✅        | KSGroupScans                                      | https://ksgroupscans.com                              | 1.351s |        |
-| ✅        | KumaPoi                                           | https://kumapoi.info                                  | 0.724s |        |
-| ✅        | KumoPoi                                           | https://kumopoi.org                                   | 3.107s |        |
-| ✅        | Kurage Bunch                                      | https://kuragebunch.com                               | 0.794s |        |
-| ✅        | KuraManga                                         | https://kuramanga.com                                 | 3.030s |        |
-| ✅        | Kurenai Project                                   | https://capibaratraductor.com/kurenaiproject          | 0.500s |        |
-| ✅        | Kuroi Manga                                       | https://www.kuroimanga.mom                            | 2.894s |        |
-| ✅        | KuroTranslations                                  | https://capibaratraductor.com/kurotranslations        | 0.346s |        |
-| ✅        | La Biblioteca de Odin                             | https://capibaratraductor.com/labibliotecadeodin      | 0.472s |        |
-| ✅        | Lami-Manga                                        | https://mangalami.com                                 | 1.865s |        |
-| ✅        | LanorTrad                                         | https://lanortrad.netlify.app                         | 0.949s |        |
-| ✅        | Las Profanadas Scan                               | https://capibaratraductor.com/profanadasscan          | 0.333s |        |
-| ✅        | Last Exile Scan                                   | https://capibaratraductor.com/lastexilescan           | 0.453s |        |
-| ✅        | Lavinia Fansub                                    | https://laviniafansub.pro                             | 2.031s |        |
-| ✅        | Lector Asteria                                    | https://lectorasteria.com                             | 2.464s |        |
-| ✅        | LectorJPG                                         | https://visorjpg.lat                                  | 1.179s |        |
-| ✅        | LectorManga.lat                                   | https://lectormangass.com                             | 0.575s |        |
-| ✅        | LeerCapitulo                                      | https://www.leercapitulo.co                           | 2.210s |        |
-| ✅        | LeerMangaEsp                                      | https://leermangaesp.net                              | 0.709s |        |
-| ✅        | Lelscan                                           | https://lelscans.net                                  | 0.702s |        |
-| ✅        | LepoyTL                                           | https://www.lepoytl.my.id                             | 1.571s |        |
-| ✅        | Ler 999                                           | https://ler999.blogspot.com                           | 0.671s |        |
-| ✅        | Les Poroiniens                                    | https://lesporoiniens.org                             | 1.246s |        |
-| ✅        | Leslie&Victims                                    | https://leslie-victims.pages.dev                      | 1.084s |        |
-| ✅        | LianScans                                         | https://www.lianscans.com                             | 1.152s |        |
-| ✅        | LikeManga                                         | https://likemanga.ink                                 | 0.703s |        |
-| ✅        | Lily Manga                                        | https://lilymanga.net                                 | 2.426s |        |
-| ✅        | Limbo Scan                                        | https://limboscan.com.br                              | 2.489s |        |
-| ✅        | Limbo Scanlation                                  | https://capibaratraductor.com/limbo                   | 0.284s |        |
-| ✅        | Little Tyrant                                     | https://tiraninha.world                               | 2.588s |        |
-| ✅        | Loading Artist                                    | https://loadingartist.com                             | 0.926s |        |
-| ✅        | Lolivault                                         | https://lector.lolivault.net                          | 3.369s |        |
-| ✅        | Loner Translations                                | https://loner-tl.blogspot.com                         | 0.682s |        |
-| ✅        | LoppyToon                                         | https://loppytoon.com                                 | 0.754s |        |
-| ✅        | Love4u                                            | https://love4u.net                                    | 1.714s |        |
-| ✅        | Luna Pieces                                       | https://lunapiecesfansub.com                          | 1.238s |        |
-| ✅        | Luna Scans                                        | https://tuhafscans.com                                | 3.186s |        |
-| ✅        | Lunar Manga                                       | https://lunaranime.ru                                 | 1.345s |        |
-| ✅        | LupiTeam                                          | https://lupiteam.net                                  | 1.544s |        |
-| ✅        | Magazine Pocket                                   | https://pocket.shonenmagazine.com                     | 2.407s |        |
-| ✅        | MAGCOMI                                           | https://magcomi.com                                   | 2.299s |        |
-| ✅        | Magical Translators                               | https://mahoushoujobu.com                             | 1.496s |        |
-| ✅        | MagKan                                            | https://kansai.mag-garden.co.jp                       | 1.481s |        |
-| ✅        | Mahouirexnohentaikarte                            | https://mahouirexnohentaikarte.com                    | 0.676s |        |
-| ✅        | Maid - Manga                                      | https://www.maid.my.id                                | 1.433s |        |
-| ✅        | Makimaaaaa                                        | https://makimaaaaa.com                                | 1.472s |        |
-| ✅        | Manga Ai Land                                     | https://manga-ai-land.blogspot.com                    | 1.736s |        |
-| ✅        | Manga Bahçesi                                     | https://mangabahcesi.com                              | 0.834s |        |
-| ✅        | Manga Ball                                        | https://mangaball.net                                 | 2.143s |        |
-| ✅        | Manga Can                                         | https://mangacanblog.com                              | 1.587s |        |
-| ✅        | Manga Crab                                        | https://mangacrab.org                                 | 3.067s |        |
-| ✅        | Manga Dass                                        | https://mangadass.com                                 | 0.574s |        |
-| ✅        | Manga Demon                                       | https://demonicscans.org                              | 1.325s |        |
-| ✅        | Manga District                                    | https://mangadistrict.com                             | 0.684s |        |
-| ✅        | Manga Drama                                       | https://mangadrama.com                                | 4.781s |        |
-| ✅        | Manga Kingdom                                     | https://comic.k-manga.jp                              | 4.229s |        |
-| ✅        | Manga Livre.to                                    | https://mangalivre.to                                 | 1.387s |        |
-| ✅        | Manga Mukai                                       | https://mangamukai.com                                | 1.140s |        |
-| ✅        | Manga Mura                                        | https://mangamura.me                                  | 1.859s |        |
-| ✅        | Manga One                                         | https://manga-one.com                                 | 1.600s |        |
-| ✅        | MANGA Plus by SHUEISHA                            | https://mangaplus.shueisha.co.jp                      | 1.292s |        |
-| ✅        | MANGA Plus Creators by SHUEISHA                   | https://mangaplus-creators.jp                         | 1.303s |        |
-| ✅        | Manga Tales                                       | https://www.mangatales.com                            | 0.953s |        |
-| ✅        | Manga Trend                                       | https://mangatrend.org                                | 1.084s |        |
-| ✅        | Manga UP!                                         | https://global.manga-up.com                           | 1.632s |        |
-| ✅        | Manga UP! (Japan)                                 | https://www.manga-up.com                              | 2.415s |        |
-| ✅        | Manga Xiao Si                                     | https://www.jjmhw2.top                                | 1.653s |        |
-| ✅        | Manga Şehri.net                                   | https://manga-sehri.net                               | 2.313s |        |
-| ✅        | Manga-Corporation                                 | https://manga-corporation.com                         | 1.123s |        |
-| ✅        | Manga-Lc                                          | https://manga-lc.net                                  | 2.024s |        |
-| ✅        | Manga-Park                                        | https://manga-park.com                                | 1.172s |        |
-| ✅        | Manga-shi                                         | https://manga-shi.org                                 | 1.676s |        |
-| ✅        | Manga1000                                         | https://hachiraw.win                                  | 1.079s |        |
-| ✅        | Manga18.me                                        | https://manga18.me                                    | 0.761s |        |
-| ✅        | Manga18Free                                       | https://manga18free.com                               | 2.043s |        |
-| ✅        | Manga18fx                                         | https://manga18fx.com                                 | 1.202s |        |
-| ✅        | MangaBang Comics                                  | https://comics.manga-bang.com                         | 1.975s |        |
-| ✅        | Mangabat                                          | https://www.mangabats.com                             | 1.517s |        |
-| ✅        | MangaBolt                                         | https://mangabolt.com                                 | 3.160s |        |
-| ✅        | MangaBTT                                          | https://manhwabtt.cc                                  | 0.740s |        |
-| ✅        | Mangabz                                           | https://mangabz.com                                   | 0.708s |        |
-| ✅        | Mangabz                                           | https://xmanhua.com                                   | 1.602s |        |
-| ✅        | Mangabz                                           | https://yymanhua.com                                  | 1.478s |        |
-| ✅        | MangaChan                                         | https://im.manga-chan.me                              | 29s    |        |
-| ✅        | Mangack                                           | https://mangack.com                                   | 1.375s |        |
-| ✅        | MangaDE                                           | https://mangade.io                                    | 1.171s |        |
-| ✅        | MangaDex                                          | https://mangadex.org                                  | 0.830s |        |
-| ✅        | MangaDia                                          | https://mangadia.com                                  | 1.822s |        |
-| ✅        | MangaDNA                                          | https://mangadna.com                                  | 0.940s |        |
-| ✅        | MangaEsp                                          | https://mangaesp.topmanhuas.org                       | 1.732s |        |
-| ✅        | MangaFlix                                         | https://mangaflix.net                                 | 2.741s |        |
-| ✅        | Mangaforfree.com                                  | https://mangaforfree.com                              | 1.854s |        |
-| ✅        | MangaFox                                          | https://fanfox.net                                    | 0.763s |        |
-| ✅        | Mangafreak                                        | https://ww2.mangafreak.me                             | 0.531s |        |
-| ✅        | Mangafree                                         | https://mangafree.info                                | 6.776s |        |
-| ✅        | MangaGeko                                         | https://www.mgeko.cc                                  | 5.550s |        |
-| ✅        | MangaGezgini                                      | https://mangagezgini.online                           | 2.084s |        |
-| ✅        | MangaGo.fun                                       | https://www.mangago.fun                               | 1.845s |        |
-| ✅        | MangaHe                                           | https://mangahe.com                                   | 1.065s |        |
-| ✅        | Mangahere                                         | https://www.mangahere.cc                              | 0.813s |        |
-| ✅        | MangaHoNa                                         | https://mangahona.pl                                  | 1.694s |        |
-| ✅        | Mangahub                                          | https://mangahub.ru                                   | 2.601s |        |
-| ✅        | MangaHub                                          | https://www.mangaxhentai.com                          | 0.746s |        |
-| ✅        | MangaIsekaiThai                                   | https://www.mangaisekaithai.net                       | 1.331s |        |
-| ✅        | MangaKa                                           | https://mangaka.cc                                    | 2.804s |        |
-| ✅        | Mangakakalot                                      | https://www.mangakakalot.gg                           | 0.558s |        |
-| ✅        | MangaKatana                                       | https://mangakatana.com                               | 2.343s |        |
-| ✅        | MangaKuro                                         | https://mangakuro.net                                 | 1.913s |        |
-| ✅        | Mangalay                                          | http://mangalay.blogspot.com                          | 0.640s |        |
-| ✅        | MangaLector                                       | https://mangalector.com                               | 1.369s |        |
-| ✅        | MangaMee                                          | https://manga-mee.jp                                  | 1.604s |        |
-| ✅        | MangaMeets                                        | https://manga-meets.jp                                | 1.455s |        |
-| ✅        | Mangamo                                           | https://www.mangamo.com                               | 0.860s |        |
-| ✅        | Manganato                                         | https://www.natomanga.com                             | 0.511s |        |
-| ✅        | MangaNo                                           | https://manga-no.com                                  | 1.613s |        |
-| ✅        | MangaNova                                         | https://www.manga-nova.com                            | 1.425s |        |
-| ✅        | MangaNow                                          | https://manganow.to                                   | 0.799s |        |
-| ✅        | MangaPill                                         | https://mangapill.com                                 | 0.463s |        |
-| ✅        | MangaPoisk                                        | https://mangap.ru                                     | 1.900s |        |
-| ✅        | MangaRead.org                                     | https://www.mangaread.org                             | 1.020s |        |
-| ✅        | MangaSpark                                        | https://manga-spark.net                               | 1.506s |        |
-| ✅        | Mangastep                                         | https://mangastep.com                                 | 1.269s |        |
-| ✅        | Mangasushi                                        | https://mangasushi.org                                | 1.292s |        |
-| ✅        | Mangasusu                                         | https://mangasusuku.com                               | 0.756s |        |
-| ✅        | MangaTaro                                         | https://mangataro.org                                 | 2.529s |        |
-| ✅        | Mangatellers                                      | https://reader.mangatellers.gr                        | 1.401s |        |
-| ✅        | MangaTilkisi                                      | https://www.tilkiscans.com                            | 1.320s |        |
-| ✅        | MangaTime                                         | https://mangatime.org                                 | 1.079s |        |
-| ✅        | MangaToon (Limited)                               | https://mangatoon.mobi                                | 1.992s |        |
-| ✅        | Mangatown                                         | https://www.mangatown.com                             | 0.277s |        |
-| ✅        | MangaTX                                           | https://mangatx.cc                                    | 1.374s |        |
-| ✅        | Mangaworld                                        | https://www.mangaworld.mx                             | 0.785s |        |
-| ✅        | MangaworldAdult                                   | https://www.mangaworldadult.net                       | 1.698s |        |
-| ✅        | MangaWOW                                          | https://mangawow.org                                  | 2.624s |        |
-| ✅        | MangaYY                                           | https://mangayy.org                                   | 1.179s |        |
-| ✅        | MangaZure                                         | https://mangazure.net                                 | 2.721s |        |
-| ✅        | Mango Toons                                       | https://mangotoons.com                                | 0.341s |        |
-| ✅        | Manhastro                                         | https://manhastro.net                                 | 0.701s |        |
-| ✅        | Manhatic                                          | https://manhatic.com                                  | 1.032s |        |
-| ✅        | Manhatok                                          | https://manhatok.blogspot.com                         | 0.687s |        |
-| ✅        | Manhua Rush                                       | https://manhuarush.vercel.app                         | 0.308s |        |
-| ✅        | ManhuaFast                                        | https://manhuafast.com                                | 1.430s |        |
-| ✅        | ManhuaFast.net (unoriginal)                       | https://manhuafast.net                                | 1.535s |        |
-| ✅        | ManhuaHot                                         | https://manhuahot.com                                 | 1.456s |        |
-| ✅        | Manhuanext                                        | https://manhuanext.com                                | 2.144s |        |
-| ✅        | ManhuaPlus (Unoriginal)                           | https://manhuaplus.org                                | 1.951s |        |
-| ✅        | Manhuascan.us                                     | https://manhuascan.us                                 | 0.703s |        |
-| ✅        | ManhuaSite                                        | https://manhuasite.com                                | 1.017s |        |
-| ✅        | ManhuaUS                                          | https://manhuaus.com                                  | 1.537s |        |
-| ✅        | Manhwa 18 Uncensored                              | https://manhwa18uncensored.com                        | 1.859s |        |
-| ✅        | Manhwa Comics                                     | https://manhwacomics.com                              | 1.490s |        |
-| ✅        | Manhwa List                                       | https://manhwalist02.asia                             | 0.829s |        |
-| ✅        | Manhwa Reads                                      | https://manhwareads.com                               | 1.439s |        |
-| ✅        | Manhwa Scan                                       | https://manhwascans.lat                               | 1.119s |        |
-| ✅        | Manhwa Toon                                       | https://www.manhwatoon.me                             | 0.915s |        |
-| ✅        | Manhwa XXL                                        | https://hentaitnt.net                                 | 2.152s |        |
-| ✅        | Manhwa18                                          | https://manhwa18.com                                  | 1.895s |        |
-| ✅        | Manhwa18.cc                                       | https://manhwa18.cc                                   | 2.394s |        |
-| ✅        | Manhwa18.Net                                      | https://manhwa18.net                                  | 1.249s |        |
-| ✅        | ManhwaBuddy                                       | https://manhwabuddy.com                               | 1.043s |        |
-| ✅        | ManhwaClub.net                                    | https://manhwaclub.net                                | 1.332s |        |
-| ✅        | ManhwaDen                                         | https://www.manhwaden.com                             | 1.052s |        |
-| ✅        | ManhwaGet                                         | https://manhwaget.com                                 | 0.881s |        |
-| ✅        | Manhwajoy                                         | https://manhwajoy.com                                 | 2.255s |        |
-| ✅        | Manhwalike                                        | https://manhwalike.com                                | 0.844s |        |
-| ✅        | Manhwalist.org                                    | https://isekaikomik.com                               | 2.035s |        |
-| ✅        | Manhwalover                                       | https://www.manhwalover.org                           | 1.557s |        |
-| ✅        | ManhwaNex                                         | https://manhwanex.com                                 | 1.037s |        |
-| ✅        | ManhwaWeb                                         | https://manhwaweb.com                                 | 0.884s |        |
-| ✅        | Manhwax                                           | https://manhwax.top                                   | 2.492s |        |
-| ✅        | ManhwaZone                                        | https://manhwazone.com                                | 1.782s |        |
-| ✅        | Manta                                             | https://manta.net                                     | 0.614s |        |
-| ✅        | Marmota                                           | https://marmota.me                                    | 2.576s |        |
-| ✅        | MeDamTruyen                                       | https://saytongtai.site                               | 1.773s |        |
-| ✅        | Mediocre Toons                                    | https://mediocrescan.com                              | 0.901s |        |
-| ✅        | Megatokyo                                         | https://megatokyo.com                                 | 1.171s |        |
-| ✅        | MeHentai                                          | https://mehentai.blog                                 | 1.592s |        |
-| ✅        | Mehgazone                                         | https://mehgazone.com                                 | 0.331s |        |
-| ✅        | Menudo-Fansub                                     | https://www.menudo-fansub.com                         | 1.539s |        |
-| ✅        | MGJinx                                            | https://mgjinx.com                                    | 1.292s |        |
-| ✅        | Mgread.io                                         | https://mgread.io                                     | 1.730s |        |
-| ✅        | MHScans                                           | https://mhscans.com                                   | 3.093s |        |
-| ✅        | Miau Scan                                         | https://leemiau.com                                   | 0.770s |        |
-| ✅        | Mihentai                                          | https://mihentai.net                                  | 0.908s |        |
-| ✅        | Mikrokosmos Fansub                                | https://mikrokosmosfb.blogspot.com                    | 1.085s |        |
-| ✅        | MilaSub                                           | https://www.millascan.com                             | 2.298s |        |
-| ✅        | MinoTruyen Comics                                 | https://minotruyenv5.xyz                              | 0.615s |        |
-| ✅        | MinoTruyen Hentai                                 | https://minotruyenv5.xyz                              | 1.575s |        |
-| ✅        | MinoTruyen Manga                                  | https://minotruyenv5.xyz                              | 0.417s |        |
-| ✅        | MintManga                                         | https://2.mintmanga.one                               | 1.724s |        |
-| ✅        | MissKon                                           | https://misskon.com                                   | 2.168s |        |
-| ✅        | Mist Scans                                        | https://mistscans.com                                 | 5.868s |        |
-| ✅        | Mokuro                                            | https://mokuro.moe                                    | 1.563s |        |
-| ✅        | momon:GA                                          | https://momon-ga.com                                  | 1.022s |        |
-| ✅        | Monochrome Custom                                 | https://monochromecms.netlify.app                     | 1.111s |        |
-| ✅        | Monochrome Scans                                  | https://manga.d34d.one                                | 0.988s |        |
-| ✅        | Monopoly Scan                                     | https://monopolymanhua.com                            | 1.823s |        |
-| ✅        | Monsure                                           | https://monsuresu.com                                 | 3.511s |        |
-| ✅        | Monte Tai                                         | https://montetaiscanlator.xyz                         | 3.111s |        |
-| ✅        | Moon Daisy Scans                                  | https://moondaisyscans.site                           | 1.503s |        |
-| ✅        | MR Tenzus                                         | https://mrtenzus.com                                  | 1.818s |        |
-| ✅        | Muito Hentai                                      | https://www.muitohentai.com                           | 1.376s |        |
-| ✅        | Multporn                                          | https://multporn.net                                  | 1.555s |        |
-| ✅        | Mundo Manhwa                                      | https://mundomanhwa.com                               | 1.112s |        |
-| ✅        | MurimScan                                         | https://www.murimscans.site                           | 1.397s |        |
-| ✅        | MyComic                                           | https://mycomic.com                                   | 1.502s |        |
-| ✅        | NamiComi                                          | https://namicomi.com                                  | 1.622s |        |
-| ✅        | NarasiNinja                                       | https://narasininja.net                               | 3.648s |        |
-| ✅        | Natsu                                             | https://natsu.tv                                      | 2.238s |        |
-| ✅        | Naver Webtoon                                     | https://comic.naver.com                               | 1.535s |        |
-| ✅        | Naver Webtoon Best Challenge                      | https://comic.naver.com                               | 0.950s |        |
-| ✅        | Naver Webtoon Challenge                           | https://comic.naver.com                               | 1.804s |        |
-| ✅        | Nebulosa Scan                                     | https://nebulosascan.com                              | 2.244s |        |
-| ✅        | Nekopost                                          | https://www.nekopost.net                              | 1.671s |        |
-| ✅        | NekoScans                                         | https://nekoproject.org                               | 1.480s |        |
-| ✅        | Nemesisscans                                      | https://nemesisscans.com                              | 1.052s |        |
-| ✅        | NeoManga                                          | https://www.neomanga.online                           | 1.372s |        |
-| ✅        | NeroTranslations                                  | https://capibaratraductor.com/nerotranslate           | 0.432s |        |
-| ✅        | NetTruyenS (unoriginal)                           | https://nettruyen10s.com                              | 1.807s |        |
-| ✅        | New Manhwa                                        | https://newmanhwa.com                                 | 2.105s |        |
-| ✅        | NexComic                                          | https://nexcomic.com                                  | 1.348s |        |
-| ✅        | NgamenKomik                                       | https://ngamenkomik05.blogspot.com                    | 0.757s |        |
-| ✅        | NHentai.xxx                                       | https://nhentai.xxx                                   | 2.200s |        |
-| ✅        | Niadd                                             | https://br.niadd.com                                  | 1.946s |        |
-| ✅        | Niadd                                             | https://de.niadd.com                                  | 0.671s |        |
-| ✅        | Niadd                                             | https://es.niadd.com                                  | 1.065s |        |
-| ✅        | Niadd                                             | https://fr.niadd.com                                  | 1.235s |        |
-| ✅        | Niadd                                             | https://it.niadd.com                                  | 1.784s |        |
-| ✅        | Niadd                                             | https://ru.niadd.com                                  | 1.749s |        |
-| ✅        | Niadd                                             | https://www.niadd.com                                 | 1.732s |        |
-| ✅        | Niceoppai                                         | https://www.niceoppai.net                             | 1.328s |        |
-| ✅        | Nicomanga                                         | https://nicomanga.com                                 | 1.131s |        |
-| ✅        | Nicovideo Seiga                                   | https://sp.manga.nicovideo.jp                         | 1.329s |        |
-| ✅        | NihonKuni                                         | https://nihonkuni.com                                 | 2.217s |        |
-| ✅        | Nikkangecchan                                     | https://nikkangecchan.jp                              | 5.839s |        |
-| ✅        | NineAnime                                         | https://www.nineanime.com                             | 0.565s |        |
-| ✅        | NineGrid                                          | https://9grid.cc                                      | 5.675s |        |
-| ✅        | NineHentai                                        | https://9hentai.so                                    | 1.721s |        |
-| ✅        | Ninekon                                           | https://app.ninekon.com                               | 1.322s |        |
-| ✅        | Ninja Scan                                        | https://ninjacomics.xyz                               | 1.156s |        |
-| ✅        | Nirvana Manga                                     | https://nirvanamanga.com                              | 2.010s |        |
-| ✅        | Noblesse Translations                             | https://nobledicion.yoveo.xyz                         | 3.457s |        |
-| ✅        | Noromax                                           | https://noromax02.my.id                               | 2.159s |        |
-| ✅        | Novato Scans                                      | https://www.novatoscans.top                           | 1.012s |        |
-| ✅        | NovelCool                                         | https://de.novelcool.com                              | 1.278s |        |
-| ✅        | NovelCool                                         | https://es.novelcool.com                              | 1.712s |        |
-| ✅        | NovelCool                                         | https://fr.novelcool.com                              | 3.146s |        |
-| ✅        | NovelCool                                         | https://it.novelcool.com                              | 2.598s |        |
-| ✅        | NovelCool                                         | https://ru.novelcool.com                              | 2.635s |        |
-| ✅        | NovelCool                                         | https://www.novelcool.com                             | 1.997s |        |
-| ✅        | Noxen Scans                                       | https://noxenscan.com                                 | 1.168s |        |
-| ✅        | NoxManga                                          | https://noxmanga.co                                   | 0.809s |        |
-| ✅        | NoyAcg                                            | https://beta.noyteam.online                           | 0.756s |        |
-| ✅        | NTR-Manga                                         | https://www.ntr-manga.net                             | 1.007s |        |
-| ✅        | Nux Scans                                         | https://nuxscans-comics.blogspot.com                  | 0.374s |        |
-| ✅        | Nyanu Kafe                                        | https://nyanukafe.com                                 | 5.178s |        |
-| ✅        | Nyx Scans                                         | https://nyxscans.com                                  | 1.809s |        |
-| ✅        | OctopusManga                                      | https://octopusmanga.com                              | 2.041s |        |
-| ✅        | Oglaf                                             | https://www.oglaf.com                                 | 0.938s |        |
-| ✅        | Oh Joy Sex Toy                                    | https://www.ohjoysextoy.com                           | 0.874s |        |
-| ✅        | Ohta Web Comic                                    | https://webcomic.ohtabooks.com                        | 1.980s |        |
-| ✅        | Okami.Scan                                        | https://capibaratraductor.com/okami                   | 0.267s |        |
-| ✅        | OkuToon                                           | https://okutoon.com                                   | 6.656s |        |
-| ✅        | OkyyKomik                                         | https://www.okyykomik.my.id                           | 0.907s |        |
-| ✅        | Omega Scanlation                                  | https://capibaratraductor.com/omegascanlation         | 0.170s |        |
-| ✅        | Omega Scans                                       | https://omegascans.org                                | 1.007s |        |
-| ✅        | Omicaso                                           | https://omicaso.org                                   | 1.132s |        |
-| ✅        | Omoi                                              | https://www.omoi.com                                  | 3.624s |        |
-| ✅        | One Punch Man Online                              | https://w11.1punchman.com                             | 1.408s |        |
-| ✅        | Opiatoon                                          | https://opiatoon.lat                                  | 2.310s |        |
-| ✅        | Oppai Stream                                      | https://read.oppai.stream                             | 2.376s |        |
-| ✅        | OreManga                                          | https://www.oremanga.net                              | 0.930s |        |
-| ✅        | Origami Orpheans                                  | https://origami-orpheans.com                          | 1.053s |        |
-| ✅        | Orion Scans                                       | https://orion-scans.com                               | 1.189s |        |
-| ✅        | Ortega Scans                                      | https://ortegascans.fr                                | 1.020s |        |
-| ✅        | Osaka Scan                                        | https://www.osakascan.com                             | 1.592s |        |
-| ✅        | Ota Scans                                         | https://yurilabs.my.id                                | 3.343s |        |
-| ✅        | OTruyen                                           | https://otruyen.cc                                    | 2.799s |        |
-| ✅        | PandaChaika                                       | https://panda.chaika.moe                              | 1.693s |        |
-| ✅        | Pantheon Scan                                     | https://pantheon-scan.com                             | 1.154s |        |
-| ✅        | Paradise BL                                       | https://paradise-bl.com                               | 1.245s |        |
-| ✅        | Paradox Scans                                     | https://paradoxscans.com                              | 2.377s |        |
-| ✅        | Pash Up!                                          | https://pash-up.jp                                    | 1.777s |        |
-| ✅        | Patch Friday                                      | https://patchfriday.com                               | 1.409s |        |
-| ✅        | Paw Manga                                         | https://pawmanga.com                                  | 0.771s |        |
-| ✅        | Pepper&Carrot                                     | https://www.peppercarrot.com                          | 0.761s |        |
-| ✅        | Petrotechsociety                                  | https://www.petrotechsociety.org                      | 1.595s |        |
-| ✅        | Phantom No Fansub                                 | https://capibaratraductor.com/phantomnofansub         | 0.219s |        |
-| ✅        | Phoenix Scans                                     | https://www.phoenixscans.com                          | 1.832s |        |
-| ✅        | Piccoma                                           | https://piccoma.com                                   | 2.795s |        |
-| ✅        | Pink Rosa                                         | https://scanpinkrosa.blogspot.com                     | 0.458s |        |
-| ✅        | Pink Sea Unicorn                                  | https://psunicorn.com                                 | 2.060s |        |
-| ✅        | PinkGarden Translation                            | https://capibaratraductor.com/pinkgardentranslation   | 0.290s |        |
-| ✅        | Pirulito Rosa                                     | https://pirulitorosa.site                             | 1.357s |        |
-| ✅        | Pixivコミック                                         | https://comic.pixiv.net                               | 1.567s |        |
-| ✅        | Platinum Lily Scan                                | https://platinumlilyscan.com                          | 1.046s |        |
-| ✅        | Plot Twist No Fansub                              | https://plotnofansub.com                              | 1.240s |        |
-| ✅        | Point Zero Toons                                  | https://kitsuneyako.com                               | 1.622s |        |
-| ✅        | PopsManga                                         | https://popsmanga.net                                 | 2.789s |        |
-| ✅        | Pornhwa18                                         | https://pornhwa18.com                                 | 1.875s |        |
-| ✅        | PornPics                                          | https://www.pornpics.com                              | 0.634s |        |
-| ✅        | Pornwha.fr                                        | https://pornhwa.fr                                    | 1.518s |        |
-| ✅        | Poseidon Scans                                    | https://poseidon-scans.net                            | 1.463s |        |
-| ✅        | Pramramadhan                                      | https://01.pramramadhan.my.id                         | 2.715s |        |
-| ✅        | PuchiScan                                         | https://capibaratraductor.com/puchi                   | 0.394s |        |
-| ✅        | Rackus                                            | https://rackusreads.com                               | 2.051s |        |
-| ✅        | Ragna Scans                                       | https://lector.ragnascan.xyz                          | 1.877s |        |
-| ✅        | Raiki Scan                                        | https://raikiscan.com                                 | 2.221s |        |
-| ✅        | Rakuen Translations                               | https://capibaratraductor.com/rakuen                  | 0.342s |        |
-| ✅        | Randowiz                                          | https://randowis.com                                  | 1.265s |        |
-| ✅        | Raven Scans                                       | https://ravenscans.org                                | 1.331s |        |
-| ✅        | RavenManga                                        | https://raventard.xyz                                 | 1.701s |        |
-| ✅        | Raw Otaku                                         | https://rawotaku.com                                  | 2.193s |        |
-| ✅        | Raw UwU                                           | https://rawuwu.net                                    | 1.594s |        |
-| ✅        | Raw1001                                           | https://raw1001.net                                   | 2.114s |        |
-| ✅        | Rawdevart.art                                     | https://rawdevart.art                                 | 0.824s |        |
-| ✅        | RawDEX                                            | https://rawdex.net                                    | 1.401s |        |
-| ✅        | RawINU                                            | https://rawinu.com                                    | 1.466s |        |
-| ✅        | RawZO                                             | https://rawzo.net                                     | 1.149s |        |
-| ✅        | Razure                                            | https://razure.org                                    | 1.008s |        |
-| ✅        | Read Attack on Titan Shingeki no Kyojin Manga     | https://ww11.readsnk.com                              | 4.320s |        |
-| ✅        | Read Boku no Hero Academia My Hero Academia Manga | https://ww10.readmha.com                              | 2.841s |        |
-| ✅        | Read Chainsaw Man Manga Online                    | https://ww5.readchainsawman.com                       | 2.149s |        |
-| ✅        | Read Fairy Tail & Edens Zero Manga Online         | https://ww8.readfairytail.com                         | 2.474s |        |
-| ✅        | Read Jujutsu Kaisen Manga Online                  | https://ww5.readjujutsukaisen.com                     | 2.782s |        |
-| ✅        | Read Kingdom Manga Online                         | https://ww5.readkingdom.com                           | 2.727s |        |
-| ✅        | Read Nanatsu no Taizai 7 Deadly Sins Manga Online | https://ww7.read7deadlysins.com                       | 3.768s |        |
-| ✅        | Read Naruto Boruto Samurai 8 Manga Online         | https://ww11.readnaruto.com                           | 2.321s |        |
-| ✅        | Read One Piece Manga Online                       | https://ww12.readonepiece.com                         | 1.294s |        |
-| ✅        | Read One-Punch Man Manga Online                   | https://ww6.readopm.com                               | 7.400s |        |
-| ✅        | Read Solo Leveling Manga Manhwa Online            | https://ww3.readsololeveling.org                      | 2.653s |        |
-| ✅        | Read Tokyo Ghoul Re & Tokyo Ghoul Manga Online    | https://ww11.tokyoghoulre.com                         | 3.705s |        |
-| ✅        | Read Vagabond Manga                               | https://readbagabondo.com                             | 1.879s |        |
-| ✅        | ReadComicOnline                                   | https://rcostation.xyz                                | 2.110s |        |
-| ✅        | ReadManga                                         | https://a.zazaza.me                                   | 1.168s |        |
-| ✅        | Real Life Comics                                  | https://reallifecomics.com                            | 1.587s |        |
-| ✅        | ReaperTrans                                       | https://reapertrans.com                               | 1.365s |        |
-| ✅        | ReiManga                                          | https://reimanga.com                                  | 1.094s |        |
-| ✅        | Renascans                                         | https://renascans.net                                 | 0.697s |        |
-| ✅        | Reset Scans                                       | https://reset-scans.org                               | 2.743s |        |
-| ✅        | Rest Scans                                        | https://restscans.com                                 | 1.406s |        |
-| ✅        | ReYume                                            | https://www.re-yume.my.id                             | 1.694s |        |
-| ✅        | RichtoScan                                        | https://r1.richtoon.top                               | 2.338s |        |
-| ✅        | RimacomiPlus                                      | https://rimacomiplus.jp                               | 1.850s |        |
-| ✅        | Rimu Scans                                        | https://rimu-scans.fr                                 | 1.143s |        |
-| ✅        | Rinko Comics                                      | https://rinkocomics.com                               | 6.814s |        |
-| ✅        | RitharScans                                       | https://ritharscans.com                               | 3.205s |        |
-| ✅        | Riztranslation                                    | https://riztranslation.pages.dev                      | 0.331s |        |
-| ✅        | Rizz Comic                                        | https://rizzfables.com                                | 2.294s |        |
-| ✅        | Rocks Manga                                       | https://rocksmanga.com                                | 2.909s |        |
-| ✅        | RokariComics                                      | https://rokaricomics.com                              | 1.568s |        |
-| ✅        | Rolia Scan                                        | https://roliascan.com                                 | 0.873s |        |
-| ✅        | Rose Squad Scans                                  | https://rosesquadscans.aishiteru.org                  | 1.687s |        |
-| ✅        | Roseveil                                          | https://roseveil.org                                  | 1.452s |        |
-| ✅        | Roxinha                                           | https://roxinha.online                                | 0.582s |        |
-| ✅        | RuMIX                                             | https://rumix.me                                      | 1.463s |        |
-| ✅        | Rüya Manga                                        | https://www.ruyamanga2.com                            | 2.026s |        |
-| ✅        | S2Manga                                           | https://s2read.com                                    | 3.846s |        |
-| ✅        | SACACHISPA                                        | https://capibaratraductor.com/sacachispa              | 0.301s |        |
-| ✅        | Sagrado Império da Britannia                      | https://imperiodabritannia.net                        | 1.147s |        |
-| ✅        | Saitou Translations                               | https://capibaratraductor.com/saitoutranslations      | 0.368s |        |
-| ✅        | Sana Scans                                        | https://sanascans.com                                 | 2.826s |        |
-| ✅        | Sandra and Woo                                    | https://www.sandraandwoo.com                          | 1.355s |        |
-| ✅        | Sandra und Woo                                    | https://www.sandraandwoo.com                          | 2.715s |        |
-| ✅        | SapphireScan                                      | https://www.sapphirescan.com                          | 0.490s |        |
-| ✅        | Saturday Morning Breakfast Comics                 | https://smbc-comics.com                               | 1.108s |        |
-| ✅        | SayHentai                                         | https://sayhentai.sh                                  | 2.175s |        |
-| ✅        | Scan Reader                                       | https://scanreader.net                                | 2.660s |        |
-| ✅        | Scan Review                                       | https://capibaratraductor.com/scanreview              | 0.401s |        |
-| ✅        | Scan Starts                                       | https://capibaratraductor.com/scanstarts              | 0.311s |        |
-| ✅        | ScanR                                             | https://teamscanr.fr                                  | 1.672s |        |
-| ✅        | ScansFR                                           | https://scansfr.com                                   | 2.789s |        |
-| ✅        | ScansHub                                          | https://capibaratraductor.com/scanshub                | 0.204s |        |
-| ✅        | Scantrad Union                                    | https://scantrad-union.com                            | 2.057s |        |
-| ✅        | ScanZ                                             | https://capibaratraductor.com/scanz                   | 0.428s |        |
-| ✅        | Schlock Mercenary                                 | https://www.schlockmercenary.com                      | 0.971s |        |
-| ✅        | Secta BL Scan                                     | https://capibaratraductor.com/sectablscan             | 0.541s |        |
-| ✅        | Seikowo                                           | https://seikowo-app.blogspot.com                      | 2.051s |        |
-| ✅        | SeiManga                                          | https://1.seimanga.me                                 | 2.346s |        |
-| ✅        | Sekte Doujin                                      | https://sektedoujin.cc                                | 1.636s |        |
-| ✅        | SelfManga                                         | https://1.selfmanga.live                              | 2.720s |        |
-| ✅        | Senshi Manga                                      | https://capibaratraductor.com/senshimanga             | 0.201s |        |
-| ✅        | SeraphicDeviltry                                  | https://seraphic-deviltry.com                         | 1.233s |        |
-| ✅        | SeraphicDeviltry                                  | https://spanish.seraphic-deviltry.com                 | 1.735s |        |
-| ✅        | Shadow Çeviri                                     | https://shadowceviri.blogspot.com                     | 1.300s |        |
-| ✅        | Shijie Scans                                      | https://shijiescans.com                               | 2.474s |        |
-| ✅        | ShiyuraSub                                        | https://shiyurasub.blogspot.com                       | 0.468s |        |
-| ✅        | Shonen Jump+                                      | https://shonenjumpplus.com                            | 3.372s |        |
-| ✅        | ShoShinSha Scans                                  | https://capibaratraductor.com/shoshinshascans         | 0.419s |        |
-| ✅        | Siikomik                                          | https://siikomik.net                                  | 0.959s |        |
-| ✅        | Siyah Melek                                       | https://siyahmelek.vip                                | 1.580s |        |
-| ✅        | Sky Manga                                         | https://skymanga.work                                 | 1.189s |        |
-| ✅        | SkyMangas                                         | https://skymangas.com                                 | 2.973s |        |
-| ✅        | Sleepy Translations                               | https://sleepytranslations.com                        | 1.641s |        |
-| ✅        | SoaiCaComic                                       | https://soaicacomic2.top                              | 3.134s |        |
-| ✅        | Softkomik                                         | https://softkomik.co                                  | 0.651s |        |
-| ✅        | Sokuyomi                                          | https://sokuyomi.jp                                   | 1.324s |        |
-| ✅        | Soul Craft Fansub                                 | https://capibaratraductor.com/soulcraft               | 0.235s |        |
-| ✅        | Space Fansub                                      | https://capibaratraductor.com/spacefansub             | 0.314s |        |
-| ✅        | Speed Manga                                       | https://speed-manga.net                               | 9.263s |        |
-| ✅        | Spicy Scan                                        | https://spicyseries.com                               | 2.095s |        |
-| ✅        | Starlight Scan                                    | https://starligthscan.com                             | 1.679s |        |
-| ✅        | StoneScape                                        | https://stonescape.xyz                                | 1.755s |        |
-| ✅        | StrayDog608                                       | https://capibaratraductor.com/straydog608             | 0.387s |        |
-| ✅        | SummerToon                                        | https://summertoons.net                               | 2.607s |        |
-| ✅        | Sunday Web Every                                  | https://www.sunday-webry.com                          | 1.957s |        |
-| ✅        | Sunset Manga                                      | https://sunsetmanga.com                               | 1.970s |        |
-| ✅        | Sunshine Butterfly Scans                          | https://wings.sbs                                     | 0.591s |        |
-| ✅        | SUPER MEGA                                        | https://www.supermegacomics.com                       | 1.719s |        |
-| ✅        | Sushiscan.fr                                      | https://sushiscan.fr                                  | 2.430s |        |
-| ✅        | Sword Of Oblivion                                 | https://swordofoblivion.com                           | 2.121s |        |
-| ✅        | Swords Comic                                      | https://swordscomic.com                               | 1.945s |        |
-| ✅        | Taddy INK (Webtoons)                              | https://taddy.org                                     | 0.878s |        |
-| ✅        | Taiyō                                             | https://taiyo.moe                                     | 1.248s |        |
-| ✅        | TakeComic                                         | https://takecomic.jp                                  | 1.300s |        |
-| ✅        | Tankou Hentai                                     | https://tankouhentai.com                              | 0.407s |        |
-| ✅        | Tanuki-Manga                                      | https://www.tanuki-manga.net                          | 1.692s |        |
-| ✅        | Tapas                                             | https://tapas.io                                      | 1.901s |        |
-| ✅        | Tappytoon                                         | https://www.tappytoon.com/de                          | 2.025s |        |
-| ✅        | Tappytoon                                         | https://www.tappytoon.com/en                          | 0.975s |        |
-| ✅        | Tappytoon                                         | https://www.tappytoon.com/fr                          | 0.864s |        |
-| ✅        | Taurus Fansub                                     | https://lectortaurus.com                              | 2.401s |        |
-| ✅        | TCB Scans                                         | https://tcbonepiecechapters.com                       | 2.319s |        |
-| ✅        | Temaki mangás                                     | https://temakimangas.blogspot.com                     | 0.764s |        |
-| ✅        | Temple Scan                                       | https://aedexnox.akan01.com                           | 0.560s |        |
-| ✅        | Templo de Jeny                                    | https://capibaratraductor.com/templodejeny            | 0.319s |        |
-| ✅        | Terra Scans                                       | https://capibaratraductor.com/terrascans              | 0.263s |        |
-| ✅        | The Duck Webcomics                                | https://www.theduckwebcomics.com                      | 0.989s |        |
-| ✅        | The grimorio de la witch                          | https://capibaratraductor.com/tgdlw                   | 0.432s |        |
-| ✅        | The Library of Ohara                              | https://thelibraryofohara.com                         | 0.691s |        |
-| ✅        | The Property of Hate                              | https://jolleycomics.com                              | 0.303s |        |
-| ✅        | TheBlueBox                                        | https://capibaratraductor.com/thebluebox              | 0.381s |        |
-| ✅        | ThienThaiTruyen                                   | https://thienthaitruyen8.com                          | 0.908s |        |
-| ✅        | Thunder Scans                                     | https://en-thunderscans.com                           | 1.208s |        |
-| ✅        | Tia Manhwa                                        | https://tiamanhwa.com                                 | 1.572s |        |
-| ✅        | TimelessToons                                     | https://timelesstoons.org                             | 7.314s |        |
-| ✅        | TMAT                                              | https://capibaratraductor.com/tamt                    | 0.434s |        |
-| ✅        | TodayManga                                        | https://todaymanga.com                                | 2.271s |        |
-| ✅        | Tonari no Young Jump                              | https://tonarinoyj.jp                                 | 0.902s |        |
-| ✅        | TonizuToon                                        | https://tonizu.top                                    | 1.438s |        |
-| ✅        | Toomics (Only free chapters)                      | https://global.toomics.com                            | 1.919s |        |
-| ✅        | ToomTam-Manga                                     | https://toomtam-manga.com                             | 1.656s |        |
-| ✅        | Toon-es                                           | https://toon-es.com                                   | 1.997s |        |
-| ✅        | ToonBr                                            | https://beta.toonbr.com                               | 1.704s |        |
-| ✅        | Tooncubus                                         | https://www.tooncubus.top                             | 1.244s |        |
-| ✅        | TooniTube                                         | https://toonitube.com                                 | 1.243s |        |
-| ✅        | Top Manhua                                        | https://mangatop.org                                  | 3.391s |        |
-| ✅        | TopManhua.fan                                     | https://www.topmanhua.fan                             | 1.048s |        |
-| ✅        | TOPTOON頂通                                         | https://www.toptoon.net                               | 2.720s |        |
-| ✅        | Tortuga Ceviri                                    | https://tortugaceviri.com                             | 2.326s |        |
-| ✅        | Traducciones Amistosas                            | https://nartag.com                                    | 1.189s |        |
-| ✅        | Traducciones Moonlight                            | https://traduccionesmoonlight.com                     | 1.777s |        |
-| ✅        | Traducciones Muy Lentas                           | https://capibaratraductor.com/tmlentas                | 0.244s |        |
-| ✅        | Traducciones PaltaNobu                            | https://capibaratraductor.com/paltanobu               | 0.683s |        |
-| ✅        | Traduções do Lipe                                 | https://traducoesdolipe.blogspot.com                  | 1.141s |        |
-| ✅        | Tranh18                                           | https://tranh18.cc                                    | 2.559s |        |
-| ✅        | TritiniaScans                                     | https://tritinia.org                                  | 2.075s |        |
-| ✅        | TrManga                                           | https://trmanga.com                                   | 1.743s |        |
-| ✅        | Truyen18                                          | https://truyen18.co                                   | 1.389s |        |
-| ✅        | TruyenHentaivn                                    | https://truyenhentaivn.club                           | 2.119s |        |
-| ✅        | TruyenHentaiz                                     | https://truyenhentaiz.net                             | 2.050s |        |
-| ✅        | TruyenMM                                          | https://truyenmmhayr.com                              | 0.281s |        |
-| ✅        | TruyenTuoiTho                                     | https://truyentuoitho.com                             | 2.131s |        |
-| ✅        | TruyenTVN                                         | https://truyentvn.net                                 | 2.079s |        |
-| ✅        | TruyenVN                                          | https://truyenvn.sbs                                  | 1.892s |        |
-| ✅        | Truyện Hentai 18+                                 | https://truyenhentai18.net                            | 2.192s |        |
-| ✅        | Truyện tranh đam mỹ                               | https://truyentranhdammyy.site                        | 4.535s |        |
-| ✅        | Tsuki No Musume Scan                              | https://capibaratraductor.com/tsukinomusumescan       | 0.458s |        |
-| ✅        | Tsundoku Traduções                                | https://tsundoku.com.br                               | 2.166s |        |
-| ✅        | Tu Erizo Traducciones                             | https://capibaratraductor.com/tuerizotraducciones     | 0.290s |        |
-| ✅        | TuiTruyen                                         | https://tuitruyen.top                                 | 0.970s |        |
-| ✅        | TuSachXinhXinh                                    | https://tusachxinhxinh12.online                       | 0.848s |        |
-| ✅        | TuttoAnimeManga                                   | https://tuttoanimemanga.net                           | 1.377s |        |
-| ✅        | Twi4                                              | https://sai-zen-sen.jp/comics/twi4/                   | 0.893s |        |
-| ✅        | Twicomi                                           | https://twicomi.com                                   | 1.239s |        |
-| ✅        | Türkçe Manga Oku                                  | https://trmangaoku.com                                | 2.574s |        |
-| ✅        | U-NEXT                                            | https://video.unext.jp                                | 1.311s |        |
-| ✅        | Uchuujin Projects                                 | https://uchuujinmangas.com                            | 0.918s |        |
-| ✅        | Ulas Comic                                        | https://www.ulascomic01.xyz                           | 1.440s |        |
-| ✅        | Uncensored Manhwa                                 | https://uncensoredmanhwa.us                           | 1.052s |        |
-| ✅        | UniComics                                         | https://unicomics.ru                                  | 2.651s |        |
-| ✅        | Universo Hentai                                   | https://universohentai.com                            | 1.052s |        |
-| ✅        | Usagi                                             | https://web.usagi.one/                                | 2.229s |        |
-| ✅        | Utsukushii                                        | https://utsukushii-bg.com                             | 1.865s |        |
-| ✅        | Ver Manhwas                                       | https://vermanhwa.com                                 | 1.558s |        |
-| ✅        | vgperson                                          | https://vgperson.com/other/mangaviewer.php            | 1.535s |        |
-| ✅        | VinaHentai                                        | https://vinahentai.life                               | 0.969s |        |
-| ✅        | Vinnie Veritas - CCC                              | https://ccc.vinnieveritas.com                         | 1.123s |        |
-| ✅        | Violet Scans                                      | https://violetscans.org                               | 1.706s |        |
-| ✅        | Virreinato de Unknown Realm Fansub                | https://capibaratraductor.com/unknown-realm-fansub    | 0.347s |        |
-| ✅        | VIZ Manga                                         | https://www.viz.com                                   | 0.856s |        |
-| ✅        | VIZ Shonen Jump                                   | https://www.viz.com                                   | 1.055s |        |
-| ✅        | Vortex Scans                                      | https://vortexscans.org                               | 1.020s |        |
-| ✅        | VoyceMe                                           | https://www.voyce.me                                  | 0.505s |        |
-| ✅        | VyvyManga                                         | https://vymanga.net                                   | 2.285s |        |
-| ✅        | WaifusWithSalsa Scan                              | https://capibaratraductor.com/wws                     | 0.297s |        |
-| ✅        | Webcomics                                         | https://webcomicsapp.com                              | 2.535s |        |
-| ✅        | Webdex Scans                                      | https://webdexscans.com                               | 1.903s |        |
-| ✅        | Webtoons.com                                      | https://www.webtoons.com                              | 1.737s |        |
-| ✅        | Weeping Angel                                     | https://capibaratraductor.com/weepingangel            | 0.505s |        |
-| ✅        | WeLoveManga                                       | https://weloma.art                                    | 0.890s |        |
-| ✅        | West Manga                                        | https://westmanga.co                                  | 0.671s |        |
-| ✅        | White Pearl Translations                          | https://capibaratraductor.com/whitepearl              | 0.486s |        |
-| ✅        | WitchScans                                        | https://witchscans.com                                | 1.369s |        |
-| ✅        | Wolftoon                                          | https://wolftoon.lovable.app                          | 1.846s |        |
-| ✅        | Writer Scans                                      | https://writerscans.com                               | 5.983s |        |
-| ✅        | XAsiat Albums                                     | https://www.xasiat.com                                | 1.872s |        |
-| ✅        | Xiutaku                                           | https://xiutaku.com                                   | 1.215s |        |
-| ✅        | xkcd                                              | https://es.xkcd.com                                   | 2.649s |        |
-| ✅        | xkcd                                              | https://xkcd.com                                      | 1.216s |        |
-| ✅        | xkcd                                              | https://xkcd.lapin.org                                | 1.269s |        |
-| ✅        | xkcd                                              | https://xkcd.ru                                       | 2.007s |        |
-| ✅        | xkcd                                              | https://xkcd.tw                                       | 0.871s |        |
-| ✅        | XlecX                                             | https://xlecx.one                                     | 0.225s |        |
-| ✅        | XoManga                                           | https://www.xomanga.site                              | 0.588s |        |
-| ✅        | XSano Manga                                       | https://www.xsano-manga.com                           | 1.249s |        |
-| ✅        | Xscans                                            | https://xscans.site                                   | 0.967s |        |
-| ✅        | YagamiProject                                     | https://read.yagami.me                                | 1.934s |        |
-| ✅        | Yaoi Fan Club                                     | https://www.yaoifanclub.com                           | 0.903s |        |
-| ✅        | Yaoi Flix                                         | https://yaoiflix.fit                                  | 1.489s |        |
-| ✅        | Yaoibar                                           | https://yaoibar.lol                                   | 2.429s |        |
-| ✅        | YaoiHot                                           | https://yaoihot.com                                   | 1.629s |        |
-| ✅        | Yaoihub                                           | https://yaoihub.net                                   | 1.203s |        |
-| ✅        | YaoiLib                                           | https://v2.shlib.life                                 | 1.361s |        |
-| ✅        | YaoiScan                                          | https://yaoiscan.fr                                   | 2.807s |        |
-| ✅        | YaoiToon                                          | https://yaoitoon.net                                  | 1.635s |        |
-| ✅        | Yokai                                             | https://yokai-team.blogspot.com                       | 0.689s |        |
-| ✅        | Yomonga                                           | https://www.yomonga.com                               | 2.056s |        |
-| ✅        | Yomu Comics                                       | https://yomu.com.br                                   | 2.283s |        |
-| ✅        | Young Animal                                      | https://younganimal.com                               | 1.219s |        |
-| ✅        | Young Champion                                    | https://youngchampion.jp                              | 1.957s |        |
-| ✅        | Young Jump+                                       | https://ynjn.jp                                       | 3.167s |        |
-| ✅        | YSK Comics                                        | https://www.ysk-comics.com                            | 2.545s |        |
-| ✅        | Yupmanga                                          | https://www.yupmanga.com                              | 0.926s |        |
-| ✅        | Yuri Moon Sub                                     | https://yurimoonsub.blogspot.com                      | 0.985s |        |
-| ✅        | Yuri-Online                                       | https://yuri-online.com                               | 3.175s |        |
-| ✅        | Zazamanga                                         | https://www.zazamanga.com                             | 0.394s |        |
-| ✅        | Zebrack                                           | https://zebrack-comic.shueisha.co.jp                  | 1.606s |        |
-| ✅        | Zenko                                             | https://zenko.online                                  | 1.368s |        |
-| ✅        | Zenon                                             | https://comic-zenon.com                               | 3.637s |        |
-| ✅        | Zerosum Online                                    | https://zerosumonline.com                             | 1.539s |        |
-| ✅        | zero搬运网                                           | http://www.zerobywai.com                              | 1.336s |        |
-| ✅        | ZettaHQ                                           | https://zettahq.com                                   | 0.242s |        |
-| ✅        | ZetTruyen                                         | https://www.zettruyen.top                             | 3.518s |        |
-| ✅        | ZeurelScan                                        | https://www.zeurelscan.com                            | 1.627s |        |
-| ✅        | Zonatmo.to (unoriginal)                           | https://zonatmo.to                                    | 1.393s |        |
-| ✅        | ÇaprazManga                                       | https://caprazmanga.com                               | 2.060s |        |
-| ✅        | مانجا العاشق                                      | https://3asq.org                                      | 2.222s |        |
-| ✅        | مانجا ليك                                         | https://like-manga.net                                | 1.066s |        |
-| ✅        | 《崩坏3》IP站                                          | https://comic.bh3.com                                 | 1.841s |        |
-| ✅        | がうがうモンスター＋                                        | https://gaugau.futabanet.jp                           | 2.302s |        |
-| ✅        | カドコミ                                              | https://comic-walker.com                              | 1.087s |        |
-| ✅        | コミコ                                               | https://www.comico.jp                                 | 1.933s |        |
-| ✅        | マンガ図書館Z                                           | https://www.mangaz.com                                | 2.291s |        |
-| ✅        | ヤンマガ（グラビア）                                        | https://yanmaga.jp                                    | 1.722s |        |
-| ✅        | ヤンマガ（マンガ）                                         | https://yanmaga.jp                                    | 1.058s |        |
-| ✅        | 六漫画                                               | https://www.liumanhua.com                             | 1.455s |        |
-| ✅        | 再漫画                                               | https://manhua.zaimanhua.com                          | 3.010s |        |
-| ✅        | 动漫屋                                               | https://www.dm5.cn                                    | 2.278s |        |
-| ✅        | 包子漫画                                              | https://cn.baozimh.com                                | 1.946s |        |
-| ✅        | 喜漫漫画                                              | https://www.favcomic.com                              | 1.318s |        |
-| ✅        | 小黄书                                               | https://en.xchina.co                                  | 1.855s |        |
-| ✅        | 快看漫画                                              | https://www.kuaikanmanhua.com                         | 2.868s |        |
-| ✅        | 杂志迷                                               | https://www.zazhimi.net                               | 3.030s |        |
-| ✅        | 泰拉记事社                                             | https://comic.hypergryph.com                          | 2.245s |        |
-| ✅        | 漫画1234                                            | https://m.wmh1234.com                                 | 2.580s |        |
-| ✅        | 漫画屋                                               | https://www.mhua5.com                                 | 1.173s |        |
-| ✅        | 漫画柜                                               | https://www.manhuagui.com                             | 1.846s |        |
-| ✅        | 漫画社                                               | https://www.311s.com                                  | 2.589s |        |
-| ✅        | 無限動漫                                              | https://www.8comic.com                                | 2.057s |        |
-| ✅        | 爱奇艺叭嗒                                             | https://www.iqiyi.com/manhua                          | 1.607s |        |
-| ✅        | 紳士漫畫                                              | https://www.wnacg05.cc                                | 0.916s |        |
-| ✅        | 腾讯动漫                                              | https://m.ac.qq.com                                   | 3.089s |        |
-| ✅        | 늑대닷컴 - 만화책                                        | https://wfwf457.com                                   | 1.156s |        |
-| ✅        | 늑대닷컴 - 웹툰                                         | https://wfwf457.com                                   | 0.889s |        |
-| ✅        | 늑대닷컴 - 포토툰                                        | https://wfwf457.com                                   | 0.395s |        |
+| ✅        | Bakai                                             | https://bakai.org                                     | 2.994s |        |
+| ✅        | Bakkin                                            | https://bakkin.moe/reader/                            | 0.841s |        |
+| ✅        | BaoBua                                            | https://baobua.net                                    | 1.265s |        |
+| ✅        | BarManga                                          | https://archiviumbar.com                              | 1.103s |        |
+| ✅        | Bbato                                             | https://bbato.com                                     | 2.494s |        |
+| ✅        | Beeg Gimp                                         | https://capibaratraductor.com/beeggimp                | 0.328s |        |
+| ✅        | Beyond Birthday Subs                              | https://capibaratraductor.com/beyondbirthdaysubs      | 0.220s |        |
+| ✅        | Biblio Panda                                      | https://bibliopanda.com                               | 2.157s |        |
+| ✅        | Big Comics                                        | https://bigcomics.jp                                  | 1.834s |        |
+| ✅        | BigSolo                                           | https://bigsolo.org                                   | 0.477s |        |
+| ✅        | Bladetoons                                        | https://bladetoons.com                                | 1.334s |        |
+| ✅        | Bloom Scans                                       | https://bloomscans.com                                | 0.850s |        |
+| ✅        | Blue Solo                                         | https://bluesolo.org                                  | 2.254s |        |
+| ✅        | Bonbon Scanlation                                 | https://capibaratraductor.com/bonbonscanlation        | 0.210s |        |
+| ✅        | Bored Slayer Scan                                 | https://capibaratraductor.com/boredslayerscan         | 0.278s |        |
+| ✅        | Boruto Explorer                                   | https://leitor.borutoexplorer.com.br                  | 3.550s |        |
+| ✅        | BR Yaoi                                           | https://bryaoi.com                                    | 1.037s |        |
+| ✅        | Brasil Hentai                                     | https://brasilhentai.com                              | 2.098s |        |
+| ✅        | Break Scan                                        | https://capibaratraductor.com/breakscan               | 0.681s |        |
+| ✅        | Broccoli Soup                                     | https://politeandgood.com                             | 0.864s |        |
+| ✅        | Bun Manga                                         | https://bunmanga.com                                  | 2.576s |        |
+| ✅        | Buon Dua                                          | https://buondua.com                                   | 1.092s |        |
+| ✅        | Buttsmithy                                        | https://incase.buttsmithy.com                         | 0.875s |        |
+| ✅        | Bymichi Scan                                      | https://bymichiby.com                                 | 0.663s |        |
+| ✅        | C'moA                                             | https://www.cmoa.jp                                   | 3.645s |        |
+| ✅        | Capitoons                                         | https://capitoons.com                                 | 4.340s |        |
+| ✅        | Cat300                                            | https://cat-300.com                                   | 2.185s |        |
+| ✅        | Catharsis World                                   | https://catharsisworld.dig-it.info                    | 1.695s |        |
+| ✅        | CatManhwas                                        | https://newcat1.xyz                                   | 3.547s |        |
+| ✅        | CCC追漫台                                            | https://www.creative-comic.tw                         | 1.320s |        |
+| ✅        | Celestial Moon                                    | https://celestialmoonscan.es                          | 2.422s |        |
+| ✅        | Cerberus Series                                   | https://legionscans.com/wp                            | 1.768s |        |
+| ✅        | Cerise Scan                                       | https://loverstoon.com                                | 2.760s |        |
+| ✅        | Champion Cross                                    | https://championcross.jp                              | 2.550s |        |
+| ✅        | Chibis Scan                                       | https://capibaratraductor.com/chibis                  | 0.260s |        |
+| ✅        | Chunchunmaru Translations                         | https://capibaratraductor.com/chunchunmarutl          | 0.432s |        |
+| ✅        | Ciao Plus                                         | https://ciao.shogakukan.co.jp                         | 2.482s |        |
+| ✅        | Clone Manga                                       | https://manga.clone-army.org                          | 2.234s |        |
+| ✅        | Clown Corps                                       | https://clowncorps.net                                | 0.908s |        |
+| ✅        | Cocomic                                           | https://cocomic.co                                    | 0.757s |        |
+| ✅        | Coffee Manga                                      | https://coffeemanga.ink                               | 2.656s |        |
+| ✅        | Collected Curios                                  | https://www.collectedcurios.com                       | 0.342s |        |
+| ✅        | Colorcito Scan                                    | https://colorcitoscan.com                             | 1.165s |        |
+| ✅        | Comic Asura                                       | https://comicasura.net                                | 1.712s |        |
+| ✅        | Comic Boost                                       | https://comic-boost.com                               | 3.457s |        |
+| ✅        | Comic Border                                      | https://comicborder.com                               | 1.892s |        |
+| ✅        | Comic Days                                        | https://comic-days.com                                | 2.316s |        |
+| ✅        | Comic Earth Star                                  | https://comic-earthstar.com                           | 3.150s |        |
+| ✅        | Comic Fury                                        | https://comicfury.com                                 | 1.195s |        |
+| ✅        | Comic Fury (No Text)                              | https://comicfury.com                                 | 1.486s |        |
+| ✅        | COMIC FUZ                                         | https://comic-fuz.com                                 | 1.776s |        |
+| ✅        | Comic Gardo                                       | https://comic-gardo.com                               | 0.193s |        |
+| ✅        | Comic Grast                                       | https://novema.jp                                     | 3.132s |        |
+| ✅        | Comic Growl                                       | https://comic-growl.com                               | 2.084s |        |
+| ✅        | Comic MeDu                                        | https://comic-medu.com                                | 2.454s |        |
+| ✅        | Comic Nettai                                      | https://www.comicnettai.com                           | 3.587s |        |
+| ✅        | Comic Pash                                        | https://comicpash.jp                                  | 1.784s |        |
+| ✅        | Comic Ride                                        | https://comicride.jp                                  | 1.153s |        |
+| ✅        | Comic Ryu                                         | https://www.comic-ryu.jp                              | 2.846s |        |
+| ✅        | Comic Verse                                       | https://arcomixverse.blogspot.com                     | 2.745s |        |
+| ✅        | Comic Y-OURs                                      | https://comic-y-ours.com                              | 2.095s |        |
+| ✅        | Comick (Unoriginal)                               | https://comick.live                                   | 0.983s |        |
+| ✅        | ComicK Fanmade                                    | https://comickfan.com                                 | 27s    |        |
+| ✅        | ComicLand                                         | https://comicland.org                                 | 0.451s |        |
+| ✅        | Comics Valley                                     | https://comicsvalley.com                              | 1.356s |        |
+| ✅        | Comikey                                           | https://comikey.com                                   | 3.588s |        |
+| ✅        | Comikey Brasil                                    | https://br.comikey.com                                | 3.449s |        |
+| ✅        | Comiplex                                          | https://viewer.heros-web.com                          | 0.734s |        |
+| ✅        | Comivex                                           | https://comivex.com                                   | 4.231s |        |
+| ✅        | Commit Strip                                      | https://www.commitstrip.com                           | 13s    |        |
+| ✅        | Coomer                                            | https://coomer.st                                     | 3.246s |        |
+| ✅        | Corocoro Online                                   | https://www.corocoro.jp                               | 1.738s |        |
+| ✅        | Corona EX                                         | https://en.to-corona-ex.com                           | 0.805s |        |
+| ✅        | Corona EX                                         | https://to-corona-ex.com                              | 1.025s |        |
+| ✅        | CosplayTele                                       | https://cosplaytele.com                               | 2.646s |        |
+| ✅        | Crimson Scan                                      | https://capibaratraductor.com/crimsonscan             | 0.842s |        |
+| ✅        | Crow Scans                                        | https://crowscans.xyz                                 | 2.054s |        |
+| ✅        | Cubari                                            | https://cubari.moe                                    | 2.103s |        |
+| ✅        | Cucumber Manga                                    | https://cucumbermanga.com                             | 1.918s |        |
+| ✅        | Culto a Slanesh                                   | https://capibaratraductor.com/cultoaslanesh           | 1.212s |        |
+| ✅        | CulturedWorks                                     | https://culturedworks.com                             | 1.811s |        |
+| ✅        | Cyanide & Happiness                               | https://explosm.net                                   | 1.039s |        |
+| ✅        | CyComi                                            | https://cycomi.com                                    | 0.704s |        |
+| ✅        | Daisuki na Fansub                                 | https://capibaratraductor.com/dnfansub                | 0.414s |        |
+| ✅        | Daleth Project                                    | https://capibaratraductor.com/nameless                | 0.365s |        |
+| ✅        | Danke fürs Lesen                                  | https://danke.moe                                     | 1.953s |        |
+| ✅        | DaoMeoDen                                         | https://daomeoden.net                                 | 2.517s |        |
+| ✅        | Dark Legacy Comics                                | https://www.darklegacycomics.com                      | 0.420s |        |
+| ✅        | Dark Room Fansub                                  | https://lector-darkroomfansub.blogspot.com            | 1.713s |        |
+| ✅        | Dark Science                                      | https://dresdencodak.com                              | 1.215s |        |
+| ✅        | Darths & Droids                                   | https://www.darthsanddroids.net                       | 2.071s |        |
+| ✅        | Dassou Scan                                       | https://dassouscan.com                                | 2.627s |        |
+| ✅        | Dat-Gar Scan                                      | https://datgarscanlation.blogspot.com                 | 1.993s |        |
+| ✅        | DDT Team                                          | https://ddt.hastateam.com                             | 1.898s |        |
+| ✅        | Death Toll Scans                                  | https://reader.deathtollscans.net                     | 2.494s |        |
+| ✅        | Decadence Scans                                   | https://reader.decadencescans.com                     | 2.351s |        |
+| ✅        | Despair Manga                                     | https://despair-manga.net                             | 1.408s |        |
+| ✅        | Desu                                              | https://desu.uno                                      | 2.392s |        |
+| ✅        | DGManga                                           | https://dgmanga.app                                   | 1.911s |        |
+| ✅        | DiamondFansub                                     | https://diamondfansub.com                             | 2.167s |        |
+| ✅        | Digital Comic Museum                              | https://digitalcomicmuseum.com                        | 3.118s |        |
+| ✅        | Diva Scans                                        | https://divatoon.com                                  | 2.290s |        |
+| ✅        | Docomo                                            | https://dbook.docomo.ne.jp                            | 3.029s |        |
+| ✅        | DocTruyen5s                                       | https://manga.io.vn                                   | 2.607s |        |
+| ✅        | Dojing.net                                        | https://dojing.net                                    | 1.867s |        |
+| ✅        | Dokjasheart scanlation                            | https://capibaratraductor.com/dokjasheart             | 0.403s |        |
+| ✅        | Domal Fansub                                      | https://dom4lfansub.online                            | 2.023s |        |
+| ✅        | Dongman Manhua                                    | https://www.dongmanmanhua.cn                          | 3.533s |        |
+| ✅        | DORAGON NO TENSEI                                 | https://capibaratraductor.com/dnt                     | 0.228s |        |
+| ✅        | Doujin Moon                                       | https://doujinmoon.com                                | 1.835s |        |
+| ✅        | Doujin.io - J18                                   | https://doujin.io                                     | 1.948s |        |
+| ✅        | DoujinHentai                                      | https://doujinhentai.net                              | 2.406s |        |
+| ✅        | Doujins                                           | https://doujins.com                                   | 2.141s |        |
+| ✅        | DoujinsHell                                       | https://doujinshell.net                               | 1.152s |        |
+| ✅        | DoujinZa                                          | https://doujinza.com                                  | 0.552s |        |
+| ✅        | Dragon Ball Multiverse                            | https://www.dragonball-multiverse.com                 | 1.108s |        |
+| ✅        | Dragon Ball Multiverse Parody                     | https://www.dragonball-multiverse.com                 | 1.630s |        |
+| ✅        | DragonTranslation.org                             | https://dragontranslation.org                         | 3.126s |        |
+| ✅        | DreamTeams Scans                                  | https://dreamteams.space                              | 2.131s |        |
+| ✅        | Dynasty                                           | https://manhuako.net                                  | 1.543s |        |
+| ✅        | Dynasty Scans                                     | https://dynasty-scans.com                             | 0.805s |        |
+| ✅        | Dưa Leo Truyện                                    | https://dualeotruyengl.com                            | 1.878s |        |
+| ✅        | e621                                              | https://e621.net                                      | 1.426s |        |
+| ✅        | eBookJapan                                        | https://ebookjapan.yahoo.co.jp                        | 3.331s |        |
+| ✅        | Ecchi-Doujin                                      | https://ecchi-doujin.com                              | 1.903s |        |
+| ✅        | El Goonish Shive                                  | https://www.egscomics.com                             | 1.391s |        |
+| ✅        | El Scan Semanal                                   | https://capibaratraductor.com/elscansemanal           | 0.312s |        |
+| ✅        | Elan School                                       | https://elan.school                                   | 2.356s |        |
+| ✅        | Elite Babes                                       | https://www.elitebabes.com                            | 1.286s |        |
+| ✅        | Eljeksreal                                        | https://capibaratraductor.com/eljeksreal              | 0.499s |        |
+| ✅        | Emperor Scan                                      | https://imperiomanhua.com                             | 1.485s |        |
+| ✅        | EnchiladaScan                                     | https://enchiladascan.github.io/enchiladaweb          | 0.455s |        |
+| ✅        | EpicManga                                         | https://epicmanga.co                                  | 0.632s |        |
+| ✅        | Eris Greyrat Translations                         | https://capibaratraductor.com/erisgreyrattranslations | 0.337s |        |
+| ✅        | Es.Mi2Manga                                       | https://es.mi2manga.com                               | 2.035s |        |
+| ✅        | Euphoria Scan                                     | https://euphoriascan.com                              | 0.780s |        |
+| ✅        | Eva Scans                                         | https://evascans.org                                  | 1.599s |        |
+| ✅        | Everia.club                                       | https://everia.club                                   | 1.823s |        |
+| ✅        | ExHentai.net.br                                   | https://exhentai.net.br                               | 3.340s |        |
+| ✅        | Existential Comics                                | https://existentialcomics.com                         | 1.123s |        |
+| ✅        | Fable Scans                                       | https://fablescans.com                                | 1.863s |        |
+| ✅        | Fafa                                              | https://capibaratraductor.com/fafa                    | 0.338s |        |
+| ✅        | Falco Scan                                        | https://falcoscan.net                                 | 3.161s |        |
+| ✅        | Fansubs.cat                                       | https://manga.fansubs.cat                             | 1.715s |        |
+| ✅        | FaxxTraduce                                       | https://capibaratraductor.com/faxxtraduce             | 0.354s |        |
+| ✅        | Fenix Project                                     | https://fenixproject.site                             | 2.538s |        |
+| ✅        | FireCross                                         | https://firecross.jp                                  | 2.528s |        |
+| ✅        | Firescans                                         | https://firescans.xyz                                 | 2.990s |        |
+| ✅        | FlameScans.lol                                    | https://flamescans.lol                                | 1.753s |        |
+| ✅        | Flower Comics                                     | https://flowercomics.jp                               | 1.791s |        |
+| ✅        | FMTEAM                                            | https://fmteam.fr                                     | 2.151s |        |
+| ✅        | FoxTruyen                                         | https://foxtruyen2.com                                | 0.718s |        |
+| ✅        | Fstake Sukyan                                     | https://capibaratraductor.com/fstakesukyan            | 0.847s |        |
+| ✅        | FuryoSquad                                        | https://www.furyosociety.com                          | 3.429s |        |
+| ✅        | GakaMangas                                        | https://gakamangas.com                                | 1.383s |        |
+| ✅        | GALAX Scans                                       | https://galaxscanlator.blogspot.com                   | 2.078s |        |
+| ✅        | Galaxy Manga                                      | https://galaxymanga.io                                | 2.180s |        |
+| ✅        | GalaxyDegenScans                                  | https://gdscans.com                                   | 2.506s |        |
+| ✅        | Gangan Online                                     | https://www.ganganonline.com                          | 1.173s |        |
+| ✅        | GANMA!                                            | https://ganma.jp                                      | 2.614s |        |
+| ✅        | Geass Comics                                      | https://geasscomics.xyz                               | 1.200s |        |
+| ✅        | GEDE Comix                                        | https://gedecomix.com                                 | 1.668s |        |
+| ✅        | Gensura                                           | https://gensura.net                                   | 3.125s |        |
+| ✅        | Genz Toons                                        | https://genztoons.org                                 | 2.907s |        |
+| ✅        | Ghost Scan                                        | https://ghostscan.xyz                                 | 3.170s |        |
+| ✅        | GhosToon                                          | https://ghostoon.com                                  | 4.181s |        |
+| ✅        | GingeRTooN                                        | https://gingertoon.com                                | 1.726s |        |
+| ✅        | GlobalComix                                       | https://globalcomix.com                               | 1.594s |        |
+| ✅        | Glowi                                             | https://capibaratraductor.com/glowi                   | 0.241s |        |
+| ✅        | Go Manga                                          | https://www.go-manga.com                              | 1.947s |        |
+| ✅        | GocTruyenTranh                                    | https://goctruyentranh.com                            | 2.453s |        |
+| ✅        | God-Doujin                                        | https://god-doujin.com                                | 1.570s |        |
+| ✅        | GoDa漫画                                            | https://baozimh.org                                   | 1.553s |        |
+| ✅        | Golden Manga                                      | https://goldenmanga.net                               | 1.507s |        |
+| ✅        | Gone with the Blastwave                           | https://www.blastwave-comic.com                       | 1.642s |        |
+| ✅        | Goon Scans                                        | https://goonscans.org                                 | 1.936s |        |
+| ✅        | Goraku Web                                        | https://gorakuweb.com                                 | 2.734s |        |
+| ✅        | Gourmet Scans                                     | https://gourmetsupremacy.com                          | 3.252s |        |
+| ✅        | Grabber Zone                                      | https://grabber.zone                                  | 1.197s |        |
+| ✅        | Greed Scans                                       | https://gojoscans.com                                 | 2.236s |        |
+| ✅        | Gremory Mangas                                    | https://gremoryhistorias.org                          | 1.517s |        |
+| ✅        | Grrl Power Comic                                  | https://www.grrlpowercomic.com                        | 0.907s |        |
+| ✅        | GTO The Great Site                                | https://reader.gtothegreatsite.net                    | 1.261s |        |
+| ✅        | Gunnerkrigg Court                                 | https://www.gunnerkrigg.com                           | 1.768s |        |
+| ✅        | Guya                                              | https://guya.cubari.moe                               | 0.620s |        |
+| ✅        | H-Comic                                           | https://h-comic.com                                   | 1.614s |        |
+| ✅        | Hachimitsu Tsuki                                  | https://capibaratraductor.com/shojopapers             | 0.218s |        |
+| ✅        | Hachirumi                                         | https://hachirumi.com                                 | 1.014s |        |
+| ✅        | Hades no Fansub                                   | https://lectorhades.latamtoon.com                     | 3.456s |        |
+| ✅        | Hades Scans                                       | https://hadesscans.com                                | 3.140s |        |
+| ✅        | Hana To Yume+                                     | https://hanayume.com                                  | 1.866s |        |
+| ✅        | Hanami Heaven                                     | https://hanamiheaven.org                              | 2.983s |        |
+| ✅        | Hangyaku no Scanlation                            | https://capibaratraductor.com/hangyakunoscanlation    | 0.345s |        |
+| ✅        | HANMAN18                                          | https://hanman18.com                                  | 1.070s |        |
+| ✅        | Hanmokku Scan                                     | https://hanmokkuscan.blogspot.com                     | 1.131s |        |
+| ✅        | Harem de Kira                                     | https://kiraproject.lat                               | 1.913s |        |
+| ✅        | Haru Scan                                         | https://capibaratraductor.com/haruscan                | 0.260s |        |
+| ✅        | Hasta Team                                        | https://reader.hastateam.com                          | 1.927s |        |
+| ✅        | Hayalistic                                        | https://hayalistic.blog                               | 1.248s |        |
+| ✅        | HDoujin                                           | https://hdoujin.org                                   | 1.263s |        |
+| ✅        | HeavenManga                                       | https://heavenmanga.com                               | 1.171s |        |
+| ✅        | HenChan                                           | https://xxl.hentaichan.live                           | 1.803s |        |
+| ✅        | Hennojin                                          | https://hennojin.com                                  | 4.977s |        |
+| ✅        | Hentai Scan Reader                                | https://hentai.scanreader.net                         | 2.939s |        |
+| ✅        | Hentai Season                                     | https://hentaiseason.com                              | 1.608s |        |
+| ✅        | Hentai Tokyo                                      | https://hentaitokyo.net                               | 1.958s |        |
+| ✅        | Hentai.cat                                        | https://manga.hentai.cat                              | 1.870s |        |
+| ✅        | HentaiArchive                                     | https://www.hentai-archive.com                        | 1.768s |        |
+| ✅        | HentaiEnvy                                        | https://hentaienvy.com                                | 4.223s |        |
+| ✅        | HentaiEra                                         | https://hentaiera.com                                 | 0.741s |        |
+| ✅        | HentaiFantasy                                     | https://hentaifantasy.it                              | 1.866s |        |
+| ✅        | HentaiFox                                         | https://hentaifox.com                                 | 1.747s |        |
+| ✅        | HentaiHand                                        | https://hentaihand.com                                | 4.492s |        |
+| ✅        | HentaiKun                                         | https://hentaikun.com                                 | 0.609s |        |
+| ✅        | HentaiNexus                                       | https://hentainexus.com                               | 1.535s |        |
+| ✅        | HentaiRead.io                                     | https://hentairead.io                                 | 2.007s |        |
+| ✅        | HentaiRox                                         | https://hentairox.com                                 | 1.458s |        |
+| ✅        | HentaiXComic                                      | https://hentaixcomic.com                              | 1.404s |        |
+| ✅        | HentaiXDickgirl                                   | https://hentaixdickgirl.com                           | 0.602s |        |
+| ✅        | HentaiXYuri                                       | https://hentaixyuri.com                               | 0.765s |        |
+| ✅        | Hentara                                           | https://hentara.com                                   | 2.802s |        |
+| ✅        | Hijala Scans                                      | https://en-hijala.com                                 | 1.740s |        |
+| ✅        | Hiperdex                                          | https://hiperdex.com                                  | 3.160s |        |
+| ✅        | HistoireDHentai                                   | https://hhentai.fr                                    | 4.253s |        |
+| ✅        | Hive Scans                                        | https://hivetoons.org                                 | 3.171s |        |
+| ✅        | Hiveworks Comics                                  | https://hiveworkscomics.com                           | 2.095s |        |
+| ✅        | HM2D                                              | https://doujindistrict.com                            | 0.731s |        |
+| ✅        | Hmangakyomi                                       | https://hmangakyomi.online                            | 2.226s |        |
+| ✅        | HNI-Scantrad                                      | https://hni-scantrad.net                              | 1.368s |        |
+| ✅        | HOLONOMETRIA                                      | https://holoearth.com                                 | 1.527s |        |
+| ✅        | HOMOcdrs                                          | https://capibaratraductor.com/hmcdrscan               | 0.347s |        |
+| ✅        | HoneyManga                                        | https://honey-manga.com.ua                            | 1.028s |        |
+| ✅        | Honeytoon                                         | https://honeytoon.com                                 | 1.070s |        |
+| ✅        | Honkai Impact 3rd                                 | https://manga.honkaiimpact3.com                       | 1.835s |        |
+| ✅        | Hot Cabaret Scan                                  | https://hotcabaretscan.com                            | 3.092s |        |
+| ✅        | House Of Otakus                                   | https://houseofotakusv2.xyz                           | 1.696s |        |
+| ✅        | HQ Now!                                           | https://www.hq-now.com                                | 0.572s |        |
+| ✅        | Hunters Scan                                      | https://readhunters.xyz                               | 2.458s |        |
+| ✅        | Hyakuro Translations                              | https://hyakuro.net                                   | 0.910s |        |
+| ✅        | I Roved Out                                       | https://www.irovedout.com                             | 2.924s |        |
+| ✅        | Ichicomi                                          | https://ichicomi.com                                  | 0.895s |        |
+| ✅        | Idol. gravureprincess .date                       | https://idol.gravureprincess.date                     | 3.014s |        |
+| ✅        | IMHentai                                          | https://imhentai.xxx                                  | 0.823s |        |
+| ✅        | InkStory                                          | https://inkstory.net                                  | 2.335s |        |
+| ✅        | Inmortal Scan                                     | https://scanimnortal.com                              | 2.312s |        |
+| ✅        | InsanosScan                                       | https://insanoslibrary.com                            | 0.523s |        |
+| ✅        | Inventario Oculto                                 | https://inventariooculto.com                          | 2.231s |        |
+| ✅        | Izanami Scans                                     | https://izanamiscans.my.id                            | 2.703s |        |
+| ✅        | J-N Books                                         | https://comic.j-nbooks.jp                             | 1.908s |        |
+| ✅        | J-Novel                                           | https://j-novel.club                                  | 0.815s |        |
+| ✅        | JComic                                            | https://jcomic.net                                    | 1.734s |        |
+| ✅        | Jinmangas                                         | https://jinmangas.com                                 | 1.310s |        |
+| ✅        | JJCOS                                             | https://jjcos.com                                     | 1.457s |        |
+| ✅        | JoshScan                                          | https://capibaratraductor.com/joshscan                | 0.649s |        |
+| ✅        | Juin Jutsu Team Reader                            | https://www.juinjutsureader.ovh                       | 1.647s |        |
+| ✅        | Jump Rookie!                                      | https://rookie.shonenjump.com                         | 1.748s |        |
+| ✅        | Junmeitu                                          | https://meijuntu.com                                  | 1.910s |        |
+| ✅        | K Manga                                           | https://kmanga.kodansha.com                           | 0.780s |        |
+| ✅        | KaiserZ Scanlation                                | https://capibaratraductor.com/kaizscan                | 0.288s |        |
+| ✅        | Kaizen Translations                               | https://capibaratraductor.com/kaizen                  | 1.098s |        |
+| ✅        | KaliScan.com                                      | https://kaliscan.com                                  | 1.054s |        |
+| ✅        | KaliScan.io                                       | https://kaliscan.io                                   | 1.854s |        |
+| ✅        | KaliScan.me                                       | https://kaliscan.me                                   | 3.081s |        |
+| ✅        | Kami Sama Explorer                                | https://leitor.kamisama.com.br                        | 2.167s |        |
+| ✅        | KamiComic                                         | https://kamicomi.com                                  | 1.567s |        |
+| ✅        | Kanzenin                                          | https://kanzenin.info                                 | 1.705s |        |
+| ✅        | KatsudonManga                                     | https://capibaratraductor.com/katsudonmanga           | 0.553s |        |
+| ✅        | Kawaragi No Fansub                                | https://capibaratraductor.com/kawaraginofansub        | 0.472s |        |
+| ✅        | Kayn Scans                                        | https://kaynscan.com                                  | 2.417s |        |
+| ✅        | Kazoku Den                                        | https://www.kazokuden.com                             | 2.580s |        |
+| ✅        | Keenspot TwoKinds                                 | https://twokinds.keenspot.com                         | 1.436s |        |
+| ✅        | Kemono                                            | https://kemono.cr                                     | 2.095s |        |
+| ✅        | Ken Scans                                         | https://kencomics.com                                 | 2.794s |        |
+| ✅        | Kewn Scans                                        | https://kewnscans.org                                 | 1.293s |        |
+| ✅        | KillSixBillionDemons                              | https://killsixbilliondemons.com                      | 2.149s |        |
+| ✅        | KimiComi                                          | https://kimicomi.com                                  | 1.831s |        |
+| ✅        | King of Shojo                                     | https://kingofshojo.com                               | 2.572s |        |
+| ✅        | Kingdom Dark Scan                                 | https://capibaratraductor.com/kingdomdarkscan         | 0.434s |        |
+| ✅        | Kiraboshi                                         | https://kirapo.jp                                     | 1.509s |        |
+| ✅        | KiraKira                                          | https://truyenkira.com                                | 2.999s |        |
+| ✅        | Kirishima Fansub                                  | https://capibaratraductor.com/kirishimafansub         | 0.204s |        |
+| ✅        | Kiutaku                                           | https://kiutaku.com                                   | 1.716s |        |
+| ✅        | Kiwiya Scans                                      | https://kiwiyascans.com                               | 2.368s |        |
+| ✅        | KL Raw                                            | https://www.klraw.info                                | 2.189s |        |
+| ✅        | Knight No Scanlation                              | https://lectorknight.com                              | 1.280s |        |
+| ✅        | Kodansha                                          | https://kodansha.us                                   | 1.308s |        |
+| ✅        | Kodoku Studio                                     | https://kodokustudio.com                              | 1.622s |        |
+| ✅        | KokoMangas                                        | https://kokomangas.com                                | 2.301s |        |
+| ✅        | Komiic                                            | https://komiic.com                                    | 1.005s |        |
+| ✅        | Komik Cast                                        | https://v2.komikcast.fit                              | 1.557s |        |
+| ✅        | Komik Next G Online                               | https://komiknextgonline.com                          | 2.225s |        |
+| ✅        | Komikhwa                                          | https://komikhwa.com                                  | 1.876s |        |
+| ✅        | KomikNesia                                        | https://02.komiknesia.asia                            | 1.841s |        |
+| ✅        | Komiktap                                          | https://komiktap.info                                 | 1.307s |        |
+| ✅        | Komiku                                            | https://komiku.org                                    | 3.404s |        |
+| ✅        | Koronesuki                                        | https://capibaratraductor.com/koronesuki              | 0.329s |        |
+| ✅        | KSGroupScans                                      | https://ksgroupscans.com                              | 0.983s |        |
+| ✅        | KumaPoi                                           | https://kumapoi.info                                  | 7.150s |        |
+| ✅        | KumoPoi                                           | https://kumopoi.org                                   | 1.834s |        |
+| ✅        | Kurage Bunch                                      | https://kuragebunch.com                               | 2.147s |        |
+| ✅        | KuraManga                                         | https://kuramanga.com                                 | 2.155s |        |
+| ✅        | Kurenai Project                                   | https://capibaratraductor.com/kurenaiproject          | 0.358s |        |
+| ✅        | Kuroi Manga                                       | https://www.kuroimanga.mom                            | 4.343s |        |
+| ✅        | KuroTranslations                                  | https://capibaratraductor.com/kurotranslations        | 0.271s |        |
+| ✅        | La Biblioteca de Odin                             | https://capibaratraductor.com/labibliotecadeodin      | 0.677s |        |
+| ✅        | Lami-Manga                                        | https://mangalami.com                                 | 1.611s |        |
+| ✅        | LanorTrad                                         | https://lanortrad.netlify.app                         | 1.282s |        |
+| ✅        | Las Profanadas Scan                               | https://capibaratraductor.com/profanadasscan          | 0.211s |        |
+| ✅        | Last Exile Scan                                   | https://capibaratraductor.com/lastexilescan           | 0.866s |        |
+| ✅        | Lavinia Fansub                                    | https://laviniafansub.pro                             | 2.085s |        |
+| ✅        | Lector Asteria                                    | https://lectorasteria.com                             | 3.559s |        |
+| ✅        | LectorJPG                                         | https://visorjpg.lat                                  | 1.840s |        |
+| ✅        | LectorManga.lat                                   | https://lectormangass.com                             | 1.813s |        |
+| ✅        | LeerCapitulo                                      | https://www.leercapitulo.co                           | 2.302s |        |
+| ✅        | LeerMangaEsp                                      | https://leermangaesp.net                              | 1.637s |        |
+| ✅        | Lelscan                                           | https://lelscans.net                                  | 1.408s |        |
+| ✅        | LepoyTL                                           | https://www.lepoytl.my.id                             | 1.949s |        |
+| ✅        | Ler 999                                           | https://ler999.blogspot.com                           | 1.702s |        |
+| ✅        | Les Poroiniens                                    | https://lesporoiniens.org                             | 6.149s |        |
+| ✅        | Leslie&Victims                                    | https://leslie-victims.pages.dev                      | 0.861s |        |
+| ✅        | LianScans                                         | https://www.lianscans.com                             | 2.960s |        |
+| ✅        | LikeManga                                         | https://likemanga.ink                                 | 3.512s |        |
+| ✅        | Lily Manga                                        | https://lilymanga.net                                 | 4.130s |        |
+| ✅        | Limbo Scan                                        | https://limboscan.com.br                              | 2.759s |        |
+| ✅        | Limbo Scanlation                                  | https://capibaratraductor.com/limbo                   | 0.393s |        |
+| ✅        | Little Tyrant                                     | https://tiraninha.world                               | 2.802s |        |
+| ✅        | Loading Artist                                    | https://loadingartist.com                             | 1.427s |        |
+| ✅        | Loner Translations                                | https://loner-tl.blogspot.com                         | 1.632s |        |
+| ✅        | LoppyToon                                         | https://loppytoon.com                                 | 1.645s |        |
+| ✅        | Love4u                                            | https://love4u.net                                    | 2.405s |        |
+| ✅        | Luna Pieces                                       | https://lunapiecesfansub.com                          | 2.164s |        |
+| ✅        | Lunar Manga                                       | https://lunaranime.ru                                 | 1.185s |        |
+| ✅        | LupiTeam                                          | https://lupiteam.net                                  | 1.298s |        |
+| ✅        | Magazine Pocket                                   | https://pocket.shonenmagazine.com                     | 2.747s |        |
+| ✅        | MAGCOMI                                           | https://magcomi.com                                   | 3.012s |        |
+| ✅        | Magical Translators                               | https://mahoushoujobu.com                             | 1.819s |        |
+| ✅        | MagKan                                            | https://kansai.mag-garden.co.jp                       | 1.728s |        |
+| ✅        | Mahouirexnohentaikarte                            | https://mahouirexnohentaikarte.com                    | 0.940s |        |
+| ✅        | Maid - Manga                                      | https://www.maid.my.id                                | 2.178s |        |
+| ✅        | Makimaaaaa                                        | https://makimaaaaa.com                                | 2.354s |        |
+| ✅        | Manga Ai Land                                     | https://manga-ai-land.blogspot.com                    | 1.786s |        |
+| ✅        | Manga Bahçesi                                     | https://mangabahcesi.com                              | 1.119s |        |
+| ✅        | Manga Ball                                        | https://mangaball.net                                 | 4.345s |        |
+| ✅        | Manga Can                                         | https://mangacanblog.com                              | 2.393s |        |
+| ✅        | Manga Crab                                        | https://mangacrab.org                                 | 2.750s |        |
+| ✅        | Manga Dass                                        | https://mangadass.com                                 | 1.777s |        |
+| ✅        | Manga Demon                                       | https://demonicscans.org                              | 0.949s |        |
+| ✅        | Manga District                                    | https://mangadistrict.com                             | 1.377s |        |
+| ✅        | Manga Drama                                       | https://mangadrama.com                                | 5.805s |        |
+| ✅        | Manga Kingdom                                     | https://comic.k-manga.jp                              | 2.773s |        |
+| ✅        | Manga Livre.to                                    | https://mangalivre.to                                 | 2.045s |        |
+| ✅        | Manga Mukai                                       | https://mangamukai.com                                | 1.670s |        |
+| ✅        | Manga Mura                                        | https://mangamura.me                                  | 1.110s |        |
+| ✅        | Manga One                                         | https://manga-one.com                                 | 1.825s |        |
+| ✅        | MANGA Plus by SHUEISHA                            | https://mangaplus.shueisha.co.jp                      | 1.177s |        |
+| ✅        | MANGA Plus Creators by SHUEISHA                   | https://mangaplus-creators.jp                         | 1.550s |        |
+| ✅        | Manga Tales                                       | https://www.mangatales.com                            | 2.864s |        |
+| ✅        | Manga Trend                                       | https://mangatrend.org                                | 0.992s |        |
+| ✅        | Manga UP!                                         | https://global.manga-up.com                           | 1.222s |        |
+| ✅        | Manga UP! (Japan)                                 | https://www.manga-up.com                              | 3.400s |        |
+| ✅        | Manga Xiao Si                                     | https://www.jjmhw2.top                                | 1.526s |        |
+| ✅        | Manga Şehri.net                                   | https://manga-sehri.net                               | 0.949s |        |
+| ✅        | Manga-Corporation                                 | https://manga-corporation.com                         | 2.001s |        |
+| ✅        | Manga-Lc                                          | https://manga-lc.net                                  | 2.559s |        |
+| ✅        | Manga-Park                                        | https://manga-park.com                                | 1.301s |        |
+| ✅        | Manga-shi                                         | https://manga-shi.org                                 | 1.207s |        |
+| ✅        | Manga-TR                                          | https://manga-tr.com                                  | 1.247s |        |
+| ✅        | Manga1000                                         | https://hachiraw.win                                  | 1.429s |        |
+| ✅        | Manga18.me                                        | https://manga18.me                                    | 1.580s |        |
+| ✅        | Manga18Free                                       | https://manga18free.com                               | 1.488s |        |
+| ✅        | Manga18fx                                         | https://manga18fx.com                                 | 2.245s |        |
+| ✅        | MangaBang Comics                                  | https://comics.manga-bang.com                         | 1.579s |        |
+| ✅        | Mangabat                                          | https://www.mangabats.com                             | 1.031s |        |
+| ✅        | MangaBolt                                         | https://mangabolt.com                                 | 2.479s |        |
+| ✅        | MangaBTT                                          | https://manhwabtt.cc                                  | 1.491s |        |
+| ✅        | Mangabz                                           | https://mangabz.com                                   | 1.138s |        |
+| ✅        | Mangabz                                           | https://xmanhua.com                                   | 1.363s |        |
+| ✅        | Mangabz                                           | https://yymanhua.com                                  | 0.833s |        |
+| ✅        | MangaChan                                         | https://im.manga-chan.me                              | 7.322s |        |
+| ✅        | Mangack                                           | https://mangack.com                                   | 1.544s |        |
+| ✅        | MangaDE                                           | https://mangade.io                                    | 1.707s |        |
+| ✅        | MangaDex                                          | https://mangadex.org                                  | 1.660s |        |
+| ✅        | MangaDia                                          | https://mangadia.com                                  | 1.572s |        |
+| ✅        | MangaDNA                                          | https://mangadna.com                                  | 1.950s |        |
+| ✅        | MangaEsp                                          | https://mangaesp.topmanhuas.org                       | 3.581s |        |
+| ✅        | MangaFlix                                         | https://mangaflix.net                                 | 5.208s |        |
+| ✅        | Mangaforfree.com                                  | https://mangaforfree.com                              | 2.282s |        |
+| ✅        | MangaFox                                          | https://fanfox.net                                    | 0.755s |        |
+| ✅        | Mangafreak                                        | https://ww2.mangafreak.me                             | 2.445s |        |
+| ✅        | Mangafree                                         | https://mangafree.info                                | 2.810s |        |
+| ✅        | MangaGeko                                         | https://www.mgeko.cc                                  | 1.529s |        |
+| ✅        | MangaGezgini                                      | https://mangagezgini.online                           | 2.988s |        |
+| ✅        | MangaGo.fun                                       | https://www.mangago.fun                               | 2.465s |        |
+| ✅        | MangaHe                                           | https://mangahe.com                                   | 2.695s |        |
+| ✅        | Mangahere                                         | https://www.mangahere.cc                              | 0.281s |        |
+| ✅        | MangaHoNa                                         | https://mangahona.pl                                  | 1.378s |        |
+| ✅        | Mangahub                                          | https://mangahub.ru                                   | 2.501s |        |
+| ✅        | MangaHub                                          | https://www.mangaxhentai.com                          | 0.449s |        |
+| ✅        | MangaIsekaiThai                                   | https://www.mangaisekaithai.net                       | 1.026s |        |
+| ✅        | MangaKa                                           | https://mangaka.cc                                    | 2.603s |        |
+| ✅        | Mangakakalot                                      | https://www.mangakakalot.gg                           | 2.172s |        |
+| ✅        | MangaKatana                                       | https://mangakatana.com                               | 2.576s |        |
+| ✅        | MangaKuro                                         | https://mangakuro.net                                 | 1.862s |        |
+| ✅        | Mangalay                                          | http://mangalay.blogspot.com                          | 0.815s |        |
+| ✅        | MangaLector                                       | https://mangalector.com                               | 1.966s |        |
+| ✅        | MangaMee                                          | https://manga-mee.jp                                  | 1.639s |        |
+| ✅        | MangaMeets                                        | https://manga-meets.jp                                | 2.153s |        |
+| ✅        | Mangamo                                           | https://www.mangamo.com                               | 0.699s |        |
+| ✅        | Manganato                                         | https://www.natomanga.com                             | 1.478s |        |
+| ✅        | MangaNo                                           | https://manga-no.com                                  | 0.406s |        |
+| ✅        | MangaNow                                          | https://manganow.to                                   | 2.189s |        |
+| ✅        | MangaPill                                         | https://mangapill.com                                 | 1.594s |        |
+| ✅        | MangaPoisk                                        | https://mangap.ru                                     | 1.804s |        |
+| ✅        | MangaRead.org                                     | https://www.mangaread.org                             | 0.864s |        |
+| ✅        | MangaSpark                                        | https://manga-spark.net                               | 2.218s |        |
+| ✅        | Mangastep                                         | https://mangastep.com                                 | 3.246s |        |
+| ✅        | Mangasushi                                        | https://mangasushi.org                                | 1.213s |        |
+| ✅        | Mangasusu                                         | https://mangasusuku.com                               | 1.364s |        |
+| ✅        | MangaTaro                                         | https://mangataro.org                                 | 1.709s |        |
+| ✅        | Mangatellers                                      | https://reader.mangatellers.gr                        | 2.701s |        |
+| ✅        | MangaTilkisi                                      | https://www.tilkiscans.com                            | 1.671s |        |
+| ✅        | MangaTime                                         | https://mangatime.org                                 | 1.940s |        |
+| ✅        | MangaToon (Limited)                               | https://mangatoon.mobi                                | 2.299s |        |
+| ✅        | Mangatown                                         | https://www.mangatown.com                             | 0.515s |        |
+| ✅        | MangaTX                                           | https://mangatx.cc                                    | 1.719s |        |
+| ✅        | Mangaworld                                        | https://www.mangaworld.mx                             | 2.376s |        |
+| ✅        | MangaworldAdult                                   | https://www.mangaworldadult.net                       | 2.493s |        |
+| ✅        | MangaWOW                                          | https://mangawow.org                                  | 2.680s |        |
+| ✅        | MangaYY                                           | https://mangayy.org                                   | 0.968s |        |
+| ✅        | MangaZure                                         | https://mangazure.net                                 | 1.706s |        |
+| ✅        | Mango Toons                                       | https://mangotoons.com                                | 0.527s |        |
+| ✅        | Manhastro                                         | https://manhastro.net                                 | 1.328s |        |
+| ✅        | Manhatic                                          | https://manhatic.com                                  | 2.074s |        |
+| ✅        | Manhatok                                          | https://manhatok.blogspot.com                         | 0.550s |        |
+| ✅        | Manhua Rush                                       | https://manhuarush.vercel.app                         | 0.733s |        |
+| ✅        | ManhuaFast                                        | https://manhuafast.com                                | 2.240s |        |
+| ✅        | ManhuaFast.net (unoriginal)                       | https://manhuafast.net                                | 0.939s |        |
+| ✅        | ManhuaHot                                         | https://manhuahot.com                                 | 2.284s |        |
+| ✅        | Manhuanext                                        | https://manhuanext.com                                | 2.197s |        |
+| ✅        | ManhuaPlus (Unoriginal)                           | https://manhuaplus.org                                | 3.072s |        |
+| ✅        | Manhuascan.us                                     | https://manhuascan.us                                 | 1.851s |        |
+| ✅        | ManhuaSite                                        | https://manhuasite.com                                | 2.224s |        |
+| ✅        | ManhuaUS                                          | https://manhuaus.com                                  | 1.339s |        |
+| ✅        | Manhwa 18 Uncensored                              | https://manhwa18uncensored.com                        | 1.580s |        |
+| ✅        | Manhwa Comics                                     | https://manhwacomics.com                              | 0.483s |        |
+| ✅        | Manhwa List                                       | https://manhwalist02.asia                             | 1.353s |        |
+| ✅        | Manhwa Reads                                      | https://manhwareads.com                               | 3.058s |        |
+| ✅        | Manhwa Scan                                       | https://manhwascans.lat                               | 1.976s |        |
+| ✅        | Manhwa Toon                                       | https://www.manhwatoon.me                             | 1.798s |        |
+| ✅        | Manhwa XXL                                        | https://hentaitnt.net                                 | 2.629s |        |
+| ✅        | Manhwa18                                          | https://manhwa18.com                                  | 2.807s |        |
+| ✅        | Manhwa18.cc                                       | https://manhwa18.cc                                   | 3.049s |        |
+| ✅        | Manhwa18.Net                                      | https://manhwa18.net                                  | 2.096s |        |
+| ✅        | ManhwaBuddy                                       | https://manhwabuddy.com                               | 1.410s |        |
+| ✅        | ManhwaClub.net                                    | https://manhwaclub.net                                | 2.019s |        |
+| ✅        | ManhwaGet                                         | https://manhwaget.com                                 | 1.350s |        |
+| ✅        | Manhwalike                                        | https://manhwalike.com                                | 1.746s |        |
+| ✅        | Manhwalist.org                                    | https://isekaikomik.com                               | 1.204s |        |
+| ✅        | Manhwalover                                       | https://www.manhwalover.org                           | 1.904s |        |
+| ✅        | ManhwaNex                                         | https://manhwanex.com                                 | 2.663s |        |
+| ✅        | ManhwaWeb                                         | https://manhwaweb.com                                 | 0.638s |        |
+| ✅        | Manhwax                                           | https://manhwax.top                                   | 1.742s |        |
+| ✅        | ManhwaZone                                        | https://manhwazone.com                                | 1.469s |        |
+| ✅        | Manta                                             | https://manta.net                                     | 1.795s |        |
+| ✅        | Marmota                                           | https://marmota.me                                    | 1.838s |        |
+| ✅        | MeDamTruyen                                       | https://saytongtai.site                               | 3.131s |        |
+| ✅        | Mediocre Toons                                    | https://mediocrescan.com                              | 1.499s |        |
+| ✅        | Megatokyo                                         | https://megatokyo.com                                 | 1.873s |        |
+| ✅        | MeHentai                                          | https://mehentai.blog                                 | 1.318s |        |
+| ✅        | Mehgazone                                         | https://mehgazone.com                                 | 1.713s |        |
+| ✅        | Menudo-Fansub                                     | https://www.menudo-fansub.com                         | 0.759s |        |
+| ✅        | MGJinx                                            | https://mgjinx.com                                    | 1.577s |        |
+| ✅        | Mgread.io                                         | https://mgread.io                                     | 2.161s |        |
+| ✅        | MHScans                                           | https://mhscans.com                                   | 2.383s |        |
+| ✅        | Miau Scan                                         | https://leemiau.com                                   | 1.173s |        |
+| ✅        | Mihentai                                          | https://mihentai.net                                  | 1.648s |        |
+| ✅        | Mikrokosmos Fansub                                | https://mikrokosmosfb.blogspot.com                    | 2.079s |        |
+| ✅        | MilaSub                                           | https://www.millascan.com                             | 1.959s |        |
+| ✅        | MinoTruyen Comics                                 | https://minotruyenv5.xyz                              | 1.905s |        |
+| ✅        | MinoTruyen Hentai                                 | https://minotruyenv5.xyz                              | 2.468s |        |
+| ✅        | MinoTruyen Manga                                  | https://minotruyenv5.xyz                              | 0.308s |        |
+| ✅        | MintManga                                         | https://2.mintmanga.one                               | 2.465s |        |
+| ✅        | MissKon                                           | https://misskon.com                                   | 2.526s |        |
+| ✅        | Mist Scans                                        | https://mistscans.com                                 | 2.506s |        |
+| ✅        | Mokuro                                            | https://mokuro.moe                                    | 3.116s |        |
+| ✅        | momon:GA                                          | https://momon-ga.com                                  | 1.125s |        |
+| ✅        | Monochrome Custom                                 | https://monochromecms.netlify.app                     | 1.958s |        |
+| ✅        | Monochrome Scans                                  | https://manga.d34d.one                                | 0.801s |        |
+| ✅        | Monopoly Scan                                     | https://monopolymanhua.com                            | 2.434s |        |
+| ✅        | Monsure                                           | https://monsuresu.com                                 | 5.529s |        |
+| ✅        | Monte Tai                                         | https://montetaiscanlator.xyz                         | 2.667s |        |
+| ✅        | Moon Daisy Scans                                  | https://moondaisyscans.site                           | 3.179s |        |
+| ✅        | MR Tenzus                                         | https://mrtenzus.com                                  | 1.512s |        |
+| ✅        | Muito Hentai                                      | https://www.muitohentai.com                           | 1.082s |        |
+| ✅        | Multporn                                          | https://multporn.net                                  | 1.794s |        |
+| ✅        | Mundo Manhwa                                      | https://mundomanhwa.com                               | 1.674s |        |
+| ✅        | MurimScan                                         | https://www.murimscans.site                           | 2.208s |        |
+| ✅        | MyComic                                           | https://mycomic.com                                   | 0.174s |        |
+| ✅        | NamiComi                                          | https://namicomi.com                                  | 5.653s |        |
+| ✅        | NarasiNinja                                       | https://narasininja.net                               | 3.918s |        |
+| ✅        | Natsu                                             | https://natsu.tv                                      | 1.957s |        |
+| ✅        | Naver Webtoon                                     | https://comic.naver.com                               | 1.043s |        |
+| ✅        | Naver Webtoon Best Challenge                      | https://comic.naver.com                               | 2.014s |        |
+| ✅        | Naver Webtoon Challenge                           | https://comic.naver.com                               | 1.888s |        |
+| ✅        | Nebulosa Scan                                     | https://nebulosascan.com                              | 2.546s |        |
+| ✅        | Nekopost                                          | https://www.nekopost.net                              | 2.784s |        |
+| ✅        | NekoScans                                         | https://nekoproject.org                               | 0.530s |        |
+| ✅        | Nemesisscans                                      | https://nemesisscans.com                              | 1.449s |        |
+| ✅        | NeoManga                                          | https://www.neomanga.online                           | 1.283s |        |
+| ✅        | NeroTranslations                                  | https://capibaratraductor.com/nerotranslate           | 0.374s |        |
+| ✅        | NetTruyenS (unoriginal)                           | https://nettruyen10s.com                              | 1.476s |        |
+| ✅        | New Manhwa                                        | https://newmanhwa.com                                 | 1.896s |        |
+| ✅        | NexComic                                          | https://nexcomic.com                                  | 1.280s |        |
+| ✅        | NgamenKomik                                       | https://ngamenkomik05.blogspot.com                    | 0.645s |        |
+| ✅        | NHentai.xxx                                       | https://nhentai.xxx                                   | 1.831s |        |
+| ✅        | Niadd                                             | https://br.niadd.com                                  | 1.257s |        |
+| ✅        | Niadd                                             | https://de.niadd.com                                  | 0.948s |        |
+| ✅        | Niadd                                             | https://es.niadd.com                                  | 1.655s |        |
+| ✅        | Niadd                                             | https://fr.niadd.com                                  | 0.757s |        |
+| ✅        | Niadd                                             | https://it.niadd.com                                  | 0.789s |        |
+| ✅        | Niadd                                             | https://ru.niadd.com                                  | 0.551s |        |
+| ✅        | Niadd                                             | https://www.niadd.com                                 | 2.089s |        |
+| ✅        | Niceoppai                                         | https://www.niceoppai.net                             | 0.679s |        |
+| ✅        | Nicomanga                                         | https://nicomanga.com                                 | 1.535s |        |
+| ✅        | Nicovideo Seiga                                   | https://sp.manga.nicovideo.jp                         | 0.522s |        |
+| ✅        | NihonKuni                                         | https://nihonkuni.com                                 | 2.737s |        |
+| ✅        | Nikkangecchan                                     | https://nikkangecchan.jp                              | 3.760s |        |
+| ✅        | NineAnime                                         | https://www.nineanime.com                             | 1.735s |        |
+| ✅        | NineGrid                                          | https://9grid.cc                                      | 5.653s |        |
+| ✅        | NineHentai                                        | https://9hentai.so                                    | 2.047s |        |
+| ✅        | Ninekon                                           | https://app.ninekon.com                               | 1.267s |        |
+| ✅        | Ninja Scan                                        | https://ninjacomics.xyz                               | 2.445s |        |
+| ✅        | Nirvana Manga                                     | https://nirvanamanga.com                              | 2.457s |        |
+| ✅        | Noblesse Translations                             | https://nobledicion.yoveo.xyz                         | 3.839s |        |
+| ✅        | Noromax                                           | https://noromax02.my.id                               | 3.287s |        |
+| ✅        | Novato Scans                                      | https://www.novatoscans.top                           | 2.346s |        |
+| ✅        | NovelCool                                         | https://de.novelcool.com                              | 2.315s |        |
+| ✅        | NovelCool                                         | https://es.novelcool.com                              | 1.444s |        |
+| ✅        | NovelCool                                         | https://fr.novelcool.com                              | 3.274s |        |
+| ✅        | NovelCool                                         | https://it.novelcool.com                              | 2.561s |        |
+| ✅        | NovelCool                                         | https://ru.novelcool.com                              | 2.135s |        |
+| ✅        | NovelCool                                         | https://www.novelcool.com                             | 2.251s |        |
+| ✅        | Noxen Scans                                       | https://noxenscan.com                                 | 1.624s |        |
+| ✅        | NoxManga                                          | https://noxmanga.co                                   | 8.335s |        |
+| ✅        | NoyAcg                                            | https://beta.noyteam.online                           | 1.067s |        |
+| ✅        | NTR-Manga                                         | https://www.ntr-manga.net                             | 1.708s |        |
+| ✅        | Nux Scans                                         | https://nuxscans-comics.blogspot.com                  | 0.903s |        |
+| ✅        | Nyanu Kafe                                        | https://nyanukafe.com                                 | 1.653s |        |
+| ✅        | Nyx Scans                                         | https://nyxscans.com                                  | 1.708s |        |
+| ✅        | OctopusManga                                      | https://octopusmanga.com                              | 1.648s |        |
+| ✅        | Oglaf                                             | https://www.oglaf.com                                 | 1.305s |        |
+| ✅        | Oh Joy Sex Toy                                    | https://www.ohjoysextoy.com                           | 0.205s |        |
+| ✅        | Ohta Web Comic                                    | https://webcomic.ohtabooks.com                        | 1.686s |        |
+| ✅        | Okami.Scan                                        | https://capibaratraductor.com/okami                   | 0.624s |        |
+| ✅        | OkuToon                                           | https://okutoon.com                                   | 6.518s |        |
+| ✅        | OkyyKomik                                         | https://www.okyykomik.my.id                           | 2.699s |        |
+| ✅        | Omega Scanlation                                  | https://capibaratraductor.com/omegascanlation         | 0.416s |        |
+| ✅        | Omega Scans                                       | https://omegascans.org                                | 1.979s |        |
+| ✅        | Omicaso                                           | https://omicaso.org                                   | 1.041s |        |
+| ✅        | Omoi                                              | https://www.omoi.com                                  | 3.499s |        |
+| ✅        | One Punch Man Online                              | https://w11.1punchman.com                             | 2.127s |        |
+| ✅        | Opiatoon                                          | https://opiatoon.lat                                  | 2.614s |        |
+| ✅        | Oppai Stream                                      | https://read.oppai.stream                             | 1.945s |        |
+| ✅        | OreManga                                          | https://www.oremanga.net                              | 1.316s |        |
+| ✅        | Origami Orpheans                                  | https://origami-orpheans.com                          | 2.141s |        |
+| ✅        | Orion Scans                                       | https://orion-scans.com                               | 2.460s |        |
+| ✅        | Ortega Scans                                      | https://ortegascans.fr                                | 1.977s |        |
+| ✅        | Osaka Scan                                        | https://www.osakascan.com                             | 0.602s |        |
+| ✅        | Ota Scans                                         | https://yurilabs.my.id                                | 4.500s |        |
+| ✅        | OTruyen                                           | https://otruyen.cc                                    | 2.309s |        |
+| ✅        | PandaChaika                                       | https://panda.chaika.moe                              | 2.130s |        |
+| ✅        | Pantheon Scan                                     | https://pantheon-scan.com                             | 1.478s |        |
+| ✅        | Paradise BL                                       | https://paradise-bl.com                               | 2.026s |        |
+| ✅        | Paradox Scans                                     | https://paradoxscans.com                              | 1.967s |        |
+| ✅        | Pash Up!                                          | https://pash-up.jp                                    | 2.035s |        |
+| ✅        | Patch Friday                                      | https://patchfriday.com                               | 0.874s |        |
+| ✅        | Paw Manga                                         | https://pawmanga.com                                  | 0.715s |        |
+| ✅        | Pepper&Carrot                                     | https://www.peppercarrot.com                          | 1.680s |        |
+| ✅        | Petrotechsociety                                  | https://www.petrotechsociety.org                      | 2.426s |        |
+| ✅        | Phantom No Fansub                                 | https://capibaratraductor.com/phantomnofansub         | 0.362s |        |
+| ✅        | Phoenix Scans                                     | https://www.phoenixscans.com                          | 1.177s |        |
+| ✅        | Piccoma                                           | https://piccoma.com                                   | 3.359s |        |
+| ✅        | Pink Rosa                                         | https://scanpinkrosa.blogspot.com                     | 1.524s |        |
+| ✅        | Pink Sea Unicorn                                  | https://psunicorn.com                                 | 2.111s |        |
+| ✅        | PinkGarden Translation                            | https://capibaratraductor.com/pinkgardentranslation   | 0.301s |        |
+| ✅        | Pirulito Rosa                                     | https://pirulitorosa.site                             | 1.765s |        |
+| ✅        | Pixivコミック                                         | https://comic.pixiv.net                               | 1.476s |        |
+| ✅        | Platinum Lily Scan                                | https://platinumlilyscan.com                          | 1.702s |        |
+| ✅        | Plot Twist No Fansub                              | https://plotnofansub.com                              | 3.154s |        |
+| ✅        | Point Zero Toons                                  | https://kitsuneyako.com                               | 1.716s |        |
+| ✅        | PopsManga                                         | https://popsmanga.net                                 | 2.820s |        |
+| ✅        | Pornhwa18                                         | https://pornhwa18.com                                 | 2.814s |        |
+| ✅        | PornPics                                          | https://www.pornpics.com                              | 1.784s |        |
+| ✅        | Pornwha.fr                                        | https://pornhwa.fr                                    | 1.503s |        |
+| ✅        | Poseidon Scans                                    | https://poseidon-scans.net                            | 2.203s |        |
+| ✅        | Pramramadhan                                      | https://01.pramramadhan.my.id                         | 2.187s |        |
+| ✅        | PuchiScan                                         | https://capibaratraductor.com/puchi                   | 0.366s |        |
+| ✅        | Rackus                                            | https://rackusreads.com                               | 2.705s |        |
+| ✅        | Ragna Scans                                       | https://lector.ragnascan.xyz                          | 0.816s |        |
+| ✅        | Raiki Scan                                        | https://raikiscan.com                                 | 2.586s |        |
+| ✅        | Rakuen Translations                               | https://capibaratraductor.com/rakuen                  | 0.287s |        |
+| ✅        | Randowiz                                          | https://randowis.com                                  | 1.668s |        |
+| ✅        | Raven Scans                                       | https://ravenscans.org                                | 2.303s |        |
+| ✅        | RavenManga                                        | https://raventard.xyz                                 | 3.583s |        |
+| ✅        | Raw Otaku                                         | https://rawotaku.com                                  | 1.804s |        |
+| ✅        | Raw UwU                                           | https://rawuwu.net                                    | 2.082s |        |
+| ✅        | Raw1001                                           | https://raw1001.net                                   | 2.745s |        |
+| ✅        | Rawdevart.art                                     | https://rawdevart.art                                 | 0.908s |        |
+| ✅        | RawDEX                                            | https://rawdex.net                                    | 1.711s |        |
+| ✅        | RawINU                                            | https://rawinu.com                                    | 2.864s |        |
+| ✅        | RawZO                                             | https://rawzo.net                                     | 1.700s |        |
+| ✅        | Razure                                            | https://razure.org                                    | 0.741s |        |
+| ✅        | Read Attack on Titan Shingeki no Kyojin Manga     | https://ww11.readsnk.com                              | 2.075s |        |
+| ✅        | Read Boku no Hero Academia My Hero Academia Manga | https://ww10.readmha.com                              | 1.777s |        |
+| ✅        | Read Chainsaw Man Manga Online                    | https://ww5.readchainsawman.com                       | 2.230s |        |
+| ✅        | Read Fairy Tail & Edens Zero Manga Online         | https://ww8.readfairytail.com                         | 1.696s |        |
+| ✅        | Read Jujutsu Kaisen Manga Online                  | https://ww5.readjujutsukaisen.com                     | 2.365s |        |
+| ✅        | Read Kingdom Manga Online                         | https://ww5.readkingdom.com                           | 1.747s |        |
+| ✅        | Read Nanatsu no Taizai 7 Deadly Sins Manga Online | https://ww7.read7deadlysins.com                       | 1.662s |        |
+| ✅        | Read Naruto Boruto Samurai 8 Manga Online         | https://ww11.readnaruto.com                           | 2.879s |        |
+| ✅        | Read One Piece Manga Online                       | https://ww12.readonepiece.com                         | 2.702s |        |
+| ✅        | Read One-Punch Man Manga Online                   | https://ww6.readopm.com                               | 3.331s |        |
+| ✅        | Read Solo Leveling Manga Manhwa Online            | https://ww3.readsololeveling.org                      | 3.023s |        |
+| ✅        | Read Tokyo Ghoul Re & Tokyo Ghoul Manga Online    | https://ww11.tokyoghoulre.com                         | 2.684s |        |
+| ✅        | Read Vagabond Manga                               | https://readbagabondo.com                             | 2.663s |        |
+| ✅        | ReadComicOnline                                   | https://rcostation.xyz                                | 3.826s |        |
+| ✅        | ReadManga                                         | https://a.zazaza.me                                   | 3.538s |        |
+| ✅        | Real Life Comics                                  | https://reallifecomics.com                            | 1.559s |        |
+| ✅        | ReaperTrans                                       | https://reapertrans.com                               | 1.749s |        |
+| ✅        | ReiManga                                          | https://reimanga.com                                  | 1.918s |        |
+| ✅        | Renascans                                         | https://renascans.net                                 | 1.476s |        |
+| ✅        | Reset Scans                                       | https://reset-scans.org                               | 3.760s |        |
+| ✅        | Rest Scans                                        | https://restscans.com                                 | 2.796s |        |
+| ✅        | ReYume                                            | https://www.re-yume.my.id                             | 2.859s |        |
+| ✅        | RichtoScan                                        | https://r1.richtoon.top                               | 1.431s |        |
+| ✅        | RimacomiPlus                                      | https://rimacomiplus.jp                               | 1.620s |        |
+| ✅        | Rimu Scans                                        | https://rimu-scans.fr                                 | 1.217s |        |
+| ✅        | Rinko Comics                                      | https://rinkocomics.com                               | 4.526s |        |
+| ✅        | RitharScans                                       | https://ritharscans.com                               | 2.164s |        |
+| ✅        | Riztranslation                                    | https://riztranslation.pages.dev                      | 0.666s |        |
+| ✅        | Rizz Comic                                        | https://rizzfables.com                                | 2.636s |        |
+| ✅        | Rocks Manga                                       | https://rocksmanga.com                                | 2.959s |        |
+| ✅        | RokariComics                                      | https://rokaricomics.com                              | 1.747s |        |
+| ✅        | Rolia Scan                                        | https://roliascan.com                                 | 1.445s |        |
+| ✅        | Rose Squad Scans                                  | https://rosesquadscans.aishiteru.org                  | 2.780s |        |
+| ✅        | Roseveil                                          | https://roseveil.org                                  | 2.348s |        |
+| ✅        | Roxinha                                           | https://roxinha.online                                | 1.978s |        |
+| ✅        | RuMIX                                             | https://rumix.me                                      | 2.138s |        |
+| ✅        | Rüya Manga                                        | https://www.ruyamanga2.com                            | 2.130s |        |
+| ✅        | S2Manga                                           | https://s2read.com                                    | 2.089s |        |
+| ✅        | SACACHISPA                                        | https://capibaratraductor.com/sacachispa              | 0.272s |        |
+| ✅        | Sagrado Império da Britannia                      | https://imperiodabritannia.net                        | 2.068s |        |
+| ✅        | Saitou Translations                               | https://capibaratraductor.com/saitoutranslations      | 0.754s |        |
+| ✅        | Sana Scans                                        | https://sanascans.com                                 | 2.371s |        |
+| ✅        | Sandra and Woo                                    | https://www.sandraandwoo.com                          | 0.854s |        |
+| ✅        | Sandra und Woo                                    | https://www.sandraandwoo.com                          | 2.814s |        |
+| ✅        | SapphireScan                                      | https://www.sapphirescan.com                          | 0.427s |        |
+| ✅        | Saturday Morning Breakfast Comics                 | https://smbc-comics.com                               | 0.643s |        |
+| ✅        | SayHentai                                         | https://sayhentai.sh                                  | 1.852s |        |
+| ✅        | Scan Reader                                       | https://scanreader.net                                | 2.045s |        |
+| ✅        | Scan Review                                       | https://capibaratraductor.com/scanreview              | 0.754s |        |
+| ✅        | Scan Starts                                       | https://capibaratraductor.com/scanstarts              | 0.394s |        |
+| ✅        | ScanR                                             | https://teamscanr.fr                                  | 1.775s |        |
+| ✅        | ScansFR                                           | https://scansfr.com                                   | 3.450s |        |
+| ✅        | ScansHub                                          | https://capibaratraductor.com/scanshub                | 0.571s |        |
+| ✅        | Scantrad Union                                    | https://scantrad-union.com                            | 3.037s |        |
+| ✅        | ScanZ                                             | https://capibaratraductor.com/scanz                   | 0.780s |        |
+| ✅        | Schlock Mercenary                                 | https://www.schlockmercenary.com                      | 1.225s |        |
+| ✅        | Secta BL Scan                                     | https://capibaratraductor.com/sectablscan             | 0.699s |        |
+| ✅        | Seikowo                                           | https://seikowo-app.blogspot.com                      | 3.620s |        |
+| ✅        | SeiManga                                          | https://1.seimanga.me                                 | 2.091s |        |
+| ✅        | Sekte Doujin                                      | https://sektedoujin.cc                                | 1.295s |        |
+| ✅        | SelfManga                                         | https://1.selfmanga.live                              | 2.724s |        |
+| ✅        | Senshi Manga                                      | https://capibaratraductor.com/senshimanga             | 0.284s |        |
+| ✅        | SeraphicDeviltry                                  | https://seraphic-deviltry.com                         | 1.488s |        |
+| ✅        | SeraphicDeviltry                                  | https://spanish.seraphic-deviltry.com                 | 2.265s |        |
+| ✅        | Shadow Çeviri                                     | https://shadowceviri.blogspot.com                     | 2.645s |        |
+| ✅        | Shijie Scans                                      | https://shijiescans.com                               | 3.114s |        |
+| ✅        | ShiyuraSub                                        | https://shiyurasub.blogspot.com                       | 1.727s |        |
+| ✅        | Shonen Jump+                                      | https://shonenjumpplus.com                            | 1.473s |        |
+| ✅        | ShoShinSha Scans                                  | https://capibaratraductor.com/shoshinshascans         | 0.356s |        |
+| ✅        | Siikomik                                          | https://siikomik.net                                  | 1.143s |        |
+| ✅        | Siyah Melek                                       | https://siyahmelek.vip                                | 2.681s |        |
+| ✅        | Sky Manga                                         | https://skymanga.work                                 | 2.022s |        |
+| ✅        | SkyMangas                                         | https://skymangas.com                                 | 1.868s |        |
+| ✅        | Sleepy Translations                               | https://sleepytranslations.com                        | 2.457s |        |
+| ✅        | SoaiCaComic                                       | https://soaicacomic2.top                              | 2.259s |        |
+| ✅        | Softkomik                                         | https://softkomik.co                                  | 1.268s |        |
+| ✅        | Sokuyomi                                          | https://sokuyomi.jp                                   | 3.958s |        |
+| ✅        | Soul Craft Fansub                                 | https://capibaratraductor.com/soulcraft               | 1.113s |        |
+| ✅        | Space Fansub                                      | https://capibaratraductor.com/spacefansub             | 0.945s |        |
+| ✅        | Speed Manga                                       | https://speed-manga.net                               | 2.238s |        |
+| ✅        | Spicy Scan                                        | https://spicyseries.com                               | 1.585s |        |
+| ✅        | Starlight Scan                                    | https://starligthscan.com                             | 1.581s |        |
+| ✅        | StoneScape                                        | https://stonescape.xyz                                | 1.155s |        |
+| ✅        | StrayDog608                                       | https://capibaratraductor.com/straydog608             | 0.289s |        |
+| ✅        | SummerToon                                        | https://summertoons.net                               | 2.877s |        |
+| ✅        | Sunday Web Every                                  | https://www.sunday-webry.com                          | 1.004s |        |
+| ✅        | Sunset Manga                                      | https://sunsetmanga.com                               | 2.416s |        |
+| ✅        | Sunshine Butterfly Scans                          | https://wings.sbs                                     | 0.262s |        |
+| ✅        | SUPER MEGA                                        | https://www.supermegacomics.com                       | 1.958s |        |
+| ✅        | Sushiscan.fr                                      | https://sushiscan.fr                                  | 2.626s |        |
+| ✅        | Sword Of Oblivion                                 | https://swordofoblivion.com                           | 1.902s |        |
+| ✅        | Swords Comic                                      | https://swordscomic.com                               | 0.737s |        |
+| ✅        | Taddy INK (Webtoons)                              | https://taddy.org                                     | 1.605s |        |
+| ✅        | Taiyō                                             | https://taiyo.moe                                     | 1.807s |        |
+| ✅        | Tankou Hentai                                     | https://tankouhentai.com                              | 1.161s |        |
+| ✅        | Tanuki-Manga                                      | https://www.tanuki-manga.net                          | 1.817s |        |
+| ✅        | Tapas                                             | https://tapas.io                                      | 0.952s |        |
+| ✅        | Tappytoon                                         | https://www.tappytoon.com/de                          | 0.512s |        |
+| ✅        | Tappytoon                                         | https://www.tappytoon.com/en                          | 0.993s |        |
+| ✅        | Tappytoon                                         | https://www.tappytoon.com/fr                          | 1.832s |        |
+| ✅        | Taurus Fansub                                     | https://lectortaurus.com                              | 1.935s |        |
+| ✅        | TCB Scans                                         | https://tcbonepiecechapters.com                       | 1.876s |        |
+| ✅        | Temaki mangás                                     | https://temakimangas.blogspot.com                     | 0.784s |        |
+| ✅        | Temple Scan                                       | https://aedexnox.akan01.com                           | 0.709s |        |
+| ✅        | Templo de Jeny                                    | https://capibaratraductor.com/templodejeny            | 0.506s |        |
+| ✅        | Terra Scans                                       | https://capibaratraductor.com/terrascans              | 0.729s |        |
+| ✅        | The Duck Webcomics                                | https://www.theduckwebcomics.com                      | 1.331s |        |
+| ✅        | The grimorio de la witch                          | https://capibaratraductor.com/tgdlw                   | 0.393s |        |
+| ✅        | The Library of Ohara                              | https://thelibraryofohara.com                         | 2.119s |        |
+| ✅        | The Property of Hate                              | https://jolleycomics.com                              | 0.801s |        |
+| ✅        | TheBlueBox                                        | https://capibaratraductor.com/thebluebox              | 0.779s |        |
+| ✅        | ThienThaiTruyen                                   | https://thienthaitruyen8.com                          | 1.222s |        |
+| ✅        | Thunder Scans                                     | https://en-thunderscans.com                           | 2.316s |        |
+| ✅        | Tia Manhwa                                        | https://tiamanhwa.com                                 | 2.500s |        |
+| ✅        | TimelessToons                                     | https://timelesstoons.org                             | 2.010s |        |
+| ✅        | TMAT                                              | https://capibaratraductor.com/tamt                    | 0.425s |        |
+| ✅        | TodayManga                                        | https://todaymanga.com                                | 2.797s |        |
+| ✅        | Tonari no Young Jump                              | https://tonarinoyj.jp                                 | 1.605s |        |
+| ✅        | TonizuToon                                        | https://tonizu.top                                    | 3.341s |        |
+| ✅        | Toomics (Only free chapters)                      | https://global.toomics.com                            | 1.071s |        |
+| ✅        | ToomTam-Manga                                     | https://toomtam-manga.com                             | 1.232s |        |
+| ✅        | Toon-es                                           | https://toon-es.com                                   | 3.091s |        |
+| ✅        | ToonBr                                            | https://beta.toonbr.com                               | 1.402s |        |
+| ✅        | Tooncubus                                         | https://www.tooncubus.top                             | 2.812s |        |
+| ✅        | Top Manhua                                        | https://mangatop.org                                  | 2.580s |        |
+| ✅        | TopManhua.fan                                     | https://www.topmanhua.fan                             | 1.081s |        |
+| ✅        | TOPTOON頂通                                         | https://www.toptoon.net                               | 1.815s |        |
+| ✅        | Tortuga Ceviri                                    | https://tortugaceviri.com                             | 2.566s |        |
+| ✅        | Traducciones Amistosas                            | https://nartag.com                                    | 2.846s |        |
+| ✅        | Traducciones Moonlight                            | https://traduccionesmoonlight.com                     | 1.561s |        |
+| ✅        | Traducciones Muy Lentas                           | https://capibaratraductor.com/tmlentas                | 0.335s |        |
+| ✅        | Traducciones PaltaNobu                            | https://capibaratraductor.com/paltanobu               | 0.696s |        |
+| ✅        | Traduções do Lipe                                 | https://traducoesdolipe.blogspot.com                  | 1.941s |        |
+| ✅        | Tranh18                                           | https://tranh18.cc                                    | 2.865s |        |
+| ✅        | TritiniaScans                                     | https://tritinia.org                                  | 1.657s |        |
+| ✅        | TrManga                                           | https://trmanga.com                                   | 2.494s |        |
+| ✅        | Truyen18                                          | https://truyen18.co                                   | 1.132s |        |
+| ✅        | TruyenHentaivn                                    | https://truyenhentaivn.club                           | 2.030s |        |
+| ✅        | TruyenHentaiz                                     | https://truyenhentaiz.net                             | 1.060s |        |
+| ✅        | TruyenMM                                          | https://truyenmmhayr.com                              | 1.613s |        |
+| ✅        | TruyenTranh3Q                                     | https://manhua3q.com                                  | 2.190s |        |
+| ✅        | TruyenTuoiTho                                     | https://truyentuoitho.com                             | 2.839s |        |
+| ✅        | TruyenTVN                                         | https://truyentvn.net                                 | 2.507s |        |
+| ✅        | TruyenVN                                          | https://truyenvn.sbs                                  | 1.253s |        |
+| ✅        | Truyện Hentai 18+                                 | https://truyenhentai18.net                            | 1.956s |        |
+| ✅        | Truyện tranh đam mỹ                               | https://truyentranhdammyy.site                        | 2.451s |        |
+| ✅        | Tsuki No Musume Scan                              | https://capibaratraductor.com/tsukinomusumescan       | 1.376s |        |
+| ✅        | Tsundoku Traduções                                | https://tsundoku.com.br                               | 2.479s |        |
+| ✅        | Tu Erizo Traducciones                             | https://capibaratraductor.com/tuerizotraducciones     | 0.285s |        |
+| ✅        | TuSachXinhXinh                                    | https://tusachxinhxinh12.online                       | 3.382s |        |
+| ✅        | TuttoAnimeManga                                   | https://tuttoanimemanga.net                           | 1.828s |        |
+| ✅        | Twi4                                              | https://sai-zen-sen.jp/comics/twi4/                   | 1.850s |        |
+| ✅        | Twicomi                                           | https://twicomi.com                                   | 1.235s |        |
+| ✅        | Türkçe Manga Oku                                  | https://trmangaoku.com                                | 2.410s |        |
+| ✅        | U-NEXT                                            | https://video.unext.jp                                | 2.404s |        |
+| ✅        | Uchuujin Projects                                 | https://uchuujinmangas.com                            | 1.398s |        |
+| ✅        | Ulas Comic                                        | https://www.ulascomic01.xyz                           | 1.979s |        |
+| ✅        | Uncensored Manhwa                                 | https://uncensoredmanhwa.us                           | 1.924s |        |
+| ✅        | UniComics                                         | https://unicomics.ru                                  | 1.609s |        |
+| ✅        | Universo Hentai                                   | https://universohentai.com                            | 1.145s |        |
+| ✅        | Usagi                                             | https://web.usagi.one/                                | 2.784s |        |
+| ✅        | Utsukushii                                        | https://utsukushii-bg.com                             | 3.942s |        |
+| ✅        | Ver Manhwas                                       | https://vermanhwa.com                                 | 2.489s |        |
+| ✅        | vgperson                                          | https://vgperson.com/other/mangaviewer.php            | 2.380s |        |
+| ✅        | VinaHentai                                        | https://vinahentai.life                               | 2.465s |        |
+| ✅        | Vinnie Veritas - CCC                              | https://ccc.vinnieveritas.com                         | 0.465s |        |
+| ✅        | Violet Scans                                      | https://violetscans.org                               | 2.885s |        |
+| ✅        | Virreinato de Unknown Realm Fansub                | https://capibaratraductor.com/unknown-realm-fansub    | 0.622s |        |
+| ✅        | VIZ Manga                                         | https://www.viz.com                                   | 0.635s |        |
+| ✅        | VIZ Shonen Jump                                   | https://www.viz.com                                   | 1.667s |        |
+| ✅        | Vortex Scans                                      | https://vortexscans.org                               | 1.295s |        |
+| ✅        | VoyceMe                                           | https://www.voyce.me                                  | 0.547s |        |
+| ✅        | VyvyManga                                         | https://vymanga.net                                   | 2.092s |        |
+| ✅        | WaifusWithSalsa Scan                              | https://capibaratraductor.com/wws                     | 0.233s |        |
+| ✅        | Webcomics                                         | https://webcomicsapp.com                              | 2.338s |        |
+| ✅        | Webdex Scans                                      | https://webdexscans.com                               | 1.871s |        |
+| ✅        | Webtoons.com                                      | https://www.webtoons.com                              | 2.715s |        |
+| ✅        | Weeping Angel                                     | https://capibaratraductor.com/weepingangel            | 0.578s |        |
+| ✅        | WeLoveManga                                       | https://weloma.art                                    | 2.665s |        |
+| ✅        | West Manga                                        | https://westmanga.co                                  | 1.744s |        |
+| ✅        | White Pearl Translations                          | https://capibaratraductor.com/whitepearl              | 0.679s |        |
+| ✅        | WitchScans                                        | https://witchscans.com                                | 1.454s |        |
+| ✅        | Wolftoon                                          | https://wolftoon.lovable.app                          | 1.636s |        |
+| ✅        | Writer Scans                                      | https://writerscans.com                               | 1.818s |        |
+| ✅        | XAsiat Albums                                     | https://www.xasiat.com                                | 1.989s |        |
+| ✅        | Xiutaku                                           | https://xiutaku.com                                   | 1.626s |        |
+| ✅        | xkcd                                              | https://es.xkcd.com                                   | 1.621s |        |
+| ✅        | xkcd                                              | https://xkcd.com                                      | 0.181s |        |
+| ✅        | xkcd                                              | https://xkcd.lapin.org                                | 1.512s |        |
+| ✅        | xkcd                                              | https://xkcd.ru                                       | 1.462s |        |
+| ✅        | xkcd                                              | https://xkcd.tw                                       | 1.345s |        |
+| ✅        | XlecX                                             | https://xlecx.one                                     | 1.603s |        |
+| ✅        | XoManga                                           | https://www.xomanga.site                              | 0.583s |        |
+| ✅        | XSano Manga                                       | https://www.xsano-manga.com                           | 0.383s |        |
+| ✅        | Xscans                                            | https://xscans.site                                   | 1.945s |        |
+| ✅        | YagamiProject                                     | https://read.yagami.me                                | 2.483s |        |
+| ✅        | Yaoi Fan Club                                     | https://www.yaoifanclub.com                           | 1.401s |        |
+| ✅        | Yaoi Flix                                         | https://yaoiflix.fit                                  | 1.303s |        |
+| ✅        | Yaoibar                                           | https://yaoibar.lol                                   | 1.924s |        |
+| ✅        | YaoiHot                                           | https://yaoihot.com                                   | 4.274s |        |
+| ✅        | Yaoihub                                           | https://yaoihub.net                                   | 1.752s |        |
+| ✅        | YaoiLib                                           | https://v2.shlib.life                                 | 2.143s |        |
+| ✅        | YaoiScan                                          | https://yaoiscan.fr                                   | 3.923s |        |
+| ✅        | YaoiToon                                          | https://yaoitoon.net                                  | 1.012s |        |
+| ✅        | Yokai                                             | https://yokai-team.blogspot.com                       | 1.422s |        |
+| ✅        | Yomonga                                           | https://www.yomonga.com                               | 2.880s |        |
+| ✅        | Yomu Comics                                       | https://yomu.com.br                                   | 1.153s |        |
+| ✅        | Young Animal                                      | https://younganimal.com                               | 2.449s |        |
+| ✅        | Young Champion                                    | https://youngchampion.jp                              | 2.213s |        |
+| ✅        | Young Jump+                                       | https://ynjn.jp                                       | 2.510s |        |
+| ✅        | YSK Comics                                        | https://www.ysk-comics.com                            | 3.161s |        |
+| ✅        | Yupmanga                                          | https://www.yupmanga.com                              | 1.908s |        |
+| ✅        | Yuri Moon Sub                                     | https://yurimoonsub.blogspot.com                      | 2.123s |        |
+| ✅        | Yuri-Online                                       | https://yuri-online.com                               | 2.318s |        |
+| ✅        | Zazamanga                                         | https://www.zazamanga.com                             | 1.941s |        |
+| ✅        | Zebrack                                           | https://zebrack-comic.shueisha.co.jp                  | 0.624s |        |
+| ✅        | Zenko                                             | https://zenko.online                                  | 2.768s |        |
+| ✅        | Zenon                                             | https://comic-zenon.com                               | 3.013s |        |
+| ✅        | Zerosum Online                                    | https://zerosumonline.com                             | 1.756s |        |
+| ✅        | zero搬运网                                           | http://www.zerobywai.com                              | 2.337s |        |
+| ✅        | ZettaHQ                                           | https://zettahq.com                                   | 1.242s |        |
+| ✅        | ZetTruyen                                         | https://www.zettruyen.top                             | 2.073s |        |
+| ✅        | ZeurelScan                                        | https://www.zeurelscan.com                            | 2.066s |        |
+| ✅        | Zonatmo.to (unoriginal)                           | https://zonatmo.to                                    | 0.353s |        |
+| ✅        | ÇaprazManga                                       | https://caprazmanga.com                               | 1.506s |        |
+| ✅        | مانجا العاشق                                      | https://3asq.org                                      | 3.717s |        |
+| ✅        | مانجا ليك                                         | https://like-manga.net                                | 1.669s |        |
+| ✅        | 《崩坏3》IP站                                          | https://comic.bh3.com                                 | 2.420s |        |
+| ✅        | がうがうモンスター＋                                        | https://gaugau.futabanet.jp                           | 1.961s |        |
+| ✅        | カドコミ                                              | https://comic-walker.com                              | 1.708s |        |
+| ✅        | コミコ                                               | https://www.comico.jp                                 | 1.892s |        |
+| ✅        | マンガ図書館Z                                           | https://www.mangaz.com                                | 1.004s |        |
+| ✅        | ヤンマガ（グラビア）                                        | https://yanmaga.jp                                    | 2.200s |        |
+| ✅        | ヤンマガ（マンガ）                                         | https://yanmaga.jp                                    | 1.462s |        |
+| ✅        | 优酷漫画                                              | https://www.ykmh.net                                  | 2.316s |        |
+| ✅        | 六漫画                                               | https://www.liumanhua.com                             | 0.666s |        |
+| ✅        | 再漫画                                               | https://manhua.zaimanhua.com                          | 2.971s |        |
+| ✅        | 动漫屋                                               | https://www.dm5.cn                                    | 1.952s |        |
+| ✅        | 包子漫画                                              | https://cn.baozimh.com                                | 2.122s |        |
+| ✅        | 喜漫漫画                                              | https://www.favcomic.com                              | 2.229s |        |
+| ✅        | 小黄书                                               | https://en.xchina.co                                  | 1.713s |        |
+| ✅        | 快看漫画                                              | https://www.kuaikanmanhua.com                         | 3.716s |        |
+| ✅        | 杂志迷                                               | https://www.zazhimi.net                               | 4.782s |        |
+| ✅        | 泰拉记事社                                             | https://comic.hypergryph.com                          | 1.342s |        |
+| ✅        | 漫画1234                                            | https://m.wmh1234.com                                 | 2.425s |        |
+| ✅        | 漫画屋                                               | https://www.mhua5.com                                 | 0.312s |        |
+| ✅        | 漫画柜                                               | https://www.manhuagui.com                             | 1.806s |        |
+| ✅        | 漫画社                                               | https://www.311s.com                                  | 2.002s |        |
+| ✅        | 無限動漫                                              | https://www.8comic.com                                | 1.534s |        |
+| ✅        | 爱奇艺叭嗒                                             | https://www.iqiyi.com/manhua                          | 1.680s |        |
+| ✅        | 紳士漫畫                                              | https://www.wnacg05.cc                                | 0.915s |        |
+| ✅        | 腾讯动漫                                              | https://m.ac.qq.com                                   | 2.600s |        |
+| ✅        | 늑대닷컴 - 만화책                                        | https://wfwf457.com                                   | 0.625s |        |
+| ✅        | 늑대닷컴 - 웹툰                                         | https://wfwf457.com                                   | 1.163s |        |
+| ✅        | 늑대닷컴 - 포토툰                                        | https://wfwf457.com                                   | 0.762s |        |
 
 ### With Notes
 
-Count: 20
+Count: 21
 
 | Status   | Name             | URL                             | Time   | Info           |
 |----------|------------------|---------------------------------|--------|----------------|
-| ✅        | Harimanga        | https://harimanga.me            | 1.299s | Few nodes (10) |
-| ✅        | HentaiHall       | https://hentaihall.com          | 1.313s | Few nodes (17) |
-| ✅        | Maid Scan        | https://empreguetes.wtf         | 0.314s | Few nodes (16) |
-| ✅        | Manga Tube       | https://manga-tube.me           | 1.467s | Few nodes (19) |
-| ✅        | ManhuaRock       | https://manhuarock4.site        | 2.749s | Few nodes (13) |
-| ✅        | Manhwahana       | https://manhwahana.com          | 1.867s | Few nodes (0)  |
-| ✅        | MLBB Lore Comics | https://play.mobilelegends.com  | 1.546s | Few nodes (11) |
-| ✅        | Moodtoon         | https://moon-toon.com           | 1.138s | Few nodes (13) |
-| ✅        | NIFTeam          | https://read-nifteam.info       | 1.578s | Few nodes (3)  |
-| ✅        | NovelCool        | https://br.novelcool.com        | 0.515s | Few nodes (9)  |
-| ✅        | One Piece Fans   | https://one-piece-fans2.com     | 2.187s | Few nodes (13) |
-| ✅        | Raindrop Fansub  | https://www.raindropteamfan.com | 1.728s | Few nodes (14) |
-| ✅        | Sen Manga        | https://raw.senmanga.com        | 0.986s | Few nodes (13) |
-| ✅        | Solar and Sundry | https://sas-api.fly.dev         | 2.810s | Few nodes (2)  |
-| ✅        | Spmanhwa         | https://spmanhwa.online         | 1.404s | Few nodes (8)  |
-| ✅        | Twatt            | https://twatt.fr                | 0.863s | Few nodes (18) |
-| ✅        | Vegitoons        | https://vegitoons.black         | 1.047s | Few nodes (15) |
-| ✅        | Verdinha         | https://verdinha.wtf            | 1.707s | Few nodes (12) |
-| ✅        | 一耽女孩             | https://yidan1.club             | 1.772s | Few nodes (14) |
-| ✅        | 漫画人              | http://mangaapi.manhuaren.com   | 1.232s | Few nodes (2)  |
+| ✅        | Harimanga        | https://harimanga.me            | 1.805s | Few nodes (10) |
+| ✅        | HentaiHall       | https://hentaihall.com          | 1.614s | Few nodes (17) |
+| ✅        | Maid Scan        | https://empreguetes.wtf         | 1.248s | Few nodes (16) |
+| ✅        | Manga Tube       | https://manga-tube.me           | 1.161s | Few nodes (19) |
+| ✅        | ManhuaRock       | https://manhuarock4.site        | 1.896s | Few nodes (13) |
+| ✅        | Manhwahana       | https://manhwahana.com          | 1.648s | Few nodes (0)  |
+| ✅        | MLBB Lore Comics | https://play.mobilelegends.com  | 0.373s | Few nodes (11) |
+| ✅        | Moodtoon         | https://moon-toon.com           | 1.593s | Few nodes (13) |
+| ✅        | NIFTeam          | https://read-nifteam.info       | 1.328s | Few nodes (3)  |
+| ✅        | NovelCool        | https://br.novelcool.com        | 1.126s | Few nodes (9)  |
+| ✅        | One Piece Fans   | https://one-piece-fans2.com     | 2.316s | Few nodes (13) |
+| ✅        | Raindrop Fansub  | https://www.raindropteamfan.com | 2.900s | Few nodes (14) |
+| ✅        | Sen Manga        | https://raw.senmanga.com        | 1.862s | Few nodes (13) |
+| ✅        | Solar and Sundry | https://sas-api.fly.dev         | 4.339s | Few nodes (2)  |
+| ✅        | Spmanhwa         | https://spmanhwa.online         | 1.779s | Few nodes (8)  |
+| ✅        | Twatt            | https://twatt.fr                | 2.703s | Few nodes (18) |
+| ✅        | Vegitoons        | https://vegitoons.black         | 2.072s | Few nodes (15) |
+| ✅        | Verdinha         | https://verdinha.wtf            | 0.844s | Few nodes (12) |
+| ✅        | Yabai            | https://yabai.si                | 3.692s | Few nodes (12) |
+| ✅        | 一耽女孩             | https://yidan1.club             | 3.702s | Few nodes (14) |
+| ✅        | 漫画人              | http://mangaapi.manhuaren.com   | 1.607s | Few nodes (2)  |
 
 ## Redirects
 
-Count: 60
+Count: 59
 
-| Status   | Name                 | URL                                      | Time   | Info                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|----------|----------------------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 🔀        | BookWalker Global    | https://global.bookwalker.jp             | 2.576s | Redirected: https://bookwalker.com/                                                                                                                                                                                                                                                                                                                                                                                        |
-| 🔀        | BoxManhwa            | https://boxmanhwa.com                    | 1.824s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                             |
-| 🔀        | CManga               | https://cmangax16.com                    | 1.130s | Redirected: https://cmangax17.com/                                                                                                                                                                                                                                                                                                                                                                                         |
-| 🔀        | DapRob               | https://daprob.com                       | 6.781s | Redirected: https://www.serendipityladiesfitness.co.uk/                                                                                                                                                                                                                                                                                                                                                                    |
-| 🔀        | Dokiraw              | https://dokiraw.team                     | 2.771s | Redirected: https://dokiraw.info/                                                                                                                                                                                                                                                                                                                                                                                          |
-| 🔀        | Gistamis House       | https://gistamishousefansub.blogspot.com | 3.760s | Redirected: https://accounts.google.com/v3/signin/identifier?continue=https://www.blogger.com/blogin?u%3Dhttps://gistamishousefansub.blogspot.com/&dsh=S-99815401:1780158622099700&followup=https://www.blogger.com/blogin?u%3Dhttps://gistamishousefansub.blogspot.com/&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2Pat1t-EwZgwj1IaMNjVISi21QlxlOm-IwV5GQEocLS-Dx1PAk2oFMbxl8_P0Vx9NbgitH6UCOw |
-| 🔀        | HentaiVN.plus        | https://hentaivn.show                    | 2.137s | Redirected: https://qmanga.art/                                                                                                                                                                                                                                                                                                                                                                                            |
-| 🔀        | Jmanga               | https://jmanga.codes                     | 3.728s | Redirected: https://jmanga.baby/                                                                                                                                                                                                                                                                                                                                                                                           |
-| 🔀        | Manatoki             | https://manatoki552.net                  | 2.128s | Redirected: https://t.me/newtoki_ch                                                                                                                                                                                                                                                                                                                                                                                        |
-| 🔀        | MangaBuddy           | https://mangabuddy.com                   | 1.787s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                             |
-| 🔀        | MangaCute            | https://mangacute.com                    | 0.436s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                             |
-| 🔀        | MangaFab             | https://mangafab.com                     | 1.184s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                             |
-| 🔀        | MangaForest          | https://mangaforest.me                   | 1.405s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                             |
-| 🔀        | MangaMonk            | https://mangamonk.com                    | 1.828s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                             |
-| 🔀        | MangaPuma            | https://mangapuma.com                    | 1.323s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                             |
-| 🔀        | MangaSaga            | https://mangasaga.com                    | 1.392s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                             |
-| 🔀        | MangaSpin            | https://mangaspin.com                    | 0.742s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                             |
-| 🔀        | MangaXYZ             | https://mangaxyz.com                     | 0.961s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                             |
-| 🔀        | ManhuaNow            | https://manhuanow.com                    | 0.438s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                             |
-| 🔀        | Ngomik (unoriginal)  | https://id.ngomik.cloud                  | 0.953s | Few nodes (17). Redirected: https://02.ngomik.cc/                                                                                                                                                                                                                                                                                                                                                                          |
-| 🔀        | Nivera Fansub        | https://niverafansub.lol                 | 3.672s | Redirected: https://niverafansub.mom/                                                                                                                                                                                                                                                                                                                                                                                      |
-| 🔀        | Olympus Scanlation   | https://olympusbiblioteca.com            | 2.019s | Redirected: https://olympusxyz.com/                                                                                                                                                                                                                                                                                                                                                                                        |
-| 🔀        | One-Manga            | https://one-manga.com                    | 4.360s | Redirected: https://mangablackcat.com/                                                                                                                                                                                                                                                                                                                                                                                     |
-| 🔀        | Questionable Content | https://www.questionablecontent.net      | 1.869s | Redirected: https://www.jephjacques.com/                                                                                                                                                                                                                                                                                                                                                                                   |
-| 🔀        | Raw18                | https://raw18.cam                        | 2.161s | Redirected: https://raw18.work/                                                                                                                                                                                                                                                                                                                                                                                            |
-| 🔀        | SchaleNetwork        | https://schale.network                   | 2.067s | Redirected: https://niyaniya.moe/                                                                                                                                                                                                                                                                                                                                                                                          |
-| 🔀        | 性感美女                 | http://xgmn8.vip                         | 2.763s | Redirected: http://a9.876512.xyz/                                                                                                                                                                                                                                                                                                                                                                                          |
-| 🔀        | 紳士漫畫                 | https://www.wn04.ru                      | 0.830s | Redirected: https://www.wn05.cfd/                                                                                                                                                                                                                                                                                                                                                                                          |
-| 🔀        | 紳士漫畫                 | https://www.wn05.ru                      | 2.943s | Redirected: https://www.wn05.cfd/                                                                                                                                                                                                                                                                                                                                                                                          |
-| 🔀        | 肉漫屋                  | https://roum22.xyz                       | 1.782s | Redirected: https://roum27.xyz/                                                                                                                                                                                                                                                                                                                                                                                            |
-| 🔀        | 香香腐宅                 | https://boylove1.mobi                    | 2.757s | Redirected: https://boylove.cc/                                                                                                                                                                                                                                                                                                                                                                                            |
-| 🔀        | 블랙툰                  | https://blacktoon.me                     | 1.936s | Redirected: https://blacktoon410.com/                                                                                                                                                                                                                                                                                                                                                                                      |
+| Status   | Name                 | URL                                      | Time   | Info                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|----------|----------------------|------------------------------------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 🔀        | BookWalker Global    | https://global.bookwalker.jp             | 3.892s | Redirected: https://bookwalker.com/                                                                                                                                                                                                                                                                                                                                                                                         |
+| 🔀        | BoxManhwa            | https://boxmanhwa.com                    | 1.943s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                              |
+| 🔀        | CManga               | https://cmangax16.com                    | 2.217s | Redirected: https://cmangax17.com/                                                                                                                                                                                                                                                                                                                                                                                          |
+| 🔀        | DapRob               | https://daprob.com                       | 9.040s | Redirected: https://www.serendipityladiesfitness.co.uk/                                                                                                                                                                                                                                                                                                                                                                     |
+| 🔀        | Dokiraw              | https://dokiraw.team                     | 0.737s | Redirected: https://dokiraw.info/                                                                                                                                                                                                                                                                                                                                                                                           |
+| 🔀        | Gistamis House       | https://gistamishousefansub.blogspot.com | 2.982s | Redirected: https://accounts.google.com/v3/signin/identifier?continue=https://www.blogger.com/blogin?u%3Dhttps://gistamishousefansub.blogspot.com/&dsh=S1781857192:1780201345495372&followup=https://www.blogger.com/blogin?u%3Dhttps://gistamishousefansub.blogspot.com/&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWa2PasTu_ZGYZZBgykykQHi9-Oz1Yr60g8HFv_GkgLxx6NegturpVpbi8HyM6rbak6KEB7L8dNZKg |
+| 🔀        | HentaiVN.plus        | https://hentaivn.show                    | 3.599s | Redirected: https://qmanga.art/                                                                                                                                                                                                                                                                                                                                                                                             |
+| 🔀        | Jmanga               | https://jmanga.codes                     | 2.556s | Redirected: https://jmanga.baby/                                                                                                                                                                                                                                                                                                                                                                                            |
+| 🔀        | LilyumFansub         | https://lilyumfansub.com.tr              | 2.893s | Redirected: http://lilyumfansub.pro/                                                                                                                                                                                                                                                                                                                                                                                        |
+| 🔀        | Manatoki             | https://manatoki552.net                  | 1.983s | Redirected: https://t.me/newtoki_ch                                                                                                                                                                                                                                                                                                                                                                                         |
+| 🔀        | MangaBuddy           | https://mangabuddy.com                   | 2.063s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                              |
+| 🔀        | MangaCute            | https://mangacute.com                    | 0.609s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                              |
+| 🔀        | MangaFab             | https://mangafab.com                     | 1.392s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                              |
+| 🔀        | MangaForest          | https://mangaforest.me                   | 2.133s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                              |
+| 🔀        | MangaMonk            | https://mangamonk.com                    | 1.249s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                              |
+| 🔀        | MangaPuma            | https://mangapuma.com                    | 1.586s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                              |
+| 🔀        | MangaSaga            | https://mangasaga.com                    | 2.418s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                              |
+| 🔀        | MangaSpin            | https://mangaspin.com                    | 1.448s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                              |
+| 🔀        | MangaXYZ             | https://mangaxyz.com                     | 1.134s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                              |
+| 🔀        | ManhuaNow            | https://manhuanow.com                    | 0.687s | Redirected: https://mangak.io/                                                                                                                                                                                                                                                                                                                                                                                              |
+| 🔀        | Ngomik (unoriginal)  | https://id.ngomik.cloud                  | 1.426s | Few nodes (17). Redirected: https://02.ngomik.cc/                                                                                                                                                                                                                                                                                                                                                                           |
+| 🔀        | Nivera Fansub        | https://niverafansub.lol                 | 5.321s | Redirected: https://niverafansub.mom/                                                                                                                                                                                                                                                                                                                                                                                       |
+| 🔀        | Olympus Scanlation   | https://olympusbiblioteca.com            | 3.256s | Redirected: https://olympusxyz.com/                                                                                                                                                                                                                                                                                                                                                                                         |
+| 🔀        | One-Manga            | https://one-manga.com                    | 2.421s | Redirected: https://mangablackcat.com/                                                                                                                                                                                                                                                                                                                                                                                      |
+| 🔀        | Questionable Content | https://www.questionablecontent.net      | 2.423s | Redirected: https://www.jephjacques.com/                                                                                                                                                                                                                                                                                                                                                                                    |
+| 🔀        | Raw18                | https://raw18.cam                        | 2.345s | Redirected: https://raw18.work/                                                                                                                                                                                                                                                                                                                                                                                             |
+| 🔀        | SchaleNetwork        | https://schale.network                   | 1.607s | Redirected: https://niyaniya.moe/                                                                                                                                                                                                                                                                                                                                                                                           |
+| 🔀        | 性感美女                 | http://xgmn8.vip                         | 2.687s | Redirected: http://a9.876512.xyz/                                                                                                                                                                                                                                                                                                                                                                                           |
+| 🔀        | 紳士漫畫                 | https://www.wn04.ru                      | 1.338s | Redirected: https://www.wn05.cfd/                                                                                                                                                                                                                                                                                                                                                                                           |
+| 🔀        | 紳士漫畫                 | https://www.wn05.ru                      | 6.137s | Redirected: https://www.wn05.cfd/                                                                                                                                                                                                                                                                                                                                                                                           |
+| 🔀        | 肉漫屋                  | https://roum22.xyz                       | 3.179s | Redirected: https://roum27.xyz/                                                                                                                                                                                                                                                                                                                                                                                             |
+| 🔀        | 香香腐宅                 | https://boylove1.mobi                    | 3.300s | Redirected: https://boylove.cc/                                                                                                                                                                                                                                                                                                                                                                                             |
+| 🔀        | 블랙툰                  | https://blacktoon.me                     | 3.247s | Redirected: https://blacktoon410.com/                                                                                                                                                                                                                                                                                                                                                                                       |
 
 ### Same Authority
 
-Count: 28
+Count: 26
 
-| Status   | Name                        | URL                                           | Time   | Info                                                                                               |
-|----------|-----------------------------|-----------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
-| 🔀        | CathalTraducciones          | https://capibaratraductor.com/cathaltl        | 1.046s | Redirected: https://capibaratraductor.com/red/cathaltl                                             |
-| 🔀        | Comics Kingdom              | https://wp.comicskingdom.com                  | 1.842s | Redirected: https://comicskingdom.com/                                                             |
-| 🔀        | CosmicScans.id              | https://lc6.cosmicscans.asia                  | 1.867s | Few nodes (17). Redirected: https://lc7.cosmicscans.asia/                                          |
-| 🔀        | DMM                         | https://book.dmm.com                          | 4.168s | Redirected: https://accounts.dmm.com/service/login/password/=/path=https:%2F%2Fbook.dmm.com%2F     |
-| 🔀        | Doujinclub                  | https://capibaratraductor.com/doujinclub      | 0.782s | Redirected: https://capibaratraductor.com/red/doujinclub                                           |
-| 🔀        | Ego Toons                   | https://www.egotoons.com                      | 2.867s | Redirected: https://egotoons.com/                                                                  |
-| 🔀        | FANZA                       | https://book.dmm.co.jp                        | 3.427s | Redirected: https://accounts.dmm.co.jp/service/login/password/=/path=https:%2F%2Fbook.dmm.co.jp%2F |
-| 🔀        | HotComics                   | https://hotcomics.me                          | 0.220s | Few nodes (17). Redirected: https://w1.hotcomics.me/                                               |
-| 🔀        | IsekaiScan.top (unoriginal) | https://isekaiscan.top                        | 3.181s | Redirected: https://www.isekaiscan.top/                                                            |
-| 🔀        | izneo                       | https://www.izneo.com/en/webtoon              | 1.477s | Redirected: https://www.izneo.com/fr/webtoon                                                       |
-| 🔀        | Kaguya                      | https://v1.kaguya.pro                         | 2.454s | Few nodes (17). Redirected: https://01.kaguya.pro/                                                 |
-| 🔀        | KRazytoon                   | https://capibaratraductor.com/krazytoon       | 0.773s | Redirected: https://capibaratraductor.com/red/krazytoon                                            |
-| 🔀        | KuroMangas                  | https://beta.kuromangas.com                   | 1.182s | Few nodes (17). Redirected: https://kuromangas.com/                                                |
-| 🔀        | Loliet Azura Translations   | https://capibaratraductor.com/lolietazura     | 0.456s | Redirected: https://capibaratraductor.com/red/lolietazura                                          |
-| 🔀        | MangaDenizi                 | https://www.mangadenizi.net                   | 2.962s | Redirected: https://mangadenizi.net/                                                               |
-| 🔀        | MangaDraft                  | https://mangadraft.com                        | 2.928s | Redirected: https://www.mangadraft.com/                                                            |
-| 🔀        | ManhwaLand.mom              | https://02.manhwaland.land                    | 0.839s | Few nodes (17). Redirected: https://05c.manhwaland.land/                                           |
-| 🔀        | Michu Scan                  | https://capibaratraductor.com/michuscan       | 0.532s | Redirected: https://capibaratraductor.com/red/michuscan                                            |
-| 🔀        | MikoRoku                    | https://www.mikoroku.com                      | 2.385s | Redirected: https://mikoroku.com/                                                                  |
-| 🔀        | Seinen Den                  | https://capibaratraductor.com/seinen-den      | 0.935s | Redirected: https://capibaratraductor.com/404                                                      |
-| 🔀        | Señor Chofli                | https://capibaratraductor.com/sirchofli       | 2.069s | Redirected: https://capibaratraductor.com/red/sirchofli                                            |
-| 🔀        | Sweet Ice Cream             | https://capibaratraductor.com/sweeticecream   | 1.005s | Redirected: https://capibaratraductor.com/red/sweeticecream                                        |
-| 🔀        | Templo de Scarlet           | https://capibaratraductor.com/templodescarlet | 1.058s | Redirected: https://capibaratraductor.com/red/templodescarlet                                      |
-| 🔀        | vomic                       | http://www.vomicmh.com                        | 4.179s | Redirected: https://www.vomicmh.com/                                                               |
-| 🔀        | War For Rayuba              | https://xrabohrok.github.io/WarMap/#/         | 1.074s | Redirected: https://xrabohrok.github.io/WarMap/                                                    |
-| 🔀        | YaoiChan                    | https://yaoi-chan.me                          | 7.585s | Redirected: https://v18.yaoi-chan.me/                                                              |
-| 🔀        | Yomu Mangás                 | https://yomumangas.com                        | 1.388s | Redirected: https://global.yomumangas.com/                                                         |
-| 🔀        | Zinmanga.net                | https://zinmanga.net                          | 2.327s | Redirected: https://www.zinmanga.net/                                                              |
+| Status   | Name                      | URL                                           | Time   | Info                                                                                               |
+|----------|---------------------------|-----------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
+| 🔀        | CathalTraducciones        | https://capibaratraductor.com/cathaltl        | 1.483s | Redirected: https://capibaratraductor.com/red/cathaltl                                             |
+| 🔀        | Comics Kingdom            | https://wp.comicskingdom.com                  | 3.951s | Redirected: https://comicskingdom.com/                                                             |
+| 🔀        | CosmicScans.id            | https://lc6.cosmicscans.asia                  | 0.479s | Few nodes (17). Redirected: https://lc7.cosmicscans.asia/                                          |
+| 🔀        | DMM                       | https://book.dmm.com                          | 3.352s | Redirected: https://accounts.dmm.com/service/login/password/=/path=https:%2F%2Fbook.dmm.com%2F     |
+| 🔀        | Doujinclub                | https://capibaratraductor.com/doujinclub      | 0.884s | Redirected: https://capibaratraductor.com/red/doujinclub                                           |
+| 🔀        | Ego Toons                 | https://www.egotoons.com                      | 2.121s | Redirected: https://egotoons.com/                                                                  |
+| 🔀        | FANZA                     | https://book.dmm.co.jp                        | 3.211s | Redirected: https://accounts.dmm.co.jp/service/login/password/=/path=https:%2F%2Fbook.dmm.co.jp%2F |
+| 🔀        | HotComics                 | https://hotcomics.me                          | 0.377s | Few nodes (17). Redirected: https://w1.hotcomics.me/                                               |
+| 🔀        | Kaguya                    | https://v1.kaguya.pro                         | 1.944s | Few nodes (17). Redirected: https://01.kaguya.pro/                                                 |
+| 🔀        | KRazytoon                 | https://capibaratraductor.com/krazytoon       | 1.958s | Redirected: https://capibaratraductor.com/red/krazytoon                                            |
+| 🔀        | KuroMangas                | https://beta.kuromangas.com                   | 2.590s | Few nodes (17). Redirected: https://kuromangas.com/                                                |
+| 🔀        | Loliet Azura Translations | https://capibaratraductor.com/lolietazura     | 0.957s | Redirected: https://capibaratraductor.com/red/lolietazura                                          |
+| 🔀        | MangaDenizi               | https://www.mangadenizi.net                   | 4.779s | Redirected: https://mangadenizi.net/                                                               |
+| 🔀        | MangaDraft                | https://mangadraft.com                        | 3.926s | Redirected: https://www.mangadraft.com/                                                            |
+| 🔀        | ManhwaLand.mom            | https://02.manhwaland.land                    | 2.889s | Few nodes (17). Redirected: https://05c.manhwaland.land/                                           |
+| 🔀        | Michu Scan                | https://capibaratraductor.com/michuscan       | 0.893s | Redirected: https://capibaratraductor.com/red/michuscan                                            |
+| 🔀        | MikoRoku                  | https://www.mikoroku.com                      | 0.933s | Redirected: https://mikoroku.com/                                                                  |
+| 🔀        | Seinen Den                | https://capibaratraductor.com/seinen-den      | 1.848s | Redirected: https://capibaratraductor.com/404                                                      |
+| 🔀        | Señor Chofli              | https://capibaratraductor.com/sirchofli       | 0.950s | Redirected: https://capibaratraductor.com/red/sirchofli                                            |
+| 🔀        | Sweet Ice Cream           | https://capibaratraductor.com/sweeticecream   | 1.062s | Redirected: https://capibaratraductor.com/red/sweeticecream                                        |
+| 🔀        | Templo de Scarlet         | https://capibaratraductor.com/templodescarlet | 1.687s | Redirected: https://capibaratraductor.com/red/templodescarlet                                      |
+| 🔀        | vomic                     | http://www.vomicmh.com                        | 6.013s | Redirected: https://www.vomicmh.com/                                                               |
+| 🔀        | War For Rayuba            | https://xrabohrok.github.io/WarMap/#/         | 0.295s | Redirected: https://xrabohrok.github.io/WarMap/                                                    |
+| 🔀        | YaoiChan                  | https://yaoi-chan.me                          | 3.508s | Redirected: https://v18.yaoi-chan.me/                                                              |
+| 🔀        | Yomu Mangás               | https://yomumangas.com                        | 1.577s | Redirected: https://global.yomumangas.com/                                                         |
+| 🔀        | Zinmanga.net              | https://zinmanga.net                          | 0.443s | Redirected: https://www.zinmanga.net/                                                              |
 
 ## Cloudflare IUAM
 
-Count: 368
+Count: 370
 
 | Status   | Name                           | URL                                | Time   | Info   |
 |----------|--------------------------------|------------------------------------|--------|--------|
-| 🚧        | 18漫画                           | https://18mh.org                   | 1.310s |        |
-| 🚧        | 1Manga.co                      | https://1manga.co                  | 0.942s |        |
-| 🚧        | 8Muses                         | https://comics.8muses.com          | 0.545s |        |
-| 🚧        | Ainz Scans ID                  | https://v1.ainzscans01.com         | 0.936s |        |
-| 🚧        | AllPornComic                   | https://allporncomic.com           | 0.522s |        |
-| 🚧        | Amuy                           | https://apenasmaisumyaoi.com       | 0.164s |        |
-| 🚧        | Anyone Manga                   | https://anyonemanga.com            | 0.617s |        |
-| 🚧        | APKOMIK                        | https://01.apkomik.com             | 0.365s |        |
-| 🚧        | ArazNovel                      | https://araznovel.com              | 1.141s |        |
-| 🚧        | Area Scans                     | https://ar.areascans.org           | 0.513s |        |
-| 🚧        | AriaToon                       | https://ariatoon.com               | 0.939s |        |
-| 🚧        | Armageddon                     | https://www.silentquill.net        | 0.407s |        |
-| 🚧        | Arthur Scan                    | https://arthurscan.xyz             | 1.280s |        |
-| 🚧        | AsiaToon                       | https://asiatoon.net               | 0.583s |        |
-| 🚧        | AstralManga                    | https://astral-manga.fr            | 1.279s |        |
-| 🚧        | Astratoons                     | https://new.astratoons.com         | 0.813s |        |
-| 🚧        | Athrea Scans                   | https://athreascans.com            | 0.934s |        |
-| 🚧        | azComic                        | https://azcomic.com                | 0.634s |        |
-| 🚧        | Azuretoons                     | https://azuretoons.com             | 0.634s |        |
-| 🚧        | BacaKomik                      | https://bacakomik.my               | 0.489s |        |
-| 🚧        | BaoTangTruyen                  | https://baotangtruyen37.top        | 0.720s |        |
-| 🚧        | BatCave                        | https://batcave.biz                | 1.782s |        |
-| 🚧        | BeeHentai                      | https://beehentai.com              | 0.477s |        |
-| 🚧        | Bega Translation               | https://begatranslation.com        | 1.887s |        |
-| 🚧        | Bilimanga.net                  | https://www.bilimanga.net          | 1.419s |        |
-| 🚧        | Blackout Comics                | https://blackoutcomics.com         | 0.371s |        |
-| 🚧        | BokugenTranslation             | https://bokugents.com              | 0.671s |        |
-| 🚧        | Borat Scans                    | https://boratscans.com             | 0.356s |        |
-| 🚧        | Café com Yaoi                  | https://cafecomyaoi.com.br         | 0.458s |        |
-| 🚧        | Cartoon18                      | https://www.cartoon18.com          | 0.642s |        |
-| 🚧        | CBHentai                       | https://2tencb.pro                 | 1.781s |        |
-| 🚧        | ChaosTrad                      | https://chaostrad.fr               | 0.269s |        |
-| 🚧        | ChoChoX                        | https://chochox.com                | 0.453s |        |
-| 🚧        | CManhua                        | https://cmanhua.com                | 0.733s |        |
-| 🚧        | Codex Zero                     | https://codex.readkisho.me         | 1.027s |        |
-| 🚧        | Comic CX                       | https://comic.cx                   | 2.304s |        |
-| 🚧        | Comicazen                      | https://comicazen.com              | 0.535s |        |
-| 🚧        | ComicHubFree                   | https://comichubfree.com           | 0.706s |        |
-| 🚧        | Comics Land                    | https://comicsland.org             | 0.574s |        |
-| 🚧        | Comix                          | https://comix.to                   | 0.426s |        |
-| 🚧        | CrotPedia                      | https://crotpedia.net              | 1.218s |        |
-| 🚧        | Cutie Comics                   | https://cutiecomics.com            | 1.063s |        |
-| 🚧        | DailySuka                      | https://dailysuka.com              | 1.034s |        |
-| 🚧        | DamCoNuong                     | https://damconuong.lol             | 0.195s |        |
-| 🚧        | Danbooru                       | https://danbooru.donmai.us         | 0.463s |        |
-| 🚧        | DigitalTeam                    | https://dgtread.com                | 0.456s |        |
-| 🚧        | Dilar                          | https://dilar.tube                 | 0.428s |        |
-| 🚧        | DocTruyen3Q                    | https://doctruyen3qhub.org         | 1.263s |        |
-| 🚧        | Doodmanga                      | https://www.doodmanga.com          | 0.700s |        |
-| 🚧        | Doujinku                       | https://doujinku.org               | 0.897s |        |
-| 🚧        | Drake Scans                    | https://drakecomic.org             | 1.221s |        |
-| 🚧        | Eggporncomics                  | https://eggporncomics.com          | 1.258s |        |
-| 🚧        | Elf Toon                       | https://elftoon.com                | 0.374s |        |
-| 🚧        | Empire Webtoon                 | https://webtoonempire-bl.com       | 0.812s |        |
-| 🚧        | Eris Scans                     | https://erisscans.com              | 0.770s |        |
-| 🚧        | Ero18x                         | https://ero18x.com                 | 1.439s |        |
-| 🚧        | Erofus                         | https://www.erofus.com             | 0.541s |        |
-| 🚧        | EternalMangas                  | https://eternalmangas.org          | 0.935s |        |
-| 🚧        | EveriaClub (unoriginal)        | https://www.everiaclub.com         | 1.443s |        |
-| 🚧        | Evil Flowers                   | https://evilflowers.com            | 1.170s |        |
-| 🚧        | Evil production                | https://evil-manga.eu              | 1.129s |        |
-| 🚧        | Fairy Scans                    | https://fairyscans.com             | 0.195s |        |
-| 🚧        | FastScan                       | https://fastscan.org               | 0.448s |        |
-| 🚧        | Faust                          | https://faust-web.com              | 1.091s |        |
-| 🚧        | Femjoy Hunter                  | https://www.femjoyhunter.com       | 0.815s |        |
-| 🚧        | Fin Manga                      | https://www.fin-manga.com          | 0.393s |        |
-| 🚧        | Flame Comics                   | https://flamecomics.xyz            | 0.604s |        |
-| 🚧        | Fleur Blanche                  | https://fbsquadx.com               | 1.225s |        |
-| 🚧        | FlowerManga.net                | https://flowermangas.net           | 0.413s |        |
-| 🚧        | FoamGirl                       | https://foamgirl.net               | 0.810s |        |
-| 🚧        | FTV Hunter                     | https://www.ftvhunter.com          | 1.118s |        |
-| 🚧        | gafeland                       | https://gafeland.com               | 1.977s |        |
-| 🚧        | Gaiatoon                       | https://gaiatoon.com               | 1.287s |        |
-| 🚧        | GirlsTop                       | https://en.girlstop.info           | 1.259s |        |
-| 🚧        | Goc Truyen Tranh Vui           | https://goctruyentranhvui30.com    | 0.921s |        |
-| 🚧        | Goda                           | https://manhuascans.org            | 0.992s |        |
-| 🚧        | GoDa漫画                         | https://bzmh.org                   | 0.616s |        |
-| 🚧        | GoDa漫画                         | https://g-mh.org                   | 0.813s |        |
-| 🚧        | GoDa漫画                         | https://godamh.com                 | 1.842s |        |
-| 🚧        | GoDa漫画                         | https://m.baozimh.one              | 0.571s |        |
-| 🚧        | GoDa漫画                         | https://m.g-mh.org                 | 1.326s |        |
-| 🚧        | Grim Scans                     | https://grimscans.com              | 0.351s |        |
-| 🚧        | Gölge Bahçesi                  | https://golgebahcesi.com           | 0.257s |        |
-| 🚧        | Hachiraw                       | https://hachiraw.net               | 0.694s |        |
-| 🚧        | Hanime1.me                     | https://hanimeone.me               | 0.609s |        |
-| 🚧        | Harmony-Scan                   | https://harmony-scan.fr            | 0.752s |        |
-| 🚧        | Hattori Manga                  | https://hattorimanga.net           | 1.079s |        |
-| 🚧        | Hentai Cosplay                 | https://hentai-cosplay-xxx.com     | 1.844s |        |
-| 🚧        | Hentai Crot                    | https://hentaicrot.com             | 1.072s |        |
-| 🚧        | Hentai-Scantrad                | https://hentai.scantrad-vf.cc      | 0.092s |        |
-| 🚧        | Hentai3z.CC                    | https://hentai3z.cc                | 0.864s |        |
-| 🚧        | Hentai4Free                    | https://hentai4free.net            | 1.379s |        |
-| 🚧        | HentaiHere                     | https://hentaihere.com             | 0.144s |        |
-| 🚧        | HentaiLib                      | https://hentailib.me               | 0.899s |        |
-| 🚧        | HentaiMode                     | https://hentaimode.com             | 0.575s |        |
-| 🚧        | HentaiRead                     | https://hentairead.com             | 1.532s |        |
-| 🚧        | HentaiSco                      | https://hentaisco.cc               | 1.313s |        |
-| 🚧        | HentaiZap                      | https://hentaizap.com              | 1.287s |        |
-| 🚧        | HentaiZone                     | https://hentaizone.xyz             | 0.867s |        |
-| 🚧        | HeyToon                        | https://heytoon.net                | 1.210s |        |
-| 🚧        | Hijala                         | https://hijala.com                 | 0.573s |        |
-| 🚧        | HipercooL                      | https://hiper.cool                 | 1.484s |        |
-| 🚧        | Holotoon                       | https://01.holotoon.site           | 1.180s |        |
-| 🚧        | Holy Scans                     | https://holyscans.com.tr           | 1.215s |        |
-| 🚧        | Hwago                          | https://01.hwago.xyz               | 0.498s |        |
-| 🚧        | Ikigai Mangas                  | https://zonaikigai.gamesview.shop  | 0.942s |        |
-| 🚧        | Ikiru                          | https://05.ikiru.wtf               | 0.052s |        |
-| 🚧        | InfinityScans                  | https://infinityscans.org          | 0.284s |        |
-| 🚧        | InfraFandub                    | https://infrafandub.com            | 0.971s |        |
-| 🚧        | Inkapk                         | https://inkapk.net                 | 1.277s |        |
-| 🚧        | InManga                        | https://inmanga.com                | 0.194s |        |
-| 🚧        | Jeaz Scans                     | https://lectorhub.j5z.xyz          | 0.099s |        |
-| 🚧        | Joymii Hub                     | https://www.joymiihub.com          | 0.685s |        |
-| 🚧        | Kagane                         | https://kagane.org                 | 0.797s |        |
-| 🚧        | Kaizen Scan                    | https://kaizenscan.com             | 0.677s |        |
-| 🚧        | Kappa Beast                    | https://kappabeast.com             | 1.253s |        |
-| 🚧        | KingComiX                      | https://kingcomix.com              | 0.309s |        |
-| 🚧        | Kiryuu                         | https://v5.kiryuu.to               | 1.168s |        |
-| 🚧        | KissLove                       | https://klz9.com                   | 1.283s |        |
-| 🚧        | Kissmanga.in                   | https://kissmanga.in               | 0.962s |        |
-| 🚧        | KlikManga                      | https://klikmanga.org              | 1.240s |        |
-| 🚧        | Komik Dewasa Art               | https://komikdewasa.art            | 0.245s |        |
-| 🚧        | Komik Dewasak                  | https://komikdewasa.mom            | 1.431s |        |
-| 🚧        | Komik Station                  | https://komikstation.org           | 0.994s |        |
-| 🚧        | Komikindo                      | https://komikindo.bid              | 0.429s |        |
-| 🚧        | KomikIndo.co                   | https://komiksin.net               | 0.380s |        |
-| 🚧        | KomikIndoID                    | https://komikindo.ch               | 1.227s |        |
-| 🚧        | Komiku.com                     | https://01.komiku.asia             | 1.484s |        |
-| 🚧        | Komikzoid                      | https://komikzoid.id               | 1.202s |        |
-| 🚧        | Kumaraw                        | https://kumaraw.com                | 0.335s |        |
-| 🚧        | Kun Manga                      | https://kunmanga.com               | 1.159s |        |
-| 🚧        | Lagoon Scans                   | https://lagoonscans.com            | 0.518s |        |
-| 🚧        | Lava Scans                     | https://lavascans.com              | 0.678s |        |
-| 🚧        | Leitor de Mangas               | https://leitordemangas.com         | 1.218s |        |
-| 🚧        | Leitura Mangá                  | https://leituramanga.net           | 0.861s |        |
-| 🚧        | Lelmanga                       | https://www.lelmanga.com           | 0.366s |        |
-| 🚧        | Lelscan-VF                     | https://lelscanfr.com              | 0.841s |        |
-| 🚧        | Ler Mangas                     | https://lermangas.me               | 0.159s |        |
-| 🚧        | LHTranslation                  | https://lhtranslation.net          | 0.899s |        |
-| 🚧        | LinkManga                      | https://linkmanga.com              | 0.252s |        |
-| 🚧        | Lmtos                          | https://lmtos.net                  | 0.262s |        |
-| 🚧        | Luminare Translations          | https://luminaretranslations.com   | 0.619s |        |
-| 🚧        | LumosKomik                     | https://02.lumosgg.com             | 1.186s |        |
-| 🚧        | Luna Toons                     | https://lunatoons.org              | 0.737s |        |
-| 🚧        | LuotTruyen                     | https://luottruyen5.com            | 0.516s |        |
-| 🚧        | Luscious                       | https://www.luscious.net           | 1.978s |        |
-| 🚧        | LuvEvaLand                     | https://luvevalands2.co            | 0.246s |        |
-| 🚧        | LXManga                        | https://lxmanga.space              | 0.212s |        |
-| 🚧        | Lycan Toons                    | https://lycantoons.com             | 0.065s |        |
-| 🚧        | Madara Scans                   | https://madarascans.com            | 0.703s |        |
-| 🚧        | MadaraDex                      | https://madaradex.org              | 0.674s |        |
-| 🚧        | Magus Manga                    | https://magustoon.org              | 0.429s |        |
-| 🚧        | Manga  TV                      | https://mangatv.net                | 0.353s |        |
-| 🚧        | Manga 18x                      | https://manga18x.net               | 1.089s |        |
-| 🚧        | Manga Kusu                     | https://mangakusu.com              | 0.432s |        |
-| 🚧        | Manga Livre                    | https://toonlivre.net              | 0.229s |        |
-| 🚧        | Manga Livre Blog               | https://mangalivre.blog            | 1.436s |        |
-| 🚧        | Manga Online                   | https://mangaonline.red            | 0.449s |        |
-| 🚧        | Manga Starz                    | https://manga-starz.net            | 0.452s |        |
-| 🚧        | Manga Stop                     | https://mangastop.net              | 1.306s |        |
-| 🚧        | Manga Şehri                    | https://manga-sehri.com            | 0.865s |        |
-| 🚧        | MANGA/in/UA                    | https://manga.in.ua                | 0.497s |        |
-| 🚧        | Manga168                       | https://manga1688.com              | 1.919s |        |
-| 🚧        | MangaBlaze                     | https://mangablaze.com             | 0.198s |        |
-| 🚧        | MangaCloud                     | https://mangacloud.org             | 0.535s |        |
-| 🚧        | MangaCrazy                     | https://mangacrazy.net             | 0.969s |        |
-| 🚧        | MangaDash                      | https://mangadash.net              | 0.929s |        |
-| 🚧        | Mangadotnet                    | https://mangadot.net               | 1.372s |        |
-| 🚧        | MangaFire                      | https://mangafire.to               | 1.138s |        |
-| 🚧        | MangaForFree.net               | https://mangaforfree.net           | 0.187s |        |
-| 🚧        | MangaFox.fun                   | https://mangafox.fun               | 0.379s |        |
-| 🚧        | MangaGG                        | https://mangagg.com                | 0.861s |        |
-| 🚧        | Mangago                        | https://www.mangago.me             | 1.287s |        |
-| 🚧        | MangaHere.onl                  | https://mangahere.onl              | 0.225s |        |
-| 🚧        | MangaHub                       | https://mangahub.io                | 1.381s |        |
-| 🚧        | MangaHub.fr                    | https://mangahub.fr                | 1.091s |        |
-| 🚧        | Mangakakalot.fun               | https://mangakakalot.fun           | 1.276s |        |
-| 🚧        | MangaKimi                      | https://www.mangakimi.com          | 0.892s |        |
-| 🚧        | Mangakuri                      | https://lc1.mangakuri.online       | 0.461s |        |
-| 🚧        | MangaLionz                     | https://manga-lionz.org            | 1.678s |        |
-| 🚧        | MangaManiacs                   | https://mangamaniacs.org           | 1.332s |        |
-| 🚧        | MangaMoins                     | https://mangamoins.com             | 1.218s |        |
-| 🚧        | MangaNel                       | https://manganel.me                | 0.325s |        |
-| 🚧        | MangaOni                       | https://manga-oni.com              | 1.055s |        |
-| 🚧        | MangaOnline.fun                | https://mangaonline.fun            | 0.641s |        |
-| 🚧        | MangaOwl.io (unoriginal)       | https://mangaowl.io                | 0.299s |        |
-| 🚧        | MangaPanda.onl                 | https://mangapanda.onl             | 0.475s |        |
-| 🚧        | MangaReader.in                 | https://mangareader.in             | 0.515s |        |
-| 🚧        | MangaReader.site               | https://mangareader.site           | 1.098s |        |
-| 🚧        | Mangas Brasuka                 | https://mangasbrasuka.com.br       | 0.219s |        |
-| 🚧        | Mangas No Sekai                | https://mangasnosekai.com          | 0.477s |        |
-| 🚧        | Mangas-Origines.fr             | https://mangas-origines.fr         | 0.528s |        |
-| 🚧        | Mangas.in                      | https://m440.in                    | 0.862s |        |
-| 🚧        | MangaSwat                      | https://meshmanga.com              | 0.588s |        |
-| 🚧        | MangaToday                     | https://mangatoday.fun             | 1.090s |        |
-| 🚧        | MangaTuk                       | https://mangatuk.com               | 0.843s |        |
-| 🚧        | MangaWT                        | https://mangawt.com                | 0.075s |        |
-| 🚧        | MangoLibreria                  | https://mangolibreria.com          | 1.152s |        |
-| 🚧        | Manhua Plus                    | https://manhuaplus.com             | 1.441s |        |
-| 🚧        | Manhua Zonghe                  | https://www.manhuazonghe.com       | 0.809s |        |
-| 🚧        | ManhuaBug                      | https://www.manhuabug.com          | 1.288s |        |
-| 🚧        | ManhuaKey                      | https://www.manhuakey.com          | 1.666s |        |
-| 🚧        | Manhuarm                       | https://manhuarmtl.com             | 0.110s |        |
-| 🚧        | ManhuaThai                     | https://www.manhuathai.com         | 1.179s |        |
-| 🚧        | ManhuaTop                      | https://manhuatop.org              | 1.264s |        |
-| 🚧        | Manhwa Indo                    | https://www.manhwaindo.my          | 0.644s |        |
-| 🚧        | Manhwa-Latino                  | https://manhwa-latino.com          | 1.558s |        |
-| 🚧        | Manhwa-raw                     | https://manhwa-raw.com             | 1.002s |        |
-| 🚧        | Manhwa68                       | https://manhwa68.com               | 0.147s |        |
-| 🚧        | ManhwaBreakup                  | https://www.manhwabreakup.com      | 1.424s |        |
-| 🚧        | ManhwaClan                     | https://manhwaclan.com             | 1.781s |        |
-| 🚧        | ManhwaDesu                     | https://manhwadesu.store           | 0.631s |        |
-| 🚧        | ManhwaHub                      | https://manhwahub.net              | 0.627s |        |
-| 🚧        | ManhwaOnline                   | https://manhwa-online.com          | 0.342s |        |
-| 🚧        | ManhwaRead                     | https://manhwaread.com             | 0.839s |        |
-| 🚧        | ManhwaRead                     | https://manhwaread.org             | 1.531s |        |
-| 🚧        | ManhwasMe                      | https://manhwas.me                 | 0.751s |        |
-| 🚧        | Manhwatop                      | https://manhwatop.com              | 1.898s |        |
-| 🚧        | ManhwaZ                        | https://manhwaz.com                | 0.611s |        |
-| 🚧        | MayoTune                       | https://mayochuu.xyz               | 1.162s |        |
-| 🚧        | Medusascans                    | https://medusascans.pro            | 1.182s |        |
-| 🚧        | MeiToon                        | https://meitoon.org                | 1.233s |        |
-| 🚧        | MeoSua                         | https://meosua.com                 | 0.152s |        |
-| 🚧        | Merlin Scans                   | https://merlintoon.com             | 0.497s |        |
-| 🚧        | Metart Hunter                  | https://www.metarthunter.com       | 1.299s |        |
-| 🚧        | MG Komik                       | https://id.mgkomik.cc              | 1.905s |        |
-| 🚧        | Milftoon                       | https://milftoon.xxx               | 1.056s |        |
-| 🚧        | MiMi                           | https://mimimoe.moe                | 0.666s |        |
-| 🚧        | MiMiHentai                     | https://mimihentai.net             | 0.159s |        |
-| 🚧        | MiniTwo Scan                   | https://minitwoscan.com            | 0.977s |        |
-| 🚧        | Mitaku                         | https://mitaku.net                 | 0.398s |        |
-| 🚧        | MoeTruyen                      | https://moetruyen.net              | 1.034s |        |
-| 🚧        | Mugiwaras Oficial              | https://mugiwarasoficial.com       | 1.097s |        |
-| 🚧        | Mundo Hentai                   | https://mundohentaioficial.com     | 0.614s |        |
-| 🚧        | Murim                          | https://www.murim.site             | 0.167s |        |
-| 🚧        | MyHentaiComics                 | https://myhentaicomics.com         | 0.292s |        |
-| 🚧        | MyHentaiGallery                | https://myhentaigallery.com        | 0.840s |        |
-| 🚧        | NetTruyenCO (unoriginal)       | https://nettruyenar.com            | 0.343s |        |
-| 🚧        | NetTruyenViet (unoriginal)     | https://nettruyenviet10.com        | 0.635s |        |
-| 🚧        | NetTruyenX (unoriginal)        | https://nettruyenx.net             | 0.876s |        |
-| 🚧        | NexusScanlation                | https://nexusscanlation.com        | 1.457s |        |
-| 🚧        | NhatTruyen                     | https://nhattruyenqq.com           | 0.608s |        |
-| 🚧        | nHentai.com (unoriginal)       | https://nhentai.com                | 0.233s |        |
-| 🚧        | Nocturne Summer                | https://nocfsb.com                 | 0.358s |        |
-| 🚧        | Nova Manhwas                   | https://novamanhwa.cc              | 1.267s |        |
-| 🚧        | Nude-Moon                      | https://nude-moon.org              | 1.690s |        |
-| 🚧        | Nyra Scans                     | https://nyrascans.com              | 0.225s |        |
-| 🚧        | OneManga.info                  | https://onemanga.info              | 0.833s |        |
-| 🚧        | ONF MANGAS                     | https://onfmangas.com              | 0.583s |        |
-| 🚧        | Only The Best Hentai           | https://onlythebesthentai.com      | 0.146s |        |
-| 🚧        | Orchisasia                     | https://www.orchisasia.org         | 0.942s |        |
-| 🚧        | Orcku Mangas                   | https://orckumangas.com            | 0.597s |        |
-| 🚧        | OSOSEDKI                       | https://ososedki.com               | 0.894s |        |
-| 🚧        | Otakusic                       | https://otakusic.com               | 0.588s |        |
-| 🚧        | Panomic                        | https://panomic1.info              | 1.840s |        |
-| 🚧        | ParadiseScans                  | https://paradisescans.com          | 0.336s |        |
-| 🚧        | Paritehaber                    | https://www.paritehaber.com        | 1.087s |        |
-| 🚧        | Pati Manga                     | https://www.patimanga.com          | 0.645s |        |
-| 🚧        | Philia Scans                   | https://philiascans.org            | 1.267s |        |
-| 🚧        | Photos18                       | https://www.photos18.com           | 0.627s |        |
-| 🚧        | Pix Hentai                     | https://pixhentai.com              | 0.285s |        |
-| 🚧        | Pixiv                          | https://www.pixiv.net              | 1.317s |        |
-| 🚧        | PizzariaScan                   | https://pizzariacomics.com         | 1.208s |        |
-| 🚧        | Playmate Hunter                | https://pmatehunter.com            | 0.670s |        |
-| 🚧        | PornComix                      | https://bestporncomix.com          | 1.844s |        |
-| 🚧        | Portal Yaoi                    | https://lerboyslove.com            | 0.424s |        |
-| 🚧        | Project Suki                   | https://projectsuki.com/           | 1.025s |        |
-| 🚧        | QiScans                        | https://qimanhwa.com               | 0.254s |        |
-| 🚧        | Rage Scans                     | https://ragescans.com              | 0.550s |        |
-| 🚧        | Ragnar Scans                   | https://ragnarscans.com            | 0.185s |        |
-| 🚧        | Ragnarok Scanlation            | https://ragnarokscanlation.org     | 1.262s |        |
-| 🚧        | RawBaka                        | https://rawbaka.com                | 0.371s |        |
-| 🚧        | Rawkuma                        | https://rawkuma.net                | 0.889s |        |
-| 🚧        | RD Scans                       | https://rdscans.com                | 0.665s |        |
-| 🚧        | Read Berserk Manga             | https://readberserk.com            | 1.214s |        |
-| 🚧        | Read Black Clover Manga Online | https://ww10.readblackclover.com   | 0.994s |        |
-| 🚧        | Read Comics Online             | https://readcomicsonline.ru        | 0.515s |        |
-| 🚧        | ReadAllComics                  | https://readallcomics.com          | 0.162s |        |
-| 🚧        | Revistas e Quadrinhos          | https://revistasequadrinhos.com    | 1.266s |        |
-| 🚧        | Revival Scans                  | https://www.revivalscans.com       | 1.334s |        |
-| 🚧        | RF Dragon Scan                 | https://rfdragonscan.com           | 0.113s |        |
-| 🚧        | Roku Hentai                    | https://rokuhentai.com             | 0.292s |        |
-| 🚧        | Ryumanga                       | https://ryumanga.org               | 0.780s |        |
-| 🚧        | Rüya Manga.net                 | https://ruyamanga.net              | 1.090s |        |
-| 🚧        | SamuraiScan                    | https://samurai.j5z.xyz            | 1.374s |        |
-| 🚧        | Sasangeyou                     | https://sasangeyou.net             | 0.455s |        |
-| 🚧        | Scan VF                        | https://www.scan-vf.net            | 0.432s |        |
-| 🚧        | ScansGG                        | https://scans.gg                   | 0.744s |        |
-| 🚧        | Scythe Scans                   | https://scythescans.com            | 1.625s |        |
-| 🚧        | Sekte Komik                    | https://sektekomik.xyz             | 0.914s |        |
-| 🚧        | Serein Scan                    | https://sereinscan.com             | 0.461s |        |
-| 🚧        | Setsu Scans                    | https://setsuscans.com             | 0.436s |        |
-| 🚧        | Shadow Manga                   | https://shademanga.com             | 0.455s |        |
-| 🚧        | Shiba Manga                    | https://shibamanga.com             | 0.560s |        |
-| 🚧        | Shinigami                      | https://g.shinigami.asia           | 0.573s |        |
-| 🚧        | Shirai Scans                   | https://shiraixis.space            | 0.287s |        |
-| 🚧        | Shirakami                      | https://shirakami.xyz              | 1.035s |        |
-| 🚧        | Shiro Doujin                   | https://shirodoujin.com            | 0.294s |        |
-| 🚧        | Simply Cosplay                 | https://www.simply-cosplay.com     | 0.701s |        |
-| 🚧        | SingManga                      | https://www.sing-manga.com         | 1.307s |        |
-| 🚧        | Siren Scans                    | https://sirenscans.com             | 1.600s |        |
-| 🚧        | Siren Scans FR                 | https://sirenscans.fr              | 0.182s |        |
-| 🚧        | Slow Manga                     | https://www.slow-manga.com         | 0.465s |        |
-| 🚧        | Soul Scans                     | https://soulscans.my.id            | 1.431s |        |
-| 🚧        | SpyFakku                       | https://hentalk.pw                 | 0.310s |        |
-| 🚧        | StellarSaber                   | https://stellarsaber.pro           | 0.689s |        |
-| 🚧        | Submanhwa                      | https://submanhwa.com              | 0.213s |        |
-| 🚧        | Sushi-Scan                     | https://sushiscan.net              | 0.775s |        |
-| 🚧        | Tao Sect                       | https://taosect.com                | 0.878s |        |
-| 🚧        | Tarot Scans                    | https://www.tarotscans.com         | 0.643s |        |
-| 🚧        | Team Shadowi                   | https://www.team-shadowi.com       | 0.437s |        |
-| 🚧        | Team X                         | https://olympustaff.com            | 0.418s |        |
-| 🚧        | Tempest Scans                  | https://tempestmangas.com          | 0.752s |        |
-| 🚧        | Temple Scan                    | https://templetoons.com            | 1.021s |        |
-| 🚧        | The Order Of The Stick (OOTS)  | https://www.giantitp.com           | 0.092s |        |
-| 🚧        | TheManga                       | https://themanga.my.id             | 0.772s |        |
-| 🚧        | Toon FR                        | https://toonfr.com                 | 0.227s |        |
-| 🚧        | Toon18                         | https://toon18.to                  | 0.237s |        |
-| 🚧        | ToonGod                        | https://www.toongod.org            | 0.442s |        |
-| 🚧        | Toonily                        | https://toonily.com                | 0.092s |        |
-| 🚧        | Toonizy                        | https://toonizy.com                | 0.332s |        |
-| 🚧        | Top Truyen                     | https://www.toptruyenzone2.com     | 1.227s |        |
-| 🚧        | TopComicPorno                  | https://topcomicporno.com          | 0.790s |        |
-| 🚧        | TopComicPorno.net              | https://topcomicporno.net          | 0.597s |        |
-| 🚧        | TopManhua.net                  | https://topmanhua.net              | 1.230s |        |
-| 🚧        | TruyenQQ                       | https://truyenqqko.com             | 0.463s |        |
-| 🚧        | UmeTruyen                      | https://umetruyenz.org             | 0.535s |        |
-| 🚧        | Valir Scans                    | https://valirscans.org             | 0.604s |        |
-| 🚧        | VCP                            | https://vercomicsporno.com         | 0.536s |        |
-| 🚧        | ViHentai                       | https://vi-hentai.moe              | 1.245s |        |
-| 🚧        | VMP                            | https://vermangasporno.com         | 0.700s |        |
-| 🚧        | Walpurgi Scan                  | https://www.walpurgiscan.it        | 0.770s |        |
-| 🚧        | WaveTeamy                      | https://waveteamy.com              | 0.539s |        |
-| 🚧        | WebNovel                       | https://www.webnovel.com           | 0.633s |        |
-| 🚧        | Webtoon Hatti                  | https://webtoonhatti.club          | 1.059s |        |
-| 🚧        | Weeb Central                   | https://weebcentral.com            | 0.890s |        |
-| 🚧        | WhaleManga                     | https://whalemanga.com             | 0.436s |        |
-| 🚧        | WoopRead                       | https://woopread.com               | 1.886s |        |
-| 🚧        | WuxiaWorld                     | https://wuxiaworld.site            | 1.268s |        |
-| 🚧        | X-Manga                        | https://x-manga.org                | 1.062s |        |
-| 🚧        | XArt Hunter                    | https://www.xarthunter.com         | 0.165s |        |
-| 🚧        | Xinmeitulu                     | https://www.xinmeitulu.com         | 0.300s |        |
-| 🚧        | XOXO Comics                    | https://xoxocomic.com              | 1.412s |        |
-| 🚧        | YakshaComics                   | https://yakshacomics.com           | 0.671s |        |
-| 🚧        | Yaoi Manga Oku                 | https://yaoimangaoku.net           | 0.587s |        |
-| 🚧        | Yaoi Manga Online              | https://yaoimangaonline.com        | 0.571s |        |
-| 🚧        | Yona Bar                       | https://yonaber.com                | 0.653s |        |
-| 🚧        | Yorai                          | https://yorai.io                   | 0.783s |        |
-| 🚧        | Yugen Mangás                   | https://yugenmangasbr.dxtg.online  | 0.849s |        |
-| 🚧        | Yuri on Air                    | https://yurionair.top              | 0.535s |        |
-| 🚧        | YuriGarden                     | https://yurigarden.com             | 0.687s |        |
-| 🚧        | Zinmanga                       | https://mangazin.org               | 0.717s |        |
-| 🚧        | أريا مانجا                     | https://ar.kenmanga.com            | 1.484s |        |
-| 🚧        | شبكة كونان العربية             | https://manga.detectiveconanar.com | 0.157s |        |
-| 🚧        | عرب تونز                       | https://arabtoons.net              | 0.851s |        |
-| 🚧        | مانجا اون لاين                 | https://onma.me                    | 1.169s |        |
-| 🚧        | مانجا ليك                      | https://lekmanga.net               | 0.494s |        |
-| 🚧        | مانجا ليك                      | https://lekmanga.online            | 1.322s |        |
-| 🚧        | مانجا ليك                      | https://lekmanga.site              | 0.290s |        |
-| 🚧        | مانجا ليك                      | https://manga-leko.site            | 0.934s |        |
-| 🚧        | مانجا لينك                     | https://link-manga.net             | 0.353s |        |
-| 🚧        | هنتاي سلاير                    | https://hentaislayer.net           | 0.829s |        |
-| 🚧        | สดใสเมะ                        | https://www.xn--l3c0azab5a2gta.com | 0.453s |        |
-| 🚧        | 喵趣漫画                           | https://www.miaoqumh.org           | 0.495s |        |
-| 🚧        | 巴卡漫画                           | https://bakamh.com                 | 0.232s |        |
-| 🚧        | 東立                             | https://ebook.tongli.com.tw        | 0.207s |        |
-| 🚧        | 漫蛙                             | https://manwa.me                   | 0.972s |        |
-| 🚧        | 禁漫天堂                           | https://18comic.vip                | 1.133s |        |
+| 🚧        | 18漫画                           | https://18mh.org                   | 0.890s |        |
+| 🚧        | 1Manga.co                      | https://1manga.co                  | 0.826s |        |
+| 🚧        | 8Muses                         | https://comics.8muses.com          | 0.897s |        |
+| 🚧        | 92漫画                           | http://www.92mh.com                | 0.153s |        |
+| 🚧        | Ainz Scans ID                  | https://v1.ainzscans01.com         | 1.921s |        |
+| 🚧        | AllPornComic                   | https://allporncomic.com           | 0.335s |        |
+| 🚧        | Amuy                           | https://apenasmaisumyaoi.com       | 1.442s |        |
+| 🚧        | Anyone Manga                   | https://anyonemanga.com            | 2.308s |        |
+| 🚧        | APKOMIK                        | https://01.apkomik.com             | 1.019s |        |
+| 🚧        | ArazNovel                      | https://araznovel.com              | 0.682s |        |
+| 🚧        | Area Scans                     | https://ar.areascans.org           | 1.656s |        |
+| 🚧        | AriaToon                       | https://ariatoon.com               | 1.236s |        |
+| 🚧        | Armageddon                     | https://www.silentquill.net        | 1.764s |        |
+| 🚧        | Arthur Scan                    | https://arthurscan.xyz             | 0.128s |        |
+| 🚧        | AsiaToon                       | https://asiatoon.net               | 0.683s |        |
+| 🚧        | AstralManga                    | https://astral-manga.fr            | 1.439s |        |
+| 🚧        | Astratoons                     | https://new.astratoons.com         | 0.278s |        |
+| 🚧        | Athrea Scans                   | https://athreascans.com            | 1.925s |        |
+| 🚧        | azComic                        | https://azcomic.com                | 1.443s |        |
+| 🚧        | Azuretoons                     | https://azuretoons.com             | 0.877s |        |
+| 🚧        | BacaKomik                      | https://bacakomik.my               | 0.985s |        |
+| 🚧        | BaoTangTruyen                  | https://baotangtruyen37.top        | 2.077s |        |
+| 🚧        | BatCave                        | https://batcave.biz                | 0.216s |        |
+| 🚧        | BeeHentai                      | https://beehentai.com              | 0.313s |        |
+| 🚧        | Bega Translation               | https://begatranslation.com        | 1.318s |        |
+| 🚧        | Bilimanga.net                  | https://www.bilimanga.net          | 0.789s |        |
+| 🚧        | Blackout Comics                | https://blackoutcomics.com         | 1.210s |        |
+| 🚧        | BokugenTranslation             | https://bokugents.com              | 1.065s |        |
+| 🚧        | Borat Scans                    | https://boratscans.com             | 0.220s |        |
+| 🚧        | Café com Yaoi                  | https://cafecomyaoi.com.br         | 1.287s |        |
+| 🚧        | Cartoon18                      | https://www.cartoon18.com          | 0.291s |        |
+| 🚧        | CBHentai                       | https://2tencb.pro                 | 2.456s |        |
+| 🚧        | ChaosTrad                      | https://chaostrad.fr               | 0.732s |        |
+| 🚧        | ChoChoX                        | https://chochox.com                | 0.875s |        |
+| 🚧        | CManhua                        | https://cmanhua.com                | 0.568s |        |
+| 🚧        | Codex Zero                     | https://codex.readkisho.me         | 1.258s |        |
+| 🚧        | Comic CX                       | https://comic.cx                   | 1.024s |        |
+| 🚧        | Comicazen                      | https://comicazen.com              | 0.555s |        |
+| 🚧        | ComicHubFree                   | https://comichubfree.com           | 1.695s |        |
+| 🚧        | Comics Land                    | https://comicsland.org             | 0.865s |        |
+| 🚧        | Comix                          | https://comix.to                   | 2.039s |        |
+| 🚧        | CrotPedia                      | https://crotpedia.net              | 1.699s |        |
+| 🚧        | Cutie Comics                   | https://cutiecomics.com            | 0.883s |        |
+| 🚧        | DailySuka                      | https://dailysuka.com              | 0.521s |        |
+| 🚧        | DamCoNuong                     | https://damconuong.lol             | 1.661s |        |
+| 🚧        | Danbooru                       | https://danbooru.donmai.us         | 1.043s |        |
+| 🚧        | DigitalTeam                    | https://dgtread.com                | 1.017s |        |
+| 🚧        | Dilar                          | https://dilar.tube                 | 1.699s |        |
+| 🚧        | DocTruyen3Q                    | https://doctruyen3qhub.org         | 1.711s |        |
+| 🚧        | Doodmanga                      | https://www.doodmanga.com          | 0.604s |        |
+| 🚧        | Doujinku                       | https://doujinku.org               | 1.109s |        |
+| 🚧        | Drake Scans                    | https://drakecomic.org             | 0.125s |        |
+| 🚧        | Eggporncomics                  | https://eggporncomics.com          | 1.255s |        |
+| 🚧        | Elf Toon                       | https://elftoon.com                | 1.326s |        |
+| 🚧        | Empire Webtoon                 | https://webtoonempire-bl.com       | 1.212s |        |
+| 🚧        | Eris Scans                     | https://erisscans.com              | 0.759s |        |
+| 🚧        | Ero18x                         | https://ero18x.com                 | 0.967s |        |
+| 🚧        | Erofus                         | https://www.erofus.com             | 1.022s |        |
+| 🚧        | EternalMangas                  | https://eternalmangas.org          | 1.638s |        |
+| 🚧        | EveriaClub (unoriginal)        | https://www.everiaclub.com         | 0.617s |        |
+| 🚧        | Evil Flowers                   | https://evilflowers.com            | 1.210s |        |
+| 🚧        | Evil production                | https://evil-manga.eu              | 0.475s |        |
+| 🚧        | Fairy Scans                    | https://fairyscans.com             | 0.743s |        |
+| 🚧        | FastScan                       | https://fastscan.org               | 0.469s |        |
+| 🚧        | Faust                          | https://faust-web.com              | 0.769s |        |
+| 🚧        | Femjoy Hunter                  | https://www.femjoyhunter.com       | 0.363s |        |
+| 🚧        | Fin Manga                      | https://www.fin-manga.com          | 1.392s |        |
+| 🚧        | Flame Comics                   | https://flamecomics.xyz            | 1.326s |        |
+| 🚧        | Fleur Blanche                  | https://fbsquadx.com               | 0.962s |        |
+| 🚧        | FlowerManga.net                | https://flowermangas.net           | 0.576s |        |
+| 🚧        | FoamGirl                       | https://foamgirl.net               | 0.902s |        |
+| 🚧        | FTV Hunter                     | https://www.ftvhunter.com          | 0.543s |        |
+| 🚧        | gafeland                       | https://gafeland.com               | 0.297s |        |
+| 🚧        | Gaiatoon                       | https://gaiatoon.com               | 0.409s |        |
+| 🚧        | GirlsTop                       | https://en.girlstop.info           | 0.212s |        |
+| 🚧        | Goc Truyen Tranh Vui           | https://goctruyentranhvui30.com    | 0.350s |        |
+| 🚧        | Goda                           | https://manhuascans.org            | 1.710s |        |
+| 🚧        | GoDa漫画                         | https://bzmh.org                   | 2.300s |        |
+| 🚧        | GoDa漫画                         | https://g-mh.org                   | 0.268s |        |
+| 🚧        | GoDa漫画                         | https://godamh.com                 | 0.967s |        |
+| 🚧        | GoDa漫画                         | https://m.baozimh.one              | 0.445s |        |
+| 🚧        | GoDa漫画                         | https://m.g-mh.org                 | 0.234s |        |
+| 🚧        | Grim Scans                     | https://grimscans.com              | 0.664s |        |
+| 🚧        | Gölge Bahçesi                  | https://golgebahcesi.com           | 0.564s |        |
+| 🚧        | Hachiraw                       | https://hachiraw.net               | 0.288s |        |
+| 🚧        | Hanime1.me                     | https://hanimeone.me               | 1.372s |        |
+| 🚧        | Harmony-Scan                   | https://harmony-scan.fr            | 0.446s |        |
+| 🚧        | Hattori Manga                  | https://hattorimanga.net           | 0.411s |        |
+| 🚧        | Hentai Cosplay                 | https://hentai-cosplay-xxx.com     | 0.515s |        |
+| 🚧        | Hentai Crot                    | https://hentaicrot.com             | 0.628s |        |
+| 🚧        | Hentai-Scantrad                | https://hentai.scantrad-vf.cc      | 0.963s |        |
+| 🚧        | Hentai3z.CC                    | https://hentai3z.cc                | 1.604s |        |
+| 🚧        | Hentai4Free                    | https://hentai4free.net            | 1.340s |        |
+| 🚧        | HentaiHere                     | https://hentaihere.com             | 0.162s |        |
+| 🚧        | HentaiLib                      | https://hentailib.me               | 1.874s |        |
+| 🚧        | HentaiMode                     | https://hentaimode.com             | 1.119s |        |
+| 🚧        | HentaiRead                     | https://hentairead.com             | 1.367s |        |
+| 🚧        | HentaiSco                      | https://hentaisco.cc               | 0.852s |        |
+| 🚧        | HentaiZap                      | https://hentaizap.com              | 0.093s |        |
+| 🚧        | HentaiZone                     | https://hentaizone.xyz             | 1.294s |        |
+| 🚧        | HeyToon                        | https://heytoon.net                | 0.649s |        |
+| 🚧        | Hijala                         | https://hijala.com                 | 2.030s |        |
+| 🚧        | HipercooL                      | https://hiper.cool                 | 1.131s |        |
+| 🚧        | Holotoon                       | https://01.holotoon.site           | 0.590s |        |
+| 🚧        | Holy Scans                     | https://holyscans.com.tr           | 2.791s |        |
+| 🚧        | Hwago                          | https://01.hwago.xyz               | 0.175s |        |
+| 🚧        | Ikigai Mangas                  | https://zonaikigai.gamesview.shop  | 0.096s |        |
+| 🚧        | Ikiru                          | https://05.ikiru.wtf               | 0.718s |        |
+| 🚧        | InfinityScans                  | https://infinityscans.org          | 1.320s |        |
+| 🚧        | InfraFandub                    | https://infrafandub.com            | 1.100s |        |
+| 🚧        | Inkapk                         | https://inkapk.net                 | 0.209s |        |
+| 🚧        | InManga                        | https://inmanga.com                | 1.167s |        |
+| 🚧        | Jeaz Scans                     | https://lectorhub.j5z.xyz          | 1.218s |        |
+| 🚧        | Joymii Hub                     | https://www.joymiihub.com          | 0.364s |        |
+| 🚧        | Kagane                         | https://kagane.org                 | 2.205s |        |
+| 🚧        | Kaizen Scan                    | https://kaizenscan.com             | 1.182s |        |
+| 🚧        | Kappa Beast                    | https://kappabeast.com             | 0.947s |        |
+| 🚧        | KingComiX                      | https://kingcomix.com              | 0.834s |        |
+| 🚧        | Kiryuu                         | https://v5.kiryuu.to               | 0.210s |        |
+| 🚧        | KissLove                       | https://klz9.com                   | 1.661s |        |
+| 🚧        | Kissmanga.in                   | https://kissmanga.in               | 0.457s |        |
+| 🚧        | KlikManga                      | https://klikmanga.org              | 0.780s |        |
+| 🚧        | Komik Dewasa Art               | https://komikdewasa.art            | 0.302s |        |
+| 🚧        | Komik Dewasak                  | https://komikdewasa.mom            | 2.356s |        |
+| 🚧        | Komik Station                  | https://komikstation.org           | 0.714s |        |
+| 🚧        | Komikindo                      | https://komikindo.bid              | 0.496s |        |
+| 🚧        | KomikIndo.co                   | https://komiksin.net               | 0.237s |        |
+| 🚧        | KomikIndoID                    | https://komikindo.ch               | 0.275s |        |
+| 🚧        | Komiku.com                     | https://01.komiku.asia             | 0.284s |        |
+| 🚧        | Komikzoid                      | https://komikzoid.id               | 0.909s |        |
+| 🚧        | Koreli Scans                   | https://www.nabicix.com            | 1.648s |        |
+| 🚧        | Kumaraw                        | https://kumaraw.com                | 0.843s |        |
+| 🚧        | Kun Manga                      | https://kunmanga.com               | 0.851s |        |
+| 🚧        | Lagoon Scans                   | https://lagoonscans.com            | 2.199s |        |
+| 🚧        | Lava Scans                     | https://lavascans.com              | 0.886s |        |
+| 🚧        | Leitor de Mangas               | https://leitordemangas.com         | 1.851s |        |
+| 🚧        | Leitura Mangá                  | https://leituramanga.net           | 1.257s |        |
+| 🚧        | Lelmanga                       | https://www.lelmanga.com           | 0.513s |        |
+| 🚧        | Lelscan-VF                     | https://lelscanfr.com              | 0.429s |        |
+| 🚧        | Ler Mangas                     | https://lermangas.me               | 0.154s |        |
+| 🚧        | LHTranslation                  | https://lhtranslation.net          | 0.087s |        |
+| 🚧        | LinkManga                      | https://linkmanga.com              | 1.101s |        |
+| 🚧        | Lmtos                          | https://lmtos.net                  | 0.419s |        |
+| 🚧        | Luminare Translations          | https://luminaretranslations.com   | 0.263s |        |
+| 🚧        | LumosKomik                     | https://02.lumosgg.com             | 0.084s |        |
+| 🚧        | Luna Toons                     | https://lunatoons.org              | 1.253s |        |
+| 🚧        | LuotTruyen                     | https://luottruyen5.com            | 0.926s |        |
+| 🚧        | Luscious                       | https://www.luscious.net           | 0.812s |        |
+| 🚧        | LuvEvaLand                     | https://luvevalands2.co            | 0.189s |        |
+| 🚧        | LXManga                        | https://lxmanga.space              | 2.039s |        |
+| 🚧        | Lycan Toons                    | https://lycantoons.com             | 1.019s |        |
+| 🚧        | Madara Scans                   | https://madarascans.com            | 0.734s |        |
+| 🚧        | MadaraDex                      | https://madaradex.org              | 0.743s |        |
+| 🚧        | Magus Manga                    | https://magustoon.org              | 0.629s |        |
+| 🚧        | Manga  TV                      | https://mangatv.net                | 1.662s |        |
+| 🚧        | Manga 18x                      | https://manga18x.net               | 1.213s |        |
+| 🚧        | Manga Kusu                     | https://mangakusu.com              | 0.358s |        |
+| 🚧        | Manga Livre                    | https://toonlivre.net              | 0.281s |        |
+| 🚧        | Manga Livre Blog               | https://mangalivre.blog            | 0.376s |        |
+| 🚧        | Manga Online                   | https://mangaonline.red            | 0.538s |        |
+| 🚧        | Manga Starz                    | https://manga-starz.net            | 2.002s |        |
+| 🚧        | Manga Stop                     | https://mangastop.net              | 1.256s |        |
+| 🚧        | Manga Şehri                    | https://manga-sehri.com            | 1.706s |        |
+| 🚧        | MANGA/in/UA                    | https://manga.in.ua                | 0.579s |        |
+| 🚧        | Manga168                       | https://manga1688.com              | 0.255s |        |
+| 🚧        | MangaBlaze                     | https://mangablaze.com             | 1.531s |        |
+| 🚧        | MangaCloud                     | https://mangacloud.org             | 0.755s |        |
+| 🚧        | MangaCrazy                     | https://mangacrazy.net             | 0.852s |        |
+| 🚧        | MangaDash                      | https://mangadash.net              | 0.166s |        |
+| 🚧        | Mangadotnet                    | https://mangadot.net               | 0.201s |        |
+| 🚧        | MangaFire                      | https://mangafire.to               | 1.603s |        |
+| 🚧        | MangaForFree.net               | https://mangaforfree.net           | 0.201s |        |
+| 🚧        | MangaFox.fun                   | https://mangafox.fun               | 0.896s |        |
+| 🚧        | MangaGG                        | https://mangagg.com                | 0.165s |        |
+| 🚧        | Mangago                        | https://www.mangago.me             | 0.128s |        |
+| 🚧        | MangaHere.onl                  | https://mangahere.onl              | 1.175s |        |
+| 🚧        | MangaHub                       | https://mangahub.io                | 0.392s |        |
+| 🚧        | MangaHub.fr                    | https://mangahub.fr                | 0.947s |        |
+| 🚧        | Mangakakalot.fun               | https://mangakakalot.fun           | 0.578s |        |
+| 🚧        | MangaKimi                      | https://www.mangakimi.com          | 0.087s |        |
+| 🚧        | Mangakuri                      | https://lc1.mangakuri.online       | 1.614s |        |
+| 🚧        | MangaLionz                     | https://manga-lionz.org            | 0.714s |        |
+| 🚧        | MangaManiacs                   | https://mangamaniacs.org           | 1.440s |        |
+| 🚧        | MangaMoins                     | https://mangamoins.com             | 2.250s |        |
+| 🚧        | MangaNel                       | https://manganel.me                | 1.230s |        |
+| 🚧        | MangaOni                       | https://manga-oni.com              | 1.220s |        |
+| 🚧        | MangaOnline.fun                | https://mangaonline.fun            | 0.919s |        |
+| 🚧        | MangaOwl.io (unoriginal)       | https://mangaowl.io                | 0.152s |        |
+| 🚧        | MangaPanda.onl                 | https://mangapanda.onl             | 1.651s |        |
+| 🚧        | MangaReader.in                 | https://mangareader.in             | 1.189s |        |
+| 🚧        | MangaReader.site               | https://mangareader.site           | 1.440s |        |
+| 🚧        | Mangas Brasuka                 | https://mangasbrasuka.com.br       | 0.885s |        |
+| 🚧        | Mangas No Sekai                | https://mangasnosekai.com          | 0.851s |        |
+| 🚧        | Mangas-Origines.fr             | https://mangas-origines.fr         | 1.540s |        |
+| 🚧        | Mangas.in                      | https://m440.in                    | 0.856s |        |
+| 🚧        | MangaSwat                      | https://meshmanga.com              | 0.194s |        |
+| 🚧        | MangaToday                     | https://mangatoday.fun             | 2.616s |        |
+| 🚧        | MangaTuk                       | https://mangatuk.com               | 0.426s |        |
+| 🚧        | MangaWT                        | https://mangawt.com                | 0.603s |        |
+| 🚧        | MangoLibreria                  | https://mangolibreria.com          | 0.962s |        |
+| 🚧        | Manhua Plus                    | https://manhuaplus.com             | 1.520s |        |
+| 🚧        | Manhua Zonghe                  | https://www.manhuazonghe.com       | 0.511s |        |
+| 🚧        | ManhuaBug                      | https://www.manhuabug.com          | 1.294s |        |
+| 🚧        | ManhuaKey                      | https://www.manhuakey.com          | 0.283s |        |
+| 🚧        | Manhuarm                       | https://manhuarmtl.com             | 0.474s |        |
+| 🚧        | ManhuaThai                     | https://www.manhuathai.com         | 0.157s |        |
+| 🚧        | ManhuaTop                      | https://manhuatop.org              | 1.007s |        |
+| 🚧        | Manhwa Indo                    | https://www.manhwaindo.my          | 0.790s |        |
+| 🚧        | Manhwa-Latino                  | https://manhwa-latino.com          | 0.316s |        |
+| 🚧        | Manhwa-raw                     | https://manhwa-raw.com             | 0.385s |        |
+| 🚧        | Manhwa68                       | https://manhwa68.com               | 2.168s |        |
+| 🚧        | ManhwaBreakup                  | https://www.manhwabreakup.com      | 1.662s |        |
+| 🚧        | ManhwaClan                     | https://manhwaclan.com             | 1.070s |        |
+| 🚧        | ManhwaDesu                     | https://manhwadesu.store           | 0.724s |        |
+| 🚧        | ManhwaHub                      | https://manhwahub.net              | 1.161s |        |
+| 🚧        | ManhwaOnline                   | https://manhwa-online.com          | 2.200s |        |
+| 🚧        | ManhwaRead                     | https://manhwaread.com             | 0.250s |        |
+| 🚧        | ManhwaRead                     | https://manhwaread.org             | 1.494s |        |
+| 🚧        | ManhwasMe                      | https://manhwas.me                 | 0.277s |        |
+| 🚧        | Manhwatop                      | https://manhwatop.com              | 0.568s |        |
+| 🚧        | ManhwaZ                        | https://manhwaz.com                | 0.365s |        |
+| 🚧        | MayoTune                       | https://mayochuu.xyz               | 1.407s |        |
+| 🚧        | Medusascans                    | https://medusascans.pro            | 0.480s |        |
+| 🚧        | MeiToon                        | https://meitoon.org                | 0.111s |        |
+| 🚧        | MeoSua                         | https://meosua.com                 | 0.509s |        |
+| 🚧        | Merlin Scans                   | https://merlintoon.com             | 0.199s |        |
+| 🚧        | Metart Hunter                  | https://www.metarthunter.com       | 0.451s |        |
+| 🚧        | MG Komik                       | https://id.mgkomik.cc              | 0.455s |        |
+| 🚧        | Milftoon                       | https://milftoon.xxx               | 1.738s |        |
+| 🚧        | MiMi                           | https://mimimoe.moe                | 2.466s |        |
+| 🚧        | MiMiHentai                     | https://mimihentai.net             | 0.760s |        |
+| 🚧        | MiniTwo Scan                   | https://minitwoscan.com            | 1.556s |        |
+| 🚧        | Mitaku                         | https://mitaku.net                 | 0.668s |        |
+| 🚧        | MoeTruyen                      | https://moetruyen.net              | 0.925s |        |
+| 🚧        | Mugiwaras Oficial              | https://mugiwarasoficial.com       | 1.601s |        |
+| 🚧        | Mundo Hentai                   | https://mundohentaioficial.com     | 1.736s |        |
+| 🚧        | Murim                          | https://www.murim.site             | 0.765s |        |
+| 🚧        | MyHentaiComics                 | https://myhentaicomics.com         | 0.498s |        |
+| 🚧        | MyHentaiGallery                | https://myhentaigallery.com        | 0.200s |        |
+| 🚧        | NetTruyenCO (unoriginal)       | https://nettruyenar.com            | 2.620s |        |
+| 🚧        | NetTruyenViet (unoriginal)     | https://nettruyenviet10.com        | 0.449s |        |
+| 🚧        | NetTruyenX (unoriginal)        | https://nettruyenx.net             | 1.450s |        |
+| 🚧        | NexusScanlation                | https://nexusscanlation.com        | 0.732s |        |
+| 🚧        | NhatTruyen                     | https://nhattruyenqq.com           | 1.294s |        |
+| 🚧        | nHentai.com (unoriginal)       | https://nhentai.com                | 0.600s |        |
+| 🚧        | Nocturne Summer                | https://nocfsb.com                 | 0.382s |        |
+| 🚧        | Nova Manhwas                   | https://novamanhwa.cc              | 0.985s |        |
+| 🚧        | Nude-Moon                      | https://nude-moon.org              | 0.258s |        |
+| 🚧        | Nyra Scans                     | https://nyrascans.com              | 0.272s |        |
+| 🚧        | OneManga.info                  | https://onemanga.info              | 0.651s |        |
+| 🚧        | ONF MANGAS                     | https://onfmangas.com              | 1.666s |        |
+| 🚧        | Only The Best Hentai           | https://onlythebesthentai.com      | 0.544s |        |
+| 🚧        | Orchisasia                     | https://www.orchisasia.org         | 1.808s |        |
+| 🚧        | Orcku Mangas                   | https://orckumangas.com            | 1.371s |        |
+| 🚧        | OSOSEDKI                       | https://ososedki.com               | 0.421s |        |
+| 🚧        | Otakusic                       | https://otakusic.com               | 0.904s |        |
+| 🚧        | Panomic                        | https://panomic1.info              | 0.431s |        |
+| 🚧        | ParadiseScans                  | https://paradisescans.com          | 0.768s |        |
+| 🚧        | Paritehaber                    | https://www.paritehaber.com        | 0.761s |        |
+| 🚧        | Pati Manga                     | https://www.patimanga.com          | 1.025s |        |
+| 🚧        | Philia Scans                   | https://philiascans.org            | 1.373s |        |
+| 🚧        | Photos18                       | https://www.photos18.com           | 0.436s |        |
+| 🚧        | Pix Hentai                     | https://pixhentai.com              | 1.365s |        |
+| 🚧        | Pixiv                          | https://www.pixiv.net              | 1.908s |        |
+| 🚧        | PizzariaScan                   | https://pizzariacomics.com         | 0.742s |        |
+| 🚧        | Playmate Hunter                | https://pmatehunter.com            | 1.518s |        |
+| 🚧        | PornComix                      | https://bestporncomix.com          | 1.297s |        |
+| 🚧        | Portal Yaoi                    | https://lerboyslove.com            | 0.371s |        |
+| 🚧        | Project Suki                   | https://projectsuki.com/           | 1.935s |        |
+| 🚧        | QiScans                        | https://qimanhwa.com               | 2.307s |        |
+| 🚧        | Rage Scans                     | https://ragescans.com              | 0.718s |        |
+| 🚧        | Ragnar Scans                   | https://ragnarscans.com            | 0.243s |        |
+| 🚧        | Ragnarok Scanlation            | https://ragnarokscanlation.org     | 0.369s |        |
+| 🚧        | RawBaka                        | https://rawbaka.com                | 0.577s |        |
+| 🚧        | Rawkuma                        | https://rawkuma.net                | 0.833s |        |
+| 🚧        | RD Scans                       | https://rdscans.com                | 1.559s |        |
+| 🚧        | Read Berserk Manga             | https://readberserk.com            | 2.615s |        |
+| 🚧        | Read Black Clover Manga Online | https://ww10.readblackclover.com   | 0.809s |        |
+| 🚧        | Read Comics Online             | https://readcomicsonline.ru        | 1.090s |        |
+| 🚧        | ReadAllComics                  | https://readallcomics.com          | 1.159s |        |
+| 🚧        | Revistas e Quadrinhos          | https://revistasequadrinhos.com    | 1.896s |        |
+| 🚧        | Revival Scans                  | https://www.revivalscans.com       | 0.636s |        |
+| 🚧        | RF Dragon Scan                 | https://rfdragonscan.com           | 0.534s |        |
+| 🚧        | Roku Hentai                    | https://rokuhentai.com             | 0.260s |        |
+| 🚧        | Ryumanga                       | https://ryumanga.org               | 1.036s |        |
+| 🚧        | Rüya Manga.net                 | https://ruyamanga.net              | 1.663s |        |
+| 🚧        | SamuraiScan                    | https://samurai.j5z.xyz            | 0.762s |        |
+| 🚧        | Sasangeyou                     | https://sasangeyou.net             | 0.178s |        |
+| 🚧        | Scan VF                        | https://www.scan-vf.net            | 0.276s |        |
+| 🚧        | ScansGG                        | https://scans.gg                   | 1.162s |        |
+| 🚧        | Scythe Scans                   | https://scythescans.com            | 1.106s |        |
+| 🚧        | Sekte Komik                    | https://sektekomik.xyz             | 1.713s |        |
+| 🚧        | Serein Scan                    | https://sereinscan.com             | 0.163s |        |
+| 🚧        | Setsu Scans                    | https://setsuscans.com             | 0.953s |        |
+| 🚧        | Shadow Manga                   | https://shademanga.com             | 1.896s |        |
+| 🚧        | Shiba Manga                    | https://shibamanga.com             | 1.679s |        |
+| 🚧        | Shinigami                      | https://g.shinigami.asia           | 0.243s |        |
+| 🚧        | Shirai Scans                   | https://shiraixis.space            | 0.288s |        |
+| 🚧        | Shirakami                      | https://shirakami.xyz              | 1.544s |        |
+| 🚧        | Shiro Doujin                   | https://shirodoujin.com            | 1.528s |        |
+| 🚧        | Simply Cosplay                 | https://www.simply-cosplay.com     | 0.169s |        |
+| 🚧        | SingManga                      | https://www.sing-manga.com         | 0.296s |        |
+| 🚧        | Siren Scans                    | https://sirenscans.com             | 2.018s |        |
+| 🚧        | Siren Scans FR                 | https://sirenscans.fr              | 1.442s |        |
+| 🚧        | Slow Manga                     | https://www.slow-manga.com         | 1.232s |        |
+| 🚧        | Soul Scans                     | https://soulscans.my.id            | 1.790s |        |
+| 🚧        | SpyFakku                       | https://hentalk.pw                 | 0.668s |        |
+| 🚧        | StellarSaber                   | https://stellarsaber.pro           | 0.242s |        |
+| 🚧        | Submanhwa                      | https://submanhwa.com              | 1.525s |        |
+| 🚧        | Sushi-Scan                     | https://sushiscan.net              | 0.525s |        |
+| 🚧        | Tao Sect                       | https://taosect.com                | 0.297s |        |
+| 🚧        | Tarot Scans                    | https://www.tarotscans.com         | 0.940s |        |
+| 🚧        | Team Shadowi                   | https://www.team-shadowi.com       | 2.047s |        |
+| 🚧        | Team X                         | https://olympustaff.com            | 1.242s |        |
+| 🚧        | Tempest Scans                  | https://tempestmangas.com          | 0.200s |        |
+| 🚧        | Temple Scan                    | https://templetoons.com            | 0.494s |        |
+| 🚧        | The Order Of The Stick (OOTS)  | https://www.giantitp.com           | 1.340s |        |
+| 🚧        | TheManga                       | https://themanga.my.id             | 0.279s |        |
+| 🚧        | Toon FR                        | https://toonfr.com                 | 0.840s |        |
+| 🚧        | Toon18                         | https://toon18.to                  | 1.516s |        |
+| 🚧        | ToonGod                        | https://www.toongod.org            | 1.024s |        |
+| 🚧        | Toonily                        | https://toonily.com                | 1.295s |        |
+| 🚧        | Toonizy                        | https://toonizy.com                | 0.177s |        |
+| 🚧        | Top Truyen                     | https://www.toptruyenzone2.com     | 0.699s |        |
+| 🚧        | TopComicPorno                  | https://topcomicporno.com          | 1.839s |        |
+| 🚧        | TopComicPorno.net              | https://topcomicporno.net          | 1.770s |        |
+| 🚧        | TopManhua.net                  | https://topmanhua.net              | 0.376s |        |
+| 🚧        | TruyenQQ                       | https://truyenqqko.com             | 1.532s |        |
+| 🚧        | UmeTruyen                      | https://umetruyenz.org             | 0.941s |        |
+| 🚧        | Valir Scans                    | https://valirscans.org             | 2.448s |        |
+| 🚧        | VCP                            | https://vercomicsporno.com         | 2.316s |        |
+| 🚧        | ViHentai                       | https://vi-hentai.moe              | 1.622s |        |
+| 🚧        | VMP                            | https://vermangasporno.com         | 0.296s |        |
+| 🚧        | Walpurgi Scan                  | https://www.walpurgiscan.it        | 1.144s |        |
+| 🚧        | WaveTeamy                      | https://waveteamy.com              | 1.223s |        |
+| 🚧        | WebNovel                       | https://www.webnovel.com           | 1.408s |        |
+| 🚧        | Webtoon Hatti                  | https://webtoonhatti.club          | 0.756s |        |
+| 🚧        | Weeb Central                   | https://weebcentral.com            | 1.170s |        |
+| 🚧        | WhaleManga                     | https://whalemanga.com             | 0.198s |        |
+| 🚧        | WoopRead                       | https://woopread.com               | 0.279s |        |
+| 🚧        | WuxiaWorld                     | https://wuxiaworld.site            | 0.517s |        |
+| 🚧        | X-Manga                        | https://x-manga.org                | 0.201s |        |
+| 🚧        | XArt Hunter                    | https://www.xarthunter.com         | 2.181s |        |
+| 🚧        | Xinmeitulu                     | https://www.xinmeitulu.com         | 0.200s |        |
+| 🚧        | XOXO Comics                    | https://xoxocomic.com              | 0.957s |        |
+| 🚧        | YakshaComics                   | https://yakshacomics.com           | 0.762s |        |
+| 🚧        | Yaoi Manga Oku                 | https://yaoimangaoku.net           | 0.361s |        |
+| 🚧        | Yaoi Manga Online              | https://yaoimangaonline.com        | 0.260s |        |
+| 🚧        | Yona Bar                       | https://yonaber.com                | 1.023s |        |
+| 🚧        | Yorai                          | https://yorai.io                   | 1.171s |        |
+| 🚧        | Yugen Mangás                   | https://yugenmangasbr.dxtg.online  | 1.043s |        |
+| 🚧        | Yuri on Air                    | https://yurionair.top              | 2.776s |        |
+| 🚧        | YuriGarden                     | https://yurigarden.com             | 1.591s |        |
+| 🚧        | Zinmanga                       | https://mangazin.org               | 1.373s |        |
+| 🚧        | أريا مانجا                     | https://ar.kenmanga.com            | 1.101s |        |
+| 🚧        | شبكة كونان العربية             | https://manga.detectiveconanar.com | 0.291s |        |
+| 🚧        | عرب تونز                       | https://arabtoons.net              | 0.511s |        |
+| 🚧        | مانجا اون لاين                 | https://onma.me                    | 1.528s |        |
+| 🚧        | مانجا ليك                      | https://lekmanga.net               | 1.510s |        |
+| 🚧        | مانجا ليك                      | https://lekmanga.online            | 0.376s |        |
+| 🚧        | مانجا ليك                      | https://lekmanga.site              | 1.171s |        |
+| 🚧        | مانجا ليك                      | https://manga-leko.site            | 0.364s |        |
+| 🚧        | مانجا لينك                     | https://link-manga.net             | 0.673s |        |
+| 🚧        | هنتاي سلاير                    | https://hentaislayer.net           | 1.120s |        |
+| 🚧        | สดใสเมะ                        | https://www.xn--l3c0azab5a2gta.com | 0.295s |        |
+| 🚧        | 喵趣漫画                           | https://www.miaoqumh.org           | 1.101s |        |
+| 🚧        | 巴卡漫画                           | https://bakamh.com                 | 0.408s |        |
+| 🚧        | 東立                             | https://ebook.tongli.com.tw        | 1.002s |        |
+| 🚧        | 漫蛙                             | https://manwa.me                   | 0.134s |        |
+| 🚧        | 禁漫天堂                           | https://18comic.vip                | 1.208s |        |
 
 ## Cloudflare Blocked
 
-Count: 48
+Count: 49
 
 | Status   | Name                              | URL                           | Time   | Info   |
 |----------|-----------------------------------|-------------------------------|--------|--------|
-| 🛑        | Afrodit Scans                     | https://afroditscans.com      | 1.214s |        |
-| 🛑        | AllPornComics.co                  | https://allporncomics.co      | 0.762s |        |
-| 🛑        | Battle In 5 Seconds After Meeting | https://www.deatte5.com       | 0.669s |        |
-| 🛑        | Doujin-Lc                         | https://doujin-lc.net         | 0.741s |        |
-| 🛑        | Doujindesu                        | https://doujindesu.tv         | 1.423s |        |
-| 🛑        | DragonTea                         | https://dragontea.ink         | 0.942s |        |
-| 🛑        | Elder Manga                       | https://eldermanga.com        | 1.355s |        |
-| 🛑        | Epsilon Scan                      | https://epsilonscan.to        | 1.214s |        |
-| 🛑        | EZmanga                           | https://ezmanga.org           | 0.935s |        |
-| 🛑        | Frieren Online                    | https://www.frieren.online    | 0.236s |        |
-| 🛑        | Hentai Origines                   | https://hentai-origines.fr    | 0.470s |        |
-| 🛑        | HentaiVNx                         | https://www.hentaivnx.com     | 0.170s |        |
-| 🛑        | Kakusei Project                   | https://kakuseiproject.org    | 0.373s |        |
-| 🛑        | Lua Scans                         | https://luacomic.org          | 1.299s |        |
-| 🛑        | Luvyaa                            | https://v4.luvyaa.co          | 0.701s |        |
-| 🛑        | Manga-Scantrad                    | https://manga-scantrad.io     | 0.186s |        |
-| 🛑        | Manga18.Club                      | https://manga18.club          | 0.489s |        |
-| 🛑        | MangaClash                        | https://mangaclash.com        | 0.553s |        |
-| 🛑        | Mangakawaii                       | https://www.mangakawaii.io    | 0.777s |        |
-| 🛑        | MangaTek                          | https://mangatek.com          | 1.192s |        |
-| 🛑        | Mangitto                          | https://mangtto.com           | 0.085s |        |
-| 🛑        | MikuDoujin                        | https://miku-doujin.com       | 0.969s |        |
-| 🛑        | Necro Scans                       | https://necroscans.com        | 0.843s |        |
-| 🛑        | Nexus Toons                       | https://nx-toons.xyz          | 0.514s |        |
-| 🛑        | NineMangaBr                       | https://br.ninemanga.com      | 0.052s |        |
-| 🛑        | NineMangaDe                       | https://de.ninemanga.com      | 1.228s |        |
-| 🛑        | NineMangaEn                       | https://www.ninemanga.com     | 1.264s |        |
-| 🛑        | NineMangaEs                       | https://es.ninemanga.com      | 0.667s |        |
-| 🛑        | NineMangaFr                       | https://fr.ninemanga.com      | 0.093s |        |
-| 🛑        | NineMangaIt                       | https://it.ninemanga.com      | 1.784s |        |
-| 🛑        | NineMangaRu                       | https://ru.ninemanga.com      | 0.150s |        |
-| 🛑        | NovelCrow                         | https://novelcrow.com         | 1.232s |        |
-| 🛑        | Perf Scan                         | https://perf-scan.xyz         | 0.476s |        |
-| 🛑        | Pluma Comics                      | https://plumacomics.cloud     | 1.141s |        |
-| 🛑        | Raijin Scans                      | https://raijin-scans.fr       | 0.147s |        |
-| 🛑        | Risentoons                        | https://risentoons.xyz        | 0.716s |        |
-| 🛑        | Saikai Scan                       | https://housesaikai.net       | 0.748s |        |
-| 🛑        | Simply Hentai                     | https://www.simply-hentai.com | 1.328s |        |
-| 🛑        | Soft Epsilon Scan                 | https://epsilonsoft.to        | 0.354s |        |
-| 🛑        | Tenshi Manga                      | https://tenshimanga.com       | 0.894s |        |
-| 🛑        | The Blank                         | https://theblank.net          | 0.221s |        |
-| 🛑        | Utoon                             | https://utoon.net             | 0.411s |        |
-| 🛑        | Uzay Manga                        | https://uzaymanga.com         | 0.878s |        |
-| 🛑        | WebtoonScan                       | https://webtoonscan.com       | 0.432s |        |
-| 🛑        | WebtoonXYZ                        | https://www.webtoon.xyz       | 0.178s |        |
-| 🛑        | XXX Yaoi                          | https://3xyaoi.com            | 0.230s |        |
-| 🛑        | YaoiScan                          | https://yaoiscan.com          | 0.990s |        |
-| 🛑        | هنتاي العرب                       | https://arabshentai.com       | 1.321s |        |
+| 🛑        | Afrodit Scans                     | https://afroditscans.com      | 1.517s |        |
+| 🛑        | AllPornComics.co                  | https://allporncomics.co      | 1.068s |        |
+| 🛑        | Battle In 5 Seconds After Meeting | https://www.deatte5.com       | 0.495s |        |
+| 🛑        | Doujin-Lc                         | https://doujin-lc.net         | 0.281s |        |
+| 🛑        | Doujindesu                        | https://doujindesu.tv         | 1.528s |        |
+| 🛑        | DragonTea                         | https://dragontea.ink         | 1.564s |        |
+| 🛑        | Elder Manga                       | https://eldermanga.com        | 1.777s |        |
+| 🛑        | Epsilon Scan                      | https://epsilonscan.to        | 0.451s |        |
+| 🛑        | EZmanga                           | https://ezmanga.org           | 0.727s |        |
+| 🛑        | Frieren Online                    | https://www.frieren.online    | 0.599s |        |
+| 🛑        | Hentai Origines                   | https://hentai-origines.fr    | 2.849s |        |
+| 🛑        | HentaiVNx                         | https://www.hentaivnx.com     | 0.854s |        |
+| 🛑        | Kakusei Project                   | https://kakuseiproject.org    | 0.743s |        |
+| 🛑        | Lua Scans                         | https://luacomic.org          | 1.614s |        |
+| 🛑        | Luvyaa                            | https://v4.luvyaa.co          | 0.768s |        |
+| 🛑        | Manga-Scantrad                    | https://manga-scantrad.io     | 1.788s |        |
+| 🛑        | Manga18.Club                      | https://manga18.club          | 1.798s |        |
+| 🛑        | MangaClash                        | https://mangaclash.com        | 1.192s |        |
+| 🛑        | Mangakawaii                       | https://www.mangakawaii.io    | 0.250s |        |
+| 🛑        | MangaTek                          | https://mangatek.com          | 1.299s |        |
+| 🛑        | Mangitto                          | https://mangtto.com           | 0.369s |        |
+| 🛑        | MikuDoujin                        | https://miku-doujin.com       | 1.850s |        |
+| 🛑        | Necro Scans                       | https://necroscans.com        | 0.492s |        |
+| 🛑        | Nexus Toons                       | https://nx-toons.xyz          | 0.766s |        |
+| 🛑        | NineMangaBr                       | https://br.ninemanga.com      | 0.514s |        |
+| 🛑        | NineMangaDe                       | https://de.ninemanga.com      | 0.367s |        |
+| 🛑        | NineMangaEn                       | https://www.ninemanga.com     | 0.461s |        |
+| 🛑        | NineMangaEs                       | https://es.ninemanga.com      | 1.023s |        |
+| 🛑        | NineMangaFr                       | https://fr.ninemanga.com      | 0.452s |        |
+| 🛑        | NineMangaIt                       | https://it.ninemanga.com      | 1.215s |        |
+| 🛑        | NineMangaRu                       | https://ru.ninemanga.com      | 0.668s |        |
+| 🛑        | NovelCrow                         | https://novelcrow.com         | 1.215s |        |
+| 🛑        | Perf Scan                         | https://perf-scan.xyz         | 0.735s |        |
+| 🛑        | Pluma Comics                      | https://plumacomics.cloud     | 0.143s |        |
+| 🛑        | Raijin Scans                      | https://raijin-scans.fr       | 0.750s |        |
+| 🛑        | Risentoons                        | https://risentoons.xyz        | 2.600s |        |
+| 🛑        | Saikai Scan                       | https://housesaikai.net       | 1.292s |        |
+| 🛑        | Simply Hentai                     | https://www.simply-hentai.com | 1.736s |        |
+| 🛑        | Soft Epsilon Scan                 | https://epsilonsoft.to        | 1.770s |        |
+| 🛑        | Tenshi Manga                      | https://tenshimanga.com       | 0.530s |        |
+| 🛑        | The Blank                         | https://theblank.net          | 0.276s |        |
+| 🛑        | TuiTruyen                         | https://tuitruyen.top         | 0.710s |        |
+| 🛑        | Utoon                             | https://utoon.net             | 0.556s |        |
+| 🛑        | Uzay Manga                        | https://uzaymanga.com         | 0.417s |        |
+| 🛑        | WebtoonScan                       | https://webtoonscan.com       | 1.516s |        |
+| 🛑        | WebtoonXYZ                        | https://www.webtoon.xyz       | 1.100s |        |
+| 🛑        | XXX Yaoi                          | https://3xyaoi.com            | 0.193s |        |
+| 🛑        | YaoiScan                          | https://yaoiscan.com          | 0.702s |        |
+| 🛑        | هنتاي العرب                       | https://arabshentai.com       | 2.074s |        |
 
 ## Parked Domains
 
-Count: 6
+Count: 8
 
 | Status   | Name             | URL                       | Time   | Info                               |
 |----------|------------------|---------------------------|--------|------------------------------------|
-| 🅿️       | Dark Scans       | https://darkscans.net     | 2.050s | Few nodes (5). Method: title, body |
-| 🅿️       | Komiku.cc        | https://komiku.cc         | 1.050s | Few nodes (5). Method: title, body |
-| 🅿️       | Mangadusleri     | https://mangadusleri.lol  | 1.078s | Few nodes (3). Method: body        |
-| 🅿️       | Phenix Scans     | https://phenix-scans.com  | 0.147s | Few nodes (5). Method: title, body |
-| 🅿️       | ZinChanManga     | https://zinchangmanga.net | 0.761s | Few nodes (3). Method: body        |
-| 🅿️       | ZinChanManga.com | https://zinchangmanga.net | 0.135s | Few nodes (3). Method: body        |
+| 🅿️       | Dark Scans       | https://darkscans.net     | 1.154s | Few nodes (5). Method: title, body |
+| 🅿️       | Komiku.cc        | https://komiku.cc         | 1m1s   | Few nodes (5). Method: title, body |
+| 🅿️       | Mangadusleri     | https://mangadusleri.lol  | 0.304s | Few nodes (3). Method: body        |
+| 🅿️       | Mangax Core      | https://mangaxcore.xyz    | 1.855s | Few nodes (11). Method: body       |
+| 🅿️       | Phenix Scans     | https://phenix-scans.com  | 1m2s   | Few nodes (5). Method: title, body |
+| 🅿️       | VlogTruyen       | https://vlogtruyen69.com  | 1.319s | Few nodes (5). Method: title, body |
+| 🅿️       | ZinChanManga     | https://zinchangmanga.net | 0.434s | Few nodes (3). Method: body        |
+| 🅿️       | ZinChanManga.com | https://zinchangmanga.net | 0.917s | Few nodes (3). Method: body        |
 
 ## Warnings
 
-Count: 72
+Count: 77
 
 | Status   | Name                    | URL                                               | Time   | Info                                                                                                           |
 |----------|-------------------------|---------------------------------------------------|--------|----------------------------------------------------------------------------------------------------------------|
-| ⚠️       | Akuma                   | https://akuma.moe                                 | 1.894s | Few nodes (18). HTTP 403: DDoS-Guard                                                                           |
-| ⚠️       | AP Comics               | https://apcomics.org                              | 0.846s | HTTP 403: Checking your browser before accessing. Just a moment...                                             |
-| ⚠️       | Ariverse                | https://arigl.com                                 | 1.579s | Few nodes (15). HTTP 404: 404 Not Found                                                                        |
-| ⚠️       | Catzaa                  | https://catzaa.net                                | 4.432s | HTTP 523: catzaa.net \| 523: Origin is unreachable                                                             |
-| ⚠️       | Com-X                   | https://ru.com-x.life                             | 2.147s | Few nodes (15). HTTP 404:                                                                                      |
-| ⚠️       | DFlowScans              | https://dflow.alwaysdata.net                      | 1.919s | Few nodes (5). HTTP 404:                                                                                       |
-| ⚠️       | Dream Scan              | https://fairydream.com.br                         | 0.765s | HTTP 404: Not Found                                                                                            |
-| ⚠️       | DreComi+                | https://drecomi-plus.jp                           | 0.578s | Few nodes (13). HTTP 403: ERROR: The request could not be satisfied                                            |
-| ⚠️       | Escaneo de Leyendas     | https://escaneodeleyendas.com                     | 1.800s | Few nodes (2). HTTP 503:                                                                                       |
-| ⚠️       | FOD                     | https://manga.fod.fujitv.co.jp                    | 2.118s | Few nodes (2). HTTP 403:                                                                                       |
-| ⚠️       | HentaiDex               | https://dexhentai.com                             | 0.427s | Few nodes (9). HTTP 403: 403 Forbidden                                                                         |
-| ⚠️       | Ikuhentai               | https://ikuhentai.net                             | 1.977s | Few nodes (2). HTTP 403:                                                                                       |
-| ⚠️       | izneo                   | https://www.izneo.com/fr/webtoon                  | 0.629s | HTTP 404: izneo                                                                                                |
-| ⚠️       | Japscan                 | https://www.japscan.foo/mangas/?sort=popular&p=1  | 2.059s | HTTP 403: Access denied \| www.japscan.foo used Cloudflare to restrict access \| www.japscan.foo \| Cloudflare |
-| ⚠️       | Kabus Manga             | https://kabusmanga.com                            | 1.337s | HTTP 526: kabusmanga.com \| 526: Invalid SSL certificate                                                       |
-| ⚠️       | Koinobori Scan          | https://visorkoi.com                              | 0.723s | HTTP 521: visorkoi.com \| 521: Web server is down                                                              |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/cs_cz/comic/ | 0.099s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/de_de/comic/ | 0.255s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/el_gr/comic/ | 0.306s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/en_us/comic/ | 0.197s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/es_es/comic/ | 0.290s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/es_mx/comic/ | 0.450s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/fr_fr/comic/ | 0.486s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/hu_hu/comic/ | 0.238s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/it_it/comic/ | 0.776s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/ja_jp/comic/ | 0.317s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/ko_kr/comic/ | 0.414s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/pl_pl/comic/ | 0.233s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/pt_br/comic/ | 0.134s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/ro_ro/comic/ | 0.252s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/ru_ru/comic/ | 0.586s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/tr_tr/comic/ | 0.589s | HTTP 404: Universe of League of Legends                                                                        |
-| ⚠️       | Line Manga              | https://manga.line.me                             | 2.287s | HTTP 412: LINE マンガは日本でのみご利用いただけます｜LINE マンガ                                                                     |
-| ⚠️       | Lura Toon               | https://luratoons.net                             | 0.690s | Few nodes (0). HTTP 403:                                                                                       |
-| ⚠️       | Madokami                | https://manga.madokami.al                         | 2.063s | Few nodes (7). HTTP 401: 401 Unauthorized                                                                      |
-| ⚠️       | Manga Hentai            | https://mangahentai.me                            | 20s    | HTTP 522: mangahentai.me \| 522: Connection timed out                                                          |
-| ⚠️       | Manga Kiss              | https://mangakiss.org                             | 1.456s | Few nodes (0). HTTP 500:                                                                                       |
-| ⚠️       | Manga Read              | https://mangaread.co                              | 20s    | HTTP 522: mangaread.co \| 522: Connection timed out                                                            |
-| ⚠️       | Manga Romance           | https://mangaromance19.com                        | 1.052s | HTTP 403: Checking your browser before accessing. Just a moment...                                             |
-| ⚠️       | Manga Sect              | https://mangasect.net                             | 1.779s | HTTP 520: mangasect.net \| 520: Web server is returning an unknown error                                       |
-| ⚠️       | Manga-TR                | https://manga-tr.com                              | 1.275s | Few nodes (18). HTTP 403: DDoS-Guard                                                                           |
-| ⚠️       | MangaBuddy.me           | https://mangabuddy.me                             | 0.919s | HTTP 502: mangabuddy.me \| 502: Bad gateway                                                                    |
-| ⚠️       | MangaBuff               | https://mangabuff.ru                              | 0.964s | HTTP 403: DDoS-Guard                                                                                           |
-| ⚠️       | MangaLib                | https://mangalib.me                               | 0.703s | HTTP 403: Код ошибки 1020 - MangaLIB                                                                           |
-| ⚠️       | MangaMen                | https://mangamen.com                              | 1.495s | Few nodes (6). HTTP 403: 403 Forbidden                                                                         |
-| ⚠️       | Mangas Scans            | https://mangas-scans.com                          | 0.147s | HTTP 525: mangas-scans.com \| 525: SSL handshake failed                                                        |
+| ⚠️       | Akuma                   | https://akuma.moe                                 | 1.726s | Few nodes (18). HTTP 403: DDoS-Guard                                                                           |
+| ⚠️       | Alphapolis              | https://www.alphapolis.co.jp                      | 1.387s | Few nodes (13). HTTP 202:                                                                                      |
+| ⚠️       | AP Comics               | https://apcomics.org                              | 0.715s | HTTP 403: Checking your browser before accessing. Just a moment...                                             |
+| ⚠️       | Ariverse                | https://arigl.com                                 | 3.153s | Few nodes (15). HTTP 404: 404 Not Found                                                                        |
+| ⚠️       | Catzaa                  | https://catzaa.net                                | 21s    | HTTP 522: catzaa.net \| 522: Connection timed out                                                              |
+| ⚠️       | Com-X                   | https://ru.com-x.life                             | 2.521s | Few nodes (15). HTTP 404:                                                                                      |
+| ⚠️       | DeviantArt              | https://www.deviantart.com                        | 1.083s | Few nodes (13). HTTP 403: ERROR: The request could not be satisfied                                            |
+| ⚠️       | DFlowScans              | https://dflow.alwaysdata.net                      | 2.150s | Few nodes (5). HTTP 404:                                                                                       |
+| ⚠️       | Dream Scan              | https://fairydream.com.br                         | 2.091s | HTTP 404: Not Found                                                                                            |
+| ⚠️       | DreComi+                | https://drecomi-plus.jp                           | 2.305s | Few nodes (13). HTTP 403: ERROR: The request could not be satisfied                                            |
+| ⚠️       | Escaneo de Leyendas     | https://escaneodeleyendas.com                     | 2.070s | Few nodes (2). HTTP 503:                                                                                       |
+| ⚠️       | FOD                     | https://manga.fod.fujitv.co.jp                    | 2.020s | Few nodes (2). HTTP 403:                                                                                       |
+| ⚠️       | HentaiDex               | https://dexhentai.com                             | 0.394s | Few nodes (9). HTTP 403: 403 Forbidden                                                                         |
+| ⚠️       | Ikuhentai               | https://ikuhentai.net                             | 0.834s | Few nodes (2). HTTP 403:                                                                                       |
+| ⚠️       | izneo                   | https://www.izneo.com/en/webtoon                  | 0.172s | Few nodes (13). HTTP 403: ERROR: The request could not be satisfied                                            |
+| ⚠️       | izneo                   | https://www.izneo.com/fr/webtoon                  | 1.162s | Few nodes (13). HTTP 403: ERROR: The request could not be satisfied                                            |
+| ⚠️       | Japscan                 | https://www.japscan.foo/mangas/?sort=popular&p=1  | 2.162s | HTTP 403: Access denied \| www.japscan.foo used Cloudflare to restrict access \| www.japscan.foo \| Cloudflare |
+| ⚠️       | Kabus Manga             | https://kabusmanga.com                            | 1.812s | HTTP 526: kabusmanga.com \| 526: Invalid SSL certificate                                                       |
+| ⚠️       | Koinobori Scan          | https://visorkoi.com                              | 0.731s | HTTP 521: visorkoi.com \| 521: Web server is down                                                              |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/cs_cz/comic/ | 0.128s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/de_de/comic/ | 0.102s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/el_gr/comic/ | 0.082s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/en_us/comic/ | 0.507s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/es_es/comic/ | 0.153s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/es_mx/comic/ | 0.079s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/fr_fr/comic/ | 0.083s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/hu_hu/comic/ | 0.346s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/it_it/comic/ | 0.593s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/ja_jp/comic/ | 0.486s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/ko_kr/comic/ | 0.865s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/pl_pl/comic/ | 0.226s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/pt_br/comic/ | 0.791s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/ro_ro/comic/ | 0.087s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/ru_ru/comic/ | 0.403s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | League of Legends       | https://universe.leagueoflegends.com/tr_tr/comic/ | 0.374s | HTTP 404: Universe of League of Legends                                                                        |
+| ⚠️       | Line Manga              | https://manga.line.me                             | 1.743s | HTTP 412: LINE マンガは日本でのみご利用いただけます｜LINE マンガ                                                                     |
+| ⚠️       | Luna Scans              | https://tuhafscans.com                            | 3.690s | Few nodes (10). HTTP 500: Database Error                                                                       |
+| ⚠️       | Lura Toon               | https://luratoons.net                             | 0.707s | Few nodes (0). HTTP 403:                                                                                       |
+| ⚠️       | Madokami                | https://manga.madokami.al                         | 1.927s | Few nodes (7). HTTP 401: 401 Unauthorized                                                                      |
+| ⚠️       | Manga Hentai            | https://mangahentai.me                            | 21s    | HTTP 522: mangahentai.me \| 522: Connection timed out                                                          |
+| ⚠️       | Manga Kiss              | https://mangakiss.org                             | 2.900s | Few nodes (0). HTTP 500:                                                                                       |
+| ⚠️       | Manga Read              | https://mangaread.co                              | 21s    | HTTP 522: mangaread.co \| 522: Connection timed out                                                            |
+| ⚠️       | Manga Romance           | https://mangaromance19.com                        | 0.476s | HTTP 403: Checking your browser before accessing. Just a moment...                                             |
+| ⚠️       | Manga Sect              | https://mangasect.net                             | 1m31s  | HTTP 504: mangasect.net \| 504: Gateway time-out                                                               |
+| ⚠️       | MangaBuddy.me           | https://mangabuddy.me                             | 5.852s | HTTP 502: mangabuddy.me \| 502: Bad gateway                                                                    |
+| ⚠️       | MangaBuff               | https://mangabuff.ru                              | 2.271s | HTTP 403: DDoS-Guard                                                                                           |
+| ⚠️       | MangaLib                | https://mangalib.me                               | 1.177s | HTTP 403: Код ошибки 1020 - MangaLIB                                                                           |
+| ⚠️       | MangaMen                | https://mangamen.com                              | 2.479s | Few nodes (6). HTTP 403: 403 Forbidden                                                                         |
+| ⚠️       | MangaNova               | https://www.manga-nova.com                        | 1.867s | HTTP 500: 500: Internal Server Error                                                                           |
+| ⚠️       | Mangas Scans            | https://mangas-scans.com                          | 0.289s | HTTP 525: mangas-scans.com \| 525: SSL handshake failed                                                        |
 | ⚠️       | Manhuagold              | https://manhuagold.top                            | 1m31s  | HTTP 504: manhuagold.top \| 504: Gateway time-out                                                              |
-| ⚠️       | Manhwa18.org            | https://manhwa18.org                              | 0.703s | HTTP 521: manhwa18.org \| 521: Web server is down                                                              |
-| ⚠️       | ManhwaManhua            | https://manhwamanhua.com                          | 1.608s | Few nodes (15). HTTP 402: Deployment Paused                                                                    |
-| ⚠️       | MoonTruyen              | https://moontruyen.com                            | 1.523s | Few nodes (15). HTTP 404: 404 Not Found                                                                        |
-| ⚠️       | MyReadingManga          | https://myreadingmanga.info                       | 1.431s | HTTP 403: Verification Required                                                                                |
+| ⚠️       | Manhwa18.org            | https://manhwa18.org                              | 2.217s | HTTP 521: manhwa18.org \| 521: Web server is down                                                              |
+| ⚠️       | ManhwaDen               | https://www.manhwaden.com                         | 46s    | HTTP 525: manhwaden.com \| 525: SSL handshake failed                                                           |
+| ⚠️       | ManhwaManhua            | https://manhwamanhua.com                          | 1.644s | Few nodes (15). HTTP 402: Deployment Paused                                                                    |
+| ⚠️       | MoonTruyen              | https://moontruyen.com                            | 2.049s | Few nodes (15). HTTP 404: 404 Not Found                                                                        |
+| ⚠️       | MyReadingManga          | https://myreadingmanga.info                       | 0.321s | HTTP 403: Verification Required                                                                                |
 | ⚠️       | Nika Toons              | https://nikatoons.com                             | 20s    | HTTP 522: nikatoons.com \| 522: Connection timed out                                                           |
-| ⚠️       | NixManga                | https://nixmanga.com                              | 1.894s | HTTP 502: nixmanga.com \| 502: Bad gateway                                                                     |
-| ⚠️       | Ono                     | https://www.ono.live                              | 1.181s | Few nodes (13). HTTP 202:                                                                                      |
-| ⚠️       | Retsu                   | https://retsu.org                                 | 0.908s | Few nodes (0). HTTP 526:                                                                                       |
-| ⚠️       | Rizz Comic (unoriginal) | https://rizzcomic.com                             | 0.786s | Few nodes (9). HTTP 500: Database Error                                                                        |
-| ⚠️       | Scan-Manga              | https://m.scan-manga.com                          | 0.305s | Few nodes (9). HTTP 404: 404 Not Found                                                                         |
-| ⚠️       | Senkognito              | https://senkuro.me                                | 0.737s | HTTP 403: DDoS-Guard                                                                                           |
-| ⚠️       | Senkuro                 | https://senkuro.me                                | 1.548s | HTTP 403: DDoS-Guard                                                                                           |
-| ⚠️       | Stick Horse             | https://stickhorse.cl                             | 19s    | HTTP 522: stickhorse.cl \| 522: Connection timed out                                                           |
-| ⚠️       | Tatakae Scan            | https://tatakaescan.com                           | 21s    | HTTP 522: tatakaescan.com \| 522: Connection timed out                                                         |
-| ⚠️       | Toonily.me              | https://toonily.me                                | 2.290s | HTTP 502: toonily.me \| 502: Bad gateway                                                                       |
-| ⚠️       | TruyenTranh3Q           | https://manhua3q.com                              | 43s    | HTTP 525: manhua3q.com \| 525: SSL handshake failed                                                            |
-| ⚠️       | Turkmangaoku            | https://turkmangaoku.com                          | 1.080s | Few nodes (8). HTTP 502: 502 Bad Gateway                                                                       |
+| ⚠️       | NixManga                | https://nixmanga.com                              | 0.796s | HTTP 502: nixmanga.com \| 502: Bad gateway                                                                     |
+| ⚠️       | Ono                     | https://www.ono.live                              | 0.733s | Few nodes (13). HTTP 403: ERROR: The request could not be satisfied                                            |
+| ⚠️       | Retsu                   | https://retsu.org                                 | 1.602s | Few nodes (0). HTTP 526:                                                                                       |
+| ⚠️       | Rizz Comic (unoriginal) | https://rizzcomic.com                             | 1.845s | Few nodes (9). HTTP 500: Database Error                                                                        |
+| ⚠️       | Scan-Manga              | https://m.scan-manga.com                          | 1.445s | Few nodes (9). HTTP 404: 404 Not Found                                                                         |
+| ⚠️       | Senkognito              | https://senkuro.me                                | 0.697s | HTTP 403: DDoS-Guard                                                                                           |
+| ⚠️       | Senkuro                 | https://senkuro.me                                | 1.385s | HTTP 403: DDoS-Guard                                                                                           |
+| ⚠️       | Stick Horse             | https://stickhorse.cl                             | 20s    | HTTP 522: stickhorse.cl \| 522: Connection timed out                                                           |
+| ⚠️       | TakeComic               | https://takecomic.jp                              | 0.587s | HTTP 403: メンテナンス中です。 \| 竹コミ！                                                                                   |
+| ⚠️       | Tatakae Scan            | https://tatakaescan.com                           | 0.673s | HTTP 525: tatakaescan.com \| 525: SSL handshake failed                                                         |
+| ⚠️       | Toonily.me              | https://toonily.me                                | 1.541s | HTTP 502: toonily.me \| 502: Bad gateway                                                                       |
+| ⚠️       | TooniTube               | https://toonitube.com                             | 1.234s | HTTP 502: toonitube.com \| 502: Bad gateway                                                                    |
+| ⚠️       | Turkmangaoku            | https://turkmangaoku.com                          | 1m1s   | Few nodes (8). HTTP 504: 504 Gateway Time-out                                                                  |
 | ⚠️       | Türkçe Manga Oku TR     | https://turkcemangaoku.com.tr                     | 19s    | HTTP 522: turkcemangaoku.com.tr \| 522: Connection timed out                                                   |
-| ⚠️       | Vanilla Scans           | https://vanillascans.org                          | 5.539s | Few nodes (4). HTTP 503:                                                                                       |
-| ⚠️       | VyvyManga.org           | https://vyvymanga.org                             | 0.422s | Few nodes (0). HTTP 521:                                                                                       |
+| ⚠️       | Vanilla Scans           | https://vanillascans.org                          | 4.568s | Few nodes (4). HTTP 503:                                                                                       |
+| ⚠️       | VyvyManga.org           | https://vyvymanga.org                             | 1.795s | Few nodes (0). HTTP 521:                                                                                       |
 | ⚠️       | Webtoon TR              | https://webtoontr.net                             | 20s    | HTTP 522: webtoontr.net \| 522: Connection timed out                                                           |
-| ⚠️       | Yabai                   | https://yabai.si                                  | 1.598s | Few nodes (18). HTTP 403: DDoS-Guard                                                                           |
-| ⚠️       | Zenith Scans            | https://zenithscans.com                           | 1.545s | Few nodes (7). HTTP 503: 503 Service Unavailable                                                               |
-| ⚠️       | 哔咔漫画                    | https://picaapi.picacomic.com                     | 1.189s | Few nodes (2). HTTP 400:                                                                                       |
-| ⚠️       | 嗨皮漫画                    | https://m.happymh.com                             | 2.051s | HTTP 403: 嗨皮漫画——人机验证                                                                                           |
+| ⚠️       | Zenith Scans            | https://zenithscans.com                           | 1.294s | Few nodes (7). HTTP 503: 503 Service Unavailable                                                               |
+| ⚠️       | 哔咔漫画                    | https://picaapi.picacomic.com                     | 1.800s | Few nodes (2). HTTP 400:                                                                                       |
+| ⚠️       | 嗨皮漫画                    | https://m.happymh.com                             | 1.327s | HTTP 403: 嗨皮漫画——人机验证                                                                                           |
 
 ## Errors
 
-Count: 34
+Count: 35
 
 ### ClientConnectorCertificateError
 
@@ -1577,56 +1576,64 @@ Count: 3
 
 | Status   | Name        | URL                     | Time   | Info                                                                                                                                                                                                                                |
 |----------|-------------|-------------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ❌        | Arven Scans | https://arvencomics.com | 1.949s | Cannot connect to host arvencomics.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]                             |
-| ❌        | 如漫画         | https://m.rumanhua2.com | 0.730s | Cannot connect to host m.rumanhua2.com:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'm.rumanhua2.com'. (_ssl.c:1000)")] |
-| ❌        | 读漫屋         | https://m.dumanwu1.com  | 1.276s | Cannot connect to host m.dumanwu1.com:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'm.dumanwu1.com'. (_ssl.c:1000)")]   |
+| ❌        | Arven Scans | https://arvencomics.com | 2.103s | Cannot connect to host arvencomics.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')]                             |
+| ❌        | 如漫画         | https://m.rumanhua2.com | 0.464s | Cannot connect to host m.rumanhua2.com:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'm.rumanhua2.com'. (_ssl.c:1000)")] |
+| ❌        | 读漫屋         | https://m.dumanwu1.com  | 0.519s | Cannot connect to host m.dumanwu1.com:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'm.dumanwu1.com'. (_ssl.c:1000)")]   |
 
 ### ClientConnectorDNSError
 
-Count: 14
+Count: 13
 
 | Status   | Name                   | URL                                 | Time   | Info                                                                                                      |
 |----------|------------------------|-------------------------------------|--------|-----------------------------------------------------------------------------------------------------------|
-| ❌        | Aarlas                 | https://www.arlas.my.id             | 0.714s | Cannot connect to host www.arlas.my.id:443 ssl:default [Domain name not found]                            |
-| ❌        | BlossomManhwa          | https://api.cherrymanhwa.com        | 0.303s | Cannot connect to host api.cherrymanhwa.com:443 ssl:default [Domain name not found]                       |
-| ❌        | HanulTruyen            | https://hanultruyen.info            | 2.808s | Cannot connect to host hanultruyen.info:443 ssl:default [Timeout while contacting DNS servers]            |
-| ❌        | Kairos Toons           | https://kairostoons.net             | 0.340s | Cannot connect to host kairostoons.net:443 ssl:default [Domain name not found]                            |
-| ❌        | LilyumFansub           | https://lilyumfansub.com.tr         | 2.612s | Cannot connect to host lilyumfansub.com.tr:443 ssl:default [Timeout while contacting DNS servers]         |
-| ❌        | Neko Toons             | https://nekotoons.site              | 0.179s | Cannot connect to host nekotoons.site:443 ssl:default [Domain name not found]                             |
-| ❌        | NhentaiClub            | https://nhentaiclub.site            | 0.555s | Cannot connect to host nhentaiclub.site:443 ssl:default [DNS server returned answer with no data]         |
-| ❌        | Orca Manga             | https://www.orcamanga.site          | 0.380s | Cannot connect to host www.orcamanga.site:443 ssl:default [Domain name not found]                         |
-| ❌        | Paragon Scans          | https://paragonscans.com            | 0.213s | Cannot connect to host paragonscans.com:443 ssl:default [Domain name not found]                           |
-| ❌        | QToon                  | https://qtoon.com                   | 1.052s | Cannot connect to host qtoon.com:443 ssl:default [DNS server returned answer with no data]                |
-| ❌        | Stray Fansub           | https://strayfansub.net             | 0.678s | Cannot connect to host strayfansub.site:443 ssl:default [DNS server returned answer with no data]         |
-| ❌        | TCB Scans (Unoriginal) | https://tcbscanonepiecechapters.com | 2.188s | Cannot connect to host tcbscanonepiecechapters.com:443 ssl:default [Timeout while contacting DNS servers] |
-| ❌        | VlogTruyen             | https://vlogtruyen69.com            | 2.374s | Cannot connect to host vlogtruyen69.com:443 ssl:default [Timeout while contacting DNS servers]            |
-| ❌        | 优酷漫画                   | https://www.ykmh.net                | 0.307s | Cannot connect to host www.ykmh.net:443 ssl:default [Domain name not found]                               |
+| ❌        | Aarlas                 | https://www.arlas.my.id             | 0.148s | Cannot connect to host www.arlas.my.id:443 ssl:default [Domain name not found]                            |
+| ❌        | BlossomManhwa          | https://api.cherrymanhwa.com        | 1.491s | Cannot connect to host api.cherrymanhwa.com:443 ssl:default [Domain name not found]                       |
+| ❌        | Garcia Manga           | https://garciamanga.com             | 2.579s | Cannot connect to host garciamanga.com:443 ssl:default [Timeout while contacting DNS servers]             |
+| ❌        | HanulTruyen            | https://hanultruyen.info            | 2.732s | Cannot connect to host hanultruyen.info:443 ssl:default [Timeout while contacting DNS servers]            |
+| ❌        | Kairos Toons           | https://kairostoons.net             | 0.095s | Cannot connect to host kairostoons.net:443 ssl:default [Domain name not found]                            |
+| ❌        | Manhwajoy              | https://manhwajoy.com               | 0.285s | Cannot connect to host manhwajoy.com:443 ssl:default [Domain name not found]                              |
+| ❌        | Neko Toons             | https://nekotoons.site              | 0.498s | Cannot connect to host nekotoons.site:443 ssl:default [Domain name not found]                             |
+| ❌        | NhentaiClub            | https://nhentaiclub.site            | 0.361s | Cannot connect to host nhentaiclub.site:443 ssl:default [DNS server returned answer with no data]         |
+| ❌        | Orca Manga             | https://www.orcamanga.site          | 0.583s | Cannot connect to host www.orcamanga.site:443 ssl:default [Domain name not found]                         |
+| ❌        | Paragon Scans          | https://paragonscans.com            | 0.484s | Cannot connect to host paragonscans.com:443 ssl:default [Domain name not found]                           |
+| ❌        | QToon                  | https://qtoon.com                   | 0.234s | Cannot connect to host qtoon.com:443 ssl:default [DNS server returned answer with no data]                |
+| ❌        | Stray Fansub           | https://strayfansub.net             | 1.251s | Cannot connect to host strayfansub.site:443 ssl:default [DNS server returned answer with no data]         |
+| ❌        | TCB Scans (Unoriginal) | https://tcbscanonepiecechapters.com | 1.535s | Cannot connect to host tcbscanonepiecechapters.com:443 ssl:default [Timeout while contacting DNS servers] |
 
 ### ClientConnectorError
 
 Count: 11
 
-| Status   | Name                   | URL                     | Time   | Info                                                                                                                                                                              |
-|----------|------------------------|-------------------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ❌        | Atemporal              | https://atemporal.cloud | 0.832s | Cannot connect to host atemporal.cloud:443 ssl:default [Connect call failed ('128.201.228.38', 443)]                                                                              |
-| ❌        | Bakkin Self-hosted     | http://127.0.0.1/       | 0.002s | Cannot connect to host 127.0.0.1:80 ssl:default [Connect call failed ('127.0.0.1', 80)]                                                                                           |
-| ❌        | FoolSlide Customizable | https://127.0.0.1       | 0.072s | Cannot connect to host 127.0.0.1:443 ssl:default [Connect call failed ('127.0.0.1', 443)]                                                                                         |
-| ❌        | LANraragi (1)          | http://127.0.0.1:3000   | 0.109s | Cannot connect to host 127.0.0.1:3000 ssl:default [Connect call failed ('127.0.0.1', 3000)]                                                                                       |
-| ❌        | LANraragi (2)          | http://127.0.0.1:3000   | 0.277s | Cannot connect to host 127.0.0.1:3000 ssl:default [Connect call failed ('127.0.0.1', 3000)]                                                                                       |
-| ❌        | LeerManga              | https://leermanga.net   | 0.229s | Cannot connect to host leermanga.net:443 ssl:default [Connect call failed ('75.126.101.229', 443)]                                                                                |
-| ❌        | Mangax Core            | https://mangaxcore.xyz  | 2m15s  | Cannot connect to host mangaxcore.xyz:443 ssl:default [Connect call failed ('103.224.212.213', 443)]                                                                              |
-| ❌        | StashApp               | http://localhost:9999   | 0.649s | Cannot connect to host localhost:9999 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 9999, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 9999)] |
-| ❌        | Team Lạnh Lùng         | https://nhalung.top     | 0.749s | Cannot connect to host nhalung.top:443 ssl:default [Connect call failed ('198.54.117.242', 443)]                                                                                  |
-| ❌        | Toonkor                | https://tkor114.com     | 2m13s  | Cannot connect to host tkor114.com:443 ssl:default [Connect call failed ('192.64.119.249', 443)]                                                                                  |
-| ❌        | YuriNeko               | https://yurinekoz.com   | 0.265s | Cannot connect to host yurinekoz.com:443 ssl:default [Network is unreachable]                                                                                                     |
+| Status   | Name                   | URL                          | Time   | Info                                                                                                                                                                              |
+|----------|------------------------|------------------------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ❌        | Atemporal              | https://atemporal.cloud      | 0.688s | Cannot connect to host atemporal.cloud:443 ssl:default [Connect call failed ('128.201.228.38', 443)]                                                                              |
+| ❌        | Bakkin Self-hosted     | http://127.0.0.1/            | 0.142s | Cannot connect to host 127.0.0.1:80 ssl:default [Connect call failed ('127.0.0.1', 80)]                                                                                           |
+| ❌        | FoolSlide Customizable | https://127.0.0.1            | 0.023s | Cannot connect to host 127.0.0.1:443 ssl:default [Connect call failed ('127.0.0.1', 443)]                                                                                         |
+| ❌        | LANraragi (1)          | http://127.0.0.1:3000        | 0.174s | Cannot connect to host 127.0.0.1:3000 ssl:default [Connect call failed ('127.0.0.1', 3000)]                                                                                       |
+| ❌        | LANraragi (2)          | http://127.0.0.1:3000        | 0.531s | Cannot connect to host 127.0.0.1:3000 ssl:default [Connect call failed ('127.0.0.1', 3000)]                                                                                       |
+| ❌        | LeerManga              | https://leermanga.net        | 2.060s | Cannot connect to host leermanga.net:443 ssl:default [Connect call failed ('75.126.101.229', 443)]                                                                                |
+| ❌        | Lolivault              | https://lector.lolivault.net | 1.920s | Cannot connect to host lector.lolivault.net:443 ssl:default [Network is unreachable]                                                                                              |
+| ❌        | StashApp               | http://localhost:9999        | 0.509s | Cannot connect to host localhost:9999 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 9999, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 9999)] |
+| ❌        | Team Lạnh Lùng         | https://nhalung.top          | 0.651s | Cannot connect to host nhalung.top:443 ssl:default [Connect call failed ('198.54.117.242', 443)]                                                                                  |
+| ❌        | Toonkor                | https://tkor114.com          | 2m13s  | Cannot connect to host tkor114.com:443 ssl:default [Connect call failed ('192.64.119.249', 443)]                                                                                  |
+| ❌        | YuriNeko               | https://yurinekoz.com        | 0.586s | Cannot connect to host yurinekoz.com:443 ssl:default [Network is unreachable]                                                                                                     |
 
 ### ClientConnectorSSLError
 
-Count: 1
+Count: 2
 
 | Status   | Name                    | URL                       | Time   | Info                                                                                                                                  |
 |----------|-------------------------|---------------------------|--------|---------------------------------------------------------------------------------------------------------------------------------------|
-| ❌        | DoujinDesu (Unoriginal) | https://v2.doujindesu.fun | 1.299s | Cannot connect to host v2.doujindesu.fun:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)] |
+| ❌        | Assorted Scans          | https://assortedscans.com | 3.251s | Cannot connect to host assortedscans.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)] |
+| ❌        | DoujinDesu (Unoriginal) | https://v2.doujindesu.fun | 1.216s | Cannot connect to host v2.doujindesu.fun:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)] |
+
+### ClientPayloadError
+
+Count: 1
+
+| Status   | Name                        | URL                    | Time   | Info                                                                                                                          |
+|----------|-----------------------------|------------------------|--------|-------------------------------------------------------------------------------------------------------------------------------|
+| ❌        | IsekaiScan.top (unoriginal) | https://isekaiscan.top | 4.888s | Response payload is not completed: <TransferEncodingError: 400, message='Not enough data to satisfy transfer length header.'> |
 
 ### InvalidUrlClientError
 
@@ -1645,4 +1652,4 @@ Count: 1
 
 | Status   | Name       | URL                          | Time   | Info                                                                              |
 |----------|------------|------------------------------|--------|-----------------------------------------------------------------------------------|
-| ❌        | Coven Scan | https://covendasbruxonas.com | 3.564s | 'utf-8' codec can't decode byte 0xc3 in position 89935: invalid continuation byte |
+| ❌        | Coven Scan | https://covendasbruxonas.com | 2.867s | 'utf-8' codec can't decode byte 0xc3 in position 89695: invalid continuation byte |
