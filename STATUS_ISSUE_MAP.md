@@ -151,12 +151,11 @@ Count: 137
 ## Single match
 
 
-Count: 5
+Count: 4
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
 | [#16145](https://github.com/keiyoushi/extensions-source/issues/16145) Images do not load in COOMER and KEMONO | COOMER | ✅ | Coomer `100%` | [https://coomer.st](https://coomer.st) |
-| [#10973](https://github.com/keiyoushi/extensions-source/issues/10973) Weeb Central and Kagane: Chapter number resets with new seasons | WeebCentral 1.4.16 / Kagane | 🚧 | Kagane `100%` | [https://kagane.org](https://kagane.org) |
 | [#9758](https://github.com/keiyoushi/extensions-source/issues/9758) Rizz Comic: `HTTP 403` on specific entry | Rizz comic | ✅ | Rizz Comic `100%` | [https://rizzfables.com](https://rizzfables.com) |
 | [#8904](https://github.com/keiyoushi/extensions-source/issues/8904) Asura scans: remove rate limit from covers | Asura scans | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
 | [#5836](https://github.com/keiyoushi/extensions-source/issues/5836) komga dont trust certification of Let's Encrypt | komga | ❌ | Komga `100%` |  |
@@ -164,7 +163,7 @@ Count: 5
 ## Multiple matches
 
 
-Count: 25
+Count: 26
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
@@ -202,11 +201,13 @@ Count: 25
 | ↳ [#11929] |  | ✅ | GocTruyenTranh `90%` | [https://goctruyentranh.com](https://goctruyentranh.com) |
 | [#11601](https://github.com/keiyoushi/extensions-source/issues/11601) Kagane: Tapas chapter numbers | Kagane: Tapas chapter numbers | ✅ | Tapas `100%` | [https://tapas.io](https://tapas.io) |
 | ↳ [#11601] |  | 🚧 | Kagane `100%` | [https://kagane.org](https://kagane.org) |
+| [#10973](https://github.com/keiyoushi/extensions-source/issues/10973) Weeb Central and Kagane: Chapter number resets with new seasons | WeebCentral 1.4.16 / Kagane | 🚧 | Kagane `100%` | [https://kagane.org](https://kagane.org) |
+| ↳ [#10973] |  | 🚧 | Weeb Central `title 100%` | [https://weebcentral.com](https://weebcentral.com) |
 | [#10968](https://github.com/keiyoushi/extensions-source/issues/10968) mangabuddy error ''script not found'' | Mangabuddy | 🔀 | MangaBuddy `100%` | [https://mangabuddy.com](https://mangabuddy.com) |
 | ↳ [#10968] |  | ✅ | Mangack `gh:body→kt:dir 92%` | [https://mangack.com](https://mangack.com) |
 | ↳ [#10968] |  | ✅ | MangaKa `gh:body→kt:dir 92%` | [https://mangaka.cc](https://mangaka.cc) |
-| [#10099](https://github.com/keiyoushi/extensions-source/issues/10099) Bug - VMP (NSFW) - No comics scrolling, no search and no tags | VCPVMP | 🚧 | VCP `gh:body→kt:factory 100%` | [https://vercomicsporno.com](https://vercomicsporno.com) |
-| ↳ [#10099] |  | 🚧 | VMP `gh:body→kt:factory 100%` | [https://vermangasporno.com](https://vermangasporno.com) |
+| [#10099](https://github.com/keiyoushi/extensions-source/issues/10099) Bug - VMP (NSFW) - No comics scrolling, no search and no tags | VCPVMP | 🚧 | VMP `gh:body→kt:factory 100%` | [https://vermangasporno.com](https://vermangasporno.com) |
+| ↳ [#10099] |  | 🚧 | VCP `gh:body→kt:factory 100%` | [https://vercomicsporno.com](https://vercomicsporno.com) |
 | [#9649](https://github.com/keiyoushi/extensions-source/issues/9649) MangaDex getting alt. English titles ONLY | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
 | ↳ [#9649] |  | ✅ | MangaDE `93%` | [https://mangade.io](https://mangade.io) |
 | [#9274](https://github.com/keiyoushi/extensions-source/issues/9274) Magadex - Filter for "has available chapters" does not work | Mangadex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
@@ -219,8 +220,8 @@ Count: 25
 | ↳ [#8545] |  | ❌ | LANraragi (2) `100%` | [http://127.0.0.1:3000](http://127.0.0.1:3000) |
 | [#6553](https://github.com/keiyoushi/extensions-source/issues/6553) Comic Fury: `No chapters found` error for series without "Infinite Scroll View" site option | Tachiyomi: Comic Fury | ✅ | Comic Fury `100%` | [https://comicfury.com](https://comicfury.com) |
 | ↳ [#6553] |  | ✅ | Comic Fury (No Text) `title 100%` | [https://comicfury.com](https://comicfury.com) |
-| [#4802](https://github.com/keiyoushi/extensions-source/issues/4802) EpsilonSoft captcha on chapters  | Fr.softepsilonscan | 🛑 | Epsilon Scan `gh:body→kt:class gh:body→kt:dir 100%` | [https://epsilonscan.to](https://epsilonscan.to) |
-| ↳ [#4802] |  | 🛑 | Soft Epsilon Scan `gh:body→kt:class gh:body→kt:dir 100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
+| [#4802](https://github.com/keiyoushi/extensions-source/issues/4802) EpsilonSoft captcha on chapters  | Fr.softepsilonscan | 🛑 | Epsilon Scan `gh:body→kt:dir gh:body→kt:class 100%` | [https://epsilonscan.to](https://epsilonscan.to) |
+| ↳ [#4802] |  | 🛑 | Soft Epsilon Scan `gh:body→kt:dir gh:body→kt:class 100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
 
 ## No match
 
