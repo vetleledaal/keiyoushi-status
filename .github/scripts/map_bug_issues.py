@@ -48,7 +48,7 @@ SOURCE_INFO_RE = re.compile(
     r"###\s*Source\s+(?:information|name)\s*\n(.*?)(?=\n###|\n##|\Z)",
     re.IGNORECASE | re.DOTALL,
 )
-VERSION_RE = re.compile(r"(?:\s+-\s+|\s+)v?\d[\d.]*\s*$", re.IGNORECASE)
+VERSION_RE = re.compile(r"(?:\s+-\s+|\s+)v?\d[\d.]*(?:/\d+)?\s*$", re.IGNORECASE)
 KANA_RE = re.compile(r"[\u3040-\u309f\u30a0-\u30ff]")
 STATUS_ROW_URL_RE = re.compile(r"\|\s*(\S+)\s*\|\s*(.+?)\s*\|\s*(https?://\S+?)\s*\|")
 STATUS_ROW_RE = re.compile(r"\|\s*(\S+)\s*\|\s*(.+?)\s*\|\s*\|")
@@ -57,6 +57,7 @@ STRIP_WWW_RE = re.compile(r"^(www\.)?")
 SLUG_NORM_RE = re.compile(r"[\s\-_]+")
 EXT_NAME_PREFIX_RE = re.compile(r"^Extension\s+name:\s*", re.IGNORECASE)
 SOURCE_SPLIT_RE = re.compile(r"[;(]")
+AMP_SPLIT_RE = re.compile(r"\s*[&,/]\s*")
 VERSION_ONLY_RE = re.compile(r"v?\d[\d.]*", re.IGNORECASE)
 IGNORE_LINE_RE = re.compile(r"^(the\s+plugin|version\b)", re.IGNORECASE)
 TRAILING_VER_RE = re.compile(r"(?<=[a-zA-Z\u4e00-\u9fff])\d+\.\d[\d.]*$")
@@ -175,8 +176,8 @@ def extract_source_name(body: str) -> str:
         if not line:
             continue
         line = EXT_NAME_PREFIX_RE.sub("", line)
-        line = VERSION_RE.sub("", line).strip()
         line = SOURCE_SPLIT_RE.split(line)[0].strip()
+        line = VERSION_RE.sub("", line).strip()
         if VERSION_ONLY_RE.fullmatch(line):
             continue
         if IGNORE_LINE_RE.match(line):
@@ -220,8 +221,17 @@ def match_issue(
 
     # 2. source name + title parts + Kotlin name aliases
     # Kotlin alias lookup only fires when source_name is a package ID (e.g. co.navercomic)
-    title_names = [n for n in title_to_names(title) if n.lower() != source_name.lower()]
-    queries: list[tuple[str, str]] = [(source_name, "gh:body→extName"), *((n, "gh:title→extName") for n in title_names)]
+    source_parts = [
+        p
+        for part in AMP_SPLIT_RE.split(source_name)
+        if (p := TRAILING_VER_RE.sub("", VERSION_RE.sub("", part).strip()).strip())
+        and not VERSION_ONLY_RE.fullmatch(p)
+    ]
+    title_names = [n for n in title_to_names(title) if n.lower() not in {p.lower() for p in source_parts}]
+    queries: list[tuple[str, str]] = [
+        *((p, "gh:body→extName") for p in source_parts),
+        *((n, "gh:title→extName") for n in title_names),
+    ]
     # Look up by exact name, extClass, or dir slug (slug strips spaces/hyphens for e.g. "Spectral Scan" → "spectralscan")
     slug = SLUG_NORM_RE.sub("", source_name.lower())
     kt_entries = ext_db.get(source_name.lower(), set()) | ext_db.get(slug, set())
@@ -248,6 +258,18 @@ def match_issue(
             elif method not in seen[e.name].methods:
                 existing = seen[e.name]
                 seen[e.name] = Match(existing.entry, max(existing.score, score), (*existing.methods, method))
+
+    # If a case-insensitive exact match exists at 100% (non-URL), suppress other 100% non-URL
+    # token-set superset noise (e.g. "Komga" → drop "Komga (2)", "Komga (3)").
+    source_parts_lower = {p.lower() for p in source_parts}
+    if any(
+        m.score >= 100 and "url" not in m.methods and m.entry.name.lower() in source_parts_lower for m in seen.values()
+    ):
+        seen = {
+            n: m
+            for n, m in seen.items()
+            if "url" in m.methods or m.score < 100 or m.entry.name.lower() in source_parts_lower
+        }
 
     # URL matches first, then by score descending
     return sorted(seen.values(), key=lambda m: ("url" not in m.methods, -m.score))
@@ -293,12 +315,13 @@ def render_table(results: list[IssueResult]) -> str:
 
     exact_results = [r for r in results if len(r.matches) == 1 and r.matches[0].entry.name == r.source_name]
     single_results = [r for r in results if len(r.matches) == 1 and r.matches[0].entry.name != r.source_name]
-    multi_results = [r for r in results if len(r.matches) >= 2]
+    multi_results = [r for r in results if len(r.matches) > 1]
     unmatched_results = [r for r in results if not r.matches]
 
     def section(heading: str, subset: list[IssueResult]) -> list[str]:
         return [
-            f"\n## {heading} ({len(subset)})\n",
+            f"\n## {heading}\n\n",
+            f"Count: {len(subset)}\n",
             *table_header,
             *(row for r in subset for row in issue_rows(r)),
         ]
@@ -309,7 +332,8 @@ def render_table(results: list[IssueResult]) -> str:
         *section("Exact match", exact_results),
         *section("Single match", single_results),
         *section("Multiple matches", multi_results),
-        f"\n## No match ({len(unmatched_results)})\n",
+        "\n## No match\n\n",
+        f"Count: {len(unmatched_results)}\n",
         *table_header,
         *(
             f"| [#{r.number}](https://github.com/{REPO}/issues/{r.number}) {r.title.replace('|', chr(92) + '|')} | {(r.source_name or '-').replace('|', chr(92) + '|')} | | | |"
