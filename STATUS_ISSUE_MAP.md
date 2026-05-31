@@ -1,12 +1,13 @@
 # Bug Issue → Extension Map
 
-_Updated 2026-05-30. Matched 176 of 176 open bug issues._
+_Updated 2026-05-31. Matched 179 of 179 open bug issues._
 
 
-## Exact match (128)
+## Exact match (129)
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#16320](https://github.com/keiyoushi/extensions-source/issues/16320) Fantasy genre returns no results | Atsumaru | ✅ | Atsumaru `100%` | [https://atsu.moe](https://atsu.moe) |
 | [#16305](https://github.com/keiyoushi/extensions-source/issues/16305) Cmanga url change | CManga | 🔀 | CManga `100%` | [https://cmangax16.com](https://cmangax16.com) |
 | [#16299](https://github.com/keiyoushi/extensions-source/issues/16299) Raijin Scans: `Element class` error with chapters | Raijin Scans | 🛑 | Raijin Scans `100%` | [https://raijin-scans.fr](https://raijin-scans.fr) |
 | [#16289](https://github.com/keiyoushi/extensions-source/issues/16289) aarlas changed domain to blogspot | Aarlas | ❌ | Aarlas `100%` | [https://www.arlas.my.id](https://www.arlas.my.id) |
@@ -69,7 +70,7 @@ _Updated 2026-05-30. Matched 176 of 176 open bug issues._
 | [#13187](https://github.com/keiyoushi/extensions-source/issues/13187) Lycan Toons - erro | Lycan Toons | 🚧 | Lycan Toons `100%` | [https://lycantoons.com](https://lycantoons.com) |
 | [#13149](https://github.com/keiyoushi/extensions-source/issues/13149) Manhuaren (漫画人): WebView only displays API responses | 漫画人 | ✅ | 漫画人 `100%` | [http://mangaapi.manhuaren.com](http://mangaapi.manhuaren.com) |
 | [#13132](https://github.com/keiyoushi/extensions-source/issues/13132) ReYume: `NullPointerException: null` error | ReYume | ✅ | ReYume `100%` | [https://www.re-yume.my.id](https://www.re-yume.my.id) |
-| [#13123](https://github.com/keiyoushi/extensions-source/issues/13123) URL Change for Lilyum fansub | LilyumFansub | ❌ | LilyumFansub `100%` | [https://lilyumfansub.com.tr](https://lilyumfansub.com.tr) |
+| [#13123](https://github.com/keiyoushi/extensions-source/issues/13123) URL Change for Lilyum fansub | LilyumFansub | 🔀 | LilyumFansub `100%` | [https://lilyumfansub.com.tr](https://lilyumfansub.com.tr) |
 | [#13036](https://github.com/keiyoushi/extensions-source/issues/13036) Kagane: Implement rate limit | Kagane | 🚧 | Kagane `100%` | [https://kagane.org](https://kagane.org) |
 | [#12964](https://github.com/keiyoushi/extensions-source/issues/12964) incomplete pages niadd | Niadd | ✅ | Niadd `100%` | [https://br.niadd.com](https://br.niadd.com) |
 | [#12916](https://github.com/keiyoushi/extensions-source/issues/12916) MangaGeko : Upload date and the latest. | MangaGeko | ✅ | MangaGeko `100%` | [https://www.mgeko.cc](https://www.mgeko.cc) |
@@ -86,7 +87,7 @@ _Updated 2026-05-30. Matched 176 of 176 open bug issues._
 | [#11770](https://github.com/keiyoushi/extensions-source/issues/11770) Kagane: "timed out getting drm challenge" | Kagane | 🚧 | Kagane `100%` | [https://kagane.org](https://kagane.org) |
 | [#11751](https://github.com/keiyoushi/extensions-source/issues/11751) Zazhimi 杂志迷: broken thumbnail on search + not being able to search Japanese characters | 杂志迷 | ✅ | 杂志迷 `100%` | [https://www.zazhimi.net](https://www.zazhimi.net) |
 | [#11482](https://github.com/keiyoushi/extensions-source/issues/11482) Baozi Manhua: no results found and read timed out | 包子漫画 | ✅ | 包子漫画 `100%` | [https://cn.baozimh.com](https://cn.baozimh.com) |
-| [#11376](https://github.com/keiyoushi/extensions-source/issues/11376) 92漫画/92Manhua: 没有章节/`No chapters found` error | 92漫画 | ✅ | 92漫画 `100%` | [http://www.92mh.com](http://www.92mh.com) |
+| [#11376](https://github.com/keiyoushi/extensions-source/issues/11376) 92漫画/92Manhua: 没有章节/`No chapters found` error | 92漫画 | 🚧 | 92漫画 `100%` | [http://www.92mh.com](http://www.92mh.com) |
 | [#11330](https://github.com/keiyoushi/extensions-source/issues/11330) Rawkuma: new version (1.4.35) downloaded chapter icons disappear randomly | Rawkuma | 🚧 | Rawkuma `100%` | [https://rawkuma.net](https://rawkuma.net) |
 | [#11235](https://github.com/keiyoushi/extensions-source/issues/11235) DrakeScans Having a unrecognized SSL | Drake Scans | 🚧 | Drake Scans `100%` | [https://drakecomic.org](https://drakecomic.org) |
 | [#11176](https://github.com/keiyoushi/extensions-source/issues/11176) MangaTuk: Chapter images are all the same image | MangaTuk | 🚧 | MangaTuk `100%` | [https://mangatuk.com](https://mangatuk.com) |
@@ -118,7 +119,7 @@ _Updated 2026-05-30. Matched 176 of 176 open bug issues._
 | [#8819](https://github.com/keiyoushi/extensions-source/issues/8819) Vomic is up again, but fix is require | vomic | 🔀 | vomic `100%` | [http://www.vomicmh.com](http://www.vomicmh.com) |
 | [#8696](https://github.com/keiyoushi/extensions-source/issues/8696) HentaiLib ext fails to load chapters (HTTP 404) | HentaiLib | 🚧 | HentaiLib `100%` | [https://hentailib.me](https://hentailib.me) |
 | [#8386](https://github.com/keiyoushi/extensions-source/issues/8386) Unable to view chapters unlocked in WebView | Tappytoon | ✅ | Tappytoon `100%` | [https://www.tappytoon.com/de](https://www.tappytoon.com/de) |
-| [#7630](https://github.com/keiyoushi/extensions-source/issues/7630) BlackToon: Images could not be loaded error | 블랙툰 | 🔀 | 블랙툰 `100%` | [https://blacktoon.me](https://blacktoon.me) |
+| [#7630](https://github.com/keiyoushi/extensions-source/issues/7630) BlackToon: `No results found`, `The image could not be loaded` error | 블랙툰 | 🔀 | 블랙툰 `100%` | [https://blacktoon.me](https://blacktoon.me) |
 | [#7457](https://github.com/keiyoushi/extensions-source/issues/7457) "Gölge Bahçesi" Chapters Fail to Load After Server Selection Feature Implementation | Gölge Bahçesi | 🚧 | Gölge Bahçesi `100%` | [https://golgebahcesi.com](https://golgebahcesi.com) |
 | [#7385](https://github.com/keiyoushi/extensions-source/issues/7385) When opening a chapter in Senkuro, there is a long loading of the first photo that does not exist in the WebView. | Senkuro | ⚠️ | Senkuro `100%` | [https://senkuro.me](https://senkuro.me) |
 | [#6594](https://github.com/keiyoushi/extensions-source/issues/6594) wnacg Browsing some galleries crashes the extension and TachiyomiSY | 紳士漫畫 | ✅ | 紳士漫畫 `100%` | [https://www.wnacg05.cc](https://www.wnacg05.cc) |
@@ -136,18 +137,21 @@ _Updated 2026-05-30. Matched 176 of 176 open bug issues._
 | [#1715](https://github.com/keiyoushi/extensions-source/issues/1715) MyReadingManga: App crashes when using filter | MyReadingManga | ⚠️ | MyReadingManga `100%` | [https://myreadingmanga.info](https://myreadingmanga.info) |
 | [#487](https://github.com/keiyoushi/extensions-source/issues/487) Comico: Chapter number mismatch | コミコ | ✅ | コミコ `100%` | [https://www.comico.jp](https://www.comico.jp) |
 
-## Single match (3)
+## Single match (4)
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#16318](https://github.com/keiyoushi/extensions-source/issues/16318) Lector Asteria Chapters "Not Found" | lector asteria | ✅ | Lector Asteria `100%` | [https://lectorasteria.com](https://lectorasteria.com) |
 | [#16124](https://github.com/keiyoushi/extensions-source/issues/16124) [RU] Senkuro: Json error | Senkuro 1.4.9 & Senkongito | ⚠️ | Senkuro `100%` | [https://senkuro.me](https://senkuro.me) |
 | [#12573](https://github.com/keiyoushi/extensions-source/issues/12573) Tapas: Download Naming Scheme Changed | Tapas 1.4.23/24 | ✅ | Tapas `100%` | [https://tapas.io](https://tapas.io) |
 | [#10588](https://github.com/keiyoushi/extensions-source/issues/10588) Manga Hentai search function broken | Manga Hentai 1.4.48 | ⚠️ | Manga Hentai `100%` | [https://mangahentai.me](https://mangahentai.me) |
 
-## Multiple matches (45)
+## Multiple matches (46)
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#16311](https://github.com/keiyoushi/extensions-source/issues/16311) Asura Scans : Add ‘Axed’ as the same as ‘Cancelled’ | Asura Scans | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
+| ↳ [#16311] |  | ✅ | Asura Scans TR `100%` | [https://asurascans.com.tr](https://asurascans.com.tr) |
 | [#16170](https://github.com/keiyoushi/extensions-source/issues/16170) Rimu Scans (FR) : URL change | Rimu Scans | ✅ | Rimu Scans `100%` | [https://rimu-scans.fr](https://rimu-scans.fr) |
 | ↳ [#16170] |  | 🚧 | Grim Scans `90%` | [https://grimscans.com](https://grimscans.com) |
 | [#16145](https://github.com/keiyoushi/extensions-source/issues/16145) Images do not load in COOMER and KEMONO | COOMER | ✅ | Coomer `100%` | [https://coomer.st](https://coomer.st) |
@@ -173,7 +177,7 @@ _Updated 2026-05-30. Matched 176 of 176 open bug issues._
 | [#13566](https://github.com/keiyoushi/extensions-source/issues/13566) GigaViewer theme sources not showing downloads | Comic Days 1.4.9, Sunday Web Every 1.4.9 | ✅ | Comic Days `100%` | [https://comic-days.com](https://comic-days.com) |
 | ↳ [#13566] |  | ✅ | Sunday Web Every `100%` | [https://www.sunday-webry.com](https://www.sunday-webry.com) |
 | [#13172](https://github.com/keiyoushi/extensions-source/issues/13172) Lua Scans not showing latest chapters correctly | Lua Scans | 🛑 | Lua Scans `100%` | [https://luacomic.org](https://luacomic.org) |
-| ↳ [#13172] |  | ✅ | Luna Scans `95%` | [https://tuhafscans.com](https://tuhafscans.com) |
+| ↳ [#13172] |  | ⚠️ | Luna Scans `95%` | [https://tuhafscans.com](https://tuhafscans.com) |
 | [#13111](https://github.com/keiyoushi/extensions-source/issues/13111) Comick (Unoriginal): Unable to load more results, `HTTP 429` error | Comick | ✅ | Comick (Unoriginal) `100%` | [https://comick.live](https://comick.live) |
 | ↳ [#13111] |  | ✅ | ComicK Fanmade `100%` | [https://comickfan.com](https://comickfan.com) |
 | [#13099](https://github.com/keiyoushi/extensions-source/issues/13099) Mangadex - Use Alternative Titles setting does not keep the alternative titles past the search result | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
