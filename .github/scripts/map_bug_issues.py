@@ -261,14 +261,17 @@ def match_issue(
 
     # If a case-insensitive exact match exists at 100% (non-URL), suppress other 100% non-URL
     # token-set superset noise (e.g. "Komga" → drop "Komga (2)", "Komga (3)").
-    source_parts_lower = {p.lower() for p in source_parts}
+    # Normalize with SLUG_NORM_RE so "Weeb Central" matches query "WeebCentral".
+    source_parts_norm = {SLUG_NORM_RE.sub("", p.lower()) for p in source_parts}
+    def _norm(name: str) -> str:
+        return SLUG_NORM_RE.sub("", name.lower())
     if any(
-        m.score >= 100 and "url" not in m.methods and m.entry.name.lower() in source_parts_lower for m in seen.values()
+        m.score >= 100 and "url" not in m.methods and _norm(m.entry.name) in source_parts_norm for m in seen.values()
     ):
         seen = {
             n: m
             for n, m in seen.items()
-            if "url" in m.methods or m.score < 100 or m.entry.name.lower() in source_parts_lower
+            if "url" in m.methods or m.score < 100 or _norm(m.entry.name) in source_parts_norm
         }
 
     # URL matches first, then by score descending
