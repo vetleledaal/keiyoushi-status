@@ -5,6 +5,7 @@ import logging
 import random
 import re
 import time
+from datetime import datetime, timezone
 from collections.abc import Awaitable, Callable
 from enum import StrEnum
 from http import HTTPStatus
@@ -258,7 +259,9 @@ def render_report_generic(
     sections: list[tuple[str, Status]],
     columns: list[str],
 ) -> str:
+    timestamp = datetime.now(tz=timezone.utc).isoformat(timespec="seconds")
     buf = f"# {title}\n\n"
+    buf += f"Timestamp: `{timestamp}`\\\n"
     buf += f"Count: {count}\\\n"
     buf += f"User-Agent: `{user_agent}`\n\n"
 

@@ -279,7 +279,7 @@ def match_issue(
 
 
 def render_table(results: list[IssueResult]) -> str:
-    today = datetime.now(tz=timezone.utc).date().isoformat()
+    timestamp = datetime.now(tz=timezone.utc).isoformat(timespec="seconds")
     matched = sum(1 for r in results if r.matches)
     table_header = ["| Issue | Source | Status | Extension | URL |", "|-------|--------|:------:|-----------|-----|"]
 
@@ -331,7 +331,8 @@ def render_table(results: list[IssueResult]) -> str:
 
     lines = [
         "# Bug Issue → Extension Map\n",
-        f"_Updated {today}. Matched {matched} of {len(results)} open bug issues._\n",
+        f"Timestamp: `{timestamp}`\\",
+        f"Matched: {matched} of {len(results)} open bug issues\n",
         *section("Exact match", exact_results),
         *section("Single match", single_results),
         *section("Multiple matches", multi_results),
