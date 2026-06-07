@@ -331,8 +331,8 @@ def render_table(results: list[IssueResult]) -> str:
 
     lines = [
         "# Bug Issue → Extension Map\n",
-        f"Timestamp: `{timestamp}`\\",
-        f"Matched: {matched} of {len(results)} open bug issues\n",
+        f"Matched: {matched} of {len(results)} open bug issues\\",
+        f"Timestamp: `{timestamp}`\n",
         *section("Exact match", exact_results),
         *section("Single match", single_results),
         *section("Multiple matches", multi_results),

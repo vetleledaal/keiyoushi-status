@@ -261,8 +261,8 @@ def render_report_generic(
 ) -> str:
     timestamp = datetime.now(tz=timezone.utc).isoformat(timespec="seconds")
     buf = f"# {title}\n\n"
-    buf += f"Timestamp: `{timestamp}`\\\n"
     buf += f"Count: {count}\\\n"
+    buf += f"Timestamp: `{timestamp}`\\\n"
     buf += f"User-Agent: `{user_agent}`\n\n"
 
     for section_title, status in sections:
