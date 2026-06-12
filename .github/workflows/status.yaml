@@ -31,7 +31,7 @@ permissions:
   contents: write
 
 jobs:
-  site-status:
+  status:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -58,7 +58,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: 'chore: update extensions, issues, and bug issue map'
-          file_pattern: |
-            STATUS.md
-            STATUS_ISSUE.md
-            STATUS_ISSUE_MAP.md
+          file_pattern: '*.md'
