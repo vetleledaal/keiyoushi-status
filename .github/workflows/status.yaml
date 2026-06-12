@@ -1,0 +1,64 @@
+---
+name: Status
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Low activity: 23:00-08:00 UTC
+    - cron: '53 2 * * 0'
+    - cron: '29 6 * * 1'
+    - cron: '16 3 * * 2'
+    - cron: '57 23 * * 2'
+    - cron: '39 7 * * 4'
+    - cron: '22 0 * * 5'
+    - cron: '33 3 * * 6'
+  push:
+    branches:
+      - main
+    paths:
+      - .github/scripts/check_extensions.py
+      - .github/scripts/check_issues.py
+      - .github/scripts/common.py
+      - .github/scripts/map_bug_issues.py
+      - .github/workflows/status.yaml
+      - STATUS.md
+
+concurrency:
+  group: status
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  site-status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v7
+      - uses: actions/checkout@v6
+        with:
+          repository: keiyoushi/extensions-source
+          path: extensions-source
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: src
+
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          .github/scripts/check_extensions.py &
+          .github/scripts/check_issues.py &
+          wait
+
+          .github/scripts/map_bug_issues.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: 'chore: update extensions, issues, and bug issue map'
+          file_pattern: |
+            STATUS.md
+            STATUS_ISSUE.md
+            STATUS_ISSUE_MAP.md
