@@ -1,16 +1,21 @@
 # Bug Issue → Extension Map
 
-Matched: 143 of 143 open bug issues\
-Timestamp: `2026-06-14T04:24:32+00:00`
+Matched: 149 of 149 open bug issues\
+Timestamp: `2026-06-15T08:39:41+00:00`
 
 
 ## Exact match
 
 
-Count: 122
+Count: 127
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#16722](https://github.com/keiyoushi/extensions-source/issues/16722) ManhwaOnline 1.4.52 - Reader closes immediately when opening chapters :( | ManhwaOnline | 🚧 | ManhwaOnline `100%` | [https://manhwa-online.com](https://manhwa-online.com) |
+| [#16717](https://github.com/keiyoushi/extensions-source/issues/16717) Raijin Scans: `Invalid manifest format` error with chapters | Raijin Scans | 🛑 | Raijin Scans `100%` | [https://raijin-scans.fr](https://raijin-scans.fr) |
+| [#16704](https://github.com/keiyoushi/extensions-source/issues/16704) Erro imagem não encontrada Cerise scan | Cerise Scan | ✅ | Cerise Scan `100%` | [https://loverstoon.com](https://loverstoon.com) |
+| [#16703](https://github.com/keiyoushi/extensions-source/issues/16703) Permanece o erro de "URL No Imagens" na escan litter Tyrant | Little Tyrant | ✅ | Little Tyrant `100%` | [https://tiraninha.world](https://tiraninha.world) |
+| [#16700](https://github.com/keiyoushi/extensions-source/issues/16700) New website URL for westmanga | West Manga | ✅ | West Manga `100%` | [https://westmanga.co](https://westmanga.co) |
 | [#16697](https://github.com/keiyoushi/extensions-source/issues/16697) RCO: Chapter showing site image, "No pages found" | ReadComicOnline | ✅ | ReadComicOnline `100%` | [https://rcostation.xyz](https://rcostation.xyz) |
 | [#16684](https://github.com/keiyoushi/extensions-source/issues/16684) Comix: Random pages are scrambled | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
 | [#16678](https://github.com/keiyoushi/extensions-source/issues/16678) Yupmanga not visualize chapter | Yupmanga | ✅ | Yupmanga `100%` | [https://www.yupmanga.com](https://www.yupmanga.com) |
@@ -137,25 +142,24 @@ Count: 122
 ## Single match
 
 
-Count: 2
+Count: 4
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#16688](https://github.com/keiyoushi/extensions-source/issues/16688) tr.siyahmelek :domain changed | tr.siyahmelek | 🔀 | Siyah Melek `gh:body→kt:class gh:body→kt:dir 100%` | [https://siyahmelek.vip](https://siyahmelek.vip) |
+| [#16710](https://github.com/keiyoushi/extensions-source/issues/16710) Lycantoons - erro HTTP 403 | Lycantoons | 🚧 | Lycan Toons `gh:body→kt:dir gh:body→kt:class 100%` | [https://lycantoons.com](https://lycantoons.com) |
+| [#16708](https://github.com/keiyoushi/extensions-source/issues/16708) (Bug) ONF Mangas: No  Search results | ONF Mangas | 🚧 | ONF MANGAS `100%` | [https://onfmangas.com](https://onfmangas.com) |
+| [#16688](https://github.com/keiyoushi/extensions-source/issues/16688) tr.siyahmelek :domain changed | tr.siyahmelek | 🔀 | Siyah Melek `gh:body→kt:dir gh:body→kt:class 100%` | [https://siyahmelek.vip](https://siyahmelek.vip) |
 | [#16676](https://github.com/keiyoushi/extensions-source/issues/16676) Empty bubbles in the extension, opposite to the main site | Mangatek | 🛑 | MangaTek `100%` | [https://mangatek.com](https://mangatek.com) |
 
 ## Multiple matches
 
 
-Count: 19
+Count: 18
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
 | [#16687](https://github.com/keiyoushi/extensions-source/issues/16687) Reset scans no results found | Reset Scans | ✅ | Reset Scans `100%` | [https://reset-scans.org](https://reset-scans.org) |
 | ↳ [#16687] |  | ⚠️ | Rest Scans `95%` | [https://restscans.com](https://restscans.com) |
-| [#16600](https://github.com/keiyoushi/extensions-source/issues/16600) Mangak is working on my mihon but it won't let me read all stories are imagine cannot find | MangaK | ✅ | MangaK `100%` | [https://mangak.io](https://mangak.io) |
-| ↳ [#16600] |  | ✅ | Mangack `92%` | [https://mangack.com](https://mangack.com) |
-| ↳ [#16600] |  | ✅ | MangaKa `92%` | [https://mangaka.cc](https://mangaka.cc) |
 | [#16550](https://github.com/keiyoushi/extensions-source/issues/16550) Comix: Downloads stalls at start | Comix 1.4.26 and PR #16517 | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
 | ↳ [#16550] |  | ✅ | GEDE Comix `title 100%` | [https://gedecomix.com](https://gedecomix.com) |
 | [#14842](https://github.com/keiyoushi/extensions-source/issues/14842) OneManga (th): new domain, site structure | OneManga | 🚧 | OneManga.info `100%` | [https://onemanga.info](https://onemanga.info) |
@@ -178,7 +182,7 @@ Count: 19
 | ↳ [#12459] |  | ✅ | ComicK Fanmade `100%` | [https://comickfan.com](https://comickfan.com) |
 | [#12010](https://github.com/keiyoushi/extensions-source/issues/12010) Comick (unoriginal): `No chapters found` error in entries while filtering by language | Comick | ✅ | Comick (Unoriginal) `100%` | [https://comick.live](https://comick.live) |
 | ↳ [#12010] |  | ✅ | ComicK Fanmade `100%` | [https://comickfan.com](https://comickfan.com) |
-| [#11929](https://github.com/keiyoushi/extensions-source/issues/11929) GocTruyenTranhVui:  Token/ account gets frequently banned | GocTruyenTranhVui | ✅ | Goc Truyen Tranh Vui `gh:body→kt:class gh:body→kt:dir 100%` | [https://goctruyentranhvui30.com](https://goctruyentranhvui30.com) |
+| [#11929](https://github.com/keiyoushi/extensions-source/issues/11929) GocTruyenTranhVui:  Token/ account gets frequently banned | GocTruyenTranhVui | ✅ | Goc Truyen Tranh Vui `gh:body→kt:dir gh:body→kt:class 100%` | [https://goctruyentranhvui30.com](https://goctruyentranhvui30.com) |
 | ↳ [#11929] |  | ✅ | GocTruyenTranh `90%` | [https://goctruyentranh.com](https://goctruyentranh.com) |
 | [#11601](https://github.com/keiyoushi/extensions-source/issues/11601) Kagane: Tapas chapter numbers | Kagane: Tapas chapter numbers | ✅ | Tapas `100%` | [https://tapas.io](https://tapas.io) |
 | ↳ [#11601] |  | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
