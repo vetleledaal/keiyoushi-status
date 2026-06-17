@@ -1,19 +1,21 @@
 # Bug Issue → Extension Map
 
-Matched: 136 of 137 open bug issues\
-Timestamp: `2026-06-16T05:02:02+00:00`
+Matched: 139 of 140 open bug issues\
+Timestamp: `2026-06-17T00:29:53+00:00`
 
 
 ## Exact match
 
 
-Count: 117
+Count: 119
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#16767](https://github.com/keiyoushi/extensions-source/issues/16767) ReadComicsOnline not working | Read Comics Online | 🚧 | Read Comics Online `100%` | [https://readcomicsonline.ru](https://readcomicsonline.ru) |
+| [#16753](https://github.com/keiyoushi/extensions-source/issues/16753) ManhwaWeb: HTTP Errors 400, 402, 403, 404 on all titles | ManhwaWeb | ✅ | ManhwaWeb `100%` | [https://manhwaweb.com](https://manhwaweb.com) |
 | [#16747](https://github.com/keiyoushi/extensions-source/issues/16747) Gensura filters not working | Gensura | ✅ | Gensura `100%` | [https://gensura.net](https://gensura.net) |
-| [#16744](https://github.com/keiyoushi/extensions-source/issues/16744) Raijin Scans: Invalid manifest format | Raijin Scans | 🛑 | Raijin Scans `100%` | [https://raijin-scans.fr](https://raijin-scans.fr) |
-| [#16722](https://github.com/keiyoushi/extensions-source/issues/16722) ManhwaOnline 1.4.52 - Reader closes immediately when opening chapters :( | ManhwaOnline | 🚧 | ManhwaOnline `100%` | [https://manhwa-online.com](https://manhwa-online.com) |
+| [#16744](https://github.com/keiyoushi/extensions-source/issues/16744) Raijin Scans: `Invalid manifest format` error | Raijin Scans | 🛑 | Raijin Scans `100%` | [https://raijin-scans.fr](https://raijin-scans.fr) |
+| [#16722](https://github.com/keiyoushi/extensions-source/issues/16722) ManhwaOnline: `Attempt to invoke virtual method` error with chapters | ManhwaOnline | 🚧 | ManhwaOnline `100%` | [https://manhwa-online.com](https://manhwa-online.com) |
 | [#16704](https://github.com/keiyoushi/extensions-source/issues/16704) Erro imagem não encontrada Cerise scan | Cerise Scan | ✅ | Cerise Scan `100%` | [https://loverstoon.com](https://loverstoon.com) |
 | [#16703](https://github.com/keiyoushi/extensions-source/issues/16703) Permanece o erro de "URL No Imagens" na escan litter Tyrant | Little Tyrant | ✅ | Little Tyrant `100%` | [https://tiraninha.world](https://tiraninha.world) |
 | [#16697](https://github.com/keiyoushi/extensions-source/issues/16697) RCO: Chapter showing site image, "No pages found" | ReadComicOnline | ✅ | ReadComicOnline `100%` | [https://rcostation.xyz](https://rcostation.xyz) |
@@ -63,7 +65,7 @@ Count: 117
 | [#13291](https://github.com/keiyoushi/extensions-source/issues/13291) HentaiHand filter issue | HentaiHand | ✅ | HentaiHand `100%` | [https://hentaihand.com](https://hentaihand.com) |
 | [#13187](https://github.com/keiyoushi/extensions-source/issues/13187) Lycan Toons - erro | Lycan Toons | 🚧 | Lycan Toons `100%` | [https://lycantoons.com](https://lycantoons.com) |
 | [#13149](https://github.com/keiyoushi/extensions-source/issues/13149) Manhuaren (漫画人): WebView only displays API responses | 漫画人 | ✅ | 漫画人 `100%` | [http://mangaapi.manhuaren.com](http://mangaapi.manhuaren.com) |
-| [#13123](https://github.com/keiyoushi/extensions-source/issues/13123) URL Change for Lilyum fansub | LilyumFansub | ❌ | LilyumFansub `100%` | [https://lilyumfansub.com.tr](https://lilyumfansub.com.tr) |
+| [#13123](https://github.com/keiyoushi/extensions-source/issues/13123) URL Change for Lilyum fansub | LilyumFansub | 🔀 | LilyumFansub `100%` | [https://lilyumfansub.com.tr](https://lilyumfansub.com.tr) |
 | [#13036](https://github.com/keiyoushi/extensions-source/issues/13036) Kagane: Implement rate limit | Kagane | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
 | [#12971](https://github.com/keiyoushi/extensions-source/issues/12971) Manga şehri.net: HTTP 500 error | Manga Şehri.net | ✅ | Manga Şehri.net `100%` | [https://manga-sehri.net](https://manga-sehri.net) |
 | [#12964](https://github.com/keiyoushi/extensions-source/issues/12964) incomplete pages niadd | Niadd | ✅ | Niadd `100%` | [https://br.niadd.com](https://br.niadd.com) |
@@ -132,11 +134,12 @@ Count: 117
 ## Single match
 
 
-Count: 3
+Count: 4
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#16710](https://github.com/keiyoushi/extensions-source/issues/16710) Lycantoons - erro HTTP 403 | Lycantoons | 🚧 | Lycan Toons `gh:body→kt:dir gh:body→kt:class 100%` | [https://lycantoons.com](https://lycantoons.com) |
+| [#16756](https://github.com/keiyoushi/extensions-source/issues/16756) ManhwaWeb [ES] broken image cover | ManhwaWeb: | ✅ | ManhwaWeb `100%` | [https://manhwaweb.com](https://manhwaweb.com) |
+| [#16710](https://github.com/keiyoushi/extensions-source/issues/16710) Lycan Toons: `HTTP 403` error | Lycantoons | 🚧 | Lycan Toons `gh:body→kt:dir gh:body→kt:class 100%` | [https://lycantoons.com](https://lycantoons.com) |
 | [#16708](https://github.com/keiyoushi/extensions-source/issues/16708) (Bug) ONF Mangas: No  Search results | ONF Mangas | 🚧 | ONF MANGAS `100%` | [https://onfmangas.com](https://onfmangas.com) |
 | [#16688](https://github.com/keiyoushi/extensions-source/issues/16688) tr.siyahmelek :domain changed | tr.siyahmelek | 🔀 | Siyah Melek `gh:body→kt:dir gh:body→kt:class 100%` | [https://siyahmelek.vip](https://siyahmelek.vip) |
 
