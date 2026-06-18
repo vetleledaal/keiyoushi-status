@@ -1,16 +1,17 @@
 # Bug Issue → Extension Map
 
-Matched: 139 of 140 open bug issues\
-Timestamp: `2026-06-17T00:29:53+00:00`
+Matched: 147 of 148 open bug issues\
+Timestamp: `2026-06-18T09:13:02+00:00`
 
 
 ## Exact match
 
 
-Count: 119
+Count: 120
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#16792](https://github.com/keiyoushi/extensions-source/issues/16792) Ikiru change url | Ikiru | 🚧 | Ikiru `100%` | [https://05.ikiru.wtf](https://05.ikiru.wtf) |
 | [#16767](https://github.com/keiyoushi/extensions-source/issues/16767) ReadComicsOnline not working | Read Comics Online | 🚧 | Read Comics Online `100%` | [https://readcomicsonline.ru](https://readcomicsonline.ru) |
 | [#16753](https://github.com/keiyoushi/extensions-source/issues/16753) ManhwaWeb: HTTP Errors 400, 402, 403, 404 on all titles | ManhwaWeb | ✅ | ManhwaWeb `100%` | [https://manhwaweb.com](https://manhwaweb.com) |
 | [#16747](https://github.com/keiyoushi/extensions-source/issues/16747) Gensura filters not working | Gensura | ✅ | Gensura `100%` | [https://gensura.net](https://gensura.net) |
@@ -29,7 +30,7 @@ Count: 119
 | [#16404](https://github.com/keiyoushi/extensions-source/issues/16404) [Bug] Bbato (en) v1.4.1 — pageList returns empty for valid chapters | Bbato | ✅ | Bbato `url` | [https://bbato.com](https://bbato.com) |
 | [#16381](https://github.com/keiyoushi/extensions-source/issues/16381) Fusion of Traducciones Amistosas and Knight No Scanlation  | Traducciones Amistosas | ✅ | Traducciones Amistosas `100%` | [https://nartag.com](https://nartag.com) |
 | [#16352](https://github.com/keiyoushi/extensions-source/issues/16352) Diva Scans: Website redesign, new website URL (`divascans.org`) | Diva Scans | 🔀 | Diva Scans `100%` | [https://divatoon.com](https://divatoon.com) |
-| [#16284](https://github.com/keiyoushi/extensions-source/issues/16284) Orca Manga: New website URL (`infinity896.blogspot.com`) | Orca Manga | ❌ | Orca Manga `100%` | [https://www.orcamanga.site](https://www.orcamanga.site) |
+| [#16284](https://github.com/keiyoushi/extensions-source/issues/16284) Orca Manga: New website URL (`infinity896.blogspot.com`) | Orca Manga | ⚠️ | Orca Manga `100%` | [https://www.orcamanga.site](https://www.orcamanga.site) |
 | [#16255](https://github.com/keiyoushi/extensions-source/issues/16255) Error 500 EternalMangas | EternalMangas | 🚧 | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
 | [#16217](https://github.com/keiyoushi/extensions-source/issues/16217) Flower manga doesn't show recent releases and the search returns empty. | FlowerManga.net | 🚧 | FlowerManga.net `100%` | [https://flowermangas.net](https://flowermangas.net) |
 | [#16201](https://github.com/keiyoushi/extensions-source/issues/16201) Kagane: Latest/Popular shows excluded genres on first load | Kagane | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
@@ -134,22 +135,33 @@ Count: 119
 ## Single match
 
 
-Count: 4
+Count: 8
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#16797](https://github.com/keiyoushi/extensions-source/issues/16797) Bega translation not visualize chapter | Bega translation 1.4. | ✅ | Bega Translation `100%` | [https://begatranslation.com](https://begatranslation.com) |
+| [#16777](https://github.com/keiyoushi/extensions-source/issues/16777) Erro 523 Scan Fleur blanche | Scan fleur blanche | ✅ | Fleur Blanche `100%` | [https://fbsquadx.com](https://fbsquadx.com) |
+| [#16774](https://github.com/keiyoushi/extensions-source/issues/16774) Erro "nenhuma página encontrada" Scan Fênix Project | Fênix Project | ✅ | Fenix Project `92%` | [https://fenixproject.site](https://fenixproject.site) |
+| [#16769](https://github.com/keiyoushi/extensions-source/issues/16769) LeerMangaEsp - Chapters load but pages fail to load | Source: LeerMangaEsp Version: | ✅ | LeerMangaEsp `url` | [https://leermangaesp.net](https://leermangaesp.net) |
 | [#16756](https://github.com/keiyoushi/extensions-source/issues/16756) ManhwaWeb [ES] broken image cover | ManhwaWeb: | ✅ | ManhwaWeb `100%` | [https://manhwaweb.com](https://manhwaweb.com) |
-| [#16710](https://github.com/keiyoushi/extensions-source/issues/16710) Lycan Toons: `HTTP 403` error | Lycantoons | 🚧 | Lycan Toons `gh:body→kt:dir gh:body→kt:class 100%` | [https://lycantoons.com](https://lycantoons.com) |
+| [#16710](https://github.com/keiyoushi/extensions-source/issues/16710) Lycan Toons: `HTTP 403` error | Lycantoons | 🚧 | Lycan Toons `gh:body→kt:class gh:body→kt:dir 100%` | [https://lycantoons.com](https://lycantoons.com) |
 | [#16708](https://github.com/keiyoushi/extensions-source/issues/16708) (Bug) ONF Mangas: No  Search results | ONF Mangas | 🚧 | ONF MANGAS `100%` | [https://onfmangas.com](https://onfmangas.com) |
 | [#16688](https://github.com/keiyoushi/extensions-source/issues/16688) tr.siyahmelek :domain changed | tr.siyahmelek | 🔀 | Siyah Melek `gh:body→kt:dir gh:body→kt:class 100%` | [https://siyahmelek.vip](https://siyahmelek.vip) |
 
 ## Multiple matches
 
 
-Count: 16
+Count: 19
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#16796](https://github.com/keiyoushi/extensions-source/issues/16796) Komiku: `HTTP 403` error with chapter images | tachiomi: komiku | ✅ | Komiku `100%` | [https://komiku.org](https://komiku.org) |
+| ↳ [#16796] |  | 🚧 | Komiku.com `title 100%` | [https://01.komiku.asia](https://01.komiku.asia) |
+| ↳ [#16796] |  | 🅿️ | Komiku.cc `title 100%` | [https://komiku.cc](https://komiku.cc) |
+| [#16781](https://github.com/keiyoushi/extensions-source/issues/16781) Comicaso: Anti scrapping | Comicaso | ✅ | Comicaso `100%` | [https://v3.comicaso.pro](https://v3.comicaso.pro) |
+| ↳ [#16781] |  | ✅ | Omicaso `93%` | [https://omicaso.org](https://omicaso.org) |
+| [#16770](https://github.com/keiyoushi/extensions-source/issues/16770) Release date on the Ken Scans extension does not match the release date. | Ken Scans | ✅ | Ken Scans `100%` | [https://kencomics.com](https://kencomics.com) |
+| ↳ [#16770] |  | ✅ | Kewn Scans `95%` | [https://kewnscans.org](https://kewnscans.org) |
 | [#16550](https://github.com/keiyoushi/extensions-source/issues/16550) Comix: Downloads stalls at start | Comix 1.4.26 and PR #16517 | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
 | ↳ [#16550] |  | ✅ | GEDE Comix `title 100%` | [https://gedecomix.com](https://gedecomix.com) |
 | [#14842](https://github.com/keiyoushi/extensions-source/issues/14842) OneManga (th): new domain, site structure | OneManga | 🚧 | OneManga.info `100%` | [https://onemanga.info](https://onemanga.info) |
