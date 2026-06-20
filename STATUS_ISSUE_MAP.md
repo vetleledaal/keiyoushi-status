@@ -1,7 +1,7 @@
 # Bug Issue → Extension Map
 
-Matched: 138 of 139 open bug issues\
-Timestamp: `2026-06-19T01:42:00+00:00`
+Matched: 143 of 143 open bug issues\
+Timestamp: `2026-06-20T05:04:32+00:00`
 
 
 ## Exact match
@@ -11,7 +11,8 @@ Count: 115
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#16792](https://github.com/keiyoushi/extensions-source/issues/16792) Ikiru change url | Ikiru | 🚧 | Ikiru `100%` | [https://05.ikiru.wtf](https://05.ikiru.wtf) |
+| [#16818](https://github.com/keiyoushi/extensions-source/issues/16818) Error found http 410 | Goda | 🚧 | Goda `100%` | [https://manhuascans.org](https://manhuascans.org) |
+| [#16792](https://github.com/keiyoushi/extensions-source/issues/16792) Ikiru: New website URL (`06.ikiru.wtf`) | Ikiru | 🚧 | Ikiru `100%` | [https://05.ikiru.wtf](https://05.ikiru.wtf) |
 | [#16747](https://github.com/keiyoushi/extensions-source/issues/16747) Gensura filters not working | Gensura | ✅ | Gensura `100%` | [https://gensura.net](https://gensura.net) |
 | [#16704](https://github.com/keiyoushi/extensions-source/issues/16704) Erro imagem não encontrada Cerise scan | Cerise Scan | ✅ | Cerise Scan `100%` | [https://loverstoon.com](https://loverstoon.com) |
 | [#16703](https://github.com/keiyoushi/extensions-source/issues/16703) Permanece o erro de "URL No Imagens" na escan litter Tyrant | Little Tyrant | ✅ | Little Tyrant `100%` | [https://tiraninha.world](https://tiraninha.world) |
@@ -62,7 +63,6 @@ Count: 115
 | [#13291](https://github.com/keiyoushi/extensions-source/issues/13291) HentaiHand filter issue | HentaiHand | ✅ | HentaiHand `100%` | [https://hentaihand.com](https://hentaihand.com) |
 | [#13187](https://github.com/keiyoushi/extensions-source/issues/13187) Lycan Toons - erro | Lycan Toons | 🚧 | Lycan Toons `100%` | [https://lycantoons.com](https://lycantoons.com) |
 | [#13149](https://github.com/keiyoushi/extensions-source/issues/13149) Manhuaren (漫画人): WebView only displays API responses | 漫画人 | ✅ | 漫画人 `100%` | [http://mangaapi.manhuaren.com](http://mangaapi.manhuaren.com) |
-| [#13123](https://github.com/keiyoushi/extensions-source/issues/13123) URL Change for Lilyum fansub | LilyumFansub | ❌ | LilyumFansub `100%` | [https://lilyumfansub.com.tr](https://lilyumfansub.com.tr) |
 | [#13036](https://github.com/keiyoushi/extensions-source/issues/13036) Kagane: Implement rate limit | Kagane | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
 | [#12971](https://github.com/keiyoushi/extensions-source/issues/12971) Manga şehri.net: HTTP 500 error | Manga Şehri.net | ✅ | Manga Şehri.net `100%` | [https://manga-sehri.net](https://manga-sehri.net) |
 | [#12964](https://github.com/keiyoushi/extensions-source/issues/12964) incomplete pages niadd | Niadd | ✅ | Niadd `100%` | [https://br.niadd.com](https://br.niadd.com) |
@@ -88,7 +88,7 @@ Count: 115
 | [#10910](https://github.com/keiyoushi/extensions-source/issues/10910) 如漫画 / Rumanhua: `timeout` error, source is down | 如漫画 | ❌ | 如漫画 `100%` | [https://m.rumanhua2.com](https://m.rumanhua2.com) |
 | [#10793](https://github.com/keiyoushi/extensions-source/issues/10793) HentaiLib 403 error because of wrong API link | HentaiLib | 🚧 | HentaiLib `100%` | [https://hentailib.me](https://hentailib.me) |
 | [#10737](https://github.com/keiyoushi/extensions-source/issues/10737) Arabs Hentai : Change the chapter display format | هنتاي العرب | 🛑 | هنتاي العرب `url` | [https://arabshentai.com](https://arabshentai.com) |
-| [#10693](https://github.com/keiyoushi/extensions-source/issues/10693) 再漫画有些漫画出现Bad position的错误代码 | 再漫画 | ❌ | 再漫画 `100%` | [https://manhua.zaimanhua.com](https://manhua.zaimanhua.com) |
+| [#10693](https://github.com/keiyoushi/extensions-source/issues/10693) 再漫画有些漫画出现Bad position的错误代码 | 再漫画 | ✅ | 再漫画 `100%` | [https://manhua.zaimanhua.com](https://manhua.zaimanhua.com) |
 | [#10588](https://github.com/keiyoushi/extensions-source/issues/10588) Manga Hentai search function broken | Manga Hentai | ⚠️ | Manga Hentai `100%` | [https://mangahentai.me](https://mangahentai.me) |
 | [#10395](https://github.com/keiyoushi/extensions-source/issues/10395) NamiComi can't access paid chapters (that user is subscribed to) | NamiComi | ✅ | NamiComi `100%` | [https://namicomi.com](https://namicomi.com) |
 | [#10345](https://github.com/keiyoushi/extensions-source/issues/10345) Arabs Hentai: HTTP 403 | هنتاي العرب | 🛑 | هنتاي العرب `100%` | [https://arabshentai.com](https://arabshentai.com) |
@@ -130,14 +130,19 @@ Count: 115
 ## Single match
 
 
-Count: 4
+Count: 9
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#16777](https://github.com/keiyoushi/extensions-source/issues/16777) Erro 523 Scan Fleur blanche | Scan fleur blanche | ⚠️ | Fleur Blanche `100%` | [https://fbsquadx.com](https://fbsquadx.com) |
+| [#16832](https://github.com/keiyoushi/extensions-source/issues/16832) Beehentai Error | Beehentai | 🚧 | BeeHentai `100%` | [https://beehentai.com](https://beehentai.com) |
+| [#16827](https://github.com/keiyoushi/extensions-source/issues/16827) Language issue in the French mangakawaii source | MangaKawaii | 🛑 | Mangakawaii `100%` | [https://www.mangakawaii.io](https://www.mangakawaii.io) |
+| [#16822](https://github.com/keiyoushi/extensions-source/issues/16822) Comix: "open link in app" thing doesn't work | comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
+| [#16821](https://github.com/keiyoushi/extensions-source/issues/16821) UTOON : ‘No chapter found’ error | UTOON | 🛑 | Utoon `100%` | [https://utoon.net](https://utoon.net) |
+| [#16819](https://github.com/keiyoushi/extensions-source/issues/16819) zh.kuaikanmanhua失效 | kuaikanmanhua | ✅ | 快看漫画 `gh:body→kt:name 100%` | [https://www.kuaikanmanhua.com](https://www.kuaikanmanhua.com) |
+| [#16777](https://github.com/keiyoushi/extensions-source/issues/16777) Erro 523 Scan Fleur blanche | Scan fleur blanche | ✅ | Fleur Blanche `100%` | [https://fbsquadx.com](https://fbsquadx.com) |
 | [#16769](https://github.com/keiyoushi/extensions-source/issues/16769) LeerMangaEsp - Chapters load but pages fail to load | Source: LeerMangaEsp Version: | ✅ | LeerMangaEsp `url` | [https://leermangaesp.net](https://leermangaesp.net) |
 | [#16710](https://github.com/keiyoushi/extensions-source/issues/16710) Lycan Toons: `HTTP 403` error | Lycantoons | 🚧 | Lycan Toons `gh:body→kt:dir gh:body→kt:class 100%` | [https://lycantoons.com](https://lycantoons.com) |
-| [#16688](https://github.com/keiyoushi/extensions-source/issues/16688) tr.siyahmelek :domain changed | tr.siyahmelek | 🔀 | Siyah Melek `gh:body→kt:class gh:body→kt:dir 100%` | [https://siyahmelek.vip](https://siyahmelek.vip) |
+| [#16688](https://github.com/keiyoushi/extensions-source/issues/16688) tr.siyahmelek :domain changed | tr.siyahmelek | 🔀 | Siyah Melek `gh:body→kt:dir gh:body→kt:class 100%` | [https://siyahmelek.vip](https://siyahmelek.vip) |
 
 ## Multiple matches
 
@@ -146,13 +151,12 @@ Count: 19
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#16796](https://github.com/keiyoushi/extensions-source/issues/16796) Komiku: `HTTP 403` error with chapter images | tachiomi: komiku | ✅ | Komiku `100%` | [https://komiku.org](https://komiku.org) |
-| ↳ [#16796] |  | 🚧 | Komiku.com `title 100%` | [https://01.komiku.asia](https://01.komiku.asia) |
-| ↳ [#16796] |  | 🅿️ | Komiku.cc `title 100%` | [https://komiku.cc](https://komiku.cc) |
+| [#16830](https://github.com/keiyoushi/extensions-source/issues/16830) Reset Scans: Title of entries not loading automatically | Reset Scans | ✅ | Reset Scans `100%` | [https://reset-scans.org](https://reset-scans.org) |
+| ↳ [#16830] |  | ⚠️ | Rest Scans `95%` | [https://restscans.com](https://restscans.com) |
+| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ⚠️ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
+| ↳ [#16816] |  | ✅ | NTR-Manga `94%` | [https://www.ntr-manga.net](https://www.ntr-manga.net) |
 | [#16781](https://github.com/keiyoushi/extensions-source/issues/16781) Comicaso: Anti scrapping | Comicaso | ✅ | Comicaso `100%` | [https://v3.comicaso.pro](https://v3.comicaso.pro) |
 | ↳ [#16781] |  | ✅ | Omicaso `93%` | [https://omicaso.org](https://omicaso.org) |
-| [#16770](https://github.com/keiyoushi/extensions-source/issues/16770) Release date on the Ken Scans extension does not match the release date. | Ken Scans | ✅ | Ken Scans `100%` | [https://kencomics.com](https://kencomics.com) |
-| ↳ [#16770] |  | ✅ | Kewn Scans `95%` | [https://kewnscans.org](https://kewnscans.org) |
 | [#16550](https://github.com/keiyoushi/extensions-source/issues/16550) Comix: Downloads stalls at start | Comix 1.4.26 and PR #16517 | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
 | ↳ [#16550] |  | ✅ | GEDE Comix `title 100%` | [https://gedecomix.com](https://gedecomix.com) |
 | [#14842](https://github.com/keiyoushi/extensions-source/issues/14842) OneManga (th): new domain, site structure | OneManga | 🚧 | OneManga.info `100%` | [https://onemanga.info](https://onemanga.info) |
@@ -167,7 +171,7 @@ Count: 19
 | ↳ [#13111] |  | ✅ | ComicK Fanmade `100%` | [https://comickfan.com](https://comickfan.com) |
 | [#13099](https://github.com/keiyoushi/extensions-source/issues/13099) Mangadex - Use Alternative Titles setting does not keep the alternative titles past the search result | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
 | ↳ [#13099] |  | ✅ | MangaDE `93%` | [https://mangade.io](https://mangade.io) |
-| [#13002](https://github.com/keiyoushi/extensions-source/issues/13002) Phenix Scans - URL change | PhenixScans | ❌ | Phenix Scans `gh:body→kt:name 100%` | [https://phenix-scans.com](https://phenix-scans.com) |
+| [#13002](https://github.com/keiyoushi/extensions-source/issues/13002) Phenix Scans - URL change | PhenixScans | 🅿️ | Phenix Scans `gh:body→kt:name 100%` | [https://phenix-scans.com](https://phenix-scans.com) |
 | ↳ [#13002] |  | ✅ | Phoenix Scans `gh:body→kt:name 96%` | [https://www.phoenixscans.com](https://www.phoenixscans.com) |
 | [#12459](https://github.com/keiyoushi/extensions-source/issues/12459) Comick (unoriginal): `Unexpected JSON token` error in specific entry | Comick | ✅ | Comick (Unoriginal) `url` | [https://comick.live](https://comick.live) |
 | ↳ [#12459] |  | ✅ | ComicK Fanmade `100%` | [https://comickfan.com](https://comickfan.com) |
@@ -191,8 +195,7 @@ Count: 19
 ## No match
 
 
-Count: 1
+Count: 0
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#16280](https://github.com/keiyoushi/extensions-source/issues/16280) Error Asuka Langley Translations | Asuka Langley Translations | | | |
