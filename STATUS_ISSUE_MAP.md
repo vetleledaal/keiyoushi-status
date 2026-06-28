@@ -1,20 +1,26 @@
 # Bug Issue → Extension Map
 
-Matched: 139 of 141 open bug issues\
-Timestamp: `2026-06-27T04:55:53+00:00`
+Matched: 146 of 152 open bug issues\
+Timestamp: `2026-06-28T04:23:19+00:00`
 
 
 ## Exact match
 
 
-Count: 115
+Count: 121
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17028](https://github.com/keiyoushi/extensions-source/issues/17028) Comix scrambling panels | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
-| [#17012](https://github.com/keiyoushi/extensions-source/issues/17012) ReadComicOnline: Incorrect chapter images, `HTTP 400` error with chapter images | ReadComicOnline | ✅ | ReadComicOnline `100%` | [https://rcostation.xyz](https://rcostation.xyz) |
+| [#17059](https://github.com/keiyoushi/extensions-source/issues/17059) ReYume returns NullPointerException | ReYume | ✅ | ReYume `100%` | [https://www.re-yume.my.id](https://www.re-yume.my.id) |
+| [#17056](https://github.com/keiyoushi/extensions-source/issues/17056) Error Plot twist no fansub (ES) | Plot Twist No Fansub | ✅ | Plot Twist No Fansub `100%` | [https://plotnofansub.com](https://plotnofansub.com) |
+| [#17052](https://github.com/keiyoushi/extensions-source/issues/17052) [Bug] Dilar extension chapters replace instead of merge on refresh | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
+| [#17049](https://github.com/keiyoushi/extensions-source/issues/17049) Rncalation - NullPointerException | Rncalation | ✅ | Rncalation `100%` | [https://rncalation.online](https://rncalation.online) |
+| [#17042](https://github.com/keiyoushi/extensions-source/issues/17042) [ID] Doujindesu: "END" status tag is missing from ALL completed chapters across all series | Doujindesu | 🚧 | Doujindesu `100%` | [https://doujin.desu.xxx](https://doujin.desu.xxx) |
+| [#17041](https://github.com/keiyoushi/extensions-source/issues/17041) Cbhentai incomplete chapters | CBHentai | 🚧 | CBHentai `100%` | [https://2tencb.pro](https://2tencb.pro) |
+| [#17039](https://github.com/keiyoushi/extensions-source/issues/17039) Aqua manga not working properly | Aqua Manga | 🚧 | Aqua Manga `100%` | [https://aquareader.org](https://aquareader.org) |
+| [#17037](https://github.com/keiyoushi/extensions-source/issues/17037) Little Tirant erro No Image URLs | Little Tyrant | ✅ | Little Tyrant `100%` | [https://tiraninha.world](https://tiraninha.world) |
+| [#17008](https://github.com/keiyoushi/extensions-source/issues/17008) Lunar Manga (Multi) solve captcha in web view not working | Lunar Manga | ✅ | Lunar Manga `100%` | [https://lunaranime.ru](https://lunaranime.ru) |
 | [#16993](https://github.com/keiyoushi/extensions-source/issues/16993) Kagane issue no result found | Kagane | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
-| [#16965](https://github.com/keiyoushi/extensions-source/issues/16965) Opiatoon url changed | Opiatoon | 🔀 | Opiatoon `100%` | [https://opiatoon.lat](https://opiatoon.lat) |
 | [#16945](https://github.com/keiyoushi/extensions-source/issues/16945) Error Niadd | Niadd | ✅ | Niadd `100%` | [https://br.niadd.com](https://br.niadd.com) |
 | [#16931](https://github.com/keiyoushi/extensions-source/issues/16931) Gracefully handle 're-indexed' chapters | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
 | [#16897](https://github.com/keiyoushi/extensions-source/issues/16897) Leitor de Mangas: `HTTP 404` error | Leitor de Mangas | ⚠️ | Leitor de Mangas `100%` | [https://leitordemangas.com](https://leitordemangas.com) |
@@ -23,7 +29,7 @@ Count: 115
 | [#16878](https://github.com/keiyoushi/extensions-source/issues/16878) [Zazamanga] Filter by genre search not functioning correctly | Zazamanga | ✅ | Zazamanga `100%` | [https://www.zazamanga.com](https://www.zazamanga.com) |
 | [#16870](https://github.com/keiyoushi/extensions-source/issues/16870) Data Saver in Kagane Extension settings is Broken Need To Be Fixed! | Kagane | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
 | [#16857](https://github.com/keiyoushi/extensions-source/issues/16857) Webdex Scans: Issues with premium status evaluation & shifting series URL slugs | Webdex Scans | ✅ | Webdex Scans `url` | [https://webdexscans.com](https://webdexscans.com) |
-| [#16747](https://github.com/keiyoushi/extensions-source/issues/16747) Gensura filters not working | Gensura | ⚠️ | Gensura `100%` | [https://gensura.net](https://gensura.net) |
+| [#16747](https://github.com/keiyoushi/extensions-source/issues/16747) Gensura filters not working | Gensura | ✅ | Gensura `100%` | [https://gensura.net](https://gensura.net) |
 | [#16704](https://github.com/keiyoushi/extensions-source/issues/16704) Erro imagem não encontrada Cerise scan | Cerise Scan | ✅ | Cerise Scan `100%` | [https://loverstoon.com](https://loverstoon.com) |
 | [#16703](https://github.com/keiyoushi/extensions-source/issues/16703) Permanece o erro de "URL No Imagens" na escan litter Tyrant | Little Tyrant | ✅ | Little Tyrant `100%` | [https://tiraninha.world](https://tiraninha.world) |
 | [#16674](https://github.com/keiyoushi/extensions-source/issues/16674) Webtoon extension error | Webtoons.com | ✅ | Webtoons.com `100%` | [https://www.webtoons.com](https://www.webtoons.com) |
@@ -130,12 +136,13 @@ Count: 115
 ## Single match
 
 
-Count: 10
+Count: 11
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17048](https://github.com/keiyoushi/extensions-source/issues/17048) Lycantoons [WebView]: HTTP 403 | Lycantoons | 🛑 | Lycan Toons `95%` | [https://lycantoons.com](https://lycantoons.com) |
+| [#17043](https://github.com/keiyoushi/extensions-source/issues/17043) Jeaz Scan Error: IllegalArgumentException: Expected URL scheme 'http' or 'https' but was 'data' | Jeaz scans | 🚧 | Jeaz Scans `100%` | [https://lectorhub.j5z.xyz](https://lectorhub.j5z.xyz) |
 | [#17025](https://github.com/keiyoushi/extensions-source/issues/17025) Manga  livre Error 403 | Manga livre | 🚧 | Manga Livre `100%` | [https://toonlivre.net](https://toonlivre.net) |
-| [#17017](https://github.com/keiyoushi/extensions-source/issues/17017) ​[ID] DoujinDesu: HTTP 404 error on specific chapter URLs | DoujinDesu | 🚧 | Doujindesu `100%` | [https://doujin.desu.xxx](https://doujin.desu.xxx) |
 | [#17015](https://github.com/keiyoushi/extensions-source/issues/17015) NullPointerException when loading manga details for 不良指导官 | Goda comic cn | 🚧 | Goda `100%` | [https://manhuascans.org](https://manhuascans.org) |
 | [#16966](https://github.com/keiyoushi/extensions-source/issues/16966) Nivera Fansub url changed | Nivera fansub | 🔀 | Nivera Fansub `100%` | [https://niverafansub.lol](https://niverafansub.lol) |
 | [#16928](https://github.com/keiyoushi/extensions-source/issues/16928) The mangbz plugin is not working properly. | tachiyomi-zh.mangabz-v1.4.14.apk | ✅ | Mangabz `100%` | [https://mangabz.com](https://mangabz.com) |
@@ -156,7 +163,7 @@ Count: 14
 | ↳ [#17021] |  | ✅ | Kuro Manga `90%` | [https://kuromanga.me](https://kuromanga.me) |
 | [#16879](https://github.com/keiyoushi/extensions-source/issues/16879) [Bug] Ragnar Scans (TR) - Domain changed to .net / New chapters not loading | RagnarScans | 🚧 | Ragnar Scans `100%` | [https://ragnarscans.com](https://ragnarscans.com) |
 | ↳ [#16879] |  | ✅ | Ragna Scans `91%` | [https://lector.ragnascan.xyz](https://lector.ragnascan.xyz) |
-| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ⚠️ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
+| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ✅ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
 | ↳ [#16816] |  | ✅ | NTR-Manga `94%` | [https://www.ntr-manga.net](https://www.ntr-manga.net) |
 | [#13854](https://github.com/keiyoushi/extensions-source/issues/13854) Pixiv Comic does not find all available manga | Pixiv Comic | ✅ | Pixivコミック `url` | [https://comic.pixiv.net](https://comic.pixiv.net) |
 | ↳ [#13854] |  | 🚧 | Pixiv `100%` | [https://www.pixiv.net](https://www.pixiv.net) |
@@ -184,9 +191,13 @@ Count: 14
 ## No match
 
 
-Count: 2
+Count: 6
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17064](https://github.com/keiyoushi/extensions-source/issues/17064) App closes when searching with DigitalComicMuseum installed | DigitalComicMuseum | | | |
+| [#17055](https://github.com/keiyoushi/extensions-source/issues/17055) HTTP error 500 popular/recent/serch | HTTP error 500 popular/recent/serch | | | |
+| [#17054](https://github.com/keiyoushi/extensions-source/issues/17054) Lerhentais | Lerhetais | | | |
+| [#17050](https://github.com/keiyoushi/extensions-source/issues/17050) IkigaiMangas error Https 500 | IkigaiMangas error Https 500 | | | |
 | [#16688](https://github.com/keiyoushi/extensions-source/issues/16688) tr.siyahmelek :domain changed | tr.siyahmelek | | | |
 | [#10099](https://github.com/keiyoushi/extensions-source/issues/10099) Bug - VMP (NSFW) - No comics scrolling, no search and no tags | VCPVMP | | | |
