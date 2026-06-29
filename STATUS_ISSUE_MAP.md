@@ -1,25 +1,31 @@
 # Bug Issue → Extension Map
 
-Matched: 146 of 152 open bug issues\
-Timestamp: `2026-06-28T04:23:19+00:00`
+Matched: 149 of 155 open bug issues\
+Timestamp: `2026-06-29T08:22:10+00:00`
 
 
 ## Exact match
 
 
-Count: 121
+Count: 126
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17098](https://github.com/keiyoushi/extensions-source/issues/17098) Yupmanga: cannot read property 'elements' of null error | Yupmanga | ✅ | Yupmanga `100%` | [https://www.yupmanga.com](https://www.yupmanga.com) |
+| [#17094](https://github.com/keiyoushi/extensions-source/issues/17094) I've encountered several errors in Manga Crab | Manga Crab | ✅ | Manga Crab `100%` | [https://mangacrab.org](https://mangacrab.org) |
+| [#17093](https://github.com/keiyoushi/extensions-source/issues/17093) I've encountered several errors in BarManga | BarManga | ✅ | BarManga `100%` | [https://archiviumbar.com](https://archiviumbar.com) |
+| [#17092](https://github.com/keiyoushi/extensions-source/issues/17092) CosmicScans.id (ID): update structure | CosmicScans.id | 🔀 | CosmicScans.id `100%` | [https://lc1.cosmicscans.to](https://lc1.cosmicscans.to) |
+| [#17086](https://github.com/keiyoushi/extensions-source/issues/17086) chapter list reset on refresh | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
+| [#17085](https://github.com/keiyoushi/extensions-source/issues/17085) Lavinia Fansub url changed | Lavinia Fansub | 🔀 | Lavinia Fansub `100%` | [https://laviniafansub.pro](https://laviniafansub.pro) |
+| [#17084](https://github.com/keiyoushi/extensions-source/issues/17084) Opiatoon url changed | Opiatoon | 🔀 | Opiatoon `100%` | [https://opiatoon.pics](https://opiatoon.pics) |
+| [#17079](https://github.com/keiyoushi/extensions-source/issues/17079) Upload date issue | Aqua Manga | 🚧 | Aqua Manga `100%` | [https://aquareader.org](https://aquareader.org) |
+| [#17075](https://github.com/keiyoushi/extensions-source/issues/17075) Lunar Manga Solve Captcha in webview does not working | Lunar Manga | ✅ | Lunar Manga `100%` | [https://lunaranime.ru](https://lunaranime.ru) |
+| [#17072](https://github.com/keiyoushi/extensions-source/issues/17072) mikoroku | MikoRoku | 🔀 | MikoRoku `url` | [https://www.mikoroku.com](https://www.mikoroku.com) |
 | [#17059](https://github.com/keiyoushi/extensions-source/issues/17059) ReYume returns NullPointerException | ReYume | ✅ | ReYume `100%` | [https://www.re-yume.my.id](https://www.re-yume.my.id) |
 | [#17056](https://github.com/keiyoushi/extensions-source/issues/17056) Error Plot twist no fansub (ES) | Plot Twist No Fansub | ✅ | Plot Twist No Fansub `100%` | [https://plotnofansub.com](https://plotnofansub.com) |
 | [#17052](https://github.com/keiyoushi/extensions-source/issues/17052) [Bug] Dilar extension chapters replace instead of merge on refresh | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
-| [#17049](https://github.com/keiyoushi/extensions-source/issues/17049) Rncalation - NullPointerException | Rncalation | ✅ | Rncalation `100%` | [https://rncalation.online](https://rncalation.online) |
-| [#17042](https://github.com/keiyoushi/extensions-source/issues/17042) [ID] Doujindesu: "END" status tag is missing from ALL completed chapters across all series | Doujindesu | 🚧 | Doujindesu `100%` | [https://doujin.desu.xxx](https://doujin.desu.xxx) |
+| [#17049](https://github.com/keiyoushi/extensions-source/issues/17049) Rncalation - NullPointerException | Rncalation | 🚧 | Rncalation `100%` | [https://rncalation.online](https://rncalation.online) |
 | [#17041](https://github.com/keiyoushi/extensions-source/issues/17041) Cbhentai incomplete chapters | CBHentai | 🚧 | CBHentai `100%` | [https://2tencb.pro](https://2tencb.pro) |
-| [#17039](https://github.com/keiyoushi/extensions-source/issues/17039) Aqua manga not working properly | Aqua Manga | 🚧 | Aqua Manga `100%` | [https://aquareader.org](https://aquareader.org) |
-| [#17037](https://github.com/keiyoushi/extensions-source/issues/17037) Little Tirant erro No Image URLs | Little Tyrant | ✅ | Little Tyrant `100%` | [https://tiraninha.world](https://tiraninha.world) |
-| [#17008](https://github.com/keiyoushi/extensions-source/issues/17008) Lunar Manga (Multi) solve captcha in web view not working | Lunar Manga | ✅ | Lunar Manga `100%` | [https://lunaranime.ru](https://lunaranime.ru) |
 | [#16993](https://github.com/keiyoushi/extensions-source/issues/16993) Kagane issue no result found | Kagane | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
 | [#16945](https://github.com/keiyoushi/extensions-source/issues/16945) Error Niadd | Niadd | ✅ | Niadd `100%` | [https://br.niadd.com](https://br.niadd.com) |
 | [#16931](https://github.com/keiyoushi/extensions-source/issues/16931) Gracefully handle 're-indexed' chapters | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
@@ -47,7 +53,6 @@ Count: 121
 | [#16048](https://github.com/keiyoushi/extensions-source/issues/16048) Holotoon 404 not found on Mihon but still accessible from Webview | Holotoon | 🚧 | Holotoon `100%` | [https://01.holotoon.site](https://01.holotoon.site) |
 | [#15950](https://github.com/keiyoushi/extensions-source/issues/15950) New chapters are not appearing in AnimeXNovel. | AnimeXNovel | ✅ | AnimeXNovel `100%` | [https://www.animexnovel.com](https://www.animexnovel.com) |
 | [#15919](https://github.com/keiyoushi/extensions-source/issues/15919) Mediocre Toons API Changed? Some Chapters Not Showing in Recent Updates | Mediocre Toons | ✅ | Mediocre Toons `100%` | [https://mediocrescan.com](https://mediocrescan.com) |
-| [#15864](https://github.com/keiyoushi/extensions-source/issues/15864) Plot Twist no Fansub: `No results found`, `Manga title not found`, `No pages found` error | Plot Twist No Fansub | ✅ | Plot Twist No Fansub `100%` | [https://plotnofansub.com](https://plotnofansub.com) |
 | [#15858](https://github.com/keiyoushi/extensions-source/issues/15858) LinkManga: `Failed to bypass Cloudflare` error | LinkManga | 🚧 | LinkManga `100%` | [https://linkmanga.com](https://linkmanga.com) |
 | [#15824](https://github.com/keiyoushi/extensions-source/issues/15824) MikoRoku: `Unexpected JSON token` error | MikoRoku | 🔀 | MikoRoku `100%` | [https://www.mikoroku.com](https://www.mikoroku.com) |
 | [#15762](https://github.com/keiyoushi/extensions-source/issues/15762) MangaIsekaiThai: The image couldn't be loaded and display scrambled in WebView (Panel misplacement) | MangaIsekaiThai | ✅ | MangaIsekaiThai `100%` | [https://www.mangaisekaithai.net](https://www.mangaisekaithai.net) |
@@ -136,12 +141,11 @@ Count: 121
 ## Single match
 
 
-Count: 11
+Count: 10
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17048](https://github.com/keiyoushi/extensions-source/issues/17048) Lycantoons [WebView]: HTTP 403 | Lycantoons | 🛑 | Lycan Toons `95%` | [https://lycantoons.com](https://lycantoons.com) |
-| [#17043](https://github.com/keiyoushi/extensions-source/issues/17043) Jeaz Scan Error: IllegalArgumentException: Expected URL scheme 'http' or 'https' but was 'data' | Jeaz scans | 🚧 | Jeaz Scans `100%` | [https://lectorhub.j5z.xyz](https://lectorhub.j5z.xyz) |
+| [#17097](https://github.com/keiyoushi/extensions-source/issues/17097) Bloomscans IllegalArgumentException | Bloom Scans 1.4. | ✅ | Bloom Scans `100%` | [https://bloomscans.com](https://bloomscans.com) |
 | [#17025](https://github.com/keiyoushi/extensions-source/issues/17025) Manga  livre Error 403 | Manga livre | 🚧 | Manga Livre `100%` | [https://toonlivre.net](https://toonlivre.net) |
 | [#17015](https://github.com/keiyoushi/extensions-source/issues/17015) NullPointerException when loading manga details for 不良指导官 | Goda comic cn | 🚧 | Goda `100%` | [https://manhuascans.org](https://manhuascans.org) |
 | [#16966](https://github.com/keiyoushi/extensions-source/issues/16966) Nivera Fansub url changed | Nivera fansub | 🔀 | Nivera Fansub `100%` | [https://niverafansub.lol](https://niverafansub.lol) |
@@ -155,15 +159,13 @@ Count: 11
 ## Multiple matches
 
 
-Count: 14
+Count: 13
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17021](https://github.com/keiyoushi/extensions-source/issues/17021) KuroMangas - Cookies expired | KuroMangas | 🚧 | KuroMangas `100%` | [https://kuromangas.com](https://kuromangas.com) |
-| ↳ [#17021] |  | ✅ | Kuro Manga `90%` | [https://kuromanga.me](https://kuromanga.me) |
 | [#16879](https://github.com/keiyoushi/extensions-source/issues/16879) [Bug] Ragnar Scans (TR) - Domain changed to .net / New chapters not loading | RagnarScans | 🚧 | Ragnar Scans `100%` | [https://ragnarscans.com](https://ragnarscans.com) |
 | ↳ [#16879] |  | ✅ | Ragna Scans `91%` | [https://lector.ragnascan.xyz](https://lector.ragnascan.xyz) |
-| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ✅ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
+| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ⚠️ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
 | ↳ [#16816] |  | ✅ | NTR-Manga `94%` | [https://www.ntr-manga.net](https://www.ntr-manga.net) |
 | [#13854](https://github.com/keiyoushi/extensions-source/issues/13854) Pixiv Comic does not find all available manga | Pixiv Comic | ✅ | Pixivコミック `url` | [https://comic.pixiv.net](https://comic.pixiv.net) |
 | ↳ [#13854] |  | 🚧 | Pixiv `100%` | [https://www.pixiv.net](https://www.pixiv.net) |
