@@ -1,31 +1,30 @@
 # Bug Issue → Extension Map
 
-Matched: 149 of 155 open bug issues\
-Timestamp: `2026-06-29T08:22:10+00:00`
+Matched: 149 of 152 open bug issues\
+Timestamp: `2026-06-30T04:47:54+00:00`
 
 
 ## Exact match
 
 
-Count: 126
+Count: 125
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17124](https://github.com/keiyoushi/extensions-source/issues/17124) Yaoihub: New website URL (`yaoihub.org`) | Yaoihub | 🔀 | Yaoihub `100%` | [https://yaoihub.net](https://yaoihub.net) |
+| [#17120](https://github.com/keiyoushi/extensions-source/issues/17120) Dokiraw: New website URL (`dokiraw.win`) | Dokiraw | 🔀 | Dokiraw `100%` | [https://dokiraw.cloud](https://dokiraw.cloud) |
+| [#17118](https://github.com/keiyoushi/extensions-source/issues/17118) Raw18: New website URL (`raw18.cool`) | Raw18 | 🔀 | Raw18 `100%` | [https://raw18.tax](https://raw18.tax) |
+| [#17115](https://github.com/keiyoushi/extensions-source/issues/17115) URL change report | Azora | 🔀 | Azora `100%` | [https://azoramoon.com](https://azoramoon.com) |
+| [#17110](https://github.com/keiyoushi/extensions-source/issues/17110) Rncalation: `Attempt to invoke virtual method` error in series | Rncalation | 🚧 | Rncalation `100%` | [https://rncalation.online](https://rncalation.online) |
 | [#17098](https://github.com/keiyoushi/extensions-source/issues/17098) Yupmanga: cannot read property 'elements' of null error | Yupmanga | ✅ | Yupmanga `100%` | [https://www.yupmanga.com](https://www.yupmanga.com) |
 | [#17094](https://github.com/keiyoushi/extensions-source/issues/17094) I've encountered several errors in Manga Crab | Manga Crab | ✅ | Manga Crab `100%` | [https://mangacrab.org](https://mangacrab.org) |
 | [#17093](https://github.com/keiyoushi/extensions-source/issues/17093) I've encountered several errors in BarManga | BarManga | ✅ | BarManga `100%` | [https://archiviumbar.com](https://archiviumbar.com) |
 | [#17092](https://github.com/keiyoushi/extensions-source/issues/17092) CosmicScans.id (ID): update structure | CosmicScans.id | 🔀 | CosmicScans.id `100%` | [https://lc1.cosmicscans.to](https://lc1.cosmicscans.to) |
 | [#17086](https://github.com/keiyoushi/extensions-source/issues/17086) chapter list reset on refresh | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
-| [#17085](https://github.com/keiyoushi/extensions-source/issues/17085) Lavinia Fansub url changed | Lavinia Fansub | 🔀 | Lavinia Fansub `100%` | [https://laviniafansub.pro](https://laviniafansub.pro) |
-| [#17084](https://github.com/keiyoushi/extensions-source/issues/17084) Opiatoon url changed | Opiatoon | 🔀 | Opiatoon `100%` | [https://opiatoon.pics](https://opiatoon.pics) |
-| [#17079](https://github.com/keiyoushi/extensions-source/issues/17079) Upload date issue | Aqua Manga | 🚧 | Aqua Manga `100%` | [https://aquareader.org](https://aquareader.org) |
-| [#17075](https://github.com/keiyoushi/extensions-source/issues/17075) Lunar Manga Solve Captcha in webview does not working | Lunar Manga | ✅ | Lunar Manga `100%` | [https://lunaranime.ru](https://lunaranime.ru) |
 | [#17072](https://github.com/keiyoushi/extensions-source/issues/17072) mikoroku | MikoRoku | 🔀 | MikoRoku `url` | [https://www.mikoroku.com](https://www.mikoroku.com) |
 | [#17059](https://github.com/keiyoushi/extensions-source/issues/17059) ReYume returns NullPointerException | ReYume | ✅ | ReYume `100%` | [https://www.re-yume.my.id](https://www.re-yume.my.id) |
 | [#17056](https://github.com/keiyoushi/extensions-source/issues/17056) Error Plot twist no fansub (ES) | Plot Twist No Fansub | ✅ | Plot Twist No Fansub `100%` | [https://plotnofansub.com](https://plotnofansub.com) |
 | [#17052](https://github.com/keiyoushi/extensions-source/issues/17052) [Bug] Dilar extension chapters replace instead of merge on refresh | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
-| [#17049](https://github.com/keiyoushi/extensions-source/issues/17049) Rncalation - NullPointerException | Rncalation | 🚧 | Rncalation `100%` | [https://rncalation.online](https://rncalation.online) |
-| [#17041](https://github.com/keiyoushi/extensions-source/issues/17041) Cbhentai incomplete chapters | CBHentai | 🚧 | CBHentai `100%` | [https://2tencb.pro](https://2tencb.pro) |
 | [#16993](https://github.com/keiyoushi/extensions-source/issues/16993) Kagane issue no result found | Kagane | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
 | [#16945](https://github.com/keiyoushi/extensions-source/issues/16945) Error Niadd | Niadd | ✅ | Niadd `100%` | [https://br.niadd.com](https://br.niadd.com) |
 | [#16931](https://github.com/keiyoushi/extensions-source/issues/16931) Gracefully handle 're-indexed' chapters | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
@@ -48,7 +47,7 @@ Count: 126
 | [#16255](https://github.com/keiyoushi/extensions-source/issues/16255) Error 500 EternalMangas | EternalMangas | 🚧 | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
 | [#16217](https://github.com/keiyoushi/extensions-source/issues/16217) Flower manga doesn't show recent releases and the search returns empty. | FlowerManga.net | 🚧 | FlowerManga.net `100%` | [https://flowermangas.net](https://flowermangas.net) |
 | [#16201](https://github.com/keiyoushi/extensions-source/issues/16201) Kagane: Latest/Popular shows excluded genres on first load | Kagane | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
-| [#16145](https://github.com/keiyoushi/extensions-source/issues/16145) Images do not load in COOMER and KEMONO | Coomer | ❌ | Coomer `100%` | [https://coomer.st](https://coomer.st) |
+| [#16145](https://github.com/keiyoushi/extensions-source/issues/16145) Images do not load in COOMER and KEMONO | Coomer | ✅ | Coomer `100%` | [https://coomer.st](https://coomer.st) |
 | [#16092](https://github.com/keiyoushi/extensions-source/issues/16092) Cerise Scan: changing the domain from .com to .net | Cerise Scan | ✅ | Cerise Scan `100%` | [https://loverstoon.com](https://loverstoon.com) |
 | [#16048](https://github.com/keiyoushi/extensions-source/issues/16048) Holotoon 404 not found on Mihon but still accessible from Webview | Holotoon | 🚧 | Holotoon `100%` | [https://01.holotoon.site](https://01.holotoon.site) |
 | [#15950](https://github.com/keiyoushi/extensions-source/issues/15950) New chapters are not appearing in AnimeXNovel. | AnimeXNovel | ✅ | AnimeXNovel `100%` | [https://www.animexnovel.com](https://www.animexnovel.com) |
@@ -141,12 +140,11 @@ Count: 126
 ## Single match
 
 
-Count: 10
+Count: 9
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17097](https://github.com/keiyoushi/extensions-source/issues/17097) Bloomscans IllegalArgumentException | Bloom Scans 1.4. | ✅ | Bloom Scans `100%` | [https://bloomscans.com](https://bloomscans.com) |
-| [#17025](https://github.com/keiyoushi/extensions-source/issues/17025) Manga  livre Error 403 | Manga livre | 🚧 | Manga Livre `100%` | [https://toonlivre.net](https://toonlivre.net) |
+| [#17097](https://github.com/keiyoushi/extensions-source/issues/17097) Bloomscans IllegalArgumentException | Bloom Scans 1.4. | ⚠️ | Bloom Scans `100%` | [https://bloomscans.com](https://bloomscans.com) |
 | [#17015](https://github.com/keiyoushi/extensions-source/issues/17015) NullPointerException when loading manga details for 不良指导官 | Goda comic cn | 🚧 | Goda `100%` | [https://manhuascans.org](https://manhuascans.org) |
 | [#16966](https://github.com/keiyoushi/extensions-source/issues/16966) Nivera Fansub url changed | Nivera fansub | 🔀 | Nivera Fansub `100%` | [https://niverafansub.lol](https://niverafansub.lol) |
 | [#16928](https://github.com/keiyoushi/extensions-source/issues/16928) The mangbz plugin is not working properly. | tachiyomi-zh.mangabz-v1.4.14.apk | ✅ | Mangabz `100%` | [https://mangabz.com](https://mangabz.com) |
@@ -159,10 +157,15 @@ Count: 10
 ## Multiple matches
 
 
-Count: 13
+Count: 15
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17125](https://github.com/keiyoushi/extensions-source/issues/17125) Manga Online: New website URL (`mangaonline.blue`) | Manga Online | ✅ | Kun Manga Online `100%` | [https://www.kunmanga.online](https://www.kunmanga.online) |
+| ↳ [#17125] |  | ✅ | Read Chainsaw Man Manga Online `100%` | [https://ww5.readchainsawman.com](https://ww5.readchainsawman.com) |
+| ↳ [#17125] |  | ✅ | Read Fairy Tail & Edens Zero Manga Online `100%` | [https://ww8.readfairytail.com](https://ww8.readfairytail.com) |
+| [#17122](https://github.com/keiyoushi/extensions-source/issues/17122) Kuroi Manga: New website URL (`kuroimanga.best`) | Kuroi Manga | 🔀 | Kuroi Manga `100%` | [https://www.kuroimanga.mom](https://www.kuroimanga.mom) |
+| ↳ [#17122] |  | ✅ | Kuro Manga `95%` | [https://kuromanga.me](https://kuromanga.me) |
 | [#16879](https://github.com/keiyoushi/extensions-source/issues/16879) [Bug] Ragnar Scans (TR) - Domain changed to .net / New chapters not loading | RagnarScans | 🚧 | Ragnar Scans `100%` | [https://ragnarscans.com](https://ragnarscans.com) |
 | ↳ [#16879] |  | ✅ | Ragna Scans `91%` | [https://lector.ragnascan.xyz](https://lector.ragnascan.xyz) |
 | [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ⚠️ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
@@ -193,13 +196,10 @@ Count: 13
 ## No match
 
 
-Count: 6
+Count: 3
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17064](https://github.com/keiyoushi/extensions-source/issues/17064) App closes when searching with DigitalComicMuseum installed | DigitalComicMuseum | | | |
 | [#17055](https://github.com/keiyoushi/extensions-source/issues/17055) HTTP error 500 popular/recent/serch | HTTP error 500 popular/recent/serch | | | |
-| [#17054](https://github.com/keiyoushi/extensions-source/issues/17054) Lerhentais | Lerhetais | | | |
-| [#17050](https://github.com/keiyoushi/extensions-source/issues/17050) IkigaiMangas error Https 500 | IkigaiMangas error Https 500 | | | |
 | [#16688](https://github.com/keiyoushi/extensions-source/issues/16688) tr.siyahmelek :domain changed | tr.siyahmelek | | | |
 | [#10099](https://github.com/keiyoushi/extensions-source/issues/10099) Bug - VMP (NSFW) - No comics scrolling, no search and no tags | VCPVMP | | | |
