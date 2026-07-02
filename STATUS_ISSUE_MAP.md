@@ -1,16 +1,21 @@
 # Bug Issue → Extension Map
 
-Matched: 147 of 149 open bug issues\
-Timestamp: `2026-07-01T00:26:16+00:00`
+Matched: 152 of 155 open bug issues\
+Timestamp: `2026-07-02T10:25:02+00:00`
 
 
 ## Exact match
 
 
-Count: 125
+Count: 129
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17253](https://github.com/keiyoushi/extensions-source/issues/17253) The episodes do not appear on RNCalation | Rncalation | 🚧 | Rncalation `100%` | [https://rncalation.online](https://rncalation.online) |
+| [#17247](https://github.com/keiyoushi/extensions-source/issues/17247) Nekopost: Latest Series Listing Error | Nekopost | ✅ | Nekopost `100%` | [https://www.nekopost.net](https://www.nekopost.net) |
+| [#17238](https://github.com/keiyoushi/extensions-source/issues/17238) Extensão "Argos Comics pt-br" Erro HTTP 404 | Argos Comics | ✅ | Argos Comics `100%` | [https://aniargos.com](https://aniargos.com) |
+| [#17233](https://github.com/keiyoushi/extensions-source/issues/17233) Change of url of fairy scan's sute | Fairy Scans | 🚧 | Fairy Scans `100%` | [https://fairyscans.com](https://fairyscans.com) |
+| [#17207](https://github.com/keiyoushi/extensions-source/issues/17207) Luvyaa "No results found" | Luvyaa | ✅ | Luvyaa `100%` | [https://v4.luvyaa.co](https://v4.luvyaa.co) |
 | [#17195](https://github.com/keiyoushi/extensions-source/issues/17195) Comikey: All chapters pages return HTTP 404 when opened | Comikey | ✅ | Comikey `100%` | [https://comikey.com](https://comikey.com) |
 | [#17174](https://github.com/keiyoushi/extensions-source/issues/17174) Lycan Toons: `HTTP 403` error | Lycan Toons | 🛑 | Lycan Toons `100%` | [https://lycantoons.com](https://lycantoons.com) |
 | [#17172](https://github.com/keiyoushi/extensions-source/issues/17172) HTTP error 403 | Manga Livre | 🚧 | Manga Livre `100%` | [https://toonlivre.net](https://toonlivre.net) |
@@ -18,7 +23,6 @@ Count: 125
 | [#17164](https://github.com/keiyoushi/extensions-source/issues/17164) Jmanga: New website URL (`jmanga.casa`) | Jmanga | 🔀 | Jmanga `100%` | [https://jmanga.codes](https://jmanga.codes) |
 | [#17139](https://github.com/keiyoushi/extensions-source/issues/17139) [Temple Scan] "Attempt to invoke virtual method" error when loading chapters | Temple Scan | ✅ | Temple Scan `100%` | [https://aedexnox.akan01.com](https://aedexnox.akan01.com) |
 | [#17124](https://github.com/keiyoushi/extensions-source/issues/17124) Yaoihub: New website URL (`yaoihub.org`) | Yaoihub | 🔀 | Yaoihub `100%` | [https://yaoihub.net](https://yaoihub.net) |
-| [#17120](https://github.com/keiyoushi/extensions-source/issues/17120) Dokiraw: New website URL (`dokiraw.win`) | Dokiraw | 🔀 | Dokiraw `100%` | [https://dokiraw.cloud](https://dokiraw.cloud) |
 | [#17098](https://github.com/keiyoushi/extensions-source/issues/17098) Yupmanga: cannot read property 'elements' of null error | Yupmanga | ✅ | Yupmanga `100%` | [https://www.yupmanga.com](https://www.yupmanga.com) |
 | [#17094](https://github.com/keiyoushi/extensions-source/issues/17094) I've encountered several errors in Manga Crab | Manga Crab | ✅ | Manga Crab `100%` | [https://mangacrab.org](https://mangacrab.org) |
 | [#17093](https://github.com/keiyoushi/extensions-source/issues/17093) I've encountered several errors in BarManga | BarManga | ✅ | BarManga `100%` | [https://archiviumbar.com](https://archiviumbar.com) |
@@ -140,18 +144,19 @@ Count: 125
 ## Single match
 
 
-Count: 9
+Count: 10
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17135](https://github.com/keiyoushi/extensions-source/issues/17135) ReadComicOnline: Incorrect chapter images, `HTTP 400` error with chapter images | Readcomiconline | ✅ | ReadComicOnline `100%` | [https://rcostation.xyz](https://rcostation.xyz) |
-| [#17097](https://github.com/keiyoushi/extensions-source/issues/17097) Bloomscans IllegalArgumentException | Bloom Scans 1.4. | ⚠️ | Bloom Scans `100%` | [https://bloomscans.com](https://bloomscans.com) |
+| [#17205](https://github.com/keiyoushi/extensions-source/issues/17205) Hipercool HTTP 401 | HipercooL | ✅ | Hipercool `100%` | [https://lerhentais.com](https://lerhentais.com) |
+| [#17097](https://github.com/keiyoushi/extensions-source/issues/17097) Bloomscans IllegalArgumentException | Bloom Scans 1.4. | ✅ | Bloom Scans `100%` | [https://bloomscans.com](https://bloomscans.com) |
 | [#17015](https://github.com/keiyoushi/extensions-source/issues/17015) NullPointerException when loading manga details for 不良指导官 | Goda comic cn | 🚧 | Goda `100%` | [https://manhuascans.org](https://manhuascans.org) |
 | [#16928](https://github.com/keiyoushi/extensions-source/issues/16928) The mangbz plugin is not working properly. | tachiyomi-zh.mangabz-v1.4.14.apk | ✅ | Mangabz `100%` | [https://mangabz.com](https://mangabz.com) |
 | [#16832](https://github.com/keiyoushi/extensions-source/issues/16832) Beehentai Error | Beehentai | 🚧 | BeeHentai `100%` | [https://beehentai.com](https://beehentai.com) |
 | [#16819](https://github.com/keiyoushi/extensions-source/issues/16819) zh.kuaikanmanhua失效 | kuaikanmanhua | ✅ | 快看漫画 `100%` | [https://www.kuaikanmanhua.com](https://www.kuaikanmanhua.com) |
 | [#16777](https://github.com/keiyoushi/extensions-source/issues/16777) Erro 523 Scan Fleur blanche | Scan fleur blanche | ✅ | Fleur Blanche `100%` | [https://fbsquadx.com](https://fbsquadx.com) |
 | [#16769](https://github.com/keiyoushi/extensions-source/issues/16769) LeerMangaEsp - Chapters load but pages fail to load | Source: LeerMangaEsp Version: | ✅ | LeerMangaEsp `url` | [https://leermangaesp.net](https://leermangaesp.net) |
+| [#16688](https://github.com/keiyoushi/extensions-source/issues/16688) tr.siyahmelek :domain changed | tr.siyahmelek | ✅ | Siyah Melek `url` | [https://siyahmelek.fun](https://siyahmelek.fun) |
 | [#11929](https://github.com/keiyoushi/extensions-source/issues/11929) GocTruyenTranhVui:  Token/ account gets frequently banned | GocTruyenTranhVui | ✅ | GocTruyenTranh `90%` | [https://goctruyentranh.com](https://goctruyentranh.com) |
 
 ## Multiple matches
@@ -161,7 +166,7 @@ Count: 13
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#16879](https://github.com/keiyoushi/extensions-source/issues/16879) [Bug] Ragnar Scans (TR) - Domain changed to .net / New chapters not loading | RagnarScans | 🚧 | Ragnar Scans `100%` | [https://ragnarscans.com](https://ragnarscans.com) |
+| [#16879](https://github.com/keiyoushi/extensions-source/issues/16879) [Bug] Ragnar Scans (TR) - Domain changed to .net / New chapters not loading | RagnarScans | ✅ | Ragnar Scans `100%` | [https://ragnarscans.net](https://ragnarscans.net) |
 | ↳ [#16879] |  | ✅ | Ragna Scans `91%` | [https://lector.ragnascan.xyz](https://lector.ragnascan.xyz) |
 | [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ⚠️ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
 | ↳ [#16816] |  | ✅ | NTR-Manga `94%` | [https://www.ntr-manga.net](https://www.ntr-manga.net) |
@@ -191,9 +196,10 @@ Count: 13
 ## No match
 
 
-Count: 2
+Count: 3
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#16688](https://github.com/keiyoushi/extensions-source/issues/16688) tr.siyahmelek :domain changed | tr.siyahmelek | | | |
+| [#17257](https://github.com/keiyoushi/extensions-source/issues/17257) toptoon 顶通源 搜索报错 | Not Real Scans | | | |
+| [#17248](https://github.com/keiyoushi/extensions-source/issues/17248) MangaLeak: "No pages found" error after latest extension update | Mangalek | | | |
 | [#10099](https://github.com/keiyoushi/extensions-source/issues/10099) Bug - VMP (NSFW) - No comics scrolling, no search and no tags | VCPVMP | | | |
