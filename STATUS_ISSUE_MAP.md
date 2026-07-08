@@ -1,16 +1,21 @@
 # Bug Issue → Extension Map
 
-Matched: 160 of 160 open bug issues\
-Timestamp: `2026-07-07T07:01:00+00:00`
+Matched: 167 of 167 open bug issues\
+Timestamp: `2026-07-08T01:26:24+00:00`
 
 
 ## Exact match
 
 
-Count: 129
+Count: 134
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17420](https://github.com/keiyoushi/extensions-source/issues/17420) [Komga] no longer detected as enhanced tracking source | Komga | ❌ | Komga `100%` |  |
+| [#17419](https://github.com/keiyoushi/extensions-source/issues/17419) LuotTruyen: New website URL (`luottruyen12.com`) | LuotTruyen | 🚧 | LuotTruyen `100%` | [https://luottruyen11.com](https://luottruyen11.com) |
+| [#17403](https://github.com/keiyoushi/extensions-source/issues/17403) MangaFire: No manga load, Browse/Latest/Search/Updates all empty | MangaFire | 🚧 | MangaFire `url` | [https://mangafire.to](https://mangafire.to) |
+| [#17402](https://github.com/keiyoushi/extensions-source/issues/17402) Hiperdex: `No results found`, `Attempt to invoke virtual method` error, new URL (`hiperdex.tv`) | Hiperdex | ✅ | Hiperdex `100%` | [https://hiperdex.com](https://hiperdex.com) |
+| [#17401](https://github.com/keiyoushi/extensions-source/issues/17401) Kagane - Search does not find "Please Bully Me, Miss Villainess!" | Kagane | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
 | [#17397](https://github.com/keiyoushi/extensions-source/issues/17397) Mangadusleri Domain Change | Mangadusleri | ❌ | Mangadusleri `100%` | [https://mangadusleri.lol](https://mangadusleri.lol) |
 | [#17371](https://github.com/keiyoushi/extensions-source/issues/17371) VIZ Manga [EN]: Paid Chapters Are Not Hidden | VIZ Manga | ✅ | VIZ Manga `100%` | [https://www.viz.com](https://www.viz.com) |
 | [#17369](https://github.com/keiyoushi/extensions-source/issues/17369) Read Comics Online: Search results only show 8 entries | Read Comics Online | 🚧 | Read Comics Online `100%` | [https://readcomicsonline.ru](https://readcomicsonline.ru) |
@@ -48,7 +53,7 @@ Count: 129
 | [#16605](https://github.com/keiyoushi/extensions-source/issues/16605) Wolftoon: Unexpected JSON token | Wolftoon | ✅ | Wolftoon `100%` | [https://wolftoon.lovable.app](https://wolftoon.lovable.app) |
 | [#16551](https://github.com/keiyoushi/extensions-source/issues/16551) Manga168: No chapters found | Manga168 | 🚧 | Manga168 `100%` | [https://manga1688.com](https://manga1688.com) |
 | [#16497](https://github.com/keiyoushi/extensions-source/issues/16497) Manhwa Scan: New website URL (manhwaxcan.com) | Manhwa Scan | ✅ | Manhwa Scan `100%` | [https://manhwascanx.lat](https://manhwascanx.lat) |
-| [#16492](https://github.com/keiyoushi/extensions-source/issues/16492) Hiperdex: Add rate limit (HTTP Error 429) | Hiperdex | 🔀 | Hiperdex `100%` | [https://hiperdex.com](https://hiperdex.com) |
+| [#16492](https://github.com/keiyoushi/extensions-source/issues/16492) Hiperdex: Add rate limit (HTTP Error 429) | Hiperdex | ✅ | Hiperdex `100%` | [https://hiperdex.com](https://hiperdex.com) |
 | [#16404](https://github.com/keiyoushi/extensions-source/issues/16404) [Bug] Bbato (en) v1.4.1 — pageList returns empty for valid chapters | Bbato | ✅ | Bbato `url` | [https://bbato.com](https://bbato.com) |
 | [#16255](https://github.com/keiyoushi/extensions-source/issues/16255) Error 500 EternalMangas | EternalMangas | 🚧 | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
 | [#16217](https://github.com/keiyoushi/extensions-source/issues/16217) Flower manga doesn't show recent releases and the search returns empty. | FlowerManga.net | 🚧 | FlowerManga.net `100%` | [https://flowermangas.net](https://flowermangas.net) |
@@ -144,10 +149,12 @@ Count: 129
 ## Single match
 
 
-Count: 14
+Count: 16
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17421](https://github.com/keiyoushi/extensions-source/issues/17421) Extension not working | Allmanga | ✅ | AllManga `100%` | [https://allmanga.to](https://allmanga.to) |
+| [#17412](https://github.com/keiyoushi/extensions-source/issues/17412) Manwa: Update time is set to request time instead of manga update time | Manwa | 🚧 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
 | [#17357](https://github.com/keiyoushi/extensions-source/issues/17357) Mangafire: `No results found`, `Attempt to invoke virtual method` error, website redesign | Mangafire | 🚧 | MangaFire `100%` | [https://mangafire.to](https://mangafire.to) |
 | [#17333](https://github.com/keiyoushi/extensions-source/issues/17333) Hizo manga | Hizo manga | 🚧 | Hizo Manga `100%` | [https://hizomanga.net](https://hizomanga.net) |
 | [#17318](https://github.com/keiyoushi/extensions-source/issues/17318) AllManga: `Time out waiting for page list` error | AllManga: `Time out waiting for page list` error | ✅ | AllManga `100%` | [https://allmanga.to](https://allmanga.to) |
