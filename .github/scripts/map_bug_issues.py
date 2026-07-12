@@ -224,8 +224,7 @@ def match_issue(
     source_parts = [
         p
         for part in AMP_SPLIT_RE.split(source_name)
-        if (p := TRAILING_VER_RE.sub("", VERSION_RE.sub("", part).strip()).strip())
-        and not VERSION_ONLY_RE.fullmatch(p)
+        if (p := TRAILING_VER_RE.sub("", VERSION_RE.sub("", part).strip()).strip()) and not VERSION_ONLY_RE.fullmatch(p)
     ]
     title_names = [n for n in title_to_names(title) if n.lower() not in {p.lower() for p in source_parts}]
     queries: list[tuple[str, str]] = [
@@ -263,8 +262,10 @@ def match_issue(
     # token-set superset noise (e.g. "Komga" → drop "Komga (2)", "Komga (3)").
     # Normalize with SLUG_NORM_RE so "Weeb Central" matches query "WeebCentral".
     source_parts_norm = {SLUG_NORM_RE.sub("", p.lower()) for p in source_parts}
+
     def _norm(name: str) -> str:
         return SLUG_NORM_RE.sub("", name.lower())
+
     if any(
         m.score >= 100 and "url" not in m.methods and _norm(m.entry.name) in source_parts_norm for m in seen.values()
     ):

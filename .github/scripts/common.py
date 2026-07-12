@@ -5,8 +5,8 @@ import logging
 import random
 import re
 import time
-from datetime import datetime, timezone
 from collections.abc import Awaitable, Callable
+from datetime import datetime, timezone
 from enum import StrEnum
 from http import HTTPStatus
 from itertools import groupby

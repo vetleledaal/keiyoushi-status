@@ -1,3 +1,6 @@
+extend-exclude = [
+  "index_pb.py",
+]
 line-length = 120
 preview = true
 
@@ -46,6 +49,9 @@ ignore = [
   "TRY003",
   "TRY400",
   ####
+  "T201",
+  "UP017",
+  "UP040",
   "UP047",
 ]
 preview = true
