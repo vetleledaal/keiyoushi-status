@@ -1,5 +1,5 @@
 extend-exclude = [
-  "index_pb.py",
+  "generated",
 ]
 line-length = 120
 preview = true

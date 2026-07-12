@@ -4,10 +4,14 @@ syntax = "proto3";
 //
 // divergence: Resources.jarUrl (field 501)
 //
-// Regenerate the Python bindings (index_pb.py) after editing:
-//   uvx --from "betterproto[compiler]==2.0.0b7" --with grpcio-tools \
-//     protoc -I . --python_betterproto_out=. index.proto
-//   (this writes __init__.py; move it to index_pb.py)
+// Regenerate the Python bindings after editing:
+//   uvx \
+//     --from betterproto[compiler]==2.0.0b7 \
+//     --with grpcio-tools \
+//     protoc \
+//       -I protos \
+//       --python_betterproto_out=generated protos/index.proto
+
 
 message Index {
   string name = 1;

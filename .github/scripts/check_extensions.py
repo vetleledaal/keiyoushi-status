@@ -35,7 +35,7 @@ from common import (
     generate_headers,
     render_report_generic,
 )
-from index_pb import Index
+from generated import Index
 
 REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.pb"
 TABLE_COLUMNS = ["Status", "Name", "URL", "Time", "Info"]
@@ -93,7 +93,7 @@ async def main() -> None:
     async with aiohttp.ClientSession() as session:
         log.info("Fetching repository index from %s", REPO_INDEX_URL)
         async with session.get(REPO_INDEX_URL) as resp:
-            index = Index.FromString(gzip.decompress(await resp.read()))
+            index = Index().parse(gzip.decompress(await resp.read()))
 
     sources = extract_sources(index)
     log.info("Checking %d unique sources", len(sources))
