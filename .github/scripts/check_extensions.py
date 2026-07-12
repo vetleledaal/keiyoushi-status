@@ -5,6 +5,7 @@
 #   "aiohttp[speedups]",
 #   "anyio",
 #   "beautifulsoup4[lxml]",
+#   "betterproto==2.0.0b7",
 #   "publicsuffixlist",
 #   "tabulate",
 #   "ua-generator",
@@ -15,10 +16,11 @@
 from __future__ import annotations
 
 import asyncio
+import gzip
 import logging
 import random
 from dataclasses import dataclass
-from typing import Any, NamedTuple
+from typing import NamedTuple
 
 import aiohttp
 from anyio import Path
@@ -33,8 +35,9 @@ from common import (
     generate_headers,
     render_report_generic,
 )
+from index_pb import Index
 
-REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json"
+REPO_INDEX_URL = "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.pb"
 TABLE_COLUMNS = ["Status", "Name", "URL", "Time", "Info"]
 SITES_REPORT_SECTIONS = [s for s in REPORT_SECTIONS if s[1] != Status.NOT_FOUND]
 
@@ -64,12 +67,13 @@ class CheckResult:
         return (self.status.value, self.source.name, self.source.url, time_str, self.info)
 
 
-def extract_sources(repo: list[dict[str, Any]]) -> list[Source]:
+def extract_sources(index: Index) -> list[Source]:
     sources = {
-        Source(source["name"], url)
-        for extension in repo
-        for source in extension["sources"]
-        for url in source["baseUrl"].split("#, ")
+        Source(source.name, url)
+        for extension in index.extension_list.extensions
+        for source in extension.sources
+        for url in (source.home_url, *source.mirror_urls)
+        if url
     }
     return sorted(sources)
 
@@ -89,9 +93,9 @@ async def main() -> None:
     async with aiohttp.ClientSession() as session:
         log.info("Fetching repository index from %s", REPO_INDEX_URL)
         async with session.get(REPO_INDEX_URL) as resp:
-            repository = await resp.json(content_type=None)
+            index = Index.FromString(gzip.decompress(await resp.read()))
 
-    sources = extract_sources(repository)
+    sources = extract_sources(index)
     log.info("Checking %d unique sources", len(sources))
 
     seed = ",".join(f"{s.name}:{s.url}" for s in sources)
