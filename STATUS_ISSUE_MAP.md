@@ -1,24 +1,22 @@
 # Bug Issue → Extension Map
 
-Matched: 149 of 149 open bug issues\
-Timestamp: `2026-07-12T14:30:47+00:00`
+Matched: 147 of 147 open bug issues\
+Timestamp: `2026-07-13T07:43:28+00:00`
 
 
 ## Exact match
 
 
-Count: 122
+Count: 120
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17562](https://github.com/keiyoushi/extensions-source/issues/17562) Doujindesu : Newly added titles do not display their covers | Doujindesu | ✅ | Doujindesu `100%` | [https://doujin.desu.xxx](https://doujin.desu.xxx) |
+| [#17579](https://github.com/keiyoushi/extensions-source/issues/17579) The search is not working on Team X | Team X | 🚧 | Team X `100%` | [https://olympustaff.com](https://olympustaff.com) |
 | [#17554](https://github.com/keiyoushi/extensions-source/issues/17554) Toonily.me URL & Site changes | Toonily.me | 🔀 | Toonily.me `100%` | [https://toonily.me](https://toonily.me) |
 | [#17479](https://github.com/keiyoushi/extensions-source/issues/17479) Japscan : error loading page | Japscan | ⚠️ | Japscan `100%` | [https://www.japscan.foo/mangas/?sort=popular&p=1](https://www.japscan.foo/mangas/?sort=popular&p=1) |
 | [#17476](https://github.com/keiyoushi/extensions-source/issues/17476) Hades Scans: `No results found` on Latest /Popular/Search, `No chapters found` error | Hades Scans | ✅ | Hades Scans `100%` | [https://hadesscans.com](https://hadesscans.com) |
 | [#17447](https://github.com/keiyoushi/extensions-source/issues/17447) KomikNesia: New website URL (`id.komiknesia.net`) | KomikNesia | 🔀 | KomikNesia `100%` | [https://02.komiknesia.asia](https://02.komiknesia.asia) |
-| [#17419](https://github.com/keiyoushi/extensions-source/issues/17419) LuotTruyen: New website URL (`luottruyen12.com`) | LuotTruyen | 🚧 | LuotTruyen `100%` | [https://luottruyen11.com](https://luottruyen11.com) |
 | [#17369](https://github.com/keiyoushi/extensions-source/issues/17369) Read Comics Online: Search results only show 8 entries | Read Comics Online | 🚧 | Read Comics Online `100%` | [https://readcomicsonline.ru](https://readcomicsonline.ru) |
-| [#17365](https://github.com/keiyoushi/extensions-source/issues/17365) LycanToons: HTTP error 404 | Lycan Toons | 🛑 | Lycan Toons `100%` | [https://lycantoons.com](https://lycantoons.com) |
 | [#17347](https://github.com/keiyoushi/extensions-source/issues/17347) MangaMoins: HTTP 404 Error – Chapter Pages Not Found | MangaMoins | 🚧 | MangaMoins `100%` | [https://mangamoins.com](https://mangamoins.com) |
 | [#17298](https://github.com/keiyoushi/extensions-source/issues/17298) Geass Comics Error api | Geass Comics | ✅ | Geass Comics `100%` | [https://geasscomics.xyz](https://geasscomics.xyz) |
 | [#17295](https://github.com/keiyoushi/extensions-source/issues/17295) Lunar Manga Opening a Chapter Fails with  WRONG_FINAL_BLOCK_LENGTH | Lunar Manga | ✅ | Lunar Manga `100%` | [https://lunaranime.ru](https://lunaranime.ru) |
@@ -97,7 +95,7 @@ Count: 122
 | [#10910](https://github.com/keiyoushi/extensions-source/issues/10910) 如漫画 / Rumanhua: `timeout` error, source is down | 如漫画 | ❌ | 如漫画 `100%` | [https://m.rumanhua2.com](https://m.rumanhua2.com) |
 | [#10793](https://github.com/keiyoushi/extensions-source/issues/10793) HentaiLib 403 error because of wrong API link | HentaiLib | 🚧 | HentaiLib `100%` | [https://hentailib.me](https://hentailib.me) |
 | [#10737](https://github.com/keiyoushi/extensions-source/issues/10737) Arabs Hentai : Change the chapter display format | هنتاي العرب | 🛑 | هنتاي العرب `url` | [https://arabshentai.com](https://arabshentai.com) |
-| [#10693](https://github.com/keiyoushi/extensions-source/issues/10693) 再漫画有些漫画出现Bad position的错误代码 | 再漫画 | ❌ | 再漫画 `100%` | [https://manhua.zaimanhua.com](https://manhua.zaimanhua.com) |
+| [#10693](https://github.com/keiyoushi/extensions-source/issues/10693) 再漫画有些漫画出现Bad position的错误代码 | 再漫画 | ✅ | 再漫画 `100%` | [https://manhua.zaimanhua.com](https://manhua.zaimanhua.com) |
 | [#10395](https://github.com/keiyoushi/extensions-source/issues/10395) NamiComi can't access paid chapters (that user is subscribed to) | NamiComi | ✅ | NamiComi `100%` | [https://namicomi.com](https://namicomi.com) |
 | [#10345](https://github.com/keiyoushi/extensions-source/issues/10345) Arabs Hentai: HTTP 403 | هنتاي العرب | 🛑 | هنتاي العرب `100%` | [https://arabshentai.com](https://arabshentai.com) |
 | [#10296](https://github.com/keiyoushi/extensions-source/issues/10296) YaoiChan: New URL | YaoiChan | 🔀 | YaoiChan `100%` | [https://yaoi-chan.me](https://yaoi-chan.me) |
@@ -141,8 +139,8 @@ Count: 11
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17585](https://github.com/keiyoushi/extensions-source/issues/17585) Comic Zenon can't be searched/browsed | ja.zenon | ✅ | Zenon `100%` | [https://comic-zenon.com](https://comic-zenon.com) |
 | [#17546](https://github.com/keiyoushi/extensions-source/issues/17546) Asura scans latest tab not working | Asura scans latest tab not working | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
-| [#17539](https://github.com/keiyoushi/extensions-source/issues/17539) Extension isn't working and downloads | Tachiyomi: Allmanga | ✅ | AllManga `100%` | [https://mkissa.to](https://mkissa.to) |
 | [#17434](https://github.com/keiyoushi/extensions-source/issues/17434) Wolftoon (KR) Redesign | Wolf | ✅ | Wolftoon `title 100%` | [https://wolftoon.lovable.app](https://wolftoon.lovable.app) |
 | [#17412](https://github.com/keiyoushi/extensions-source/issues/17412) Manwa: Update time is set to request time instead of manga update time | Manwa | 🚧 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
 | [#17268](https://github.com/keiyoushi/extensions-source/issues/17268) IkigaiManga Change domain | Ikigaimangas | 🚧 | Ikigai Mangas `96%` | [https://zonaikigai.gamesview.shop](https://zonaikigai.gamesview.shop) |
