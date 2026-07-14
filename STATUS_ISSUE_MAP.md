@@ -1,21 +1,24 @@
 # Bug Issue → Extension Map
 
-Matched: 147 of 147 open bug issues\
-Timestamp: `2026-07-13T07:43:28+00:00`
+Matched: 152 of 152 open bug issues\
+Timestamp: `2026-07-14T04:23:15+00:00`
 
 
 ## Exact match
 
 
-Count: 120
+Count: 123
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17579](https://github.com/keiyoushi/extensions-source/issues/17579) The search is not working on Team X | Team X | 🚧 | Team X `100%` | [https://olympustaff.com](https://olympustaff.com) |
+| [#17602](https://github.com/keiyoushi/extensions-source/issues/17602) Kiryuu - Domain changed | Kiryuu | 🚧 | Kiryuu `url` | [https://v6.kiryuu.to](https://v6.kiryuu.to) |
+| [#17600](https://github.com/keiyoushi/extensions-source/issues/17600) Hades Scans | Hades Scans | ✅ | Hades Scans `100%` | [https://hadesscans.com](https://hadesscans.com) |
+| [#17598](https://github.com/keiyoushi/extensions-source/issues/17598) The extension of LeerMangaEsp Not working | LeerMangaEsp | ✅ | LeerMangaEsp `url` | [https://leermangaesp.net](https://leermangaesp.net) |
+| [#17592](https://github.com/keiyoushi/extensions-source/issues/17592) Soul Scans : URL Change request | Soul Scans | 🚧 | Soul Scans `100%` | [https://soulscans.my.id](https://soulscans.my.id) |
 | [#17554](https://github.com/keiyoushi/extensions-source/issues/17554) Toonily.me URL & Site changes | Toonily.me | 🔀 | Toonily.me `100%` | [https://toonily.me](https://toonily.me) |
 | [#17479](https://github.com/keiyoushi/extensions-source/issues/17479) Japscan : error loading page | Japscan | ⚠️ | Japscan `100%` | [https://www.japscan.foo/mangas/?sort=popular&p=1](https://www.japscan.foo/mangas/?sort=popular&p=1) |
 | [#17476](https://github.com/keiyoushi/extensions-source/issues/17476) Hades Scans: `No results found` on Latest /Popular/Search, `No chapters found` error | Hades Scans | ✅ | Hades Scans `100%` | [https://hadesscans.com](https://hadesscans.com) |
-| [#17447](https://github.com/keiyoushi/extensions-source/issues/17447) KomikNesia: New website URL (`id.komiknesia.net`) | KomikNesia | 🔀 | KomikNesia `100%` | [https://02.komiknesia.asia](https://02.komiknesia.asia) |
+| [#17447](https://github.com/keiyoushi/extensions-source/issues/17447) KomikNesia: New website URL (`id.komiknesia.net`) | KomikNesia | ❌ | KomikNesia `100%` | [https://02.komiknesia.asia](https://02.komiknesia.asia) |
 | [#17369](https://github.com/keiyoushi/extensions-source/issues/17369) Read Comics Online: Search results only show 8 entries | Read Comics Online | 🚧 | Read Comics Online `100%` | [https://readcomicsonline.ru](https://readcomicsonline.ru) |
 | [#17347](https://github.com/keiyoushi/extensions-source/issues/17347) MangaMoins: HTTP 404 Error – Chapter Pages Not Found | MangaMoins | 🚧 | MangaMoins `100%` | [https://mangamoins.com](https://mangamoins.com) |
 | [#17298](https://github.com/keiyoushi/extensions-source/issues/17298) Geass Comics Error api | Geass Comics | ✅ | Geass Comics `100%` | [https://geasscomics.xyz](https://geasscomics.xyz) |
@@ -135,10 +138,11 @@ Count: 120
 ## Single match
 
 
-Count: 11
+Count: 12
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17587](https://github.com/keiyoushi/extensions-source/issues/17587) HiperDex Error 403 | HiperDex | ✅ | Hiperdex `100%` | [https://hiperdex.com](https://hiperdex.com) |
 | [#17585](https://github.com/keiyoushi/extensions-source/issues/17585) Comic Zenon can't be searched/browsed | ja.zenon | ✅ | Zenon `100%` | [https://comic-zenon.com](https://comic-zenon.com) |
 | [#17546](https://github.com/keiyoushi/extensions-source/issues/17546) Asura scans latest tab not working | Asura scans latest tab not working | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
 | [#17434](https://github.com/keiyoushi/extensions-source/issues/17434) Wolftoon (KR) Redesign | Wolf | ✅ | Wolftoon `title 100%` | [https://wolftoon.lovable.app](https://wolftoon.lovable.app) |
@@ -154,10 +158,14 @@ Count: 11
 ## Multiple matches
 
 
-Count: 16
+Count: 17
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17597](https://github.com/keiyoushi/extensions-source/issues/17597) Extensión emperor scan, tucomicporno and other no están funcionando | Emperor scan 1.4.63, Olympus scanlation 1.4.21, Topcomicporno 1.4.51, yupmanga | ✅ | Emperor Scan `100%` | [https://imperiomanhua.com](https://imperiomanhua.com) |
+| ↳ [#17597] |  | ✅ | Olympus Scanlation `100%` | [https://olympusxyz.com](https://olympusxyz.com) |
+| ↳ [#17597] |  | 🚧 | TopComicPorno `100%` | [https://topcomicporno.com](https://topcomicporno.com) |
+| ↳ [#17597] |  | 🛑 | Yupmanga `100%` | [https://www.yupmanga.com](https://www.yupmanga.com) |
 | [#17550](https://github.com/keiyoushi/extensions-source/issues/17550) Viz 429's | Viz | ✅ | VIZ Manga `100%` | [https://www.viz.com](https://www.viz.com) |
 | ↳ [#17550] |  | ✅ | VIZ Shonen Jump `100%` | [https://www.viz.com](https://www.viz.com) |
 | [#17374](https://github.com/keiyoushi/extensions-source/issues/17374) [FR] Scan-Manga: Broken extension due to hardcoded invalid subdomain | Scan-Manga | ⚠️ | Scan-Manga `100%` | [https://m.scan-manga.com](https://m.scan-manga.com) |
