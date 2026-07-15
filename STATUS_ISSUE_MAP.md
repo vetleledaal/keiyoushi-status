@@ -1,19 +1,18 @@
 # Bug Issue → Extension Map
 
-Matched: 152 of 152 open bug issues\
-Timestamp: `2026-07-14T04:23:15+00:00`
+Matched: 147 of 147 open bug issues\
+Timestamp: `2026-07-15T00:15:22+00:00`
 
 
 ## Exact match
 
 
-Count: 123
+Count: 120
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17602](https://github.com/keiyoushi/extensions-source/issues/17602) Kiryuu - Domain changed | Kiryuu | 🚧 | Kiryuu `url` | [https://v6.kiryuu.to](https://v6.kiryuu.to) |
+| [#17607](https://github.com/keiyoushi/extensions-source/issues/17607) Block access images in chapter | APKOMIK | 🚧 | APKOMIK `100%` | [https://01.apkomik.com](https://01.apkomik.com) |
 | [#17600](https://github.com/keiyoushi/extensions-source/issues/17600) Hades Scans | Hades Scans | ✅ | Hades Scans `100%` | [https://hadesscans.com](https://hadesscans.com) |
-| [#17598](https://github.com/keiyoushi/extensions-source/issues/17598) The extension of LeerMangaEsp Not working | LeerMangaEsp | ✅ | LeerMangaEsp `url` | [https://leermangaesp.net](https://leermangaesp.net) |
 | [#17592](https://github.com/keiyoushi/extensions-source/issues/17592) Soul Scans : URL Change request | Soul Scans | 🚧 | Soul Scans `100%` | [https://soulscans.my.id](https://soulscans.my.id) |
 | [#17554](https://github.com/keiyoushi/extensions-source/issues/17554) Toonily.me URL & Site changes | Toonily.me | 🔀 | Toonily.me `100%` | [https://toonily.me](https://toonily.me) |
 | [#17479](https://github.com/keiyoushi/extensions-source/issues/17479) Japscan : error loading page | Japscan | ⚠️ | Japscan `100%` | [https://www.japscan.foo/mangas/?sort=popular&p=1](https://www.japscan.foo/mangas/?sort=popular&p=1) |
@@ -79,7 +78,6 @@ Count: 123
 | [#12971](https://github.com/keiyoushi/extensions-source/issues/12971) Manga şehri.net: HTTP 500 error | Manga Şehri.net | ✅ | Manga Şehri.net `100%` | [https://manga-sehri.net](https://manga-sehri.net) |
 | [#12964](https://github.com/keiyoushi/extensions-source/issues/12964) incomplete pages niadd | Niadd | ✅ | Niadd `100%` | [https://br.niadd.com](https://br.niadd.com) |
 | [#12916](https://github.com/keiyoushi/extensions-source/issues/12916) MangaGeko : Upload date and the latest. | MangaGeko | ✅ | MangaGeko `100%` | [https://www.mgeko.cc](https://www.mgeko.cc) |
-| [#12650](https://github.com/keiyoushi/extensions-source/issues/12650) Shinigami - cdn url changed | Shinigami | 🚧 | Shinigami `100%` | [https://g.shinigami.asia](https://g.shinigami.asia) |
 | [#12573](https://github.com/keiyoushi/extensions-source/issues/12573) Tapas: Download Naming Scheme Changed | Tapas | ✅ | Tapas `100%` | [https://tapas.io](https://tapas.io) |
 | [#12561](https://github.com/keiyoushi/extensions-source/issues/12561) Tapas: Removed but Unlocked series don't show up in search anymore | Tapas | ✅ | Tapas `100%` | [https://tapas.io](https://tapas.io) |
 | [#12550](https://github.com/keiyoushi/extensions-source/issues/12550) Buttsmithy NullPointer | Buttsmithy | ✅ | Buttsmithy `100%` | [https://incase.buttsmithy.com](https://incase.buttsmithy.com) |
@@ -92,7 +90,6 @@ Count: 123
 | [#11751](https://github.com/keiyoushi/extensions-source/issues/11751) Zazhimi 杂志迷: broken thumbnail on search + not being able to search Japanese characters | 杂志迷 | ✅ | 杂志迷 `100%` | [https://www.zazhimi.net](https://www.zazhimi.net) |
 | [#11482](https://github.com/keiyoushi/extensions-source/issues/11482) Baozi Manhua: no results found and read timed out | 包子漫画 | ✅ | 包子漫画 `100%` | [https://cn.baozimh.com](https://cn.baozimh.com) |
 | [#11330](https://github.com/keiyoushi/extensions-source/issues/11330) Rawkuma: new version (1.4.35) downloaded chapter icons disappear randomly | Rawkuma | 🚧 | Rawkuma `100%` | [https://rawkuma.net](https://rawkuma.net) |
-| [#11235](https://github.com/keiyoushi/extensions-source/issues/11235) DrakeScans Having a unrecognized SSL | Drake Scans | 🚧 | Drake Scans `100%` | [https://drakecomic.org](https://drakecomic.org) |
 | [#11176](https://github.com/keiyoushi/extensions-source/issues/11176) MangaTuk: Chapter images are all the same image | MangaTuk | 🚧 | MangaTuk `100%` | [https://mangatuk.com](https://mangatuk.com) |
 | [#10935](https://github.com/keiyoushi/extensions-source/issues/10935) Manga UP! extension doesn't recognise paid chapters | Manga UP! | ✅ | Manga UP! `100%` | [https://global.manga-up.com](https://global.manga-up.com) |
 | [#10910](https://github.com/keiyoushi/extensions-source/issues/10910) 如漫画 / Rumanhua: `timeout` error, source is down | 如漫画 | ❌ | 如漫画 `100%` | [https://m.rumanhua2.com](https://m.rumanhua2.com) |
@@ -138,12 +135,12 @@ Count: 123
 ## Single match
 
 
-Count: 12
+Count: 11
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17587](https://github.com/keiyoushi/extensions-source/issues/17587) HiperDex Error 403 | HiperDex | ✅ | Hiperdex `100%` | [https://hiperdex.com](https://hiperdex.com) |
-| [#17585](https://github.com/keiyoushi/extensions-source/issues/17585) Comic Zenon can't be searched/browsed | ja.zenon | ✅ | Zenon `100%` | [https://comic-zenon.com](https://comic-zenon.com) |
+| [#17613](https://github.com/keiyoushi/extensions-source/issues/17613) IKIGAI - DOMAIN CHANGE | Ikigai | 🚧 | Ikigai Mangas `100%` | [https://zonaikigai.gamesview.shop](https://zonaikigai.gamesview.shop) |
+| [#17571](https://github.com/keiyoushi/extensions-source/issues/17571) LeerMangaEsp: New website URL (`mangalect.org`) | mangalect | ✅ | LeerMangaEsp `title 100%` | [https://leermangaesp.net](https://leermangaesp.net) |
 | [#17546](https://github.com/keiyoushi/extensions-source/issues/17546) Asura scans latest tab not working | Asura scans latest tab not working | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
 | [#17434](https://github.com/keiyoushi/extensions-source/issues/17434) Wolftoon (KR) Redesign | Wolf | ✅ | Wolftoon `title 100%` | [https://wolftoon.lovable.app](https://wolftoon.lovable.app) |
 | [#17412](https://github.com/keiyoushi/extensions-source/issues/17412) Manwa: Update time is set to request time instead of manga update time | Manwa | 🚧 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
@@ -152,20 +149,15 @@ Count: 12
 | [#16928](https://github.com/keiyoushi/extensions-source/issues/16928) The mangbz plugin is not working properly. | tachiyomi-zh.mangabz-v1.4.14.apk | ✅ | Mangabz `100%` | [https://mangabz.com](https://mangabz.com) |
 | [#16819](https://github.com/keiyoushi/extensions-source/issues/16819) zh.kuaikanmanhua失效 | kuaikanmanhua | ✅ | 快看漫画 `100%` | [https://www.kuaikanmanhua.com](https://www.kuaikanmanhua.com) |
 | [#16777](https://github.com/keiyoushi/extensions-source/issues/16777) Erro 523 Scan Fleur blanche | Scan fleur blanche | ✅ | Fleur Blanche `100%` | [https://fbsquadx.com](https://fbsquadx.com) |
-| [#16769](https://github.com/keiyoushi/extensions-source/issues/16769) LeerMangaEsp - Chapters load but pages fail to load | Source: LeerMangaEsp Version: | ✅ | LeerMangaEsp `url` | [https://leermangaesp.net](https://leermangaesp.net) |
 | [#11929](https://github.com/keiyoushi/extensions-source/issues/11929) GocTruyenTranhVui:  Token/ account gets frequently banned | GocTruyenTranhVui | ✅ | GocTruyenTranh `90%` | [https://goctruyentranh.com](https://goctruyentranh.com) |
 
 ## Multiple matches
 
 
-Count: 17
+Count: 16
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17597](https://github.com/keiyoushi/extensions-source/issues/17597) Extensión emperor scan, tucomicporno and other no están funcionando | Emperor scan 1.4.63, Olympus scanlation 1.4.21, Topcomicporno 1.4.51, yupmanga | ✅ | Emperor Scan `100%` | [https://imperiomanhua.com](https://imperiomanhua.com) |
-| ↳ [#17597] |  | ✅ | Olympus Scanlation `100%` | [https://olympusxyz.com](https://olympusxyz.com) |
-| ↳ [#17597] |  | 🚧 | TopComicPorno `100%` | [https://topcomicporno.com](https://topcomicporno.com) |
-| ↳ [#17597] |  | 🛑 | Yupmanga `100%` | [https://www.yupmanga.com](https://www.yupmanga.com) |
 | [#17550](https://github.com/keiyoushi/extensions-source/issues/17550) Viz 429's | Viz | ✅ | VIZ Manga `100%` | [https://www.viz.com](https://www.viz.com) |
 | ↳ [#17550] |  | ✅ | VIZ Shonen Jump `100%` | [https://www.viz.com](https://www.viz.com) |
 | [#17374](https://github.com/keiyoushi/extensions-source/issues/17374) [FR] Scan-Manga: Broken extension due to hardcoded invalid subdomain | Scan-Manga | ⚠️ | Scan-Manga `100%` | [https://m.scan-manga.com](https://m.scan-manga.com) |
