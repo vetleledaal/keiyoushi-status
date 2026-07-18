@@ -1,7 +1,7 @@
 # Bug Issue → Extension Map
 
-Matched: 155 of 156 open bug issues\
-Timestamp: `2026-07-17T01:01:05+00:00`
+Matched: 153 of 155 open bug issues\
+Timestamp: `2026-07-18T04:35:58+00:00`
 
 
 ## Exact match
@@ -11,12 +11,12 @@ Count: 124
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17688](https://github.com/keiyoushi/extensions-source/issues/17688) Thunder Scans shows outdated | Thunder Scans | ✅ | Thunder Scans `100%` | [https://en-thunderscans.com](https://en-thunderscans.com) |
+| [#17686](https://github.com/keiyoushi/extensions-source/issues/17686) Vortex Scans: No chapters found | Vortex Scans | ✅ | Vortex Scans `100%` | [https://vortexscans.org](https://vortexscans.org) |
 | [#17660](https://github.com/keiyoushi/extensions-source/issues/17660) 3hentai: "pages" search filter not working | 3Hentai | ✅ | 3Hentai `100%` | [https://3hentai.net](https://3hentai.net) |
 | [#17658](https://github.com/keiyoushi/extensions-source/issues/17658) Raven Scans No results found | Raven Scans | ✅ | Raven Scans `100%` | [https://ravenscans.org](https://ravenscans.org) |
 | [#17650](https://github.com/keiyoushi/extensions-source/issues/17650) Extensão "Argos Comics pt-br" erro HTTP 404 | Argos Comics | ✅ | Argos Comics `100%` | [https://aniargos.com](https://aniargos.com) |
-| [#17646](https://github.com/keiyoushi/extensions-source/issues/17646) A extensão do manga livre (toonlivre) ainda está apresentando erro 403 | Manga Livre | 🚧 | Manga Livre `100%` | [https://toonlivre.net](https://toonlivre.net) |
-| [#17644](https://github.com/keiyoushi/extensions-source/issues/17644) Mangakakalot extension cannot be installed/updated after source reappeared | Mangakakalot | ✅ | Mangakakalot `100%` | [https://www.mangakakalot.gg](https://www.mangakakalot.gg) |
-| [#17623](https://github.com/keiyoushi/extensions-source/issues/17623) Failed to get challenge. HTTP error 404 on Kagane extension | Kagane | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
+| [#17638](https://github.com/keiyoushi/extensions-source/issues/17638) Manga Livre: `HTTP 403` error | Manga Livre | 🚧 | Manga Livre `100%` | [https://toonlivre.net](https://toonlivre.net) |
 | [#17600](https://github.com/keiyoushi/extensions-source/issues/17600) Hades Scans | Hades Scans | ✅ | Hades Scans `100%` | [https://hadesscans.com](https://hadesscans.com) |
 | [#17592](https://github.com/keiyoushi/extensions-source/issues/17592) Soul Scans : URL Change request | Soul Scans | 🚧 | Soul Scans `100%` | [https://soulscans.my.id](https://soulscans.my.id) |
 | [#17554](https://github.com/keiyoushi/extensions-source/issues/17554) Toonily.me URL & Site changes | Toonily.me | 🔀 | Toonily.me `100%` | [https://toonily.me](https://toonily.me) |
@@ -139,12 +139,10 @@ Count: 124
 ## Single match
 
 
-Count: 13
+Count: 11
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17653](https://github.com/keiyoushi/extensions-source/issues/17653) Anyone Manga (AR): Image loading fails with "Expected URL scheme 'http' or 'https' but was 'data'" | Anyone Manga 1.4.51 Package: eu.kanade.tachiyomi.extension.ar.anyonemanga | 🚧 | Anyone Manga `100%` | [https://anyonemanga.com](https://anyonemanga.com) |
-| [#17648](https://github.com/keiyoushi/extensions-source/issues/17648) "Unable to load data" on K Manga | kmanga | ✅ | K Manga `100%` | [https://kmanga.kodansha.com](https://kmanga.kodansha.com) |
 | [#17613](https://github.com/keiyoushi/extensions-source/issues/17613) IKIGAI - DOMAIN CHANGE | Ikigai | 🚧 | Ikigai Mangas `100%` | [https://zonaikigai.gamesview.shop](https://zonaikigai.gamesview.shop) |
 | [#17571](https://github.com/keiyoushi/extensions-source/issues/17571) LeerMangaEsp: New website URL (`mangalect.org`) | mangalect | ✅ | LeerMangaEsp `url title 100%` | [https://mangalect.org](https://mangalect.org) |
 | [#17546](https://github.com/keiyoushi/extensions-source/issues/17546) Asura scans latest tab not working | Asura scans latest tab not working | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
@@ -164,7 +162,7 @@ Count: 18
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17642](https://github.com/keiyoushi/extensions-source/issues/17642) TR] Manga-TR: EOFException: null when trying to load/download chapters | Manga-Tr | ⚠️ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
+| [#17642](https://github.com/keiyoushi/extensions-source/issues/17642) TR] Manga-TR: EOFException: null when trying to load/download chapters | Manga-Tr | ✅ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
 | ↳ [#17642] |  | ✅ | NTR-Manga `94%` | [https://www.ntr-manga.net](https://www.ntr-manga.net) |
 | [#17622](https://github.com/keiyoushi/extensions-source/issues/17622) Allporncomics | allporncomics.co | 🛑 | AllPornComics.co `100%` | [https://allporncomics.co](https://allporncomics.co) |
 | ↳ [#17622] |  | 🚧 | AllPornComic `title 96%` | [https://allporncomic.com](https://allporncomic.com) |
@@ -176,7 +174,7 @@ Count: 18
 | ↳ [#17374] |  | ⚠️ | Mangas Scans `91%` | [https://mangas-scans.com](https://mangas-scans.com) |
 | [#17309](https://github.com/keiyoushi/extensions-source/issues/17309) KuroMangas - Credentials expired | KuroMangas | 🚧 | KuroMangas `100%` | [https://kuromangas.com](https://kuromangas.com) |
 | ↳ [#17309] |  | ✅ | Kuro Manga `90%` | [https://kuromanga.me](https://kuromanga.me) |
-| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ⚠️ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
+| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ✅ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
 | ↳ [#16816] |  | ✅ | NTR-Manga `94%` | [https://www.ntr-manga.net](https://www.ntr-manga.net) |
 | [#13854](https://github.com/keiyoushi/extensions-source/issues/13854) Pixiv Comic does not find all available manga | Pixiv Comic | ✅ | Pixivコミック `url` | [https://comic.pixiv.net](https://comic.pixiv.net) |
 | ↳ [#13854] |  | 🚧 | Pixiv `100%` | [https://www.pixiv.net](https://www.pixiv.net) |
@@ -206,8 +204,9 @@ Count: 18
 ## No match
 
 
-Count: 1
+Count: 2
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17638](https://github.com/keiyoushi/extensions-source/issues/17638) Mangalivre error 403 | Mangalivre | | | |
+| [#17683](https://github.com/keiyoushi/extensions-source/issues/17683) The 400 Bad Request error is appearing again. | Happymh | | | |
+| [#17672](https://github.com/keiyoushi/extensions-source/issues/17672) BiliManga无法使用 | BiliManga无法使用 | | | |
