@@ -1,22 +1,24 @@
 # Bug Issue → Extension Map
 
-Matched: 153 of 155 open bug issues\
-Timestamp: `2026-07-18T04:35:58+00:00`
+Matched: 153 of 154 open bug issues\
+Timestamp: `2026-07-19T04:08:21+00:00`
 
 
 ## Exact match
 
 
-Count: 124
+Count: 125
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17688](https://github.com/keiyoushi/extensions-source/issues/17688) Thunder Scans shows outdated | Thunder Scans | ✅ | Thunder Scans `100%` | [https://en-thunderscans.com](https://en-thunderscans.com) |
+| [#17713](https://github.com/keiyoushi/extensions-source/issues/17713) RNCALATION error | Rncalation | ✅ | Rncalation `100%` | [https://rncalation.online](https://rncalation.online) |
+| [#17708](https://github.com/keiyoushi/extensions-source/issues/17708) Omega Scans - Search issue | Omega Scans | ✅ | Omega Scans `100%` | [https://omegascans.org](https://omegascans.org) |
+| [#17706](https://github.com/keiyoushi/extensions-source/issues/17706) Argos Comics HTTP 404 | Argos Comics | ✅ | Argos Comics `100%` | [https://aniargos.com](https://aniargos.com) |
+| [#17697](https://github.com/keiyoushi/extensions-source/issues/17697) Kayn Scans: `No chapters found` error message | Kayn Scans | ✅ | Kayn Scans `100%` | [https://kaynscan.org](https://kaynscan.org) |
 | [#17686](https://github.com/keiyoushi/extensions-source/issues/17686) Vortex Scans: No chapters found | Vortex Scans | ✅ | Vortex Scans `100%` | [https://vortexscans.org](https://vortexscans.org) |
 | [#17660](https://github.com/keiyoushi/extensions-source/issues/17660) 3hentai: "pages" search filter not working | 3Hentai | ✅ | 3Hentai `100%` | [https://3hentai.net](https://3hentai.net) |
 | [#17658](https://github.com/keiyoushi/extensions-source/issues/17658) Raven Scans No results found | Raven Scans | ✅ | Raven Scans `100%` | [https://ravenscans.org](https://ravenscans.org) |
 | [#17650](https://github.com/keiyoushi/extensions-source/issues/17650) Extensão "Argos Comics pt-br" erro HTTP 404 | Argos Comics | ✅ | Argos Comics `100%` | [https://aniargos.com](https://aniargos.com) |
-| [#17638](https://github.com/keiyoushi/extensions-source/issues/17638) Manga Livre: `HTTP 403` error | Manga Livre | 🚧 | Manga Livre `100%` | [https://toonlivre.net](https://toonlivre.net) |
 | [#17600](https://github.com/keiyoushi/extensions-source/issues/17600) Hades Scans | Hades Scans | ✅ | Hades Scans `100%` | [https://hadesscans.com](https://hadesscans.com) |
 | [#17592](https://github.com/keiyoushi/extensions-source/issues/17592) Soul Scans : URL Change request | Soul Scans | 🚧 | Soul Scans `100%` | [https://soulscans.my.id](https://soulscans.my.id) |
 | [#17554](https://github.com/keiyoushi/extensions-source/issues/17554) Toonily.me URL & Site changes | Toonily.me | 🔀 | Toonily.me `100%` | [https://toonily.me](https://toonily.me) |
@@ -28,7 +30,6 @@ Count: 124
 | [#17298](https://github.com/keiyoushi/extensions-source/issues/17298) Geass Comics Error api | Geass Comics | ✅ | Geass Comics `100%` | [https://geasscomics.xyz](https://geasscomics.xyz) |
 | [#17295](https://github.com/keiyoushi/extensions-source/issues/17295) Lunar Manga Opening a Chapter Fails with  WRONG_FINAL_BLOCK_LENGTH | Lunar Manga | ✅ | Lunar Manga `100%` | [https://lunaranime.ru](https://lunaranime.ru) |
 | [#17291](https://github.com/keiyoushi/extensions-source/issues/17291) Problema Persistente em carregar imagens e páginas na scan Little Tyrant | Little Tyrant | ✅ | Little Tyrant `100%` | [https://tiraninha.world](https://tiraninha.world) |
-| [#17290](https://github.com/keiyoushi/extensions-source/issues/17290) Happymh page order display error | 嗨皮漫画 | ⚠️ | 嗨皮漫画 `100%` | [https://m.happymh.com](https://m.happymh.com) |
 | [#17289](https://github.com/keiyoushi/extensions-source/issues/17289) HTTP 429 | PizzariaScan | ✅ | PizzariaScan `100%` | [https://pizzariacomics.com](https://pizzariacomics.com) |
 | [#17280](https://github.com/keiyoushi/extensions-source/issues/17280) "No pages found" Ortega (FR) Premium chapter | Ortega Scans | ✅ | Ortega Scans `100%` | [https://ortegascans.fr](https://ortegascans.fr) |
 | [#17166](https://github.com/keiyoushi/extensions-source/issues/17166) LumosKomik: New website URL (`03.lumosgg.com`) | LumosKomik | 🚧 | LumosKomik `100%` | [https://02.lumosgg.com](https://02.lumosgg.com) |
@@ -139,14 +140,13 @@ Count: 124
 ## Single match
 
 
-Count: 11
+Count: 10
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
 | [#17613](https://github.com/keiyoushi/extensions-source/issues/17613) IKIGAI - DOMAIN CHANGE | Ikigai | 🚧 | Ikigai Mangas `100%` | [https://zonaikigai.gamesview.shop](https://zonaikigai.gamesview.shop) |
 | [#17571](https://github.com/keiyoushi/extensions-source/issues/17571) LeerMangaEsp: New website URL (`mangalect.org`) | mangalect | ✅ | LeerMangaEsp `url title 100%` | [https://mangalect.org](https://mangalect.org) |
 | [#17546](https://github.com/keiyoushi/extensions-source/issues/17546) Asura scans latest tab not working | Asura scans latest tab not working | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
-| [#17434](https://github.com/keiyoushi/extensions-source/issues/17434) Wolftoon (KR) Fix | Wolf | ✅ | Wolftoon `title 100%` | [https://wolftoon.lovable.app](https://wolftoon.lovable.app) |
 | [#17412](https://github.com/keiyoushi/extensions-source/issues/17412) Manwa: Update time is set to request time instead of manga update time | Manwa | 🚧 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
 | [#17268](https://github.com/keiyoushi/extensions-source/issues/17268) IkigaiManga Change domain | Ikigaimangas | 🚧 | Ikigai Mangas `96%` | [https://zonaikigai.gamesview.shop](https://zonaikigai.gamesview.shop) |
 | [#17015](https://github.com/keiyoushi/extensions-source/issues/17015) NullPointerException when loading manga details for 不良指导官 | Goda comic cn | 🚧 | Goda `100%` | [https://manhuascans.org](https://manhuascans.org) |
@@ -204,9 +204,8 @@ Count: 18
 ## No match
 
 
-Count: 2
+Count: 1
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
 | [#17683](https://github.com/keiyoushi/extensions-source/issues/17683) The 400 Bad Request error is appearing again. | Happymh | | | |
-| [#17672](https://github.com/keiyoushi/extensions-source/issues/17672) BiliManga无法使用 | BiliManga无法使用 | | | |
