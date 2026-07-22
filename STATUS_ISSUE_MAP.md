@@ -1,20 +1,26 @@
 # Bug Issue → Extension Map
 
-Matched: 156 of 156 open bug issues\
-Timestamp: `2026-07-21T04:28:08+00:00`
+Matched: 163 of 163 open bug issues\
+Timestamp: `2026-07-22T00:18:14+00:00`
 
 
 ## Exact match
 
 
-Count: 125
+Count: 131
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17816](https://github.com/keiyoushi/extensions-source/issues/17816) azora no chapters found | Azora | ✅ | Azora `100%` | [https://azorafly.com](https://azorafly.com) |
+| [#17809](https://github.com/keiyoushi/extensions-source/issues/17809) Westmanga : New Website URL `https://v1.westmanga.my/` | West Manga | ✅ | West Manga `100%` | [https://v1.westmanga.cc](https://v1.westmanga.cc) |
+| [#17806](https://github.com/keiyoushi/extensions-source/issues/17806) Erro 403 MangaLivre | Manga Livre | 🚧 | Manga Livre `100%` | [https://toonlivre.net](https://toonlivre.net) |
+| [#17801](https://github.com/keiyoushi/extensions-source/issues/17801) Weeb Central: Ongoing manga with "On Hiatus" status are displayed as "Unknown" | Weeb Central | 🚧 | Weeb Central `100%` | [https://weebcentral.com](https://weebcentral.com) |
+| [#17800](https://github.com/keiyoushi/extensions-source/issues/17800) Azora: Chapters disappear or fail to load upon refresh | Azora | ✅ | Azora `100%` | [https://azorafly.com](https://azorafly.com) |
+| [#17797](https://github.com/keiyoushi/extensions-source/issues/17797) Can't get all chapters in mangago | Mangago | 🚧 | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
+| [#17784](https://github.com/keiyoushi/extensions-source/issues/17784) MangaPlus (EN): 403 reading chapters  | MANGA Plus by SHUEISHA | ✅ | MANGA Plus by SHUEISHA `100%` | [https://mangaplus.shueisha.co.jp](https://mangaplus.shueisha.co.jp) |
 | [#17774](https://github.com/keiyoushi/extensions-source/issues/17774) Mangakuri (ID) : URL change | Mangakuri | ⚠️ | Mangakuri `100%` | [https://lc1.mangakuri.online](https://lc1.mangakuri.online) |
 | [#17764](https://github.com/keiyoushi/extensions-source/issues/17764) EternalMangas No actualiza | EternalMangas | 🚧 | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
 | [#17758](https://github.com/keiyoushi/extensions-source/issues/17758) MangaYi: `Unexpected JSON token` error in Browse/Search | MangaYi | ✅ | MangaYi `100%` | [https://mangayi.com](https://mangayi.com) |
-| [#17743](https://github.com/keiyoushi/extensions-source/issues/17743) AllManga: `Unexpected JSON token` error, increase rate-limit | AllManga | ✅ | AllManga `100%` | [https://mkissa.to](https://mkissa.to) |
 | [#17722](https://github.com/keiyoushi/extensions-source/issues/17722) No Pages Found | Falco Scan | ✅ | Falco Scan `url` | [https://falcoscan.net](https://falcoscan.net) |
 | [#17719](https://github.com/keiyoushi/extensions-source/issues/17719) Unable to load data | Lunar Manga | ✅ | Lunar Manga `100%` | [https://lunaranime.ru](https://lunaranime.ru) |
 | [#17713](https://github.com/keiyoushi/extensions-source/issues/17713) RNCALATION error | Rncalation | ✅ | Rncalation `100%` | [https://rncalation.online](https://rncalation.online) |
@@ -140,10 +146,11 @@ Count: 125
 ## Single match
 
 
-Count: 11
+Count: 12
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17781](https://github.com/keiyoushi/extensions-source/issues/17781) Mangolibreria Error  | Mangolibreria Error  | 🔀 | MangoLibreria `100%` | [https://mangolibreria.com](https://mangolibreria.com) |
 | [#17752](https://github.com/keiyoushi/extensions-source/issues/17752) Hentai4Free: `No chapters found`, `HTTP 400` error (Switch to homepage results for Browse, require text for filter search) | Hentai 4 Free | 🚧 | Hentai4Free `title 100%` | [https://hentai4free.net](https://hentai4free.net) |
 | [#17613](https://github.com/keiyoushi/extensions-source/issues/17613) IKIGAI - DOMAIN CHANGE | Ikigai | 🚧 | Ikigai Mangas `100%` | [https://zonaikigai.gamesview.shop](https://zonaikigai.gamesview.shop) |
 | [#17571](https://github.com/keiyoushi/extensions-source/issues/17571) LeerMangaEsp: New website URL (`mangalect.org`) | mangalect | ✅ | LeerMangaEsp `url title 100%` | [https://mangalect.org](https://mangalect.org) |
@@ -165,7 +172,7 @@ Count: 20
 |-------|--------|:------:|-----------|-----|
 | [#17725](https://github.com/keiyoushi/extensions-source/issues/17725) Lua Scans: Status filter-wrong API parameter | Lua Scans | 🛑 | Lua Scans `100%` | [https://luacomic.org](https://luacomic.org) |
 | ↳ [#17725] |  | ✅ | Luna Scans `95%` | [https://tuhafscans.com](https://tuhafscans.com) |
-| [#17642](https://github.com/keiyoushi/extensions-source/issues/17642) TR] Manga-TR: EOFException: null when trying to load/download chapters | Manga-Tr | ✅ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
+| [#17642](https://github.com/keiyoushi/extensions-source/issues/17642) TR] Manga-TR: EOFException: null when trying to load/download chapters | Manga-Tr | ⚠️ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
 | ↳ [#17642] |  | ✅ | NTR-Manga `94%` | [https://www.ntr-manga.net](https://www.ntr-manga.net) |
 | [#17622](https://github.com/keiyoushi/extensions-source/issues/17622) Allporncomics | allporncomics.co | 🛑 | AllPornComics.co `100%` | [https://allporncomics.co](https://allporncomics.co) |
 | ↳ [#17622] |  | 🚧 | AllPornComic `title 96%` | [https://allporncomic.com](https://allporncomic.com) |
@@ -180,7 +187,7 @@ Count: 20
 | ↳ [#17374] |  | ⚠️ | Mangas Scans `91%` | [https://mangas-scans.com](https://mangas-scans.com) |
 | [#17309](https://github.com/keiyoushi/extensions-source/issues/17309) KuroMangas - Credentials expired | KuroMangas | 🚧 | KuroMangas `100%` | [https://kuromangas.com](https://kuromangas.com) |
 | ↳ [#17309] |  | ✅ | Kuro Manga `90%` | [https://kuromanga.me](https://kuromanga.me) |
-| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ✅ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
+| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ⚠️ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
 | ↳ [#16816] |  | ✅ | NTR-Manga `94%` | [https://www.ntr-manga.net](https://www.ntr-manga.net) |
 | [#13854](https://github.com/keiyoushi/extensions-source/issues/13854) Pixiv Comic does not find all available manga | Pixiv Comic | ✅ | Pixivコミック `url` | [https://comic.pixiv.net](https://comic.pixiv.net) |
 | ↳ [#13854] |  | 🚧 | Pixiv `100%` | [https://www.pixiv.net](https://www.pixiv.net) |
