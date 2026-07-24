@@ -1,18 +1,20 @@
 # Bug Issue → Extension Map
 
-Matched: 157 of 158 open bug issues\
-Timestamp: `2026-07-23T08:36:24+00:00`
+Matched: 159 of 160 open bug issues\
+Timestamp: `2026-07-24T00:58:42+00:00`
 
 
 ## Exact match
 
 
-Count: 124
+Count: 126
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#17877](https://github.com/keiyoushi/extensions-source/issues/17877) Maid Scan: `HTTP 404` error | Maid Scan | ✅ | Maid Scan `100%` | [https://empreguetes.wtf](https://empreguetes.wtf) |
+| [#17876](https://github.com/keiyoushi/extensions-source/issues/17876) Catoons: `No se encontraron páginas` / `No pages found` error | Catoons | ✅ | Catoons `100%` | [https://newcat1.xyz](https://newcat1.xyz) |
 | [#17859](https://github.com/keiyoushi/extensions-source/issues/17859) MangaFire: `HTTP 403` when opening extension | MangaFire | 🚧 | MangaFire `100%` | [https://mangafire.to](https://mangafire.to) |
-| [#17857](https://github.com/keiyoushi/extensions-source/issues/17857) Multiple issues with Kagane introduced in #17742 (description, scanlators) | Kagane | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
+| [#17857](https://github.com/keiyoushi/extensions-source/issues/17857) Kagane: Incorrect description, scanlator name formatting | Kagane | 🚧 | Kagane `100%` | [https://kagane.to](https://kagane.to) |
 | [#17823](https://github.com/keiyoushi/extensions-source/issues/17823) Manga xiaosi路径变更 | Manga Xiao Si | ✅ | Manga Xiao Si `100%` | [https://www.jjmhw2.top](https://www.jjmhw2.top) |
 | [#17822](https://github.com/keiyoushi/extensions-source/issues/17822) CrotPedia (ID): Genre filter using generic ZManga fallback list | CrotPedia | 🚧 | CrotPedia `url` | [https://crotpedia.net](https://crotpedia.net) |
 | [#17797](https://github.com/keiyoushi/extensions-source/issues/17797) Can't get all chapters in mangago | Mangago | 🚧 | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
@@ -44,7 +46,7 @@ Count: 124
 | [#16897](https://github.com/keiyoushi/extensions-source/issues/16897) Leitor de Mangas: `HTTP 404` error | Leitor de Mangas | ⚠️ | Leitor de Mangas `100%` | [https://leitordemangas.com](https://leitordemangas.com) |
 | [#16885](https://github.com/keiyoushi/extensions-source/issues/16885) DreamTeams Scans: HTTP 404 error | DreamTeams Scans | ✅ | DreamTeams Scans `100%` | [https://dreamteams.space](https://dreamteams.space) |
 | [#16878](https://github.com/keiyoushi/extensions-source/issues/16878) [Zazamanga] Filter by genre search not functioning correctly | Zazamanga | ✅ | Zazamanga `100%` | [https://www.zazamanga.com](https://www.zazamanga.com) |
-| [#16857](https://github.com/keiyoushi/extensions-source/issues/16857) Webdex Scans: Issues with premium status evaluation & shifting series URL slugs | Webdex Scans | ✅ | Webdex Scans `url` | [https://webdexscans.com](https://webdexscans.com) |
+| [#16857](https://github.com/keiyoushi/extensions-source/issues/16857) Webdex Scans: Issue with shifting series URL slugs | Webdex Scans | ✅ | Webdex Scans `100%` | [https://webdexscans.com](https://webdexscans.com) |
 | [#16747](https://github.com/keiyoushi/extensions-source/issues/16747) Gensura filters not working | Gensura | ✅ | Gensura `100%` | [https://gensura.net](https://gensura.net) |
 | [#16674](https://github.com/keiyoushi/extensions-source/issues/16674) Webtoon extension error | Webtoons.com | ✅ | Webtoons.com `100%` | [https://www.webtoons.com](https://www.webtoons.com) |
 | [#16612](https://github.com/keiyoushi/extensions-source/issues/16612) LectorManga.lat changed their url | LectorManga.lat | 🔀 | LectorManga.lat `100%` | [https://lectormangass.com](https://lectormangass.com) |
@@ -143,7 +145,7 @@ Count: 13
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#17856](https://github.com/keiyoushi/extensions-source/issues/17856) Kerusakan atau kesalahan tak terduga | Kiryuu ID | 🚧 | Kiryuu `100%` | [https://v7.kiryuu.to](https://v7.kiryuu.to) |
+| [#17874](https://github.com/keiyoushi/extensions-source/issues/17874) Manga Livre: `Não foi possível decifrar a resposta` error | Manga livre | 🚧 | Manga Livre `100%` | [https://toonlivre.net](https://toonlivre.net) |
 | [#17781](https://github.com/keiyoushi/extensions-source/issues/17781) Mangolibreria Error  | Mangolibreria Error  | 🔀 | MangoLibreria `100%` | [https://mangolibreria.com](https://mangolibreria.com) |
 | [#17752](https://github.com/keiyoushi/extensions-source/issues/17752) Hentai4Free: `No chapters found`, `HTTP 400` error (Switch to homepage results for Browse, require text for filter search) | Hentai 4 Free | 🚧 | Hentai4Free `title 100%` | [https://hentai4free.net](https://hentai4free.net) |
 | [#17613](https://github.com/keiyoushi/extensions-source/issues/17613) IKIGAI - DOMAIN CHANGE | Ikigai | 🚧 | Ikigai Mangas `100%` | [https://zonaikigai.gamesview.shop](https://zonaikigai.gamesview.shop) |
