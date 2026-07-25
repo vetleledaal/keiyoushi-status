@@ -1,7 +1,7 @@
 # Bug Issue → Extension Map
 
 Matched: 171 of 172 open bug issues\
-Timestamp: `2026-07-25T00:27:11+00:00`
+Timestamp: `2026-07-25T04:41:51+00:00`
 
 
 ## Exact match
@@ -51,7 +51,7 @@ Count: 133
 | [#17093](https://github.com/keiyoushi/extensions-source/issues/17093) I've encountered several errors in BarManga | BarManga | ✅ | BarManga `100%` | [https://archiviumbar.com](https://archiviumbar.com) |
 | [#16945](https://github.com/keiyoushi/extensions-source/issues/16945) Error Niadd | Niadd | ✅ | Niadd `100%` | [https://br.niadd.com](https://br.niadd.com) |
 | [#16931](https://github.com/keiyoushi/extensions-source/issues/16931) Gracefully handle 're-indexed' chapters | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
-| [#16897](https://github.com/keiyoushi/extensions-source/issues/16897) Leitor de Mangas: `HTTP 404` error | Leitor de Mangas | ⚠️ | Leitor de Mangas `100%` | [https://leitordemangas.com](https://leitordemangas.com) |
+| [#16897](https://github.com/keiyoushi/extensions-source/issues/16897) Leitor de Mangas: `HTTP 404` error | Leitor de Mangas | ✅ | Leitor de Mangas `100%` | [https://leitordemangas.com](https://leitordemangas.com) |
 | [#16885](https://github.com/keiyoushi/extensions-source/issues/16885) DreamTeams Scans: HTTP 404 error | DreamTeams Scans | ✅ | DreamTeams Scans `100%` | [https://dreamteams.space](https://dreamteams.space) |
 | [#16878](https://github.com/keiyoushi/extensions-source/issues/16878) [Zazamanga] Filter by genre search not functioning correctly | Zazamanga | ✅ | Zazamanga `100%` | [https://www.zazamanga.com](https://www.zazamanga.com) |
 | [#16857](https://github.com/keiyoushi/extensions-source/issues/16857) Webdex Scans: Issue with shifting series URL slugs | Webdex Scans | ✅ | Webdex Scans `100%` | [https://webdexscans.com](https://webdexscans.com) |
@@ -154,7 +154,7 @@ Count: 17
 |-------|--------|:------:|-----------|-----|
 | [#17922](https://github.com/keiyoushi/extensions-source/issues/17922) Manhuarm: NullPointerException when clicking on any title | Manhuarm: NullPointerException when clicking on any title | 🚧 | Manhuarm `100%` | [https://manhuarmtl.com](https://manhuarmtl.com) |
 | [#17912](https://github.com/keiyoushi/extensions-source/issues/17912) No results found on RisenToons | RisenToons | ✅ | Risentoons `100%` | [https://risentoons.xyz](https://risentoons.xyz) |
-| [#17909](https://github.com/keiyoushi/extensions-source/issues/17909) No results found for Leitor de Mangas | Leitor de mangás | ⚠️ | Leitor de Mangas `100%` | [https://leitordemangas.com](https://leitordemangas.com) |
+| [#17909](https://github.com/keiyoushi/extensions-source/issues/17909) No results found for Leitor de Mangas | Leitor de mangás | ✅ | Leitor de Mangas `100%` | [https://leitordemangas.com](https://leitordemangas.com) |
 | [#17900](https://github.com/keiyoushi/extensions-source/issues/17900) Extension not working | ManhuaNext | ✅ | Manhuanext `100%` | [https://manhuanext.com](https://manhuanext.com) |
 | [#17874](https://github.com/keiyoushi/extensions-source/issues/17874) Manga Livre: `Não foi possível decifrar a resposta` error | Manga livre | 🚧 | Manga Livre `100%` | [https://toonlivre.net](https://toonlivre.net) |
 | [#17781](https://github.com/keiyoushi/extensions-source/issues/17781) Mangolibreria Error  | Mangolibreria Error  | 🔀 | MangoLibreria `100%` | [https://mangolibreria.com](https://mangolibreria.com) |
@@ -183,7 +183,7 @@ Count: 21
 | ↳ [#17890] |  | ✅ | Kewn Scans `95%` | [https://kewnscans.org](https://kewnscans.org) |
 | [#17725](https://github.com/keiyoushi/extensions-source/issues/17725) Lua Scans: Status filter-wrong API parameter | Lua Scans | 🛑 | Lua Scans `100%` | [https://luacomic.org](https://luacomic.org) |
 | ↳ [#17725] |  | ✅ | Luna Scans `95%` | [https://tuhafscans.com](https://tuhafscans.com) |
-| [#17642](https://github.com/keiyoushi/extensions-source/issues/17642) TR] Manga-TR: EOFException: null when trying to load/download chapters | Manga-Tr | ⚠️ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
+| [#17642](https://github.com/keiyoushi/extensions-source/issues/17642) TR] Manga-TR: EOFException: null when trying to load/download chapters | Manga-Tr | ✅ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
 | ↳ [#17642] |  | ✅ | NTR-Manga `94%` | [https://www.ntr-manga.net](https://www.ntr-manga.net) |
 | [#17622](https://github.com/keiyoushi/extensions-source/issues/17622) Allporncomics | allporncomics.co | 🛑 | AllPornComics.co `100%` | [https://allporncomics.co](https://allporncomics.co) |
 | ↳ [#17622] |  | 🚧 | AllPornComic `title 96%` | [https://allporncomic.com](https://allporncomic.com) |
@@ -198,7 +198,7 @@ Count: 21
 | ↳ [#17374] |  | ⚠️ | Mangas Scans `91%` | [https://mangas-scans.com](https://mangas-scans.com) |
 | [#17309](https://github.com/keiyoushi/extensions-source/issues/17309) KuroMangas - Credentials expired | KuroMangas | 🚧 | KuroMangas `100%` | [https://kuromangas.com](https://kuromangas.com) |
 | ↳ [#17309] |  | ✅ | Kuro Manga `90%` | [https://kuromanga.me](https://kuromanga.me) |
-| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ⚠️ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
+| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ✅ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
 | ↳ [#16816] |  | ✅ | NTR-Manga `94%` | [https://www.ntr-manga.net](https://www.ntr-manga.net) |
 | [#13854](https://github.com/keiyoushi/extensions-source/issues/13854) Pixiv Comic does not find all available manga | Pixiv Comic | ✅ | Pixivコミック `url` | [https://comic.pixiv.net](https://comic.pixiv.net) |
 | ↳ [#13854] |  | 🚧 | Pixiv `100%` | [https://www.pixiv.net](https://www.pixiv.net) |
