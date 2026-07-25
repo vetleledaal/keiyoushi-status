@@ -39,6 +39,7 @@ class Status(StrEnum):
     REDIRECT = "🔀"
     PARKED = "🅿️"
     NOT_FOUND = "🔍"
+    PLACEHOLDER = "🪧"
 
 
 REPORT_SECTIONS: list[tuple[str, Status]] = [
@@ -46,6 +47,7 @@ REPORT_SECTIONS: list[tuple[str, Status]] = [
     ("Redirects", Status.REDIRECT),
     ("Cloudflare IUAM", Status.CF_IUAM),
     ("Cloudflare Blocked", Status.CF_BLOCK),
+    ("Placeholder", Status.PLACEHOLDER),
     ("Parked Domains", Status.PARKED),
     ("Warnings", Status.WARNING),
     ("Errors", Status.ERROR),
@@ -53,12 +55,25 @@ REPORT_SECTIONS: list[tuple[str, Status]] = [
 ]
 
 PARKED_DOMAINS = [
+    "https://bulsis.net/",
     "https://expireddomains.com/",
     "https://teksishe.net/",
 ]
 
 PARKED_QUERIES = [
     "subid1",
+]
+
+PLACEHOLDER_TITLES = [
+    "Apache2 Debian Default Page: It works",
+    "Apache2 Ubuntu Default Page: It works",
+    "Sorry, the website has been stopped",
+    "Welcome to nginx!",
+]
+
+PLACEHOLDER_BODIES = [
+    "site has been stopped by the administrator",
+    "website has been stopped",
 ]
 
 PARKED_TITLES = [
@@ -71,6 +86,8 @@ PARKED_BODIES = [
     '''"domainPrice"''',
     '''"domainRegistrant"''',
     """?tr_uuid=""",
+    """'/saleform'""",
+    """<h1>This domain is for sale</h1>""",
     """<html data-adblockkey=""",
     """<img src="https://l.cdn-fileserver.com/bping.php?""",
     """<p><a href="/_pp">Privacy Policy</a></p>""",
@@ -82,6 +99,15 @@ PARKED_BODIES = [
     """sedoparking.com""",
     """window.location.href="/lander""",
 ]
+
+
+def check_placeholder_content(title: str, html: str) -> list[str]:
+    signals: list[str] = []
+    if title in PLACEHOLDER_TITLES:
+        signals.append("title")
+    if any(body in html.lower() for body in PLACEHOLDER_BODIES):
+        signals.append("body")
+    return signals
 
 
 class CheckResultProtocol(Protocol):
@@ -205,6 +231,9 @@ async def check_url_generic(
                 if title == "Attention Required! | Cloudflare":
                     infos = []
                     return result(Status.CF_BLOCK)
+
+            if check_placeholder_content(title, html):
+                return result(Status.PLACEHOLDER)
 
             parked_signals.extend(check_parked_content(title, html))
 
