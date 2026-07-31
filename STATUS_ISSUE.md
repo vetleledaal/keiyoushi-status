@@ -1,285 +1,286 @@
 # URLs from issues
 
 Count: 412\
-Timestamp: `2026-07-30T08:36:11+00:00`\
-User-Agent: `Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36`
+Timestamp: `2026-07-31T01:03:10+00:00`\
+User-Agent: `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.0.0`
 
 ## OK
 
-Count: 279
+Count: 280
 
 | Status   | PR                                                                    | URL                                                                                                               | Time   | Labels         | Info     |
 |----------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|--------|----------------|----------|
-| ✅        | [#18101](https://github.com/keiyoushi/extensions-source/issues/18101) | https://ww12.tokyoghoulre.com                                                                                     | 2.155s | Domain changed |          |
-| ✅        | [#18100](https://github.com/keiyoushi/extensions-source/issues/18100) | https://ww13.readonepiece.com                                                                                     | 1.931s | Domain changed |          |
-| ✅        | [#18099](https://github.com/keiyoushi/extensions-source/issues/18099) | https://ww6.readjujutsukaisen.com                                                                                 | 2.353s | Domain changed |          |
-| ✅        | [#18097](https://github.com/keiyoushi/extensions-source/issues/18097) | https://ww4.readsololeveling.org                                                                                  | 2.369s | Domain changed |          |
-| ✅        | [#18095](https://github.com/keiyoushi/extensions-source/issues/18095) | https://foxtruyen2.com/                                                                                           | 2.430s | Domain changed |          |
-| ✅        | [#18094](https://github.com/keiyoushi/extensions-source/issues/18094) | https://www.zettruyen.homes/                                                                                      | 1.575s | Domain changed |          |
-| ✅        | [#18073](https://github.com/keiyoushi/extensions-source/issues/18073) | https://nhentaiyaoi.com/                                                                                          | 0.850s | Source request |          |
-| ✅        | [#18066](https://github.com/keiyoushi/extensions-source/issues/18066) | https://nb19u.blogspot.com/search/label/%D9%85%D8%A7%D9%86%D8%AC%D8%A7%20%D8%A8%D9%88%D8%B1%D9%88%D8%AA%D9%88?m=1 | 1.550s | Source request |          |
-| ✅        | [#18054](https://github.com/keiyoushi/extensions-source/issues/18054) | https://mangaplex.com/                                                                                            | 2.329s | Source request |          |
-| ✅        | [#18046](https://github.com/keiyoushi/extensions-source/issues/18046) | https://m.hipmh.com                                                                                               | 1.992s | Source request |          |
-| ✅        | [#18001](https://github.com/keiyoushi/extensions-source/issues/18001) | https://kyokotsu.com/                                                                                             | 1.997s | Source request |          |
-| ✅        | [#17998](https://github.com/keiyoushi/extensions-source/issues/17998) | https://weloma.net                                                                                                | 1.699s | Domain changed | Bare URL |
-| ✅        | [#17967](https://github.com/keiyoushi/extensions-source/issues/17967) | https://tkor139.com                                                                                               | 4.733s | Domain changed |          |
-| ✅        | [#17965](https://github.com/keiyoushi/extensions-source/issues/17965) | https://raw18.pro                                                                                                 | 1.678s | Domain changed |          |
-| ✅        | [#17963](https://github.com/keiyoushi/extensions-source/issues/17963) | https://dokiraw.lol                                                                                               | 1.994s | Domain changed |          |
-| ✅        | [#17962](https://github.com/keiyoushi/extensions-source/issues/17962) | https://madarascans.org                                                                                           | 3.659s | Domain changed |          |
-| ✅        | [#17952](https://github.com/keiyoushi/extensions-source/issues/17952) | https://siyahmelek.lat                                                                                            | 1.161s | Domain changed |          |
-| ✅        | [#17921](https://github.com/keiyoushi/extensions-source/issues/17921) | https://readcomicsonline.lol/                                                                                     | 0.366s | Source request |          |
-| ✅        | [#17889](https://github.com/keiyoushi/extensions-source/issues/17889) | https://dexscan.lovable.app/                                                                                      | 2.402s | Source request |          |
-| ✅        | [#17823](https://github.com/keiyoushi/extensions-source/issues/17823) | https://www.jjmh.top/                                                                                             | 1.604s | Domain changed |          |
-| ✅        | [#17756](https://github.com/keiyoushi/extensions-source/issues/17756) | https://mangaraw.co.uk/                                                                                           | 2.136s | Source request |          |
-| ✅        | [#17753](https://github.com/keiyoushi/extensions-source/issues/17753) | https://hunlightcomics.com/                                                                                       | 2.803s | Source request |          |
-| ✅        | [#17744](https://github.com/keiyoushi/extensions-source/issues/17744) | https://onvatrad.com/                                                                                             | 3.153s | Source request |          |
-| ✅        | [#17645](https://github.com/keiyoushi/extensions-source/issues/17645) | https://www.umimanga.com/                                                                                         | 1.550s | Source request |          |
-| ✅        | [#17608](https://github.com/keiyoushi/extensions-source/issues/17608) | https://bdplus.cc/                                                                                                | 1.112s | Source request |          |
-| ✅        | [#17571](https://github.com/keiyoushi/extensions-source/issues/17571) | https://mangalect.org                                                                                             | 1.928s | Domain changed |          |
-| ✅        | [#17524](https://github.com/keiyoushi/extensions-source/issues/17524) | https://klmanga.mobi/                                                                                             | 1.823s | Source request |          |
-| ✅        | [#17512](https://github.com/keiyoushi/extensions-source/issues/17512) | https://storygrounds.com                                                                                          | 1.780s | Source request |          |
-| ✅        | [#17482](https://github.com/keiyoushi/extensions-source/issues/17482) | https://mangabenim.com/                                                                                           | 1.697s | Source request |          |
-| ✅        | [#17481](https://github.com/keiyoushi/extensions-source/issues/17481) | https://mangamac.com/                                                                                             | 2.014s | Source request |          |
-| ✅        | [#17473](https://github.com/keiyoushi/extensions-source/issues/17473) | https://rp-universe.ru                                                                                            | 2.634s | Source request |          |
-| ✅        | [#17456](https://github.com/keiyoushi/extensions-source/issues/17456) | https://rawsakura.org/                                                                                            | 1.692s | Source request |          |
-| ✅        | [#17364](https://github.com/keiyoushi/extensions-source/issues/17364) | https://zonatmo.net/                                                                                              | 1.728s | Source request |          |
-| ✅        | [#17293](https://github.com/keiyoushi/extensions-source/issues/17293) | https://sora.fans/                                                                                                | 0.726s | Source request |          |
-| ✅        | [#17234](https://github.com/keiyoushi/extensions-source/issues/17234) | https://www.jjaptoon004.com/                                                                                      | 0.419s | Source request |          |
-| ✅        | [#17232](https://github.com/keiyoushi/extensions-source/issues/17232) | https://www.manganight.com.br/                                                                                    | 1m47s  | Source request |          |
-| ✅        | [#17141](https://github.com/keiyoushi/extensions-source/issues/17141) | https://daisuki-na-fansub.com/                                                                                    | 2.142s | Source request |          |
-| ✅        | [#17133](https://github.com/keiyoushi/extensions-source/issues/17133) | https://tojimangas.com/                                                                                           | 6.965s | Source request |          |
-| ✅        | [#16998](https://github.com/keiyoushi/extensions-source/issues/16998) | https://theexiledheavyknight.com/                                                                                 | 2.176s | Source request |          |
-| ✅        | [#16892](https://github.com/keiyoushi/extensions-source/issues/16892) | https://eshadow.net                                                                                               | 0.489s | Source request |          |
-| ✅        | [#16888](https://github.com/keiyoushi/extensions-source/issues/16888) | https://outcatscans.net/                                                                                          | 2.425s | Source request |          |
-| ✅        | [#16791](https://github.com/keiyoushi/extensions-source/issues/16791) | https://undertranslations.com/                                                                                    | 1.814s | Source request |          |
-| ✅        | [#16784](https://github.com/keiyoushi/extensions-source/issues/16784) | https://www.wolfmanga.com/                                                                                        | 2.251s | Source request |          |
-| ✅        | [#16782](https://github.com/keiyoushi/extensions-source/issues/16782) | https://www.ucracizgiroman.com/                                                                                   | 1.702s | Source request |          |
-| ✅        | [#16762](https://github.com/keiyoushi/extensions-source/issues/16762) | https://ocecomic.com/                                                                                             | 4.714s | Source request |          |
-| ✅        | [#16614](https://github.com/keiyoushi/extensions-source/issues/16614) | https://www.visorcapitulo.com/                                                                                    | 1.439s | Source request |          |
-| ✅        | [#16612](https://github.com/keiyoushi/extensions-source/issues/16612) | https://lectormangass.net/                                                                                        | 2.175s | Domain changed |          |
-| ✅        | [#16576](https://github.com/keiyoushi/extensions-source/issues/16576) | https://qtoon.org/?lang=en                                                                                        | 2.094s | Source request |          |
-| ✅        | [#16551](https://github.com/keiyoushi/extensions-source/issues/16551) | https://manga168x.com/                                                                                            | 2.449s | Domain changed |          |
-| ✅        | [#16497](https://github.com/keiyoushi/extensions-source/issues/16497) | https://mantrazscaan.com/                                                                                         | 1.738s | Domain changed |          |
-| ✅        | [#16480](https://github.com/keiyoushi/extensions-source/issues/16480) | https://doujiva.com/                                                                                              | 1.927s | Source request |          |
-| ✅        | [#16432](https://github.com/keiyoushi/extensions-source/issues/16432) | https://karikari.app/                                                                                             | 1.889s | Source request |          |
-| ✅        | [#16427](https://github.com/keiyoushi/extensions-source/issues/16427) | https://lezhin.jp/                                                                                                | 2.917s | Source request |          |
-| ✅        | [#16409](https://github.com/keiyoushi/extensions-source/issues/16409) | https://aquellosquetraducen.com/                                                                                  | 1.888s | Source request |          |
-| ✅        | [#16353](https://github.com/keiyoushi/extensions-source/issues/16353) | https://xiaoaitoon.org.tr/                                                                                        | 3.583s | Source request |          |
-| ✅        | [#16341](https://github.com/keiyoushi/extensions-source/issues/16341) | https://jentranslation11.blogspot.com/?m=1                                                                        | 2.400s | Source request |          |
-| ✅        | [#16297](https://github.com/keiyoushi/extensions-source/issues/16297) | https://hentaipill.com                                                                                            | 2.095s | Source request |          |
-| ✅        | [#16292](https://github.com/keiyoushi/extensions-source/issues/16292) | https://www.mangahome.com/                                                                                        | 1.168s | Source request |          |
-| ✅        | [#16246](https://github.com/keiyoushi/extensions-source/issues/16246) | https://t.me/s/newtoki_ch                                                                                         | 1.391s | Source request |          |
-| ✅        | [#16236](https://github.com/keiyoushi/extensions-source/issues/16236) | https://jabrascan.net                                                                                             | 1.260s | Source request |          |
-| ✅        | [#16207](https://github.com/keiyoushi/extensions-source/issues/16207) | https://ritto.cc/                                                                                                 | 2.381s | Source request |          |
-| ✅        | [#16205](https://github.com/keiyoushi/extensions-source/issues/16205) | https://mangatab.com                                                                                              | 1.465s | Source request |          |
-| ✅        | [#16151](https://github.com/keiyoushi/extensions-source/issues/16151) | https://www.clanmanhwa.com/                                                                                       | 2.114s | Domain changed |          |
-| ✅        | [#16151](https://github.com/keiyoushi/extensions-source/issues/16151) | https://www.harimanga.co.uk/                                                                                      | 1.721s | Domain changed |          |
-| ✅        | [#16151](https://github.com/keiyoushi/extensions-source/issues/16151) | https://www.harimanga.us.com/                                                                                     | 1.786s | Domain changed |          |
-| ✅        | [#16151](https://github.com/keiyoushi/extensions-source/issues/16151) | https://www.harimanga.vip/                                                                                        | 1.831s | Domain changed |          |
-| ✅        | [#16151](https://github.com/keiyoushi/extensions-source/issues/16151) | https://www.kunmanga.co.uk/                                                                                       | 1.642s | Domain changed |          |
-| ✅        | [#16151](https://github.com/keiyoushi/extensions-source/issues/16151) | https://www.manhwaclan.co.uk/                                                                                     | 1.688s | Domain changed |          |
-| ✅        | [#16147](https://github.com/keiyoushi/extensions-source/issues/16147) | https://valkyuri.com/                                                                                             | 3.536s | Source request |          |
-| ✅        | [#16106](https://github.com/keiyoushi/extensions-source/issues/16106) | https://comic-seasons.com/                                                                                        | 2.358s | Source request |          |
-| ✅        | [#16095](https://github.com/keiyoushi/extensions-source/issues/16095) | https://desirescans.com                                                                                           | 1.644s | Source request |          |
-| ✅        | [#16092](https://github.com/keiyoushi/extensions-source/issues/16092) | https://loverstoon.net/                                                                                           | 1.659s | Domain changed |          |
-| ✅        | [#16074](https://github.com/keiyoushi/extensions-source/issues/16074) | https://vymanga.com/                                                                                              | 1.292s | Source request |          |
-| ✅        | [#16039](https://github.com/keiyoushi/extensions-source/issues/16039) | https://hibon-bl.blogspot.com/                                                                                    | 1.790s | Source request |          |
-| ✅        | [#15923](https://github.com/keiyoushi/extensions-source/issues/15923) | https://homocdrscan.blogspot.com/p/series.html?m=1                                                                | 1.652s | Source request |          |
-| ✅        | [#15918](https://github.com/keiyoushi/extensions-source/issues/15918) | https://novelasmaschafas.blogspot.com/p/mangas.html?m=1                                                           | 0.847s | Source request |          |
-| ✅        | [#15910](https://github.com/keiyoushi/extensions-source/issues/15910) | https://ourfeel.jp/                                                                                               | 2.155s | Source request |          |
-| ✅        | [#15908](https://github.com/keiyoushi/extensions-source/issues/15908) | https://comic-ogyaaa.com/                                                                                         | 2.920s | Source request |          |
-| ✅        | [#15886](https://github.com/keiyoushi/extensions-source/issues/15886) | https://toon-hub.com/                                                                                             | 0.665s | Source request |          |
-| ✅        | [#15878](https://github.com/keiyoushi/extensions-source/issues/15878) | https://manwali.cc                                                                                                | 2.190s | Source request |          |
-| ✅        | [#15878](https://github.com/keiyoushi/extensions-source/issues/15878) | https://mwuu.cc                                                                                                   | 2.334s | Source request |          |
-| ✅        | [#15803](https://github.com/keiyoushi/extensions-source/issues/15803) | https://softkomik.online/                                                                                         | 1.641s | Source request |          |
-| ✅        | [#15786](https://github.com/keiyoushi/extensions-source/issues/15786) | https://www.mangaspn.com/                                                                                         | 1.911s | Source request |          |
-| ✅        | [#15576](https://github.com/keiyoushi/extensions-source/issues/15576) | https://cin.blue/                                                                                                 | 1.188s | Source request |          |
-| ✅        | [#15515](https://github.com/keiyoushi/extensions-source/issues/15515) | https://manhuabika.com/                                                                                           | 1.210s | Domain changed |          |
-| ✅        | [#15481](https://github.com/keiyoushi/extensions-source/issues/15481) | https://jagoanmanga.com                                                                                           | 8.377s | Source request |          |
-| ✅        | [#15324](https://github.com/keiyoushi/extensions-source/issues/15324) | https://t.me/s/newtoki_url                                                                                        | 0.315s | Source request |          |
-| ✅        | [#15286](https://github.com/keiyoushi/extensions-source/issues/15286) | https://strayfansub.buzz/                                                                                         | 1.215s | Domain changed |          |
-| ✅        | [#15232](https://github.com/keiyoushi/extensions-source/issues/15232) | https://www.kazescans.com/                                                                                        | 1.578s | Source request |          |
-| ✅        | [#15071](https://github.com/keiyoushi/extensions-source/issues/15071) | https://ikanmh.cc/                                                                                                | 2.778s | Source request |          |
-| ✅        | [#15006](https://github.com/keiyoushi/extensions-source/issues/15006) | https://otakuteca.net/                                                                                            | 2.403s | Source request |          |
-| ✅        | [#15002](https://github.com/keiyoushi/extensions-source/issues/15002) | https://senmanga.com/                                                                                             | 1.163s | Source request |          |
-| ✅        | [#14977](https://github.com/keiyoushi/extensions-source/issues/14977) | https://tmohentai.app/                                                                                            | 3.074s | Source request |          |
-| ✅        | [#14948](https://github.com/keiyoushi/extensions-source/issues/14948) | https://lectorxd.com/                                                                                             | 1.085s | Source request |          |
-| ✅        | [#14941](https://github.com/keiyoushi/extensions-source/issues/14941) | https://toontaku.com/                                                                                             | 2.694s | Source request |          |
-| ✅        | [#14940](https://github.com/keiyoushi/extensions-source/issues/14940) | https://dxdfansub.com/                                                                                            | 1.704s | Source request |          |
-| ✅        | [#14819](https://github.com/keiyoushi/extensions-source/issues/14819) | https://www.iniotaku2.com/                                                                                        | 2.115s | Source request |          |
-| ✅        | [#14814](https://github.com/keiyoushi/extensions-source/issues/14814) | https://www.spnmanga.com/                                                                                         | 1.897s | Source request |          |
-| ✅        | [#14782](https://github.com/keiyoushi/extensions-source/issues/14782) | https://dakimangas.me/                                                                                            | 11s    | Source request |          |
-| ✅        | [#14747](https://github.com/keiyoushi/extensions-source/issues/14747) | https://kokkokuteisukyankt.blogspot.com/                                                                          | 2.053s | Source request |          |
-| ✅        | [#14682](https://github.com/keiyoushi/extensions-source/issues/14682) | https://dream-manga.com/                                                                                          | 0.652s | Source request |          |
-| ✅        | [#14576](https://github.com/keiyoushi/extensions-source/issues/14576) | https://x.com/                                                                                                    | 1.379s | Source request |          |
-| ✅        | [#14571](https://github.com/keiyoushi/extensions-source/issues/14571) | https://procomic.net/                                                                                             | 1.587s | Source request |          |
-| ✅        | [#14571](https://github.com/keiyoushi/extensions-source/issues/14571) | https://procomic.pro                                                                                              | 2.736s | Source request |          |
-| ✅        | [#14565](https://github.com/keiyoushi/extensions-source/issues/14565) | https://www.komiwa.lat/                                                                                           | 1.850s | Source request |          |
-| ✅        | [#14553](https://github.com/keiyoushi/extensions-source/issues/14553) | https://lectortmoo.com/                                                                                           | 0.170s | Source request |          |
-| ✅        | [#14508](https://github.com/keiyoushi/extensions-source/issues/14508) | https://mikoroku.com                                                                                              | 0.926s | Domain changed |          |
-| ✅        | [#14467](https://github.com/keiyoushi/extensions-source/issues/14467) | https://ataraxiamangas.com                                                                                        | 1.863s | Source request |          |
-| ✅        | [#14263](https://github.com/keiyoushi/extensions-source/issues/14263) | https://www.manhwaland.baby/                                                                                      | 2.363s | Domain changed |          |
-| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://e-hentai.org/                                                                                             | 2.120s | Source request |          |
-| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://hentai20.io/                                                                                              | 1.154s | Source request |          |
-| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://hentai2read.com/                                                                                          | 2.804s | Source request |          |
-| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://hitomi.la/                                                                                                | 1.749s | Source request |          |
-| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://pururin.me/                                                                                               | 2.005s | Source request |          |
-| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://www.kumanga.com/                                                                                          | 2.316s | Source request |          |
-| ✅        | [#14241](https://github.com/keiyoushi/extensions-source/issues/14241) | https://funktoon.com/                                                                                             | 1.524s | Source request |          |
-| ✅        | [#14046](https://github.com/keiyoushi/extensions-source/issues/14046) | https://plumics.com/                                                                                              | 1.708s | Source request |          |
-| ✅        | [#14028](https://github.com/keiyoushi/extensions-source/issues/14028) | https://toon.space/                                                                                               | 1.404s | Source request |          |
-| ✅        | [#13907](https://github.com/keiyoushi/extensions-source/issues/13907) | https://mechacomic.jp/                                                                                            | 3.130s | Source request |          |
-| ✅        | [#13904](https://github.com/keiyoushi/extensions-source/issues/13904) | https://www.dlsite.com/index.html                                                                                 | 1.182s | Source request |          |
-| ✅        | [#13784](https://github.com/keiyoushi/extensions-source/issues/13784) | https://keikomik.net                                                                                              | 0.830s | Source request |          |
-| ✅        | [#13727](https://github.com/keiyoushi/extensions-source/issues/13727) | https://play.hypercomic.io/Webtoon                                                                                | 6.595s | Source request |          |
-| ✅        | [#13713](https://github.com/keiyoushi/extensions-source/issues/13713) | https://inkora.spacely.tech/home                                                                                  | 1.671s | Source request |          |
-| ✅        | [#13589](https://github.com/keiyoushi/extensions-source/issues/13589) | https://mgadoji.blogspot.com                                                                                      | 0.526s | Source request |          |
-| ✅        | [#13589](https://github.com/keiyoushi/extensions-source/issues/13589) | https://www.ryuo.online/                                                                                          | 1.628s | Source request |          |
-| ✅        | [#13572](https://github.com/keiyoushi/extensions-source/issues/13572) | https://www.wn01.cfd/                                                                                             | 2.140s | Source request |          |
-| ✅        | [#13512](https://github.com/keiyoushi/extensions-source/issues/13512) | https://airibox.top                                                                                               | 3.215s | Source request |          |
-| ✅        | [#13397](https://github.com/keiyoushi/extensions-source/issues/13397) | https://punkrecordz.com/                                                                                          | 2.107s | Source request |          |
-| ✅        | [#13395](https://github.com/keiyoushi/extensions-source/issues/13395) | https://mangakoma01.top/                                                                                          | 2.093s | Source request |          |
-| ✅        | [#13233](https://github.com/keiyoushi/extensions-source/issues/13233) | https://xbato.co.uk/home                                                                                          | 0.615s | Source request |          |
-| ✅        | [#13229](https://github.com/keiyoushi/extensions-source/issues/13229) | https://lorangeteam.art                                                                                           | 2.171s | Source request |          |
-| ✅        | [#12630](https://github.com/keiyoushi/extensions-source/issues/12630) | https://www.mangamulti.com/tr                                                                                     | 1.945s | Source request |          |
-| ✅        | [#12483](https://github.com/keiyoushi/extensions-source/issues/12483) | https://leermanhwas.com/                                                                                          | 1.895s | Source request |          |
-| ✅        | [#12383](https://github.com/keiyoushi/extensions-source/issues/12383) | https://www.tamberlanecomic.com/feed.xml                                                                          | 2.127s | Source request |          |
-| ✅        | [#12205](https://github.com/keiyoushi/extensions-source/issues/12205) | https://www.freexcomic.com                                                                                        | 2.095s | Source request |          |
-| ✅        | [#11964](https://github.com/keiyoushi/extensions-source/issues/11964) | https://beta.norus.site/                                                                                          | 2.603s | Source request |          |
-| ✅        | [#11931](https://github.com/keiyoushi/extensions-source/issues/11931) | https://corujatoon.com/                                                                                           | 2.279s | Source request |          |
-| ✅        | [#11851](https://github.com/keiyoushi/extensions-source/issues/11851) | https://comic.tibiu.net/                                                                                          | 1.178s | Source request |          |
-| ✅        | [#11823](https://github.com/keiyoushi/extensions-source/issues/11823) | https://t4.xtoon365.com/                                                                                          | 2.045s | Source request |          |
-| ✅        | [#11618](https://github.com/keiyoushi/extensions-source/issues/11618) | https://complexbowler.neocities.org/                                                                              | 2.311s | Source request |          |
-| ✅        | [#11366](https://github.com/keiyoushi/extensions-source/issues/11366) | https://read.amazon.co.jp                                                                                         | 2.004s | Source request |          |
-| ✅        | [#11157](https://github.com/keiyoushi/extensions-source/issues/11157) | https://megabanana.mx/                                                                                            | 2.586s | Source request |          |
-| ✅        | [#11142](https://github.com/keiyoushi/extensions-source/issues/11142) | https://www.177pica.com                                                                                           | 1.531s | Source request |          |
-| ✅        | [#11139](https://github.com/keiyoushi/extensions-source/issues/11139) | https://m.90mh.cc/                                                                                                | 0.792s | Source request |          |
-| ✅        | [#11107](https://github.com/keiyoushi/extensions-source/issues/11107) | https://pandasuki.net                                                                                             | 1.191s | Source request |          |
-| ✅        | [#11099](https://github.com/keiyoushi/extensions-source/issues/11099) | https://www.yoyomanga.com/                                                                                        | 1.714s | Source request |          |
-| ✅        | [#10972](https://github.com/keiyoushi/extensions-source/issues/10972) | https://soraraw.com/                                                                                              | 1.087s | Source request |          |
-| ✅        | [#10949](https://github.com/keiyoushi/extensions-source/issues/10949) | https://kemono.cafe/                                                                                              | 1.029s | Source request |          |
-| ✅        | [#10926](https://github.com/keiyoushi/extensions-source/issues/10926) | https://www.rumanhua.org                                                                                          | 2.246s | Source request |          |
-| ✅        | [#10867](https://github.com/keiyoushi/extensions-source/issues/10867) | https://www.lunarscans.xyz                                                                                        | 1.103s | Source request |          |
-| ✅        | [#10812](https://github.com/keiyoushi/extensions-source/issues/10812) | https://mangaraw24.net                                                                                            | 1.397s | Source request |          |
-| ✅        | [#10712](https://github.com/keiyoushi/extensions-source/issues/10712) | https://rawfree.md                                                                                                | 2.441s | Source request |          |
-| ✅        | [#10701](https://github.com/keiyoushi/extensions-source/issues/10701) | https://manhuaplus.top/                                                                                           | 1.769s | Domain changed |          |
-| ✅        | [#10516](https://github.com/keiyoushi/extensions-source/issues/10516) | https://mangacix.net/                                                                                             | 1.952s | Source request |          |
-| ✅        | [#10140](https://github.com/keiyoushi/extensions-source/issues/10140) | https://komikrealm.org/                                                                                           | 2.025s | Source request |          |
-| ✅        | [#10010](https://github.com/keiyoushi/extensions-source/issues/10010) | https://brscans.vercel.app                                                                                        | 3.055s | Source request |          |
-| ✅        | [#10003](https://github.com/keiyoushi/extensions-source/issues/10003) | https://www.extrafabulouscomics.com/                                                                              | 1.705s | Source request |          |
-| ✅        | [#9966](https://github.com/keiyoushi/extensions-source/issues/9966)   | https://www.lezhin.com                                                                                            | 3.523s | Source request |          |
-| ✅        | [#9953](https://github.com/keiyoushi/extensions-source/issues/9953)   | https://mirrorinkomik.my.id/                                                                                      | 5.879s | Source request |          |
-| ✅        | [#9953](https://github.com/keiyoushi/extensions-source/issues/9953)   | https://mirrorkomik.id/                                                                                           | 3.501s | Source request |          |
-| ✅        | [#9660](https://github.com/keiyoushi/extensions-source/issues/9660)   | https://mindafansub.dev/                                                                                          | 7.141s | Source request |          |
-| ✅        | [#9621](https://github.com/keiyoushi/extensions-source/issues/9621)   | https://thrive.moe                                                                                                | 1.748s | Source request |          |
-| ✅        | [#9601](https://github.com/keiyoushi/extensions-source/issues/9601)   | https://eahentai.com/                                                                                             | 1.377s | Source request |          |
-| ✅        | [#9532](https://github.com/keiyoushi/extensions-source/issues/9532)   | https://mxs13.cc/                                                                                                 | 1.610s | Source request |          |
-| ✅        | [#9465](https://github.com/keiyoushi/extensions-source/issues/9465)   | https://www.comicsgate.net/home/                                                                                  | 2.608s | Source request |          |
-| ✅        | [#9464](https://github.com/keiyoushi/extensions-source/issues/9464)   | https://arabcomics.net/                                                                                           | 1.702s | Source request |          |
-| ✅        | [#9429](https://github.com/keiyoushi/extensions-source/issues/9429)   | https://www.hqdesexo.com/                                                                                         | 2.004s | Source request |          |
-| ✅        | [#9361](https://github.com/keiyoushi/extensions-source/issues/9361)   | https://characterdesignreferences.com/                                                                            | 1.359s | Source request |          |
-| ✅        | [#9180](https://github.com/keiyoushi/extensions-source/issues/9180)   | https://olympusbiblioteca.net/                                                                                    | 1.544s | Source request |          |
-| ✅        | [#9107](https://github.com/keiyoushi/extensions-source/issues/9107)   | https://www.kingsmanga.net/                                                                                       | 1.688s | Source request |          |
-| ✅        | [#9100](https://github.com/keiyoushi/extensions-source/issues/9100)   | https://www.xsnvshen.com                                                                                          | 1.513s | Source request |          |
-| ✅        | [#9099](https://github.com/keiyoushi/extensions-source/issues/9099)   | https://rawlazy.io/                                                                                               | 3.275s | Source request |          |
-| ✅        | [#8919](https://github.com/keiyoushi/extensions-source/issues/8919)   | https://ithinkilikeyou.net                                                                                        | 1.919s | Source request |          |
-| ✅        | [#8790](https://github.com/keiyoushi/extensions-source/issues/8790)   | https://theoldshinobi.online/                                                                                     | 2.314s | Source request |          |
-| ✅        | [#8588](https://github.com/keiyoushi/extensions-source/issues/8588)   | https://comic.acgn.cc/                                                                                            | 0.800s | Source request |          |
-| ✅        | [#8531](https://github.com/keiyoushi/extensions-source/issues/8531)   | https://instahentai.com/                                                                                          | 0.888s | Source request |          |
-| ✅        | [#8524](https://github.com/keiyoushi/extensions-source/issues/8524)   | https://t.me/WickedMangaArchivioBot                                                                               | 0.848s | Source request |          |
-| ✅        | [#8415](https://github.com/keiyoushi/extensions-source/issues/8415)   | https://bocchi-manga.blogspot.com/                                                                                | 0.932s | Source request |          |
-| ✅        | [#8403](https://github.com/keiyoushi/extensions-source/issues/8403)   | https://babesource.com/                                                                                           | 1.677s | Source request |          |
-| ✅        | [#8294](https://github.com/keiyoushi/extensions-source/issues/8294)   | https://fishwiveschoir.co.uk/                                                                                     | 2.329s | Source request |          |
-| ✅        | [#8269](https://github.com/keiyoushi/extensions-source/issues/8269)   | https://webtoon.kakao.com                                                                                         | 2.348s | Source request |          |
-| ✅        | [#7995](https://github.com/keiyoushi/extensions-source/issues/7995)   | https://lapkzone.com/                                                                                             | 1.182s | Source request |          |
-| ✅        | [#7808](https://github.com/keiyoushi/extensions-source/issues/7808)   | https://readrealm.co                                                                                              | 2.570s | Source request |          |
-| ✅        | [#7681](https://github.com/keiyoushi/extensions-source/issues/7681)   | https://tioscomic.com/                                                                                            | 1.675s | Source request |          |
-| ✅        | [#7630](https://github.com/keiyoushi/extensions-source/issues/7630)   | https://blacktoon417.com/                                                                                         | 1.219s | Domain changed |          |
-| ✅        | [#7515](https://github.com/keiyoushi/extensions-source/issues/7515)   | https://leitorreverse.blogspot.com/?m=1                                                                           | 1.141s | Source request |          |
-| ✅        | [#7392](https://github.com/keiyoushi/extensions-source/issues/7392)   | https://dashtoon.com/                                                                                             | 0.839s | Source request |          |
-| ✅        | [#7386](https://github.com/keiyoushi/extensions-source/issues/7386)   | https://page.kakao.com/                                                                                           | 2.305s | Source request |          |
-| ✅        | [#7323](https://github.com/keiyoushi/extensions-source/issues/7323)   | https://hentaiforce.net                                                                                           | 1.082s | Source request |          |
-| ✅        | [#7272](https://github.com/keiyoushi/extensions-source/issues/7272)   | https://mangalotus.com/                                                                                           | 0.551s | Source request |          |
-| ✅        | [#7199](https://github.com/keiyoushi/extensions-source/issues/7199)   | https://klmanga.app/                                                                                              | 2.338s | Source request |          |
-| ✅        | [#7192](https://github.com/keiyoushi/extensions-source/issues/7192)   | https://timelinecomics.blogspot.com/search/label/Flash?m=1                                                        | 2.486s | Source request |          |
-| ✅        | [#7183](https://github.com/keiyoushi/extensions-source/issues/7183)   | https://animebbg.net/                                                                                             | 2.626s | Source request |          |
-| ✅        | [#6949](https://github.com/keiyoushi/extensions-source/issues/6949)   | https://babesrater.com/                                                                                           | 1.577s | Source request |          |
-| ✅        | [#6915](https://github.com/keiyoushi/extensions-source/issues/6915)   | https://hentaifull.net                                                                                            | 2.855s | Source request |          |
-| ✅        | [#6905](https://github.com/keiyoushi/extensions-source/issues/6905)   | https://www.lezhin.es                                                                                             | 2.551s | Source request |          |
-| ✅        | [#6905](https://github.com/keiyoushi/extensions-source/issues/6905)   | https://www.lezhinfr.com                                                                                          | 2.317s | Source request |          |
-| ✅        | [#6905](https://github.com/keiyoushi/extensions-source/issues/6905)   | https://www.lezhinth.com                                                                                          | 3.388s | Source request |          |
-| ✅        | [#6866](https://github.com/keiyoushi/extensions-source/issues/6866)   | https://w2.ruridragon.com/                                                                                        | 2.368s | Source request |          |
-| ✅        | [#6819](https://github.com/keiyoushi/extensions-source/issues/6819)   | https://9hentai.uk                                                                                                | 1.909s | Source request |          |
-| ✅        | [#6621](https://github.com/keiyoushi/extensions-source/issues/6621)   | https://m.bikamanhua.com/                                                                                         | 3.736s | Source request |          |
-| ✅        | [#6600](https://github.com/keiyoushi/extensions-source/issues/6600)   | https://sexkomix2.com/home/                                                                                       | 1.724s | Source request |          |
-| ✅        | [#6599](https://github.com/keiyoushi/extensions-source/issues/6599)   | https://www.thedrawplay.com/                                                                                      | 1.891s | Source request |          |
-| ✅        | [#6485](https://github.com/keiyoushi/extensions-source/issues/6485)   | https://mangaplaza.com                                                                                            | 2.762s | Source request |          |
-| ✅        | [#6458](https://github.com/keiyoushi/extensions-source/issues/6458)   | https://webcomic.wanderinginn.com/chapter-1-page-1/                                                               | 0.740s | Source request |          |
-| ✅        | [#6420](https://github.com/keiyoushi/extensions-source/issues/6420)   | https://visormanga.com/                                                                                           | 1.685s | Source request |          |
-| ✅        | [#6361](https://github.com/keiyoushi/extensions-source/issues/6361)   | https://www.quadrinhosdesexo.com/                                                                                 | 1.124s | Source request |          |
-| ✅        | [#6321](https://github.com/keiyoushi/extensions-source/issues/6321)   | https://manga.bilibili.com/                                                                                       | 2.919s | Source request |          |
-| ✅        | [#6205](https://github.com/keiyoushi/extensions-source/issues/6205)   | https://megahentai.biz/                                                                                           | 0.719s | Source request |          |
-| ✅        | [#6166](https://github.com/keiyoushi/extensions-source/issues/6166)   | https://duoscanlators.blogspot.com/                                                                               | 2.113s | Source request |          |
-| ✅        | [#6022](https://github.com/keiyoushi/extensions-source/issues/6022)   | https://www.ebookrenta.com/                                                                                       | 2.659s | Source request |          |
-| ✅        | [#6020](https://github.com/keiyoushi/extensions-source/issues/6020)   | https://hentaidad.com                                                                                             | 2.112s | Source request |          |
-| ✅        | [#5886](https://github.com/keiyoushi/extensions-source/issues/5886)   | https://www.lezhinus.com/en                                                                                       | 2.662s | Source request |          |
-| ✅        | [#5842](https://github.com/keiyoushi/extensions-source/issues/5842)   | https://w14.maid-sama.com/                                                                                        | 1.326s | Source request |          |
-| ✅        | [#5841](https://github.com/keiyoushi/extensions-source/issues/5841)   | https://hentaiyaoi.net/                                                                                           | 1.446s | Source request |          |
-| ✅        | [#5442](https://github.com/keiyoushi/extensions-source/issues/5442)   | https://comics.pie.co.jp/                                                                                         | 2.839s | Source request |          |
-| ✅        | [#5426](https://github.com/keiyoushi/extensions-source/issues/5426)   | https://comic-action.com                                                                                          | 2.815s | Source request |          |
-| ✅        | [#5424](https://github.com/keiyoushi/extensions-source/issues/5424)   | https://www.comic-valkyrie.com                                                                                    | 3.425s | Source request |          |
-| ✅        | [#5421](https://github.com/keiyoushi/extensions-source/issues/5421)   | https://comic-trail.com                                                                                           | 2.651s | Source request |          |
-| ✅        | [#5234](https://github.com/keiyoushi/extensions-source/issues/5234)   | https://www.2024manga.com                                                                                         | 2.516s | Source request |          |
-| ✅        | [#5193](https://github.com/keiyoushi/extensions-source/issues/5193)   | https://rule34comic.party/                                                                                        | 1.603s | Source request |          |
-| ✅        | [#5105](https://github.com/keiyoushi/extensions-source/issues/5105)   | https://historyofhyrule.com/                                                                                      | 1.383s | Source request |          |
-| ✅        | [#5021](https://github.com/keiyoushi/extensions-source/issues/5021)   | https://users.sch.gr/vasanagno/comics.html                                                                        | 2.663s | Source request |          |
-| ✅        | [#5006](https://github.com/keiyoushi/extensions-source/issues/5006)   | https://tinyview.com/                                                                                             | 2.370s | Source request |          |
-| ✅        | [#4964](https://github.com/keiyoushi/extensions-source/issues/4964)   | https://freeadultcomix.com                                                                                        | 2.360s | Source request |          |
-| ✅        | [#4907](https://github.com/keiyoushi/extensions-source/issues/4907)   | https://peach-bl.com                                                                                              | 1.897s | Source request |          |
-| ✅        | [#4695](https://github.com/keiyoushi/extensions-source/issues/4695)   | https://baramangaonline.com                                                                                       | 2.796s | Source request |          |
-| ✅        | [#4498](https://github.com/keiyoushi/extensions-source/issues/4498)   | https://jumptoon.com/                                                                                             | 2.221s | Source request |          |
-| ✅        | [#4497](https://github.com/keiyoushi/extensions-source/issues/4497)   | https://toontube.co/                                                                                              | 2.396s | Source request |          |
-| ✅        | [#4496](https://github.com/keiyoushi/extensions-source/issues/4496)   | https://doudoudoujin.com                                                                                          | 1.956s | Source request |          |
-| ✅        | [#4378](https://github.com/keiyoushi/extensions-source/issues/4378)   | https://jellyfin.org                                                                                              | 1.731s | Source request |          |
-| ✅        | [#4370](https://github.com/keiyoushi/extensions-source/issues/4370)   | https://syosetu.free/                                                                                             | 2.757s | Source request |          |
-| ✅        | [#3986](https://github.com/keiyoushi/extensions-source/issues/3986)   | https://cookmana11.com/                                                                                           | 4.844s | Source request |          |
-| ✅        | [#3830](https://github.com/keiyoushi/extensions-source/issues/3830)   | https://www.gocomics.com/                                                                                         | 0.503s | Source request |          |
-| ✅        | [#3724](https://github.com/keiyoushi/extensions-source/issues/3724)   | https://archive.org/search                                                                                        | 1.372s | Source request |          |
-| ✅        | [#3679](https://github.com/keiyoushi/extensions-source/issues/3679)   | https://kotokotek.wixsite.com/kotokot-webcomics                                                                   | 1.520s | Source request |          |
-| ✅        | [#3656](https://github.com/keiyoushi/extensions-source/issues/3656)   | https://www.mangasincensura.com/uncensored-manga-2021/                                                            | 1.714s | Source request |          |
-| ✅        | [#3603](https://github.com/keiyoushi/extensions-source/issues/3603)   | https://long91.com/                                                                                               | 1.955s | Source request |          |
-| ✅        | [#3486](https://github.com/keiyoushi/extensions-source/issues/3486)   | https://booklive.jp/                                                                                              | 2.781s | Source request |          |
-| ✅        | [#3198](https://github.com/keiyoushi/extensions-source/issues/3198)   | https://h5.mangatoon.mobi/                                                                                        | 3.216s | Source request |          |
-| ✅        | [#2841](https://github.com/keiyoushi/extensions-source/issues/2841)   | https://hdporncomics.com/                                                                                         | 1.194s | Source request |          |
-| ✅        | [#2806](https://github.com/keiyoushi/extensions-source/issues/2806)   | https://reizucomics.com/es                                                                                        | 2.257s | Source request |          |
-| ✅        | [#2591](https://github.com/keiyoushi/extensions-source/issues/2591)   | https://lectorhentai.com/                                                                                         | 1.322s | Source request |          |
-| ✅        | [#2507](https://github.com/keiyoushi/extensions-source/issues/2507)   | https://thehentai.net/                                                                                            | 0.566s | Source request |          |
-| ✅        | [#2504](https://github.com/keiyoushi/extensions-source/issues/2504)   | https://bendezomnihero.blogspot.com/?m=1                                                                          | 2.474s | Source request |          |
-| ✅        | [#2503](https://github.com/keiyoushi/extensions-source/issues/2503)   | https://fliptru.com.br/                                                                                           | 3.722s | Source request |          |
-| ✅        | [#2398](https://github.com/keiyoushi/extensions-source/issues/2398)   | https://comics18.org/                                                                                             | 2.030s | Source request |          |
-| ✅        | [#2397](https://github.com/keiyoushi/extensions-source/issues/2397)   | https://w22.thebeginningaftertheendmanga.com/                                                                     | 3.659s | Source request |          |
-| ✅        | [#2371](https://github.com/keiyoushi/extensions-source/issues/2371)   | https://pornsticky.com/indian/                                                                                    | 1.883s | Source request |          |
-| ✅        | [#2366](https://github.com/keiyoushi/extensions-source/issues/2366)   | https://hentaifusion.me                                                                                           | 1.237s | Source request |          |
-| ✅        | [#2337](https://github.com/keiyoushi/extensions-source/issues/2337)   | https://ahri-gallery.com                                                                                          | 2.803s | Source request |          |
-| ✅        | [#2282](https://github.com/keiyoushi/extensions-source/issues/2282)   | https://dbnewhope.com                                                                                             | 1.237s | Source request |          |
-| ✅        | [#2254](https://github.com/keiyoushi/extensions-source/issues/2254)   | https://jagodibuja.com/comics/                                                                                    | 1.141s | Source request |          |
-| ✅        | [#2044](https://github.com/keiyoushi/extensions-source/issues/2044)   | https://elvosque.es/                                                                                              | 1.547s | Source request |          |
-| ✅        | [#2042](https://github.com/keiyoushi/extensions-source/issues/2042)   | https://sinergiasincontrol.blogspot.com/                                                                          | 1.353s | Source request |          |
-| ✅        | [#1963](https://github.com/keiyoushi/extensions-source/issues/1963)   | https://superhentai.blog/                                                                                         | 1.934s | Source request |          |
-| ✅        | [#1906](https://github.com/keiyoushi/extensions-source/issues/1906)   | https://series.naver.com                                                                                          | 3.194s | Source request |          |
-| ✅        | [#1800](https://github.com/keiyoushi/extensions-source/issues/1800)   | https://mikagogo.com                                                                                              | 2.515s | Source request |          |
-| ✅        | [#1729](https://github.com/keiyoushi/extensions-source/issues/1729)   | https://hentaikai.com/                                                                                            | 1.683s | Source request |          |
-| ✅        | [#1710](https://github.com/keiyoushi/extensions-source/issues/1710)   | https://www.snafu-comics.com/                                                                                     | 1.530s | Source request |          |
-| ✅        | [#1695](https://github.com/keiyoushi/extensions-source/issues/1695)   | https://hentaicomics.biz/                                                                                         | 0.791s | Source request |          |
-| ✅        | [#1550](https://github.com/keiyoushi/extensions-source/issues/1550)   | https://hentaithai.net/                                                                                           | 2.292s | Source request |          |
-| ✅        | [#1425](https://github.com/keiyoushi/extensions-source/issues/1425)   | https://www.mangas.io/                                                                                            | 1.469s | Source request |          |
-| ✅        | [#1381](https://github.com/keiyoushi/extensions-source/issues/1381)   | https://hentaithai.com/forum/index.php?board=1.0                                                                  | 0.323s | Source request |          |
-| ✅        | [#1376](https://github.com/keiyoushi/extensions-source/issues/1376)   | https://global.toptoon.com/                                                                                       | 1.824s | Source request |          |
-| ✅        | [#1189](https://github.com/keiyoushi/extensions-source/issues/1189)   | https://dl-raw.si/                                                                                                | 2.518s | Source request |          |
-| ✅        | [#1017](https://github.com/keiyoushi/extensions-source/issues/1017)   | https://hotnakedwomen.com/                                                                                        | 1.370s | Source request |          |
-| ✅        | [#709](https://github.com/keiyoushi/extensions-source/issues/709)     | https://hentaifc.com                                                                                              | 2.184s | Source request |          |
-| ✅        | [#223](https://github.com/keiyoushi/extensions-source/issues/223)     | https://comics.inkr.com                                                                                           | 2.335s | Source request |          |
-| ✅        | [#124](https://github.com/keiyoushi/extensions-source/issues/124)     | https://nhentai.to/                                                                                               | 1.432s | Source request |          |
+| ✅        | [#18117](https://github.com/keiyoushi/extensions-source/issues/18117) | https://ww12.readsnk.com                                                                                          | 1.816s | Domain changed |          |
+| ✅        | [#18101](https://github.com/keiyoushi/extensions-source/issues/18101) | https://ww12.tokyoghoulre.com                                                                                     | 2.351s | Domain changed |          |
+| ✅        | [#18100](https://github.com/keiyoushi/extensions-source/issues/18100) | https://ww13.readonepiece.com                                                                                     | 0.446s | Domain changed |          |
+| ✅        | [#18099](https://github.com/keiyoushi/extensions-source/issues/18099) | https://ww6.readjujutsukaisen.com                                                                                 | 0.947s | Domain changed |          |
+| ✅        | [#18097](https://github.com/keiyoushi/extensions-source/issues/18097) | https://ww4.readsololeveling.org                                                                                  | 2.230s | Domain changed |          |
+| ✅        | [#18095](https://github.com/keiyoushi/extensions-source/issues/18095) | https://foxtruyen2.com/                                                                                           | 1.968s | Domain changed |          |
+| ✅        | [#18094](https://github.com/keiyoushi/extensions-source/issues/18094) | https://www.zettruyen.homes/                                                                                      | 1.734s | Domain changed |          |
+| ✅        | [#18073](https://github.com/keiyoushi/extensions-source/issues/18073) | https://nhentaiyaoi.com/                                                                                          | 1.733s | Source request |          |
+| ✅        | [#18066](https://github.com/keiyoushi/extensions-source/issues/18066) | https://nb19u.blogspot.com/search/label/%D9%85%D8%A7%D9%86%D8%AC%D8%A7%20%D8%A8%D9%88%D8%B1%D9%88%D8%AA%D9%88?m=1 | 0.490s | Source request |          |
+| ✅        | [#18054](https://github.com/keiyoushi/extensions-source/issues/18054) | https://mangaplex.com/                                                                                            | 3.714s | Source request |          |
+| ✅        | [#18046](https://github.com/keiyoushi/extensions-source/issues/18046) | https://m.hipmh.com                                                                                               | 1.064s | Source request |          |
+| ✅        | [#18001](https://github.com/keiyoushi/extensions-source/issues/18001) | https://kyokotsu.com/                                                                                             | 2.218s | Source request |          |
+| ✅        | [#17998](https://github.com/keiyoushi/extensions-source/issues/17998) | https://weloma.net                                                                                                | 2.607s | Domain changed | Bare URL |
+| ✅        | [#17967](https://github.com/keiyoushi/extensions-source/issues/17967) | https://tkor139.com                                                                                               | 3.970s | Domain changed |          |
+| ✅        | [#17965](https://github.com/keiyoushi/extensions-source/issues/17965) | https://raw18.pro                                                                                                 | 1.044s | Domain changed |          |
+| ✅        | [#17963](https://github.com/keiyoushi/extensions-source/issues/17963) | https://dokiraw.lol                                                                                               | 1.440s | Domain changed |          |
+| ✅        | [#17962](https://github.com/keiyoushi/extensions-source/issues/17962) | https://madarascans.org                                                                                           | 2.702s | Domain changed |          |
+| ✅        | [#17921](https://github.com/keiyoushi/extensions-source/issues/17921) | https://readcomicsonline.lol/                                                                                     | 1.522s | Source request |          |
+| ✅        | [#17889](https://github.com/keiyoushi/extensions-source/issues/17889) | https://dexscan.lovable.app/                                                                                      | 2.663s | Source request |          |
+| ✅        | [#17823](https://github.com/keiyoushi/extensions-source/issues/17823) | https://www.jjmh.top/                                                                                             | 1.722s | Domain changed |          |
+| ✅        | [#17756](https://github.com/keiyoushi/extensions-source/issues/17756) | https://mangaraw.co.uk/                                                                                           | 1.302s | Source request |          |
+| ✅        | [#17753](https://github.com/keiyoushi/extensions-source/issues/17753) | https://hunlightcomics.com/                                                                                       | 2.376s | Source request |          |
+| ✅        | [#17744](https://github.com/keiyoushi/extensions-source/issues/17744) | https://onvatrad.com/                                                                                             | 3.295s | Source request |          |
+| ✅        | [#17645](https://github.com/keiyoushi/extensions-source/issues/17645) | https://www.umimanga.com/                                                                                         | 1.078s | Source request |          |
+| ✅        | [#17608](https://github.com/keiyoushi/extensions-source/issues/17608) | https://bdplus.cc/                                                                                                | 2.612s | Source request |          |
+| ✅        | [#17571](https://github.com/keiyoushi/extensions-source/issues/17571) | https://mangalect.org                                                                                             | 2.592s | Domain changed |          |
+| ✅        | [#17524](https://github.com/keiyoushi/extensions-source/issues/17524) | https://klmanga.mobi/                                                                                             | 3.287s | Source request |          |
+| ✅        | [#17482](https://github.com/keiyoushi/extensions-source/issues/17482) | https://mangabenim.com/                                                                                           | 2.108s | Source request |          |
+| ✅        | [#17481](https://github.com/keiyoushi/extensions-source/issues/17481) | https://mangamac.com/                                                                                             | 2.307s | Source request |          |
+| ✅        | [#17473](https://github.com/keiyoushi/extensions-source/issues/17473) | https://rp-universe.ru                                                                                            | 3.579s | Source request |          |
+| ✅        | [#17456](https://github.com/keiyoushi/extensions-source/issues/17456) | https://rawsakura.org/                                                                                            | 1.764s | Source request |          |
+| ✅        | [#17364](https://github.com/keiyoushi/extensions-source/issues/17364) | https://zonatmo.net/                                                                                              | 0.912s | Source request |          |
+| ✅        | [#17293](https://github.com/keiyoushi/extensions-source/issues/17293) | https://sora.fans/                                                                                                | 1.355s | Source request |          |
+| ✅        | [#17234](https://github.com/keiyoushi/extensions-source/issues/17234) | https://www.jjaptoon004.com/                                                                                      | 0.195s | Source request |          |
+| ✅        | [#17232](https://github.com/keiyoushi/extensions-source/issues/17232) | https://www.manganight.com.br/                                                                                    | 1.950s | Source request |          |
+| ✅        | [#17141](https://github.com/keiyoushi/extensions-source/issues/17141) | https://daisuki-na-fansub.com/                                                                                    | 1.824s | Source request |          |
+| ✅        | [#17133](https://github.com/keiyoushi/extensions-source/issues/17133) | https://tojimangas.com/                                                                                           | 3.545s | Source request |          |
+| ✅        | [#16998](https://github.com/keiyoushi/extensions-source/issues/16998) | https://theexiledheavyknight.com/                                                                                 | 0.536s | Source request |          |
+| ✅        | [#16892](https://github.com/keiyoushi/extensions-source/issues/16892) | https://eshadow.net                                                                                               | 1.072s | Source request |          |
+| ✅        | [#16888](https://github.com/keiyoushi/extensions-source/issues/16888) | https://outcatscans.net/                                                                                          | 2.462s | Source request |          |
+| ✅        | [#16791](https://github.com/keiyoushi/extensions-source/issues/16791) | https://undertranslations.com/                                                                                    | 1.675s | Source request |          |
+| ✅        | [#16784](https://github.com/keiyoushi/extensions-source/issues/16784) | https://www.wolfmanga.com/                                                                                        | 1.954s | Source request |          |
+| ✅        | [#16782](https://github.com/keiyoushi/extensions-source/issues/16782) | https://www.ucracizgiroman.com/                                                                                   | 1.219s | Source request |          |
+| ✅        | [#16762](https://github.com/keiyoushi/extensions-source/issues/16762) | https://ocecomic.com/                                                                                             | 3.757s | Source request |          |
+| ✅        | [#16614](https://github.com/keiyoushi/extensions-source/issues/16614) | https://www.visorcapitulo.com/                                                                                    | 1.495s | Source request |          |
+| ✅        | [#16612](https://github.com/keiyoushi/extensions-source/issues/16612) | https://lectormangass.net/                                                                                        | 1.099s | Domain changed |          |
+| ✅        | [#16576](https://github.com/keiyoushi/extensions-source/issues/16576) | https://qtoon.org/?lang=en                                                                                        | 2.655s | Source request |          |
+| ✅        | [#16551](https://github.com/keiyoushi/extensions-source/issues/16551) | https://manga168x.com/                                                                                            | 1.337s | Domain changed |          |
+| ✅        | [#16497](https://github.com/keiyoushi/extensions-source/issues/16497) | https://mantrazscaan.com/                                                                                         | 0.643s | Domain changed |          |
+| ✅        | [#16480](https://github.com/keiyoushi/extensions-source/issues/16480) | https://doujiva.com/                                                                                              | 2.906s | Source request |          |
+| ✅        | [#16432](https://github.com/keiyoushi/extensions-source/issues/16432) | https://karikari.app/                                                                                             | 1.621s | Source request |          |
+| ✅        | [#16427](https://github.com/keiyoushi/extensions-source/issues/16427) | https://lezhin.jp/                                                                                                | 2.334s | Source request |          |
+| ✅        | [#16409](https://github.com/keiyoushi/extensions-source/issues/16409) | https://aquellosquetraducen.com/                                                                                  | 0.477s | Source request |          |
+| ✅        | [#16353](https://github.com/keiyoushi/extensions-source/issues/16353) | https://xiaoaitoon.org.tr/                                                                                        | 2.086s | Source request |          |
+| ✅        | [#16341](https://github.com/keiyoushi/extensions-source/issues/16341) | https://jentranslation11.blogspot.com/?m=1                                                                        | 1.441s | Source request |          |
+| ✅        | [#16297](https://github.com/keiyoushi/extensions-source/issues/16297) | https://hentaipill.com                                                                                            | 2.119s | Source request |          |
+| ✅        | [#16292](https://github.com/keiyoushi/extensions-source/issues/16292) | https://www.mangahome.com/                                                                                        | 0.813s | Source request |          |
+| ✅        | [#16246](https://github.com/keiyoushi/extensions-source/issues/16246) | https://t.me/s/newtoki_ch                                                                                         | 2.373s | Source request |          |
+| ✅        | [#16236](https://github.com/keiyoushi/extensions-source/issues/16236) | https://jabrascan.net                                                                                             | 2.132s | Source request |          |
+| ✅        | [#16207](https://github.com/keiyoushi/extensions-source/issues/16207) | https://ritto.cc/                                                                                                 | 1.297s | Source request |          |
+| ✅        | [#16205](https://github.com/keiyoushi/extensions-source/issues/16205) | https://mangatab.com                                                                                              | 1.992s | Source request |          |
+| ✅        | [#16151](https://github.com/keiyoushi/extensions-source/issues/16151) | https://www.clanmanhwa.com/                                                                                       | 2.741s | Domain changed |          |
+| ✅        | [#16151](https://github.com/keiyoushi/extensions-source/issues/16151) | https://www.harimanga.co.uk/                                                                                      | 1.020s | Domain changed |          |
+| ✅        | [#16151](https://github.com/keiyoushi/extensions-source/issues/16151) | https://www.harimanga.us.com/                                                                                     | 1.221s | Domain changed |          |
+| ✅        | [#16151](https://github.com/keiyoushi/extensions-source/issues/16151) | https://www.harimanga.vip/                                                                                        | 1.499s | Domain changed |          |
+| ✅        | [#16151](https://github.com/keiyoushi/extensions-source/issues/16151) | https://www.kunmanga.co.uk/                                                                                       | 0.947s | Domain changed |          |
+| ✅        | [#16151](https://github.com/keiyoushi/extensions-source/issues/16151) | https://www.manhwaclan.co.uk/                                                                                     | 1.516s | Domain changed |          |
+| ✅        | [#16147](https://github.com/keiyoushi/extensions-source/issues/16147) | https://valkyuri.com/                                                                                             | 4.135s | Source request |          |
+| ✅        | [#16106](https://github.com/keiyoushi/extensions-source/issues/16106) | https://comic-seasons.com/                                                                                        | 0.411s | Source request |          |
+| ✅        | [#16095](https://github.com/keiyoushi/extensions-source/issues/16095) | https://desirescans.com                                                                                           | 1.477s | Source request |          |
+| ✅        | [#16092](https://github.com/keiyoushi/extensions-source/issues/16092) | https://loverstoon.net/                                                                                           | 1.496s | Domain changed |          |
+| ✅        | [#16074](https://github.com/keiyoushi/extensions-source/issues/16074) | https://vymanga.com/                                                                                              | 1.757s | Source request |          |
+| ✅        | [#15923](https://github.com/keiyoushi/extensions-source/issues/15923) | https://homocdrscan.blogspot.com/p/series.html?m=1                                                                | 1.257s | Source request |          |
+| ✅        | [#15918](https://github.com/keiyoushi/extensions-source/issues/15918) | https://novelasmaschafas.blogspot.com/p/mangas.html?m=1                                                           | 1.750s | Source request |          |
+| ✅        | [#15910](https://github.com/keiyoushi/extensions-source/issues/15910) | https://ourfeel.jp/                                                                                               | 2.478s | Source request |          |
+| ✅        | [#15908](https://github.com/keiyoushi/extensions-source/issues/15908) | https://comic-ogyaaa.com/                                                                                         | 1.498s | Source request |          |
+| ✅        | [#15886](https://github.com/keiyoushi/extensions-source/issues/15886) | https://toon-hub.com/                                                                                             | 0.577s | Source request |          |
+| ✅        | [#15878](https://github.com/keiyoushi/extensions-source/issues/15878) | https://manwali.cc                                                                                                | 0.914s | Source request |          |
+| ✅        | [#15878](https://github.com/keiyoushi/extensions-source/issues/15878) | https://mwuu.cc                                                                                                   | 1.381s | Source request |          |
+| ✅        | [#15803](https://github.com/keiyoushi/extensions-source/issues/15803) | https://softkomik.online/                                                                                         | 1.763s | Source request |          |
+| ✅        | [#15786](https://github.com/keiyoushi/extensions-source/issues/15786) | https://www.mangaspn.com/                                                                                         | 2.894s | Source request |          |
+| ✅        | [#15576](https://github.com/keiyoushi/extensions-source/issues/15576) | https://cin.blue/                                                                                                 | 1.696s | Source request |          |
+| ✅        | [#15515](https://github.com/keiyoushi/extensions-source/issues/15515) | https://manhuabika.com/                                                                                           | 0.135s | Domain changed |          |
+| ✅        | [#15481](https://github.com/keiyoushi/extensions-source/issues/15481) | https://jagoanmanga.com                                                                                           | 1.476s | Source request |          |
+| ✅        | [#15324](https://github.com/keiyoushi/extensions-source/issues/15324) | https://sbxh9.com/                                                                                                | 1.686s | Source request |          |
+| ✅        | [#15324](https://github.com/keiyoushi/extensions-source/issues/15324) | https://t.me/s/newtoki_url                                                                                        | 1.070s | Source request |          |
+| ✅        | [#15286](https://github.com/keiyoushi/extensions-source/issues/15286) | https://strayfansub.buzz/                                                                                         | 1.762s | Domain changed |          |
+| ✅        | [#15232](https://github.com/keiyoushi/extensions-source/issues/15232) | https://www.kazescans.com/                                                                                        | 2.826s | Source request |          |
+| ✅        | [#15071](https://github.com/keiyoushi/extensions-source/issues/15071) | https://ikanmh.cc/                                                                                                | 2.588s | Source request |          |
+| ✅        | [#15006](https://github.com/keiyoushi/extensions-source/issues/15006) | https://otakuteca.net/                                                                                            | 1.983s | Source request |          |
+| ✅        | [#15002](https://github.com/keiyoushi/extensions-source/issues/15002) | https://senmanga.com/                                                                                             | 2.721s | Source request |          |
+| ✅        | [#14977](https://github.com/keiyoushi/extensions-source/issues/14977) | https://tmohentai.app/                                                                                            | 2.404s | Source request |          |
+| ✅        | [#14948](https://github.com/keiyoushi/extensions-source/issues/14948) | https://lectorxd.com/                                                                                             | 0.358s | Source request |          |
+| ✅        | [#14941](https://github.com/keiyoushi/extensions-source/issues/14941) | https://toontaku.com/                                                                                             | 3.399s | Source request |          |
+| ✅        | [#14940](https://github.com/keiyoushi/extensions-source/issues/14940) | https://dxdfansub.com/                                                                                            | 2.233s | Source request |          |
+| ✅        | [#14819](https://github.com/keiyoushi/extensions-source/issues/14819) | https://www.iniotaku2.com/                                                                                        | 1.546s | Source request |          |
+| ✅        | [#14814](https://github.com/keiyoushi/extensions-source/issues/14814) | https://www.spnmanga.com/                                                                                         | 2.737s | Source request |          |
+| ✅        | [#14782](https://github.com/keiyoushi/extensions-source/issues/14782) | https://dakimangas.me/                                                                                            | 13s    | Source request |          |
+| ✅        | [#14682](https://github.com/keiyoushi/extensions-source/issues/14682) | https://dream-manga.com/                                                                                          | 0.582s | Source request |          |
+| ✅        | [#14576](https://github.com/keiyoushi/extensions-source/issues/14576) | https://x.com/                                                                                                    | 0.982s | Source request |          |
+| ✅        | [#14571](https://github.com/keiyoushi/extensions-source/issues/14571) | https://procomic.net/                                                                                             | 4.578s | Source request |          |
+| ✅        | [#14571](https://github.com/keiyoushi/extensions-source/issues/14571) | https://procomic.pro                                                                                              | 3.425s | Source request |          |
+| ✅        | [#14565](https://github.com/keiyoushi/extensions-source/issues/14565) | https://www.komiwa.lat/                                                                                           | 2.631s | Source request |          |
+| ✅        | [#14553](https://github.com/keiyoushi/extensions-source/issues/14553) | https://lectortmoo.com/                                                                                           | 2.261s | Source request |          |
+| ✅        | [#14508](https://github.com/keiyoushi/extensions-source/issues/14508) | https://mikoroku.com                                                                                              | 1.991s | Domain changed |          |
+| ✅        | [#14467](https://github.com/keiyoushi/extensions-source/issues/14467) | https://ataraxiamangas.com                                                                                        | 2.621s | Source request |          |
+| ✅        | [#14263](https://github.com/keiyoushi/extensions-source/issues/14263) | https://www.manhwaland.baby/                                                                                      | 2.677s | Domain changed |          |
+| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://e-hentai.org/                                                                                             | 1.547s | Source request |          |
+| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://hentai20.io/                                                                                              | 1.349s | Source request |          |
+| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://hentai2read.com/                                                                                          | 2.071s | Source request |          |
+| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://hitomi.la/                                                                                                | 3.670s | Source request |          |
+| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://pururin.me/                                                                                               | 2.132s | Source request |          |
+| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://www.kumanga.com/                                                                                          | 2.870s | Source request |          |
+| ✅        | [#14241](https://github.com/keiyoushi/extensions-source/issues/14241) | https://funktoon.com/                                                                                             | 2.070s | Source request |          |
+| ✅        | [#14046](https://github.com/keiyoushi/extensions-source/issues/14046) | https://plumics.com/                                                                                              | 1.266s | Source request |          |
+| ✅        | [#14028](https://github.com/keiyoushi/extensions-source/issues/14028) | https://toon.space/                                                                                               | 1.861s | Source request |          |
+| ✅        | [#13907](https://github.com/keiyoushi/extensions-source/issues/13907) | https://mechacomic.jp/                                                                                            | 2.457s | Source request |          |
+| ✅        | [#13904](https://github.com/keiyoushi/extensions-source/issues/13904) | https://www.dlsite.com/index.html                                                                                 | 0.720s | Source request |          |
+| ✅        | [#13784](https://github.com/keiyoushi/extensions-source/issues/13784) | https://keikomik.net                                                                                              | 0.956s | Source request |          |
+| ✅        | [#13727](https://github.com/keiyoushi/extensions-source/issues/13727) | https://play.hypercomic.io/Webtoon                                                                                | 6.619s | Source request |          |
+| ✅        | [#13713](https://github.com/keiyoushi/extensions-source/issues/13713) | https://inkora.spacely.tech/home                                                                                  | 1.234s | Source request |          |
+| ✅        | [#13589](https://github.com/keiyoushi/extensions-source/issues/13589) | https://mgadoji.blogspot.com                                                                                      | 1.413s | Source request |          |
+| ✅        | [#13589](https://github.com/keiyoushi/extensions-source/issues/13589) | https://www.ryuo.online/                                                                                          | 2.012s | Source request |          |
+| ✅        | [#13572](https://github.com/keiyoushi/extensions-source/issues/13572) | https://www.wn01.cfd/                                                                                             | 1.193s | Source request |          |
+| ✅        | [#13512](https://github.com/keiyoushi/extensions-source/issues/13512) | https://airibox.top                                                                                               | 3.052s | Source request |          |
+| ✅        | [#13397](https://github.com/keiyoushi/extensions-source/issues/13397) | https://punkrecordz.com/                                                                                          | 2.358s | Source request |          |
+| ✅        | [#13395](https://github.com/keiyoushi/extensions-source/issues/13395) | https://mangakoma01.top/                                                                                          | 3.099s | Source request |          |
+| ✅        | [#13233](https://github.com/keiyoushi/extensions-source/issues/13233) | https://xbato.co.uk/home                                                                                          | 1.234s | Source request |          |
+| ✅        | [#13229](https://github.com/keiyoushi/extensions-source/issues/13229) | https://lorangeteam.art                                                                                           | 2.668s | Source request |          |
+| ✅        | [#12630](https://github.com/keiyoushi/extensions-source/issues/12630) | https://www.mangamulti.com/tr                                                                                     | 2.806s | Source request |          |
+| ✅        | [#12483](https://github.com/keiyoushi/extensions-source/issues/12483) | https://leermanhwas.com/                                                                                          | 1.739s | Source request |          |
+| ✅        | [#12383](https://github.com/keiyoushi/extensions-source/issues/12383) | https://www.tamberlanecomic.com/feed.xml                                                                          | 1.235s | Source request |          |
+| ✅        | [#12205](https://github.com/keiyoushi/extensions-source/issues/12205) | https://www.freexcomic.com                                                                                        | 2.228s | Source request |          |
+| ✅        | [#11964](https://github.com/keiyoushi/extensions-source/issues/11964) | https://beta.norus.site/                                                                                          | 2.989s | Source request |          |
+| ✅        | [#11931](https://github.com/keiyoushi/extensions-source/issues/11931) | https://corujatoon.com/                                                                                           | 2.402s | Source request |          |
+| ✅        | [#11851](https://github.com/keiyoushi/extensions-source/issues/11851) | https://comic.tibiu.net/                                                                                          | 2.115s | Source request |          |
+| ✅        | [#11823](https://github.com/keiyoushi/extensions-source/issues/11823) | https://t4.xtoon365.com/                                                                                          | 2.802s | Source request |          |
+| ✅        | [#11618](https://github.com/keiyoushi/extensions-source/issues/11618) | https://complexbowler.neocities.org/                                                                              | 1.743s | Source request |          |
+| ✅        | [#11366](https://github.com/keiyoushi/extensions-source/issues/11366) | https://read.amazon.co.jp                                                                                         | 1.202s | Source request |          |
+| ✅        | [#11157](https://github.com/keiyoushi/extensions-source/issues/11157) | https://megabanana.mx/                                                                                            | 0.895s | Source request |          |
+| ✅        | [#11142](https://github.com/keiyoushi/extensions-source/issues/11142) | https://www.177pica.com                                                                                           | 2.037s | Source request |          |
+| ✅        | [#11139](https://github.com/keiyoushi/extensions-source/issues/11139) | https://m.90mh.cc/                                                                                                | 1.667s | Source request |          |
+| ✅        | [#11107](https://github.com/keiyoushi/extensions-source/issues/11107) | https://pandasuki.net                                                                                             | 2.036s | Source request |          |
+| ✅        | [#11099](https://github.com/keiyoushi/extensions-source/issues/11099) | https://www.yoyomanga.com/                                                                                        | 2.680s | Source request |          |
+| ✅        | [#10972](https://github.com/keiyoushi/extensions-source/issues/10972) | https://soraraw.com/                                                                                              | 1.395s | Source request |          |
+| ✅        | [#10949](https://github.com/keiyoushi/extensions-source/issues/10949) | https://kemono.cafe/                                                                                              | 1.329s | Source request |          |
+| ✅        | [#10926](https://github.com/keiyoushi/extensions-source/issues/10926) | https://www.rumanhua.org                                                                                          | 0.999s | Source request |          |
+| ✅        | [#10867](https://github.com/keiyoushi/extensions-source/issues/10867) | https://www.lunarscans.xyz                                                                                        | 1.410s | Source request |          |
+| ✅        | [#10812](https://github.com/keiyoushi/extensions-source/issues/10812) | https://mangaraw24.net                                                                                            | 1.118s | Source request |          |
+| ✅        | [#10712](https://github.com/keiyoushi/extensions-source/issues/10712) | https://rawfree.md                                                                                                | 2.725s | Source request |          |
+| ✅        | [#10701](https://github.com/keiyoushi/extensions-source/issues/10701) | https://manhuaplus.top/                                                                                           | 2.127s | Domain changed |          |
+| ✅        | [#10516](https://github.com/keiyoushi/extensions-source/issues/10516) | https://mangacix.net/                                                                                             | 2.002s | Source request |          |
+| ✅        | [#10140](https://github.com/keiyoushi/extensions-source/issues/10140) | https://komikrealm.org/                                                                                           | 2.130s | Source request |          |
+| ✅        | [#10010](https://github.com/keiyoushi/extensions-source/issues/10010) | https://brscans.vercel.app                                                                                        | 3.760s | Source request |          |
+| ✅        | [#10003](https://github.com/keiyoushi/extensions-source/issues/10003) | https://www.extrafabulouscomics.com/                                                                              | 1.579s | Source request |          |
+| ✅        | [#9966](https://github.com/keiyoushi/extensions-source/issues/9966)   | https://www.lezhin.com                                                                                            | 3.121s | Source request |          |
+| ✅        | [#9953](https://github.com/keiyoushi/extensions-source/issues/9953)   | https://mirrorinkomik.my.id/                                                                                      | 3.416s | Source request |          |
+| ✅        | [#9953](https://github.com/keiyoushi/extensions-source/issues/9953)   | https://mirrorkomik.id/                                                                                           | 9.766s | Source request |          |
+| ✅        | [#9953](https://github.com/keiyoushi/extensions-source/issues/9953)   | https://mirrorkomik.info/                                                                                         | 2.932s | Source request |          |
+| ✅        | [#9660](https://github.com/keiyoushi/extensions-source/issues/9660)   | https://mindafansub.dev/                                                                                          | 1.788s | Source request |          |
+| ✅        | [#9621](https://github.com/keiyoushi/extensions-source/issues/9621)   | https://thrive.moe                                                                                                | 0.779s | Source request |          |
+| ✅        | [#9601](https://github.com/keiyoushi/extensions-source/issues/9601)   | https://eahentai.com/                                                                                             | 1.435s | Source request |          |
+| ✅        | [#9532](https://github.com/keiyoushi/extensions-source/issues/9532)   | https://mxs13.cc/                                                                                                 | 1.926s | Source request |          |
+| ✅        | [#9465](https://github.com/keiyoushi/extensions-source/issues/9465)   | https://www.comicsgate.net/home/                                                                                  | 0.984s | Source request |          |
+| ✅        | [#9464](https://github.com/keiyoushi/extensions-source/issues/9464)   | https://arabcomics.net/                                                                                           | 2.914s | Source request |          |
+| ✅        | [#9429](https://github.com/keiyoushi/extensions-source/issues/9429)   | https://www.hqdesexo.com/                                                                                         | 1.198s | Source request |          |
+| ✅        | [#9361](https://github.com/keiyoushi/extensions-source/issues/9361)   | https://characterdesignreferences.com/                                                                            | 2.331s | Source request |          |
+| ✅        | [#9180](https://github.com/keiyoushi/extensions-source/issues/9180)   | https://olympusbiblioteca.net/                                                                                    | 3.385s | Source request |          |
+| ✅        | [#9107](https://github.com/keiyoushi/extensions-source/issues/9107)   | https://www.kingsmanga.net/                                                                                       | 2.301s | Source request |          |
+| ✅        | [#9100](https://github.com/keiyoushi/extensions-source/issues/9100)   | https://www.xsnvshen.com                                                                                          | 1.398s | Source request |          |
+| ✅        | [#9099](https://github.com/keiyoushi/extensions-source/issues/9099)   | https://rawlazy.io/                                                                                               | 2.984s | Source request |          |
+| ✅        | [#8919](https://github.com/keiyoushi/extensions-source/issues/8919)   | https://ithinkilikeyou.net                                                                                        | 2.028s | Source request |          |
+| ✅        | [#8790](https://github.com/keiyoushi/extensions-source/issues/8790)   | https://theoldshinobi.online/                                                                                     | 1.089s | Source request |          |
+| ✅        | [#8588](https://github.com/keiyoushi/extensions-source/issues/8588)   | https://comic.acgn.cc/                                                                                            | 1.387s | Source request |          |
+| ✅        | [#8531](https://github.com/keiyoushi/extensions-source/issues/8531)   | https://instahentai.com/                                                                                          | 1.894s | Source request |          |
+| ✅        | [#8524](https://github.com/keiyoushi/extensions-source/issues/8524)   | https://t.me/WickedMangaArchivioBot                                                                               | 3.573s | Source request |          |
+| ✅        | [#8415](https://github.com/keiyoushi/extensions-source/issues/8415)   | https://bocchi-manga.blogspot.com/                                                                                | 1.774s | Source request |          |
+| ✅        | [#8403](https://github.com/keiyoushi/extensions-source/issues/8403)   | https://babesource.com/                                                                                           | 2.258s | Source request |          |
+| ✅        | [#8294](https://github.com/keiyoushi/extensions-source/issues/8294)   | https://fishwiveschoir.co.uk/                                                                                     | 2.240s | Source request |          |
+| ✅        | [#8269](https://github.com/keiyoushi/extensions-source/issues/8269)   | https://webtoon.kakao.com                                                                                         | 1.285s | Source request |          |
+| ✅        | [#7995](https://github.com/keiyoushi/extensions-source/issues/7995)   | https://lapkzone.com/                                                                                             | 1.871s | Source request |          |
+| ✅        | [#7808](https://github.com/keiyoushi/extensions-source/issues/7808)   | https://readrealm.co                                                                                              | 1.417s | Source request |          |
+| ✅        | [#7681](https://github.com/keiyoushi/extensions-source/issues/7681)   | https://tioscomic.com/                                                                                            | 2.231s | Source request |          |
+| ✅        | [#7630](https://github.com/keiyoushi/extensions-source/issues/7630)   | https://blacktoon417.com/                                                                                         | 1.940s | Domain changed |          |
+| ✅        | [#7515](https://github.com/keiyoushi/extensions-source/issues/7515)   | https://leitorreverse.blogspot.com/?m=1                                                                           | 1.793s | Source request |          |
+| ✅        | [#7392](https://github.com/keiyoushi/extensions-source/issues/7392)   | https://dashtoon.com/                                                                                             | 2.066s | Source request |          |
+| ✅        | [#7386](https://github.com/keiyoushi/extensions-source/issues/7386)   | https://page.kakao.com/                                                                                           | 2.076s | Source request |          |
+| ✅        | [#7323](https://github.com/keiyoushi/extensions-source/issues/7323)   | https://hentaiforce.net                                                                                           | 1.769s | Source request |          |
+| ✅        | [#7272](https://github.com/keiyoushi/extensions-source/issues/7272)   | https://mangalotus.com/                                                                                           | 1.642s | Source request |          |
+| ✅        | [#7199](https://github.com/keiyoushi/extensions-source/issues/7199)   | https://klmanga.app/                                                                                              | 2.871s | Source request |          |
+| ✅        | [#7192](https://github.com/keiyoushi/extensions-source/issues/7192)   | https://timelinecomics.blogspot.com/search/label/Flash?m=1                                                        | 1.625s | Source request |          |
+| ✅        | [#7183](https://github.com/keiyoushi/extensions-source/issues/7183)   | https://animebbg.net/                                                                                             | 1.457s | Source request |          |
+| ✅        | [#6949](https://github.com/keiyoushi/extensions-source/issues/6949)   | https://babesrater.com/                                                                                           | 2.489s | Source request |          |
+| ✅        | [#6915](https://github.com/keiyoushi/extensions-source/issues/6915)   | https://hentaifull.net                                                                                            | 1.111s | Source request |          |
+| ✅        | [#6905](https://github.com/keiyoushi/extensions-source/issues/6905)   | https://www.lezhin.es                                                                                             | 2.597s | Source request |          |
+| ✅        | [#6905](https://github.com/keiyoushi/extensions-source/issues/6905)   | https://www.lezhinfr.com                                                                                          | 3.539s | Source request |          |
+| ✅        | [#6905](https://github.com/keiyoushi/extensions-source/issues/6905)   | https://www.lezhinth.com                                                                                          | 3.596s | Source request |          |
+| ✅        | [#6866](https://github.com/keiyoushi/extensions-source/issues/6866)   | https://w2.ruridragon.com/                                                                                        | 2.827s | Source request |          |
+| ✅        | [#6819](https://github.com/keiyoushi/extensions-source/issues/6819)   | https://9hentai.uk                                                                                                | 2.232s | Source request |          |
+| ✅        | [#6621](https://github.com/keiyoushi/extensions-source/issues/6621)   | https://m.bikamanhua.com/                                                                                         | 5.153s | Source request |          |
+| ✅        | [#6600](https://github.com/keiyoushi/extensions-source/issues/6600)   | https://sexkomix2.com/home/                                                                                       | 1.638s | Source request |          |
+| ✅        | [#6599](https://github.com/keiyoushi/extensions-source/issues/6599)   | https://www.thedrawplay.com/                                                                                      | 2.069s | Source request |          |
+| ✅        | [#6485](https://github.com/keiyoushi/extensions-source/issues/6485)   | https://mangaplaza.com                                                                                            | 1.966s | Source request |          |
+| ✅        | [#6458](https://github.com/keiyoushi/extensions-source/issues/6458)   | https://webcomic.wanderinginn.com/chapter-1-page-1/                                                               | 2.308s | Source request |          |
+| ✅        | [#6420](https://github.com/keiyoushi/extensions-source/issues/6420)   | https://visormanga.com/                                                                                           | 2.901s | Source request |          |
+| ✅        | [#6361](https://github.com/keiyoushi/extensions-source/issues/6361)   | https://www.quadrinhosdesexo.com/                                                                                 | 1.136s | Source request |          |
+| ✅        | [#6321](https://github.com/keiyoushi/extensions-source/issues/6321)   | https://manga.bilibili.com/                                                                                       | 2.209s | Source request |          |
+| ✅        | [#6205](https://github.com/keiyoushi/extensions-source/issues/6205)   | https://megahentai.biz/                                                                                           | 2.363s | Source request |          |
+| ✅        | [#6166](https://github.com/keiyoushi/extensions-source/issues/6166)   | https://duoscanlators.blogspot.com/                                                                               | 0.414s | Source request |          |
+| ✅        | [#6022](https://github.com/keiyoushi/extensions-source/issues/6022)   | https://www.ebookrenta.com/                                                                                       | 1.293s | Source request |          |
+| ✅        | [#6020](https://github.com/keiyoushi/extensions-source/issues/6020)   | https://hentaidad.com                                                                                             | 1.819s | Source request |          |
+| ✅        | [#5886](https://github.com/keiyoushi/extensions-source/issues/5886)   | https://www.lezhinus.com/en                                                                                       | 2.932s | Source request |          |
+| ✅        | [#5842](https://github.com/keiyoushi/extensions-source/issues/5842)   | https://w14.maid-sama.com/                                                                                        | 2.180s | Source request |          |
+| ✅        | [#5841](https://github.com/keiyoushi/extensions-source/issues/5841)   | https://hentaiyaoi.net/                                                                                           | 0.935s | Source request |          |
+| ✅        | [#5457](https://github.com/keiyoushi/extensions-source/issues/5457)   | https://alkhariqun.com                                                                                            | 9.949s | Source request |          |
+| ✅        | [#5442](https://github.com/keiyoushi/extensions-source/issues/5442)   | https://comics.pie.co.jp/                                                                                         | 2.530s | Source request |          |
+| ✅        | [#5426](https://github.com/keiyoushi/extensions-source/issues/5426)   | https://comic-action.com                                                                                          | 0.895s | Source request |          |
+| ✅        | [#5424](https://github.com/keiyoushi/extensions-source/issues/5424)   | https://www.comic-valkyrie.com                                                                                    | 2.698s | Source request |          |
+| ✅        | [#5421](https://github.com/keiyoushi/extensions-source/issues/5421)   | https://comic-trail.com                                                                                           | 2.334s | Source request |          |
+| ✅        | [#5234](https://github.com/keiyoushi/extensions-source/issues/5234)   | https://www.2024manga.com                                                                                         | 1.264s | Source request |          |
+| ✅        | [#5193](https://github.com/keiyoushi/extensions-source/issues/5193)   | https://rule34comic.party/                                                                                        | 2.219s | Source request |          |
+| ✅        | [#5105](https://github.com/keiyoushi/extensions-source/issues/5105)   | https://historyofhyrule.com/                                                                                      | 1.137s | Source request |          |
+| ✅        | [#5021](https://github.com/keiyoushi/extensions-source/issues/5021)   | https://users.sch.gr/vasanagno/comics.html                                                                        | 3.110s | Source request |          |
+| ✅        | [#5006](https://github.com/keiyoushi/extensions-source/issues/5006)   | https://tinyview.com/                                                                                             | 1.555s | Source request |          |
+| ✅        | [#4964](https://github.com/keiyoushi/extensions-source/issues/4964)   | https://freeadultcomix.com                                                                                        | 1.069s | Source request |          |
+| ✅        | [#4907](https://github.com/keiyoushi/extensions-source/issues/4907)   | https://peach-bl.com                                                                                              | 1.928s | Source request |          |
+| ✅        | [#4695](https://github.com/keiyoushi/extensions-source/issues/4695)   | https://baramangaonline.com                                                                                       | 2.073s | Source request |          |
+| ✅        | [#4498](https://github.com/keiyoushi/extensions-source/issues/4498)   | https://jumptoon.com/                                                                                             | 1.777s | Source request |          |
+| ✅        | [#4497](https://github.com/keiyoushi/extensions-source/issues/4497)   | https://toontube.co/                                                                                              | 2.059s | Source request |          |
+| ✅        | [#4496](https://github.com/keiyoushi/extensions-source/issues/4496)   | https://doudoudoujin.com                                                                                          | 2.824s | Source request |          |
+| ✅        | [#4378](https://github.com/keiyoushi/extensions-source/issues/4378)   | https://jellyfin.org                                                                                              | 2.876s | Source request |          |
+| ✅        | [#4370](https://github.com/keiyoushi/extensions-source/issues/4370)   | https://syosetu.free/                                                                                             | 3.207s | Source request |          |
+| ✅        | [#3986](https://github.com/keiyoushi/extensions-source/issues/3986)   | https://cookmana11.com/                                                                                           | 18s    | Source request |          |
+| ✅        | [#3830](https://github.com/keiyoushi/extensions-source/issues/3830)   | https://www.gocomics.com/                                                                                         | 1.223s | Source request |          |
+| ✅        | [#3724](https://github.com/keiyoushi/extensions-source/issues/3724)   | https://archive.org/search                                                                                        | 0.424s | Source request |          |
+| ✅        | [#3679](https://github.com/keiyoushi/extensions-source/issues/3679)   | https://kotokotek.wixsite.com/kotokot-webcomics                                                                   | 2.899s | Source request |          |
+| ✅        | [#3656](https://github.com/keiyoushi/extensions-source/issues/3656)   | https://www.mangasincensura.com/uncensored-manga-2021/                                                            | 2.961s | Source request |          |
+| ✅        | [#3603](https://github.com/keiyoushi/extensions-source/issues/3603)   | https://long91.com/                                                                                               | 0.646s | Source request |          |
+| ✅        | [#3486](https://github.com/keiyoushi/extensions-source/issues/3486)   | https://booklive.jp/                                                                                              | 1.172s | Source request |          |
+| ✅        | [#3198](https://github.com/keiyoushi/extensions-source/issues/3198)   | https://h5.mangatoon.mobi/                                                                                        | 2.488s | Source request |          |
+| ✅        | [#2841](https://github.com/keiyoushi/extensions-source/issues/2841)   | https://hdporncomics.com/                                                                                         | 2.350s | Source request |          |
+| ✅        | [#2806](https://github.com/keiyoushi/extensions-source/issues/2806)   | https://reizucomics.com/es                                                                                        | 2.793s | Source request |          |
+| ✅        | [#2591](https://github.com/keiyoushi/extensions-source/issues/2591)   | https://lectorhentai.com/                                                                                         | 0.852s | Source request |          |
+| ✅        | [#2507](https://github.com/keiyoushi/extensions-source/issues/2507)   | https://thehentai.net/                                                                                            | 0.542s | Source request |          |
+| ✅        | [#2504](https://github.com/keiyoushi/extensions-source/issues/2504)   | https://bendezomnihero.blogspot.com/?m=1                                                                          | 0.693s | Source request |          |
+| ✅        | [#2503](https://github.com/keiyoushi/extensions-source/issues/2503)   | https://fliptru.com.br/                                                                                           | 1.511s | Source request |          |
+| ✅        | [#2398](https://github.com/keiyoushi/extensions-source/issues/2398)   | https://comics18.org/                                                                                             | 2.789s | Source request |          |
+| ✅        | [#2397](https://github.com/keiyoushi/extensions-source/issues/2397)   | https://w22.thebeginningaftertheendmanga.com/                                                                     | 3.910s | Source request |          |
+| ✅        | [#2371](https://github.com/keiyoushi/extensions-source/issues/2371)   | https://pornsticky.com/indian/                                                                                    | 1.310s | Source request |          |
+| ✅        | [#2366](https://github.com/keiyoushi/extensions-source/issues/2366)   | https://hentaifusion.me                                                                                           | 0.945s | Source request |          |
+| ✅        | [#2337](https://github.com/keiyoushi/extensions-source/issues/2337)   | https://ahri-gallery.com                                                                                          | 3.532s | Source request |          |
+| ✅        | [#2282](https://github.com/keiyoushi/extensions-source/issues/2282)   | https://dbnewhope.com                                                                                             | 1.806s | Source request |          |
+| ✅        | [#2254](https://github.com/keiyoushi/extensions-source/issues/2254)   | https://jagodibuja.com/comics/                                                                                    | 0.942s | Source request |          |
+| ✅        | [#2044](https://github.com/keiyoushi/extensions-source/issues/2044)   | https://elvosque.es/                                                                                              | 1.830s | Source request |          |
+| ✅        | [#2042](https://github.com/keiyoushi/extensions-source/issues/2042)   | https://sinergiasincontrol.blogspot.com/                                                                          | 1.074s | Source request |          |
+| ✅        | [#1963](https://github.com/keiyoushi/extensions-source/issues/1963)   | https://superhentai.blog/                                                                                         | 1.849s | Source request |          |
+| ✅        | [#1906](https://github.com/keiyoushi/extensions-source/issues/1906)   | https://series.naver.com                                                                                          | 2.456s | Source request |          |
+| ✅        | [#1800](https://github.com/keiyoushi/extensions-source/issues/1800)   | https://mikagogo.com                                                                                              | 2.488s | Source request |          |
+| ✅        | [#1729](https://github.com/keiyoushi/extensions-source/issues/1729)   | https://hentaikai.com/                                                                                            | 2.164s | Source request |          |
+| ✅        | [#1710](https://github.com/keiyoushi/extensions-source/issues/1710)   | https://www.snafu-comics.com/                                                                                     | 37s    | Source request |          |
+| ✅        | [#1695](https://github.com/keiyoushi/extensions-source/issues/1695)   | https://hentaicomics.biz/                                                                                         | 1.405s | Source request |          |
+| ✅        | [#1589](https://github.com/keiyoushi/extensions-source/issues/1589)   | https://www.thefarside.com/                                                                                       | 0.951s | Source request |          |
+| ✅        | [#1550](https://github.com/keiyoushi/extensions-source/issues/1550)   | https://hentaithai.net/                                                                                           | 0.152s | Source request |          |
+| ✅        | [#1425](https://github.com/keiyoushi/extensions-source/issues/1425)   | https://www.mangas.io/                                                                                            | 1.977s | Source request |          |
+| ✅        | [#1381](https://github.com/keiyoushi/extensions-source/issues/1381)   | https://hentaithai.com/forum/index.php?board=1.0                                                                  | 0.642s | Source request |          |
+| ✅        | [#1376](https://github.com/keiyoushi/extensions-source/issues/1376)   | https://global.toptoon.com/                                                                                       | 2.240s | Source request |          |
+| ✅        | [#1189](https://github.com/keiyoushi/extensions-source/issues/1189)   | https://dl-raw.si/                                                                                                | 2.740s | Source request |          |
+| ✅        | [#1017](https://github.com/keiyoushi/extensions-source/issues/1017)   | https://hotnakedwomen.com/                                                                                        | 1.639s | Source request |          |
+| ✅        | [#709](https://github.com/keiyoushi/extensions-source/issues/709)     | https://hentaifc.com                                                                                              | 1.840s | Source request |          |
+| ✅        | [#223](https://github.com/keiyoushi/extensions-source/issues/223)     | https://comics.inkr.com                                                                                           | 1.745s | Source request |          |
+| ✅        | [#124](https://github.com/keiyoushi/extensions-source/issues/124)     | https://nhentai.to/                                                                                               | 1.055s | Source request |          |
 
 ### With Notes
 
@@ -287,31 +288,36 @@ Count: 9
 
 | Status   | PR                                                                    | URL                                      | Time   | Labels         | Info           |
 |----------|-----------------------------------------------------------------------|------------------------------------------|--------|----------------|----------------|
-| ✅        | [#17378](https://github.com/keiyoushi/extensions-source/issues/17378) | https://v1.makota.asia                   | 2.163s | Source request | Few nodes (15) |
-| ✅        | [#15140](https://github.com/keiyoushi/extensions-source/issues/15140) | https://fokascans.pages.dev/             | 1.574s | Source request | Few nodes (12) |
-| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://exhentai.org/                    | 2.720s | Source request | Few nodes (0)  |
-| ✅        | [#13827](https://github.com/keiyoushi/extensions-source/issues/13827) | https://lazy-monki-scans.netlify.app/    | 1.082s | Source request | Few nodes (10) |
-| ✅        | [#12383](https://github.com/keiyoushi/extensions-source/issues/12383) | https://risingsand.glass/chapter/rs/feed | 2.633s | Source request | Few nodes (19) |
-| ✅        | [#11766](https://github.com/keiyoushi/extensions-source/issues/11766) | https://roadsteam.net                    | 1.277s | Source request | Few nodes (14) |
-| ✅        | [#7291](https://github.com/keiyoushi/extensions-source/issues/7291)   | http://manukireng.great-site.net         | 1.329s | Source request | Few nodes (5)  |
-| ✅        | [#4088](https://github.com/keiyoushi/extensions-source/issues/4088)   | https://jmanga.at                        | 3.232s | Source request | Few nodes (15) |
-| ✅        | [#2958](https://github.com/keiyoushi/extensions-source/issues/2958)   | https://mangaraw-jp.at/                  | 3.050s | Source request | Few nodes (15) |
+| ✅        | [#17378](https://github.com/keiyoushi/extensions-source/issues/17378) | https://v1.makota.asia                   | 1.425s | Source request | Few nodes (15) |
+| ✅        | [#15140](https://github.com/keiyoushi/extensions-source/issues/15140) | https://fokascans.pages.dev/             | 2.261s | Source request | Few nodes (12) |
+| ✅        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://exhentai.org/                    | 4.567s | Source request | Few nodes (0)  |
+| ✅        | [#13827](https://github.com/keiyoushi/extensions-source/issues/13827) | https://lazy-monki-scans.netlify.app/    | 1.419s | Source request | Few nodes (10) |
+| ✅        | [#12383](https://github.com/keiyoushi/extensions-source/issues/12383) | https://risingsand.glass/chapter/rs/feed | 2.674s | Source request | Few nodes (19) |
+| ✅        | [#11766](https://github.com/keiyoushi/extensions-source/issues/11766) | https://roadsteam.net                    | 1.424s | Source request | Few nodes (14) |
+| ✅        | [#7291](https://github.com/keiyoushi/extensions-source/issues/7291)   | http://manukireng.great-site.net         | 2.280s | Source request | Few nodes (5)  |
+| ✅        | [#4088](https://github.com/keiyoushi/extensions-source/issues/4088)   | https://jmanga.at                        | 2.748s | Source request | Few nodes (15) |
+| ✅        | [#2958](https://github.com/keiyoushi/extensions-source/issues/2958)   | https://mangaraw-jp.at/                  | 4.606s | Source request | Few nodes (15) |
 
 ## Redirects
 
-Count: 5
+Count: 7
+
+| Status   | PR                                                                    | URL                                      | Time   | Labels         | Info                                                                                                                                                                                        |
+|----------|-----------------------------------------------------------------------|------------------------------------------|--------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 🔀        | [#16039](https://github.com/keiyoushi/extensions-source/issues/16039) | https://hibon-bl.blogspot.com/           | 3.327s | Source request | Redirected: https://www.google.com/sorry/index?continue=https://hibon-bl.blogspot.com/&q=EgQUQK2xGL3mr9MGIi3gfy4wOTW51ND5-O6FHsl9K4nC9HoyGaf3N-M78cznG0RehKnhH-Zldt49oAQyAnJSWgFD           |
+| 🔀        | [#14747](https://github.com/keiyoushi/extensions-source/issues/14747) | https://kokkokuteisukyankt.blogspot.com/ | 3.261s | Source request | Redirected: https://www.google.com/sorry/index?continue=https://kokkokuteisukyankt.blogspot.com/&q=EgQUQK2xGL3mr9MGIi1VWrMwOq9Jc16dv13eovT-Ma8LZ3Fhok_wH1uxZYW828e3Ns_31MN38WsTZCkyAnJSWgFD |
 
 ### Same Authority
 
 Count: 5
 
-| Status   | PR                                                                    | URL                           | Time   | Labels         | Info                                                                |
-|----------|-----------------------------------------------------------------------|-------------------------------|--------|----------------|---------------------------------------------------------------------|
-| 🔀        | [#18084](https://github.com/keiyoushi/extensions-source/issues/18084) | https://patreon.com           | 2.066s | Source request | Few nodes (17). Redirected: https://www.patreon.com/, Bare URL      |
-| 🔀        | [#16819](https://github.com/keiyoushi/extensions-source/issues/16819) | https://m.kuaikanmanhua.com/  | 4.904s | Domain changed | Redirected: https://www.kuaikanmanhua.com/                          |
-| 🔀        | [#13616](https://github.com/keiyoushi/extensions-source/issues/13616) | https://suicaodex.com/        | 3.443s | Source request | Few nodes (2). Redirected: https://naas.suicaodex.com/              |
-| 🔀        | [#10167](https://github.com/keiyoushi/extensions-source/issues/10167) | https://ww2.bluelockread.com/ | 3.929s | Source request | Redirected: https://ww3.bluelockread.com/                           |
-| 🔀        | [#5255](https://github.com/keiyoushi/extensions-source/issues/5255)   | https://drive.google.com      | 3.982s | Source request | Redirected: https://workspace.google.com/intl/en-US/products/drive/ |
+| Status   | PR                                                                    | URL                           | Time   | Labels         | Info                                                                                                                                                                                                                                                                                                                                             |
+|----------|-----------------------------------------------------------------------|-------------------------------|--------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 🔀        | [#18084](https://github.com/keiyoushi/extensions-source/issues/18084) | https://patreon.com           | 1.901s | Source request | Few nodes (17). Redirected: https://www.patreon.com/, Bare URL                                                                                                                                                                                                                                                                                   |
+| 🔀        | [#16819](https://github.com/keiyoushi/extensions-source/issues/16819) | https://m.kuaikanmanhua.com/  | 8.961s | Domain changed | Redirected: https://www.kuaikanmanhua.com/                                                                                                                                                                                                                                                                                                       |
+| 🔀        | [#13616](https://github.com/keiyoushi/extensions-source/issues/13616) | https://suicaodex.com/        | 1.888s | Source request | Few nodes (2). Redirected: https://naas.suicaodex.com/                                                                                                                                                                                                                                                                                           |
+| 🔀        | [#10167](https://github.com/keiyoushi/extensions-source/issues/10167) | https://ww2.bluelockread.com/ | 2.524s | Source request | Redirected: https://ww3.bluelockread.com/                                                                                                                                                                                                                                                                                                        |
+| 🔀        | [#5255](https://github.com/keiyoushi/extensions-source/issues/5255)   | https://drive.google.com      | 2.475s | Source request | Redirected: https://accounts.google.com/v3/signin/identifier?continue=https://drive.google.com/&dsh=S-2045921820:1785459527191385&emr=1&followup=https://drive.google.com/&osid=1&passive=1209600&service=wise&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=Ac50bxtGThKU4Nb2_iE6D8_l0KVBeshH25LmpvW2dDGDkot_EUaEXdYLOCewbQaJFuL6GmrPxMK1qQ |
 
 ## Cloudflare IUAM
 
@@ -319,82 +325,82 @@ Count: 76
 
 | Status   | PR                                                                    | URL                                  | Time   | Labels         | Info   |
 |----------|-----------------------------------------------------------------------|--------------------------------------|--------|----------------|--------|
-| 🚧        | [#18102](https://github.com/keiyoushi/extensions-source/issues/18102) | https://lectorfenix.com/             | 1.320s | Source request |        |
-| 🚧        | [#18096](https://github.com/keiyoushi/extensions-source/issues/18096) | https://ww9.readfairytail.com        | 1.330s | Domain changed |        |
-| 🚧        | [#18089](https://github.com/keiyoushi/extensions-source/issues/18089) | https://ichijoutranslations.com/     | 1.509s | Source request |        |
-| 🚧        | [#18058](https://github.com/keiyoushi/extensions-source/issues/18058) | https://07.ikiru.wtf/                | 1.642s | Domain changed |        |
-| 🚧        | [#18035](https://github.com/keiyoushi/extensions-source/issues/18035) | https://ww6.readchainsawman.com      | 0.287s | Domain changed |        |
-| 🚧        | [#17969](https://github.com/keiyoushi/extensions-source/issues/17969) | https://duskscans.com/               | 1.450s | Source request |        |
-| 🚧        | [#17960](https://github.com/keiyoushi/extensions-source/issues/17960) | https://sparkmanga.net               | 1.650s | Domain changed |        |
-| 🚧        | [#17858](https://github.com/keiyoushi/extensions-source/issues/17858) | https://omanga.to/                   | 1.207s | Source request |        |
-| 🚧        | [#17820](https://github.com/keiyoushi/extensions-source/issues/17820) | https://mangaruu.com/                | 2.180s | Source request |        |
-| 🚧        | [#17613](https://github.com/keiyoushi/extensions-source/issues/17613) | https://visorikigai.gettocaboca.com/ | 1.007s | Domain changed |        |
-| 🚧        | [#17592](https://github.com/keiyoushi/extensions-source/issues/17592) | https://v1.soulscans.asia/           | 1.957s | Domain changed |        |
-| 🚧        | [#17395](https://github.com/keiyoushi/extensions-source/issues/17395) | https://www.yurivan.com/             | 1.667s | Source request |        |
-| 🚧        | [#17366](https://github.com/keiyoushi/extensions-source/issues/17366) | https://mangabuddy1.co.uk/           | 1.749s | Source request |        |
-| 🚧        | [#17288](https://github.com/keiyoushi/extensions-source/issues/17288) | https://naisho.moe/home              | 1.427s | Source request |        |
-| 🚧        | [#17268](https://github.com/keiyoushi/extensions-source/issues/17268) | https://visualikigai.aplikando.com/  | 0.621s | Domain changed |        |
-| 🚧        | [#17263](https://github.com/keiyoushi/extensions-source/issues/17263) | https://readhwa.com/                 | 1.450s | Source request |        |
-| 🚧        | [#17166](https://github.com/keiyoushi/extensions-source/issues/17166) | https://03.lumosgg.com               | 0.574s | Domain changed |        |
-| 🚧        | [#17029](https://github.com/keiyoushi/extensions-source/issues/17029) | https://galleryepic.com/en           | 0.883s | Source request |        |
-| 🚧        | [#16824](https://github.com/keiyoushi/extensions-source/issues/16824) | https://manganyx.com/                | 1.211s | Source request |        |
-| 🚧        | [#16733](https://github.com/keiyoushi/extensions-source/issues/16733) | https://www.mynimeku.com/            | 0.297s | Source request |        |
-| 🚧        | [#16246](https://github.com/keiyoushi/extensions-source/issues/16246) | https://mato21.com                   | 1.397s | Source request |        |
-| 🚧        | [#16246](https://github.com/keiyoushi/extensions-source/issues/16246) | https://newto21.com                  | 1.702s | Source request |        |
-| 🚧        | [#15751](https://github.com/keiyoushi/extensions-source/issues/15751) | https://juratempe.st/                | 1.748s | Domain changed |        |
-| 🚧        | [#15641](https://github.com/keiyoushi/extensions-source/issues/15641) | https://v1.holotoon.site/            | 1.321s | Domain changed |        |
-| 🚧        | [#15123](https://github.com/keiyoushi/extensions-source/issues/15123) | https://fsicomics.com                | 1.332s | Source request |        |
-| 🚧        | [#15010](https://github.com/keiyoushi/extensions-source/issues/15010) | https://kageani.com/                 | 1.711s | Source request |        |
-| 🚧        | [#14973](https://github.com/keiyoushi/extensions-source/issues/14973) | https://mtlmanga.org/                | 1.423s | Source request |        |
-| 🚧        | [#14958](https://github.com/keiyoushi/extensions-source/issues/14958) | https://streamex.sh/manga            | 1.535s | Source request |        |
-| 🚧        | [#14859](https://github.com/keiyoushi/extensions-source/issues/14859) | https://swordmangas.com/             | 0.943s | Source request |        |
-| 🚧        | [#14847](https://github.com/keiyoushi/extensions-source/issues/14847) | https://zonatmo.org                  | 1.015s | Source request |        |
-| 🚧        | [#14263](https://github.com/keiyoushi/extensions-source/issues/14263) | https://05c.manhwaland.land/         | 2.150s | Domain changed |        |
-| 🚧        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://nhentai.net/                 | 1.475s | Source request |        |
-| 🚧        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://sakuramangas.org/            | 1.713s | Source request |        |
-| 🚧        | [#14167](https://github.com/keiyoushi/extensions-source/issues/14167) | https://lectortmo.vip/               | 1.544s | Source request |        |
-| 🚧        | [#13666](https://github.com/keiyoushi/extensions-source/issues/13666) | https://bodinho.app                  | 1.452s | Source request |        |
-| 🚧        | [#13634](https://github.com/keiyoushi/extensions-source/issues/13634) | https://ztruyen.io.vn/               | 1.682s | Source request |        |
-| 🚧        | [#13444](https://github.com/keiyoushi/extensions-source/issues/13444) | https://faichisubs.com/              | 1.318s | Source request |        |
-| 🚧        | [#13349](https://github.com/keiyoushi/extensions-source/issues/13349) | https://shiraori.web.id/             | 1.207s | Source request |        |
-| 🚧        | [#13230](https://github.com/keiyoushi/extensions-source/issues/13230) | https://navyteamn.com                | 1.788s | Source request |        |
-| 🚧        | [#13205](https://github.com/keiyoushi/extensions-source/issues/13205) | https://www.hentaivn.college/        | 1.125s | Source request |        |
-| 🚧        | [#13171](https://github.com/keiyoushi/extensions-source/issues/13171) | https://hentaidatia.com/             | 1.290s | Source request |        |
-| 🚧        | [#13167](https://github.com/keiyoushi/extensions-source/issues/13167) | https://nuranantoscans.my.id/        | 1.508s | Source request |        |
-| 🚧        | [#12613](https://github.com/keiyoushi/extensions-source/issues/12613) | https://illusia.com.br/              | 1.208s | Source request |        |
-| 🚧        | [#12482](https://github.com/keiyoushi/extensions-source/issues/12482) | https://khiing.com/                  | 1.813s | Source request |        |
-| 🚧        | [#12420](https://github.com/keiyoushi/extensions-source/issues/12420) | https://cartel-manhwa.com/           | 1.509s | Source request |        |
-| 🚧        | [#12199](https://github.com/keiyoushi/extensions-source/issues/12199) | https://beta.dropescan.com           | 2.250s | Source request |        |
-| 🚧        | [#12129](https://github.com/keiyoushi/extensions-source/issues/12129) | https://hattoriscans.com/            | 1.542s | Source request |        |
-| 🚧        | [#11661](https://github.com/keiyoushi/extensions-source/issues/11661) | https://otakuangel.com/              | 1.657s | Source request |        |
-| 🚧        | [#11470](https://github.com/keiyoushi/extensions-source/issues/11470) | https://mythtoons.org/               | 1.543s | Source request |        |
-| 🚧        | [#11391](https://github.com/keiyoushi/extensions-source/issues/11391) | https://manga-d.com/                 | 2.002s | Source request |        |
-| 🚧        | [#11268](https://github.com/keiyoushi/extensions-source/issues/11268) | https://hmanga.asia/                 | 1.393s | Source request |        |
-| 🚧        | [#11256](https://github.com/keiyoushi/extensions-source/issues/11256) | https://www.superhq.net/             | 1.011s | Source request |        |
-| 🚧        | [#11031](https://github.com/keiyoushi/extensions-source/issues/11031) | https://sakuramangas.org/            | 0.919s | Source request |        |
-| 🚧        | [#11026](https://github.com/keiyoushi/extensions-source/issues/11026) | https://doujin.sexy/                 | 1.471s | Source request |        |
-| 🚧        | [#10129](https://github.com/keiyoushi/extensions-source/issues/10129) | https://bakaloli.eu/                 | 1.382s | Source request |        |
-| 🚧        | [#9880](https://github.com/keiyoushi/extensions-source/issues/9880)   | https://se8.us/                      | 0.280s | Source request |        |
-| 🚧        | [#9557](https://github.com/keiyoushi/extensions-source/issues/9557)   | https://hentai-img.com/              | 1.006s | Source request |        |
-| 🚧        | [#9348](https://github.com/keiyoushi/extensions-source/issues/9348)   | https://cosplayrule34.com            | 1.471s | Source request |        |
-| 🚧        | [#8826](https://github.com/keiyoushi/extensions-source/issues/8826)   | https://nortverse.com/               | 1.122s | Source request |        |
-| 🚧        | [#8455](https://github.com/keiyoushi/extensions-source/issues/8455)   | https://site.ds-club.net/            | 0.953s | Source request |        |
-| 🚧        | [#8180](https://github.com/keiyoushi/extensions-source/issues/8180)   | https://futapo.com                   | 0.083s | Source request |        |
-| 🚧        | [#7262](https://github.com/keiyoushi/extensions-source/issues/7262)   | https://neko-hentai.net              | 0.946s | Source request |        |
-| 🚧        | [#6806](https://github.com/keiyoushi/extensions-source/issues/6806)   | https://www.hentai.name/home.html    | 1.667s | Source request |        |
-| 🚧        | [#6650](https://github.com/keiyoushi/extensions-source/issues/6650)   | https://reborntrans.com/             | 1.317s | Source request |        |
-| 🚧        | [#6033](https://github.com/keiyoushi/extensions-source/issues/6033)   | https://dogemanga.com/               | 1.211s | Source request |        |
-| 🚧        | [#5822](https://github.com/keiyoushi/extensions-source/issues/5822)   | https://fhentai.net/                 | 1.147s | Source request |        |
-| 🚧        | [#4938](https://github.com/keiyoushi/extensions-source/issues/4938)   | https://www.manga-mana.com           | 1.913s | Source request |        |
-| 🚧        | [#4881](https://github.com/keiyoushi/extensions-source/issues/4881)   | https://ridibooks.com/webtoon/bl     | 0.299s | Source request |        |
-| 🚧        | [#4236](https://github.com/keiyoushi/extensions-source/issues/4236)   | https://spoilerplus.tv/              | 0.073s | Source request |        |
-| 🚧        | [#4234](https://github.com/keiyoushi/extensions-source/issues/4234)   | https://mangaraw.best/               | 0.086s | Source request |        |
-| 🚧        | [#2419](https://github.com/keiyoushi/extensions-source/issues/2419)   | https://ilikecomix.com/en-comics/    | 1.200s | Source request |        |
-| 🚧        | [#2369](https://github.com/keiyoushi/extensions-source/issues/2369)   | https://kusowanka.com/               | 1.419s | Source request |        |
-| 🚧        | [#1962](https://github.com/keiyoushi/extensions-source/issues/1962)   | https://cartoonporn.to/              | 0.963s | Source request |        |
-| 🚧        | [#1883](https://github.com/keiyoushi/extensions-source/issues/1883)   | https://yespornpics.com/             | 1.009s | Source request |        |
-| 🚧        | [#1746](https://github.com/keiyoushi/extensions-source/issues/1746)   | https://w82.thetowerofgod.com/       | 1.193s | Source request |        |
-| 🚧        | [#1371](https://github.com/keiyoushi/extensions-source/issues/1371)   | https://jellycomics.xyz              | 2.129s | Source request |        |
+| 🚧        | [#18118](https://github.com/keiyoushi/extensions-source/issues/18118) | https://ww6.readkingdom.com          | 2.228s | Domain changed |        |
+| 🚧        | [#18102](https://github.com/keiyoushi/extensions-source/issues/18102) | https://lectorfenix.com/             | 1.173s | Source request |        |
+| 🚧        | [#18096](https://github.com/keiyoushi/extensions-source/issues/18096) | https://ww9.readfairytail.com        | 0.836s | Domain changed |        |
+| 🚧        | [#18089](https://github.com/keiyoushi/extensions-source/issues/18089) | https://ichijoutranslations.com/     | 1.170s | Source request |        |
+| 🚧        | [#17969](https://github.com/keiyoushi/extensions-source/issues/17969) | https://duskscans.com/               | 1.660s | Source request |        |
+| 🚧        | [#17960](https://github.com/keiyoushi/extensions-source/issues/17960) | https://sparkmanga.net               | 0.069s | Domain changed |        |
+| 🚧        | [#17952](https://github.com/keiyoushi/extensions-source/issues/17952) | https://siyahmelek.lat               | 1.701s | Domain changed |        |
+| 🚧        | [#17858](https://github.com/keiyoushi/extensions-source/issues/17858) | https://omanga.to/                   | 1.173s | Source request |        |
+| 🚧        | [#17820](https://github.com/keiyoushi/extensions-source/issues/17820) | https://mangaruu.com/                | 1.190s | Source request |        |
+| 🚧        | [#17613](https://github.com/keiyoushi/extensions-source/issues/17613) | https://visorikigai.gettocaboca.com/ | 0.636s | Domain changed |        |
+| 🚧        | [#17592](https://github.com/keiyoushi/extensions-source/issues/17592) | https://v1.soulscans.asia/           | 1.323s | Domain changed |        |
+| 🚧        | [#17395](https://github.com/keiyoushi/extensions-source/issues/17395) | https://www.yurivan.com/             | 1.093s | Source request |        |
+| 🚧        | [#17366](https://github.com/keiyoushi/extensions-source/issues/17366) | https://mangabuddy1.co.uk/           | 1.112s | Source request |        |
+| 🚧        | [#17288](https://github.com/keiyoushi/extensions-source/issues/17288) | https://naisho.moe/home              | 0.948s | Source request |        |
+| 🚧        | [#17268](https://github.com/keiyoushi/extensions-source/issues/17268) | https://visualikigai.aplikando.com/  | 0.851s | Domain changed |        |
+| 🚧        | [#17263](https://github.com/keiyoushi/extensions-source/issues/17263) | https://readhwa.com/                 | 1.174s | Source request |        |
+| 🚧        | [#17166](https://github.com/keiyoushi/extensions-source/issues/17166) | https://03.lumosgg.com               | 2.358s | Domain changed |        |
+| 🚧        | [#17029](https://github.com/keiyoushi/extensions-source/issues/17029) | https://galleryepic.com/en           | 2.006s | Source request |        |
+| 🚧        | [#16824](https://github.com/keiyoushi/extensions-source/issues/16824) | https://manganyx.com/                | 0.168s | Source request |        |
+| 🚧        | [#16733](https://github.com/keiyoushi/extensions-source/issues/16733) | https://www.mynimeku.com/            | 0.351s | Source request |        |
+| 🚧        | [#16246](https://github.com/keiyoushi/extensions-source/issues/16246) | https://mato21.com                   | 1.838s | Source request |        |
+| 🚧        | [#16246](https://github.com/keiyoushi/extensions-source/issues/16246) | https://newto21.com                  | 1.658s | Source request |        |
+| 🚧        | [#15751](https://github.com/keiyoushi/extensions-source/issues/15751) | https://juratempe.st/                | 2.059s | Domain changed |        |
+| 🚧        | [#15641](https://github.com/keiyoushi/extensions-source/issues/15641) | https://v1.holotoon.site/            | 1.698s | Domain changed |        |
+| 🚧        | [#15123](https://github.com/keiyoushi/extensions-source/issues/15123) | https://fsicomics.com                | 1.101s | Source request |        |
+| 🚧        | [#15010](https://github.com/keiyoushi/extensions-source/issues/15010) | https://kageani.com/                 | 0.286s | Source request |        |
+| 🚧        | [#14973](https://github.com/keiyoushi/extensions-source/issues/14973) | https://mtlmanga.org/                | 2.374s | Source request |        |
+| 🚧        | [#14958](https://github.com/keiyoushi/extensions-source/issues/14958) | https://streamex.sh/manga            | 0.955s | Source request |        |
+| 🚧        | [#14859](https://github.com/keiyoushi/extensions-source/issues/14859) | https://swordmangas.com/             | 1.241s | Source request |        |
+| 🚧        | [#14847](https://github.com/keiyoushi/extensions-source/issues/14847) | https://zonatmo.org                  | 1.260s | Source request |        |
+| 🚧        | [#14263](https://github.com/keiyoushi/extensions-source/issues/14263) | https://05c.manhwaland.land/         | 0.065s | Domain changed |        |
+| 🚧        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://nhentai.net/                 | 0.623s | Source request |        |
+| 🚧        | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://sakuramangas.org/            | 0.763s | Source request |        |
+| 🚧        | [#14167](https://github.com/keiyoushi/extensions-source/issues/14167) | https://lectortmo.vip/               | 1.662s | Source request |        |
+| 🚧        | [#13666](https://github.com/keiyoushi/extensions-source/issues/13666) | https://bodinho.app                  | 2.385s | Source request |        |
+| 🚧        | [#13634](https://github.com/keiyoushi/extensions-source/issues/13634) | https://ztruyen.io.vn/               | 1.120s | Source request |        |
+| 🚧        | [#13444](https://github.com/keiyoushi/extensions-source/issues/13444) | https://faichisubs.com/              | 1.195s | Source request |        |
+| 🚧        | [#13349](https://github.com/keiyoushi/extensions-source/issues/13349) | https://shiraori.web.id/             | 2.602s | Source request |        |
+| 🚧        | [#13230](https://github.com/keiyoushi/extensions-source/issues/13230) | https://navyteamn.com                | 0.369s | Source request |        |
+| 🚧        | [#13205](https://github.com/keiyoushi/extensions-source/issues/13205) | https://www.hentaivn.college/        | 1.383s | Source request |        |
+| 🚧        | [#13171](https://github.com/keiyoushi/extensions-source/issues/13171) | https://hentaidatia.com/             | 1.249s | Source request |        |
+| 🚧        | [#13167](https://github.com/keiyoushi/extensions-source/issues/13167) | https://nuranantoscans.my.id/        | 1.093s | Source request |        |
+| 🚧        | [#12613](https://github.com/keiyoushi/extensions-source/issues/12613) | https://illusia.com.br/              | 1.486s | Source request |        |
+| 🚧        | [#12482](https://github.com/keiyoushi/extensions-source/issues/12482) | https://khiing.com/                  | 0.168s | Source request |        |
+| 🚧        | [#12420](https://github.com/keiyoushi/extensions-source/issues/12420) | https://cartel-manhwa.com/           | 1.912s | Source request |        |
+| 🚧        | [#12199](https://github.com/keiyoushi/extensions-source/issues/12199) | https://beta.dropescan.com           | 1.152s | Source request |        |
+| 🚧        | [#12129](https://github.com/keiyoushi/extensions-source/issues/12129) | https://hattoriscans.com/            | 1.907s | Source request |        |
+| 🚧        | [#11661](https://github.com/keiyoushi/extensions-source/issues/11661) | https://otakuangel.com/              | 0.226s | Source request |        |
+| 🚧        | [#11470](https://github.com/keiyoushi/extensions-source/issues/11470) | https://mythtoons.org/               | 0.067s | Source request |        |
+| 🚧        | [#11391](https://github.com/keiyoushi/extensions-source/issues/11391) | https://manga-d.com/                 | 1.989s | Source request |        |
+| 🚧        | [#11268](https://github.com/keiyoushi/extensions-source/issues/11268) | https://hmanga.asia/                 | 1.697s | Source request |        |
+| 🚧        | [#11256](https://github.com/keiyoushi/extensions-source/issues/11256) | https://www.superhq.net/             | 1.376s | Source request |        |
+| 🚧        | [#11031](https://github.com/keiyoushi/extensions-source/issues/11031) | https://sakuramangas.org/            | 1.126s | Source request |        |
+| 🚧        | [#11026](https://github.com/keiyoushi/extensions-source/issues/11026) | https://doujin.sexy/                 | 0.631s | Source request |        |
+| 🚧        | [#10129](https://github.com/keiyoushi/extensions-source/issues/10129) | https://bakaloli.eu/                 | 0.966s | Source request |        |
+| 🚧        | [#9880](https://github.com/keiyoushi/extensions-source/issues/9880)   | https://se8.us/                      | 1.019s | Source request |        |
+| 🚧        | [#9557](https://github.com/keiyoushi/extensions-source/issues/9557)   | https://hentai-img.com/              | 0.625s | Source request |        |
+| 🚧        | [#9348](https://github.com/keiyoushi/extensions-source/issues/9348)   | https://cosplayrule34.com            | 1.087s | Source request |        |
+| 🚧        | [#8826](https://github.com/keiyoushi/extensions-source/issues/8826)   | https://nortverse.com/               | 1.899s | Source request |        |
+| 🚧        | [#8455](https://github.com/keiyoushi/extensions-source/issues/8455)   | https://site.ds-club.net/            | 0.966s | Source request |        |
+| 🚧        | [#8180](https://github.com/keiyoushi/extensions-source/issues/8180)   | https://futapo.com                   | 1.022s | Source request |        |
+| 🚧        | [#7262](https://github.com/keiyoushi/extensions-source/issues/7262)   | https://neko-hentai.net              | 1.160s | Source request |        |
+| 🚧        | [#6806](https://github.com/keiyoushi/extensions-source/issues/6806)   | https://www.hentai.name/home.html    | 0.623s | Source request |        |
+| 🚧        | [#6650](https://github.com/keiyoushi/extensions-source/issues/6650)   | https://reborntrans.com/             | 1.829s | Source request |        |
+| 🚧        | [#6033](https://github.com/keiyoushi/extensions-source/issues/6033)   | https://dogemanga.com/               | 1.173s | Source request |        |
+| 🚧        | [#5822](https://github.com/keiyoushi/extensions-source/issues/5822)   | https://fhentai.net/                 | 0.129s | Source request |        |
+| 🚧        | [#4938](https://github.com/keiyoushi/extensions-source/issues/4938)   | https://www.manga-mana.com           | 0.152s | Source request |        |
+| 🚧        | [#4881](https://github.com/keiyoushi/extensions-source/issues/4881)   | https://ridibooks.com/webtoon/bl     | 1.956s | Source request |        |
+| 🚧        | [#4236](https://github.com/keiyoushi/extensions-source/issues/4236)   | https://spoilerplus.tv/              | 1.910s | Source request |        |
+| 🚧        | [#4234](https://github.com/keiyoushi/extensions-source/issues/4234)   | https://mangaraw.best/               | 1.851s | Source request |        |
+| 🚧        | [#2419](https://github.com/keiyoushi/extensions-source/issues/2419)   | https://ilikecomix.com/en-comics/    | 0.855s | Source request |        |
+| 🚧        | [#2369](https://github.com/keiyoushi/extensions-source/issues/2369)   | https://kusowanka.com/               | 2.224s | Source request |        |
+| 🚧        | [#1962](https://github.com/keiyoushi/extensions-source/issues/1962)   | https://cartoonporn.to/              | 1.735s | Source request |        |
+| 🚧        | [#1883](https://github.com/keiyoushi/extensions-source/issues/1883)   | https://yespornpics.com/             | 0.149s | Source request |        |
+| 🚧        | [#1746](https://github.com/keiyoushi/extensions-source/issues/1746)   | https://w82.thetowerofgod.com/       | 1.165s | Source request |        |
+| 🚧        | [#1371](https://github.com/keiyoushi/extensions-source/issues/1371)   | https://jellycomics.xyz              | 1.091s | Source request |        |
 
 ## Cloudflare Blocked
 
@@ -402,18 +408,18 @@ Count: 12
 
 | Status   | PR                                                                    | URL                        | Time   | Labels         | Info   |
 |----------|-----------------------------------------------------------------------|----------------------------|--------|----------------|--------|
-| 🛑        | [#17953](https://github.com/keiyoushi/extensions-source/issues/17953) | https://kuroimanga.site    | 0.906s | Domain changed |        |
-| 🛑        | [#17773](https://github.com/keiyoushi/extensions-source/issues/17773) | https://hentai-one.com/    | 0.626s | Source request |        |
-| 🛑        | [#16483](https://github.com/keiyoushi/extensions-source/issues/16483) | https://blossom-scans.com/ | 1.469s | Source request |        |
-| 🛑        | [#16418](https://github.com/keiyoushi/extensions-source/issues/16418) | https://onyxreader.com     | 1.188s | Source request |        |
-| 🛑        | [#16271](https://github.com/keiyoushi/extensions-source/issues/16271) | https://mangasid.com/      | 1.126s | Source request |        |
-| 🛑        | [#16030](https://github.com/keiyoushi/extensions-source/issues/16030) | https://doujinb.com        | 1.876s | Source request |        |
-| 🛑        | [#13398](https://github.com/keiyoushi/extensions-source/issues/13398) | https://sadscans.net/      | 1.397s | Source request |        |
-| 🛑        | [#11335](https://github.com/keiyoushi/extensions-source/issues/11335) | https://scan-hentai.net/   | 1.517s | Source request |        |
-| 🛑        | [#11116](https://github.com/keiyoushi/extensions-source/issues/11116) | https://mangadiyari.com    | 2.203s | Source request |        |
-| 🛑        | [#9777](https://github.com/keiyoushi/extensions-source/issues/9777)   | https://hentaipaw.com/     | 1.712s | Source request |        |
-| 🛑        | [#2773](https://github.com/keiyoushi/extensions-source/issues/2773)   | https://nukibooks.com/     | 1.107s | Source request |        |
-| 🛑        | [#498](https://github.com/keiyoushi/extensions-source/issues/498)     | https://crunchyscan.fr/    | 0.088s | Source request |        |
+| 🛑        | [#17953](https://github.com/keiyoushi/extensions-source/issues/17953) | https://kuroimanga.site    | 0.071s | Domain changed |        |
+| 🛑        | [#17773](https://github.com/keiyoushi/extensions-source/issues/17773) | https://hentai-one.com/    | 1.842s | Source request |        |
+| 🛑        | [#16483](https://github.com/keiyoushi/extensions-source/issues/16483) | https://blossom-scans.com/ | 1.102s | Source request |        |
+| 🛑        | [#16418](https://github.com/keiyoushi/extensions-source/issues/16418) | https://onyxreader.com     | 1.623s | Source request |        |
+| 🛑        | [#16271](https://github.com/keiyoushi/extensions-source/issues/16271) | https://mangasid.com/      | 1.658s | Source request |        |
+| 🛑        | [#16030](https://github.com/keiyoushi/extensions-source/issues/16030) | https://doujinb.com        | 0.210s | Source request |        |
+| 🛑        | [#13398](https://github.com/keiyoushi/extensions-source/issues/13398) | https://sadscans.net/      | 0.924s | Source request |        |
+| 🛑        | [#11335](https://github.com/keiyoushi/extensions-source/issues/11335) | https://scan-hentai.net/   | 1.769s | Source request |        |
+| 🛑        | [#11116](https://github.com/keiyoushi/extensions-source/issues/11116) | https://mangadiyari.com    | 1.663s | Source request |        |
+| 🛑        | [#9777](https://github.com/keiyoushi/extensions-source/issues/9777)   | https://hentaipaw.com/     | 2.224s | Source request |        |
+| 🛑        | [#2773](https://github.com/keiyoushi/extensions-source/issues/2773)   | https://nukibooks.com/     | 0.763s | Source request |        |
+| 🛑        | [#498](https://github.com/keiyoushi/extensions-source/issues/498)     | https://crunchyscan.fr/    | 2.431s | Source request |        |
 
 ## Placeholder
 
@@ -421,7 +427,7 @@ Count: 1
 
 | Status   | PR                                                                    | URL                      | Time   | Labels         | Info           |
 |----------|-----------------------------------------------------------------------|--------------------------|--------|----------------|----------------|
-| 🪧        | [#12264](https://github.com/keiyoushi/extensions-source/issues/12264) | https://b25.toon-bro.xyz | 2.178s | Source request | Few nodes (14) |
+| 🪧        | [#12264](https://github.com/keiyoushi/extensions-source/issues/12264) | https://b25.toon-bro.xyz | 0.638s | Source request | Few nodes (14) |
 
 ## Parked Domains
 
@@ -429,30 +435,28 @@ Count: 0
 
 ## Warnings
 
-Count: 16
+Count: 14
 
-| Status   | PR                                                                    | URL                         | Time   | Labels         | Info                                               |
-|----------|-----------------------------------------------------------------------|-----------------------------|--------|----------------|----------------------------------------------------|
-| ⚠️       | [#17596](https://github.com/keiyoushi/extensions-source/issues/17596) | https://mangacherri.com/    | 3.106s | Source request | Few nodes (8). HTTP 403: 403 Forbidden             |
-| ⚠️       | [#17374](https://github.com/keiyoushi/extensions-source/issues/17374) | https://www.scan-manga.com  | 1.202s | Domain changed | Few nodes (9). HTTP 404: 404 Not Found             |
-| ⚠️       | [#17162](https://github.com/keiyoushi/extensions-source/issues/17162) | https://inkvora.net/        | 20s    | Source request | HTTP 522: inkvora.net \| 522: Connection timed out |
-| ⚠️       | [#16359](https://github.com/keiyoushi/extensions-source/issues/16359) | https://komiora.fit         | 19s    | Source request | HTTP 522: komiora.fit \| 522: Connection timed out |
-| ⚠️       | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://remanga.org/        | 1.750s | Source request | HTTP 403: Ошибка 403 \| Ошибка доступа             |
-| ⚠️       | [#13345](https://github.com/keiyoushi/extensions-source/issues/13345) | https://emnexmangas.site/   | 1.499s | Source request | Few nodes (19). HTTP 404: 404: NOT_FOUND           |
-| ⚠️       | [#12433](https://github.com/keiyoushi/extensions-source/issues/12433) | https://mucheon.site/       | 0.585s | Source request | HTTP 429: Vercel Security Checkpoint               |
-| ⚠️       | [#8787](https://github.com/keiyoushi/extensions-source/issues/8787)   | http://yemancomic.com/      | 2.856s | Source request | Few nodes (10). HTTP 403: 403 Forbidden            |
-| ⚠️       | [#7630](https://github.com/keiyoushi/extensions-source/issues/7630)   | https://blacktoon.fans/     | 1.777s | Domain changed | Few nodes (9). HTTP 403: 403 Forbidden             |
-| ⚠️       | [#5457](https://github.com/keiyoushi/extensions-source/issues/5457)   | https://alkhariqun.com      | 3.780s | Source request | HTTP 403: 403 Error — Forbidden                    |
-| ⚠️       | [#5437](https://github.com/keiyoushi/extensions-source/issues/5437)   | https://truyendex.xyz/      | 2.468s | Source request | HTTP 502: truyendex.xyz \| 502: Bad gateway        |
-| ⚠️       | [#3178](https://github.com/keiyoushi/extensions-source/issues/3178)   | https://rule34.xxx          | 1.129s | Source request | HTTP 403: Rule34.xxx CAPTCHA                       |
-| ⚠️       | [#1589](https://github.com/keiyoushi/extensions-source/issues/1589)   | https://www.thefarside.com/ | 0.282s | Source request | HTTP 403: Establishing a secure connection ...     |
-| ⚠️       | [#1243](https://github.com/keiyoushi/extensions-source/issues/1243)   | https://2cycomic.com/       | 3.141s | Source request | Few nodes (10). HTTP 403: 403 Forbidden            |
-| ⚠️       | [#1243](https://github.com/keiyoushi/extensions-source/issues/1243)   | https://m.mhkami.com/       | 3.381s | Source request | Few nodes (10). HTTP 403: 403 Forbidden            |
-| ⚠️       | [#1243](https://github.com/keiyoushi/extensions-source/issues/1243)   | https://www.yydsmh.com/     | 3.375s | Source request | Few nodes (10). HTTP 403: 403 Forbidden            |
+| Status   | PR                                                                    | URL                        | Time   | Labels         | Info                                               |
+|----------|-----------------------------------------------------------------------|----------------------------|--------|----------------|----------------------------------------------------|
+| ⚠️       | [#17596](https://github.com/keiyoushi/extensions-source/issues/17596) | https://mangacherri.com/   | 2.090s | Source request | Few nodes (8). HTTP 403: 403 Forbidden             |
+| ⚠️       | [#17374](https://github.com/keiyoushi/extensions-source/issues/17374) | https://www.scan-manga.com | 0.378s | Domain changed | Few nodes (9). HTTP 404: 404 Not Found             |
+| ⚠️       | [#17162](https://github.com/keiyoushi/extensions-source/issues/17162) | https://inkvora.net/       | 21s    | Source request | HTTP 522: inkvora.net \| 522: Connection timed out |
+| ⚠️       | [#16359](https://github.com/keiyoushi/extensions-source/issues/16359) | https://komiora.fit        | 20s    | Source request | HTTP 522: komiora.fit \| 522: Connection timed out |
+| ⚠️       | [#14260](https://github.com/keiyoushi/extensions-source/issues/14260) | https://remanga.org/       | 2.778s | Source request | HTTP 403: Ошибка 403 \| Ошибка доступа             |
+| ⚠️       | [#13345](https://github.com/keiyoushi/extensions-source/issues/13345) | https://emnexmangas.site/  | 1.204s | Source request | Few nodes (19). HTTP 404: 404: NOT_FOUND           |
+| ⚠️       | [#12433](https://github.com/keiyoushi/extensions-source/issues/12433) | https://mucheon.site/      | 0.258s | Source request | HTTP 429: Vercel Security Checkpoint               |
+| ⚠️       | [#8787](https://github.com/keiyoushi/extensions-source/issues/8787)   | http://yemancomic.com/     | 4.467s | Source request | Few nodes (10). HTTP 403: 403 Forbidden            |
+| ⚠️       | [#7630](https://github.com/keiyoushi/extensions-source/issues/7630)   | https://blacktoon.fans/    | 2.892s | Domain changed | Few nodes (9). HTTP 403: 403 Forbidden             |
+| ⚠️       | [#5437](https://github.com/keiyoushi/extensions-source/issues/5437)   | https://truyendex.xyz/     | 2.757s | Source request | HTTP 502: truyendex.xyz \| 502: Bad gateway        |
+| ⚠️       | [#3178](https://github.com/keiyoushi/extensions-source/issues/3178)   | https://rule34.xxx         | 1.703s | Source request | HTTP 403: Rule34.xxx CAPTCHA                       |
+| ⚠️       | [#1243](https://github.com/keiyoushi/extensions-source/issues/1243)   | https://2cycomic.com/      | 4.659s | Source request | Few nodes (10). HTTP 403: 403 Forbidden            |
+| ⚠️       | [#1243](https://github.com/keiyoushi/extensions-source/issues/1243)   | https://m.mhkami.com/      | 3.392s | Source request | Few nodes (10). HTTP 403: 403 Forbidden            |
+| ⚠️       | [#1243](https://github.com/keiyoushi/extensions-source/issues/1243)   | https://www.yydsmh.com/    | 4.291s | Source request | Few nodes (10). HTTP 403: 403 Forbidden            |
 
 ## Errors
 
-Count: 19
+Count: 17
 
 ### ClientConnectorCertificateError
 
@@ -460,60 +464,59 @@ Count: 1
 
 | Status   | PR                                                                | URL                     | Time   | Labels         | Info                                                                                                                                                                                                   |
 |----------|-------------------------------------------------------------------|-------------------------|--------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ❌        | [#621](https://github.com/keiyoushi/extensions-source/issues/621) | https://superecchi.com/ | 1.211s | Source request | Cannot connect to host superecchi.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')] |
+| ❌        | [#621](https://github.com/keiyoushi/extensions-source/issues/621) | https://superecchi.com/ | 1.749s | Source request | Cannot connect to host superecchi.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')] |
 
 ### ClientConnectorDNSError
 
-Count: 6
+Count: 5
 
 | Status   | PR                                                                    | URL                                | Time   | Labels         | Info                                                                                              |
 |----------|-----------------------------------------------------------------------|------------------------------------|--------|----------------|---------------------------------------------------------------------------------------------------|
-| ❌        | [#18045](https://github.com/keiyoushi/extensions-source/issues/18045) | https://asuratoon.info             | 0.924s | Source request | Cannot connect to host asuratoon.info:443 ssl:default [Domain name not found], Bare URL           |
-| ❌        | [#15324](https://github.com/keiyoushi/extensions-source/issues/15324) | https://sbxh9.com/                 | 0.181s | Source request | Cannot connect to host sbxh9.com:443 ssl:default [DNS server returned answer with no data]        |
-| ❌        | [#15185](https://github.com/keiyoushi/extensions-source/issues/15185) | https://www.audiomangaop.com/      | 0.730s | Source request | Cannot connect to host www.audiomangaop.com:443 ssl:default [Domain name not found]               |
-| ❌        | [#8355](https://github.com/keiyoushi/extensions-source/issues/8355)   | http://www.hmangasearcher.com/hlst | 0.167s | Source request | Cannot connect to host www.hmangasearcher.com:80 ssl:default [Domain name not found]              |
-| ❌        | [#5925](https://github.com/keiyoushi/extensions-source/issues/5925)   | https://rawmics.com                | 2.713s | Source request | Cannot connect to host rawmics.com:443 ssl:default [Timeout while contacting DNS servers]         |
-| ❌        | [#3945](https://github.com/keiyoushi/extensions-source/issues/3945)   | https://www.hentaistube.com        | 2.620s | Source request | Cannot connect to host www.hentaistube.com:443 ssl:default [Timeout while contacting DNS servers] |
+| ❌        | [#18045](https://github.com/keiyoushi/extensions-source/issues/18045) | https://asuratoon.info             | 0.820s | Source request | Cannot connect to host asuratoon.info:443 ssl:default [Domain name not found], Bare URL           |
+| ❌        | [#15185](https://github.com/keiyoushi/extensions-source/issues/15185) | https://www.audiomangaop.com/      | 0.434s | Source request | Cannot connect to host www.audiomangaop.com:443 ssl:default [Domain name not found]               |
+| ❌        | [#8355](https://github.com/keiyoushi/extensions-source/issues/8355)   | http://www.hmangasearcher.com/hlst | 0.679s | Source request | Cannot connect to host www.hmangasearcher.com:80 ssl:default [Domain name not found]              |
+| ❌        | [#5925](https://github.com/keiyoushi/extensions-source/issues/5925)   | https://rawmics.com                | 2.208s | Source request | Cannot connect to host rawmics.com:443 ssl:default [Timeout while contacting DNS servers]         |
+| ❌        | [#3945](https://github.com/keiyoushi/extensions-source/issues/3945)   | https://www.hentaistube.com        | 4.459s | Source request | Cannot connect to host www.hentaistube.com:443 ssl:default [Timeout while contacting DNS servers] |
 
 ### ClientConnectorError
 
-Count: 6
+Count: 7
 
 | Status   | PR                                                                    | URL                          | Time   | Labels         | Info                                                                                                 |
 |----------|-----------------------------------------------------------------------|------------------------------|--------|----------------|------------------------------------------------------------------------------------------------------|
-| ❌        | [#17671](https://github.com/keiyoushi/extensions-source/issues/17671) | https://aavalon.net/en/manga | 2m14s  | Source request | Cannot connect to host aavalon.net:443 ssl:default [Connect call failed ('192.142.46.197', 443)]     |
-| ❌        | [#15049](https://github.com/keiyoushi/extensions-source/issues/15049) | https://mangapoi.my/         | 4m30s  | Source request | Cannot connect to host mangapoi.my:443 ssl:default [Connect call failed ('44.233.250.75', 443)]      |
-| ❌        | [#12817](https://github.com/keiyoushi/extensions-source/issues/12817) | https://yibenmanhua.com/     | 2m17s  | Source request | Cannot connect to host yibenmanhua.com:443 ssl:default [Connect call failed ('123.57.192.171', 443)] |
+| ❌        | [#17671](https://github.com/keiyoushi/extensions-source/issues/17671) | https://aavalon.net/en/manga | 2m15s  | Source request | Cannot connect to host aavalon.net:443 ssl:default [Connect call failed ('192.142.46.197', 443)]     |
+| ❌        | [#15049](https://github.com/keiyoushi/extensions-source/issues/15049) | https://mangapoi.my/         | 4m28s  | Source request | Cannot connect to host mangapoi.my:443 ssl:default [Connect call failed ('52.38.196.63', 443)]       |
+| ❌        | [#12817](https://github.com/keiyoushi/extensions-source/issues/12817) | https://yibenmanhua.com/     | 2m13s  | Source request | Cannot connect to host yibenmanhua.com:443 ssl:default [Connect call failed ('123.57.192.171', 443)] |
 | ❌        | [#12632](https://github.com/keiyoushi/extensions-source/issues/12632) | https://mangafu.com          | 1m1s   | Source request | Cannot connect to host mangafu.com:443 ssl:default [None]                                            |
-| ❌        | [#10998](https://github.com/keiyoushi/extensions-source/issues/10998) | https://www.mqzjw.com/       | 1m2s   | Source request | Cannot connect to host www.mqzjw.com:443 ssl:default [None]                                          |
+| ❌        | [#10998](https://github.com/keiyoushi/extensions-source/issues/10998) | https://www.mqzjw.com/       | 2m18s  | Source request | Cannot connect to host www.mqzjw.com:443 ssl:default [Connect call failed ('137.59.16.112', 443)]    |
 | ❌        | [#4932](https://github.com/keiyoushi/extensions-source/issues/4932)   | https://ikmmh.com/           | 4m32s  | Source request | Cannot connect to host ikmmh.com:443 ssl:default [Connect call failed ('185.218.6.165', 443)]        |
+| ❌        | [#1243](https://github.com/keiyoushi/extensions-source/issues/1243)   | https://yydscomic.com/       | 1m1s   | Source request | Cannot connect to host yydscomic.com:443 ssl:default [None]                                          |
 
 ### ServerDisconnectedError
 
-Count: 3
+Count: 2
 
 | Status   | PR                                                                  | URL                                  | Time   | Labels         | Info                |
 |----------|---------------------------------------------------------------------|--------------------------------------|--------|----------------|---------------------|
-| ❌        | [#9413](https://github.com/keiyoushi/extensions-source/issues/9413) | https://sankaku.app/books            | 2.357s | Source request | Server disconnected |
-| ❌        | [#9413](https://github.com/keiyoushi/extensions-source/issues/9413) | https://www.sankakucomplex.com/books | 3.157s | Source request | Server disconnected |
-| ❌        | [#1243](https://github.com/keiyoushi/extensions-source/issues/1243) | https://yydscomic.com/               | 3.286s | Source request | Server disconnected |
+| ❌        | [#9413](https://github.com/keiyoushi/extensions-source/issues/9413) | https://sankaku.app/books            | 3.198s | Source request | Server disconnected |
+| ❌        | [#9413](https://github.com/keiyoushi/extensions-source/issues/9413) | https://www.sankakucomplex.com/books | 2.658s | Source request | Server disconnected |
 
 ### UnicodeDecodeError
 
-Count: 3
+Count: 2
 
-| Status   | PR                                                                  | URL                              | Time   | Labels         | Info                                                                              |
-|----------|---------------------------------------------------------------------|----------------------------------|--------|----------------|-----------------------------------------------------------------------------------|
-| ❌        | [#9953](https://github.com/keiyoushi/extensions-source/issues/9953) | https://mirrorkomik.info/        | 3.816s | Source request | 'utf-8' codec can't decode byte 0xe7 in position 29119: invalid continuation byte |
-| ❌        | [#9480](https://github.com/keiyoushi/extensions-source/issues/9480) | https://pt.wporncomics.com/      | 2.208s | Source request | 'utf-8' codec can't decode byte 0xc4 in position 2162: invalid continuation byte  |
-| ❌        | [#1934](https://github.com/keiyoushi/extensions-source/issues/1934) | http://www.comicbooklibrary.org/ | 1.190s | Source request | 'utf-8' codec can't decode byte 0x92 in position 239: invalid start byte          |
+| Status   | PR                                                                  | URL                              | Time   | Labels         | Info                                                                             |
+|----------|---------------------------------------------------------------------|----------------------------------|--------|----------------|----------------------------------------------------------------------------------|
+| ❌        | [#9480](https://github.com/keiyoushi/extensions-source/issues/9480) | https://pt.wporncomics.com/      | 1.273s | Source request | 'utf-8' codec can't decode byte 0xc4 in position 2162: invalid continuation byte |
+| ❌        | [#1934](https://github.com/keiyoushi/extensions-source/issues/1934) | http://www.comicbooklibrary.org/ | 1.315s | Source request | 'utf-8' codec can't decode byte 0x92 in position 239: invalid start byte         |
 
 ## Not Found
 
-Count: 4
+Count: 5
 
 | Status   | PR                                                                    | URL   | Time   | Labels         | Info   |
 |----------|-----------------------------------------------------------------------|-------|--------|----------------|--------|
+| 🔍        | [#18119](https://github.com/keiyoushi/extensions-source/issues/18119) |       |        | Domain changed |        |
 | 🔍        | [#17978](https://github.com/keiyoushi/extensions-source/issues/17978) |       |        | Domain changed |        |
 | 🔍        | [#15771](https://github.com/keiyoushi/extensions-source/issues/15771) |       |        | Source request |        |
 | 🔍        | [#12094](https://github.com/keiyoushi/extensions-source/issues/12094) |       |        | Source request |        |
