@@ -4,23 +4,38 @@ import asyncio
 import logging
 import random
 import re
+import socket
+import ssl
 import time
 from collections.abc import Awaitable, Callable
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from enum import StrEnum
+from functools import partial
 from http import HTTPStatus
 from itertools import groupby
 from operator import attrgetter
 from typing import Any, Protocol, TypeVar
 
 import aiohttp
+import dns.asyncbackend
+import dns.asyncquery
+import dns.asyncresolver
+import dns.exception
+import dns.message
+import dns.nameserver
+import dns.rdatatype
+import httpx
 import ua_generator
+from aia import AIASession
+from aiohttp.abc import AbstractResolver, ResolveResult
 from bs4 import BeautifulSoup
 from publicsuffixlist import PublicSuffixList  # type: ignore[import-untyped]
 from tabulate import tabulate  # type: ignore[import-untyped]
 from yarl import URL
 
 log = logging.getLogger(__name__)
+logging.getLogger("httpx").setLevel(logging.WARNING)  # silence per-request DoH logs
 psl = PublicSuffixList()
 
 TIMEOUT_SECONDS = 5 * 60
@@ -28,6 +43,199 @@ MAX_CONCURRENT = 80
 PATTERN_WWSUB = re.compile(r"^ww\d+\.")
 MIN_NODES_WARN = 20
 TIME_PRECISION_CUTOFF_SECONDS = 10
+
+DNS_NAMESERVERS = [
+    "https://adfree.usableprivacy.net/",
+    "https://cloudflare-dns.com/dns-query",
+    "https://dns.aa.net.uk/dns-query",
+    "https://dns.adguard-dns.com/dns-query",  # filter
+    "https://dns.brahma.world/dns-query",
+    "https://dns.digitale-gesellschaft.ch/dns-query",
+    "https://dns.dnshome.de/dns-query",
+    "https://dns.dnsoverhttps.com/dnfs-query",
+    "https://dns.flatuslifir.is/dns-query",
+    "https://dns.google/dns-query",
+    "https://dns.hostux.net/dns-query",
+    "https://dns.nextdns.io/dns-query",
+    "https://dns.njal.la/dns-query",
+    "https://dns.quad9.net/dns-query",
+    "https://dns.switch.ch/dns-query",
+    "https://dnsforge.de/dns-query",
+    "https://doh-de.blahdns.com/dns-query",
+    "https://doh.42l.fr/dns-query",
+    "https://doh.applied-privacy.net/query",
+    "https://doh.cleanbrowsing.org/doh/security-filter/",
+    "https://doh.dns.sb/dns-query",
+    "https://doh.ffmuc.net/dns-query",
+    "https://doh.li/dns-query",
+    "https://doh.libredns.gr/dns-query",
+    "https://doh.mullvad.net/dns-query",
+    "https://doh.opendns.com/dns-query",
+    "https://doh.tiarap.org/dns-query",
+    "https://doh.xfinity.com/dns-query",
+    "https://ibuki.cgnat.net/dns-query",
+    "https://ordns.he.net/dns-query",
+    "https://private.canadianshield.cira.ca/dns-query",
+    "https://public.dns.iij.jp/dns-query",
+    "https://wikimedia-dns.org/dns-query",
+]
+
+DNS_NAMESERVERS_ZH = [
+    "https://dns.alidns.com/dns-query",  # zh
+    "https://doh.onedns.net/dns-query",  # zh
+    "https://doh.pub/dns-query",  # zh
+]
+
+DNS_RDTYPES_BY_FAMILY = {
+    socket.AF_INET: (dns.rdatatype.A,),
+    socket.AF_INET6: (dns.rdatatype.AAAA,),
+}
+
+DNS_MAX_ATTEMPTS = 3
+DNS_WEIGHT_INITIAL = 1.0
+DNS_WEIGHT_MIN = 0.1
+DNS_WEIGHT_MAX = 3.0
+DNS_WEIGHT_REWARD = 0.1
+DNS_WEIGHT_PENALTY = 0.3
+
+
+@dataclass
+class _NameserverScore:
+    weight: float = DNS_WEIGHT_INITIAL
+
+    def reward(self) -> None:
+        self.weight = min(DNS_WEIGHT_MAX, self.weight + DNS_WEIGHT_REWARD)
+
+    def penalize(self) -> None:
+        # floor keeps a struggling nameserver eligible so it can recover
+        self.weight = max(DNS_WEIGHT_MIN, self.weight - DNS_WEIGHT_PENALTY)
+
+
+def _weighted_sample_without_replacement(
+    pool: list[tuple[str, float]],
+    k: int,
+    rng: random.Random,
+) -> list[str]:
+    pool = pool.copy()
+    picked: list[str] = []
+    for _ in range(min(k, len(pool))):
+        total = sum(weight for _, weight in pool)
+        target = rng.uniform(0, total)
+        cumulative = 0.0
+        for i, (nameserver, weight) in enumerate(pool):
+            cumulative += weight
+            if cumulative >= target:
+                picked.append(nameserver)
+                pool.pop(i)
+                break
+    return picked
+
+
+class _PersistentDoHNameserver(dns.nameserver.DoHNameserver):
+    """DoHNameserver that reuses one httpx.AsyncClient instead of opening a new TLS connection per query."""
+
+    def __init__(self, url: str, client: httpx.AsyncClient) -> None:
+        super().__init__(url)
+        self._client = client
+
+    async def async_query(
+        self,
+        request: dns.message.QueryMessage,
+        timeout: float,  # noqa: ASYNC109 - signature must match Nameserver.async_query
+        source: str | None,
+        source_port: int,
+        max_size: bool,  # noqa: ARG002 - unused, required by Nameserver.async_query signature
+        backend: dns.asyncbackend.Backend,  # noqa: ARG002 - unused, required by Nameserver.async_query signature
+        one_rr_per_rrset: bool = False,
+        ignore_trailing: bool = False,
+    ) -> dns.message.Message:
+        return await dns.asyncquery.https(
+            request,
+            self.url,
+            timeout=timeout,
+            source=source,
+            source_port=source_port,
+            one_rr_per_rrset=one_rr_per_rrset,
+            ignore_trailing=ignore_trailing,
+            verify=self.verify,
+            post=(not self.want_get),
+            http_version=self.http_version,
+            client=self._client,
+        )
+
+
+class DNSPythonResolver(AbstractResolver):
+    def __init__(self, nameservers: list[str], fallback_nameservers: list[str]) -> None:
+        # own Random instance: avoids interleaving with generate_headers' global random.seed/setstate
+        self._rng = random.Random()
+        self._scores = {ns: _NameserverScore() for ns in nameservers}
+        self._fallback_scores = {ns: _NameserverScore() for ns in fallback_nameservers}
+        self._clients: dict[str, httpx.AsyncClient] = {}
+        self._resolvers: dict[str, dns.asyncresolver.Resolver] = {}
+        for ns in [*nameservers, *fallback_nameservers]:
+            client = httpx.AsyncClient(http2=True)
+            self._clients[ns] = client
+            resolver = dns.asyncresolver.Resolver(configure=False)
+            resolver.nameservers = [_PersistentDoHNameserver(ns, client)]
+            self._resolvers[ns] = resolver
+
+    def _pick_nameservers(self, scores: dict[str, _NameserverScore], k: int) -> list[str]:
+        pool = [(ns, score.weight) for ns, score in scores.items()]
+        return _weighted_sample_without_replacement(pool, k, self._rng)
+
+    async def resolve(
+        self,
+        host: str,
+        port: int = 0,
+        family: socket.AddressFamily = socket.AF_INET,
+    ) -> list[ResolveResult]:
+        results: list[ResolveResult] = []
+        for rdtype in DNS_RDTYPES_BY_FAMILY.get(family, (dns.rdatatype.A, dns.rdatatype.AAAA)):
+            # fall back to ZH nameservers if the primary attempts are exhausted
+            nameservers = self._pick_nameservers(self._scores, DNS_MAX_ATTEMPTS) + self._pick_nameservers(
+                self._fallback_scores,
+                len(self._fallback_scores),
+            )
+            for nameserver in nameservers:
+                scores = self._scores if nameserver in self._scores else self._fallback_scores
+                try:
+                    answer = await self._resolvers[nameserver].resolve(host, rdtype)
+                except dns.exception.DNSException as e:
+                    log.debug("DNS %s %s failed via %s: %s", dns.rdatatype.to_text(rdtype), host, nameserver, e)
+                    scores[nameserver].penalize()
+                    continue
+                scores[nameserver].reward()
+                log.info(
+                    "DNS %s %s -> %s via %s",
+                    dns.rdatatype.to_text(rdtype),
+                    host,
+                    [rdata.address for rdata in answer],
+                    nameserver,
+                )
+                results.extend(
+                    ResolveResult(
+                        hostname=host,
+                        host=rdata.address,
+                        port=port,
+                        family=socket.AF_INET6 if rdtype == dns.rdatatype.AAAA else socket.AF_INET,
+                        proto=0,
+                        flags=socket.AI_NUMERICHOST | socket.AI_NUMERICSERV,
+                    )
+                    for rdata in answer
+                )
+                break
+        if not results:
+            raise OSError(None, f"DNS lookup failed for {host}")
+        return results
+
+    async def close(self) -> None:
+        for client in self._clients.values():
+            await client.aclose()
+
+
+def create_connector() -> aiohttp.TCPConnector:
+    resolver = DNSPythonResolver(DNS_NAMESERVERS, DNS_NAMESERVERS_ZH)
+    return aiohttp.TCPConnector(resolver=resolver)
 
 
 class Status(StrEnum):
@@ -192,6 +400,17 @@ def format_duration(duration: float, cutoff: float = TIME_PRECISION_CUTOFF_SECON
     return f"{m}m{s}s" if m else f"{s}s"
 
 
+_aia_session = AIASession()
+
+
+async def _build_aia_ssl_context(url: str) -> ssl.SSLContext:
+    # ssl_context_from_url is blocking (sync sockets), so run it off the event loop
+    return await asyncio.get_event_loop().run_in_executor(
+        None,
+        partial(_aia_session.ssl_context_from_url, url),
+    )
+
+
 async def check_url_generic(
     session: aiohttp.ClientSession,
     url: str,
@@ -209,44 +428,51 @@ async def check_url_generic(
         return make_result(status, duration, ". ".join(parts), subcategory)
 
     try:
-        async with session.get(url) as resp:
-            html = await resp.text()
-            soup = BeautifulSoup(html, "lxml")
+        try:
+            async with session.get(url) as resp:
+                html = await resp.text(errors="replace")
+        except aiohttp.ClientConnectorCertificateError:
+            # some servers omit intermediate certs; complete the chain like a browser would
+            ssl_context = await _build_aia_ssl_context(url)
+            async with session.get(url, ssl=ssl_context) as resp:
+                html = await resp.text(errors="replace")
 
-            node_count = len(soup.select("*"))
-            if node_count < MIN_NODES_WARN:
-                infos.append(f"Few nodes ({node_count})")
+        soup = BeautifulSoup(html, "lxml")
 
-            redirected = not str(resp.url).startswith(url)
-            if redirected:
-                infos.append(f"Redirected: {resp.url}")
-                parked_signals.extend(check_parked_redirect(resp.url))
+        node_count = len(soup.select("*"))
+        if node_count < MIN_NODES_WARN:
+            infos.append(f"Few nodes ({node_count})")
 
-            title = soup.title.string.strip() if soup.title and soup.title.string else ""
+        redirected = not str(resp.url).startswith(url)
+        if redirected:
+            infos.append(f"Redirected: {resp.url}")
+            parked_signals.extend(check_parked_redirect(resp.url))
 
-            if not redirected:
-                if title == "Just a moment...":
-                    infos = []
-                    return result(Status.CF_IUAM)
-                if title == "Attention Required! | Cloudflare":
-                    infos = []
-                    return result(Status.CF_BLOCK)
+        title = soup.title.string.strip() if soup.title and soup.title.string else ""
 
-            if check_placeholder_content(title, html):
-                return result(Status.PLACEHOLDER)
+        if not redirected:
+            if title == "Just a moment...":
+                infos = []
+                return result(Status.CF_IUAM)
+            if title == "Attention Required! | Cloudflare":
+                infos = []
+                return result(Status.CF_BLOCK)
 
-            parked_signals.extend(check_parked_content(title, html))
+        if check_placeholder_content(title, html):
+            return result(Status.PLACEHOLDER)
 
-            if parked_signals:
-                return result(Status.PARKED)
-            if redirected:
-                subcategory = "Same Authority" if is_same_authority(url, str(resp.url)) else ""
-                return result(Status.REDIRECT, subcategory)
-            if resp.status == HTTPStatus.OK:
-                return result(Status.OK, subcategory="With Notes" if infos else "")
+        parked_signals.extend(check_parked_content(title, html))
 
-            infos.append(f"HTTP {resp.status}: {title}")
-            return result(Status.WARNING)
+        if parked_signals:
+            return result(Status.PARKED)
+        if redirected:
+            subcategory = "Same Authority" if is_same_authority(url, str(resp.url)) else ""
+            return result(Status.REDIRECT, subcategory)
+        if resp.status == HTTPStatus.OK:
+            return result(Status.OK, subcategory="With Notes" if infos else "")
+
+        infos.append(f"HTTP {resp.status}: {title}")
+        return result(Status.WARNING)
 
     except Exception as e:
         if msg := str(e):

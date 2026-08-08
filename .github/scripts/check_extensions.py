@@ -2,10 +2,12 @@
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
+#   "aia",
 #   "aiohttp[speedups]",
 #   "anyio",
 #   "beautifulsoup4[lxml]",
 #   "betterproto==2.0.0b7",
+#   "dnspython[doh,idna]",
 #   "publicsuffixlist",
 #   "tabulate",
 #   "ua-generator",
@@ -31,6 +33,7 @@ from common import (
     Status,
     check_all_generic,
     check_url_generic,
+    create_connector,
     format_duration,
     generate_headers,
     render_report_generic,
@@ -90,7 +93,7 @@ def log_result(result: CheckResult, source: Source) -> None:
 
 
 async def main() -> None:
-    async with aiohttp.ClientSession() as session:
+    async with aiohttp.ClientSession(connector=create_connector()) as session:
         log.info("Fetching repository index from %s", REPO_INDEX_URL)
         async with session.get(REPO_INDEX_URL) as resp:
             index = Index().parse(gzip.decompress(await resp.read()))
@@ -104,6 +107,7 @@ async def main() -> None:
     async with aiohttp.ClientSession(
         timeout=aiohttp.ClientTimeout(total=TIMEOUT_SECONDS),
         headers=headers,
+        connector=create_connector(),
     ) as session:
         sources_shuffled = sources.copy()
         random.shuffle(sources_shuffled)

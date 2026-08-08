@@ -2,9 +2,11 @@
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
+#   "aia",
 #   "aiohttp[speedups]",
 #   "anyio",
 #   "beautifulsoup4[lxml]",
+#   "dnspython[doh,idna]",
 #   "publicsuffixlist",
 #   "pygithub",
 #   "tabulate",
@@ -34,6 +36,7 @@ from common import (
     Status,
     check_all_generic,
     check_url_generic,
+    create_connector,
     format_duration,
     generate_headers,
     render_report_generic,
@@ -222,6 +225,7 @@ async def main() -> None:
     async with aiohttp.ClientSession(
         timeout=aiohttp.ClientTimeout(total=TIMEOUT_SECONDS),
         headers=headers,
+        connector=create_connector(),
     ) as session:
         pr_urls_shuffled = pr_urls.copy()
         random.shuffle(pr_urls_shuffled)
