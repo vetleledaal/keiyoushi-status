@@ -1,18 +1,20 @@
 # Bug Issue → Extension Map
 
-Matched: 204 of 206 open bug issues\
-Timestamp: `2026-08-11T03:57:47+00:00`
+Matched: 207 of 209 open bug issues\
+Timestamp: `2026-08-12T00:59:17+00:00`
 
 
 ## Exact match
 
 
-Count: 176
+Count: 178
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#18312](https://github.com/keiyoushi/extensions-source/issues/18312) FIX HTTP 503 IN FALCO SCAN | Falco Scan | ✅ | Falco Scan `100%` | [https://falcoscan.net](https://falcoscan.net) |
-| [#18310](https://github.com/keiyoushi/extensions-source/issues/18310) Nyx Scans Missing Chapters | Nyx Scans | ✅ | Nyx Scans `100%` | [https://nyxscans.com](https://nyxscans.com) |
+| [#18330](https://github.com/keiyoushi/extensions-source/issues/18330) MangaFire | MangaFire | 🚧 | MangaFire `100%` | [https://mangafire.to](https://mangafire.to) |
+| [#18328](https://github.com/keiyoushi/extensions-source/issues/18328) EternalMangas no actualiza | EternalMangas | 🚧 | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
+| [#18325](https://github.com/keiyoushi/extensions-source/issues/18325) Mangakuri (ID) : No Pages Found | Mangakuri | 🚧 | Mangakuri `100%` | [https://lc2.mangakuri.online](https://lc2.mangakuri.online) |
+| [#18322](https://github.com/keiyoushi/extensions-source/issues/18322) Dilar: Chapter loading fails with HTTP error 426⁠ | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
 | [#18307](https://github.com/keiyoushi/extensions-source/issues/18307) Dokiraw: New website URL (`dokiraw.beer`) | Dokiraw | 🔀 | Dokiraw `100%` | [https://dokiraw.work](https://dokiraw.work) |
 | [#18306](https://github.com/keiyoushi/extensions-source/issues/18306) Jmanga: New website URL (`jmanga.farm`) | Jmanga | 🔀 | Jmanga `100%` | [https://jmanga.loan](https://jmanga.loan) |
 | [#18305](https://github.com/keiyoushi/extensions-source/issues/18305) Raw18: New website URL (`raw18.space`) | Raw18 | 🔀 | Raw18 `100%` | [https://raw18.wtf](https://raw18.wtf) |
@@ -22,7 +24,6 @@ Count: 176
 | [#18264](https://github.com/keiyoushi/extensions-source/issues/18264) Specific chapter in asura scans shows as having no pages | Asura Scans | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
 | [#18252](https://github.com/keiyoushi/extensions-source/issues/18252) Manhuarmtl: no entries/doesnt appear | Manhuarm | 🚧 | Manhuarm `100%` | [https://manhuarmtl.com](https://manhuarmtl.com) |
 | [#18241](https://github.com/keiyoushi/extensions-source/issues/18241) Can't download from mangakalot | Mangakakalot | ✅ | Mangakakalot `100%` | [https://www.mangakakalot.gg](https://www.mangakakalot.gg) |
-| [#18236](https://github.com/keiyoushi/extensions-source/issues/18236) Hentai Origines / Manga Origines (FR) Non Chapter Found | Hentai Origines | ✅ | Hentai Origines `100%` | [https://hentai-origines.com](https://hentai-origines.com) |
 | [#18223](https://github.com/keiyoushi/extensions-source/issues/18223) Yupmanga " not a function" | Yupmanga | 🛑 | Yupmanga `100%` | [https://www.yupmanga.com](https://www.yupmanga.com) |
 | [#18221](https://github.com/keiyoushi/extensions-source/issues/18221) Colorcito Scan: New website URL (`coloresito.site`) | Colorcito Scan | ❌ | Colorcito Scan `100%` | [https://colorcitoscan.com](https://colorcitoscan.com) |
 | [#18220](https://github.com/keiyoushi/extensions-source/issues/18220) Ikigai Mangas: Search returns no results | Ikigai Mangas | 🚧 | Ikigai Mangas `100%` | [https://visorikigai.gettocaboca.com](https://visorikigai.gettocaboca.com) |
@@ -35,6 +36,7 @@ Count: 176
 | [#18160](https://github.com/keiyoushi/extensions-source/issues/18160) Roxinha error Field 'ticket' is required for type with serial name ' | Roxinha | 🚧 | Roxinha `100%` | [https://roxinha.online](https://roxinha.online) |
 | [#18159](https://github.com/keiyoushi/extensions-source/issues/18159) Vegitoons error Unexpected JSON token at offset 163 | Vegitoons | ✅ | Vegitoons `100%` | [https://vegitoons.black](https://vegitoons.black) |
 | [#18156](https://github.com/keiyoushi/extensions-source/issues/18156) Read Nanatsu no Taizai 7 Deadly Sins Manga Online: New website URL (`ww8.read7deadlysins.com`) | Read Nanatsu no Taizai 7 Deadly Sins Manga Online | 🔀 | Read Nanatsu no Taizai 7 Deadly Sins Manga Online `100%` | [https://ww7.read7deadlysins.com](https://ww7.read7deadlysins.com) |
+| [#18153](https://github.com/keiyoushi/extensions-source/issues/18153) Athrea Scans: Paid chapters has incomplete pages, paid chapters isn't toggleable without logging in | Athrea Scans | 🚧 | Athrea Scans `100%` | [https://athreascans.com](https://athreascans.com) |
 | [#18152](https://github.com/keiyoushi/extensions-source/issues/18152) MangaLivre: page list fails, reading gate replaced by a new "reader-v3" flow | MangaLivre.org | 🛑 | MangaLivre.org `100%` | [https://mangalivre.org](https://mangalivre.org) |
 | [#18149](https://github.com/keiyoushi/extensions-source/issues/18149) Nicomanga no Pages found | Nicomanga | ✅ | Nicomanga `100%` | [https://nicomanga.com](https://nicomanga.com) |
 | [#18143](https://github.com/keiyoushi/extensions-source/issues/18143) Search feature doesn't work | Luvyaa | ✅ | Luvyaa `100%` | [https://v4.luvyaa.co](https://v4.luvyaa.co) |
@@ -85,7 +87,7 @@ Count: 176
 | [#17412](https://github.com/keiyoushi/extensions-source/issues/17412) Manwa: Update time is set to request time instead of manga update time | 漫蛙 | 🚧 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
 | [#17369](https://github.com/keiyoushi/extensions-source/issues/17369) Read Comics Online: Search results only show 8 entries | Read Comics Online | 🚧 | Read Comics Online `100%` | [https://readcomicsonline.ru](https://readcomicsonline.ru) |
 | [#17298](https://github.com/keiyoushi/extensions-source/issues/17298) Geass Comics Error api | Geass Comics | ✅ | Geass Comics `100%` | [https://geasscomics.xyz](https://geasscomics.xyz) |
-| [#17295](https://github.com/keiyoushi/extensions-source/issues/17295) Lunar Manga Opening a Chapter Fails with  WRONG_FINAL_BLOCK_LENGTH | Lunar Manga | ⚠️ | Lunar Manga `100%` | [https://lunaranime.ru](https://lunaranime.ru) |
+| [#17295](https://github.com/keiyoushi/extensions-source/issues/17295) Lunar Manga Opening a Chapter Fails with  WRONG_FINAL_BLOCK_LENGTH | Lunar Manga | ✅ | Lunar Manga `100%` | [https://lunaranime.ru](https://lunaranime.ru) |
 | [#17291](https://github.com/keiyoushi/extensions-source/issues/17291) Problema Persistente em carregar imagens e páginas na scan Little Tyrant | Little Tyrant | ✅ | Little Tyrant `100%` | [https://tiraninha.world](https://tiraninha.world) |
 | [#17289](https://github.com/keiyoushi/extensions-source/issues/17289) HTTP 429 | PizzariaScan | ✅ | PizzariaScan `100%` | [https://pizzariacomics.com](https://pizzariacomics.com) |
 | [#17280](https://github.com/keiyoushi/extensions-source/issues/17280) "No pages found" Ortega (FR) Premium chapter | Ortega Scans | ✅ | Ortega Scans `100%` | [https://ortegascans.fr](https://ortegascans.fr) |
@@ -164,7 +166,7 @@ Count: 176
 | [#9946](https://github.com/keiyoushi/extensions-source/issues/9946) WNACG cover and picsare loading failed | 紳士漫畫 | 🔀 | 紳士漫畫 `100%` | [https://www.wn07.cfd](https://www.wn07.cfd) |
 | [#9843](https://github.com/keiyoushi/extensions-source/issues/9843) Luratoons: login expires too often | Lura Toon | ⚠️ | Lura Toon `100%` | [https://luratoons.net](https://luratoons.net) |
 | [#9758](https://github.com/keiyoushi/extensions-source/issues/9758) Rizz Comic: `HTTP 403` on specific entry | Rizz Comic | ✅ | Rizz Comic `100%` | [https://rizzfables.com](https://rizzfables.com) |
-| [#9619](https://github.com/keiyoushi/extensions-source/issues/9619) TonizuToon: Some of the series were hidden. | TonizuToon | ❌ | TonizuToon `100%` | [https://tonizu.top](https://tonizu.top) |
+| [#9619](https://github.com/keiyoushi/extensions-source/issues/9619) TonizuToon: Some of the series were hidden. | TonizuToon | ✅ | TonizuToon `100%` | [https://tonizu.top](https://tonizu.top) |
 | [#9496](https://github.com/keiyoushi/extensions-source/issues/9496) マンガ図書館Z HTTP error 500 | マンガ図書館Z | ✅ | マンガ図書館Z `100%` | [https://www.mangaz.com](https://www.mangaz.com) |
 | [#9389](https://github.com/keiyoushi/extensions-source/issues/9389) Jinman Tiantang: Some series is only available on their app | 禁漫天堂 | 🚧 | 禁漫天堂 `100%` | [https://18comic.vip](https://18comic.vip) |
 | [#9257](https://github.com/keiyoushi/extensions-source/issues/9257) SchaleNetwork: `NetworkOnMainThreadException` crash | SchaleNetwork | ✅ | SchaleNetwork `100%` | [https://niyaniya.moe](https://niyaniya.moe) |
@@ -191,10 +193,11 @@ Count: 176
 ## Single match
 
 
-Count: 6
+Count: 7
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#18329](https://github.com/keiyoushi/extensions-source/issues/18329) MangaLibreria: Domain changed to lectorfenix.com | MangaLibreria | ❌ | MangoLibreria `92%` | [https://mangolibreria.com](https://mangolibreria.com) |
 | [#18316](https://github.com/keiyoushi/extensions-source/issues/18316) Roxinha Field 'ticket' is required... | Roxinha.1.4.2 | 🚧 | Roxinha `100%` | [https://roxinha.online](https://roxinha.online) |
 | [#18304](https://github.com/keiyoushi/extensions-source/issues/18304) Orcku Mangas Source error | Orcku Mangas · | 🚧 | Orcku Mangas `100%` | [https://orckumangas.com](https://orckumangas.com) |
 | [#18302](https://github.com/keiyoushi/extensions-source/issues/18302) Soul Scans: New website URL (`v1.soulscans.org`) | id.soulscans | 🚧 | Soul Scans `title 100%` | [https://soulscans.my.id](https://soulscans.my.id) |
@@ -209,14 +212,14 @@ Count: 22
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#18327](https://github.com/keiyoushi/extensions-source/issues/18327) Mango Scan | MangoLibreria | ❌ | MangoLibreria `100%` | [https://mangolibreria.com](https://mangolibreria.com) |
+| ↳ [#18327] |  | ⚠️ | Scan-Manga `title 90%` | [https://m.scan-manga.com](https://m.scan-manga.com) |
 | [#18281](https://github.com/keiyoushi/extensions-source/issues/18281) [Manga-shi] Only latest 20 chapters are loaded / missing previous chapters | Manga-shi | ✅ | Manga-shi `100%` | [https://manga-shi.org](https://manga-shi.org) |
 | ↳ [#18281] |  | 🚧 | Shiba Manga `90%` | [https://shibamanga.com](https://shibamanga.com) |
 | [#18242](https://github.com/keiyoushi/extensions-source/issues/18242) Comix: update of titles without chapters takes really long time | Comix | 🚧 | Comix `url` | [https://comix.to](https://comix.to) |
 | ↳ [#18242] |  | 🚧 | GEDE Comix `100%` | [https://gedecomix.com](https://gedecomix.com) |
 | [#18180](https://github.com/keiyoushi/extensions-source/issues/18180) Goon Scans: `No results found` error | Goon Scans: `No results found` error | ✅ | Goon Scans `100%` | [https://goonscans.org](https://goonscans.org) |
 | ↳ [#18180] |  | 🚧 | Lagoon Scans `title 91%` | [https://lagoonscans.com](https://lagoonscans.com) |
-| [#18153](https://github.com/keiyoushi/extensions-source/issues/18153) Athrea Scans: Paid chapters has incomplete pages, paid chapters isn't toggleable without logging in | Athrea Scans | 🚧 | Athrea Scans `100%` | [https://athreascans.com](https://athreascans.com) |
-| ↳ [#18153] |  | 🔀 | Area Scans `91%` | [https://ar.areascans.org](https://ar.areascans.org) |
 | [#18096](https://github.com/keiyoushi/extensions-source/issues/18096) Read Fairy Tail & Edens Zero Manga Online: New website URL (`ww9.readfairytail.com`) | Read Fairy Tail & Edens Zero Manga Online | 🚧 | Read Fairy Tail & Edens Zero Manga Online `100%` | [https://ww8.readfairytail.com](https://ww8.readfairytail.com) |
 | ↳ [#18096] |  | 🔀 | Manga Online `100%` | [https://mangaonline.blue](https://mangaonline.blue) |
 | [#18008](https://github.com/keiyoushi/extensions-source/issues/18008) Problem while migrating | MangaK | ✅ | MangaK `100%` | [https://mangak.io](https://mangak.io) |
@@ -226,7 +229,7 @@ Count: 22
 | ↳ [#17953] |  | ✅ | Kuro Manga `95%` | [https://kuromanga.me](https://kuromanga.me) |
 | [#17622](https://github.com/keiyoushi/extensions-source/issues/17622) Allporncomics | AllPornComics.co | 🛑 | AllPornComics.co `100%` | [https://allporncomics.co](https://allporncomics.co) |
 | ↳ [#17622] |  | 🚧 | AllPornComic `title 96%` | [https://allporncomic.com](https://allporncomic.com) |
-| ↳ [#17622] |  | ❌ | AllPornComic.io `90%` | [https://allporncomic.io](https://allporncomic.io) |
+| ↳ [#17622] |  | ✅ | AllPornComic.io `90%` | [https://allporncomic.io](https://allporncomic.io) |
 | [#17434](https://github.com/keiyoushi/extensions-source/issues/17434) 늑대닷컴 / Wolf.com: `IndexOutOfBoundsException` error, switch baseUrl to `wftoon220.com` OR redesign to work with `wfwf422.com` | Wolf | 🔀 | 늑대닷컴 - 만화책 `title 100%` | [https://wfwf414.com](https://wfwf414.com) |
 | ↳ [#17434] |  | 🔀 | 늑대닷컴 - 웹툰 `title 100%` | [https://wfwf414.com](https://wfwf414.com) |
 | ↳ [#17434] |  | 🔀 | 늑대닷컴 - 포토툰 `title 100%` | [https://wfwf414.com](https://wfwf414.com) |
@@ -235,7 +238,7 @@ Count: 22
 | ↳ [#17374] |  | ⚠️ | Mangas Scans `91%` | [https://mangas-scans.com](https://mangas-scans.com) |
 | [#17309](https://github.com/keiyoushi/extensions-source/issues/17309) KuroMangas - Credentials expired | KuroMangas | 🚧 | KuroMangas `100%` | [https://kuromangas.com](https://kuromangas.com) |
 | ↳ [#17309] |  | ✅ | Kuro Manga `90%` | [https://kuromanga.me](https://kuromanga.me) |
-| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ✅ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
+| [#16816](https://github.com/keiyoushi/extensions-source/issues/16816) Manga-TR: `No results found` error, website redesign | Manga-TR | ⚠️ | Manga-TR `100%` | [https://manga-tr.com](https://manga-tr.com) |
 | ↳ [#16816] |  | ✅ | NTR-Manga `94%` | [https://www.ntr-manga.net](https://www.ntr-manga.net) |
 | [#13566](https://github.com/keiyoushi/extensions-source/issues/13566) GigaViewer theme sources not showing downloads | Comic Days 1.4.9, Sunday Web Every | ✅ | Comic Days `100%` | [https://comic-days.com](https://comic-days.com) |
 | ↳ [#13566] |  | ✅ | Sunday Web Every `100%` | [https://www.sunday-webry.com](https://www.sunday-webry.com) |
