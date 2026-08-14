@@ -1,21 +1,22 @@
 # Bug Issue → Extension Map
 
-Matched: 205 of 207 open bug issues\
-Timestamp: `2026-08-13T08:58:13+00:00`
+Matched: 212 of 215 open bug issues\
+Timestamp: `2026-08-14T03:06:20+00:00`
 
 
 ## Exact match
 
 
-Count: 175
+Count: 176
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#18369](https://github.com/keiyoushi/extensions-source/issues/18369) MangaLivre.org: HTTP 404 error when opening chapter | MangaLivre.org | 🛑 | MangaLivre.org `100%` | [https://mangalivre.org](https://mangalivre.org) |
+| [#18367](https://github.com/keiyoushi/extensions-source/issues/18367) LycanToons: HTTP Error 404 | Lycan Toons | 🛑 | Lycan Toons `100%` | [https://lycantoons.com](https://lycantoons.com) |
 | [#18352](https://github.com/keiyoushi/extensions-source/issues/18352) MerlinToon Design Change | Merlin Scans | 🛑 | Merlin Scans `100%` | [https://merlintoon.com](https://merlintoon.com) |
 | [#18343](https://github.com/keiyoushi/extensions-source/issues/18343) Magus Manga: Undetected downloaded chapter & title | Magus Manga | 🚧 | Magus Manga `100%` | [https://magustoon.org](https://magustoon.org) |
 | [#18330](https://github.com/keiyoushi/extensions-source/issues/18330) MangaFire | MangaFire | 🚧 | MangaFire `100%` | [https://mangafire.to](https://mangafire.to) |
 | [#18325](https://github.com/keiyoushi/extensions-source/issues/18325) Mangakuri (ID) : No Pages Found | Mangakuri | 🚧 | Mangakuri `100%` | [https://lc2.mangakuri.online](https://lc2.mangakuri.online) |
-| [#18322](https://github.com/keiyoushi/extensions-source/issues/18322) Dilar: Chapter loading fails with HTTP error 426⁠ | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
 | [#18306](https://github.com/keiyoushi/extensions-source/issues/18306) Jmanga: New website URL (`jmanga.farm`) | Jmanga | 🔀 | Jmanga `100%` | [https://jmanga.loan](https://jmanga.loan) |
 | [#18305](https://github.com/keiyoushi/extensions-source/issues/18305) Raw18: New website URL (`raw18.space`) | Raw18 | 🔀 | Raw18 `100%` | [https://raw18.wtf](https://raw18.wtf) |
 | [#18282](https://github.com/keiyoushi/extensions-source/issues/18282) AllManga: Timed out waiting for WebView after 30s error with chapters | AllManga | ✅ | AllManga `100%` | [https://mkissa.to](https://mkissa.to) |
@@ -32,6 +33,7 @@ Count: 175
 | [#18175](https://github.com/keiyoushi/extensions-source/issues/18175) New Manhwa: `No pages found` error | New Manhwa | ✅ | New Manhwa `100%` | [https://fullmanhwa.com](https://fullmanhwa.com) |
 | [#18173](https://github.com/keiyoushi/extensions-source/issues/18173) Manga Drama Extension  "No Results Found" | Manga Drama | ✅ | Manga Drama `100%` | [https://mangadrama.com](https://mangadrama.com) |
 | [#18168](https://github.com/keiyoushi/extensions-source/issues/18168) Heaven Manga showing 404 on Sources browse, WebView working. Unexpected answer from page crashes Mihon | HeavenManga | ✅ | HeavenManga `100%` | [https://heavenmanga.com](https://heavenmanga.com) |
+| [#18160](https://github.com/keiyoushi/extensions-source/issues/18160) Roxinha error Field 'ticket' is required for type with serial name ' | Roxinha | 🚧 | Roxinha `100%` | [https://roxinha.online](https://roxinha.online) |
 | [#18156](https://github.com/keiyoushi/extensions-source/issues/18156) Read Nanatsu no Taizai 7 Deadly Sins Manga Online: New website URL (`ww8.read7deadlysins.com`) | Read Nanatsu no Taizai 7 Deadly Sins Manga Online | 🔀 | Read Nanatsu no Taizai 7 Deadly Sins Manga Online `100%` | [https://ww7.read7deadlysins.com](https://ww7.read7deadlysins.com) |
 | [#18153](https://github.com/keiyoushi/extensions-source/issues/18153) Athrea Scans: Paid chapters has incomplete pages, paid chapters isn't toggleable without logging in | Athrea Scans | 🚧 | Athrea Scans `100%` | [https://athreascans.com](https://athreascans.com) |
 | [#18152](https://github.com/keiyoushi/extensions-source/issues/18152) MangaLivre: page list fails, reading gate replaced by a new "reader-v3" flow | MangaLivre.org | 🛑 | MangaLivre.org `100%` | [https://mangalivre.org](https://mangalivre.org) |
@@ -126,7 +128,6 @@ Count: 175
 | [#15381](https://github.com/keiyoushi/extensions-source/issues/15381) MangaWT: `No results found` error, website redesign | MangaWT | 🚧 | MangaWT `100%` | [https://mangawt.com](https://mangawt.com) |
 | [#15301](https://github.com/keiyoushi/extensions-source/issues/15301) Problem merlinscans from Chapter's section | Merlin Scans | 🛑 | Merlin Scans `100%` | [https://merlintoon.com](https://merlintoon.com) |
 | [#15286](https://github.com/keiyoushi/extensions-source/issues/15286) Stray Fansub: Url and theme changed | Stray Fansub | ❌ | Stray Fansub `100%` | [https://strayfansub.net](https://strayfansub.net) |
-| [#14781](https://github.com/keiyoushi/extensions-source/issues/14781) Kaguya No Results Found | Kaguya | 🔀 | Kaguya `100%` | [https://v1.kaguya.pro](https://v1.kaguya.pro) |
 | [#14774](https://github.com/keiyoushi/extensions-source/issues/14774) Hdoujin Tag Filter | HDoujin | ✅ | HDoujin `100%` | [https://hdoujin.org](https://hdoujin.org) |
 | [#14546](https://github.com/keiyoushi/extensions-source/issues/14546) Temple Scan | Temple Scan | ✅ | Temple Scan `100%` | [https://aedexnox.akan01.com](https://aedexnox.akan01.com) |
 | [#14508](https://github.com/keiyoushi/extensions-source/issues/14508) Mikoroku: New website URL (`mikoroku.com`) | MikoRoku | 🔀 | MikoRoku `url` | [https://www.mikoroku.com](https://www.mikoroku.com) |
@@ -190,10 +191,15 @@ Count: 175
 ## Single match
 
 
-Count: 8
+Count: 13
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#18373](https://github.com/keiyoushi/extensions-source/issues/18373) NEWMANHWA: No pages found error when opening/downloading chapters | New manhwa | ✅ | New Manhwa `100%` | [https://fullmanhwa.com](https://fullmanhwa.com) |
+| [#18372](https://github.com/keiyoushi/extensions-source/issues/18372) Komik cast new URL | komik cast | ⚠️ | Komik Cast `100%` | [https://v3.komikcast.fit](https://v3.komikcast.fit) |
+| [#18365](https://github.com/keiyoushi/extensions-source/issues/18365) Url change for Witch Scan | Witch Scans | 🔀 | WitchScans `url` | [https://witchscans.com](https://witchscans.com) |
+| [#18362](https://github.com/keiyoushi/extensions-source/issues/18362) Comichubfree not loading properly | Comichubfree | 🚧 | ComicHubFree `100%` | [https://comichubfree.com](https://comichubfree.com) |
+| [#18361](https://github.com/keiyoushi/extensions-source/issues/18361) Batcave issue | Batcave | 🚧 | BatCave `100%` | [https://batcave.biz](https://batcave.biz) |
 | [#18340](https://github.com/keiyoushi/extensions-source/issues/18340) jinmantiantang Unable to load GIF | jinmantiantang | 🚧 | 禁漫天堂 `100%` | [https://18comic.vip](https://18comic.vip) |
 | [#18338](https://github.com/keiyoushi/extensions-source/issues/18338) Lunar : Failed to find payload seeds | all.lunaranime | 🔀 | Lunar Manga `title 100%` | [https://lunaranime.ru](https://lunaranime.ru) |
 | [#18329](https://github.com/keiyoushi/extensions-source/issues/18329) MangaLibreria: Domain changed to lectorfenix.com | MangaLibreria | ❌ | MangoLibreria `92%` | [https://mangolibreria.com](https://mangolibreria.com) |
@@ -206,10 +212,12 @@ Count: 8
 ## Multiple matches
 
 
-Count: 22
+Count: 23
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#18366](https://github.com/keiyoushi/extensions-source/issues/18366) Comix Timeout on everything | Comix | 🚧 | Comix `url` | [https://comix.to](https://comix.to) |
+| ↳ [#18366] |  | 🚧 | GEDE Comix `100%` | [https://gedecomix.com](https://gedecomix.com) |
 | [#18327](https://github.com/keiyoushi/extensions-source/issues/18327) Mango Scan | MangoLibreria | ❌ | MangoLibreria `100%` | [https://mangolibreria.com](https://mangolibreria.com) |
 | ↳ [#18327] |  | ⚠️ | Scan-Manga `title 90%` | [https://m.scan-manga.com](https://m.scan-manga.com) |
 | [#18281](https://github.com/keiyoushi/extensions-source/issues/18281) [Manga-shi] Only latest 20 chapters are loaded / missing previous chapters | Manga-shi | ✅ | Manga-shi `100%` | [https://manga-shi.org](https://manga-shi.org) |
@@ -262,9 +270,10 @@ Count: 22
 ## No match
 
 
-Count: 2
+Count: 3
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#18371](https://github.com/keiyoushi/extensions-source/issues/18371) Url change | Boxmanhwa latest | | | |
 | [#18171](https://github.com/keiyoushi/extensions-source/issues/18171) BiliManga无法搜索 | BiliManga | | | |
 | [#17974](https://github.com/keiyoushi/extensions-source/issues/17974) MH1234 No Pages Found | MH1234 | | | |
