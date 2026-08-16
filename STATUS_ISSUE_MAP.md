@@ -1,22 +1,23 @@
 # Bug Issue → Extension Map
 
-Matched: 213 of 216 open bug issues\
-Timestamp: `2026-08-15T04:07:01+00:00`
+Matched: 214 of 217 open bug issues\
+Timestamp: `2026-08-16T03:39:13+00:00`
 
 
 ## Exact match
 
 
-Count: 179
+Count: 180
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#18433](https://github.com/keiyoushi/extensions-source/issues/18433) VinaHentai: New website URL (`vinahentai.wiki`) | VinaHentai | 🔀 | VinaHentai `100%` | [https://vinahentai.blog](https://vinahentai.blog) |
+| [#18432](https://github.com/keiyoushi/extensions-source/issues/18432) Dilar: Unsupported encryption protocol version: 5 / 6 | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
+| [#18427](https://github.com/keiyoushi/extensions-source/issues/18427) HentaiZap: `NullPointerException` when opening extension | HentaiZap | 🚧 | HentaiZap `100%` | [https://hentaizap.com](https://hentaizap.com) |
 | [#18398](https://github.com/keiyoushi/extensions-source/issues/18398) ReiManga: New website URL (`reimanga.net`) | ReiManga | 🔀 | ReiManga `100%` | [https://reimanga.com](https://reimanga.com) |
 | [#18397](https://github.com/keiyoushi/extensions-source/issues/18397) TruyenTuoiTho: New website URL (`truyentuoitho.com`) | TruyenTuoiTho | 🔀 | TruyenTuoiTho `100%` | [https://truyentuoitho.online](https://truyentuoitho.online) |
 | [#18396](https://github.com/keiyoushi/extensions-source/issues/18396) Read One-Punch Man Manga Online: New website URL (`ww7.readopm.com`) | Read One-Punch Man Manga Online | 🔀 | Read One-Punch Man Manga Online `100%` | [https://ww6.readopm.com](https://ww6.readopm.com) |
-| [#18393](https://github.com/keiyoushi/extensions-source/issues/18393) Chapter error | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
-| [#18389](https://github.com/keiyoushi/extensions-source/issues/18389) Dilar: Unsupported encryption protocol version: 2 | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
-| [#18383](https://github.com/keiyoushi/extensions-source/issues/18383) well then it's time to say Goodbye to KomikCast and Welcoming VoraToon | Komik Cast | ❌ | Komik Cast `100%` | [https://v3.komikcast.fit](https://v3.komikcast.fit) |
+| [#18383](https://github.com/keiyoushi/extensions-source/issues/18383) Komik Cast: Rebrand & changed URL to VoraToon (`v1.voratoon.com`) | Komik Cast | ❌ | Komik Cast `100%` | [https://v3.komikcast.fit](https://v3.komikcast.fit) |
 | [#18379](https://github.com/keiyoushi/extensions-source/issues/18379) Dusk Scans chokes on chapter numbers with fractional parts | Dusk Scans | ✅ | Dusk Scans `100%` | [https://duskscans.com](https://duskscans.com) |
 | [#18367](https://github.com/keiyoushi/extensions-source/issues/18367) LycanToons: HTTP Error 404 | Lycan Toons | 🛑 | Lycan Toons `100%` | [https://lycantoons.com](https://lycantoons.com) |
 | [#18352](https://github.com/keiyoushi/extensions-source/issues/18352) MerlinToon Design Change | Merlin Scans | 🛑 | Merlin Scans `100%` | [https://merlintoon.com](https://merlintoon.com) |
@@ -41,7 +42,7 @@ Count: 179
 | [#18156](https://github.com/keiyoushi/extensions-source/issues/18156) Read Nanatsu no Taizai 7 Deadly Sins Manga Online: New website URL (`ww8.read7deadlysins.com`) | Read Nanatsu no Taizai 7 Deadly Sins Manga Online | 🔀 | Read Nanatsu no Taizai 7 Deadly Sins Manga Online `100%` | [https://ww7.read7deadlysins.com](https://ww7.read7deadlysins.com) |
 | [#18153](https://github.com/keiyoushi/extensions-source/issues/18153) Athrea Scans: Paid chapters has incomplete pages, paid chapters isn't toggleable without logging in | Athrea Scans | 🚧 | Athrea Scans `100%` | [https://athreascans.com](https://athreascans.com) |
 | [#18149](https://github.com/keiyoushi/extensions-source/issues/18149) Nicomanga no Pages found | Nicomanga | ✅ | Nicomanga `100%` | [https://nicomanga.com](https://nicomanga.com) |
-| [#18143](https://github.com/keiyoushi/extensions-source/issues/18143) Search feature doesn't work | Luvyaa | ✅ | Luvyaa `100%` | [https://v4.luvyaa.co](https://v4.luvyaa.co) |
+| [#18143](https://github.com/keiyoushi/extensions-source/issues/18143) Search feature doesn't work | Luvyaa | 🚧 | Luvyaa `100%` | [https://v4.luvyaa.co](https://v4.luvyaa.co) |
 | [#18132](https://github.com/keiyoushi/extensions-source/issues/18132) Jeaz scans don't load content | Jeaz Scans | 🚧 | Jeaz Scans `100%` | [https://lectorhub.j5z.xyz](https://lectorhub.j5z.xyz) |
 | [#18131](https://github.com/keiyoushi/extensions-source/issues/18131) Desu.me 410 http error | Desu | ✅ | Desu `100%` | [https://desu.uno](https://desu.uno) |
 | [#18103](https://github.com/keiyoushi/extensions-source/issues/18103) (ikiru) Unable to get nonce | Ikiru | 🚧 | Ikiru `100%` | [https://07.ikiru.wtf](https://07.ikiru.wtf) |
@@ -66,7 +67,7 @@ Count: 179
 | [#17909](https://github.com/keiyoushi/extensions-source/issues/17909) No results found for Leitor de Mangas | Leitor de Mangas | 🚧 | Leitor de Mangas `100%` | [https://leitordemangas.com](https://leitordemangas.com) |
 | [#17907](https://github.com/keiyoushi/extensions-source/issues/17907) Error 401 on NoxManga | NoxManga | ✅ | NoxManga `100%` | [https://noxtoons.com](https://noxtoons.com) |
 | [#17906](https://github.com/keiyoushi/extensions-source/issues/17906) Error 401 in Bladetoons | Bladetoons | ⚠️ | Bladetoons `100%` | [https://bladetoons.com](https://bladetoons.com) |
-| [#17900](https://github.com/keiyoushi/extensions-source/issues/17900) Extension not working | Manhuanext | ✅ | Manhuanext `100%` | [https://manhuanext.com](https://manhuanext.com) |
+| [#17900](https://github.com/keiyoushi/extensions-source/issues/17900) Extension not working | Manhuanext | ⚠️ | Manhuanext `100%` | [https://manhuanext.com](https://manhuanext.com) |
 | [#17894](https://github.com/keiyoushi/extensions-source/issues/17894) Failed to obtain session in Softkomik | Softkomik | ✅ | Softkomik `100%` | [https://softkomik.co](https://softkomik.co) |
 | [#17877](https://github.com/keiyoushi/extensions-source/issues/17877) Maid Scan: `HTTP 404` error | Maid Scan | 🛑 | Maid Scan `100%` | [https://empreguetes.wtf](https://empreguetes.wtf) |
 | [#17876](https://github.com/keiyoushi/extensions-source/issues/17876) Catoons: `No se encontraron páginas` / `No pages found` error | Catoons | ✅ | Catoons `100%` | [https://newcat1.xyz](https://newcat1.xyz) |
@@ -103,7 +104,7 @@ Count: 179
 | [#16928](https://github.com/keiyoushi/extensions-source/issues/16928) The mangbz plugin is not working properly. | Mangabz | ✅ | Mangabz `100%` | [https://mangabz.com](https://mangabz.com) |
 | [#16897](https://github.com/keiyoushi/extensions-source/issues/16897) Leitor de Mangas: `HTTP 404` error | Leitor de Mangas | 🚧 | Leitor de Mangas `100%` | [https://leitordemangas.com](https://leitordemangas.com) |
 | [#16885](https://github.com/keiyoushi/extensions-source/issues/16885) DreamTeams Scans: HTTP 404 error | DreamTeams Scans | ✅ | DreamTeams Scans `100%` | [https://dreamteams.space](https://dreamteams.space) |
-| [#16878](https://github.com/keiyoushi/extensions-source/issues/16878) [Zazamanga] Filter by genre search not functioning correctly | Zazamanga | ✅ | Zazamanga `100%` | [https://www.zazamanga.com](https://www.zazamanga.com) |
+| [#16878](https://github.com/keiyoushi/extensions-source/issues/16878) [Zazamanga] Filter by genre search not functioning correctly | Zazamanga | ⚠️ | Zazamanga `100%` | [https://www.zazamanga.com](https://www.zazamanga.com) |
 | [#16819](https://github.com/keiyoushi/extensions-source/issues/16819) zh.kuaikanmanhua失效 | 快看漫画 | ✅ | 快看漫画 `100%` | [https://www.kuaikanmanhua.com](https://www.kuaikanmanhua.com) |
 | [#16777](https://github.com/keiyoushi/extensions-source/issues/16777) Erro 523 Scan Fleur blanche | Fleur Blanche | ✅ | Fleur Blanche `100%` | [https://fbsquadx.com](https://fbsquadx.com) |
 | [#16747](https://github.com/keiyoushi/extensions-source/issues/16747) Gensura filters not working | Gensura | ✅ | Gensura `100%` | [https://gensura.net](https://gensura.net) |
@@ -198,8 +199,8 @@ Count: 14
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#18390](https://github.com/keiyoushi/extensions-source/issues/18390) Shinigami (ID) | https://g.shinigami.asia | 🚧 | Shinigami `url` | [https://g.shinigami.asia](https://g.shinigami.asia) |
-| [#18373](https://github.com/keiyoushi/extensions-source/issues/18373) NEWMANHWA: No pages found error when opening/downloading chapters | New manhwa | ✅ | New Manhwa `100%` | [https://fullmanhwa.com](https://fullmanhwa.com) |
+| [#18435](https://github.com/keiyoushi/extensions-source/issues/18435) Json Decoding Exception | Mikoroku | 🔀 | MikoRoku `100%` | [https://www.mikoroku.com](https://www.mikoroku.com) |
+| [#18413](https://github.com/keiyoushi/extensions-source/issues/18413) Manwa new URL | manwa | 🚧 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
 | [#18372](https://github.com/keiyoushi/extensions-source/issues/18372) Komik cast new URL | komik cast | ❌ | Komik Cast `100%` | [https://v3.komikcast.fit](https://v3.komikcast.fit) |
 | [#18365](https://github.com/keiyoushi/extensions-source/issues/18365) Url change for Witch Scan | Witch Scans | 🔀 | WitchScans `url` | [https://witchscans.com](https://witchscans.com) |
 | [#18362](https://github.com/keiyoushi/extensions-source/issues/18362) Comichubfree not loading properly | Comichubfree | 🚧 | ComicHubFree `100%` | [https://comichubfree.com](https://comichubfree.com) |
