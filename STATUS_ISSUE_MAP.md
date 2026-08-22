@@ -1,16 +1,18 @@
 # Bug Issue → Extension Map
 
-Matched: 198 of 200 open bug issues\
-Timestamp: `2026-08-21T02:06:57+00:00`
+Matched: 199 of 201 open bug issues\
+Timestamp: `2026-08-22T04:10:51+00:00`
 
 
 ## Exact match
 
 
-Count: 165
+Count: 167
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#18543](https://github.com/keiyoushi/extensions-source/issues/18543) IllegalArgumentException | Mgread.io | ✅ | Mgread.io `100%` | [https://mgread.io](https://mgread.io) |
+| [#18542](https://github.com/keiyoushi/extensions-source/issues/18542) Mangafreak: New website URL (`ww3.mangafreak.me`) | Mangafreak | 🔀 | Mangafreak `100%` | [https://ww2.mangafreak.me](https://ww2.mangafreak.me) |
 | [#18530](https://github.com/keiyoushi/extensions-source/issues/18530) Komiku.com is broken | Komiku.com | 🚧 | Komiku.com `100%` | [https://01.komiku.asia](https://01.komiku.asia) |
 | [#18528](https://github.com/keiyoushi/extensions-source/issues/18528) Dilar: Unsupported encryption protocol version: 10/8/9 | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
 | [#18519](https://github.com/keiyoushi/extensions-source/issues/18519) RawDEX Source Error | RawDEX | ✅ | RawDEX `100%` | [https://rawdex.net](https://rawdex.net) |
@@ -41,7 +43,7 @@ Count: 165
 | [#18156](https://github.com/keiyoushi/extensions-source/issues/18156) Read Nanatsu no Taizai 7 Deadly Sins Manga Online: New website URL (`ww8.read7deadlysins.com`) | Read Nanatsu no Taizai 7 Deadly Sins Manga Online | 🔀 | Read Nanatsu no Taizai 7 Deadly Sins Manga Online `100%` | [https://ww7.read7deadlysins.com](https://ww7.read7deadlysins.com) |
 | [#18153](https://github.com/keiyoushi/extensions-source/issues/18153) Athrea Scans: Paid chapters has incomplete pages, paid chapters isn't toggleable without logging in | Athrea Scans | 🚧 | Athrea Scans `100%` | [https://athreascans.com](https://athreascans.com) |
 | [#18149](https://github.com/keiyoushi/extensions-source/issues/18149) Nicomanga no Pages found | Nicomanga | ✅ | Nicomanga `100%` | [https://nicomanga.com](https://nicomanga.com) |
-| [#18143](https://github.com/keiyoushi/extensions-source/issues/18143) Search feature doesn't work | Luvyaa | ✅ | Luvyaa `100%` | [https://v4.luvyaa.co](https://v4.luvyaa.co) |
+| [#18143](https://github.com/keiyoushi/extensions-source/issues/18143) Search feature doesn't work | Luvyaa | 🚧 | Luvyaa `100%` | [https://v4.luvyaa.co](https://v4.luvyaa.co) |
 | [#18132](https://github.com/keiyoushi/extensions-source/issues/18132) Jeaz scans don't load content | Jeaz Scans | 🚧 | Jeaz Scans `100%` | [https://lectorhub.j5z.xyz](https://lectorhub.j5z.xyz) |
 | [#18103](https://github.com/keiyoushi/extensions-source/issues/18103) (ikiru) Unable to get nonce | Ikiru | 🚧 | Ikiru `100%` | [https://07.ikiru.wtf](https://07.ikiru.wtf) |
 | [#18100](https://github.com/keiyoushi/extensions-source/issues/18100) Read One Piece Manga Online: New website URL (`ww13.readonepiece.com`) | Read One Piece Manga Online | 🔀 | Read One Piece Manga Online `100%` | [https://ww12.readonepiece.com](https://ww12.readonepiece.com) |
@@ -53,7 +55,7 @@ Count: 165
 | [#18022](https://github.com/keiyoushi/extensions-source/issues/18022) ONF MANGAS failure | ONF MANGAS | 🚧 | ONF MANGAS `100%` | [https://onfmangas.com](https://onfmangas.com) |
 | [#17971](https://github.com/keiyoushi/extensions-source/issues/17971) Doujindesu: kotlinx.serialization.json.jsondecodingexception | Doujindesu | ✅ | Doujindesu `100%` | [https://doujin.desu.xxx](https://doujin.desu.xxx) |
 | [#17970](https://github.com/keiyoushi/extensions-source/issues/17970) You can't view the chapters of this manga. | CapibaraTraductor | ✅ | CapibaraTraductor `100%` | [https://capibaratraductor.com](https://capibaratraductor.com) |
-| [#17967](https://github.com/keiyoushi/extensions-source/issues/17967) Toonkor: New website URL (`tkor145.com`) | Toonkor | 🔀 | Toonkor `100%` | [https://tkor131.com](https://tkor131.com) |
+| [#17967](https://github.com/keiyoushi/extensions-source/issues/17967) Toonkor: New website URL (`tkor146.com`) | Toonkor | 🔀 | Toonkor `100%` | [https://tkor131.com](https://tkor131.com) |
 | [#17937](https://github.com/keiyoushi/extensions-source/issues/17937) Error in overview (Naver Best Challenge) | Naver Webtoon Best Challenge | ✅ | Naver Webtoon Best Challenge `100%` | [https://comic.naver.com](https://comic.naver.com) |
 | [#17922](https://github.com/keiyoushi/extensions-source/issues/17922) Manhuarm: NullPointerException when clicking on any title | Manhuarm | 🚧 | Manhuarm `100%` | [https://manhuarmtl.com](https://manhuarmtl.com) |
 | [#17912](https://github.com/keiyoushi/extensions-source/issues/17912) No results found on RisenToons | Risentoons | ✅ | Risentoons `100%` | [https://risentoons.xyz](https://risentoons.xyz) |
@@ -159,7 +161,7 @@ Count: 165
 | [#9257](https://github.com/keiyoushi/extensions-source/issues/9257) SchaleNetwork: `NetworkOnMainThreadException` crash | SchaleNetwork | ✅ | SchaleNetwork `100%` | [https://niyaniya.moe](https://niyaniya.moe) |
 | [#8946](https://github.com/keiyoushi/extensions-source/issues/8946) Walpurgi(s) Scan: Chapter images are low quality | Walpurgi Scan | 🚧 | Walpurgi Scan `100%` | [https://www.walpurgiscan.it](https://www.walpurgiscan.it) |
 | [#8878](https://github.com/keiyoushi/extensions-source/issues/8878) Hattori Manga Epsode url error | Hattori Manga | 🚧 | Hattori Manga `100%` | [https://hattorimanga.net](https://hattorimanga.net) |
-| [#8819](https://github.com/keiyoushi/extensions-source/issues/8819) Vomic is up again, but fix is require | vomic | ⚠️ | vomic `100%` | [https://www.vomicmh.com](https://www.vomicmh.com) |
+| [#8819](https://github.com/keiyoushi/extensions-source/issues/8819) Vomic is up again, but fix is require | vomic | ✅ | vomic `100%` | [https://www.vomicmh.com](https://www.vomicmh.com) |
 | [#8696](https://github.com/keiyoushi/extensions-source/issues/8696) HentaiLib ext fails to load chapters (HTTP 404) | HentaiLib | 🚧 | HentaiLib `100%` | [https://hentailib.me](https://hentailib.me) |
 | [#8386](https://github.com/keiyoushi/extensions-source/issues/8386) Unable to view chapters unlocked in WebView | Tappytoon | ✅ | Tappytoon `100%` | [https://www.tappytoon.com/de](https://www.tappytoon.com/de) |
 | [#7630](https://github.com/keiyoushi/extensions-source/issues/7630) BlackToon: `No results found`, `The image could not be loaded` error | 블랙툰 | 🔀 | 블랙툰 `100%` | [https://blacktoon.me](https://blacktoon.me) |
@@ -200,16 +202,14 @@ Count: 12
 ## Multiple matches
 
 
-Count: 21
+Count: 20
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#18527](https://github.com/keiyoushi/extensions-source/issues/18527) The "KuroMangas" extension is not working. | KuroMangas" | 🚧 | KuroMangas `100%` | [https://kuromangas.com](https://kuromangas.com) |
-| ↳ [#18527] |  | ✅ | Kuro Manga `90%` | [https://kuromanga.id](https://kuromanga.id) |
+| [#18552](https://github.com/keiyoushi/extensions-source/issues/18552) Comix search not showing manhwa | Comix | 🚧 | Comix `url` | [https://comix.to](https://comix.to) |
+| ↳ [#18552] |  | 🚧 | GEDE Comix `100%` | [https://gedecomix.com](https://gedecomix.com) |
 | [#18327](https://github.com/keiyoushi/extensions-source/issues/18327) Mango Scan | MangoLibreria | ❌ | MangoLibreria `100%` | [https://mangolibreria.com](https://mangolibreria.com) |
 | ↳ [#18327] |  | ⚠️ | Scan-Manga `title 90%` | [https://m.scan-manga.com](https://m.scan-manga.com) |
-| [#18242](https://github.com/keiyoushi/extensions-source/issues/18242) Comix: update of titles without chapters takes really long time | Comix | 🚧 | Comix `url` | [https://comix.to](https://comix.to) |
-| ↳ [#18242] |  | 🚧 | GEDE Comix `100%` | [https://gedecomix.com](https://gedecomix.com) |
 | [#18180](https://github.com/keiyoushi/extensions-source/issues/18180) Goon Scans: `No results found` error | Goon Scans: `No results found` error | ✅ | Goon Scans `100%` | [https://goonscans.org](https://goonscans.org) |
 | ↳ [#18180] |  | 🚧 | Lagoon Scans `title 91%` | [https://lagoonscans.com](https://lagoonscans.com) |
 | [#18096](https://github.com/keiyoushi/extensions-source/issues/18096) Read Fairy Tail & Edens Zero Manga Online: New website URL (`ww9.readfairytail.com`) | Read Fairy Tail & Edens Zero Manga Online | 🚧 | Read Fairy Tail & Edens Zero Manga Online `100%` | [https://ww8.readfairytail.com](https://ww8.readfairytail.com) |
