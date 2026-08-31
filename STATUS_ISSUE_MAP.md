@@ -1,31 +1,33 @@
 # Bug Issue → Extension Map
 
-Matched: 193 of 193 open bug issues\
-Timestamp: `2026-08-30T08:39:12+00:00`
+Matched: 199 of 199 open bug issues\
+Timestamp: `2026-08-31T14:20:18+00:00`
 
 
 ## Exact match
 
 
-Count: 159
+Count: 156
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#18762](https://github.com/keiyoushi/extensions-source/issues/18762) BatCave Extension - Filters don't work with text search | BatCave | 🚧 | BatCave `100%` | [https://batcave.biz](https://batcave.biz) |
+| [#18759](https://github.com/keiyoushi/extensions-source/issues/18759) Portal Yaoi: Not loading chapter images and chapter | Portal Yaoi | 🔀 | Portal Yaoi `100%` | [https://lerboyslove.com](https://lerboyslove.com) |
+| [#18758](https://github.com/keiyoushi/extensions-source/issues/18758) Akuma SSLHandshakeException Chain validation error | Akuma | ⚠️ | Akuma `100%` | [https://akuma.moe](https://akuma.moe) |
+| [#18757](https://github.com/keiyoushi/extensions-source/issues/18757) Toonily unsync | Toonily | 🚧 | Toonily `100%` | [https://toonily.com](https://toonily.com) |
+| [#18747](https://github.com/keiyoushi/extensions-source/issues/18747) Pawchive: Error 403 | Pawchive | ✅ | Pawchive `100%` | [https://pawchive.pw](https://pawchive.pw) |
+| [#18746](https://github.com/keiyoushi/extensions-source/issues/18746) Mokuro extension crashes with MissingFieldException on 'volumes' field | Mokuro | ✅ | Mokuro `100%` | [https://mokuro.moe](https://mokuro.moe) |
+| [#18745](https://github.com/keiyoushi/extensions-source/issues/18745) ToonLivre(PT-BR) Timed out waiting for WebView after 1min30s | ToonLivre | 🚧 | ToonLivre `100%` | [https://toonlivre.net](https://toonlivre.net) |
+| [#18736](https://github.com/keiyoushi/extensions-source/issues/18736) XXX Yaoi: `Attempt to invoke virtual method` error | XXX Yaoi | 🛑 | XXX Yaoi `100%` | [https://3xyaoi.com](https://3xyaoi.com) |
 | [#18712](https://github.com/keiyoushi/extensions-source/issues/18712) Jmanga: New website URL (`jmanga.world`) | Jmanga | 🔀 | Jmanga `100%` | [https://jmanga.help](https://jmanga.help) |
-| [#18711](https://github.com/keiyoushi/extensions-source/issues/18711) VinaHentai: New website URL (`vinahentai.lat`) | VinaHentai | 🔀 | VinaHentai `100%` | [https://vinahentai.wiki](https://vinahentai.wiki) |
-| [#18710](https://github.com/keiyoushi/extensions-source/issues/18710) LuotTruyen: New website URL (`luottruyen17.com`) | LuotTruyen | 🚧 | LuotTruyen `100%` | [https://luottruyen16.com](https://luottruyen16.com) |
 | [#18709](https://github.com/keiyoushi/extensions-source/issues/18709) Raw18: New website URL (`raw18.click`) | Raw18 | 🔀 | Raw18 `100%` | [https://raw18.quest](https://raw18.quest) |
 | [#18708](https://github.com/keiyoushi/extensions-source/issues/18708) Dokiraw: New website URL (`dokiraw.casa`) | Dokiraw | 🔀 | Dokiraw `100%` | [https://dokiraw.space](https://dokiraw.space) |
-| [#18707](https://github.com/keiyoushi/extensions-source/issues/18707) MeTruyen18: New website URL (`metruyen18.vip`) | MeTruyen18 | 🔀 | MeTruyen18 `100%` | [https://metruyen18.app](https://metruyen18.app) |
-| [#18706](https://github.com/keiyoushi/extensions-source/issues/18706) Extensão Argos Comics pt-br HTTP ERRO 404 | Argos Comics | ✅ | Argos Comics `100%` | [https://aniargos.com](https://aniargos.com) |
-| [#18705](https://github.com/keiyoushi/extensions-source/issues/18705) Extensão pluma Comics pt-br não está funcionando | Pluma Comics | 🛑 | Pluma Comics `100%` | [https://plumacomics.cloud](https://plumacomics.cloud) |
 | [#18677](https://github.com/keiyoushi/extensions-source/issues/18677) Traducciones Moonlight: No Pages Found | Traducciones Moonlight | ✅ | Traducciones Moonlight `100%` | [https://traduccionesmoonlight.com](https://traduccionesmoonlight.com) |
 | [#18670](https://github.com/keiyoushi/extensions-source/issues/18670) Mikrokosmos Fansub [TR]: The series pages aren't showing up. | Mikrokosmos Fansub | ✅ | Mikrokosmos Fansub `100%` | [https://mikrokosmosfb.blogspot.com](https://mikrokosmosfb.blogspot.com) |
 | [#18636](https://github.com/keiyoushi/extensions-source/issues/18636) MangaDass only showing first page of titles, not searchable or filterable | Manga Dass | ✅ | Manga Dass `100%` | [https://mangadass.com](https://mangadass.com) |
 | [#18630](https://github.com/keiyoushi/extensions-source/issues/18630) Paradoxscans gives error in the image after the second page does not open | Paradox Scans | ✅ | Paradox Scans `100%` | [https://paradoxscans.com](https://paradoxscans.com) |
 | [#18618](https://github.com/keiyoushi/extensions-source/issues/18618) Softkomik : cannot found a title in search title and migration | Softkomik | ✅ | Softkomik `100%` | [https://softkomik.co](https://softkomik.co) |
 | [#18608](https://github.com/keiyoushi/extensions-source/issues/18608) MangaDenizi: `Attempt to invoke virtual method` error | MangaDenizi | 🔀 | MangaDenizi `100%` | [https://www.mangadenizi.net](https://www.mangadenizi.net) |
-| [#18573](https://github.com/keiyoushi/extensions-source/issues/18573) Webtoon triggering Media File Picker often, draining battery | Webtoons.com | ✅ | Webtoons.com `100%` | [https://www.webtoons.com](https://www.webtoons.com) |
 | [#18528](https://github.com/keiyoushi/extensions-source/issues/18528) Dilar: `Unsupported encryption protocol version: #` error | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
 | [#18499](https://github.com/keiyoushi/extensions-source/issues/18499) Sky Manga: `Hostname skymanga.work not verified` error, switch to HTTP URL | Sky Manga | ❌ | Sky Manga `100%` | [https://skymanga.work](https://skymanga.work) |
 | [#18367](https://github.com/keiyoushi/extensions-source/issues/18367) LycanToons: HTTP Error 404 | Lycan Toons | 🛑 | Lycan Toons `100%` | [https://lycantoons.com](https://lycantoons.com) |
@@ -33,7 +35,6 @@ Count: 159
 | [#18343](https://github.com/keiyoushi/extensions-source/issues/18343) Magus Manga: Undetected downloaded chapter & title | Magus Manga | 🚧 | Magus Manga `100%` | [https://magustoon.org](https://magustoon.org) |
 | [#18282](https://github.com/keiyoushi/extensions-source/issues/18282) AllManga: Timed out waiting for WebView after 30s error with chapters | AllManga | ✅ | AllManga `100%` | [https://mkissa.to](https://mkissa.to) |
 | [#18272](https://github.com/keiyoushi/extensions-source/issues/18272) Softkomik 1.4.13 | Softkomik | ✅ | Softkomik `100%` | [https://softkomik.co](https://softkomik.co) |
-| [#18264](https://github.com/keiyoushi/extensions-source/issues/18264) Specific chapter in asura scans shows as having no pages | Asura Scans | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
 | [#18252](https://github.com/keiyoushi/extensions-source/issues/18252) Manhuarm: `No results found` error | Manhuarm | 🚧 | Manhuarm `100%` | [https://manhuarmtl.com](https://manhuarmtl.com) |
 | [#18223](https://github.com/keiyoushi/extensions-source/issues/18223) Yupmanga " not a function" | Yupmanga | 🛑 | Yupmanga `100%` | [https://www.yupmanga.com](https://www.yupmanga.com) |
 | [#18221](https://github.com/keiyoushi/extensions-source/issues/18221) Colorcito Scan: New website URL (`coloresito.site`) | Colorcito Scan | ❌ | Colorcito Scan `100%` | [https://colorcitoscan.com](https://colorcitoscan.com) |
@@ -44,7 +45,7 @@ Count: 159
 | [#18168](https://github.com/keiyoushi/extensions-source/issues/18168) Heaven Manga showing 404 on Sources browse, WebView working. Unexpected answer from page crashes Mihon | HeavenManga | ✅ | HeavenManga `100%` | [https://heavenmanga.com](https://heavenmanga.com) |
 | [#18153](https://github.com/keiyoushi/extensions-source/issues/18153) Athrea Scans: Paid chapters has incomplete pages, paid chapters isn't toggleable without logging in | Athrea Scans | 🚧 | Athrea Scans `100%` | [https://athreascans.com](https://athreascans.com) |
 | [#18149](https://github.com/keiyoushi/extensions-source/issues/18149) Nicomanga no Pages found | Nicomanga | ✅ | Nicomanga `100%` | [https://nicomanga.com](https://nicomanga.com) |
-| [#18143](https://github.com/keiyoushi/extensions-source/issues/18143) Search feature doesn't work | Luvyaa | 🚧 | Luvyaa `100%` | [https://v4.luvyaa.co](https://v4.luvyaa.co) |
+| [#18143](https://github.com/keiyoushi/extensions-source/issues/18143) Search feature doesn't work | Luvyaa | ✅ | Luvyaa `100%` | [https://v4.luvyaa.co](https://v4.luvyaa.co) |
 | [#18132](https://github.com/keiyoushi/extensions-source/issues/18132) Jeaz scans don't load content | Jeaz Scans | 🚧 | Jeaz Scans `100%` | [https://lectorhub.j5z.xyz](https://lectorhub.j5z.xyz) |
 | [#18087](https://github.com/keiyoushi/extensions-source/issues/18087) Manhastro: No results found | Manhastro | ✅ | Manhastro `100%` | [https://manhastro.net](https://manhastro.net) |
 | [#18082](https://github.com/keiyoushi/extensions-source/issues/18082) GölgeBahçesi Bug | Gölge Bahçesi | 🚧 | Gölge Bahçesi `100%` | [https://golgebahcesi.com](https://golgebahcesi.com) |
@@ -73,13 +74,11 @@ Count: 159
 | [#17708](https://github.com/keiyoushi/extensions-source/issues/17708) Omega Scans - Search issue | Omega Scans | ✅ | Omega Scans `100%` | [https://omegascans.org](https://omegascans.org) |
 | [#17592](https://github.com/keiyoushi/extensions-source/issues/17592) Soul Scans : URL Change request | Soul Scans | 🚧 | Soul Scans `100%` | [https://soulscans.my.id](https://soulscans.my.id) |
 | [#17550](https://github.com/keiyoushi/extensions-source/issues/17550) Viz 429's | VIZ Manga | ✅ | VIZ Manga `100%` | [https://www.viz.com](https://www.viz.com) |
-| [#17546](https://github.com/keiyoushi/extensions-source/issues/17546) Asura scans latest tab not working | Asura Scans | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
 | [#17479](https://github.com/keiyoushi/extensions-source/issues/17479) Japscan : error loading page | Japscan | ⚠️ | Japscan `100%` | [https://www.japscan.foo/mangas/?sort=popular&p=1](https://www.japscan.foo/mangas/?sort=popular&p=1) |
 | [#17476](https://github.com/keiyoushi/extensions-source/issues/17476) Hades Scans: `No results found` on Latest /Popular/Search, `No chapters found` error | Hades Scans | ✅ | Hades Scans `100%` | [https://hadesscans.com](https://hadesscans.com) |
 | [#17412](https://github.com/keiyoushi/extensions-source/issues/17412) Manwa: Update time is set to request time instead of manga update time | 漫蛙 | 🚧 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
-| [#17369](https://github.com/keiyoushi/extensions-source/issues/17369) Read Comics Online: Search results only show 8 entries | Read Comics Online | 🚧 | Read Comics Online `100%` | [https://readcomicsonline.ru](https://readcomicsonline.ru) |
 | [#17298](https://github.com/keiyoushi/extensions-source/issues/17298) Geass Comics Error api | Geass Comics | ✅ | Geass Comics `100%` | [https://geasscomics.xyz](https://geasscomics.xyz) |
-| [#17295](https://github.com/keiyoushi/extensions-source/issues/17295) Lunar Manga Opening a Chapter Fails with  WRONG_FINAL_BLOCK_LENGTH | Lunar Manga | 🔀 | Lunar Manga `100%` | [https://lunaranime.ru](https://lunaranime.ru) |
+| [#17295](https://github.com/keiyoushi/extensions-source/issues/17295) Lunar Manga Opening a Chapter Fails with  WRONG_FINAL_BLOCK_LENGTH | Lunar Manga | ❌ | Lunar Manga `100%` | [https://lunaranime.ru](https://lunaranime.ru) |
 | [#17291](https://github.com/keiyoushi/extensions-source/issues/17291) Problema Persistente em carregar imagens e páginas na scan Little Tyrant | Little Tyrant | ✅ | Little Tyrant `100%` | [https://tiraninha.world](https://tiraninha.world) |
 | [#17289](https://github.com/keiyoushi/extensions-source/issues/17289) HTTP 429 | PizzariaScan | ✅ | PizzariaScan `100%` | [https://pizzariacomics.com](https://pizzariacomics.com) |
 | [#17280](https://github.com/keiyoushi/extensions-source/issues/17280) "No pages found" Ortega (FR) Premium chapter | Ortega Scans | ✅ | Ortega Scans `100%` | [https://ortegascans.fr](https://ortegascans.fr) |
@@ -94,7 +93,7 @@ Count: 159
 | [#16777](https://github.com/keiyoushi/extensions-source/issues/16777) Erro 523 Scan Fleur blanche | Fleur Blanche | ✅ | Fleur Blanche `100%` | [https://fbsquadx.com](https://fbsquadx.com) |
 | [#16747](https://github.com/keiyoushi/extensions-source/issues/16747) Gensura filters not working | Gensura | ✅ | Gensura `100%` | [https://gensura.net](https://gensura.net) |
 | [#16674](https://github.com/keiyoushi/extensions-source/issues/16674) Webtoon extension error | Webtoons.com | ✅ | Webtoons.com `100%` | [https://www.webtoons.com](https://www.webtoons.com) |
-| [#16612](https://github.com/keiyoushi/extensions-source/issues/16612) LectorManga.lat changed their url | LectorManga.lat | ❌ | LectorManga.lat `100%` | [https://lectormangass.com](https://lectormangass.com) |
+| [#16612](https://github.com/keiyoushi/extensions-source/issues/16612) LectorManga.lat: Website redesign, new website URL (`lectormangaas.com`) | LectorManga.lat | 🔀 | LectorManga.lat `100%` | [https://lectormangass.com](https://lectormangass.com) |
 | [#16605](https://github.com/keiyoushi/extensions-source/issues/16605) Wolftoon: Unexpected JSON token | Wolftoon | ✅ | Wolftoon `100%` | [https://wolftoon.lovable.app](https://wolftoon.lovable.app) |
 | [#16551](https://github.com/keiyoushi/extensions-source/issues/16551) Manga168: No chapters found | Manga168 | 🚧 | Manga168 `100%` | [https://manga1688.com](https://manga1688.com) |
 | [#16404](https://github.com/keiyoushi/extensions-source/issues/16404) [Bug] Bbato (en) v1.4.1 — pageList returns empty for valid chapters | Bbato | 🚧 | Bbato `url` | [https://bbato.com](https://bbato.com) |
@@ -103,7 +102,6 @@ Count: 159
 | [#16145](https://github.com/keiyoushi/extensions-source/issues/16145) Images do not load in COOMER and KEMONO | Coomer | ✅ | Coomer `100%` | [https://coomer.st](https://coomer.st) |
 | [#16092](https://github.com/keiyoushi/extensions-source/issues/16092) Cerise Scan: `Attempt to invoke virtual method` error, new website URL (`loverstoon.net`) | Cerise Scan | ✅ | Cerise Scan `100%` | [https://loverstoon.com](https://loverstoon.com) |
 | [#16048](https://github.com/keiyoushi/extensions-source/issues/16048) Holotoon 404 not found on Mihon but still accessible from Webview | Holotoon | 🚧 | Holotoon `100%` | [https://01.holotoon.site](https://01.holotoon.site) |
-| [#15950](https://github.com/keiyoushi/extensions-source/issues/15950) New chapters are not appearing in AnimeXNovel. | AnimeXNovel | ✅ | AnimeXNovel `100%` | [https://www.animexnovel.com](https://www.animexnovel.com) |
 | [#15858](https://github.com/keiyoushi/extensions-source/issues/15858) LinkManga: `Failed to bypass Cloudflare` error | LinkManga | 🚧 | LinkManga `100%` | [https://linkmanga.com](https://linkmanga.com) |
 | [#15824](https://github.com/keiyoushi/extensions-source/issues/15824) MikoRoku: `Unexpected JSON token` error | MikoRoku | 🔀 | MikoRoku `100%` | [https://www.mikoroku.com](https://www.mikoroku.com) |
 | [#15762](https://github.com/keiyoushi/extensions-source/issues/15762) MangaIsekaiThai: The image couldn't be loaded and display scrambled in WebView (Panel misplacement) | MangaIsekaiThai | ✅ | MangaIsekaiThai `100%` | [https://www.mangaisekaithai.net](https://www.mangaisekaithai.net) |
@@ -138,7 +136,6 @@ Count: 159
 | [#10935](https://github.com/keiyoushi/extensions-source/issues/10935) Manga UP! extension doesn't recognise paid chapters | Manga UP! | ✅ | Manga UP! `100%` | [https://global.manga-up.com](https://global.manga-up.com) |
 | [#10910](https://github.com/keiyoushi/extensions-source/issues/10910) 如漫画 / Rumanhua: `timeout` error, source is down | 如漫画 | ❌ | 如漫画 `100%` | [https://m.rumanhua2.com](https://m.rumanhua2.com) |
 | [#10793](https://github.com/keiyoushi/extensions-source/issues/10793) HentaiLib 403 error because of wrong API link | HentaiLib | 🚧 | HentaiLib `100%` | [https://hentailib.me](https://hentailib.me) |
-| [#10737](https://github.com/keiyoushi/extensions-source/issues/10737) Arabs Hentai : Change the chapter display format | هنتاي العرب | 🛑 | هنتاي العرب `url` | [https://arabshentai.com](https://arabshentai.com) |
 | [#10693](https://github.com/keiyoushi/extensions-source/issues/10693) 再漫画有些漫画出现Bad position的错误代码 | 再漫画 | ✅ | 再漫画 `100%` | [https://manhua.zaimanhua.com](https://manhua.zaimanhua.com) |
 | [#10395](https://github.com/keiyoushi/extensions-source/issues/10395) NamiComi can't access paid chapters (that user is subscribed to) | NamiComi | ✅ | NamiComi `100%` | [https://namicomi.com](https://namicomi.com) |
 | [#10345](https://github.com/keiyoushi/extensions-source/issues/10345) Arabs Hentai: HTTP 403 | هنتاي العرب | 🛑 | هنتاي العرب `100%` | [https://arabshentai.com](https://arabshentai.com) |
@@ -174,14 +171,22 @@ Count: 159
 ## Single match
 
 
-Count: 15
+Count: 23
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#18760](https://github.com/keiyoushi/extensions-source/issues/18760) Mangafire chapter sync issue | Mangafire | 🚧 | MangaFire `100%` | [https://mangafire.to](https://mangafire.to) |
+| [#18756](https://github.com/keiyoushi/extensions-source/issues/18756) RitharScans: locked chapters are bypassed by the extension | RitharScans: locked chapters are bypassed by the extension | ✅ | RitharScans `100%` | [https://ritharscans.com](https://ritharscans.com) |
+| [#18755](https://github.com/keiyoushi/extensions-source/issues/18755) Art Lapsa: locked chapters are bypassed by the extension | Art Lapsa: locked chapters are bypassed by the extension | ✅ | Art Lapsa `100%` | [https://artlapsa.com](https://artlapsa.com) |
+| [#18753](https://github.com/keiyoushi/extensions-source/issues/18753) KomikNesia Issue | KomiNesia | 🚧 | KomikNesia `100%` | [https://v1.komiknesiaku.com](https://v1.komiknesiaku.com) |
+| [#18744](https://github.com/keiyoushi/extensions-source/issues/18744) Mugiwarasoficial change url | Mugiwarasoficial | 🚧 | Mugiwaras Oficial `97%` | [https://mugiwarasoficial.com](https://mugiwarasoficial.com) |
+| [#18739](https://github.com/keiyoushi/extensions-source/issues/18739) Hiperdex some titles missing chapters | Hiperdex some titles missing chapters | ✅ | Hiperdex `100%` | [https://hiperdex.tv](https://hiperdex.tv) |
+| [#18737](https://github.com/keiyoushi/extensions-source/issues/18737) S2Manga: `No pages found` error | S2Manga: `No pages found` error | ✅ | S2Manga `100%` | [https://s2read.com](https://s2read.com) |
+| [#18735](https://github.com/keiyoushi/extensions-source/issues/18735) Raven Scans: HTTP 404 error | RavenScans | 🔀 | Raven Scans `100%` | [https://ravenscans.net](https://ravenscans.net) |
 | [#18714](https://github.com/keiyoushi/extensions-source/issues/18714) Allhentai extension is not working | Allhentai | ✅ | AllHentai `100%` | [https://20.allhen.online](https://20.allhen.online) |
 | [#18704](https://github.com/keiyoushi/extensions-source/issues/18704) Allmanga not updating some manga/manhwas | Allmanga | ✅ | AllManga `100%` | [https://mkissa.to](https://mkissa.to) |
 | [#18679](https://github.com/keiyoushi/extensions-source/issues/18679) BlankScan: Manhwa search fails with JsonDecodingException in Mihon | The Blank Scan | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
-| [#18644](https://github.com/keiyoushi/extensions-source/issues/18644) Catharsis World: Website redesign, new website URL (`newcatharsis.dig-it.info`) | Catharsis  world | 🚧 | Catharsis World `100%` | [https://catharsisworld.dig-it.info](https://catharsisworld.dig-it.info) |
+| [#18644](https://github.com/keiyoushi/extensions-source/issues/18644) Catharsis World: Website redesign, new website URL (`newcatharsis.dig-it.info`) | Catharsis  world | 🔀 | Catharsis World `100%` | [https://catharsisworld.dig-it.info](https://catharsisworld.dig-it.info) |
 | [#18634](https://github.com/keiyoushi/extensions-source/issues/18634) CAPTCHA problem | Lycan toons | 🛑 | Lycan Toons `100%` | [https://lycantoons.com](https://lycantoons.com) |
 | [#18633](https://github.com/keiyoushi/extensions-source/issues/18633) No Cargan los nuevos capitulos de Eternalmamgas | Eternalmamgas | 🚧 | EternalMangas `92%` | [https://eternalmangas.org](https://eternalmangas.org) |
 | [#18458](https://github.com/keiyoushi/extensions-source/issues/18458) Mangas no Sekai: `HTTP 429` error with chapters, increase chapter rate-limit | es.mangasnosekai | 🚧 | Mangas No Sekai `title 100%` | [https://mangasnosekai.com](https://mangasnosekai.com) |
@@ -189,7 +194,7 @@ Count: 15
 | [#18413](https://github.com/keiyoushi/extensions-source/issues/18413) Manwa new URL | manwa | 🚧 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
 | [#18362](https://github.com/keiyoushi/extensions-source/issues/18362) Comichubfree not loading properly | Comichubfree | 🚧 | ComicHubFree `100%` | [https://comichubfree.com](https://comichubfree.com) |
 | [#18340](https://github.com/keiyoushi/extensions-source/issues/18340) jinmantiantang Unable to load GIF | jinmantiantang | 🚧 | 禁漫天堂 `100%` | [https://18comic.vip](https://18comic.vip) |
-| [#18338](https://github.com/keiyoushi/extensions-source/issues/18338) Lunar : Failed to find payload seeds | all.lunaranime | 🔀 | Lunar Manga `title 100%` | [https://lunaranime.ru](https://lunaranime.ru) |
+| [#18338](https://github.com/keiyoushi/extensions-source/issues/18338) Lunar : Failed to find payload seeds | all.lunaranime | ❌ | Lunar Manga `title 100%` | [https://lunaranime.ru](https://lunaranime.ru) |
 | [#18304](https://github.com/keiyoushi/extensions-source/issues/18304) Orcku Mangas Source error | Orcku Mangas · | 🚧 | Orcku Mangas `100%` | [https://orckumangas.com](https://orckumangas.com) |
 | [#18302](https://github.com/keiyoushi/extensions-source/issues/18302) Soul Scans: New website URL (`v1.soulscans.org`) | id.soulscans | 🚧 | Soul Scans `title 100%` | [https://soulscans.my.id](https://soulscans.my.id) |
 | [#16497](https://github.com/keiyoushi/extensions-source/issues/16497) Manhwa Scan: New website URL(mantrazscan.co)  | Manhwa Scan | ✅ | Mantraz Scan `url` | [https://mantrazscan.co](https://mantrazscan.co) |
@@ -197,7 +202,7 @@ Count: 15
 ## Multiple matches
 
 
-Count: 19
+Count: 20
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
@@ -236,6 +241,8 @@ Count: 19
 | ↳ [#12010] |  | ✅ | ComicK Fanmade `100%` | [https://comickfan.com](https://comickfan.com) |
 | [#11929](https://github.com/keiyoushi/extensions-source/issues/11929) GocTruyenTranhVui:  Token/ account gets frequently banned | Goc Truyen Tranh Vui | 🚧 | Goc Truyen Tranh Vui `100%` | [https://goctruyentranhvui41.com](https://goctruyentranhvui41.com) |
 | ↳ [#11929] |  | ✅ | GocTruyenTranh `title 90%` | [https://goctruyentranh.com](https://goctruyentranh.com) |
+| [#10737](https://github.com/keiyoushi/extensions-source/issues/10737) Arabs Hentai : Change the chapter display format | هنتاي العرب | 🛑 | هنتاي العرب `url` | [https://arabshentai.com](https://arabshentai.com) |
+| ↳ [#10737] |  | 🚧 | هنتاي العرب - نت `100%` | [https://arabhentai.net](https://arabhentai.net) |
 | [#9649](https://github.com/keiyoushi/extensions-source/issues/9649) MangaDex getting alt. English titles ONLY | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
 | ↳ [#9649] |  | ✅ | MangaDE `93%` | [https://mangade.io](https://mangade.io) |
 | [#9274](https://github.com/keiyoushi/extensions-source/issues/9274) Magadex - Filter for "has available chapters" does not work | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
