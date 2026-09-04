@@ -1,0 +1,3 @@
+package kotlinx.serialization
+
+class FixtureSerializationRuntime
