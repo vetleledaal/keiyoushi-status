@@ -1,13 +1,13 @@
 # Bug Issue → Extension Map
 
-Matched: 202 of 203 open bug issues\
-Timestamp: `2026-09-03T12:20:55+00:00`
+Matched: 198 of 199 open bug issues\
+Timestamp: `2026-09-04T04:51:16+00:00`
 
 
 ## Exact match
 
 
-Count: 159
+Count: 157
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
@@ -18,10 +18,8 @@ Count: 159
 | [#18803](https://github.com/keiyoushi/extensions-source/issues/18803) ThienThaiTruyen: New website URL (`thienthaitruyen14.com`) | ThienThaiTruyen | 🔀 | ThienThaiTruyen `100%` | [https://thienthaitruyen13.com](https://thienthaitruyen13.com) |
 | [#18798](https://github.com/keiyoushi/extensions-source/issues/18798) Topmanhua.fan unable to scrape the comic pages. | TopManhua.fan | ✅ | TopManhua.fan `100%` | [https://www.topmanhua.fan](https://www.topmanhua.fan) |
 | [#18790](https://github.com/keiyoushi/extensions-source/issues/18790) Mangas.in: Search bar broken due to dual search bars on website (MissingFieldException) | Mangas.in | 🚧 | Mangas.in `100%` | [https://m440.in](https://m440.in) |
-| [#18784](https://github.com/keiyoushi/extensions-source/issues/18784) Extensão Monte Tai pt-br Erro "Nullpointerexception" | Monte Tai | ✅ | Monte Tai `100%` | [https://montetaiscanlator.xyz](https://montetaiscanlator.xyz) |
 | [#18772](https://github.com/keiyoushi/extensions-source/issues/18772) Shadow Manga: Extension only shows SFW content / missing NSFW section | Shadow Manga | 🚧 | Shadow Manga `url` | [https://shademanga.com](https://shademanga.com) |
 | [#18769](https://github.com/keiyoushi/extensions-source/issues/18769) Hachiraw: Cover images are not displayed | Hachiraw | 🚧 | Hachiraw `100%` | [https://hachiraw.net](https://hachiraw.net) |
-| [#18759](https://github.com/keiyoushi/extensions-source/issues/18759) Portal Yaoi: Not loading chapter images and chapter | Portal Yaoi | 🔀 | Portal Yaoi `100%` | [https://lerboyslove.com](https://lerboyslove.com) |
 | [#18746](https://github.com/keiyoushi/extensions-source/issues/18746) Mokuro extension crashes with MissingFieldException on 'volumes' field | Mokuro | ✅ | Mokuro `100%` | [https://mokuro.moe](https://mokuro.moe) |
 | [#18736](https://github.com/keiyoushi/extensions-source/issues/18736) XXX Yaoi: `Attempt to invoke virtual method` error | XXX Yaoi | 🛑 | XXX Yaoi `100%` | [https://3xyaoi.com](https://3xyaoi.com) |
 | [#18712](https://github.com/keiyoushi/extensions-source/issues/18712) Jmanga: New website URL (`jmanga.world`) | Jmanga | 🔀 | Jmanga `100%` | [https://jmanga.help](https://jmanga.help) |
@@ -174,7 +172,7 @@ Count: 159
 ## Single match
 
 
-Count: 21
+Count: 20
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
@@ -184,10 +182,9 @@ Count: 21
 | [#18755](https://github.com/keiyoushi/extensions-source/issues/18755) Art Lapsa: locked chapters are bypassed by the extension | Art Lapsa: locked chapters are bypassed by the extension | ✅ | Art Lapsa `100%` | [https://artlapsa.com](https://artlapsa.com) |
 | [#18753](https://github.com/keiyoushi/extensions-source/issues/18753) KomikNesia Issue | KomiNesia | 🚧 | KomikNesia `100%` | [https://v1.komiknesiaku.com](https://v1.komiknesiaku.com) |
 | [#18739](https://github.com/keiyoushi/extensions-source/issues/18739) Hiperdex some titles missing chapters | Hiperdex some titles missing chapters | ✅ | Hiperdex `100%` | [https://hiperdex.tv](https://hiperdex.tv) |
-| [#18737](https://github.com/keiyoushi/extensions-source/issues/18737) S2Manga: `No pages found` error | S2Manga: `No pages found` error | ⚠️ | S2Manga `100%` | [https://s2read.com](https://s2read.com) |
-| [#18735](https://github.com/keiyoushi/extensions-source/issues/18735) Raven Scans: HTTP 404 error | RavenScans | 🔀 | Raven Scans `100%` | [https://ravenscans.net](https://ravenscans.net) |
+| [#18737](https://github.com/keiyoushi/extensions-source/issues/18737) S2Manga: `No pages found` error | S2Manga: `No pages found` error | ✅ | S2Manga `100%` | [https://s2read.com](https://s2read.com) |
 | [#18704](https://github.com/keiyoushi/extensions-source/issues/18704) Allmanga not updating some manga/manhwas | Allmanga | ✅ | AllManga `100%` | [https://mkissa.to](https://mkissa.to) |
-| [#18644](https://github.com/keiyoushi/extensions-source/issues/18644) Catharsis World: Website redesign, new website URL (`newcatharsis.dig-it.info`) | Catharsis  world | ❌ | Catharsis World `100%` | [https://catharsisworld.dig-it.info](https://catharsisworld.dig-it.info) |
+| [#18644](https://github.com/keiyoushi/extensions-source/issues/18644) Catharsis World: Website redesign, new website URL (`newcatharsis.dig-it.info`) | Catharsis  world | 🔀 | Catharsis World `100%` | [https://catharsisworld.dig-it.info](https://catharsisworld.dig-it.info) |
 | [#18634](https://github.com/keiyoushi/extensions-source/issues/18634) CAPTCHA problem | Lycan toons | 🛑 | Lycan Toons `100%` | [https://lycantoons.com](https://lycantoons.com) |
 | [#18633](https://github.com/keiyoushi/extensions-source/issues/18633) No Cargan los nuevos capitulos de Eternalmamgas | Eternalmamgas | 🚧 | EternalMangas `92%` | [https://eternalmangas.org](https://eternalmangas.org) |
 | [#18458](https://github.com/keiyoushi/extensions-source/issues/18458) Mangas no Sekai: `HTTP 429` error with chapters, increase chapter rate-limit | es.mangasnosekai | 🚧 | Mangas No Sekai `title 100%` | [https://mangasnosekai.com](https://mangasnosekai.com) |
@@ -203,14 +200,12 @@ Count: 21
 ## Multiple matches
 
 
-Count: 22
+Count: 21
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
 | [#18768](https://github.com/keiyoushi/extensions-source/issues/18768) Kuroi Manga [TR]: Chapter numbers are not visible in the app. | Kuroi Manga | 🛑 | Kuroi Manga `100%` | [https://kuroimanga.site](https://kuroimanga.site) |
 | ↳ [#18768] |  | ✅ | Kuro Manga `95%` | [https://kuromanga.id](https://kuromanga.id) |
-| [#18767](https://github.com/keiyoushi/extensions-source/issues/18767) Manga scantrad and hentai scantrad no longer works | Manga scantrad 1.6.58 and hentai scantrad | 🛑 | Manga-Scantrad `100%` | [https://manga-scantrad.io](https://manga-scantrad.io) |
-| ↳ [#18767] |  | ❌ | Hentai-Scantrad `100%` | [https://hentai.scantrad-vf.cc](https://hentai.scantrad-vf.cc) |
 | [#18672](https://github.com/keiyoushi/extensions-source/issues/18672) Rimu Scans: `Failed to initialize decoder`/chapter pages doesn't load with Premium chapters | 1.4.35 rimu scan | 🛑 | Rimu Scans `title 100%` | [https://rimuscan.fr](https://rimuscan.fr) |
 | ↳ [#18672] |  | ✅ | Grim Scans `title 90%` | [https://grimscans.com](https://grimscans.com) |
 | [#18666](https://github.com/keiyoushi/extensions-source/issues/18666) TrManga: `No results found` error | Tr Manga | ✅ | TrManga `title 100%` | [https://trmanga.com](https://trmanga.com) |
