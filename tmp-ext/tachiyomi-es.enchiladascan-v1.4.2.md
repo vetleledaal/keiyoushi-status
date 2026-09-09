@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-es.enchiladascan-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 27
 - Lint: 1
-- Warnings: 1
+- Warnings: 2
 - Skipped: 7
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 56 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | details: `https://enchiladascan.github.io/.../inicio` to `https://enchiladascan.github.io/.../inicio` (1 redirects); chapters: `https://enchiladascan.github.io/.../inicio` to `https://enchiladascan.github.io/.../inicio` (1 redirects); pages: `https://drive.usercontent.google.com/.../uc <redacted query values: id and export-download>` to `https://drive.usercontent.google.com/.../download <redacted query values: id>` (1 redirects) |  |  |  |
 | page load | PASS | `https://drive.usercontent.google.com/.../uc <redacted query values: id and export-download>` (image/jpeg, 2154441 bytes, 2000x2850) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.mangacloud-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 1
 - Warnings: 0
 - Skipped: 2
@@ -25,7 +25,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 20 | Spare Me, great lord! (`.../01LPkFkYfc4KkH5Wn3zB`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 20 | I’ve Fallen for the Empire’s Greatest Villainess (`.../0ZpLdOqRFb35XnrQ4nzz`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 20 | One Day, I Became a Hatchling (`.../DiZ5HzuwtzOpU8j3Nehe`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 20 | I Am The Nanny Of The Villain (`.../IfdfsqjyGrNtcTMHzNpd`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Spare Me, great lord! (`.../01LPkFkYfc4KkH5Wn3zB`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Spare Me, great lord! (`.../01LPkFkYfc4KkH5Wn3zB`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 6 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.mangacloud.online/.../fc69e770af0a09dbe6c649fb2bd8d465.jpg` (image/jpeg, 2760493 bytes, 1320x25800) |  |  |  |

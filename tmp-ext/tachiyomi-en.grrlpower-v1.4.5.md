@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.grrlpower-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 26
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 27
 - Lint: 0
 - Warnings: 0
 - Skipped: 10
@@ -29,7 +29,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | error | 0 |  | java.lang.UnsupportedOperationException | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Grrl Power (`.../archive`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 1506 | Grrl Power #1 – The Begininging (`.../gp0001`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 1508 | Grrl Power #1 – The Begininging (`.../gp0001`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Grrl Power is a comic about a crazy nerdette that becomes a superheroine. Humor, action, cheesecake, beefcake, 'explosions, and maybe some drama. Possibly ninjas. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 1506 chapters |  |  |  |
-| chapter dates | PASS | 1506 positive upload dates |  |  |  |
+| chapters | PASS | 1508 chapters |  |  |  |
+| chapter dates | PASS | 1508 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://www.grrlpowercomic.com/.../2010-08-23-GP0001.jpg` (image/jpeg, 265851 bytes, 643x1000) |  |  |  |

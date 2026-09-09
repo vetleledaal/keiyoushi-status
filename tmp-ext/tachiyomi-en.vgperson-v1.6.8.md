@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.vgperson-v1.6.8
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 27
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 28
 - Lint: 2
 - Warnings: 0
 - Skipped: 7
@@ -23,7 +23,7 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 3 | The Festive Monster's Cheerful Failure (`<redacted URL #1: selected resource; relative; no scheme; query parameters: m>`) |  | 10s+ |
+| popular | `getPopularManga(1)` | success | 3 | The Festive Monster's Cheerful Failure (`<redacted URL #1: selected resource; relative; no scheme; query parameters: m>`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 17 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://i.imgur.com/.../jdoDr.jpg` (image/jpeg, 231261 bytes, 870x1236) |  |  |  |

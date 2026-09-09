@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.leituramanga-v1.4.6
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 2
 - Warnings: 0
 - Skipped: 0
@@ -23,13 +23,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 24 | Lágrimas Sobre Flores Murchas (`.../lagrimas-sobre-flores-murchas`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 24 | Logando 10.000 Anos No Futuro (`.../logando-10000-anos-no-futuro`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 24 | Retorno do Cavaleiro da Morte de Nível Apocalíptico (`.../retorno-do-cavaleiro-da-morte-de-nivel-apocaliptico`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 24 | Depois que me tornei a princesa favorita mais jovem, todos ficaram obcecados por mim (`.../depois-que-me-tornei-a-princesa-favorita-mais-jovem-todos-ficaram-obcecados-por-mim`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 24 | Lágrimas Sobre Flores Murchas (`.../lagrimas-sobre-flores-murchas`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 24 | Por Favor, Olhe para a Jasmine (`.../por-favor-olhe-para-a-jasmine`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 24 | Sobrevivendo como a Esposa de um Assassino em Série (`.../sobrevivendo-como-a-esposa-de-um-assassino-em-serie`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 24 | Os Planos do Mercenário Regressado (`.../os-planos-do-mercenario-regressado`) |  | 10s+ |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Lágrimas Sobre Flores Murchas (`.../lagrimas-sobre-flores-murchas`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Lágrimas Sobre Flores Murchas (`.../lagrimas-sobre-flores-murchas`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 116 | Capítulo 1 (`.../1`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 117 | Capítulo 1 (`.../1`) |  | 10s+ |
 | pages | `fetchPageList(chapter)` | success | 145 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | A vida de Na Hae-soo se desfaz quando seu marido a trai. Como se não bastasse estar endividada e ter perdido um filho… Em um golpe devastador, ela o flagra fazendo sexo com uma mulher bem mais jovem do que ela. Quebrada e desanimada, Na Hae-soo sente sua vida desmoronando ao seu redor. No entanto, um jovem misterioso inesperadamente entra em sua vida, pedindo para ser ensinado sobre o amor adulto. Sua vulnerabilidade e sinceridade começam a despertar emoções em Na Hae-soo, desafiando-a a reconsiderar seu caminho a seguir. |  |  |  |
 | metadata trimming | LINT | Untrimmed fields: author |  |  |  |
-| chapters | PASS | 116 chapters |  |  |  |
-| chapter dates | PASS | 116 positive upload dates |  |  |  |
+| chapters | PASS | 117 chapters |  |  |  |
+| chapter dates | PASS | 117 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 145 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.leituramanga.net/.../page-1.webp` (image/webp (encoding: lossy), 92484 bytes, 1920x1280) |  |  |  |

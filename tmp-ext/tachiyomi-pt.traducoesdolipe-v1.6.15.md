@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.traducoesdolipe-v1.6.15
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 30
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 31
 - Lint: 0
 - Warnings: 1
 - Skipped: 5
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 3650511144741653873
 - Source name: Traduções do Lipe
 - Source language: pt-BR
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 25 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../01.jpg` (image/jpeg, 566637 bytes, 768x1110) |  |  |  |

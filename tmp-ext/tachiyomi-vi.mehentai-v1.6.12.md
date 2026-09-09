@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.mehentai-v1.6.12
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 0
 - Warnings: 0
 - Skipped: 2
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: manhwaz
 - Source ID: 1503074002208879050
 - Source name: MeHentai
 - Source language: vi
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 13 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://truyen-api.360api.tech/.../content <redacted query values: expires, signature, and proxy>` (image/webp (encoding: lossy), 305070 bytes, 729x8892) |  |  |  |

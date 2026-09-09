@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.decadencescans-v1.6.56
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 7432245132662185058
 - Source name: Decadence Scans
 - Source language: en
@@ -26,9 +27,9 @@
 | popular | `getPopularManga(1)` | success | 25 | Koi to Yobu ni wa Kimochi Warui (`.../1734`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 25 | Love Scatters (`.../1827`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | success | 25 | Housekibako (`.../2390`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Red River Extras (`.../2274`) |  | 10s+ |
-| search | `getSearchManga(1, query, getFilterList())` | success | 5 | Koi to Yobu ni wa Kimochi Warui (`.../1734`) |  | 10s+ |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Koi to Yobu ni wa Kimochi Warui (`.../1734`) |  | 10s+ |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Red River Extras (`.../2274`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 5 | Koi to Yobu ni wa Kimochi Warui (`.../1734`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Koi to Yobu ni wa Kimochi Warui (`.../1734`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 64 | Chapter 1 - Encounter on a Rainy Day (`.../chapter-1_2`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 25 |  |  | 1-10s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 25 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://reader.decadencescans.com/.../Koi_to_Yobu_Niwa_Kimochiwarui_v01_ch01_p001%5BDecadence%5D.png` (image/png, 506582 bytes, 730x1034) |  |  |  |

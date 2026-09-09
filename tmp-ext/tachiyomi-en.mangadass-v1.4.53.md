@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangadass-v1.4.53
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 29
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 30
 - Lint: 2
 - Warnings: 0
 - Skipped: 4
@@ -16,21 +16,22 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madaralegacy
 - Source ID: 5571661567325096882
 - Source name: Manga Dass
 - Source language: en
-- Selected manga input: popular offset 0: Living with My Teacher! (`.../living-with-my-teacher`)
+- Selected manga input: latest offset 0: Slave Code (`.../slave-code`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 24 | Living with My Teacher! (`.../living-with-my-teacher`) |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 24 | Slave Code (`.../slave-code`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 24 | Living with My Teacher! (`.../living-with-my-teacher`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 24 | Slave Code (`.../slave-code`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Living with My Teacher! (`.../living-with-my-teacher`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 1 | Chapter 1 (`.../chapter-1`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 14 |  |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Slave Code (`.../slave-code`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 21 | Chapter 1 (`.../chapter-1`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 10 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -52,21 +53,22 @@
 | manga title and URL | PASS | 48/48 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 48/48 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://mangadass.com/.../living-with-my-teacherm.jpg` (image/jpeg, 18851 bytes, 214x300) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../living-with-my-teacher` |  |  |  |
-| details thumbnail URL | PASS | `https://mangadass.com/.../living-with-my-teacherm.jpg` |  |  |  |
-| details author | PASS | Seokji |  |  |  |
-| details artist | PASS | Seokji |  |  |  |
-| details genres | PASS | Drama, Mature, Romance, Manhwa |  |  |  |
+| thumbnail | PASS | `https://mangadass.com/.../slave-codem.jpg` (image/jpeg, 20909 bytes, 214x300) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../slave-code` |  |  |  |
+| details thumbnail URL | PASS | `https://mangadass.com/.../slave-codem.jpg` |  |  |  |
+| details author | PASS | GaeTi |  |  |  |
+| details artist | PASS | GaeTi |  |  |  |
+| details genres | PASS | Drama, Mature, Manhwa |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | Alternative Names: 선생님과 산다 |  |  |  |
+| details description | PASS | Alternative Names: Codigo de Esclavo / 슬레이브 코드 / El Código del Deseo |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 1 chapters |  |  |  |
-| chapter dates | LINT | All 1 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1 |  |  |  |
+| chapters | PASS | 21 chapters |  |  |  |
+| chapter dates | LINT | 1 of 21 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 14 HTTP page URLs |  |  |  |
+| page URLs | PASS | 10 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://img01.mangadass.com/.../1-6f57a.jpg` (image/jpeg, 894042 bytes, 720x16192) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://img01.mangadass.com/.../1-b0db3.jpg` (image/jpeg, 1196761 bytes, 720x16609) |  |  |  |

@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.onemangainfo-v1.6.36
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 36
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangahub
 - Source ID: 846921309315987472
 - Source name: OneManga.info
 - Source language: en
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 30 | Martial Peak (`.../martial-peak`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 30 | Release That Witch (`.../release-that-witch`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 30 | Lost Man (`.../lost-man`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 30 | Kimi wa Meido-sama (`.../kimi-wa-meido-sama`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 30 | Dai Dark (`.../dai-dark`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 30 | Kakkou no Iinazuke (`.../kakkou-no-iinazuke`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Martial Peak (`.../martial-peak`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Martial Peak (`.../martial-peak`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 3865 | Chapter 1 (`.../chapter-1.0`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 20 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://onemanga.info/.../chapter-1191` to `https://onemanga.info/.../martial-peak` (1 redirects) |  |  |  |
 | page load | PASS | `https://imgx.mghcdn.com/.../1.jpg` (image/jpeg, 258060 bytes, 764x1200) |  |  |  |

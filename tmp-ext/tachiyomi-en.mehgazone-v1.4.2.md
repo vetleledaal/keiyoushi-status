@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mehgazone-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 27
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 28
 - Lint: 1
 - Warnings: 1
 - Skipped: 7
@@ -29,7 +29,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Bodysuit 23 (`https://bodysuit23.mehgazone.com`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Bodysuit 23 (`https://bodysuit23.mehgazone.com`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 1041 | Bodysuit 23 #1 (`https://bodysuit23.mehgazone.com <redacted query values: p>`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 1042 | Bodysuit 23 #1 (`https://bodysuit23.mehgazone.com <redacted query values: p>`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -52,7 +52,7 @@
 | manga title and URL | LINT | 3/3 listing manga have titles and URLs; popular: all absolute; search: all absolute; Absolute URL examples: popular entry 1: `https://bodysuit23.mehgazone.com`, popular entry 2: `https://a-kats-god-awful-blessing.mehgazone.com`, search entry 1: `https://bodysuit23.mehgazone.com` |  |  |  |
 | thumbnail URLs | PASS | 3/3 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://mehgazone.com/.../918.png` (image/png, 99214 bytes, 300x300) |  |  |  |
+| thumbnail | PASS | `https://mehgazone.com/.../919.png` (image/png, 95926 bytes, 300x300) |  |  |  |
 | details identity | PASS | Details preserved selected URL `https://bodysuit23.mehgazone.com` |  |  |  |
 | details thumbnail URL | PASS | null |  |  |  |
 | details author | PASS | Patricia Barton |  |  |  |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | null |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 1041 chapters |  |  |  |
-| chapter dates | PASS | 1041 positive upload dates |  |  |  |
+| chapters | PASS | 1042 chapters |  |  |  |
+| chapter dates | PASS | 1042 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
-| chapter URLs | UNUSUAL | All 1041 chapter URLs are absolute |  |  |  |
+| chapter URLs | UNUSUAL | All 1042 chapter URLs are absolute |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://bodysuit23.mehgazone.com/.../bodysuit-scaled.jpg` (image/jpeg, 218211 bytes, 890x2560) |  |  |  |

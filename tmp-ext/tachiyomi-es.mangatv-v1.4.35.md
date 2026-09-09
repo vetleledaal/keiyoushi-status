@@ -2,10 +2,10 @@
 
 - Extension: tachiyomi-es.mangatv-v1.4.35
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 29
-- Lint: 3
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 31
+- Lint: 2
 - Warnings: 0
 - Skipped: 4
 - Failed: 0
@@ -16,21 +16,22 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 7214040353404261084
 - Source name: Manga  TV
 - Source language: es
-- Selected manga input: latest offset 0: Guerrero de otra dimensión (`.../guerrero-de-otra-dimension`)
+- Selected manga input: latest offset 0: The daughter of thousand faces (`.../the-daughter-of-thousand-faces`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 25 | Guerrero de otra dimensión (`.../guerrero-de-otra-dimension`) |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 25 | The daughter of thousand faces (`.../the-daughter-of-thousand-faces`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 25 | Guerrero de otra dimensión (`.../guerrero-de-otra-dimension`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 25 | The daughter of thousand faces (`.../the-daughter-of-thousand-faces`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Guerrero de otra dimensión (`.../guerrero-de-otra-dimension`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Guerrero de otra dimensión (`.../guerrero-de-otra-dimension`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 75 | Capítulo 1 Traducciones Dimensional (`.../37ba2f7471324d`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 74 |  |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | The daughter of thousand faces (`.../the-daughter-of-thousand-faces`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | The daughter of thousand faces (`.../the-daughter-of-thousand-faces`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 7 | Capítulo 0.10 Meowlzitoos (`.../3df6b1c7d00544`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 35 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,7 +45,7 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 25 entries |  |  |  |
 | latest listing | PASS | 25 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Guerrero de otra dimensión, URL=`.../guerrero-de-otra-dimension` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=The daughter of thousand faces, URL=`.../the-daughter-of-thousand-faces` |  |  |  |
 | latest differs from popular | LINT | Latest page 1 exactly matches popular page 1; verify supportsLatest |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
@@ -52,21 +53,22 @@
 | manga title and URL | PASS | 51/51 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 51/51 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://img5.mangatv.net/.../6a641bafd05c0.jpg` (image/jpeg, 359827 bytes, 1016x1548) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../guerrero-de-otra-dimension` |  |  |  |
-| details thumbnail URL | PASS | `https://img5.mangatv.net/.../6a641bafd05c0.jpg` |  |  |  |
+| thumbnail | PASS | `https://img3.mangatv.net/.../6a541394ef2fa.jpg` (image/jpeg, 64740 bytes, 389x500) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../the-daughter-of-thousand-faces` |  |  |  |
+| details thumbnail URL | PASS | `https://img3.mangatv.net/.../6a541394ef2fa.jpg` |  |  |  |
 | details author | PASS | null |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | LINT | Genres is empty; use null when unknown |  |  |  |
+| details genres | PASS | La hija de las mil caras, La hija de las mil caras, Comedia, Drama, Fantasía, Demonios, Cultivo |  |  |  |
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
-| details description | PASS | ¿Te gustaría encontrar un trabajo? ¿Incluso a costa de tu alma? Si es así, has llegado al lugar indicado. Nuestra página web de consejos para buscar empleo, Soul Sellers, está dirigida a quienes están dispuestos incluso a vender su alma a cambio de un empleo; así es, a gente como tú. ¿Estás lidiando con ángeles o con demonios? |  |  |  |
+| details description | PASS | Shen Yuhua es la decepción de la Gran Secta del Palacio Chaoyang. Sin poderes ni una belleza excepcional, no tiene nada que ofrecer a su padre, un inmortal respetado. Todo cambia el día en que conoce por accidente a Chu Tian, el legendario Demonio de las Mil Caras, archienemigo de su padre... y, sin querer, lo libera de la prisión en la que había permanecido sellado durante décadas. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 75 chapters |  |  |  |
-| chapter dates | PASS | 75 positive upload dates |  |  |  |
+| chapters | PASS | 7 chapters |  |  |  |
+| chapter dates | PASS | 7 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 74 HTTP page URLs |  |  |  |
+| page URLs | PASS | 35 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://img5.mangatv.net/.../1.jpg` (image/jpeg, 189440 bytes, 720x1098) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://img3.mangatv.net/.../1.jpg` (image/jpeg, 192001 bytes, 940x1880) |  |  |  |

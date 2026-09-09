@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.softkomik-v1.4.13
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 19
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 20
 - Lint: 0
 - Warnings: 0
 - Skipped: 13
@@ -19,16 +19,16 @@
 - Source ID: 4398521787288838980
 - Source name: Softkomik
 - Source language: id
-- Selected manga input: latest offset 0: WiraDelima (Qoni) (`.../wiradelima-qoni-bahasa-indonesia`)
+- Selected manga input: popular offset 0: Nano Machine (`.../nano-machine-bahasa-indonesia`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 24 | Nano Machine (`.../nano-machine-bahasa-indonesia`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | timeout | 0 |  | kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 30000 ms | 10s+ |
-| latest | `fetchLatestUpdates(1)` | success | 24 | WiraDelima (Qoni) (`.../wiradelima-qoni-bahasa-indonesia`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 24 | Steins;Gate - Boukan no Rebellion (`.../steins-gate-boukan-no-rebellion-bahasa-indonesia`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | timeout | 0 |  | kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 30000 ms | 10s+ |
 | search | `fetchSearchManga(1, query, getFilterList())` | error | 0 |  | java.lang.Exception: Gagal mendapatkan session. Coba lagi. | 10s+ |
-| details | `fetchMangaDetails(manga)` | success | 1 | WiraDelima (Qoni) (`.../wiradelima-qoni-bahasa-indonesia`) |  | 10s+ |
+| details | `fetchMangaDetails(manga)` | success | 1 | Nano Machine (`.../nano-machine-bahasa-indonesia`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | timeout | 0 |  | kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 30000 ms | 10s+ |
 | pages | `fetchPageList(chapter)` | skipped | 0 |  |  | <1s |
 
@@ -52,14 +52,14 @@
 | manga title and URL | PASS | 48/48 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 48/48 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://cover.softdevices.my.id/.../cover-359585-1788245987677-6po9gsd6.webp` (image/webp (encoding: lossy), 11542 bytes, 300x432) |  |  |  |
-| details identity | PASS | Details preserved selected URL `wiradelima-qoni-bahasa-indonesia` |  |  |  |
-| details thumbnail URL | PASS | `https://cover.softdevices.my.id/.../cover-359585-1788245987677-6po9gsd6.webp` |  |  |  |
-| details author | PASS | Qoni |  |  |  |
+| thumbnail | PASS | `https://cover.softdevices.my.id/.../nano-machine.webp` (image/webp (encoding: lossy), 24698 bytes, 200x280) |  |  |  |
+| details identity | PASS | Details preserved selected URL `nano-machine-bahasa-indonesia` |  |  |  |
+| details thumbnail URL | PASS | `https://cover.softdevices.my.id/.../nano-machine.webp` |  |  |  |
+| details author | PASS | Han-Joong-Wueol-Ya \[Add, \] |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | Romance, Shoujo, Slice of Life |  |  |  |
+| details genres | PASS | Martial Arts, Fantasy, Action, Adventure |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | Kisah seorang Wira, adik kelas yang bucin BANGET sama Delima, kakak kelasnya. Tapi, Delima tidak pede dengan tubuh mungilnya. Sejauh mana Wira akan berjuang demi menjaga senyum kak Delima-nya? |  |  |  |
+| details description | PASS | Setelah direndahkan dan menghabiskan hidupnya dalam bahaya, seorang yatim piatu dari pemuja iblis, Yeo-Woon, mendapatkan kunjungan tak terduga dari keturunannya dari masa depan yang memasukkan sebuah mesin nano ke dalam tubuh Cheon-Woon, yang mengubah hidup Cheon Yeo Woon setelah aktivasi. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | SKIP | Chapters did not run successfully |  |  |  |
 | chapter dates | SKIP | No chapters to check |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

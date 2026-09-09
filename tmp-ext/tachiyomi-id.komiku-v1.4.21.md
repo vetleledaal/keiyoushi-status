@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.komiku-v1.4.21
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -25,11 +25,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 10 | One Piece (`.../komik-one-piece-indo`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 10 | Black Clover (`.../black-clover-indonesia`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 10 | Reincarnated Escort Warrior (`.../reincarnated-escort-warrior`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 10 | The Heavenly Path's Annihilation (`.../the-heavenly-paths-annihilation`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 10 | To Save Seven Villainesses, I Went Full Harem! (`.../to-save-seven-villainesses-i-went-full-harem`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 10 | Holy Emperor’s Grandson is a Necromancer (`.../holy-emperors-grandson-is-a-necromancer`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | One Piece (`.../komik-one-piece-indo`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | One Piece (`.../komik-one-piece-indo`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 1210 | Chapter 1 (`.../one-piece-chapter-1`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 1211 | Chapter 1 (`.../one-piece-chapter-1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 52 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | One Piece mengikuti petualangan Monkey D. Luffy, seorang pemuda yang bermimpi menjadi Raja Bajak Laut dengan menemukan harta karun legendaris bernama One Piece. Dalam perjalanannya, Luffy membentuk kru yang terdiri dari berbagai karakter unik dan kuat, masing-masing memiliki tujuan dan impian mereka sendiri. Bersama-sama, mereka menghadapi berbagai rintangan, musuh tangguh, dan misteri dunia yang luas. Cerita ini memberikan gambaran tentang persahabatan, keberanian, dan semangat pantang menyerah saat para karakter tidak hanya berjuang untuk kekayaan atau kekuasaan, tetapi juga untuk melindungi nilai-nilai yang mereka percayai. One Piece juga mengeksplorasi dunia yang penuh dengan kerajaan, bajak laut, dan Pemerintah Dunia yang berusaha mengendalikan lautan. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 1210 chapters |  |  |  |
-| chapter dates | PASS | 1210 positive upload dates |  |  |  |
+| chapters | PASS | 1211 chapters |  |  |  |
+| chapter dates | PASS | 1211 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 52 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://image2.komiku.to/.../komiku-promosi.webp` (image/webp (container: extended), 57930 bytes, 1301x488) |  |  |  |

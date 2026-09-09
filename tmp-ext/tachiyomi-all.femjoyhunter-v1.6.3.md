@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-all.femjoyhunter-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 29
 - Lint: 1
-- Warnings: 0
+- Warnings: 1
 - Skipped: 5
 - Failed: 1
 - Retry disposition: REVIEW
@@ -16,21 +16,22 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: masonry
 - Source ID: 9185590742756804817
 - Source name: Femjoy Hunter
 - Source language: all
-- Selected manga input: popular offset 0: Sparkles (`.../luna-ortega-in-sparkles`)
+- Selected manga input: popular offset 0: Lana Lane amazes us by revealing her love holes and breasts but also her sexy feet after divesting in a fitness (`.../lana-lane-amazes-us-by-revealing-her-love-holes-and-breasts-but-also-her-sexy-feet-66646`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 20 | Sparkles (`.../luna-ortega-in-sparkles`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 20 | Lana Lane amazes us by revealing her love holes and breasts but also her sexy feet after divesting in a fitness (`.../lana-lane-amazes-us-by-revealing-her-love-holes-and-breasts-but-also-her-sexy-feet-66646`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 20 | Luna Moonie in Light Blue from Femjoy (`.../luna-moonie-in-light-blue`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 20 | Luna Art in Red Lingerie from Femjoy (`.../luna-art-in-red-lingerie`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Sparkles (`.../luna-ortega-in-sparkles`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Gallery (`.../luna-ortega-in-sparkles`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 16 |  |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Lana Lane amazes us by revealing her love holes and breasts but also her sexy feet after divesting in a fitness (`.../lana-lane-amazes-us-by-revealing-her-love-holes-and-breasts-but-also-her-sexy-feet-66646`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Gallery (`.../lana-lane-amazes-us-by-revealing-her-love-holes-and-breasts-but-also-her-sexy-feet-66646`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 15 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -52,14 +53,14 @@
 | manga title and URL | PASS | 40/40 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 40/40 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://cdn.femjoyhunter.com/.../2543285_masonry_1200.jpg` (image/jpeg, 138144 bytes, 1200x800) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../luna-ortega-in-sparkles` |  |  |  |
+| thumbnail | PASS | `https://cdn.femjoyhunter.com/.../18845_masonry_1200.jpg` (image/jpeg, 426660 bytes, 1200x1745) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../lana-lane-amazes-us-by-revealing-her-love-holes-and-breasts-but-also-her-sexy-feet-66646` |  |  |  |
 | details thumbnail URL | PASS | null |  |  |  |
-| details author | PASS | Luna Ortega |  |  |  |
-| details artist | PASS | Luna Ortega |  |  |  |
-| details genres | PASS | Babe, Stockings, Tan Lines, Spreading |  |  |  |
+| details author | PASS | Lana Lane |  |  |  |
+| details artist | PASS | Lana Lane |  |  |  |
+| details genres | PASS | Feet, Short Hair |  |  |  |
 | details status | PASS | COMPLETED (2) |  |  |  |
-| details description | PASS | Luna OrtegaBabe Stockings Tan Lines Spreading |  |  |  |
+| details description | PASS | Lana Lane amazes us by revealing her love holes and breasts but also her sexy feet after divesting in a fitness |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | PASS | 1 chapters |  |  |  |
 | chapter dates | LINT | All 1 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1 |  |  |  |
@@ -67,6 +68,7 @@
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 16 HTTP page URLs |  |  |  |
+| page URLs | PASS | 15 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://cdn.femjoyhunter.com/.../0004-01_1200.jpg` (image/jpeg, 275646 bytes, 1200x1799) |  |  |  |
+| redirects | UNUSUAL | popular: `https://www.femjoyhunter.com/.../1` to `https://www.femjoyhunter.com/.../newest` (1 redirects) |  |  |  |
+| page load | PASS | `https://cdn.femjoyhunter.com/.../0006-01_1800.jpg` (image/jpeg, 287163 bytes, 1800x1198) |  |  |  |

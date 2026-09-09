@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-ru.yaoilib-v1.4.48
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 33
-- Lint: 2
-- Warnings: 0
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 32
+- Lint: 3
+- Warnings: 1
 - Skipped: 0
 - Failed: 1
 - Retry disposition: DO_NOT_RETRY
@@ -19,18 +19,18 @@
 - Source ID: 2730544188738947015
 - Source name: SlashLib
 - Source language: ru
-- Selected manga input: latest offset 0: Our D-Days (`.../48639--nasi-d-dni`)
+- Selected manga input: latest offset 0: A Parallel World With a 1:39 Male to Female Ratio is Unexpectedly Normal (`.../229732--danjohi-139-no-heikou-sekai-wa-omoi-no-hoka-futsuu`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 60 | Secret Alliance (`.../23435--secret-alliance`) |  | 10s+ |
-| popular_next | `fetchPopularManga(2)` | success | 60 | The lady and the mermaid (`.../202211--la-dama-y-la-sirena`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 15 | Our D-Days (`.../48639--nasi-d-dni`) |  | 10s+ |
-| latest_next | `fetchLatestUpdates(2)` | success | 15 | The Invisible Man and His Soon-to-Be Wife (`.../110327--toumei-otoko-to-ningen-onna-sonouchi-fuufu-ni-naru-futari`) |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Our D-Days (`.../48639--nasi-d-dni`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Our D-Days (`.../48639--nasi-d-dni`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 45 | Том 1. Глава 1 (`.../chapter <redacted query values: , volume, and number>`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 11 |  |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 60 | Somniphobia (`.../178457--somnifobiya`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 15 | A Parallel World With a 1:39 Male to Female Ratio is Unexpectedly Normal (`.../229732--danjohi-139-no-heikou-sekai-wa-omoi-no-hoka-futsuu`) |  | 10s+ |
+| latest_next | `fetchLatestUpdates(2)` | success | 15 | Blattodea (`.../23930--burattodea`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | A Parallel World With a 1:39 Male to Female Ratio is Unexpectedly Normal (`.../185644--danjohi-139-no-heikou-sekai-wa-omoi-no-hoka-futsuu`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | A Parallel World With a 1:39 Male to Female Ratio is Unexpectedly Normal (`.../229732--danjohi-139-no-heikou-sekai-wa-omoi-no-hoka-futsuu`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 237 | Том 1. Глава 1 (`.../chapter <redacted query values: , volume, and number>`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 3 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,29 +44,30 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 60 entries |  |  |  |
 | latest listing | PASS | 15 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Our D-Days, URL=`.../48639--nasi-d-dni` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 1: title=A Parallel World With a 1:39 Male to Female Ratio is Unexpectedly Normal, URL=`.../229732--danjohi-139-no-heikou-sekai-wa-omoi-no-hoka-futsuu` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
-| latest pagination | PASS |  |  |  |  |
+| latest pagination | UNUSUAL | Overlapping manga: title=Blattodea, URL=`.../23930--burattodea` at page 1 offset 14 and page 2 offset 0 |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 151/151 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 151/151 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 152/152 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 152/152 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://cover.cdnlibs.org/.../2W06WEL7baHO_250x350.jpg` (image/jpeg, 127435 bytes, 375x525) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../48639--nasi-d-dni` |  |  |  |
-| details thumbnail URL | PASS | `https://cover.cdnlibs.org/.../2W06WEL7baHO_250x350.jpg` |  |  |  |
-| details author | PASS | Omyo |  |  |  |
-| details artist | PASS | Omyo |  |  |  |
-| details genres | PASS | Манхва, 16+, Драма, Романтика, Сёдзё, Школа,  |  |  |  |
+| thumbnail | PASS | `https://cover.cdnlibs.org/.../f76a501f-2b32-428b-a092-944301a865af.jpg` (image/jpeg, 64403 bytes, 375x530) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../229732--danjohi-139-no-heikou-sekai-wa-omoi-no-hoka-futsuu` |  |  |  |
+| details thumbnail URL | PASS | `https://cover.cdnlibs.org/.../f76a501f-2b32-428b-a092-944301a865af.jpg` |  |  |  |
+| details author | PASS | Kisa |  |  |  |
+| details artist | LINT | Artist is empty; use null when unknown |  |  |  |
+| details genres | PASS | Манга, 18+, Гарем, Комедия, Романтика, Школа, Этти, Исекай, Брат и сестра, ГГ мужчина, Спортивное тело, Яндере, Не слеш |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | Наши Д-дни<br>★★★★✬ 9.2 (голосов: 74)<br>Альтернативные названия:<br>Gakjaui D-Day / When the Day Comes / その日がきたら僕たちは / 각자의 디데이<br><br>Мы находимся в отношениях, в которых мы якобы расстались, но на самом деле не расстались.Что будет с нами, если мы не будем правдивы?<br> |  |  |  |
-| metadata trimming | LINT | Untrimmed fields: genre, description |  |  |  |
-| chapters | PASS | 45 chapters |  |  |  |
-| chapter dates | PASS | 45 positive upload dates |  |  |  |
+| details description | PASS | Параллельный мир с соотношением мужчин и женщин 1:39 оказался неожиданно нормальным (цветная версия)<br>★★★★☆ 8.31 (голосов: 354)<br>Альтернативные названия:<br>男女比1：39の平行世界は思いのほか普通<br><br>Главный герой, Со Сато, внезапно обнаружил, что обменялся телами с альтернативной версией самого себя из параллельной реальности, где соотношение мужчин и женщин составляет 1 к 39. При первом взгляде на этот новый мир, Сато успокоился: "Изменилось лишь соотношение полов, в остальном всё кажется знакомым". Однако внутренний мир женщин этого мира скрывает бесконечное количество тайных желаний.<br> |  |  |  |
+| metadata trimming | LINT | Untrimmed fields: description |  |  |  |
+| chapters | PASS | 237 chapters |  |  |  |
+| chapter dates | PASS | 237 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | LINT | Page indices are 1-indexed, but should be 0-indexed |  |  |  |
-| page URLs | FAIL | 10 of 11 pages have invalid URLs: page 2: url=`.../001_sFq3.png` (protocol-relative URL), page 3: url=`.../002_ZWXI.png` (protocol-relative URL), page 4: url=`.../003_3l1M.png` (protocol-relative URL), page 5: url=`.../004_nA2v.png` (protocol-relative URL), page 6: url=`.../005_250G.png` (protocol-relative URL), and 5 more | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| page URLs | FAIL | 2 of 3 pages have invalid URLs: page 2: url=`.../c037f6a4-6ff4-4692-9271-bc19b18a473d.png` (protocol-relative URL), page 3: url=`.../681fad47-fc81-4ad0-9947-71c09b8230a6.png` (protocol-relative URL) | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://img3.hentaicdn.org/.../000_7Ip5.png` (image/jpeg, 951968 bytes, 2480x3508) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://img3.hentaicdn.org/.../e902f00e-aa4c-427c-b2ae-5581d9ab4e4d.png` (image/jpeg, 277219 bytes, 2016x1431) |  |  |  |

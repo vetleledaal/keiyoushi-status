@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.maidscan-v1.4.63
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: greenshit
 - Source ID: 7624757094973334315
 - Source name: Maid Scan
 - Source language: pt-BR
@@ -25,7 +26,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 26 | Uma Princesa que Lê a Sorte (`.../10714`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 26 | A Tradutora do Tirano (`.../10721`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 26 | Lágrimas sobre Flores Murchas (`.../5113`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 26 | Lágrimas sobre Flores Murchas (`.../5113`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | success | 26 | A Noiva do Grão-Duque é uma Guerreira Infernal (`.../14305`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Lágrimas sobre Flores Murchas (`.../5113`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Lágrimas sobre Flores Murchas (`.../5113`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 22 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.verdinha.wtf/.../01.jpg` (image/jpeg, 475700 bytes, 720x7085) |  |  |  |

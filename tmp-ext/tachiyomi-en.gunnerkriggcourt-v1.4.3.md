@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.gunnerkriggcourt-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 26
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 27
 - Lint: 1
 - Warnings: 0
 - Skipped: 8
@@ -29,7 +29,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Gunnerkrigg Court (`.../archives`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 3100 | Chapter 1: The Shadow and the Robot (1) (`<redacted URL #1: selected resource; relative; no scheme; query parameters: p>`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 3103 | Chapter 1: The Shadow and the Robot (1) (`<redacted URL #1: selected resource; relative; no scheme; query parameters: p>`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Gunnerkrigg Court is a Science Fantasy webcomic by Tom Siddell about a strange young girl attending an equally strange school. The intricate story is deeply rooted in world mythology, but has a strong focus on science (chemistry and robotics, most prominently) as well.<br><br>Antimony Carver begins classes at the eponymous U.K. Boarding School, and soon notices that strange events are happening: a shadow creature follows her around; a robot calls her "Mummy"; a Rogat Orjak smashes in the dormitory roof; odd birds, ticking like clockwork, stand guard in out-of-the-way places.<br><br>Stranger still, in the middle of all this, Annie remains calm and polite to a fault. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 3100 chapters |  |  |  |
-| chapter dates | LINT | All 3100 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=3100 |  |  |  |
+| chapters | PASS | 3103 chapters |  |  |  |
+| chapter dates | LINT | All 3103 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=3103 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://www.gunnerkrigg.com/.../00000001.jpg <redacted query values: v>` (image/jpeg, 76775 bytes, 600x800) |  |  |  |

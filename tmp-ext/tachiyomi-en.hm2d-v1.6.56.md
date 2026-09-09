@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.hm2d-v1.6.56
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 7329798563365402763
 - Source name: HM2D
 - Source language: en
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 33 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://3r21zkocdpp9f.doujindistrict.com/.../00.png` (image/jpeg, 66007 bytes, 900x656; server Content-Type: image/png) |  |  |  |

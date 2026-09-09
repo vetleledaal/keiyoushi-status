@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.kodokustudio-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 29
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 30
 - Lint: 2
 - Warnings: 0
 - Skipped: 5
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 1835150489344342556
 - Source name: Kodoku Studio
 - Source language: all
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 6 | Reverend Insanity [EN] (`.../12`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 6 | Reverend Insanity [TR] (`.../102`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 6 | Reverend Insanity [EN] (`.../12`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Reverend Insanity [EN] (`.../12`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Reverend Insanity [EN] (`.../12`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 28 | Chapter 1 (`.../chapter-1`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 29 | Chapter 1 (`.../chapter-1`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 42 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Alternative Names: Reverend Insanity |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 28 chapters |  |  |  |
-| chapter dates | LINT | 10 of 28 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=10 |  |  |  |
+| chapters | PASS | 29 chapters |  |  |  |
+| chapter dates | LINT | 10 of 29 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=10 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 42 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://i0.wp.com/.../ep1_001_1_1.jpeg <redacted query values: ssl>` (image/jpeg, 1098003 bytes, 1600x5033) |  |  |  |

@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-ar.rocksmanga-v1.4.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 34
 - Lint: 1
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,21 +16,22 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madaralegacy
 - Source ID: 3301038340499911137
 - Source name: Rocks Manga
 - Source language: ar
-- Selected manga input: popular offset 0: جثمان (`.../%D8%AC%D8%AB%D9%85%D8%A7%D9%86`)
+- Selected manga input: popular offset 0: Salty Studio (`.../salty-studio`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 30 | جثمان (`.../%D8%AC%D8%AB%D9%85%D8%A7%D9%86`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 30 | After Beating a Noob in an FPS, He Wanted to Fight Me in Real Life LOL (`.../after-beating-a-noob-in-an-fps-he-wanted-to-fight-me-in-real-life-lol`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | جثمان (`.../%D8%AC%D8%AB%D9%85%D8%A7%D9%86`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 30 | After Beating a Noob in an FPS, He Wanted to Fight Me in Real Life LOL (`.../after-beating-a-noob-in-an-fps-he-wanted-to-fight-me-in-real-life-lol`) |  | 10s+ |
+| popular | `fetchPopularManga(1)` | success | 30 | Salty Studio (`.../salty-studio`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 30 | I Kept Spoiling a Female Knight Who Knew Nothing but Fighting (`.../i-kept-spoiling-a-female-knight-who-knew-nothing-but-fighting`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 30 | Salty Studio (`.../salty-studio`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 30 | I Kept Spoiling a Female Knight Who Knew Nothing but Fighting (`.../i-kept-spoiling-a-female-knight-who-knew-nothing-but-fighting`) |  | 10s+ |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 12 | Drifting Net Cafe (`.../drifting-net-cafe`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | جثمان (`.../%D8%AC%D8%AB%D9%85%D8%A7%D9%86`) |  | 10s+ |
-| chapters | `fetchChapterList(manga)` | success | 3 | الفصل 1: كبش فداء (`https://rocksmanga.com/.../1-1`) |  | 10s+ |
-| pages | `fetchPageList(chapter)` | success | 132 |  |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Salty Studio (`.../salty-studio`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 2 | الفصل 1: البداية (`https://rocksmanga.com/.../1`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 3 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,7 +45,7 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 30 entries |  |  |  |
 | latest listing | PASS | 30 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 7: title=جثمان, URL=`.../%D8%AC%D8%AB%D9%85%D8%A7%D9%86` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 4: title=Salty Studio, URL=`.../salty-studio` |  |  |  |
 | latest differs from popular | LINT | Latest page 1 exactly matches popular page 1; verify supportsLatest |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
@@ -52,21 +53,22 @@
 | manga title and URL | PASS | 132/132 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 132/132 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://rocksmanga.com/.../1000098578-280x400.jpg` (image/jpeg, 30525 bytes, 280x400) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../%D8%AC%D8%AB%D9%85%D8%A7%D9%86` |  |  |  |
+| thumbnail | PASS | `https://rocksmanga.com/.../Screenshot_20260905-024211_Chrome-280x400.jpg` (image/jpeg, 23449 bytes, 280x400) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../salty-studio` |  |  |  |
 | details thumbnail URL | PASS | null |  |  |  |
-| details author | PASS | RayanCps |  |  |  |
+| details author | PASS | OMYO OMYO |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | أكشن, خارق للطبيعة, دموي, غموض |  |  |  |
-| details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | عام 2000، قام يوغوڤاردوس بانقلابٍ دموي على عشيرة فادرون، وسرق عددًا من الجثامين قبل أن يختفي داخل ساحة غامضة تحت الأرض. وبعد خمسة أعوام، يجد ريموند نفسه في قلب صراعٍ يكشف له حقيقةً عن أصله وعن الجثامين التي ارتبطت بالبشر منذ زمن مجهول وعندما تبدأ الحقيقة بالظهور، يصبح الماضي أخطر من الحاضر، ويصبح الموت أرحم...<br><br>Alternative Names: Corpse |  |  |  |
+| details genres | PASS | دراما, رومانسي, شريحة من الحياة, شوجو, كوميدي |  |  |  |
+| details status | PASS | COMPLETED (2) |  |  |  |
+| details description | PASS | تلتقي المصادفة بالطموح في استوديو صغير، حيث تتقاطع حياة شابة تسعى خلف حلمها مع أشخاص لم تكن تتوقع أن يصبحوا جزءًا من قصتها. بين العمل، الصداقة، والمواقف اليومية، تبدأ حكاية مليئة بالمواقف الطريفة والمشاعر التي تنمو بهدوء… فهل تكون هذه البداية لقصة حب لم تكن في الحسبان؟<br><br>Alternative Names: Salty Studio |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 3 chapters |  |  |  |
-| chapter dates | PASS | 3 positive upload dates |  |  |  |
+| chapters | PASS | 2 chapters |  |  |  |
+| chapter dates | PASS | 2 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
-| chapter URLs | UNUSUAL | All 3 chapter URLs are absolute |  |  |  |
+| chapter URLs | UNUSUAL | All 2 chapter URLs are absolute |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 132 HTTP page URLs |  |  |  |
+| page URLs | PASS | 3 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://rocksmanga.com/.../001.webp` (image/webp (encoding: lossy), 213626 bytes, 1200x1694) |  |  |  |
+| redirects | UNUSUAL | search: `https://rocksmanga.com <redacted query values: s>` to `https://rocksmanga.com <redacted query values: s>` (1 redirects) |  |  |  |
+| page load | PASS | `https://rocksmanga.com/.../001.webp` (image/webp (container: extended), 678746 bytes, 720x7732) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.tonarinoyoungjump-v1.4.9
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 27
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 28
 - Lint: 1
 - Warnings: 1
 - Skipped: 7
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: gigaviewer
 - Source ID: 5726629019734498294
 - Source name: Tonari no Young Jump
 - Source language: ja
@@ -23,13 +24,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 203 | 魔王さまの金曜日 (`.../12207421984093802437`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 203 | 魔王さまの金曜日 (`.../12207421984093802437`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 魔王さまの金曜日 (`.../12207421984093802437`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 魔王さまの金曜日 (`.../12207421984093802437`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | 魔王さまの金曜日 (`.../12207421984093802437`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 1 | [第1話] 魔王さまの金曜日 (`.../12207421984093802437`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 2 | [第1話] 魔王さまの金曜日 (`.../12207421984093802437`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 45 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | かつて勇者と戦いに敗れ、最後に発動した魔法の暴走によって魔界から現代日本へと突如飛ばされてしまった魔王。 現代の食べ物を摂ることにより先の戦いによってほとんどを失った魔力を効率よく回復することができた魔王は、再び魔界へと帰還する。 魔王として魔界に君臨しながらもたびたび日本へとお忍びで訪れ、簡単に手に入るコンビニ飯などを食べる日々をおくっていた。 そんなある日、偶然通りかかった繁華街の裏通りで数人の男に絡まれる女の子を助けることに。 助けてもらったお礼にと連れていかれたのは、落ち着いた雰囲気のおでん屋さんだった……。 マジメで堅物な「魔王さま」が退勤後、ホントにおいしいお酒とご飯、そしてそれを一緒に楽しむ仲間と出会っていく――。 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 1 chapters |  |  |  |
-| chapter dates | PASS | 1 positive upload dates |  |  |  |
+| chapters | PASS | 2 chapters |  |  |  |
+| chapter dates | PASS | 2 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 45 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn-img.tonarinoyj.jp/.../12207421984093827859-56d34d2cd7d1c9ce718923ef626fd246` (image/jpeg, 271779 bytes, 800x1137) |  |  |  |

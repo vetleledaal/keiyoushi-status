@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.nhentaixxx-v1.6.11
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 32
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 33
 - Lint: 1
 - Warnings: 2
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.a
+- Source theme: galleryadults
 - Source ID: 1759845183972082995
 - Source name: NHentai.xxx
 - Source language: en
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | [Jairou] Shounen ga Otona ni Natta Natsu [English] [Decensored] (`.../498213`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | [MOSQUITONE. (Great Mosu)] My Bully Turned Into a Girl [English] [Decensored] [Digital] (`.../520025`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | [Ebi Hoppe (Galvalume Kouhan)] Kuro Gal no Ongaeshi -Shachiku Oji ga Kasshoku Kyonyuu Gal o Nanpa kara Tasuketara Icha Love Junai Koubi shita Hanashi- [Digital] [English] [duaduapertujuh] (`.../694308`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | [Umamusuko] Lana's Mom Is a Nurse + a (Pokémon) [English, Japanese] (`.../694228`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | [Momoduki Suzu] Mamireru Onna | Cream Covered Girl (COMIC Shitsurakuten 2011-07) [English] [Digital] (`.../696596`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | A Peek at 0.1% of Love Vol. 3 (`.../696392`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | [Jairou] Shounen ga Otona ni Natta Natsu [English] [Decensored] (`.../498213`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Chapter (`.../498213`) |  | <1s |
@@ -47,7 +48,7 @@
 | search listing | FAIL | 0 entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
-| latest pagination | UNUSUAL | Overlapping manga: title=\[Umamusuko\] Lana's Mom Is a Nurse + a (Pokémon) \[English, Japanese\], URL=`.../694228` at page 1 offset 21 and page 2 offset 0, title=\[Umamusuko\] Alola Nurse Outfit (Pokémon) \[English, Japanese\], URL=`.../694227` at page 1 offset 22 and page 2 offset 1, title=\[馬ムスコ\] リーリエとルザミーネのプール (ポケットモンスター), URL=`.../694226` at page 1 offset 23 and page 2 offset 2, title=\[Umamusuko\] The Uzaki Family Dance (Uzaki-chan wa Asobitai!) \[English, Japanese\], URL=`.../694225` at page 1 offset 24 and page 2 offset 3 |  |  |  |
+| latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
 | manga title and URL | PASS | 100/100 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 100/100 manga have thumbnail URLs |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | LINT | Page indices are 1-indexed, but should be 0-indexed |  |  |  |
 | page URLs | PASS | 199 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://i2.nhentai.xxx/.../1.jpg` to `https://i2.nhentaimg.com/.../1.jpg` (1 redirects) |  |  |  |
 | page load | PASS | `https://i2.nhentai.xxx/.../1.jpg` (image/jpeg, 332013 bytes, 1280x1850) |  |  |  |

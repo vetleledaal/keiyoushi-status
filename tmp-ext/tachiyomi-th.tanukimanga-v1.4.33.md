@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-th.tanukimanga-v1.4.33
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 34
 - Lint: 1
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 422195356897516502
 - Source name: Tanuki-Manga
 - Source language: th
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 40 | Magic Emperor (`.../magic-emperor`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 40 | Kagurabachi (`.../kagurabachi`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 40 | The Tutorial is Too Hard (`.../the-tutorial-is-too-hard`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 40 | The Forgotten Field (`.../the-forgotten-field`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 40 | Honzuki no Gekokujou: Ferdinand no Yakata ni Te (`.../honzuki-no-gekokujou-ferdinand-no-yakata-ni-te`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 40 | This Hero is a Money Supremacist (`.../this-hero-is-a-money-supremacist`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | Magic Emperor (`.../magic-emperor`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Magic Emperor (`.../magic-emperor`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 903 | ตอนที่ 1 (`.../magic-emperor-1`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 905 | ตอนที่ 1 (`.../magic-emperor-1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 53 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | LINT | Description is empty; use null when unknown |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 903 chapters |  |  |  |
-| chapter dates | PASS | 903 positive upload dates |  |  |  |
+| chapters | PASS | 905 chapters |  |  |  |
+| chapter dates | PASS | 905 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 53 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | pages: `https://img.tanuki-manga.com/.../CSVQ3GI7RH-1587238097.jpg` to `https://img.tanuki-manga.net/.../CSVQ3GI7RH-1587238097.jpg` (1 redirects) |  |  |  |
 | page load | PASS | `https://img.tanuki-manga.com/.../CSVQ3GI7RH-1587238097.jpg` (image/jpeg, 194228 bytes, 752x1759) |  |  |  |

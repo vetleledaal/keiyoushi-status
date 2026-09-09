@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-th.reapertrans-v1.4.32
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 9050053825457509475
 - Source name: ReaperTrans
 - Source language: th
@@ -25,9 +26,9 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 30 | Revenge of the Iron-Blooded Sword Hound (`.../revenge-of-the-iron-blooded-sword-hound`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 30 | Astral Pet Store (`.../astral-pet-store`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | Revenge of the Iron-Blooded Sword Hound (`.../revenge-of-the-iron-blooded-sword-hound`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 30 | Revenge of the Iron-Blooded Sword Hound (`.../revenge-of-the-iron-blooded-sword-hound`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | success | 30 | Mr Devourer Please Act Like a Final Boss (`.../mr-devourer-please-act-like-a-final-boss`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | Revenge of the Iron-Blooded Sword Hound (`.../revenge-of-the-iron-blooded-sword-hound`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | Revenge of the Iron-Blooded Sword Hound (`.../revenge-of-the-iron-blooded-sword-hound`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Revenge of the Iron-Blooded Sword Hound (`.../revenge-of-the-iron-blooded-sword-hound`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 158 | Chapter 1 (`.../revenge-of-the-iron-blooded-sword-hound-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 19 |  |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 19 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://bbb.webtoon168.com/.../b49b7f5a3af0f2eba860f570f93f8755.jpg` (image/jpeg, 2128035 bytes, 800x9244) |  |  |  |

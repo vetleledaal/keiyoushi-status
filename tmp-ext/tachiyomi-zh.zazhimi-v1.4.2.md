@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-zh.zazhimi-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 27
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 28
 - Lint: 2
 - Warnings: 1
 - Skipped: 5
@@ -24,13 +24,13 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | 杂志同款怎么买？ (`.../show.php <redacted query values: a>`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | Color Plus 横滨 (`.../show.php <redacted query values: a>`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | LADY BOUTIQUE 26年10月号 (`.../show.php <redacted query values: a>`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | 杂志同款怎么买？ (`.../show.php <redacted query values: a>`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 1 | 杂志同款怎么买？ (`.../show.php <redacted query values: a>`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 4 |  |  | 10s+ |
+| chapters | `fetchChapterList(manga)` | success | 1 | 杂志同款怎么买？ (`.../show.php <redacted query values: a>`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 4 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 4 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://img2020.zazhimi.net/.../001.jpg` (image/jpeg, 794872 bytes, 914x1280) |  |  |  |

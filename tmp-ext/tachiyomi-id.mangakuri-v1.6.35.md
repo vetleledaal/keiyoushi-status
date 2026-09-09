@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.mangakuri-v1.6.35
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 30
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 31
 - Lint: 1
 - Warnings: 0
 - Skipped: 4
@@ -24,13 +24,13 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 20 | You Can Blame It All on Me♡  [Hanniez] (`.../you-can-blame-it-all-on-me-hanniez`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 20 | Colossal (`.../colossal`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 20 | The Last Ride [ Cio ] (`.../the-last-ride-cio`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 20 | Hardcore BL : Esther's Garden (ERI) (`.../hardcore-bl-esthers-garden-eri`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 20 | SAHAN [Lyuly] (`.../sahan-lyuly`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 20 | Heat Protectant (`.../heat-protectant`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 20 | Pomegranate [Eunjiii] (`.../pomegranate-eunjiii`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | You Can Blame It All on Me♡  [Hanniez] (`.../you-can-blame-it-all-on-me-hanniez`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | You Can Blame It All on Me♡  [Hanniez] (`.../you-can-blame-it-all-on-me-hanniez`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | You Can Blame It All on Me♡  [Hanniez] (`.../you-can-blame-it-all-on-me-hanniez`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 8 | Chapter 0.50 (`.../0`) |  | <1s |
-| pages | `getPageList(chapter)` | error | 0 |  | java.lang.IllegalStateException: Login in WebView and retry | 1-10s |
+| pages | `getPageList(chapter)` | error | 0 |  | java.lang.IllegalStateException: Login in WebView and retry | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | Login in WebView and retry |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

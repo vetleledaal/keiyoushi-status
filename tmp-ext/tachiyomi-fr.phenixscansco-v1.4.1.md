@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-fr.phenixscansco-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 0
 - Warnings: 0
 - Skipped: 2
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 10 | The Beginning After the End (`.../the-beginning-after-the-end`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 12 | Logging 10 000 Years Into the Future (`.../logging-10-000-years-into-the-future`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 12 | Global Awakening: The Synthesis Master Starts with an Undead Army (`.../global-awakening-the-synthesis-master-starts-with-an-undead-army`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 12 | The Tutorial Is Too Hard (`.../the-tutorial-is-too-hard`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 12 | The Chaotic Guard Captain In A Fantasy World (`.../the-chaotic-guard-captain-in-a-fantasy-world`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | The Beginning After the End (`.../the-beginning-after-the-end`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | The Beginning After the End (`.../the-beginning-after-the-end`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 270 | Chapter 1 (`.../1`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 44 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://api.phenix-scans.co/.../1.webp` (image/jpeg, 40481 bytes, 700x1890; server Content-Type: image/webp) |  |  |  |

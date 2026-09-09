@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.darkroomfansub-v1.6.16
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 30
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 31
 - Lint: 0
 - Warnings: 1
 - Skipped: 5
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 2769673412724723872
 - Source name: Dark Room Fansub
 - Source language: es
@@ -30,7 +31,7 @@
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Smoky Nectar Renew (`.../smoky-nectar-renew.html`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Smoky Nectar Renew (`.../smoky-nectar-renew.html`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Chapter 1 (`.../ch-6.html`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 36 |  |  | 1-10s |
+| pages | `getPageList(chapter)` | success | 36 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 36 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../AVvXsEhNi4BsgJ0fGP4cyD1WmhIn5YDG3XulJ3KdbvQGR7VRHHic3GFQJ2d9Hxtzz4FpTmQT-wg_VsAoKw11Y-FcvJ9ocESRn9N8QrEdt9bWtSeQdRGVHKOtgtye_2h1UcS937rzLeW3oCoLClGQzvbGnio2NR-WZ-T1OxWRCijSjf_oNq_3DiPcqUXvHVo2HQ` (image/png, 579110 bytes, 792x612) |  |  |  |

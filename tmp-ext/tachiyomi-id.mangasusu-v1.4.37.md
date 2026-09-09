@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.mangasusu-v1.4.37
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,21 +16,22 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 8157748444640827548
 - Source name: Mangasusu
 - Source language: id
-- Selected manga input: popular offset 0: Secret Class (`.../secret-class`)
+- Selected manga input: latest offset 0: MILF Hunting In Another World (`.../milf-hunting-in-another-world`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | Secret Class (`.../secret-class`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | Water Overflow (`.../water-overflow`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | Wireless Onahole (`.../wireless-onahole`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | KinkFolder.ZIP (`.../kinkfolder-zip`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | Secret Class (`.../secret-class`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Secret Class (`.../secret-class`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 315 | Chapter 1 (`.../secret-class-chapter-1`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 23 |  |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | Water Overflow (`.../water-overflow`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | MILF Hunting In Another World (`.../milf-hunting-in-another-world`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | Love Quest (`.../love-quest`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | MILF Hunting In Another World (`.../milf-hunting-in-another-world`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | MILF Hunting In Another World (`.../milf-hunting-in-another-world`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 135 | Chapter 1 (`.../milf-hunting-in-another-world-chapter-1`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 21 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,29 +45,30 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 20 entries |  |  |  |
 | latest listing | PASS | 20 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Secret Class, URL=`.../secret-class` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=MILF Hunting In Another World, URL=`.../milf-hunting-in-another-world` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 82/82 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 82/82 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 81/81 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 81/81 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://mangasusuku.com/.../Secret-Class.jpg` (image/jpeg, 14000 bytes, 193x278) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../secret-class` |  |  |  |
-| details thumbnail URL | PASS | `https://mangasusuku.com/.../Secret-Class.jpg` |  |  |  |
-| details author | PASS | Wang Kang Cheol |  |  |  |
-| details artist | PASS | Mina-chan |  |  |  |
-| details genres | PASS | Adult, Drama, Harem, Manhwa, Romance, Seinen, Manhwa |  |  |  |
+| thumbnail | PASS | `https://mangasusuku.com/.../MILF-Hunting-In-Another-World-193x278-1.jpg` (image/jpeg, 12538 bytes, 193x278) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../milf-hunting-in-another-world` |  |  |  |
+| details thumbnail URL | PASS | `https://mangasusuku.com/.../MILF-Hunting-In-Another-World-193x278-1.jpg` |  |  |  |
+| details author | PASS | ERO404 |  |  |  |
+| details artist | PASS | ERO404 |  |  |  |
+| details genres | PASS | Adult, Comedy, Drama, Ecchi, Manhwa, Mature, Romance, Manhwa |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | Dae Ho, yang menjadi yatim piatu pada usia 13 tahun, diadopsi oleh teman ayahnya. Namun, Dae Ho di masa dewasa tidak tahu apa-apa tentang hubungan antara pria dan wanita. Bibi dan saudari memutuskan untuk memberi Dae Ho yang murni kelas rahasia …<br><br>Alternative Names: 비밀수업, 秘密教學 |  |  |  |
+| details description | PASS | Setelah tertangkap saat berhubungan intim dengan MILF lainnya, Taeyang melarikan diri ke dunia lain. Berbagi tempat tidur dengan MILF kelas atas dengan tubuh yang luar biasa?! Selamat makan~! Akankah Taeyang bisa membuat haremnya sendiri di dunia ini dengan aman?<br><br>Alternative Names: Mother Hunting In Another World, Different World Milf Hunter |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 315 chapters |  |  |  |
-| chapter dates | PASS | 315 positive upload dates |  |  |  |
+| chapters | PASS | 135 chapters |  |  |  |
+| chapter dates | PASS | 135 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 23 HTTP page URLs |  |  |  |
+| page URLs | PASS | 21 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://cdn.komikindo.info/.../1.jpg` (image/jpeg, 59325 bytes, 720x880) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `http://wibulep.xyz/.../1.jpg` (image/jpeg, 123913 bytes, 720x1080) |  |  |  |

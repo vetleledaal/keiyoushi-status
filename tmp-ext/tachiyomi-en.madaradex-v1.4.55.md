@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.madaradex-v1.4.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madaralegacy
 - Source ID: 2136088453725931591
 - Source name: MadaraDex
 - Source language: en
@@ -23,14 +24,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 18 | Secret Class (Uncensored) (`.../secret-class-uncensored`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 18 | My New Family Treats Me Well (`.../my-new-family-treats-me-well`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 18 | I Banged All My Classmates After Graduation (`.../i-banged-all-my-classmates-after-graduation`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 18 | Single Daddy (`.../single-daddy`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 7 | Secret Class (Uncensored) (`.../secret-class-uncensored`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Secret Class (Uncensored) (`.../secret-class-uncensored`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 165 | Chapter 1 (`https://madaradex.org/.../chapter-1 <redacted query values: style>`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 71 |  |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 18 | Secret Class (Uncensored) (`.../secret-class-uncensored`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 18 | My New Family Treats Me Well (`.../my-new-family-treats-me-well`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 18 | Cliterary Book Club (`.../cliterary-book-club`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 18 | Wireless Onahole (`.../wireless-onahole`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 7 | Secret Class (Uncensored) (`.../secret-class-uncensored`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Secret Class (Uncensored) (`.../secret-class-uncensored`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 171 | Chapter 1 (`https://madaradex.org/.../chapter-1 <redacted query values: style>`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 71 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | When Dae-Ho was a child his parents were killed in a tragic accident. Afterwards, he was taken in by his late father’s friend Mr.Cha and was raised with love and care. Now, at age 20, Mrs. Cha realizes that Dae-Ho hasn’t been properly taught about growing up into a man. He keeps having wet dreams and she feels he needs someone to show him how to relieve his urges. She takes it upon herself to show him how it’s done…<br><br>Alternative Names: 비밀 수업, 秘密教學, Bimilsueop |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 165 chapters |  |  |  |
-| chapter dates | PASS | 165 positive upload dates |  |  |  |
+| chapters | PASS | 171 chapters |  |  |  |
+| chapter dates | PASS | 171 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
-| chapter URLs | UNUSUAL | All 165 chapter URLs are absolute |  |  |  |
+| chapter URLs | UNUSUAL | All 171 chapter URLs are absolute |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 71 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.madaradex.org/.../0.webp` (image/webp (encoding: lossy), 111936 bytes, 2000x1000) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.khomanhwa-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 34
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 35
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -24,10 +24,10 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | #1 Hành trình tình yêu (`.../hanh-trinh-tinh-yeu`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 24 | #25 Ứng dụng hiện thực hóa mong muốn (`.../ung-dung-hien-thuc-hoa-mong-muon`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 24 | #25 Em bỏ hút thuốc chưa (`.../em-bo-hut-thuoc-chua`) |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 24 | Sextoy kết nối không dây (`.../sextoy-ket-noi-khong-day`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | Thị trấn Massage (`.../thi-tran-massage`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | Thị trấn Massage (`.../thi-tran-massage`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Hành trình tình yêu (`.../hanh-trinh-tinh-yeu`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 28 | Chapter 1 (`.../chapter-1`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 13 |  |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 13 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://img.fullmanhwa.com/.../love_quest_1_vn_001_a.webp` (image/webp (encoding: lossy), 428512 bytes, 720x15000) |  |  |  |

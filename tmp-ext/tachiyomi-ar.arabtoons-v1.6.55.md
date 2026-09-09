@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-ar.arabtoons-v1.6.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 35
 - Lint: 0
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 2424761902286195560
 - Source name: عرب تونز
 - Source language: ar
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | فصل سري (`.../2258`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Locked Up (`.../6765`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Pleasure up! (`.../6774`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Runaway Wife (`.../7562`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Regressed Warrior’s Female Dominance (`.../6959`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | The Man Who Devours (`.../7637`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 2 | فصل سري بدون حجب (`.../3164`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | فصل سري (`.../2258`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 310 | الفصل 1 (`.../%d8%a7%d9%84%d9%81%d8%b5%d9%84-1-32`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | فصل سري (`.../2258`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 312 | الفصل 1 (`.../%d8%a7%d9%84%d9%81%d8%b5%d9%84-1-32`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 23 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Alternative Names: Secret Class |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 310 chapters |  |  |  |
-| chapter dates | PASS | 310 positive upload dates |  |  |  |
+| chapters | PASS | 312 chapters |  |  |  |
+| chapter dates | PASS | 312 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 23 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://arabtoons.net/.../%d8%a7%d9%84%d9%81%d8%b5%d9%84-1-32` to `https://arabtoons.net/.../%d8%a7%d9%84%d9%81%d8%b5%d9%84-1-32` (1 redirects) |  |  |  |
 | page load | PASS | `https://arabtoons.net/.../01.jpg` (image/jpeg, 286423 bytes, 1080x6000) |  |  |  |

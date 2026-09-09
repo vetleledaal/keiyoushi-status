@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.warforrayuba-v1.6.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 17
 - Lint: 3
-- Warnings: 2
+- Warnings: 3
 - Skipped: 12
 - Failed: 2
 - Retry disposition: RETRY_NOW
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | HTTP error 500 |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://cubari.moe/.../OAyjrrN` to `https://cubari.moe/.../OAyjrrN` (1 redirects) |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

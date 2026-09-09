@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.truyentini-v1.6.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 7837268511554362907
 - Source name: TruyenTini
 - Source language: vi
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Vụng trộm không thể giấu (`.../263`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Mong ước của ác ma (`.../278`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Duyên Nợ Oái Oăm (`.../2375`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Sếp Ơi Sao Thế? (`.../2345`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Bản sao hoàn hảo (`.../2005`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Tôi Nào Hay Người Tôi Bias Đã Chấp Niệm Vì Mình (`.../2357`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Vụng trộm không thể giấu (`.../263`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Vụng trộm không thể giấu (`.../263`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 220 | Chương 1 (`.../chuong-1`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 220 | Chương 1 (`.../chuong-1`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 99 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 99 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://truyentini.net/.../000_result.webp` (image/webp (encoding: lossy), 261678 bytes, 2048x1148) |  |  |  |

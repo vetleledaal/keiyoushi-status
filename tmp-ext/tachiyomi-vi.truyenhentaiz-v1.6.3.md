@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.truyenhentaiz-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 31
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 32
 - Lint: 1
 - Warnings: 0
 - Skipped: 3
@@ -24,7 +24,7 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 30 | Tẩy Não Nữ Đế Hancook (`.../tay-nao-nu-de-hancook.html`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 30 | Black Pirate (`.../black-pirate.html`) |  | <1s |
+| popular_next | `getPopularManga(2)` | success | 30 | Black Pirate (`.../black-pirate.html`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | success | 30 | Vị Khách Trong Đêm (`.../vi-khach-trong-dem.html`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 30 | Nhà Của Mẹ Và Con Gái (`.../nha-cua-me-va-con-gai.html`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Tẩy Não Nữ Đế Hancook (`.../tay-nao-nu-de-hancook.html`) |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | FAIL | Page list is empty (0 pages) | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.lectorjpg-v1.4.50
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 2
 - Warnings: 0
 - Skipped: 2
@@ -25,11 +25,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 6 | Vecino de a lado-SIN CENSURA (`.../me-alegra-verte`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 12 | Amor magnético (`.../amor-magnetico`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 12 | Ahora Buscaré Una Nueva Famlia (`.../ahora-buscare-una-nueva-famlia`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 12 | Alfa Insignificante (`.../alfa-insignificante-2`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 12 | Consumido en el Nectar del Inframundo (`.../consumido-en-el-nectar-del-inframundo`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Vecino de a lado-SIN CENSURA (`.../me-alegra-verte`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Vecino de a lado-SIN CENSURA (`.../me-alegra-verte`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 16 | Capitulo 1 (`.../48711`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 17 | Capitulo 1 (`.../48711`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 11 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | Ko Ideum es un ermitaño empedernido que solo sabe hacer una cosa: escribir apasionadas historias BL eróticas. Solo hay un pequeño problema: Ideum es completamente virgen. Para estimular su mente (entre otras cosas), Ideum se dedica a... bueno, a "cuidarse" frente a la ventana, imaginando todo tipo de escenarios sensuales para despertar su creatividad. Claro, puede que haya un apartamento justo enfrente, pero nadie ha vivido allí en años... ¡hasta ahora! En medio de su sesión de autoerotismo, levanta la vista y ve a un hombre mirándolo fijamente desde el otro lado de la calle; y no cualquier hombre, sino el ícono bisexual y futura celebridad, el estudiante de actuación Kwon Jaeyi. Algunos podrían decir que su situación es demasiado cercana para su comodidad... pero tal vez sea la distancia perfecta para algo más. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 16 chapters |  |  |  |
-| chapter dates | PASS | 16 positive upload dates |  |  |  |
+| chapters | PASS | 17 chapters |  |  |  |
+| chapter dates | PASS | 17 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 11 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://media.lectorjpg.com/.../d752e4a7-90aa-424c-b3d8-b49ca0777a9b.webp` (image/webp (encoding: lossy), 612216 bytes, 904x16000) |  |  |  |

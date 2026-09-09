@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangaowlio-v1.6.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 1
 - Warnings: 2
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 2031498907928923621
 - Source name: MangaOwl.io (unoriginal)
 - Source language: en
@@ -24,9 +25,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Dark fall (`.../9095`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 25 | UNDER THE GREEN LIGHT (`.../9085`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 25 | I Won’t Resign to Be Tamed by My Enemy Uncle (`.../10493`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Full-Time Awakening (`.../10156`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | 3XLOVE (Uncensored) (`.../10199`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | A Love of Desert Love (`.../10420`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | The Delusional Hunter in Another (`.../9743`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 8 | Dark fall (`.../9095`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Dark fall (`.../9095`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 191 | 0 (`.../dark-fall-0`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 18 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://mangaowl.io/.../1-001.jpg` (image/jpeg, 186726 bytes, 420x560) |  |  |  |

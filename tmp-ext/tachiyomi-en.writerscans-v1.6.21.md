@@ -2,10 +2,10 @@
 
 - Extension: tachiyomi-en.writerscans-v1.6.21
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 32
-- Lint: 0
+- Lint: 1
 - Warnings: 0
 - Skipped: 4
 - Failed: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: keyoapp
 - Source ID: 561830040001881975
 - Source name: Writer Scans
 - Source language: en
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 6 | Classmate (`.../640ecb8f2bb`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 27 | I'm Only Embarrassed in Front of You (`.../6466e5dda5f`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 27 | War of the Corpses (`.../64529f157e5`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Classmate (`.../640ecb8f2bb`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Classmate (`.../640ecb8f2bb`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 53 | Chapter 1: Encounter (1) (`.../640ecb8f2bb-640ece9aebc`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 54 | Chapter 1: Encounter (1) (`.../640ecb8f2bb-640ece9aebc`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 16 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | "I'll be your friend." A chilling ghost boy, Haesu Lee, visits the outcast, Eunha Joo. The moment she accepts this dangerous friendship, unexpected events unfold around Eunha... Will this hand offered by her mysterious friend be salvation, or a curse?<br><br>Alternative Titles:<br>- 클래스메이트 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 53 chapters |  |  |  |
-| chapter dates | PASS | 53 positive upload dates |  |  |  |
+| chapters | PASS | 54 chapters |  |  |  |
+| chapter dates | LINT | 1 of 54 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 16 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.meowing.org/.../1xsRh8Egoz8` (image/png, 6446479 bytes, 800x14961; server Content-Type: text/plain) |  |  |  |

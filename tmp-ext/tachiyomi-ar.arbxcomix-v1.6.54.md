@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.arbxcomix-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 6405758918736185117
 - Source name: ArbxComix
 - Source language: ar
@@ -26,7 +27,7 @@
 | popular | `getPopularManga(1)` | success | 25 | صف سري (`.../1110`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | إغتصاب ربات المنزل اليابانيات (`.../793`) |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 25 | دروس المزرعة (`.../2501`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | داندا أنال (`.../2439`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | داندا أنال (`.../2439`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | صف سري (`.../1110`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | صف سري (`.../1110`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 307 | صف سري الجزء 1 (`.../00862`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 44 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://arbxcomix.com/.../img0001.jpg` (image/jpeg, 42854 bytes, 366x1537) |  |  |  |

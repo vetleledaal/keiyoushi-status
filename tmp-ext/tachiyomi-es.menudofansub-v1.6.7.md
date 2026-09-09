@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.menudofansub-v1.6.7
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 30
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 31
 - Lint: 1
 - Warnings: 3
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: foolslide
 - Source ID: 3505996597464989970
 - Source name: Menudo-Fansub
 - Source language: es
@@ -24,10 +25,10 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | A channel (`.../a_channel`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 25 | Gokusen (`.../gokusen`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | Gokusen (`.../gokusen`) |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 13 | Toradora! (`.../toradora`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 9 | OneShots (`.../oneshots`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | A channel (`.../a_channel`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | A channel (`.../a_channel`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | A channel (`.../a_channel`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 50 | Prólogo (`.../0`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 11 |  |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 11 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://www.menudo-fansub.com/.../A%20Channel%20v01%20c000%20000%20-%20Staff.jpg` (image/jpeg, 746675 bytes, 965x1400) |  |  |  |

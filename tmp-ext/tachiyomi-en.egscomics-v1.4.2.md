@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.egscomics-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 27
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 28
 - Lint: 0
 - Warnings: 1
 - Skipped: 7
@@ -29,7 +29,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | El Goonish Shive (`.../archive`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 3605 | 2002-01-21 (`.../2002-01-21`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 3607 | 2002-01-21 (`.../2002-01-21`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | El Goonish Shive is a comic about a group of teenagers who face both real life and bizarre, supernatural situations. <br><br>It is a comedy mixed with drama and is recommended for audiences thirteen and older. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 3605 chapters |  |  |  |
-| chapter dates | PASS | 3605 positive upload dates |  |  |  |
+| chapters | PASS | 3607 chapters |  |  |  |
+| chapter dates | PASS | 3607 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://www.egscomics.com/.../20020121_cqrF.gif` (image/gif (format: 89a), 29846 bytes, 700x259) |  |  |  |

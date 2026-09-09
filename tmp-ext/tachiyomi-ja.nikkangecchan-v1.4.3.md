@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.nikkangecchan-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 27
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 28
 - Lint: 2
 - Warnings: 0
 - Skipped: 7
@@ -27,10 +27,10 @@
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | ほぼ日刊アルマジロのジョン (`.../john`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | ほぼ日刊アルマジロのジョン (`.../john`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 725 | 001 - タオルをもむ (`.../1`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 1 |  |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | ほぼ日刊アルマジロのジョン (`.../john`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | ほぼ日刊アルマジロのジョン (`.../john`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 725 | 001 - タオルをもむ (`.../1`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 1 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://nikkangecchan.jp/.../image` (image/jpeg, 179218 bytes, 1200x1200) |  |  |  |

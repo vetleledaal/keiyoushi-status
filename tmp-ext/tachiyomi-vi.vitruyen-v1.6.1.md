@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.vitruyen-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | Học Cách Chiến Đấu (`.../hoc-cach-chien-dau`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 24 | Những Ranker Cấp S Mà Tôi Nuôi Dưỡng (`.../nhung-ranker-cap-s-ma-toi-nuoi-duong`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 24 | Tuyệt Thế Quân Lâm (`.../tuyet-the-quan-lam`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | Người Xấu (`.../nguoi-xau`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 24 | Yểm Vân Kiếm Thánh (`.../yem-van-kiem-thanh`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | Vạn Cổ Chí Tôn (`.../van-co-chi-ton`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Học Cách Chiến Đấu (`.../hoc-cach-chien-dau`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Học Cách Chiến Đấu (`.../hoc-cach-chien-dau`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 223 | Chapter 1 (`.../chapter-1-608cacabc45922129c24793b`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 90 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.vitruyen1.com/.../chapter-1_9132142688_0.jpg` (image/jpeg, 203815 bytes, 690x2560) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.tappytoon-v1.4.10
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 31
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 32
 - Lint: 1
 - Warnings: 0
 - Skipped: 4
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 9 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://content-repository-cdn.tappytoon.com/.../w_lns1zyaa_9_1.jpg <redacted query values: Expires, Signature, and Key-Pair-Id>` (image/jpeg, 315861 bytes, 720x4000; server Content-Type: application/octet-stream) |  |  |  |

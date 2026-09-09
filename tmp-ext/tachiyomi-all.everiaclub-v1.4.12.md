@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.everiaclub-v1.4.12
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 32
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 33
 - Lint: 0
 - Warnings: 1
 - Skipped: 2
@@ -19,18 +19,18 @@
 - Source ID: 7698513740234984368
 - Source name: Everia.club
 - Source language: all
-- Selected manga input: latest offset 0: Cosplay 年年Nnian &#8211; 夏天 (`.../cosplay-%E5%B9%B4%E5%B9%B4nnian-%E5%A4%8F%E5%A4%A9`)
+- Selected manga input: latest offset 0: Niko Kawago 川越にこ &#8211; ヌード写真集 「おとなにこ」 (`.../niko-kawago-%E5%B7%9D%E8%B6%8A%E3%81%AB%E3%81%93-%E3%83%8C%E3%83%BC%E3%83%89%E5%86%99%E7%9C%9F%E9%9B%86-%E3%80%8C%E3%81%8A%E3%81%A8%E3%81%AA%E3%81%AB%E3%81%93%E3%80%8D`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 8 | Atsuko Maeda 前田敦子 – 6th Photobook 写真集 「Beste」 (`.../atsuko-maeda-%E5%89%8D%E7%94%B0%E6%95%A6%E5%AD%90-6th-photobook-%E5%86%99%E7%9C%9F%E9%9B%86-%E3%80%8Cbeste%E3%80%8D`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 8 | Sayaka Nitori 似鳥沙也加 – デジタル限定版 写真集 「ふれあ、」 (`.../sayaka-nitori-%E4%BC%BC%E9%B3%A5%E6%B2%99%E4%B9%9F%E5%8A%A0-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E9%99%90%E5%AE%9A%E7%89%88-%E5%86%99%E7%9C%9F%E9%9B%86-%E3%80%8C%E3%81%B5%E3%82%8C%E3%81%82%E3%80%81`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | Cosplay 年年Nnian &#8211; 夏天 (`.../cosplay-%E5%B9%B4%E5%B9%B4nnian-%E5%A4%8F%E5%A4%A9`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | Rina Koike 小池里奈 &#8211; Sabra net e-Book 「麗しのサブリナ・ヒップ2」 (`.../rina-koike-%E5%B0%8F%E6%B1%A0%E9%87%8C%E5%A5%88-sabra-net-e-book-%E3%80%8C%E9%BA%97%E3%81%97%E3%81%AE%E3%82%B5%E3%83%96%E3%83%AA%E3%83%8A%E3%83%BB%E3%83%92%E3%83%83%E3%83%972%E3%80%8D`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | Niko Kawago 川越にこ &#8211; ヌード写真集 「おとなにこ」 (`.../niko-kawago-%E5%B7%9D%E8%B6%8A%E3%81%AB%E3%81%93-%E3%83%8C%E3%83%BC%E3%83%89%E5%86%99%E7%9C%9F%E9%9B%86-%E3%80%8C%E3%81%8A%E3%81%A8%E3%81%AA%E3%81%AB%E3%81%93%E3%80%8D`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | Eunji Pyo 표은지 &#8211; Photobook 「Girlfriend」 Vol.02 (`.../eunji-pyo-%ED%91%9C%EC%9D%80%EC%A7%80-photobook-%E3%80%8Cgirlfriend%E3%80%8D-vol-02`) |  | 10s+ |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | 10s+ |
-| details | `fetchMangaDetails(manga)` | success | 1 | Cosplay 年年Nnian – 夏天 (`.../cosplay-%E5%B9%B4%E5%B9%B4nnian-%E5%A4%8F%E5%A4%A9`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 1 | Gallery (`.../cosplay-%E5%B9%B4%E5%B9%B4nnian-%E5%A4%8F%E5%A4%A9`) |  | 10s+ |
-| pages | `fetchPageList(chapter)` | success | 80 |  |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Niko Kawago 川越にこ – ヌード写真集 「おとなにこ」 (`.../niko-kawago-%E5%B7%9D%E8%B6%8A%E3%81%AB%E3%81%93-%E3%83%8C%E3%83%BC%E3%83%89%E5%86%99%E7%9C%9F%E9%9B%86-%E3%80%8C%E3%81%8A%E3%81%A8%E3%81%AA%E3%81%AB%E3%81%93%E3%80%8D`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 1 | Gallery (`.../niko-kawago-%E5%B7%9D%E8%B6%8A%E3%81%AB%E3%81%93-%E3%83%8C%E3%83%BC%E3%83%89%E5%86%99%E7%9C%9F%E9%9B%86-%E3%80%8C%E3%81%8A%E3%81%A8%E3%81%AA%E3%81%AB%E3%81%93%E3%80%8D`) |  | 10s+ |
+| pages | `fetchPageList(chapter)` | success | 87 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -52,14 +52,14 @@
 | manga title and URL | PASS | 48/48 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 48/48 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://ikimchi.yuhabox.top/.../COS09P028_0.webp` (image/webp (encoding: lossy), 37808 bytes, 400x600) |  |  |  |
-| details identity | UNUSUAL | Details changed selected title Cosplay 年年Nnian &#8211; 夏天 to Cosplay 年年Nnian – 夏天 |  |  |  |
+| thumbnail | PASS | `https://reiobox.top/.../GRA09V092_0.webp` (image/webp (encoding: lossy), 32798 bytes, 400x600) |  |  |  |
+| details identity | UNUSUAL | Details changed selected title Niko Kawago 川越にこ &#8211; ヌード写真集 「おとなにこ」 to Niko Kawago 川越にこ – ヌード写真集 「おとなにこ」 |  |  |  |
 | details thumbnail URL | PASS | null |  |  |  |
 | details author | PASS | null |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | Cosplay, 年年Nnian |  |  |  |
+| details genres | PASS | Niko Kawago 川越にこ, ヌード写真集 |  |  |  |
 | details status | PASS | COMPLETED (2) |  |  |  |
-| details description | PASS | Cosplay 年年Nnian – 夏天 |  |  |  |
+| details description | PASS | Niko Kawago 川越にこ – ヌード写真集 「おとなにこ」 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | PASS | 1 chapters |  |  |  |
 | chapter dates | PASS | 1 positive upload dates |  |  |  |
@@ -67,6 +67,7 @@
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 80 HTTP page URLs |  |  |  |
+| page URLs | PASS | 87 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://ikimchi.yuhabox.top/.../COS09P028_1.webp` (image/webp (encoding: lossy), 212976 bytes, 1000x1500) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://reiobox.top/.../GRA09V092_1.webp` (image/webp (encoding: lossy), 168062 bytes, 1272x1800) |  |  |  |

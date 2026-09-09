@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.readchainsawmanmangaonline-v1.4.10
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 22
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 23
 - Lint: 4
 - Warnings: 1
 - Skipped: 8
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangacatalog
 - Source ID: 6207801235158968822
 - Source name: Read Chainsaw Man Manga Online
 - Source language: en
@@ -28,7 +29,7 @@
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 3 | Chainsaw Man (`https://ww6.readchainsawman.com/.../chainsaw-man`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Chainsaw Man (`https://ww6.readchainsawman.com/.../chainsaw-man`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Chainsaw Man (`https://ww6.readchainsawman.com/.../chainsaw-man`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 232 | Chainsaw Man Chapter 1 - Dog and Chainsaw (`https://ww6.readchainsawman.com/.../chainsaw-man-chapter-1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 57 |  |  | <1s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 57 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.readchainsawman.com/.../chain_1_0.1.jpg` (image/jpeg, 112774 bytes, 1500x2250) |  |  |  |

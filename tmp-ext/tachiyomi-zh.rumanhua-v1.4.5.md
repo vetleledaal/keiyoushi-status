@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-zh.rumanhua-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 30
-- Lint: 1
-- Warnings: 1
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 31
+- Lint: 2
+- Warnings: 0
 - Skipped: 4
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,21 +16,22 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mmlook
 - Source ID: 392262758488714109
 - Source name: 如漫画
 - Source language: zh
-- Selected manga input: popular offset 0: 雪之牢笼 (`.../IIVWygq`)
+- Selected manga input: latest offset 0: 我被困在同一天一千年 (`.../IVdKWyq`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 99 | 雪之牢笼 (`.../IIVWygq`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 99 | 小白的男神爹地 (`.../GZwQQGS`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 51 | 邪灵附体 (`.../OMsJGMe`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 51 | 我被困在同一天一千年 (`.../IVdKWyq`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 雪之牢笼 (`.../IIVWygq`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | 雪之牢笼 (`.../IIVWygq`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 68 | 人物介绍 (`.../RzMzvCF`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 7 |  |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | 我被困在同一天一千年 (`.../IVdKWyq`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | 我被困在同一天一千年 (`.../IVdKWyq`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 296 | 第1话 时停千年 (`.../IpgKKIq`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 230 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,29 +45,30 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 99 entries |  |  |  |
 | latest listing | PASS | 51 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=雪之牢笼, URL=`.../IIVWygq` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=我被困在同一天一千年, URL=`.../IVdKWyq` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 151/151 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | UNUSUAL | 149/151 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 152/152 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 152/152 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://p6.ecombdimg.com/.../e90d69febaa44dd8bf4718e572ba64d1~tplv-scl3phc04j-image.jpeg` (image/jpeg, 49351 bytes, 420x560) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../IIVWygq` |  |  |  |
-| details thumbnail URL | PASS | `https://p6.ecombdimg.com/.../e90d69febaa44dd8bf4718e572ba64d1~tplv-scl3phc04j-image.jpeg` |  |  |  |
-| details author | PASS | 九川动漫 |  |  |  |
+| thumbnail | PASS | `https://p6.ecombdimg.com/.../7e45479769de4fb8870ed8ff8425872c~tplv-scl3phc04j-image.jpeg` (image/jpeg, 27400 bytes, 500x313) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../IVdKWyq` |  |  |  |
+| details thumbnail URL | PASS | `https://p6.ecombdimg.com/.../7e45479769de4fb8870ed8ff8425872c~tplv-scl3phc04j-image.jpeg` |  |  |  |
+| details author | PASS | 丧泽（原著） |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | 强强, 高甜 |  |  |  |
+| details genres | PASS | 穿越, 奇幻 |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | 更新时间：09月26日<br><br>OMEGA狼族少年泽恩和父亲一起被陷害杀死了近卫队长，被逐出狼群，沦为通缉犯。为了寻找父亲和真相，泽恩被迫开始了无尽的逃亡。然而无论是忽然出现的命运伴侣，还是早就陪伴在自己身边的“弟弟”，都逐渐对泽恩产生了强烈的占有欲，想让泽恩沦为自己的禁脔…… |  |  |  |
-| metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 68 chapters |  |  |  |
-| chapter dates | LINT | All 68 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=68 |  |  |  |
+| details description | PASS | 更新时间：09月10日<br><br>吴辰穿越新世界，却被困在2020年7月7日这一天，不断轮回！他曾肆意放纵，做尽恶事，也曾绝望暴走，但每到新的一天，一切都会重来。就这样他轮回了一千年，新的一天，太阳照常升起。——时间是：2020年7月8日。 |  |  |  |
+| metadata trimming | LINT | Untrimmed fields: chapter 71 name, chapter 72 name, chapter 73 name, chapter 74 name, chapter 75 name, chapter 76 name, chapter 77 name, chapter 78 name, chapter 79 name, chapter 80 name, chapter 81 name, chapter 82 name, chapter 83 name, chapter 147 name, chapter 240 name, chapter 263 name, chapter 271 name |  |  |  |
+| chapters | PASS | 296 chapters |  |  |  |
+| chapter dates | LINT | All 296 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=296 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 7 HTTP page URLs |  |  |  |
+| page URLs | PASS | 230 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://p9-zhuxiaobang-sign.shimolife.com/.../oEIPTneBNEEAdABfOEHLZCIIIwGAYqECVAeZQD~tplv-hra1ikqiyn-29.jpeg <redacted query values: lk3s, x-expires, and x-signature>` (image/jpeg, 309945 bytes, 1200x1714) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://p3-zhuxiaobang-sign.shimolife.com/.../o0YQBf86HiKBIHbvyAzQiBDDE3UbBA62CAVAnS~tplv-hra1ikqiyn-29.jpeg <redacted query values: lk3s, x-expires, and x-signature>` (image/jpeg, 116775 bytes, 1080x844) |  |  |  |

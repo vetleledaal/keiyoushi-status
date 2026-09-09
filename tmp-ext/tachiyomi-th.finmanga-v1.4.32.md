@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-th.finmanga-v1.4.32
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 31
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 32
 - Lint: 2
 - Warnings: 0
 - Skipped: 0
@@ -16,21 +16,22 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 7656859857051979814
 - Source name: Fin Manga
 - Source language: th
-- Selected manga input: latest offset 0: For My Birthday, I Was Gifted Five Husbands เมื่อฉันได้รับสามีหนุ่มหล่อห้าคนใันวันเกิด (`.../for-my-birthday-i-was-gifted-five-husbands`)
+- Selected manga input: popular offset 0: Payment for the Ride รักครั้งนี้ ขอจ่ายด้วยหัวใจฉัน (`.../payment-for-the-ride`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 20 | For My Birthday, I Was Gifted Five Husbands เมื่อฉันได้รับสามีหนุ่มหล่อห้าคนใันวันเกิด (`.../for-my-birthday-i-was-gifted-five-husbands`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | For My Birthday, I Was Gifted Five Husbands เมื่อฉันได้รับสามีหนุ่มหล่อห้าคนใันวันเกิด (`.../for-my-birthday-i-was-gifted-five-husbands`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | For My Birthday, I Was Gifted Five Husbands เมื่อฉันได้รับสามีหนุ่มหล่อห้าคนใันวันเกิด (`.../for-my-birthday-i-was-gifted-five-husbands`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | For My Birthday, I Was Gifted Five Husbands เมื่อฉันได้รับสามีหนุ่มหล่อห้าคนใันวันเกิด (`.../for-my-birthday-i-was-gifted-five-husbands`) |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 20 | For My Birthday, I Was Gifted Five Husbands เมื่อฉันได้รับสามีหนุ่มหล่อห้าคนใันวันเกิด (`.../for-my-birthday-i-was-gifted-five-husbands`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | For My Birthday, I Was Gifted Five Husbands เมื่อฉันได้รับสามีหนุ่มหล่อห้าคนใันวันเกิด (`.../for-my-birthday-i-was-gifted-five-husbands`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 33 | ตอนที่ 0 (`.../for-my-birthday-i-was-gifted-five-husbands-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-0`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 14 |  |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 20 | Payment for the Ride รักครั้งนี้ ขอจ่ายด้วยหัวใจฉัน (`.../payment-for-the-ride`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | Payment for the Ride รักครั้งนี้ ขอจ่ายด้วยหัวใจฉัน (`.../payment-for-the-ride`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | Payment for the Ride รักครั้งนี้ ขอจ่ายด้วยหัวใจฉัน (`.../payment-for-the-ride`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | Payment for the Ride รักครั้งนี้ ขอจ่ายด้วยหัวใจฉัน (`.../payment-for-the-ride`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 20 | Payment for the Ride รักครั้งนี้ ขอจ่ายด้วยหัวใจฉัน (`.../payment-for-the-ride`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Payment for the Ride รักครั้งนี้ ขอจ่ายด้วยหัวใจฉัน (`.../payment-for-the-ride`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 42 | ตอนที่ 1 (`.../payment-for-the-ride-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-1`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 115 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,7 +45,7 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 20 entries |  |  |  |
 | latest listing | PASS | 20 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=For My Birthday, I Was Gifted Five Husbands เมื่อฉันได้รับสามีหนุ่มหล่อห้าคนใันวันเกิด, URL=`.../for-my-birthday-i-was-gifted-five-husbands` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=Payment for the Ride รักครั้งนี้ ขอจ่ายด้วยหัวใจฉัน, URL=`.../payment-for-the-ride` |  |  |  |
 | latest differs from popular | LINT | Latest page 1 exactly matches popular page 1; verify supportsLatest |  |  |  |
 | popular pagination | FAIL | Page 2 matches page 1 exactly | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | latest pagination | FAIL | Page 2 matches page 1 exactly | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
@@ -52,21 +53,22 @@
 | manga title and URL | PASS | 100/100 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 100/100 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://www.fin-manga.com/.../For-My-Birthday-I-Was-Gifted-Five-Husbands.jpg` (image/jpeg, 45776 bytes, 400x530) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../for-my-birthday-i-was-gifted-five-husbands` |  |  |  |
+| thumbnail | PASS | `https://www.fin-manga.com/.../Payment-for-the-Ride.jpg` (image/jpeg, 38137 bytes, 400x562) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../payment-for-the-ride` |  |  |  |
 | details thumbnail URL | FAIL | Thumbnail URL `data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7` is not an absolute HTTP(S) URL (data scheme) | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | details author | PASS | null |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | Adult, Comedy, Harem, Josei, Mature, Romance, Smut, ตลก, มังงะเกาหลี, ฮาเร็ม, โรแมนติก, Manhwa |  |  |  |
+| details genres | PASS | Adult, Josei, Romance, Smut, มังงะจบแล้ว, มังงะเกาหลี, โรแมนซ์, โรแมนติก, Manhwa |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | เรื่องย่อ For My Birthday, I Was Gifted Five Husbands เมื่อฉันได้รับสามีหนุ่มหล่อห้าคนใันวันเกิด มังงะแปลไทย ผลงานเรื่องนี้มีการบรรยายถึงกิจกรรมทางเพศกับบุคคลหลายคน รวมถึงพฤติกรรมทางเพศที่อาจมีความเกินจริง โปรดใช้วิจารณญาณในการอ่าน เพราะความเจ้าชู้ของพ่อ ทำให้แม่ต้องทนทุกข์ทรมานมาตลอดชีวิต จนกระทั่งวาระสุดท้าย แม่ได้ทิ้งคำพูดนี้ไว้ว่า… “ผู้ชายคนเดียวมันไม่พอ… ลูกต้องเจอผู้ชายเยอะๆ ต้องมีพวกเขารายล้อมไว้ให้ได้นะ” ในตอนแรก ‘ยูเจนี นอร์ตัน’ ไม่เคยเก็บคำพูดนั้นมาใส่ใจเลย จนกระทั่งงานศพของแม่จบลง พ่อก็พาสาวน้อยคนใหม่กับลูกติดเข้ามาในบ้าน เธอจึงตกอยู่ในวิกฤตที่กำลังจะถูกแย่งชิงทั้งคู่หมั้นและมรดกทั้งหมดไป ทว่าในวันเกิดครบรอบ 24 ปี… ‘ของขวัญ’ หลายชิ้นที่แม่เตรียมไว้ให้ลูกสาวโดยเฉพาะ ก็ได้ปรากฏตัวขึ้นต่อหน้าเธอ! พี่ชายคนสนิท จากตระกูลพลเรือเอกแห่งภาคใต้ ท่านดยุกแห่งแดนเหนือ วีรบุรุษสงครามของจักรวรรดิ นักธุรกิจหนุ่มรุ่นน้อง ผู้กุมบังเหียนธุรกิจสีเทา ผู้อุปถัมภ์งานศิลปะ คู่ปรับตลอดกาลสมัยเรียนอคาเดมี่ เพื่อนสมัยเด็ก ผู้ดำรงตำแหน่งนักบวชที่โตมาด้วยกัน… และนี่คือเรื่องราวของ ‘ยูเจนี นอร์ตัน’ บัณฑิตสาวธรรมดาๆ ในจักรวรรดิ ที่ต้องกลายมาเป็นผู้ครอบครองและบัญชาการ (หัวใจ) สามีทั้งห้าคน<br><br>Alternative Names: Aparecieron cinco esposos, Cinq maris sont apparus, El día de mi cumpleaños, Five Husbands Appeared on My Birthday, Five Husbands For My Birthday, For My Birthday I Was Gifted Five Husbands, I Received Five Husbands as a Gift on My Birthday, Le jour de mon anniversaire, Năm Người Chồng Xuất Hiện Vào Sinh Nhật Tôi, في يوم ميلادي، ظهر خمسة أزواج, मेरे जन्मदिन पर पाँच पति सामने आए, 出现了五个丈夫, 在我生日那天, 생일날 남편 다섯이 나타났다 |  |  |  |
+| details description | PASS | เรื่องย่อ Payment for the Ride รักครั้งนี้ ขอจ่ายด้วยหัวใจฉัน แปลไทย “ดาอึน” พลาดรถเมประจำหมู่บ้านที่ให้บริการเพียง 2 ครั้งต่อวัน ทำให้เธอตัดสินใจเดินเพื่อกลับไปยังหมู่บ้านที่ตั้งอยู่ในป่าลึกกลางหุบเขาของเธอ แสงแดดในฤดูร้อนแผดเผาจนเหงื่อซึมออกมาทำให้เสื้อผ้าชื้นแฉะไปหมด ระหว่างที่เธอกำลังก้าวเท้าอย่างเหนื่อยล้าอยู่นั้น อยู่ ๆ ก็มีชายผู้หนึ่งที่อยู่ ๆ ก็มาปรากฏตัวในหมู่บ้านจอดรถให้ ดาอึนจึงยื่นกางเกงในที่เธอใส่ให้เขาเป็นค่ารถ….<br><br>Alternative Names: Ahjussi Aku akan bayar ongkosnya, Ajeossi I'll Give You the Car Fare, Chú À Tôi Sẽ Trả Tiền Xe Cho Chú, Mister I'll pay for the ride, Payment for the Ride, รักครั้งนี้ ขอจ่ายด้วยหัวใจฉัน, おじさん、タクシー代払います, 大叔，給你車費, 아저씨 차비 드릴게요 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 33 chapters |  |  |  |
-| chapter dates | LINT | All 33 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=33 |  |  |  |
+| chapters | PASS | 42 chapters |  |  |  |
+| chapter dates | LINT | All 42 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=42 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 14 HTTP page URLs |  |  |  |
+| page URLs | PASS | 115 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://www.fin-manga.com/.../For-My-Birthday-I-Was-Gifted-Five-Husbands-ep0-1.webp` (image/webp (encoding: lossy), 745226 bytes, 1000x8000) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://www.fin-manga.com/.../Payment-for1001.jpg` (image/jpeg, 31444 bytes, 797x972) |  |  |  |

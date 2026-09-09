@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.mangalek-v1.4.65
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 16
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 17
 - Lint: 0
 - Warnings: 0
 - Skipped: 18
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madaralegacy
 - Source ID: 918460697583900080
 - Source name: مانجا ليك
 - Source language: ar
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 10 | Otherworldly Evil Monarch (`.../otherworldly-evil-monarch`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 10 | Martial Peak (`.../martial-peak`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 10 | Unofficial Campus Couple (`.../unofficia-campus-couple`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 10 | The Eldest Daughter’s Flower path (`.../the-eldest-daughters-flower-path`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 10 | The Mansion Awaits Spring (`.../the-mansion-await-spring`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 10 | The Former Supreme (`.../the-former-supreme`) |  | 10s+ |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Otherworldly Evil Monarch (`.../otherworldly-evil-monarch`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | 1-10s |
 | chapters | `fetchChapterList(manga)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

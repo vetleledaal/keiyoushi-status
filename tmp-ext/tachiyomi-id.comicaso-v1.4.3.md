@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.comicaso-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 14
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 15
 - Lint: 0
 - Warnings: 0
 - Skipped: 20
@@ -25,11 +25,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 50 | FLOWERS ARE BAIT (`.../flowers-are-bait`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 60 | You Will Pay With Your Life For Deceiving Me (`.../you-will-pay-with-your-life-for-deceiving-me`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 60 | Regressed Warrior’s Female Dominance (`.../regressed-warriors-female-dominance`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 60 | The Succubus Wants to Live a Normal Life! (`.../the-succubus-wants-to-live-a-normal-life`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 60 | The Search for Alosha (`.../the-search-for-alosha`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | FLOWERS ARE BAIT (`.../flowers-are-bait`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | 1-10s |
-| chapters | `fetchChapterList(manga)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | 1-10s |
+| details | `fetchMangaDetails(manga)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
+| chapters | `fetchChapterList(manga)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
 | pages | `fetchPageList(chapter)` | skipped | 0 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

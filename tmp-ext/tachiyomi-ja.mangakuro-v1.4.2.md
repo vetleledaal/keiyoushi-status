@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-ja.mangakuro-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 35
 - Lint: 1
-- Warnings: 0
+- Warnings: 1
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -23,13 +23,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 24 | 入学傭兵 (`.../ru-xue-yong-bing`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 24 | ラグナール～回帰の剣士～ (`.../ragunaru-hui-guino-jian-shi`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 24 | 万年レベル1プレイヤー (`.../wan-nianreberu1pureiya`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 24 | 従者は大魔皇 (`.../cong-zheha-da-mo-huang`) |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 入学傭兵 (`.../ru-xue-yong-bing`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | 入学傭兵 (`.../ru-xue-yong-bing`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 280 | 第1話 (`.../di1hua`) |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 24 | 入学傭兵 (`.../ru-xue-yong-bing`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 24 | ラグナール～回帰の剣士～ (`.../ragunaru-hui-guino-jian-shi`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 24 | チュートリアルが死ぬほど難しい (`.../chutoriaruga-sinuhodo-nanshii`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 24 | 誰かが私に憑依した (`.../shuikaga-sini-ping-yishita`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 入学傭兵 (`.../ru-xue-yong-bing`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | 入学傭兵 (`.../ru-xue-yong-bing`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 280 | 第1話 (`.../di1hua`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 131 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 131 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | pages: `https://i2.wp.com/.../1.jpg` to `https://blogger.googleusercontent.com/.../1.jpg` (1 redirects) |  |  |  |
 | page load | PASS | `https://i2.wp.com/.../1.jpg` (image/webp (container: extended), 288326 bytes, 690x1280) |  |  |  |

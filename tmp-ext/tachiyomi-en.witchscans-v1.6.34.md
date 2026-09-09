@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.witchscans-v1.6.34
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 35
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 37
 - Lint: 0
-- Warnings: 1
+- Warnings: 0
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: vinetheme
 - Source ID: 3119719730967642939
 - Source name: WitchScans
 - Source language: en
@@ -24,9 +25,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | Ultimate Son-in-Law (`.../cmsgqhwdc29xyo5qk6rxarl2d`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 24 | GLOBAL GAME: I CAN BOOST EVERYTHING A HUNDRED TIMES (`.../cmt6f6aq70000u1qkalhqoa6a`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 24 | Greatest Boss System (`.../cmsgqgzh10ys9o5qkdaw7mwnb`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | success | 24 | Global: The Fusionist, Starting With An Undead Army (`.../cmt0lurys000dqxqkt8gdbn5v`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | Dragon Tamer: Scales Against the Heavens (`.../cmsgsxrlx109tidqkcmqk4yf3`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | No One on Titan (`.../cmsgqheif1gx1o5qkqz9bn25m`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Ultimate Son-in-Law (`.../cmsgqhwdc29xyo5qk6rxarl2d`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Ultimate Son-in-Law (`.../cmsgqhwdc29xyo5qk6rxarl2d`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 401 | Chapter 1 (`.../cmsgyfbi802gedtqk2gj8hamh`) |  | 1-10s |
@@ -47,7 +48,7 @@
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Ultimate Son-in-Law, URL=`cmsgqhwdc29xyo5qk6rxarl2d` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
-| latest pagination | UNUSUAL | Overlapping manga: title=Dragon Tamer: Scales Against the Heavens, URL=`cmsgsxrlx109tidqkcmqk4yf3` at page 1 offset 23 and page 2 offset 0 |  |  |  |
+| latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
 | manga title and URL | PASS | 97/97 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 97/97 manga have thumbnail URLs |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 19 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://witchtoons.net/.../page-001.webp <redacted query values: sig and exp>` (image/webp (encoding: lossy), 1383044 bytes, 800x13000) |  |  |  |

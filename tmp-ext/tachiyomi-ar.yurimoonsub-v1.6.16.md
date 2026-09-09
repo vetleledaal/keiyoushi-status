@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.yurimoonsub-v1.6.16
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 32
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 33
 - Lint: 0
 - Warnings: 1
 - Skipped: 2
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 7833471811016150678
 - Source name: Yuri Moon Sub
 - Source language: ar
@@ -23,12 +24,12 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 5 | Bad Thinking Diary مانهوا مترجمة (`.../bad-thinking-diary_23.html`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 5 | Bad Thinking Diary مانهوا مترجمة (`.../bad-thinking-diary_23.html`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 20 | MURMUR مترجمة (`.../murmur.html`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 20 | show me your bust مانهوا مترجمة (`.../show-me-your-bust_01940674042.html`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 8 | borrowing textbooks (`.../borrowing-textbooks.html`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Bad Thinking Diary مانهوا مترجمة (`.../bad-thinking-diary_23.html`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Bad Thinking Diary مانهوا مترجمة (`.../bad-thinking-diary_23.html`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 61 | الفصل 1 (`.../1_21.html`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 120 |  |  | 1-10s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 120 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../chap_1_page-0001.jpg` (image/webp (container: extended), 4800 bytes, 721x1600) |  |  |  |

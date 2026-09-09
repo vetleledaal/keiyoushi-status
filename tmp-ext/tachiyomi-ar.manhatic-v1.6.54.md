@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-ar.manhatic-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 2
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 32
 - Failed: 2
 - Retry disposition: DO_NOT_RETRY
@@ -16,15 +16,16 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 152314873890577786
 - Source name: Manhatic
 - Source language: ar
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 0 |  |  | <1s |
+| popular | `getPopularManga(1)` | success | 0 |  |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 0 |  |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 0 |  |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | skipped | 0 |  |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | skipped | 0 |  |  | <1s |
@@ -68,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://manhatic.com/.../admin-ajax.php` to `https://hentailek.com` (1 redirects); popular: `https://manhatic.com/.../admin-ajax.php` to `https://hentailek.com` (1 redirects) |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.truyentranhdammy-v1.6.57
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 34
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 35
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 3809566188515992024
 - Source name: Truyện tranh đam mỹ
 - Source language: vi
@@ -24,9 +25,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | NGHỊCH TẬP CHI HẢO DỰNG NHÂN SINH (`.../200`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 25 | Nương Nương Khang (`.../6397`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 25 | Ái Chi Dục Kỳ Sinh [Hệ thống sát thê] (`.../13220`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | QUAN CHỈ HUY LẠNH LÙNG VỪA HÔN LÀ KHÓC (`.../12692`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | Tin tức tố nói chúng ta không có khả năng (`.../1983`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Lời Tỏ Tình Của Kẻ Nhìn Trộm (`.../14046`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Cấm Tiếp Xúc Với Tử Thần (`.../13465`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 2 | NGHỊCH TẬP CHI HẢO DỰNG NHÂN SINH (`.../200`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | NGHỊCH TẬP CHI HẢO DỰNG NHÂN SINH (`.../200`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 431 | Chapter 1 (`.../chapter-1`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 102 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://truyentranhdammyy.site/.../001.jpg` (image/webp (encoding: lossy), 102374 bytes, 1099x1328; server Content-Type: image/jpeg) |  |  |  |

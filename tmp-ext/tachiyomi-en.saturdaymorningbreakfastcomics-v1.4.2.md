@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.saturdaymorningbreakfastcomics-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 27
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 28
 - Lint: 0
 - Warnings: 0
 - Skipped: 8
@@ -29,7 +29,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Saturday Morning Breakfast Comics (`.../archive`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 7898 | 2002-09-05 (`.../2002-09-05`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 7905 | 2002-09-05 (`.../2002-09-05`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 3 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | SMBC is a daily comic strip about life, philosophy, science, mathematics, and dirty jokes. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 7898 chapters |  |  |  |
-| chapter dates | PASS | 7898 positive upload dates |  |  |  |
+| chapters | PASS | 7905 chapters |  |  |  |
+| chapter dates | PASS | 7905 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 3 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://www.smbc-comics.com/.../20020905-2.gif` (image/gif (format: 89a), 40866 bytes, 468x612) |  |  |  |

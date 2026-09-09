@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.tankouhentai-v1.6.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 9200419821846585447
 - Source name: Tankou Hentai
 - Source language: pt-BR
@@ -23,10 +24,10 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | Rankou de Wakarou! (`.../894`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 25 | Rankou de Wakarou! (`.../894`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 25 | Hyji – Kinjo (`.../1086`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 25 | Juku Juku (`.../2390`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Boku o Kurau wa Kasshoku Gal (`.../2326`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Saotsuki Honey to Doukyo Seikatsu (`.../2393`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Onna Boukensha-tachi ga Sabaku no Oasis ni Tachiyoru to… (`.../2343`) |  | 10s+ |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Rankou de Wakarou! (`.../894`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Rankou de Wakarou! (`.../894`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 6 | Capítulo 01 (`.../capitulo-01`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 41 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://tankouhentai.com/.../Pg_001.webp` (image/webp (encoding: lossy), 129376 bytes, 845x1200) |  |  |  |

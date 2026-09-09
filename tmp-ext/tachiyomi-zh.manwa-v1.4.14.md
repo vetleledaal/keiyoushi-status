@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-zh.manwa-v1.4.14
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 1
 - Warnings: 0
 - Skipped: 2
@@ -25,10 +25,10 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 50 | 魔咒 (完整版) (`.../47471`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 15 | 实衣与山田 (`.../466177`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 15 | 菈菈和彻比～死也愿意!～ (`.../530071`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 23 | 魔咒 (完整版) (`.../47471`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | 魔咒 (完整版) (`.../47471`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 15 | 冲突 (`.../535036`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 15 | エリート魔导师、自慰を盗撮され性欲解放！制服乱交パーティ！（AI） (`.../471466`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 23 | 魔咒 (完整版) (`.../47471`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | 魔咒 (完整版) (`.../47471`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 130 | 第01话 (`.../1085332`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 82 |  |  | 1-10s |
 
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 82 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://mwappimgs.cc/.../65989cbbba77065a61f99b4e2dffaf19_n1_wa.webp <redacted query values: v>` (image/webp (encoding: lossy), 107968 bytes, 800x3313; server Content-Type: binary/octet-stream) |  |  |  |

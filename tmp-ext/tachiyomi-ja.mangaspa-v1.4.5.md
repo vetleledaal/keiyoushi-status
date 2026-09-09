@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.mangaspa-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 31
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 32
 - Lint: 0
 - Warnings: 1
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: comiciviewer
 - Source ID: 2566686121922544500
 - Source name: Manga SPA
 - Source language: ja
@@ -25,9 +26,9 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 32 | 令和のおもちゃ ウーピン (`.../b8686a211ebfa`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 24 | 飛鳥クリニックは今日も雨 (`.../68aaf1a9e2a80`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 24 | 会社をやめて馬主やります！―アキコノユメヲ― (`.../5306b64084f98`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 令和のおもちゃ ウーピン (`.../b8686a211ebfa`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 令和のおもちゃ ウーピン (`.../b8686a211ebfa`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | 令和のおもちゃ ウーピン (`.../b8686a211ebfa`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 22 | 第1話 あゝ人生に涙あり (`.../5fbbe0d610d7b`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 10 |  |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 10 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://viewer.mangaspa.nikkan-spa.jp/.../master-1758707809886-01.jpg <redacted query values: Expires, Signature, and Key-Pair-Id> 11, 7, 8, 14, 0, 4, 15, 2, 6, 12, 3, 1, 13, 10, 5\]` (image/jpeg, 2015797 bytes, 2560x3371) |  |  |  |

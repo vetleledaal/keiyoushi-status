@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.imanevilgod-v1.4.7
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 23
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 24
 - Lint: 3
 - Warnings: 0
 - Skipped: 9
@@ -28,8 +28,8 @@
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | I'm An Evil God (`<redacted URL #1: selected resource; relative; no scheme>`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | I'm An Evil God (`<redacted URL #1: selected resource; relative; no scheme>`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 620 | I”m An Evil God Manhua Chapter 0 (`.../im-an-evil-god-manhua-chapter-0`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | I'm An Evil God (`<redacted URL #1: selected resource; relative; no scheme>`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 620 | I”m An Evil God Manhua Chapter 0 (`.../im-an-evil-god-manhua-chapter-0`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 50 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 50 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://imanevilgod.com/.../1.jpg` (image/jpeg, 27178 bytes, 800x473) |  |  |  |

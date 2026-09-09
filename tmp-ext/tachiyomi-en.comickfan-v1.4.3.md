@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.comickfan-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -24,13 +24,13 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 15 | My Home Hero (`.../my-home-hero`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 15 | I Look Too Much Like The Boss And The World Actually Believes It (`.../i-look-too-much-like-the-boss-and-the-world-actually-believes-it`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 15 | I’ll Try to Save My Father (`.../ill-try-to-save-my-father`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 15 | College Coeds (`.../college-coeds`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | My Home Hero (`.../my-home-hero`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 15 | Chronicle of Runes (`.../chronicle-of-runes`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 15 | Hardcore Leveling Warrior (`.../00-hardcore-leveling-warrior`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 15 | The Lovestruck Lady's Secret Plan to Win Over the Oblivious Knight (`.../the-lovestruck-ladys-secret-plan-to-win-over-the-oblivious-knight`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | My Home Hero (`.../my-home-hero`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | My Home Hero (`.../my-home-hero`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 444 | Chapter 1 (`.../chapter-1-YCZeAFskBT4`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 45 |  |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 45 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 45 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://meo.cdncmk.com/.../XhIYAQUoClgGMCBYSwgcXR1bGgwEalZNWWJhBVRcbFw.webp` (image/webp (encoding: lossy), 208566 bytes, 1500x2137) |  |  |  |

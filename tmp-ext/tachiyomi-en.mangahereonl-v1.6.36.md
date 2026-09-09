@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.mangahereonl-v1.6.36
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 36
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangahub
 - Source ID: 3901872639081578162
 - Source name: MangaHere.onl
 - Source language: en
@@ -25,10 +26,10 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 30 | Martial Peak (`.../martial-peak`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 30 | Release That Witch (`.../release-that-witch`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 30 | Satanofani (`.../satanofani`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 30 | Kanzen Kaihi Healer no Kiseki (`.../kanzen-kaihi-healer-no-kiseki`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Martial Peak (`.../martial-peak`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Martial Peak (`.../martial-peak`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 30 | Hitoribocchi no Isekai Kouryaku (`.../hitoribocchi-no-isekai-kouryaku`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 30 | Saki (`.../saki`) |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Martial Peak (`.../martial-peak`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Martial Peak (`.../martial-peak`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 3865 | Chapter 1 (`.../chapter-1.0`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 20 |  |  | <1s |
 
@@ -59,8 +60,7 @@
 | details artist | PASS | Pikapi (噼咔噼) |  |  |  |
 | details genres | PASS | Action, Adventure, Wuxia, Fantasy, Martial Arts, Harem, Supernatural, Sexual Violence, Long Strip, Adaptation, Full Color, Suggestive |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | The peak of martial arts is solitary and lonely. It is an endless pursuit for unattainable heights as well. In order to surpass the limits of martial arts, growth and the will to survive in adverse situations is necessary.
-<br>One day, Yang Kai, a disciple-on-trial (and floor sweeper) of the Lingxiao Martial Arts Sect discovered a Wordless Black Book. That marked the turn in his luck and the beginning of his martial arts journey. |  |  |  |
+| details description | PASS | The peak of martial arts is solitary and lonely. It is an endless pursuit for unattainable heights as well. In order to surpass the limits of martial arts, growth and the will to survive in adverse situations is necessary.<br>One day, Yang Kai, a disciple-on-trial (and floor sweeper) of the Lingxiao Martial Arts Sect discovered a Wordless Black Book. That marked the turn in his luck and the beginning of his martial arts journey. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | PASS | 3865 chapters |  |  |  |
 | chapter dates | PASS | 3865 positive upload dates |  |  |  |
@@ -70,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 20 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://mangahere.onl/.../chapter-1850` to `https://mangahere.onl/.../martial-peak` (1 redirects) |  |  |  |
 | page load | PASS | `https://imgx.mghcdn.com/.../1.jpg` (image/jpeg, 258060 bytes, 764x1200) |  |  |  |

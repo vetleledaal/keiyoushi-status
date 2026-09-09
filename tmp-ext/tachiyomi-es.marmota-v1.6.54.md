@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.marmota-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 5937472249278743372
 - Source name: Marmota
 - Source language: es
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Absolute Batman (2024) (`.../1879`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Ultimate Black Panther (2024) (`.../1343`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 25 | Captain America (2025) (`.../2186`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Absolute Wonder Woman (2024) (`.../1909`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | The Mortal Thor (2025) (`.../2656`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Avengers: Armageddon – Event (2026) (`.../3068`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 2 | Absolute Batman (2024) (`.../1879`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Absolute Batman (2024) (`.../1879`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 25 | Absolute Batman #1 (`.../absolute-batman-1`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 25 | Absolute Batman #1 (`.../absolute-batman-1`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 41 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 41 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `http://marmota.me/.../Absolute-Batman-001-(2024)-001.jpg` (image/jpeg, 236233 bytes, 1050x1615) |  |  |  |

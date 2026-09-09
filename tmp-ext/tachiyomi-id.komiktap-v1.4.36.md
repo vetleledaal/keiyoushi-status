@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.komiktap-v1.4.36
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 8162933120097302217
 - Source name: Komiktap
 - Source language: id
@@ -23,13 +24,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 25 | Secret Class (`.../secret-class`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 25 | Secret Class (`.../secret-class`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 25 | Living With a MILF (`.../living-with-a-milf`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 25 | Wireless Onahole (`.../wireless-onahole`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 25 | Shitataru Kano Haha (`.../shitataru-kano-haha`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 25 | Sex janai kara Uwaki ja Arimasen. ~Namae shika Shiranai Jimi Kyonyuu Buka no Gyaku Omochikaeri OnaSuppo~ (`.../sex-janai-kara-uwaki-ja-arimasen-namae-shika-shiranai-jimi-kyonyuu-buka-no-gyaku-omochikaeri-onasuppo`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 25 | I’ll turn a divorced woman and a nagging housewife into ripe, voluptuous sex toys with their complicated pasts (`.../ill-turn-a-divorced-woman-and-a-nagging-housewife-into-ripe-voluptuous-sex-toys-with-their-complicated-pasts`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 3 | Secret Class (`.../secret-class`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Secret Class (`.../secret-class`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 315 | Chapter 01 (`.../secret-class-chapter-1`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 316 | Chapter 01 (`.../secret-class-chapter-1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 23 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | yang jelas anak di buang dan netnot ama bibinya<br><br>Alternative Names: 비밀수업, 秘密教學 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 315 chapters |  |  |  |
-| chapter dates | LINT | 196 of 315 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=196 |  |  |  |
+| chapters | PASS | 316 chapters |  |  |  |
+| chapter dates | LINT | 196 of 316 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=196 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 23 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.komikindo.info/.../1.jpg` (image/jpeg, 59325 bytes, 720x880) |  |  |  |

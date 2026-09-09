@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.ulascomic-v1.6.14
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 12
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 13
 - Lint: 0
 - Warnings: 0
 - Skipped: 21
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 440952493414630310
 - Source name: Ulas Comic
 - Source language: id
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

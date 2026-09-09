@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.yaoihot-v1.6.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 33
 - Lint: 2
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 47 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://yaoihot.com/.../manga <redacted query values: orderby>` to `https://yaoihot.com/.../manga <redacted query values: orderby>` (1 redirects); popular: `https://yaoihot.com/.../manga <redacted query values: orderby>` to `https://yaoihot.com/.../manga <redacted query values: orderby>` (1 redirects); popular: `https://yaoihot.com/.../2 <redacted query values: orderby>` to `https://yaoihot.com/.../2 <redacted query values: orderby>` (1 redirects); popular: `https://yaoihot.com/.../2 <redacted query values: orderby>` to `https://yaoihot.com/.../2 <redacted query values: orderby>` (1 redirects) |  |  |  |
 | page load | PASS | `https://rs2j9f862xh57.mangadistrict.com/.../001.jpg` (image/jpeg, 119532 bytes, 720x411) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.pandachaika-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -23,13 +23,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 100 | [Hyocorou] Lover Delivery Service [ENG] (`.../19845`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 100 | [Hyocorou] Lover Delivery Service [ENG] (`.../19845`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 100 | [Mino Inomi] Tonight I tell My Older Sister! (COMIC Kairakuten BEAST 2012-09) [English] [The Lusty Lady Project] (`.../2876`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 100 | [Basutei Shower (Katsurai Yoshiaki)] Choukyourankou [English] (`.../3106`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 100 | [(Sencha Bashira, Mugicha Bashira)] Fairy Brothel (Volume 1): The Virgin Orc Assigned To The Dark Skinned Elf [English] [Comics EnjoyerTranslation] (`.../62542`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 100 | [(Sencha Bashira, Mugicha Bashira)] Fairy Brothel (Volume 1): The Virgin Orc Assigned To The Dark Skinned Elf [English] [Comics EnjoyerTranslation] (`.../62542`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | [Basutei Shower (Katsurai Yoshiaki)] Choukyourankou [English] (`.../3106`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | [Basutei Shower (Katsurai Yoshiaki)] Choukyourankou [English] (`.../3106`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 1 | Chapter (`.../3106`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 1 | Chapter (`.../3106`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 35 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 35 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `<redacted URL #1: resource; absolute; valid web scheme; workstation or local network>` (image/jpeg, 622743 bytes, 1128x1600; server Content-Type: application/vnd.comicbook+zip) |  |  |  |

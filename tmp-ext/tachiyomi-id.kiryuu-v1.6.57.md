@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.kiryuu-v1.6.57
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: natsuid
 - Source ID: 3639673976007021338
 - Source name: Kiryuu
 - Source language: id
@@ -25,10 +26,10 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | Martial Peak (`.../%7B%22id%22:233,%22slug%22:%22martial-peak%22%7D`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 24 | Player Who Returned 10,000 Years Later (`.../%7B%22id%22:383309,%22slug%22:%22player-who-returned-10000-years-later%22%7D`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 24 | Forget That Night, Your Majesty (`.../%7B%22id%22:795369,%22slug%22:%22forget-that-night-your-majesty%22%7D`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | World-Saving is a Skill (`.../%7B%22id%22:701938,%22slug%22:%22world-saving-is-a-skill%22%7D`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 24 | Return of the Disaster-Class Hero (`.../%7B%22id%22:322267,%22slug%22:%22return-of-the-disaster-class-hero%22%7D`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | God of Martial Arts (`.../%7B%22id%22:895,%22slug%22:%22god-of-martial-arts%22%7D`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Martial Peak (`.../%7B%22id%22:233,%22slug%22:%22martial-peak%22%7D`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Martial Peak (`.../%7B%22id%22:233,%22slug%22:%22martial-peak%22%7D`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Martial Peak (`.../%7B%22id%22:233,%22slug%22:%22martial-peak%22%7D`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 3870 | Chapter 1 (`.../chapter-1.147609`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 18 |  |  | <1s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 18 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://yuucdn.com/.../1-647a126102777.jpg` (image/jpeg, 215249 bytes, 800x1200) |  |  |  |

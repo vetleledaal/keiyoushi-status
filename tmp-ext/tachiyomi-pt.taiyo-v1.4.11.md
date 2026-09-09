@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.taiyo-v1.4.11
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 29
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 30
 - Lint: 0
 - Warnings: 2
 - Skipped: 5
@@ -24,11 +24,11 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 21 | I am the only the one who levels up (`.../17b03940-450b-4b34-a904-e9b296daee9a`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 21 | Evangelion (`.../df6462cb-1714-44ef-a4bb-7356adf94c8a`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 21 | Evangelion (`.../df6462cb-1714-44ef-a4bb-7356adf94c8a`) |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 21 | I am the only the one who levels up (`.../17b03940-450b-4b34-a904-e9b296daee9a`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Solo Leveling (`.../17b03940-450b-4b34-a904-e9b296daee9a`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 21 | I am the only the one who levels up (`.../17b03940-450b-4b34-a904-e9b296daee9a`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Solo Leveling (`.../17b03940-450b-4b34-a904-e9b296daee9a`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 201 | Capítulo 0 (`.../1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 10 |  |  | 1-10s |
 
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 10 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.taiyo.moe/.../34b25043-1aa3-4b51-929c-fc4d2f54affa.jpg` (image/jpeg, 88596 bytes, 534x788) |  |  |  |

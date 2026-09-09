@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.hentaiman-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 30
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 31
 - Lint: 1
 - Warnings: 1
 - Skipped: 3
@@ -23,13 +23,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 24 | ميروكي (`.../%D9%85%D9%8A%D8%B1%D9%88%D9%83%D9%8A`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 24 | ميروكي (`.../%D9%85%D9%8A%D8%B1%D9%88%D9%83%D9%8A`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 24 | جلسة تصوير شيرونا سان الجريئة (`.../%D8%AC%D9%84%D8%B3%D8%A9-%D8%AA%D8%B5%D9%88%D9%8A%D8%B1-%D8%B4%D9%8A%D8%B1%D9%88%D9%86%D8%A7-%D8%B3%D8%A7%D9%86-%D8%A7%D9%84%D8%AC%D8%B1%D9%8A%D8%A6%D8%A9`) |  | <1s |
 | latest | `fetchLatestUpdates(1)` | success | 0 |  |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 24 | ميروكي (`.../%D9%85%D9%8A%D8%B1%D9%88%D9%83%D9%8A`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | ميروكي (`.../%D9%85%D9%8A%D8%B1%D9%88%D9%83%D9%8A`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 1 | الفصل 1 -  (`.../1`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 1 | الفصل 1 -  (`.../1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 21 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 21 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://hentaiman.net/.../21a44cf0900bda8f.webp` (image/webp (encoding: lossy), 306560 bytes, 1280x1543) |  |  |  |

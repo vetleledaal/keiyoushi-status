@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.riztranslation-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -25,12 +25,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | Shinitai Shoujo no Death Game (`.../59`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 20 | Setogiwa ni Todoroku (`.../29`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 9 | Shinitai Shoujo no Death Game (`.../59`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 7 | Akogare no Hito ni Hanashikakeraretara (`.../48`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 9 | Shinitai Shoujo no Death Game (`.../59`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 7 | Akogare no Hito ni Hanashikakeraretara (`.../48`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Shinitai Shoujo no Death Game (`.../59`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Shinitai Shoujo no Death Game (`.../59`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 1 | Chapter 0 - Oneshot (`.../165`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 60 |  |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 60 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 60 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://res.cloudinary.com/.../is0lb6ilp3he3h48gxtz.webp` (image/webp (container: extended), 22136 bytes, 1280x720) |  |  |  |

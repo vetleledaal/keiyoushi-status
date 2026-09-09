@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-uk.comixtopia-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 10 | Хлопаки (`.../hlopaki`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 10 | Сага (`.../saga-kniga-persha-2014`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 10 | Зелений ліхтар: переродження (`.../zelenij-lihtar-pererodzhennya-2004`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 10 | Геллбой у Мексиці (`.../gellboj-u-meksici-2010`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 10 | Трансформери: Темний Кібертрон (`.../transformeri-temnij-kibertron-2014`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 10 | Паралель: до безодні (`.../paralel-do-bezodni-2026`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Хлопаки (`.../hlopaki`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Хлопаки (`.../hlopaki`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 11 | Розділ #1 (`.../41`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 24 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://comicbookstorage.fra1.cdn.digitaloceanspaces.com/.../1%20(9).jpg` (image/jpeg, 906880 bytes, 1089x1700) |  |  |  |

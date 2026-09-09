@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.mangatilkisi-v1.6.56
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 27
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 28
 - Lint: 1
 - Warnings: 0
 - Skipped: 7
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 1820900722595855271
 - Source name: MangaTilkisi
 - Source language: tr
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Murim Dünyasına Giriş (`.../140`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 25 | Servet Kazanmak İçin Para Kaybediyorum (`.../175`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 25 | Bana Emziğimi Ver (`.../312`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Tanrıların Gizemli Kanalına Abone Oldum (`.../155`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Murim Dünyasına Giriş (`.../140`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Ana Karakterin Refahı İçin Sorumluluk Alacağım (`.../351`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Tanrıların Gizemli Kanalına Abone Oldum (`.../155`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Murim Dünyasına Giriş (`.../140`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | error | 0 |  | java.lang.NullPointerException | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 252 |  (`.../bolum-01`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 252 |  (`.../bolum-01`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 16 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -52,7 +53,7 @@
 | manga title and URL | PASS | 101/101 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 101/101 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://cdn.tilkiscans.com/.../Murim-Dunyasina-Giris-1-350x476.webp` (image/webp (encoding: lossy), 46128 bytes, 350x476) |  |  |  |
+| thumbnail | PASS | `https://cdn.tilkiscans.com/.../Murim-Dunyasina-Giris-1-350x476.webp` (image/webp (encoding: lossy), 40204 bytes, 350x476) |  |  |  |
 | details identity | SKIP | No details manga URL to compare |  |  |  |
 | details thumbnail URL | SKIP | No details manga to check |  |  |  |
 | details author | SKIP | No details manga to check |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 16 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.tilkiscans.com/.../02.webp` (image/webp (encoding: lossy), 347090 bytes, 720x7686) |  |  |  |

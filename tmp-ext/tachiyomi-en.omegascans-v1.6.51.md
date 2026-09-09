@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.omegascans-v1.6.51
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: heancms
 - Source ID: 1534451209269193504
 - Source name: Omega Scans
 - Source language: en
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 12 | Sex Stopwatch (`.../sex-stopwatch`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 12 | Desire Realization App (`.../desire-realization-app`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 12 | Money Games (`.../money-games`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 12 | Regressed Warrior’s Female Dominance Diary (`.../regressed-warriors-female-dominance-diary`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 12 | My Lewd College Friends (`.../my-lewd-college-friends`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 12 | The Reincarnated Man (`.../the-reincarnated-man`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Sex Stopwatch (`.../sex-stopwatch`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Sex Stopwatch (`.../sex-stopwatch`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 156 | Chapter 1 (`.../chapter-1`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 11 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://media.omegascans.org/.../01.jpg` (image/jpeg, 5252400 bytes, 720x13490; server Content-Type: image/jpg) |  |  |  |

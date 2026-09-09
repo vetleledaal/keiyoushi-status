@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-it.nifteam-v1.6.7
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 31
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 32
 - Lint: 2
 - Warnings: 2
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: foolslide
 - Source ID: 7816508865953731299
 - Source name: NIFTeam
 - Source language: it
@@ -25,10 +26,10 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | #DRCL Midnight Children (`.../drcl-midnight-children`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 25 | My Hero Academia NIF (`.../my-hero-academia-nif`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 19 | One Piece NIF (`.../one-piece-nif`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 22 | NIF - BL (`.../nif-bl`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 19 | Gokurakugai (`.../gokurakugai`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 20 | NIF - BL (`.../nif-bl`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | #DRCL Midnight Children (`.../drcl-midnight-children`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | #DRCL Midnight Children (`.../drcl-midnight-children`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | #DRCL Midnight Children (`.../drcl-midnight-children`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Chapter 1: One Shot (`.../1`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 36 |  |  | 1-10s |
 
@@ -47,10 +48,10 @@
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=#DRCL Midnight Children, URL=`.../drcl-midnight-children` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
-| latest pagination | UNUSUAL | Overlapping manga: title=One Piece NIF, URL=`.../one-piece-nif` at page 1 offsets 0, 2, 5, 10, 12, 14, 17 and page 2 offsets 2, 4, 8, 11, 13, 15, 17, 20, title=NIF - BL, URL=`.../nif-bl` at page 1 offsets 1, 4, 6, 16, 18 and page 2 offsets 0, 3, 7, 10, 14, title=Gokurakugai, URL=`.../gokurakugai` at page 1 offsets 3, 8 and page 2 offset 1, title=B2 - Manga, URL=`.../b2-manga` at page 1 offsets 7, 15 and page 2 offsets 5, 12, 21, title=F - Manga, URL=`.../f-manga` at page 1 offsets 9, 11, 13 and page 2 offsets 6, 9, 16, 19 |  |  |  |
-| listing duplicates | FAIL | Latest page 1 repeats 14 manga entries; Latest page 2 repeats 16 manga entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
-| manga title and URL | PASS | 92/92 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | UNUSUAL | 50/92 manga have thumbnail URLs |  |  |  |
+| latest pagination | UNUSUAL | Overlapping manga: title=Gokurakugai, URL=`.../gokurakugai` at page 1 offsets 0, 4, 9 and page 2 offset 1, title=One Piece NIF, URL=`.../one-piece-nif` at page 1 offsets 1, 3, 6, 11, 13, 15, 18 and page 2 offsets 2, 4, 8, 11, 13, 15, 17, title=NIF - BL, URL=`.../nif-bl` at page 1 offsets 2, 5, 7, 17 and page 2 offsets 0, 3, 7, 10, 14, title=B2 - Manga, URL=`.../b2-manga` at page 1 offsets 8, 16 and page 2 offsets 5, 12, title=F - Manga, URL=`.../f-manga` at page 1 offsets 10, 12, 14 and page 2 offsets 6, 9, 16, 19 |  |  |  |
+| listing duplicates | FAIL | Latest page 1 repeats 14 manga entries; Latest page 2 repeats 14 manga entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| manga title and URL | PASS | 90/90 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | UNUSUAL | 50/90 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://read-nifteam.info/.../DRCL_Midnight_Children.png` (image/png, 302796 bytes, 1000x200) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../drcl-midnight-children` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 36 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://read-nifteam.info/.../00.png` (image/png, 804004 bytes, 850x1200) |  |  |  |

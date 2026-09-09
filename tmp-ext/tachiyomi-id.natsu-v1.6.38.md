@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.natsu-v1.6.38
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: natsuid
 - Source ID: 778073414277513172
 - Source name: Natsu
 - Source language: id
@@ -24,13 +25,13 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | Martial Peak (`.../%7B%22id%22:42055,%22slug%22:%22martial-peak%22%7D`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 24 | One Punch-Man (`.../%7B%22id%22:29627,%22slug%22:%22one-punch-man%22%7D`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 24 | Lv. 99 Princess of Black Flame (`.../%7B%22id%22:401824,%22slug%22:%22lv-99-princess-of-black-flame%22%7D`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | Tang Clan Legend (`.../%7B%22id%22:30129,%22slug%22:%22tang-clan-legend%22%7D`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 24 | Juujika no Rokunin (`.../%7B%22id%22:20,%22slug%22:%22juujika-no-rokunin%22%7D`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 24 | The Heavenly Demon Wants a Quiet Life (`.../%7B%22id%22:30565,%22slug%22:%22the-heavenly-demon-wants-a-quiet-life%22%7D`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | I Only Need the Duke’s Child (`.../%7B%22id%22:371342,%22slug%22:%22i-only-need-the-dukes-child%22%7D`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Martial Peak (`.../%7B%22id%22:42055,%22slug%22:%22martial-peak%22%7D`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Martial Peak (`.../%7B%22id%22:42055,%22slug%22:%22martial-peak%22%7D`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Martial Peak (`.../%7B%22id%22:42055,%22slug%22:%22martial-peak%22%7D`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 3865 | Chapter 1 (`.../chapter-1.59006`) |  | 1-10s |
-| pages | `getPageList(chapter)` | success | 18 |  |  | <1s |
+| pages | `getPageList(chapter)` | success | 18 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -47,7 +48,7 @@
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Martial Peak, URL=`{"id":42055,"slug":"martial-peak"}` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
-| latest pagination | UNUSUAL | Overlapping manga: title=Tang Clan Legend, URL=`{"id":30129,"slug":"tang-clan-legend"}` at page 1 offset 23 and page 2 offset 0 |  |  |  |
+| latest pagination | UNUSUAL | Overlapping manga: title=I Only Need the Duke’s Child, URL=`{"id":371342,"slug":"i-only-need-the-dukes-child"}` at page 1 offset 23 and page 2 offset 0 |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
 | manga title and URL | PASS | 97/97 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 97/97 manga have thumbnail URLs |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 18 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.natsu.id/.../1.webp` (image/webp (encoding: lossy), 131040 bytes, 800x1200) |  |  |  |

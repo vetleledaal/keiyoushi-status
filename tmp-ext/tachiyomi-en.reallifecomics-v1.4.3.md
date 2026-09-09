@@ -2,14 +2,14 @@
 
 - Extension: tachiyomi-en.reallifecomics-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 16
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 18
 - Lint: 0
 - Warnings: 1
-- Skipped: 17
+- Skipped: 16
 - Failed: 2
-- Retry disposition: REVIEW
+- Retry disposition: DO_NOT_RETRY
 
 ## Runtime Evidence
 
@@ -29,7 +29,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Real Life Comics (2026) (`.../archivepage.php <redacted query values: year>`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Real Life Comics (2026) (`.../archivepage.php <redacted query values: year>`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | error | 0 |  | java.io.EOFException: SSL peer shut down incorrectly | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 0 |  |  | <1s |
 | pages | `fetchPageList(chapter)` | skipped | 0 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -40,7 +40,7 @@
 | latest_next operation | SKIP | supportsLatest = false |  |  |  |
 | search operation | PASS |  |  |  |  |
 | details operation | PASS |  |  |  |  |
-| chapters operation | ERROR | java.io.EOFException: SSL peer shut down incorrectly | REVIEW | INSUFFICIENT_EVIDENCE |  |
+| chapters operation | PASS |  |  |  |  |
 | pages operation | SKIP | No usable chapter was available |  |  |  |
 | popular listing | PASS | 26 entries |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
@@ -61,7 +61,7 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | The normal daily lives of some abnormal people. This entry includes all the chapters published in 2026 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | SKIP | Chapters did not run successfully |  |  |  |
+| chapters | FAIL | 0 chapters | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | chapter dates | SKIP | No chapters to check |  |  |  |
 | chapter titles | SKIP | No chapters to check |  |  |  |
 | chapter URLs | SKIP | No chapters to check |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

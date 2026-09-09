@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-th.manhwabreakup-v1.4.52
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 1
 - Warnings: 2
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madaralegacy
 - Source ID: 4798104006981431448
 - Source name: ManhwaBreakup
 - Source language: th
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 10 | Player Who Returned 10,000 Years Later (`.../player-who-returned-10000-years-later`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 10 | I Obtained a Mythic Item (`.../i-obtained-a-mythic-item`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 10 | Fake Celebrity – เกมรักซ่อนเร้นของเซเลบจอมปลอม (`.../fake-celebrity`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 10 | The Siren’s Beloved — สุดที่รักของเทพบุตรแห่งท้องทะเล (`.../the-sirens-beloved`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 10 | Beaten to Death, My Siblings Begged for Forgiveness — หลังถูกทุบตีจนตาย พี่น้องของข้ากลับอ้อนวอนขอการให้อภัย (`.../beaten-to-death-my-siblings-begged-for-forgiveness`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 10 | A Despicable Marriage – ทวงคืนทุกอย่างจากสามีอัปยศ (`.../a-despicable-marriage`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Player Who Returned 10,000 Years Later (`.../player-who-returned-10000-years-later`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Player Who Returned 10,000 Years Later (`.../player-who-returned-10000-years-later`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 69 | ตอนที่ 1 (`https://www.manhwabreakup.com/.../%e0%b8%95%e0%b8%ad%e0%b8%99%e0%b8%97%e0%b8%b5%e0%b9%88-1 <redacted query values: style>`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 32 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://img.manhwabreakup.com/.../Upload-Player-Who-Returned-10-000-Years-Later-1-PZ5X7-manhuathai.jpg` (image/jpeg, 186487 bytes, 1000x1433) |  |  |  |

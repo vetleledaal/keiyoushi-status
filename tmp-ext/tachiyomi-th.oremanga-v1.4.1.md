@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-th.oremanga-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 36
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -25,12 +25,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 16 | Kaiju No.8 (`.../kaiju-no-8`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 16 | 365 Days to the Wedding (`.../365-days-to-the-wedding`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 16 | The Tutorial is Too Hard (`.../the-tutorial-is-too-hard`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 16 | High Society (`.../High-Society`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 16 | Honzuki no Gekokujou: Ferdinand no Yakata ni Te (`.../Honzuki-no-Gekokujou-Ferdinand-no-Yakata-ni-Te`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 16 | The Baddest Villainess Is Back (`.../The-Baddest-Villainess-Is-Back`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Kaiju No.8 (`.../kaiju-no-8`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Kaiju No.8 (`.../kaiju-no-8`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 132 | ตอนที่ 1 (`.../kaiju-no-8-1`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 53 |  |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 53 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 53 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://www.oremanga.net/.../1 <redacted query values: order>` to `https://www.oremanga.net/.../advance-search <redacted query values: order>` (1 redirects); latest: `https://www.oremanga.net/.../1 <redacted query values: order>` to `https://www.oremanga.net/.../advance-search <redacted query values: order>` (1 redirects); search: `https://www.oremanga.net/.../1 <redacted query values: title, status, type, and order>` to `https://www.oremanga.net/.../advance-search <redacted query values: title, status, type, and order>` (1 redirects) |  |  |  |
 | page load | PASS | `https://img.oremanga.net/.../Upload-Kaiju-No.8-1-DH9JE.jpg` (image/jpeg, 189014 bytes, 822x1200) |  |  |  |

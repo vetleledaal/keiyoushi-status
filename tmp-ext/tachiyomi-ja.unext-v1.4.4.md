@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.unext-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 31
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 32
 - Lint: 0
 - Warnings: 0
 - Skipped: 4
@@ -24,13 +24,13 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | 小悪魔教師サイコ (`.../BSD0000722100`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | 「子供を殺してください」という親たち (`.../BSD0000979363`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | 小悪魔教師サイコ (`.../BSD0000722100`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | 『縁結び令嬢』がモテ王子の婚活を手伝ったら、なぜか口説かれているのですが！？【単行本版】【電子限定ペーパー付】 (`.../BSD0001236481`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | 君主様に胸やけ (`.../BSD0000841315`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | TSUYOSHI 誰も勝てない、アイツには (`.../BSD0000715410`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | 死にたくないので不本意な恋します (`.../BSD0001022614`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 4 | 小悪魔教師サイコ (`.../BSD0000722100`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | 小悪魔教師サイコ (`.../BSD0000722100`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 172 | 第１話 (`.../BID0001243340`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | error | 0 |  | java.lang.Exception: Log in via WebView and rent or purchase this chapter to read. | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 173 | 第１話 (`.../BID0001243340`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | error | 0 |  | java.lang.Exception: Log in via WebView and rent or purchase this chapter to read. | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | 高校教師が生徒からのイジメにより入院した。代わりに新しく赴任した葛西先生は、美人でスタイル抜群。そのうえ天然で、きわどいトークにもニコニコ応じてくれる。「私が教師になったのは生徒を幸せにするため」と笑う彼女にまで、悪い生徒たちの魔の手が忍び寄る。しかし生徒たちは知らなかった――葛西先生は、サイコパスだと。 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 172 chapters |  |  |  |
-| chapter dates | PASS | 172 positive upload dates |  |  |  |
+| chapters | PASS | 173 chapters |  |  |  |
+| chapter dates | PASS | 173 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | Log in via WebView and rent or purchase this chapter to read. |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.xkcd-v1.4.17
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 27
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 28
 - Lint: 0
 - Warnings: 0
 - Skipped: 8
@@ -29,8 +29,8 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | xkcd (`.../SINGLE`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 3291 | 1: Barrel - Part 1 (`.../1`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 2 |  |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 3295 | 1: Barrel - Part 1 (`.../1`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 2 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -52,21 +52,22 @@
 | manga title and URL | PASS | 1/1 popular manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 1/1 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://imgs.xkcd.com/.../geology_class_2x.png` (image/png, 208084 bytes, 1310x544) |  |  |  |
+| thumbnail | PASS | `https://imgs.xkcd.com/.../fault_taunting_2x.png` (image/png, 65390 bytes, 1480x544) |  |  |  |
 | details identity | PASS | Details preserved selected URL `SINGLE` |  |  |  |
-| details thumbnail URL | PASS | `https://imgs.xkcd.com/.../geology_class_2x.png` |  |  |  |
+| details thumbnail URL | PASS | `https://imgs.xkcd.com/.../fault_taunting_2x.png` |  |  |  |
 | details author | PASS | Randall Munroe |  |  |  |
 | details artist | PASS | Randall Munroe |  |  |  |
 | details genres | PASS | null |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | A webcomic of romance, sarcasm, math and language. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 3291 chapters |  |  |  |
-| chapter dates | PASS | 3291 positive upload dates |  |  |  |
+| chapters | PASS | 3295 chapters |  |  |  |
+| chapter dates | PASS | 3295 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 2 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://imgs.xkcd.com/.../barrel_cropped_(1).jpg` (image/jpeg, 24848 bytes, 577x311) |  |  |  |

@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-fr.ortegascans-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 36
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 18 | OpenTalk (`.../opentalk`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 18 | The Father-In-Law Fucks Them All (`.../the-father-in-law-fucks-them-all`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 18 | I Live With A Teacher ! (`.../i-live-with-a-teacher`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 18 | Locked Up (`.../locked-up`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 18 | Pet Beasthuman (`.../pet-beasthuman`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 18 | New Town (`.../new-town`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | OpenTalk (`.../opentalk`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | OpenTalk (`.../opentalk`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 33 | Chapitre 1 (`.../cm7zu6t7300ury1rnac5wzhhi`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 17 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://ortegascans.fr/.../opentalk` to `https://ortegascans.fr/.../opentalk <redacted query values: _rsc>` (1 redirects); popular: `https://ortegascans.fr/.../1` to `https://ortegascans.fr/.../1 <redacted query values: _rsc>` (1 redirects) |  |  |  |
 | page load | PASS | `https://ortegascans.fr/.../1.png` (image/png, 750302 bytes, 1890x1417) |  |  |  |

@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-all.hentai3-v1.6.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 31
 - Lint: 4
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | 리그 오브 티모 - League of Teemo (`.../44680`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Yokubari Saboten (`.../43092`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Lana's Mom Is a Nurse + a (`.../606403`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Alestia & Muddy Cherry Crossover IF Manga (`.../605069`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Masaka Ano Oni Joushi ga Ore no SeFri ni Naru nante... 4 ~ Oni Joushi to Kokoro to Karada Kasaneru Jun'ai Kekkon Shoya | I never thought that diabolical boss would become my sex friend 4 (`.../737064`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Saki to Natsu no Asedaku Onmitsu Sakusen! | Saki and the Sweaty Summer Stealth Operation! (`.../736424`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 2 | 리그 오브 티모 - League of Teemo (`.../63628`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | 리그 오브 티모 - League of Teemo (`.../44680`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Chapter (`.../44680`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 57 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://3hentai.net/.../1` to `https://3hentai.net/.../english` (1 redirects) |  |  |  |
 | page load | PASS | `https://s2.3hentai.net/.../1.jpg` (image/jpeg, 245988 bytes, 800x1032) |  |  |  |

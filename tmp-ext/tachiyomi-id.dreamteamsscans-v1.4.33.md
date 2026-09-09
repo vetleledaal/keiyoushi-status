@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.dreamteamsscans-v1.4.33
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -24,9 +24,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | You Are My World (`.../you-are-my-world`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | The Hunter Wants to Live Quietly (`.../the-hunter-wants-to-live-quietly`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | Gale of the God (`.../gale-of-the-god`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | Incomplete Combustion (`.../incomplete-combustion`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | Passion : Raga (`.../passion-raga`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | Moonlighting (`.../moonlighting`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | The Night Sun (`.../the-night-sun`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | You Are My World (`.../you-are-my-world`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | You Are My World (`.../you-are-my-world`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 28 | Chapter 1 (`.../chapter-01`) |  | 1-10s |
@@ -47,7 +47,7 @@
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=You Are My World, URL=`.../you-are-my-world` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
-| latest pagination | UNUSUAL | Overlapping manga: title=Incomplete Combustion, URL=`.../incomplete-combustion` at page 1 offset 17 and page 2 offset 0, title=Dear Stranger, URL=`.../dear-stranger` at page 1 offset 18 and page 2 offset 1, title=Marriage Blue, URL=`.../marriage-blue` at page 1 offset 19 and page 2 offset 2 |  |  |  |
+| latest pagination | UNUSUAL | Overlapping manga: title=The Night Sun, URL=`.../the-night-sun` at page 1 offset 11 and page 2 offset 0, title=Butler (Nabit), URL=`.../butler-nabit` at page 1 offset 12 and page 2 offset 1, title=Ice On Me, URL=`.../ice-on-me` at page 1 offset 13 and page 2 offset 2, title=Honey Trouble, URL=`.../honey-trouble` at page 1 offset 14 and page 2 offset 3, title=The Fox's Love Refresher, URL=`.../the-foxs-love-refresher` at page 1 offset 15 and page 2 offset 4, title=I Became a First-Class Guide Thanks to My Childhood Friends, URL=`.../i-became-a-first-class-guide-thanks-to-my-childhood-friends` at page 1 offset 17 and page 2 offset 5, title=perfectly popular! heat cycle package, URL=`.../perfectly-popular-heat-cycle-package` at page 1 offset 19 and page 2 offset 6 |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
 | manga title and URL | PASS | 81/81 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 81/81 manga have thumbnail URLs |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 13 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.dreamteams.space/.../001.jpg` (image/jpeg, 856030 bytes, 800x8000) |  |  |  |

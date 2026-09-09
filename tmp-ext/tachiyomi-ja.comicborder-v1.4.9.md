@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.comicborder-v1.4.9
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 25
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 26
 - Lint: 1
 - Warnings: 1
 - Skipped: 9
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: gigaviewer
 - Source ID: 1077630719925082256
 - Source name: Comic Border
 - Source language: ja
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 11 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn-img.comicborder.com/.../3270375685468975954-c42427aa819364a4ec14976c79924c8b` (image/jpeg, 272992 bytes, 914x1300) |  |  |  |

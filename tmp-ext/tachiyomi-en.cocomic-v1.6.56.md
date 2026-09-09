@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.cocomic-v1.6.56
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 2
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 3544369893051520689
 - Source name: Cocomic
 - Source language: en
@@ -24,9 +25,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | The Cheat Batter Takes All (`.../59528`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 25 | C*ntboy Wives (`.../70007`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 25 | The Archduke’s Flower Is In Jeopardy (`.../82807`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | The End of a Fake Marriage (`.../75962`) |  | 10s+ |
+| popular_next | `getPopularManga(2)` | success | 25 | Sign (`.../3863`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | I’ll Be The Matriarch In This Life (`.../87723`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | I’m a Fake Saintess but the Gods are Obsessed (`.../3292`) |  | 10s+ |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | The Cheat Batter Takes All (`.../59528`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | The Cheat Batter Takes All (`.../59528`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 105 | Chapter 1 (`.../chapter-1`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 259 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://img.cocomic.co/.../001.webp` (image/webp (encoding: lossy), 766 bytes, 720x500) |  |  |  |

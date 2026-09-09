@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.explosm-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 26
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 27
 - Lint: 1
 - Warnings: 1
 - Skipped: 7
@@ -23,14 +23,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 22 | C&H 2026 (`.../2026`) |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 22 | C&H 2026 (`.../2026`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | C&H 2026 (`.../2026`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 138 | new-years-2026 (`.../new-years-2026`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 1 |  |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 143 | new-years-2026 (`.../new-years-2026`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 1 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -61,12 +61,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | null |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 138 chapters |  |  |  |
-| chapter dates | PASS | 138 positive upload dates |  |  |  |
+| chapters | PASS | 143 chapters |  |  |  |
+| chapter dates | PASS | 143 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://static.explosm.net/.../newyears2026.png` (image/png, 372977 bytes, 1040x1560) |  |  |  |

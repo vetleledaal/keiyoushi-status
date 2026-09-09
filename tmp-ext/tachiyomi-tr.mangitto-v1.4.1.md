@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.mangitto-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 0
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 1
 - Lint: 0
 - Warnings: 0
 - Skipped: 34
@@ -22,9 +22,9 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | error | 0 |  | kotlinx.serialization.json.JsonDecodingException: Unexpected JSON token at offset 0: Expected start of the object '{', but had '\[' instead at path: \$<br>JSON input: \[{"id":"cmt2y8kgj0du4ncucautrf..... | <1s |
+| popular | `fetchPopularManga(1)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | <1s |
+| latest | `fetchLatestUpdates(1)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | skipped | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | skipped | 0 |  |  | <1s |
@@ -33,20 +33,20 @@
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
-| popular operation | ERROR | kotlinx.serialization.json.JsonDecodingException: Unexpected JSON token at offset 0: Expected start of the object '{', but had '\[' instead at path: \$<br>JSON input: \[{"id":"cmt2y8kgj0du4ncucautrf..... | REVIEW | INSUFFICIENT_EVIDENCE |  |
+| popular operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | REVIEW | INSUFFICIENT_EVIDENCE |  |
 | popular_next operation | SKIP | hasNextPage = false |  |  |  |
-| latest operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | REVIEW | INSUFFICIENT_EVIDENCE |  |
+| latest operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | REVIEW | INSUFFICIENT_EVIDENCE |  |
 | latest_next operation | SKIP | hasNextPage = false |  |  |  |
 | search operation | SKIP | No manga was returned by popular or latest |  |  |  |
 | details operation | SKIP | No manga was returned by popular or latest |  |  |  |
 | chapters operation | SKIP | No manga was returned by popular or latest |  |  |  |
 | pages operation | SKIP | No usable chapter was available |  |  |  |
-| popular listing | SKIP | Unexpected JSON token at offset 0: Expected start of the object '{', but had '\[' instead at path: \$<br>JSON input: \[{"id":"cmt2y8kgj0du4ncucautrf..... |  |  |  |
-| latest listing | SKIP | HTTP error 404 |  |  |  |
+| popular listing | SKIP | HTTP error 403 |  |  |  |
+| latest listing | SKIP | HTTP error 403 |  |  |  |
 | search listing | SKIP | No manga was returned by popular or latest |  |  |  |
 | latest differs from popular | SKIP | Popular or latest has no manga to compare |  |  |  |
-| popular pagination | SKIP | Unexpected JSON token at offset 0: Expected start of the object '{', but had '\[' instead at path: \$<br>JSON input: \[{"id":"cmt2y8kgj0du4ncucautrf..... |  |  |  |
-| latest pagination | SKIP | HTTP error 404 |  |  |  |
+| popular pagination | SKIP | HTTP error 403 |  |  |  |
+| latest pagination | SKIP | HTTP error 403 |  |  |  |
 | listing duplicates | SKIP | Fewer than 2 manga to check |  |  |  |
 | manga title and URL | SKIP | No manga to check |  |  |  |
 | thumbnail URLs | SKIP | No manga to check |  |  |  |
@@ -68,4 +68,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

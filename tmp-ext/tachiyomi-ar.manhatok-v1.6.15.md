@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.manhatok-v1.6.15
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 20
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 21
 - Lint: 1
 - Warnings: 1
 - Skipped: 13
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 743599002989616408
 - Source name: Manhatok
 - Source language: ar
@@ -23,7 +24,7 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 8 | Boruto (`.../boruto-naruto-next-generations.html`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 7 | Boruto (`.../boruto-naruto-next-generations.html`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 11 | Blue Lock (`.../blue-lock.html`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
@@ -42,15 +43,15 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | SKIP | No usable chapter was available |  |  |  |
-| popular listing | PASS | 8 entries |  |  |  |
+| popular listing | PASS | 7 entries |  |  |  |
 | latest listing | PASS | 11 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Boruto, URL=`.../boruto-naruto-next-generations.html` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 20/20 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 20/20 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 19/19 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 19/19 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://blogger.googleusercontent.com/.../001%20%284%29.webp` (image/jpeg, 18329 bytes, 127x200) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../boruto-naruto-next-generations.html` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

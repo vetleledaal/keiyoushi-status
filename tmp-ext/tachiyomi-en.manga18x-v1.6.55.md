@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.manga18x-v1.6.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 34
 - Lint: 1
-- Warnings: 0
+- Warnings: 1
 - Skipped: 0
 - Failed: 1
 - Retry disposition: DO_NOT_RETRY
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 6802623574377987877
 - Source name: Manga 18x
 - Source language: en
@@ -23,8 +24,8 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | What’s wrong with this family? (`.../4976`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 25 | Addicted to My Stepmom (`.../4850`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 25 | What’s wrong with this family? (`.../4976`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | Addicted to My Stepmom (`.../4850`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | success | 25 | It’s A Lie, But It’s Okay (`.../6644`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 25 | The Female Delinquent Set Her Eyes On Me! (`.../6518`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | What’s wrong with this family? (`.../4976`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 16 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `http://manhwaclub.net/.../1.jpg` to `https://manhwaclub.net/.../1.jpg` (1 redirects) |  |  |  |
 | page load | FAIL | First page URL `http://manhwaclub.net/.../1.jpg` could not be downloaded: eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |

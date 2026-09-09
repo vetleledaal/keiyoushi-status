@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.wuxiaworld-v1.6.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 30
 - Lint: 0
-- Warnings: 1
+- Warnings: 2
 - Skipped: 4
 - Failed: 1
 - Retry disposition: DO_NOT_RETRY
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 6540843430852844328
 - Source name: WuxiaWorld
 - Source language: en
@@ -23,7 +24,7 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 4 | The Boss’s Shotgun Wedding (`.../580795`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 4 | The Boss’s Shotgun Wedding (`.../580795`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 4 | The Boss’s Shotgun Wedding (`.../580795`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 42 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `http://wuxiaworld.site/.../001.jpg` to `https://wuxiaworld.site/.../001.jpg` (1 redirects); popular: `http://wuxiaworld.site/.../the-bosss-shotgun-wedding-175x238.jpg` to `https://wuxiaworld.site/.../the-bosss-shotgun-wedding-175x238.jpg` (1 redirects) |  |  |  |
 | page load | PASS | `http://wuxiaworld.site/.../001.jpg` (image/jpeg, 64614 bytes, 900x1200) |  |  |  |

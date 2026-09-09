@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.kivaratoons-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -24,8 +24,8 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | Nanotecnologia Marcial (`.../245`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 24 | O Caçador de Destinos Rank F (`.../212`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 24 | Minha esposa é de mil anos atrás (`.../484`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 24 | O Retorno da Seita do Monte Hua (`.../335`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 24 | Minha esposa é de mil anos atrás (`.../484`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | success | 24 | O Retorno do Ranker Inigualável (`.../331`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Nanotecnologia Marcial (`.../245`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Nanotecnologia Marcial (`.../245`) |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 17 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://kivaratoons.com/.../2277b4acb8ac1ce1148d77ace4ee28088aa7d587.webp` (image/webp (encoding: lossy), 222036 bytes, 700x7000) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.nuxscans-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 25
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 26
 - Lint: 3
 - Warnings: 3
 - Skipped: 4
@@ -19,7 +19,7 @@
 - Source ID: 5854986367394591788
 - Source name: Nux Scans
 - Source language: en
-- Selected manga input: latest offset 0: I'm An Evil God (`.../1141-sypnosis-bored-with-his-life-on.html`)
+- Selected manga input: popular offset 0: I'm An Evil God (`.../1141-sypnosis-bored-with-his-life-on.html`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
@@ -27,9 +27,9 @@
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `fetchLatestUpdates(1)` | success | 11 | I'm An Evil God (`.../1141-sypnosis-bored-with-his-life-on.html`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | I'm An Evil God (`.../1141-sypnosis-bored-with-his-life-on.html`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | I'm An Evil God (`.../1141-sypnosis-bored-with-his-life-on.html`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 34 | Chapter 115 (`https://nuxscans.blogspot.com/.../im-evil-god-chapter-115_0263624318.html`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | I'm An Evil God (`.../1141-sypnosis-bored-with-his-life-on.html`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | I'm An Evil God (`.../1141-sypnosis-bored-with-his-life-on.html`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 34 | Chapter 115 (`https://nuxscans.blogspot.com/.../im-evil-god-chapter-115_0263624318.html`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 64 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 64 HTTP page URLs |  |  |  |
 | duplicate page URLs | UNUSUAL | Duplicate page URLs: `https://blogger.googleusercontent.com/.../download.jpg.png` at pages 1, 2 |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../download.jpg.png` (image/png, 545255 bytes, 453x641) |  |  |  |

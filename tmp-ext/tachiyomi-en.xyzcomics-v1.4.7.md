@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.xyzcomics-v1.4.7
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 27
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 28
 - Lint: 2
 - Warnings: 1
 - Skipped: 5
@@ -23,14 +23,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 20 | Tomb Tart 2 – JabComix (`.../tomb-tart-2-jabcomix`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 19 | Pegasus Smith – Au Naturel 29 (`.../pegasus-smith-au-naturel-29`) |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 20 | Tomb Tart 2 – JabComix (`.../tomb-tart-2-jabcomix`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 19 | Pegasus Smith – Au Naturel 29 (`.../pegasus-smith-au-naturel-29`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Tomb Tart 2 – JabComix (`.../tomb-tart-2-jabcomix`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 1 | Chapter 1 (`.../tomb-tart-2-jabcomix`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 12 |  |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 12 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 12 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://xyzcomics.com/.../001-3-scaled.webp` (image/webp (encoding: lossy), 459304 bytes, 1696x2560) |  |  |  |

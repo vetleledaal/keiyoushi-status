@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.readjujutsukaisenmangaonline-v1.4.10
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 23
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 24
 - Lint: 4
 - Warnings: 1
 - Skipped: 8
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangacatalog
 - Source ID: 808850989053853006
 - Source name: Read Jujutsu Kaisen Manga Online
 - Source language: en
@@ -28,8 +29,8 @@
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | Jujutsu Kaisen (`https://ww6.readjujutsukaisen.com/.../jujutsu-kaisen`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Jujutsu Kaisen (`https://ww6.readjujutsukaisen.com/.../jujutsu-kaisen`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 282 | Jujutsu Kaisen Chapter 0.1 - Jujutsu Kaisen Volume 0 Chapter 1 (`https://ww6.readjujutsukaisen.com/.../jujutsu-kaisen-chapter-0.1`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Jujutsu Kaisen (`https://ww6.readjujutsukaisen.com/.../jujutsu-kaisen`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 282 | Jujutsu Kaisen Chapter 0.1 - Jujutsu Kaisen Volume 0 Chapter 1 (`https://ww6.readjujutsukaisen.com/.../jujutsu-kaisen-chapter-0.1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 57 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 57 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.readjujutsukaisen.com/.../2.jpeg` (image/jpeg, 281914 bytes, 1067x1600) |  |  |  |

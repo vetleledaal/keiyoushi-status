@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.lxmangaorg-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 2
 - Warnings: 0
 - Skipped: 0
@@ -23,13 +23,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 18 | Dục Vọng Tội Lỗi (`.../duc-vong-toi-loi.html`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 18 | Vài Mẩu Truyện Ngắn Của Tác Giả Punpunn (`.../vai-mau-truyen-ngan-cua-tac-gia-punpunn.html`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 18 | Văn Phòng Ngọt Ngào 365 Ngày (`.../van-phong-ngot-ngao-365-ngay.html`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 18 | Hiệp Nữ Song Tu Lục (`.../hiep-nu-song-tu-luc.html`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 18 | Dục Vọng Tội Lỗi (`.../duc-vong-toi-loi.html`) |  | <1s |
+| popular_next | `getPopularManga(2)` | success | 18 | [raikage] – Hồi Ký Ntr Của Ninja (`.../raikage-hoi-ky-ntr-cua-ninja.html`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 18 | Soeun (`.../soeun.html`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 18 | [vũ Trụ 2] Người Mẹ Dâm Đãng – Bắt Mẹ (`.../vu-tru-2-nguoi-me-dam-dang-bat-me.html`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Dục Vọng Tội Lỗi (`.../duc-vong-toi-loi.html`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Dục Vọng Tội Lỗi (`.../duc-vong-toi-loi.html`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 15 | Lizana và Người Vô Gia  (`.../lizana-va-nguoi-vo-gia-cu-part-1.html`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 15 | Lizana và Người Vô Gia  (`.../lizana-va-nguoi-vo-gia-cu-part-1.html`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 37 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 37 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn2.tymanga.com/.../0-68960d264cd31.jpg` (image/jpeg, 224210 bytes, 1352x1802) |  |  |  |

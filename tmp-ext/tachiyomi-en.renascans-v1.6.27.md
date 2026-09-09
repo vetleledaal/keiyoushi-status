@@ -2,10 +2,10 @@
 
 - Extension: tachiyomi-en.renascans-v1.6.27
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 36
-- Lint: 0
+- Lint: 1
 - Warnings: 0
 - Skipped: 0
 - Failed: 0
@@ -16,21 +16,22 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: iken
 - Source ID: 3447464472094373275
 - Source name: Renascans
 - Source language: en
-- Selected manga input: latest offset 0: Underworld Invasion (`.../underworld-invasion`)
+- Selected manga input: popular offset 0: The Incognito Princess  (`.../the-incognito-princess-j3rbe8x7`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 18 | The Incognito Princess  (`.../the-incognito-princess-j3rbe8x7`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 18 | The Incognito Princess  (`.../the-incognito-princess-j3rbe8x7`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 18 | The Beast's Footprints (`.../the-beasts-footprints-4v75hssr`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 18 | Underworld Invasion (`.../underworld-invasion`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 18 | Bitterside Cranberries (`.../bitterside-cranberries`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | success | 18 | Shining Nananana (`.../shining-nananana-8609krnl`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Underworld Invasion (`.../underworld-invasion`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Underworld Invasion (`.../underworld-invasion`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 4 | Chapter 25 (`.../chapter-25`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 35 |  |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | The Incognito Princess  (`.../the-incognito-princess-j3rbe8x7`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | The Incognito Princess  (`.../the-incognito-princess-j3rbe8x7`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 44 | Chapter 45 (`.../chapter-45`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 23 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,7 +45,7 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 18 entries |  |  |  |
 | latest listing | PASS | 18 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Underworld Invasion, URL=`underworld-invasion#169` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=The Incognito Princess , URL=`the-incognito-princess-j3rbe8x7#57` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
@@ -52,21 +53,22 @@
 | manga title and URL | PASS | 73/73 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 73/73 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://storage.renascans.net/.../d3987754-81c8-448c-9b2e-815ba20f2da5.jpg` (image/jpeg, 53357 bytes, 480x623) |  |  |  |
-| details identity | PASS | Details preserved selected URL `underworld-invasion#169` |  |  |  |
-| details thumbnail URL | PASS | `https://storage.renascans.net/.../d3987754-81c8-448c-9b2e-815ba20f2da5.jpg` |  |  |  |
-| details author | PASS | Sin Seon Jem |  |  |  |
-| details artist | PASS | RAZR |  |  |  |
-| details genres | PASS | Manhwa, Fantasy, Adventure, action, Seinen, Tragedy, Sci-fi |  |  |  |
+| thumbnail | PASS | `https://storage.renascans.net/.../a4648256-4d49-4158-abb3-e9a342e1ac61.webp` (image/webp (encoding: lossy), 376206 bytes, 720x1030) |  |  |  |
+| details identity | PASS | Details preserved selected URL `the-incognito-princess-j3rbe8x7#57` |  |  |  |
+| details thumbnail URL | PASS | `https://storage.renascans.net/.../a4648256-4d49-4158-abb3-e9a342e1ac61.webp` |  |  |  |
+| details author | PASS | Saeseng |  |  |  |
+| details artist | PASS | Hanabi |  |  |  |
+| details genres | PASS | Manhwa, Romance, Fantasy, Reincarnation, Supernatural, Isekai,  Villainess |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | A massive war erupts between angels and aliens, with the very fabric of the afterlife at stake. Kim Ria, the last surviving human on Earth who has no lingering attachment to life, and Azazel, an angel who despises the god exiled from the afterlife, become the pivots upon which the fate of both humanity and the afterlife turns. In the afterlife, angels and aliens clash into an all‑out war. At the same time, on Earth, Azazel and Kim Ria undertake a tense survival adventure as they evade pursuit squads hunting the final human.<br><br>Alternative Names: Jeoseungchimgong / Вторжение в загробный мир / 저승침공 |  |  |  |
-| metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 4 chapters |  |  |  |
-| chapter dates | PASS | 4 positive upload dates |  |  |  |
+| details description | PASS | I’ve been reincarnated into a novel with my living and breathing bias. Now I’m an Imperial Princess, who is known by all sorts of epithets, Agnes Saint! It’s great that she’s filthy rich and a royal and all, but there’s just one problem… the hateful trash who just insulted by bias’s very existence is none other than ‘me.’ Regardless, I’m here now and… I will do anything, and everything, within my power to prevent my bias’s death and ensure he experiences nothing but smooth sailing going forward! I would never wish for Kylo, my kitten, to suffer any sort of shock. That’s why I have to hide my fervent adoration. Besides, nothing good would come from revealing my stanning anyways. So, for the time being, I’ll be perfect at… ‘stanning in secret.’<br><br>Alternative Names: 일코하는 황녀님 |  |  |  |
+| metadata trimming | LINT | Untrimmed fields: title, genre |  |  |  |
+| chapters | PASS | 44 chapters |  |  |  |
+| chapter dates | PASS | 44 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 35 HTTP page URLs |  |  |  |
+| page URLs | PASS | 23 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://storage.renascans.net/.../page-0001_0000_1787436241564-95373.webp` (image/webp (encoding: lossy), 539284 bytes, 900x5000) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://storage.renascans.net/.../00.webp` (image/webp (encoding: lossy), 762628 bytes, 1798x1267) |  |  |  |

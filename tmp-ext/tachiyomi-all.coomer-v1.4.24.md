@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.coomer-v1.4.24
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 33
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 34
 - Lint: 2
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: kemono
 - Source ID: 8715899195746116471
 - Source name: Coomer
 - Source language: all
@@ -26,10 +27,10 @@
 | popular | `fetchPopularManga(1)` | success | 50 | belledelphine (`.../belledelphine`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 50 | hidorirose (`.../hidorirose`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 50 | zara_sky (`.../zara_sky`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 50 | jazmynedayvips (`.../jazmynedayvips`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 50 | jazmynedayvips (`.../jazmynedayvips`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | belledelphine (`.../belledelphine`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | belledelphine (`.../belledelphine`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 45 | What this little kitten gets upto after dark… 🌙  If you’re i.. (`.../1050820125`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 45 | What this little kitten gets upto after dark… 🌙  If you’re i.. (`.../1050820125`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 39 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 39 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | FAIL | First page URL `https://coomer.st/.../af53de7b9b3d669821b9616f2a857fc0dd095702d7f73652334eaa7119068080.jpg <redacted query values: f>` could not be downloaded: java.io.EOFException: SSL peer shut down incorrectly | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |

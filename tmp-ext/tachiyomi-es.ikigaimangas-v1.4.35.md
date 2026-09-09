@@ -2,13 +2,13 @@
 
 - Extension: tachiyomi-es.ikigaimangas-v1.4.35
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 29
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 25
 - Lint: 1
-- Warnings: 2
-- Skipped: 3
-- Failed: 1
+- Warnings: 1
+- Skipped: 6
+- Failed: 4
 - Retry disposition: REVIEW
 
 ## Runtime Evidence
@@ -25,12 +25,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 100 | En Está Vida Seré La Matriarca (`.../en-esta-vida-sere-la-matriarca`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | La Resurrección Del Catastrófico Héroe (`.../la-resurreccion-del-catastrofico-heroe`) |  | 10s+ |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | La tutora secreta de Lord Preston (`.../la-tutora-secreta-de-lord-preston`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | Amor de Caramelo de Menta (`.../amor-de-caramelo-de-menta`) |  | 10s+ |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | Piel verde (`.../piel-verde`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | error | 0 |  | java.lang.Exception: Ocurrio un error al obtener la lista de series | 10s+ |
 | details | `fetchMangaDetails(manga)` | success | 1 | En Está Vida Seré La Matriarca (`.../en-esta-vida-sere-la-matriarca`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 234 | Capítulo 0 (`.../914360329776005122`) |  | 10s+ |
-| pages | `fetchPageList(chapter)` | success | 12 |  |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 235 | Capítulo 0 (`.../914360329776005122`) |  | 10s+ |
+| pages | `fetchPageList(chapter)` | success | 0 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -52,21 +52,22 @@
 | manga title and URL | PASS | 140/140 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 140/140 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://image2.ikigaimangas.cloud/.../czM6Ly9pa2lnYWktY2RuL3Nlcmllcy9jb3ZlcnMvOTExNzk0MDQzNTgwMDIyNzg2L2JmNTliNTljLTY3YWUtNDgxMy1hNzE2LWQwODE4NGYxMWZiNC53ZWJw.webp` (image/webp (container: extended), 120174 bytes, 400x450) |  |  |  |
+| thumbnail | FAIL | Thumbnail URL `https://image2.ikigaimangas.cloud/.../czM6Ly9pa2lnYWktY2RuL3Nlcmllcy9jb3ZlcnMvOTExNzk0MDQzNTgwMDIyNzg2L2JmNTliNTljLTY3YWUtNDgxMy1hNzE2LWQwODE4NGYxMWZiNC53ZWJw.webp` could not be downloaded: eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | details identity | PASS | Details preserved selected URL `en-esta-vida-sere-la-matriarca` |  |  |  |
-| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://image2.ikigaimangas.cloud/.../czM6Ly9pa2lnYWktY2RuL3Nlcmllcy9jb3ZlcnMvOTExNzk0MDQzNTgwMDIyNzg2L2JmNTliNTljLTY3YWUtNDgxMy1hNzE2LWQwODE4NGYxMWZiNC53ZWJw.webp` (image/webp (container: extended), 115708 bytes, 350x500) |  |  |  |
+| details thumbnail URL | FAIL | Differs from selected listing thumbnail; Thumbnail URL `https://image2.ikigaimangas.cloud/.../czM6Ly9pa2lnYWktY2RuL3Nlcmllcy9jb3ZlcnMvOTExNzk0MDQzNTgwMDIyNzg2L2JmNTliNTljLTY3YWUtNDgxMy1hNzE2LWQwODE4NGYxMWZiNC53ZWJw.webp` could not be downloaded: eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | details author | PASS | null |  |  |  |
 | details artist | PASS | null |  |  |  |
 | details genres | PASS | Fantasía, Shoujo, Regresion, Romance, Drama, Histórico |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | La gran familia Lombardi estuvo una vez en la cima del imperio. Tras la muerte de su patriarca, el destino de la familia y el de Firentia, nacida de un lombardo y una campesina, se arruinan a manos de sus inútiles y crueles primos. Pero cuando se reencarne en su yo de siete años, trabajará para proteger el honor de la familia, ganarse el favor de su abuelo Lulac y evitar la muerte de su propio padre. En esta vida, solo hay una forma de que ella gane: convertirse en la cabeza de su poderoso hogar. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 234 chapters |  |  |  |
-| chapter dates | LINT | 1 of 234 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1 |  |  |  |
+| chapters | PASS | 235 chapters |  |  |  |
+| chapter dates | LINT | 1 of 235 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
-| page indices | PASS |  |  |  |  |
-| page URLs | PASS | 12 HTTP page URLs |  |  |  |
-| duplicate page URLs | UNUSUAL | Duplicate page URLs: `https://image3.ikigaimangas.cloud/.../bannerikigai.png` at pages 6, 12 |  |  |  |
-| page load | PASS | `https://image3.ikigaimangas.cloud/.../01.webp` (image/webp (encoding: lossy), 233254 bytes, 1039x671) |  |  |  |
+| page indices | SKIP | No pages to check |  |  |  |
+| page URLs | FAIL | Page list is empty (0 pages) | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://visualikigai.com` to `https://visorikigai.gettocaboca.com` (3 redirects); popular: `https://visualikigai.com/.../clasificacion` to `https://visualikigai.treefy.online/.../clasificacion` (2 redirects); popular: `https://visualikigai.com <redacted query values: pagina>` to `https://visualikigai.treefy.online <redacted query values: pagina>` (2 redirects); popular: `https://visualikigai.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` to `https://visorikigai.gettocaboca.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` (3 redirects); popular: `https://visualikigai.com/.../en-esta-vida-sere-la-matriarca` to `https://visorikigai.gettocaboca.com/.../en-esta-vida-sere-la-matriarca` (3 redirects); popular: `https://visualikigai.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` to `https://visorikigai.gettocaboca.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` (3 redirects); popular: `https://visualikigai.com <redacted query values: pagina>` to `https://visualikigai.treefy.online <redacted query values: pagina>` (2 redirects); popular: `https://visualikigai.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` to `https://visorikigai.gettocaboca.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` (3 redirects); popular: `https://visualikigai.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` to `https://visorikigai.gettocaboca.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` (3 redirects); popular: `https://visualikigai.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` to `https://visorikigai.gettocaboca.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` (3 redirects); popular: `https://visualikigai.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` to `https://visorikigai.gettocaboca.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` (3 redirects); popular: `https://visualikigai.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` to `https://visorikigai.gettocaboca.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` (3 redirects); popular: `https://visualikigai.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` to `https://visorikigai.gettocaboca.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` (3 redirects); popular: `https://visualikigai.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` to `https://visorikigai.gettocaboca.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` (3 redirects); popular: `https://visualikigai.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` to `https://visorikigai.gettocaboca.com/.../en-esta-vida-sere-la-matriarca <redacted query values: pagina>` (3 redirects); popular: `https://visualikigai.com/.../914360329776005122` to `https://visualikigai.treefy.online/.../914360329776005122` (2 redirects) |  |  |  |
+| page load | SKIP | No pages to load |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.kuragebunch-v1.4.9
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 27
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 28
 - Lint: 1
 - Warnings: 1
 - Skipped: 7
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: gigaviewer
 - Source ID: 3000787516439188863
 - Source name: Kurage Bunch
 - Source language: ja
@@ -23,12 +24,12 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 187 | ファーストペンギン・レクイエム (`.../12207421983893652478`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 188 | ファーストペンギン・レクイエム (`.../12207421983893652478`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | ファーストペンギン・レクイエム (`.../12207421983893652478`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | ファーストペンギン・レクイエム (`.../12207421983893652478`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | ファーストペンギン・レクイエム (`.../12207421983893652478`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | ファーストペンギン・レクイエム (`.../12207421983893652478`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 4 | 第1話 命の保証のない仕事 (`.../12207421983893652478`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 40 |  |  | <1s |
 
@@ -42,15 +43,15 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 187 entries |  |  |  |
+| popular listing | PASS | 188 entries |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=ファーストペンギン・レクイエム, URL=`.../12207421983893652478` |  |  |  |
 | latest differs from popular | SKIP | supportsLatest = false |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | supportsLatest = false |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 188/188 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 188/188 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 189/189 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 189/189 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://cdn-scissors.gigaviewer.com/.../https%3A%2F%2Fcdn-img.kuragebunch.com%2Fpublic%2Fseries-thumbnail%2F12207421983893646743-dc8b9fa3f1adf31d32e131f392b773a2%3F1782738168` (image/jpeg, 13744 bytes, 160x160) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../12207421983893652478` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 40 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn-img.kuragebunch.com/.../12207421983905646101-dbb11144ed75e27e78d9e3eece3429af` (image/jpeg, 288869 bytes, 1350x1920) |  |  |  |

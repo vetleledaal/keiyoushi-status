@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.mhscans-v1.4.66
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 0
 - Warnings: 2
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madaralegacy
 - Source ID: 3253304651550496369
 - Source name: MHScans
 - Source language: es
@@ -23,13 +24,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 12 | El Antiguo Soberano de la Eternidad (`.../el-antiguo-soberano-de-la-eternidad`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 12 | El Antiguo Soberano de la Eternidad (`.../el-antiguo-soberano-de-la-eternidad`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 12 | Maestro Dragón: ¡¿ La Profesión más «Inútil»?! (`.../maestro-dragon-la-profesion-mas-inutil`) |  | 10s+ |
-| latest | `fetchLatestUpdates(1)` | success | 12 | Maestro Dragón: ¡¿ La Profesión más «Inútil»?! (`.../maestro-dragon-la-profesion-mas-inutil`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 12 | De Un Simple Plebeyo A Duque En Otro Mundo (`.../voy-a-pedir-la-renuncia-con-vacaciones-pagadas`) |  | 10s+ |
+| latest | `fetchLatestUpdates(1)` | success | 12 | Darwin no Taizai (`.../darwin-no-taizai`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 12 | El Genio Que Ve A Través Del Mundo (`.../el-genio-que-ve-a-traves-del-mundo`) |  | 10s+ |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | El Antiguo Soberano de la Eternidad (`.../el-antiguo-soberano-de-la-eternidad`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | El Antiguo Soberano de la Eternidad (`.../el-antiguo-soberano-de-la-eternidad`) |  | 10s+ |
-| chapters | `fetchChapterList(manga)` | success | 586 | Capitulo 1 (`https://mhscans.com/.../capitulo-1 <redacted query values: style>`) |  | 10s+ |
+| chapters | `fetchChapterList(manga)` | success | 589 | Capitulo 1 (`https://mhscans.com/.../capitulo-1 <redacted query values: style>`) |  | 10s+ |
 | pages | `fetchPageList(chapter)` | success | 13 |  |  | 10s+ |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Gu Feiyan, el tercer soberano muere y es reencarnado en un niño llamado Li Yunxia, una completa basura que todavia no desperto sus meridianos a pesar de su edad. ¡Pero esto no detendra al mc de alcanzar el pinaculo de este mundo otra vez!<br><br>Nombres Alternativos: Eternal Deity \| The Ancient Sovereign of Eternity \| The Ancient One \| The Ultimate of All Ages \| The Eternal Supreme \| |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 586 chapters |  |  |  |
-| chapter dates | PASS | 586 positive upload dates |  |  |  |
+| chapters | PASS | 589 chapters |  |  |  |
+| chapter dates | PASS | 589 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
-| chapter URLs | UNUSUAL | All 586 chapter URLs are absolute |  |  |  |
+| chapter URLs | UNUSUAL | All 589 chapter URLs are absolute |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 13 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://mhscans.com/.../01-01.webp` (image/webp (encoding: lossy), 512902 bytes, 640x4843) |  |  |  |

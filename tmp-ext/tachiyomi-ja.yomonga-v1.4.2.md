@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.yomonga-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 29
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 30
 - Lint: 1
 - Warnings: 1
 - Skipped: 5
@@ -19,17 +19,17 @@
 - Source ID: 7561635982432447429
 - Source name: Yomonga
 - Source language: ja
-- Selected manga input: popular offset 0: 黒の世界は白墨に染まる (`.../2558 <redacted query values: episode and cid>`)
+- Selected manga input: popular offset 0: ソロ女子ですが冷徹上司から溺愛フラグが立っています…⁉ (`.../2560 <redacted query values: episode and cid>`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 20 | 黒の世界は白墨に染まる (`.../2558 <redacted query values: episode and cid>`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | 「ただの空気」が吸えなくなりました。 ～化学物質過敏症で無職になった話～ (`.../2112 <redacted query values: episode and cid>`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 20 | ソロ女子ですが冷徹上司から溺愛フラグが立っています…⁉ (`.../2560 <redacted query values: episode and cid>`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | 35歳の不・純愛 ～あなたが恋しいだけだった～ (`.../1933 <redacted query values: episode and cid>`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 黒の世界は白墨に染まる (`.../2558 <redacted query values: episode and cid>`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | 黒の世界は白墨に染まる (`.../2558 <redacted query values: episode and cid>`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 6 | Chapter.1　第1話_1 (`.../2558 <redacted query values: episode and cid>`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | ソロ女子ですが冷徹上司から溺愛フラグが立っています…⁉ (`.../2560 <redacted query values: episode and cid>`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | ソロ女子ですが冷徹上司から溺愛フラグが立っています…⁉ (`.../2560 <redacted query values: episode and cid>`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 6 | Chapter.1_1巻 第1話-1 (`.../2560 <redacted query values: episode and cid>`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 14 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -44,7 +44,7 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 20 entries |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=黒の世界は白墨に染まる, URL=`.../2558 <redacted query values: episode and cid>` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=ソロ女子ですが冷徹上司から溺愛フラグが立っています…⁉, URL=`.../2560 <redacted query values: episode and cid>` |  |  |  |
 | latest differs from popular | SKIP | supportsLatest = false |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | SKIP | supportsLatest = false |  |  |  |
@@ -52,14 +52,14 @@
 | manga title and URL | PASS | 41/41 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 41/41 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://www.yomonga.com/.../%E6%9B%B8%E5%BD%B1%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB_%E6%96%B0%E5%88%8A_%E9%BB%92%E3%81%AE%E4%B8%96%E7%95%8C%E3%81%AF%E7%99%BD%E5%A2%A8%E3%81%AB%E6%9F%93%E3%81%BE%E3%82%8B.png <redacted query values: v>` (image/png, 1113862 bytes, 640x908) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../2558 <redacted query values: episode and cid>` |  |  |  |
-| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://www.yomonga.com/.../%E6%9B%B8%E5%BD%B1%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB_%E6%96%B0%E5%88%8A_%E9%BB%92%E3%81%AE%E4%B8%96%E7%95%8C%E3%81%AF%E7%99%BD%E5%A2%A8%E3%81%AB%E6%9F%93%E3%81%BE%E3%82%8B.png` (image/png, 1113862 bytes, 640x908) |  |  |  |
-| details author | PASS | 涼海来夏 |  |  |  |
+| thumbnail | PASS | `https://www.yomonga.com/.../%E6%9B%B8%E5%BD%B1%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB_%E6%96%B0%E5%88%8A_%E3%82%BD%E3%83%AD%E5%A5%B3%E5%AD%90%E3%81%A7%E3%81%99%E3%81%8C.png <redacted query values: v>` (image/png, 244030 bytes, 640x908) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../2560 <redacted query values: episode and cid>` |  |  |  |
+| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://www.yomonga.com/.../%E6%9B%B8%E5%BD%B1%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB_%E6%96%B0%E5%88%8A_%E3%82%BD%E3%83%AD%E5%A5%B3%E5%AD%90%E3%81%A7%E3%81%99%E3%81%8C.png` (image/png, 244030 bytes, 640x908) |  |  |  |
+| details author | PASS | 宇賀ミユキ |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | 連載中, 女性向け, 男性向け, 美少女 |  |  |  |
+| details genres | PASS | 連載中 |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | 顔に傷を負ったことが原因で周りから敬遠され心を閉ざしてしまった蛇乃目三白。唯一の心の支えは絵を描くことだけだったが、高校の先輩・猫宮黒絵との出逢いをきっかけに、その日常が少しずつ変わり始める。やがて黒板アートを通してふたりの間にはかけがえのない友情と絆が芽生え…。 |  |  |  |
+| details description | PASS | インテリアメーカーで働く杉野加奈（29）は、好きな物に囲まれた仕事と自由な暮らしを満喫する“ソロ女子”。 今の生活に満足している──はずなのに、周囲の結婚や出産をきっかけに将来への不安を抱き始めている。 けれど加奈が恋愛に踏み出せないのは、元カレに言い捨てられた「おまえは一生ひとりが向いている」という言葉が、今も心に刺さっているからだった。 そんな矢先、加奈の自宅が火災になったことで、上司の家で同居生活をすることに。 しかもその上司は、職場では「冷徹上司」と恐れられる存在。けれど同じ屋根の下で見せるのは、仕事中とは全く違う顔で──…？ |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | PASS | 6 chapters |  |  |  |
 | chapter dates | LINT | All 6 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=6 |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 14 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://www.yomonga.com/.../ed9oBfl3.jpg` (image/jpeg, 1416907 bytes, 1622x2307) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://www.yomonga.com/.../uIcaXZH9.jpg` (image/jpeg, 657257 bytes, 1624x2305) |  |  |  |

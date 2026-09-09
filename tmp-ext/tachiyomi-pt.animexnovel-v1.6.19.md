@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-pt.animexnovel-v1.6.19
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 31
 - Lint: 2
-- Warnings: 1
+- Warnings: 2
 - Skipped: 2
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -24,7 +24,7 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 20 | As 100 Maldições da Casa Illeston (`.../as-100-maldicoes-da-casa-illeston`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 5 | Okiraku Ryoushu no Tanoshii Ryouchi Bouei ~Seisan-kei Majutsu de Na mo na Kimura wo Saikyou no Jousai Toshi ni~ (`.../okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisan-kei-majutsu-de-na-mo-na-kimura-wo-saikyou-no-jousai-toshi-ni`) |  | <1s |
+| popular_next | `getPopularManga(2)` | success | 5 | Okiraku Ryoushu no Tanoshii Ryouchi Bouei ~Seisan-kei Majutsu de Na mo na Kimura wo Saikyou no Jousai Toshi ni~ (`.../okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisan-kei-majutsu-de-na-mo-na-kimura-wo-saikyou-no-jousai-toshi-ni`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | success | 8 | Mushoku Tensei: Isekai Ittara Honki Dasu (`.../mushoku-tensei-isekai-ittara-honki-dasu`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 2 | As 100 Maldições da Casa Illeston (`.../as-100-maldicoes-da-casa-illeston`) |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 14 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `http://www.animexnovel.com/.../capitulo-1` to `https://www.animexnovel.com/.../capitulo-1` (1 redirects) |  |  |  |
 | page load | PASS | `https://www.animexnovel.com/.../Manhwa-As-100-Maldicoes-da-Casa-Illeston-Animexnovel-RubyScan-Ch-1-Page-01.webp` (image/webp (encoding: lossy), 156326 bytes, 747x1024) |  |  |  |

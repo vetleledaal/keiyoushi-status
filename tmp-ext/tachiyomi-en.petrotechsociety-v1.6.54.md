@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.petrotechsociety-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 35
 - Lint: 0
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 20045885295638720
 - Source name: Petrotechsociety
 - Source language: en
@@ -25,12 +26,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Daehyun Laundry ~I Will Wash Anything~ (`.../154`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Make Me Sweat (`.../121`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Wolf in White (`.../5000`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Private Call (`.../4873`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Hate My MIA! (`.../4918`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Beta Count Has Changed (`.../3763`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Daehyun Laundry ~I Will Wash Anything~ (`.../154`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Daehyun Laundry ~I Will Wash Anything~ (`.../154`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Daehyun Laundry ~I Will Wash Anything~ (`.../154`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 11 | Chapter 1 (`.../chapter-1`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 7 |  |  | <1s |
+| pages | `getPageList(chapter)` | success | 7 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -50,7 +51,7 @@
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
 | manga title and URL | PASS | 101/101 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 101/101 manga have thumbnail URLs |  |  |  |
+| thumbnail URLs | UNUSUAL | 100/101 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://www.petrotechsociety.org/.../Daehyun-Laundry-I-Will-Wash-Anything-Yaoi-Uncensored-Sex-scaled-e1633887828916-175x238.jpg` (image/jpeg, 11868 bytes, 175x238) |  |  |  |
 | details identity | PASS | Details preserved selected URL `154` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 7 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://space.petrotechsociety.org/.../Daehyun-Laundry-~I-Will-Wash-Anything~-Yaoi-BL-Uncensored--(1).png` (image/jpeg, 73580 bytes, 800x500; server Content-Type: image/png) |  |  |  |

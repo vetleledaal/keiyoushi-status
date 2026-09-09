@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.divascans-v1.6.27
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: vinetheme
 - Source ID: 3513996752712952755
 - Source name: Diva Scans
 - Source language: en
@@ -25,12 +26,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | Obedient Pregnancy (`.../cmpr7aefu00d1wdqkdzdcymq3`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 24 | When Night Falls on Chugang (`.../cmpqv7fr200f8p1qknllhek4h`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 24 | Freelancer (`.../cms8368fjf1cb5fqkgrn2l88x`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | The Grand Duchess Disappeared on a Silent Night (`.../cms9kqqjb33xidbqk9wvnqmqz`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Obedient Pregnancy (`.../cmpr7aefu00d1wdqkdzdcymq3`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Obedient Pregnancy (`.../cmpr7aefu00d1wdqkdzdcymq3`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 38 | Chapter 1 (`.../cmpr7bfel00kvz5qkucutzn4v`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 14 |  |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 24 | The Host Lady (`.../cmtu8vfso0cyac7qkwy8d5h8l`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | Ghost Fetus (`.../cmsgl04mt388vx6qk2z5ml4wq`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Obedient Pregnancy (`.../cmpr7aefu00d1wdqkdzdcymq3`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Obedient Pregnancy (`.../cmpr7aefu00d1wdqkdzdcymq3`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 40 | Chapter 1 (`.../cmpr7bfel00kvz5qkucutzn4v`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 14 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -59,14 +60,15 @@
 | details artist | PASS | null |  |  |  |
 | details genres | PASS | MANHWA, KOREAN, Adult, Drama, Mature, Psychological, Romance, Smut |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | Rating: 9.8<br>Type: MANHWA<br>Origin: KOREAN |  |  |  |
+| details description | PASS | Rating: 9.71875<br>Type: MANHWA<br>Origin: KOREAN |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 38 chapters |  |  |  |
-| chapter dates | PASS | 38 positive upload dates |  |  |  |
+| chapters | PASS | 40 chapters |  |  |  |
+| chapter dates | PASS | 40 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 14 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://media.divascans.org/.../001.webp` (image/webp (encoding: lossy), 738340 bytes, 720x13184) |  |  |  |

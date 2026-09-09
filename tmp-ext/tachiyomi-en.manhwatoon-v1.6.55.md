@@ -2,20 +2,21 @@
 
 - Extension: tachiyomi-en.manhwatoon-v1.6.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 34
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
-- Failed: 0
-- Retry disposition: NOT_APPLICABLE
+- Failed: 1
+- Retry disposition: DO_NOT_RETRY
 
 ## Runtime Evidence
 
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 3590279382085161370
 - Source name: Manhwa Toon
 - Source language: en
@@ -24,12 +25,12 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | MILF Exchange Plan (`.../444`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 25 | I Became an Apartment Security Manager (`.../507`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 25 | If You Are Looking for a Saint, It Is Definitely My Younger Sister. Please Take Her Away, Right Now (`.../33371`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Hiding a Warehousein the Apocalypse (`.../33317`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | Moby Dick (`.../1223`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Martial Inverse (Wu Ni) (`.../30662`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | SSS-geup Jugeoya Saneun Hunter (`.../39621`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | MILF Exchange Plan (`.../444`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | MILF Exchange Plan (`.../444`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 110 | Chapter 1 (`.../chapter1`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 110 | Chapter 1 (`.../chapter1`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 17 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 17 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://cdn.manhwatoon.me/.../1-1.jpg` (image/jpeg, 364215 bytes, 720x12899) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | FAIL | First page URL `https://cdn.manhwatoon.me/.../1-1.jpg` could not be downloaded: eu.kanade.tachiyomi.network.HttpException: HTTP error 400 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |

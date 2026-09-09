@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.orcamanga-v1.6.15
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 20
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 21
 - Lint: 3
 - Warnings: 1
 - Skipped: 11
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 5634203247016722993
 - Source name: Orca Manga
 - Source language: ar
@@ -29,7 +30,7 @@
 | latest_next | `getLatestUpdates(2)` | success | 20 | Veiled Armor: Awakening (`.../veiled-armor-awakening.html`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 |  Legend of Mir: Gold Armored Sword Dragon (`.../legend-of-mir-gold-armored-sword-dragon.html`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Legend of Mir: Gold Armored Sword Dragon (`.../legend-of-mir-gold-armored-sword-dragon.html`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 0 |  |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 0 |  |  | 1-10s |
 | pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

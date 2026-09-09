@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.hijala-v1.4.35
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,21 +16,22 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 917436262447415426
 - Source name: Hijala
 - Source language: ar
-- Selected manga input: popular offset 0: Lookism (`.../lookism`)
+- Selected manga input: latest offset 0: test (`.../test`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 5 | Lookism (`.../lookism`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 5 | Quest Supremacy (`.../quest-supremacy`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 5 | Contract Killer Enrollment (`.../contract-killer-enrollment`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 5 | Stone Age (`.../stone-age`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 3 | Juvenile Law (`.../juvenile-law`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Lookism (`.../lookism`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 626 | فصل 01 (`.../lookism-01`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 8 |  |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 5 | fight class 3 (`.../fight-class-3`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 5 | test (`.../test`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 5 | Fog Land (`.../fog-land`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 5 | Childhood friend of the zenith (`.../childhood-friend-of-the-zenith-2`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | test (`.../test`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 2 | فصل 5641 (`.../test-5641`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 30 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,29 +45,30 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 5 entries |  |  |  |
 | latest listing | PASS | 5 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 1: title=Lookism, URL=`.../lookism` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 2: title=test, URL=`.../test` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 23/23 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 23/23 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 25/25 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 25/25 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://hijala.com/.../%D9%84%D9%88%D9%83%D8%B3%D9%8A%D9%85-1-225x300.gif` (image/gif (format: 89a), 50826 bytes, 225x300) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../lookism` |  |  |  |
-| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://hijala.com/.../%D9%84%D9%88%D9%83%D8%B3%D9%8A%D9%85-1.gif` (image/gif (format: 89a), 7557745 bytes, 448x598) |  |  |  |
-| details author | PASS | Taejun Pak |  |  |  |
-| details artist | PASS | Taejun Pak |  |  |  |
-| details genres | PASS | أكشن, حياة مدرسية, رياضة, شريحة من الحياة, فنون قتالية, قوى خارقة, مغامرات, Manhwa |  |  |  |
+| thumbnail | PASS | `https://hijala.com/.../the-worn-and-torn-newbie-1-214x300.webp` (image/webp (encoding: lossy), 19486 bytes, 214x300) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../test` |  |  |  |
+| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://hijala.com/.../the-worn-and-torn-newbie-1.webp` (image/webp (encoding: lossy), 108616 bytes, 772x1080) |  |  |  |
+| details author | PASS | null |  |  |  |
+| details artist | PASS | null |  |  |  |
+| details genres | PASS | Manhwa |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | بارك هيونج سوك، فتى سمين و غير جذاب، يتعرض للضرب و التحرش بشكل يومي، لكن هناك أعجوبة على وشك أن تحدث. لوكيزم هي كلمة جديدة للتمييز أو التحامل ضد الناس على أساس المظهر الجسدي ” التمييز ضد كل من الجميل و القبيح (فمثلاً “الموظف الجميل و الأنيق راتبه أعلى من الموظف الأقل حظاً بالجمال).<br><br>Alternative Names: 외모지상주의Oemojisangjuui |  |  |  |
+| details description | PASS | Alternative Names: test |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 626 chapters |  |  |  |
-| chapter dates | PASS | 626 positive upload dates |  |  |  |
+| chapters | PASS | 2 chapters |  |  |  |
+| chapter dates | PASS | 2 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 8 HTTP page URLs |  |  |  |
+| page URLs | PASS | 30 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `http://hijala.com/.../01.webp` (image/webp (encoding: lossy), 935090 bytes, 688x15000) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://hijala.com/.../01.webp` (image/webp (encoding: lossy), 921380 bytes, 800x8540) |  |  |  |

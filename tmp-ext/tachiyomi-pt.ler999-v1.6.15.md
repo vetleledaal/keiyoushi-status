@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-pt.ler999-v1.6.15
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 31
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 0
-- Warnings: 1
+- Warnings: 0
 - Skipped: 4
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,16 +16,17 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 11864058740306611
 - Source name: Ler 999
 - Source language: pt-BR
-- Selected manga input: popular offset 0: What Level Are You, How Dare You Pretend in Front of My Seven Senior Sisters (`.../what-level-are-you-how-dare-you-pretend.html`)
+- Selected manga input: latest offset 0: What Level Are You, How Dare You Pretend in Front of My Seven Senior Sisters (`.../what-level-are-you-how-dare-you-pretend.html`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 7 | What Level Are You, How Dare You Pretend in Front of My Seven Senior Sisters (`.../what-level-are-you-how-dare-you-pretend.html`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 7 | What Level Are You, How Dare You Pretend in Front of My Seven Senior Sisters (`.../what-level-are-you-how-dare-you-pretend.html`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 7 | What Level Are You, How Dare You Pretend in Front of My Seven Senior Sisters (`.../what-level-are-you-how-dare-you-pretend.html`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | What Level Are You, How Dare You Pretend in Front of My Seven Senior Sisters (`.../what-level-are-you-how-dare-you-pretend.html`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | What Level Are You, How Dare You Pretend in Front of My Seven Senior Sisters (`.../what-level-are-you-how-dare-you-pretend.html`) |  | 1-10s |
@@ -54,7 +55,7 @@
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://blogger.googleusercontent.com/.../What%20Level%20Are%20You,%20How%20Dare%20You%20Pretend%20in%20Front%20of%20My%20Seven%20Senior%20Sisters.jpg` (image/jpeg, 104637 bytes, 288x412) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../what-level-are-you-how-dare-you-pretend.html` |  |  |  |
-| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://blogger.googleusercontent.com/.../What%20Level%20Are%20You,%20How%20Dare%20You%20Pretend%20in%20Front%20of%20My%20Seven%20Senior%20Sisters.jpg` (image/jpeg, 104637 bytes, 288x412) |  |  |  |
+| details thumbnail URL | PASS | `https://blogger.googleusercontent.com/.../What%20Level%20Are%20You,%20How%20Dare%20You%20Pretend%20in%20Front%20of%20My%20Seven%20Senior%20Sisters.jpg` |  |  |  |
 | details author | PASS | 奇想漫画 |  |  |  |
 | details artist | PASS | 奇想漫画 |  |  |  |
 | details genres | PASS | Action, Harem, Martial Arts, Romance, Seinen |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../001.jpg` (image/jpeg, 2179918 bytes, 800x14814) |  |  |  |

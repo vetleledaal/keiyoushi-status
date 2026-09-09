@@ -2,14 +2,14 @@
 
 - Extension: tachiyomi-it.digitalteam-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 25
-- Lint: 1
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 14
+- Lint: 0
 - Warnings: 1
-- Skipped: 8
-- Failed: 1
-- Retry disposition: REVIEW
+- Skipped: 19
+- Failed: 3
+- Retry disposition: RETRY_NOW
 
 ## Runtime Evidence
 
@@ -28,9 +28,9 @@
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | error | 0 |  | java.lang.Exception: La ricerca è momentaneamente disabilitata. | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Act-Age (`.../act-age`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 58 | Volume 1 Capitolo 1: Yonagi Kei (`.../1`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 51 |  |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | timeout | 0 |  | kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 30000 ms | 10s+ |
+| chapters | `fetchChapterList(manga)` | success | 58 | Volume 1 Capitolo 1: Yonagi Kei (`.../1`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | timeout | 0 |  | kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 30000 ms | 10s+ |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -39,9 +39,9 @@
 | latest operation | SKIP | supportsLatest = false |  |  |  |
 | latest_next operation | SKIP | supportsLatest = false |  |  |  |
 | search operation | ERROR | java.lang.Exception: La ricerca è momentaneamente disabilitata. | REVIEW | INSUFFICIENT_EVIDENCE |  |
-| details operation | PASS |  |  |  |  |
+| details operation | TIMEOUT | kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 30000 ms | RETRY_NOW | TIMEOUT |  |
 | chapters operation | PASS |  |  |  |  |
-| pages operation | PASS |  |  |  |  |
+| pages operation | TIMEOUT | kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 30000 ms | RETRY_NOW | TIMEOUT |  |
 | popular listing | PASS | 80 entries |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
 | search listing | SKIP | La ricerca è momentaneamente disabilitata. |  |  |  |
@@ -53,20 +53,21 @@
 | thumbnail URLs | PASS | 80/80 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | UNUSUAL | Thumbnail URLs used by different manga URLs: `https://i.postimg.cc/.../img-mv-01.jpg` -> 5 manga URLs (examples: `.../digimon-knuckles`, `.../digimon-paradox`, `.../digimon-recollection`) |  |  |  |
 | thumbnail | PASS | `https://i.postimg.cc/.../act-age.jpg` (image/jpeg, 172874 bytes, 550x800) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../act-age` |  |  |  |
-| details thumbnail URL | PASS | `https://i.postimg.cc/.../act-age.jpg` |  |  |  |
-| details author | PASS | Tatsuya Matsuki |  |  |  |
-| details artist | PASS | Shiro Usazaki |  |  |  |
-| details genres | PASS | Drammatico, Sentimentale, Shonen, Slice Of Life |  |  |  |
-| details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
-| details description | PASS | Trama: Un regista geniale, Sumiji Kuroyama, è chiamato a presenziare ad un'audizione per giovani attrici emergenti. Nonostante quasi tutte le ragazze presenti gli sembrino banali e prive di talento, il suo sguardo viene all'improvviso catturato da lei: Kei Yonagi, 16 anni e tutto il potenziale di un vero diamante grezzo. Che l'uomo abbia finalmente trovato l'unica attrice nata per realizzare il suo sogno? |  |  |  |
+| details identity | SKIP | No details manga URL to compare |  |  |  |
+| details thumbnail URL | SKIP | No details manga to check |  |  |  |
+| details author | SKIP | No details manga to check |  |  |  |
+| details artist | SKIP | No details manga to check |  |  |  |
+| details genres | SKIP | No details manga to check |  |  |  |
+| details status | SKIP | No details manga to check |  |  |  |
+| details description | SKIP | No details manga to check |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | PASS | 58 chapters |  |  |  |
 | chapter dates | PASS | 58 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
-| page indices | PASS |  |  |  |  |
-| page URLs | PASS | 51 HTTP page URLs |  |  |  |
-| duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://dgtread.com/.../00_rifirac4d2c29fa7186dca18d.jpg` (image/jpeg, 686291 bytes, 893x1402) |  |  |  |
+| page indices | SKIP | No pages to check |  |  |  |
+| page URLs | SKIP | Timed out waiting for 30000 ms |  |  |  |
+| duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | SKIP | No pages to load |  |  |  |

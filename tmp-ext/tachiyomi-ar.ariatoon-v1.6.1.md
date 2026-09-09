@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.ariatoon-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 20 | زنوبيا (`.../bc6024d1-e099-4e95-a7dc-d0399a54009f`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 20 | عصر الجواهر (`.../b4933e5e-b6bc-46e2-bc89-69e607db0b1a`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 20 | الفتاة التي بِلا رداء أحمر (`.../f5fed092-3c42-49a1-b029-c4f7c670ccab`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 20 | مقهى الدماء  (`.../5977c5bf-0f5a-433b-b0b2-3c6b4731d62c`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 20 | مشروع العقول الفائقة (`.../51143e66-84ea-41cb-acc7-5a4bc35ee632`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 20 | زرع نواة (`.../b7176dc7-0490-49c2-b7ac-d6de196241ac`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | زنوبيا (`.../bc6024d1-e099-4e95-a7dc-d0399a54009f`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | زنوبيا (`.../bc6024d1-e099-4e95-a7dc-d0399a54009f`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 8 | الفصل 1 - الفصل الاول  (`.../32552af5-c0e5-45ed-9f8a-b80952a97fef`) |  | <1s |
@@ -52,9 +52,9 @@
 | manga title and URL | PASS | 81/81 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 81/81 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://api.ariatoon.com/.../ff923b91-39fa-4a77-b53b-5f9936fcb219.jpg` (image/jpeg, 3466982 bytes, 2362x3543) |  |  |  |
+| thumbnail | PASS | `https://api.ariatoon.com/.../b640f77c-3710-49c1-a446-f001647c8928.png` (image/png, 1880843 bytes, 960x1440) |  |  |  |
 | details identity | PASS | Details preserved selected URL `bc6024d1-e099-4e95-a7dc-d0399a54009f` |  |  |  |
-| details thumbnail URL | PASS | `https://api.ariatoon.com/.../ff923b91-39fa-4a77-b53b-5f9936fcb219.jpg` |  |  |  |
+| details thumbnail URL | PASS | `https://api.ariatoon.com/.../b640f77c-3710-49c1-a446-f001647c8928.png` |  |  |  |
 | details author | PASS | tala jk |  |  |  |
 | details artist | PASS | null |  |  |  |
 | details genres | PASS | null |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 10 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://api.ariatoon.com/.../2f7dae00-f9d5-45f7-8b8f-1290461f9e77.jpg` (image/jpeg, 180248 bytes, 1272x1800) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.thohamngu-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 31
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 32
 - Lint: 0
 - Warnings: 2
 - Skipped: 2
@@ -27,9 +27,9 @@
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 21 | Chẳng Phải Tôi Là Nữ Chính Của Tiểu Thuyết Hối Hận Sao? (`.../chang-phai-toi-la-nu-chinh-cua-tieu-thuyet-hoi-han-sao`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 10 | Công Tước Phu Nhân Đang Tìm Chồng (`.../cong-tuoc-phu-nhan-dang-tim-chong`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 2 | Nam Chính Bệnh Hoạn Ám Ảnh Với Sức Khoẻ Của Tôi (`.../nam-chinh-benh-hoan-am-anh-voi-suc-khoe-cua-toi`) |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 2 | Nam Chính Bệnh Hoạn Ám Ảnh Với Sức Khoẻ Của Tôi (`.../nam-chinh-benh-hoan-am-anh-voi-suc-khoe-cua-toi`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Nam Chính Bệnh Hoạn Ám Ảnh Với Sức Khoẻ Của Tôi (`.../nam-chinh-benh-hoan-am-anh-voi-suc-khoe-cua-toi`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 77 | Chương 1 (`.../nam-chinh-benh-hoan-am-anh-voi-suc-khoe-cua-toi-chuong-1`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 78 | Chương 1 (`.../nam-chinh-benh-hoan-am-anh-voi-suc-khoe-cua-toi-chuong-1`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 27 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Tôi đã được tái sinh thành một diễn viên quần chúng. Người bạn thời thơ ấu bị lãng quên của nam chính, diễn viên quần chúng chết sớm trong một cuốn tiểu thuyết. Vì tôi bị bệnh nan y, tôi thậm chí không thể tránh được lá cờ tử thần, nên tôi chỉ cố gắng sống chung với nó… Nhưng sau đó… “Tại sao cậu không khỏe vậy?” “Tôi đã bảo cậu phải khỏe mạnh mà.” “Tại sao em lại ốm nữa? Phải xin phép trước khi bị ốm chứ.” Nam chính biến thành một kẻ điên cuồng ám ảnh về sức khỏe. Aaa, ai đó làm ơn đưa tên này cho khuất mắt tôi với! — Xem Thêm — |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 77 chapters |  |  |  |
-| chapter dates | PASS | 77 positive upload dates |  |  |  |
+| chapters | PASS | 78 chapters |  |  |  |
+| chapter dates | PASS | 78 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 27 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://thohamngu.xyz/.../IMG_2645.webp` (image/webp (container: extended), 68510 bytes, 1280x1067) |  |  |  |

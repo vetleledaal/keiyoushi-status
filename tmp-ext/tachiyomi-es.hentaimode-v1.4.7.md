@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.hentaimode-v1.4.7
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 27
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 28
 - Lint: 2
 - Warnings: 0
 - Skipped: 7
@@ -23,14 +23,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 60 | Todos estamos en calor! (`.../2053`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 60 | Todos estamos en calor! (`.../2053`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 3 | Todos estamos en calor! (`.../2053`) |  | 10s+ |
-| details | `fetchMangaDetails(manga)` | success | 1 | Todos estamos en calor! (`.../2053`) |  | 10s+ |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 3 | Todos estamos en calor! (`.../2053`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Todos estamos en calor! (`.../2053`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 1 | Chapter (`.../2053`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 20 |  |  | 10s+ |
+| pages | `fetchPageList(chapter)` | success | 20 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 20 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://h1.kmcdn.top/.../0.jpg` (image/jpeg, 215338 bytes, 910x1375) |  |  |  |

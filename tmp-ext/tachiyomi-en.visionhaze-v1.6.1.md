@@ -2,14 +2,14 @@
 
 - Extension: tachiyomi-en.visionhaze-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 15
-- Lint: 1
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 27
+- Lint: 2
 - Warnings: 0
-- Skipped: 18
-- Failed: 2
-- Retry disposition: REVIEW
+- Skipped: 8
+- Failed: 0
+- Retry disposition: NOT_APPLICABLE
 
 ## Runtime Evidence
 
@@ -29,8 +29,8 @@
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Vision Haze (`<redacted URL #1: selected resource; relative; no scheme>`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Vision Haze (`<redacted URL #1: selected resource; relative; no scheme>`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
-| pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 200 | Page 1 - Chapter 1 (`<redacted URL #2: selected resource; relative; no scheme; query parameters: p>`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 1 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -40,8 +40,8 @@
 | latest_next operation | SKIP | supportsLatest = false |  |  |  |
 | search operation | PASS |  |  |  |  |
 | details operation | PASS |  |  |  |  |
-| chapters operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | REVIEW | INSUFFICIENT_EVIDENCE |  |
-| pages operation | SKIP | No usable chapter was available |  |  |  |
+| chapters operation | PASS |  |  |  |  |
+| pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 1 entries |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Vision Haze, URL=`/` |  |  |  |
@@ -52,7 +52,7 @@
 | manga title and URL | PASS | 2/2 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 2/2 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | FAIL | Thumbnail URL `https://www.visionhaze.com/.../banner0.png` could not be downloaded: eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| thumbnail | PASS | `https://www.visionhaze.com/.../banner0.png` (image/png, 43804 bytes, 840x375) |  |  |  |
 | details identity | PASS | Details preserved selected URL `/` |  |  |  |
 | details thumbnail URL | PASS | `https://www.visionhaze.com/.../banner0.png` |  |  |  |
 | details author | PASS | Yttrium |  |  |  |
@@ -61,12 +61,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | null |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | SKIP | Chapters did not run successfully |  |  |  |
-| chapter dates | SKIP | No chapters to check |  |  |  |
-| chapter titles | SKIP | No chapters to check |  |  |  |
-| chapter URLs | SKIP | No chapters to check |  |  |  |
-| duplicate chapter URLs | SKIP | No chapters to check |  |  |  |
-| page indices | SKIP | No pages to check |  |  |  |
-| page URLs | SKIP | No usable chapter was available |  |  |  |
-| duplicate page URLs | SKIP | No pages to check |  |  |  |
-| page load | SKIP | No pages to load |  |  |  |
+| chapters | PASS | 200 chapters |  |  |  |
+| chapter dates | LINT | All 200 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=200 |  |  |  |
+| chapter titles | PASS |  |  |  |  |
+| chapter URLs | PASS |  |  |  |  |
+| duplicate chapter URLs | PASS |  |  |  |  |
+| page indices | PASS |  |  |  |  |
+| page URLs | PASS | 1 HTTP page URLs |  |  |  |
+| duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://www.visionhaze.com/.../p001.png` (image/png, 29471 bytes, 840x1140) |  |  |  |

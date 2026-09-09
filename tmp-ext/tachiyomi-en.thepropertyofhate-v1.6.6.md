@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.thepropertyofhate-v1.6.6
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 22
 - Lint: 3
-- Warnings: 0
+- Warnings: 1
 - Skipped: 10
 - Failed: 1
 - Retry disposition: DO_NOT_RETRY
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 19 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | chapters: `https://jolleycomics.com/.../TPoH` to `https://jolleycomics.com/.../662` (2 redirects) |  |  |  |
 | page load | PASS | `https://jolleycomics.com/.../tpoh_547dfae6a2683.jpg` (image/jpeg, 474353 bytes, 800x1132) |  |  |  |

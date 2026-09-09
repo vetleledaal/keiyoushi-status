@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.darkscience-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 26
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 27
 - Lint: 0
 - Warnings: 0
 - Skipped: 10
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://dresdencodak.com/.../ds_001.jpg` (image/jpeg, 1877358 bytes, 2500x4265) |  |  |  |

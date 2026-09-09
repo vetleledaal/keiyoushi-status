@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.laviniafansub-v1.6.60
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 29
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 30
 - Lint: 0
 - Warnings: 1
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 3269982329415083765
 - Source name: Lavinia Fansub
 - Source language: tr
@@ -24,13 +25,13 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Placebo: Let’s Play (`.../1068`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 25 | Semantic Error (`.../6612`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 25 | Lewd Invasion (`.../18083`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Song of the Wasteland (`.../18982`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
+| popular_next | `getPopularManga(2)` | success | 25 | The Tigers Want to Eat A Little Rabbit (`.../319`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Beasts Of Desire (`.../2020`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Drop It And Let’s Talk (`.../11394`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Placebo: Let’s Play (`.../1068`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 70 | 1. Bölüm (`.../1-bolum`) |  | <1s |
-| pages | `getPageList(chapter)` | error | 0 |  | java.lang.Exception: Okumak için WebView üzerinden giriş yapın | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 70 | 1. Bölüm (`.../1-bolum`) |  | 1-10s |
+| pages | `getPageList(chapter)` | error | 0 |  | java.lang.Exception: Okumak için WebView üzerinden giriş yapın | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | Okumak için WebView üzerinden giriş yapın |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

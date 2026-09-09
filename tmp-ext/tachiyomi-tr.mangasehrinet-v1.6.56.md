@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-tr.mangasehrinet-v1.6.56
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 16
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 18
 - Failed: 2
 - Retry disposition: REVIEW
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 2403498411345112019
 - Source name: Manga Şehri.net
 - Source language: tr
@@ -26,7 +27,7 @@
 | popular | `getPopularManga(1)` | success | 25 | Solo Leveling (`.../34`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 25 | Just Twilight (`.../1377`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | success | 25 | Am I the Daughter? (`.../415`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Hırsız Leydinin Dedektif Kocası (`.../3040`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Hırsız Leydinin Dedektif Kocası (`.../3040`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 10 | Solo Leveling Ragnarok (`.../5015`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://manga-sehri.net <redacted query values: p>` to `https://manga-sehri.net/.../solo-leveling-7` (1 redirects) |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

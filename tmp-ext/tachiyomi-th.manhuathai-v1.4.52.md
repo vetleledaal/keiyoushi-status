@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-th.manhuathai-v1.4.52
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 27
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 28
 - Lint: 1
 - Warnings: 2
 - Skipped: 5
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madaralegacy
 - Source ID: 7916744898099174736
 - Source name: ManhuaThai
 - Source language: th
@@ -28,8 +29,8 @@
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Master Cultivation Return – โคตรเซียนเกรียนกลับมาเกิดใหม่ (`.../master-cultivation-return`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 514 | ตอนที่ 1 (`https://www.manhuathai.com/.../%e0%b8%95%e0%b8%ad%e0%b8%99%e0%b8%97%e0%b8%b5%e0%b9%88-1 <redacted query values: style>`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Master Cultivation Return – โคตรเซียนเกรียนกลับมาเกิดใหม่ (`.../master-cultivation-return`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 514 | ตอนที่ 1 (`https://www.manhuathai.com/.../%e0%b8%95%e0%b8%ad%e0%b8%99%e0%b8%97%e0%b8%b5%e0%b9%88-1 <redacted query values: style>`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 17 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 17 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://img.manhuathai.com/.../Upload-Master-Cultivation-Return-1-IY4HO-Manhuathai.jpg` (image/jpeg, 165732 bytes, 1000x1326) |  |  |  |

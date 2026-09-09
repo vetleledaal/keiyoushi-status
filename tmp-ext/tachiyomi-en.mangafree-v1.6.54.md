@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangafree-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 3386549954655095711
 - Source name: Mangafree
 - Source language: en
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Perfect Secret Love: The Bad New Wife Is A Little Sweet (`.../742`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Second-To-None Adoration (`.../544`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | The secret of the female professor (`.../4480`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Cry Or Better Yet, Beg (`.../4918`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Someone Stop Her! (`.../3285`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Wireless onahole (`.../3238`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Perfect Secret Love: The Bad New Wife Is A Little Sweet (`.../742`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Perfect Secret Love: The Bad New Wife Is A Little Sweet (`.../742`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 586 | 311 (`.../311`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 19 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `http://mangafree.info/.../1-f.jpg` (image/webp (container: extended), 79586 bytes, 800x1416; server Content-Type: image/jpeg) |  |  |  |

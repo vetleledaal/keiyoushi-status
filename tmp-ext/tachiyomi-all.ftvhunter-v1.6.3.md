@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-all.ftvhunter-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 28
 - Lint: 2
-- Warnings: 0
+- Warnings: 1
 - Skipped: 5
 - Failed: 1
 - Retry disposition: REVIEW
@@ -16,21 +16,22 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: masonry
 - Source ID: 2424130356866336342
 - Source name: FTV Hunter
 - Source language: all
-- Selected manga input: popular offset 0: Emily strips from her white dress (`.../emily-emily-strips-from-her-white-dress`)
+- Selected manga input: popular offset 0: Dildo In The Car (`.../sasha-in-dildo-in-the-car`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 19 | Emily strips from her white dress (`.../emily-emily-strips-from-her-white-dress`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 20 | Dildo In The Car (`.../sasha-in-dildo-in-the-car`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 20 | Lola in Tabletop Nudes from Ftv Girls (`.../lola-in-tabletop-nudes`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 20 | Sophia in A Professional Set from Ftv Girls (`.../sophia-in-a-professional-set`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Emily strips from her white dress (`.../emily-emily-strips-from-her-white-dress`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Gallery (`.../emily-emily-strips-from-her-white-dress`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 15 |  |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Dildo In The Car (`.../sasha-in-dildo-in-the-car`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Gallery (`.../sasha-in-dildo-in-the-car`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 20 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -42,24 +43,24 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 19 entries |  |  |  |
+| popular listing | PASS | 20 entries |  |  |  |
 | latest listing | PASS | 20 entries |  |  |  |
 | search listing | SKIP | HTTP error 403 |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 39/39 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 39/39 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 40/40 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 40/40 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://cdn.ftvhunter.com/.../2135_masonry_600.jpg` (image/jpeg, 118249 bytes, 600x903) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../emily-emily-strips-from-her-white-dress` |  |  |  |
+| thumbnail | PASS | `https://cdn.ftvhunter.com/.../2344002_masonry_1200.jpg` (image/jpeg, 372823 bytes, 1200x1803) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../sasha-in-dildo-in-the-car` |  |  |  |
 | details thumbnail URL | PASS | null |  |  |  |
-| details author | PASS | Emily |  |  |  |
-| details artist | PASS | Emily |  |  |  |
-| details genres | LINT | Genres is empty; use null when unknown |  |  |  |
+| details author | PASS | Sasha |  |  |  |
+| details artist | LINT | Artist is empty; use null when unknown |  |  |  |
+| details genres | PASS | Babe, Big Tits, Brunette, Masturbation, Toys |  |  |  |
 | details status | PASS | COMPLETED (2) |  |  |  |
-| details description | PASS | Emily |  |  |  |
+| details description | PASS | SashaBabe Big Tits Brunette Masturbation Toys |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | PASS | 1 chapters |  |  |  |
 | chapter dates | LINT | All 1 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1 |  |  |  |
@@ -67,6 +68,7 @@
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 15 HTTP page URLs |  |  |  |
+| page URLs | PASS | 20 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://cdn.ftvhunter.com/.../emily-strips-from-her-white-dress-01.jpg` (image/jpeg, 156811 bytes, 665x1000) |  |  |  |
+| redirects | UNUSUAL | popular: `https://www.ftvhunter.com/.../1` to `https://www.ftvhunter.com/.../newest` (1 redirects) |  |  |  |
+| page load | PASS | `https://cdn.ftvhunter.com/.../0002-01_1800.jpg` (image/jpeg, 276735 bytes, 1800x1198) |  |  |  |

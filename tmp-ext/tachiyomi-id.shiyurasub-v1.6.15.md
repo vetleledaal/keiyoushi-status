@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.shiyurasub-v1.6.15
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 29
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 30
 - Lint: 0
 - Warnings: 0
 - Skipped: 7
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 7106013231844823613
 - Source name: ShiyuraSub
 - Source language: id
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 18 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../AVvXsEjdBk9b2uxskJ4zoMTPtvvaf_tX8J8xQa720mN3LK3ki9RQF58d3eIfiecUji3Mbk0AivTMBSd-F9OTf-XX15OYnoVuqk12XMr8LkY99ZBk7uoIev0CBi-EPGk6MKbuTisWlVLGv5rD7L0DMT8XbtnvEd4XSESU3-FjE3ekvkYVoYQmoaN0hgRxfP1EfQ` (image/jpeg, 265627 bytes, 836x1200) |  |  |  |

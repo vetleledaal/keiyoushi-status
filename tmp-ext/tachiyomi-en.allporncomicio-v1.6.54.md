@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.allporncomicio-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 6660493687892371703
 - Source name: AllPornComic.io
 - Source language: en
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Sinful Lust All Latest chapters (`.../24219`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Dirty Talk (`.../27241`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Mom Got Fucked Instead of Her Daughter [English] (`.../27388`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Teach Me First! ( Uncensored) (`.../27187`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Incest Room comic (`.../27406`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | The Village’s Special Law (`.../26139`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Sinful Lust All Latest chapters (`.../24219`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Sinful Lust All Latest chapters (`.../24219`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 24 | Sinful lust Chapter 1 (`.../sinful-lust-chapter-1`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 89 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://allporncomic.io/.../1.webp` (image/webp (encoding: lossy), 148168 bytes, 2186x2880) |  |  |  |

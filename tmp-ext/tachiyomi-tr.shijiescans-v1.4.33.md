@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.shijiescans-v1.4.33
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,10 +16,11 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 876756264275379458
 - Source name: Shijie Scans
 - Source language: tr
-- Selected manga input: latest offset 0: Home at the Horizon (`.../home-at-the-horizon`)
+- Selected manga input: popular offset 0: Nano Machine (`.../nano-machine`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
@@ -27,10 +28,10 @@
 | popular_next | `fetchPopularManga(2)` | success | 20 | Aşağı Dünyanın Efendisi (`.../asagi-dunyanin-efendisi`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 20 | Home at the Horizon (`.../home-at-the-horizon`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | success | 20 | Hua Dağı Mezhebinin Dönüşü (`.../return-of-the-mount-hua-sect`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Home at the Horizon (`.../home-at-the-horizon`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Home at the Horizon (`.../home-at-the-horizon`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 3 | Bölüm 1 (`.../home-at-the-horizon-bolum-1`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 82 |  |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | Gel Beni Al! (`.../gel-beni-al`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Nano Machine (`.../nano-machine`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 194 | Bölüm 1 - Giriş (`.../nano-machine-bolum-1`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 24 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,29 +45,30 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 20 entries |  |  |  |
 | latest listing | PASS | 20 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Home at the Horizon, URL=`.../home-at-the-horizon` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 1: title=Nano Machine, URL=`.../nano-machine` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 81/81 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 81/81 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 82/82 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 82/82 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://shijiescans.com/.../cc8fc160-8bde-4102-86e5-d9768f61e722.jpg.512-211x300.jpg` (image/jpeg, 22962 bytes, 211x300) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../home-at-the-horizon` |  |  |  |
-| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://shijiescans.com/.../cc8fc160-8bde-4102-86e5-d9768f61e722.jpg.512.jpg` (image/jpeg, 126866 bytes, 512x728) |  |  |  |
-| details author | PASS | Taiyo Watabe |  |  |  |
-| details artist | PASS | null |  |  |  |
-| details genres | PASS | Dram, Komedi, Psikolojik, Yaşamdan kesitler |  |  |  |
+| thumbnail | PASS | `https://shijiescans.com/.../thumbnail_IMAG21_75c6a3cc-c4d1-4b51-a945-029aff772a63_kopya-231x300.png` (image/png, 164327 bytes, 231x300) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../nano-machine` |  |  |  |
+| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://shijiescans.com/.../thumbnail_IMAG21_75c6a3cc-c4d1-4b51-a945-029aff772a63_kopya.png` (image/png, 533036 bytes, 480x623) |  |  |  |
+| details author | PASS | null |  |  |  |
+| details artist | PASS | Bölüm 167 - Beş Büyük Savaş Sanatçısının Selefi (2) |  |  |  |
+| details genres | PASS | Aksiyon, Bilim kurgu, Dövüş sanatları, Fantezi, Harem, Macera, Murim, Shounen, Tarihi |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | Ryoma, bir sahil kasabasında büyükbabasıyla birlikte bir hamam işletmektedir. Bir gün okuldan sonra hamamı işletme rutinini sürdürürken, Reo adında bir çocuk ortaya çıkar ve babasının gayrimeşru oğlu olduğunu iddia eder. Hamamda üvey kardeşler arasında buruk ama yürek ısıtan bir dram yaşanır!<br><br>Alternative Names: Ufuktaki Ev, Okaeri Suiheisen, Welcome Back to the Horizon, おかえり水平線 |  |  |  |
+| details description | PASS | Hor görülüp hayatı tehlikeye atılan, Şeytani Tarikatında bir öksüz olan Cheon Yeo-Woon; aniden gelecekten gelen, onun vücuduna nano makine yerleştiren torununun ziyaretiyle şaşkınlığa uğrar. Nano makine aktif olduktan sonra hayatı büyük ölçüde değişen Cheon Yeo-Woon’un Şeytani Tarikatının içinden geçip en iyi dövüş sanatçısı olma hikayesi başlamış oldu.<br><br>Alternative Names: Nano Makine |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 3 chapters |  |  |  |
-| chapter dates | PASS | 3 positive upload dates |  |  |  |
+| chapters | PASS | 194 chapters |  |  |  |
+| chapter dates | PASS | 194 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 82 HTTP page URLs |  |  |  |
+| page URLs | PASS | 24 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `http://shijiescans.com/.../00-27.webp` (image/webp (container: extended), 290546 bytes, 800x1200) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://shijiescans.com/.../01-827.jpg` (image/jpeg, 311010 bytes, 800x5020) |  |  |  |

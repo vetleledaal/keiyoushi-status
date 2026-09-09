@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.hentaivnplus-v1.6.72
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 35
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 7015430763374257867
 - Source name: HentaiVN.plus
 - Source language: vi
@@ -26,7 +27,7 @@
 | popular | `getPopularManga(1)` | success | 25 | Đồng Hồ Ngưng Đọng Thời Gian (`.../10351`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 25 | Những Cô Con Gái (`.../7753`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | success | 25 | Gái Đã Có Chồng Là Bạn Cùng Lớp!? (`.../16191`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Ân Huệ Trời Ban! (`.../20859`) |  | 10s+ |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Ân Huệ Trời Ban! (`.../20859`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 9 | Đồng Hồ Ngưng Đọng Thời Gian (`.../10351`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Đồng Hồ Ngưng Đọng Thời Gian (`.../10351`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 155 | Chapter 1 (`.../chapter-1`) |  | 1-10s |
@@ -50,7 +51,7 @@
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
 | manga title and URL | PASS | 109/109 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | UNUSUAL | 98/109 manga have thumbnail URLs |  |  |  |
+| thumbnail URLs | UNUSUAL | 100/109 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://hentaivn.show/.../truyen-dong-ho-ngung-dong-thoi-gian-1.jpg` (image/jpeg, 219534 bytes, 350x476) |  |  |  |
 | details identity | PASS | Details preserved selected URL `10351` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 66 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://hentaivn.show/.../truyen-dong-ho-ngung-dong-thoi-gian-chapter-1-(1).jpg` (image/jpeg, 9438 bytes, 720x318) |  |  |  |

@@ -2,10 +2,10 @@
 
 - Extension: tachiyomi-en.timelesstoons-v1.6.22
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 30
-- Lint: 1
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 32
+- Lint: 0
 - Warnings: 1
 - Skipped: 4
 - Failed: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: keyoapp
 - Source ID: 9063123408669132087
 - Source name: TimelessToons
 - Source language: en
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 6 | The Regressed Sword Saint’s Theory of Magic (`.../the-regressed-sword-saints-theory-of-magic`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 168 | What if the strongest final boss in the original becomes a companion of the main character? (`.../what-if-the-strongest-final-boss-in-the-original-becomes-a-companion-of-the-main-character`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 168 | Blossoms in Adversity (`.../blossoms-in-adversity`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | The Regressed Sword Saint’s Theory of Magic (`.../the-regressed-sword-saints-theory-of-magic`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | The Regressed Sword Saint’s Theory of Magic (`.../the-regressed-sword-saints-theory-of-magic`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 36 | Chapter 1 (`.../64892d9c8ea-64894618904`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 37 | Chapter 1 (`.../64892d9c8ea-64894618904`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 26 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | All who stand against monsters are eventually forced to make a choice. One path is that of the mage, wielding magic capable of creating supernatural miracles. The other is the path of the swordsman, mastering inhuman techniques through sheer skill. Oscar, a swordsman, had swung a blade since early childhood and rose to the rank of the highest Sword Saint. He cut down ferocious monsters, earned the admiration of the people, and lived a life envied by all. Yet deep within his heart, he harbored a secret longing— an unfulfilled admiration for the path of the mage…?<br><br>Alternative Titles:<br>- The Magic Theory of the Regressed Sword Saint<br>- 回帰した剣聖の魔法理論 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 36 chapters |  |  |  |
-| chapter dates | LINT | 1 of 36 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1 |  |  |  |
+| chapters | PASS | 37 chapters |  |  |  |
+| chapter dates | PASS | 37 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 26 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.meowing.org/.../gRWrlnXSZ8G` (image/png, 519381 bytes, 800x496; server Content-Type: text/plain) |  |  |  |

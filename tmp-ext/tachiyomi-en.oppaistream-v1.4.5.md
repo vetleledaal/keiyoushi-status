@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.oppaistream-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -27,7 +27,7 @@
 | popular_next | `fetchPopularManga(2)` | success | 36 | Go Ahead, Mom (`.../manhwa <redacted query values: m>`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 36 | Gear that’s Way Too Good (`.../manhwa <redacted query values: m>`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | success | 36 | I’m Here for You (`.../manhwa <redacted query values: m>`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | The Hole is Open (`.../manhwa <redacted query values: m>`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | The Hole is Open (`.../manhwa <redacted query values: m>`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | The Hole is Open (`.../manhwa <redacted query values: m>`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 152 | Chapter 1 (`.../page <redacted query values: m and c>`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 67 |  |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 67 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://myspacecat.pictures/.../1.jpg <redacted query values: v>` (image/jpeg, 196278 bytes, 720x2500) |  |  |  |

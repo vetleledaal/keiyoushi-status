@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.comicfury-v1.4.8
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -24,12 +24,12 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 30 | Golden Shrike (`.../comicprofile.php <redacted query values: url>`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 30 | PMD: Wildfire (`.../comicprofile.php <redacted query values: url>`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | STIGS (`.../comicprofile.php <redacted query values: url>`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 30 | Hopefulness (`.../comicprofile.php <redacted query values: url>`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 30 | Tales From Alderwood (`.../comicprofile.php <redacted query values: url>`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 30 | Root of Sepulchre (`.../comicprofile.php <redacted query values: url>`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 30 | KuraMonody (`.../comicprofile.php <redacted query values: url>`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 30 | Golden Shrike (`.../comicprofile.php <redacted query values: url>`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Golden Shrike (`.../comicprofile.php <redacted query values: url>`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 385 | Prologue - 1 (`.../1079247`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Golden Shrike (`.../comicprofile.php <redacted query values: url>`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 386 | Prologue - 1 (`.../1079247`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | Something has shifted in the world. Sheltered deer twins, Runi and Nero, will get to see it all unfold. Updates on Thursdays. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 385 chapters |  |  |  |
-| chapter dates | PASS | 385 positive upload dates |  |  |  |
+| chapters | PASS | 386 chapters |  |  |  |
+| chapter dates | PASS | 386 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://img.comicfury.com/.../44213a1575546554f1110480848.png` (image/png, 1333415 bytes, 982x1491) |  |  |  |

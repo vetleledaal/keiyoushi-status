@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.nyanukafe-v1.6.22
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 0
 - Warnings: 0
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: keyoapp
 - Source ID: 3025454996745441538
 - Source name: Nyanu Kafe
 - Source language: en
@@ -23,7 +24,7 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 4 | Demon Lord City (`.../63f559b92c0`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 4 | Demon Lord City (`.../63f559b92c0`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 6 | Too Many Losing Heroines! (`.../062ed884e41`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 36 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.meowing.org/.../Zf4AGT_U5P7` (image/webp (encoding: lossy), 452260 bytes, 1080x1502; server Content-Type: text/plain) |  |  |  |

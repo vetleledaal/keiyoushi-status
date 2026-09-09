@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-uk.mangainua-v1.6.12
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 36
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -23,12 +23,12 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 16 | Людина-бензопила (`.../168-ludyna-benzopyla.html`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 16 | Їхня історія (`.../85-ikhnia-istoriia.html`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 16 | Маєток, де чекають на весну (`.../117848-the-mansion-awaits-spring.html`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 16 | Примарний ноктюрн (`.../20332-night-song.html`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 16 | Людина-бензопила (`.../168-ludyna-benzopyla.html`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 16 | Їхня історія (`.../85-ikhnia-istoriia.html`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 16 | Порок крові (`.../118008-porok-krovi.html`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 16 | Зайвий у романі (`.../32293-the-novels-extra.html`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 5 | Людина-бензопила (`.../168-ludyna-benzopyla.html`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Людина-бензопила (`.../168-ludyna-benzopyla.html`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Людина-бензопила (`.../168-ludyna-benzopyla.html`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 232 | Том 1. Розділ 1 - Пес і бензопила (`.../44147-ljudina-benzopila-tom-1-rozdil-1.html`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 56 |  |  | 1-10s |
 
@@ -52,9 +52,9 @@
 | manga title and URL | PASS | 69/69 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 69/69 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://manga.in.ua/.../1769015877_23-tom-obkladynka-2285x3600.jpg` (image/jpeg, 323932 bytes, 508x800) |  |  |  |
+| thumbnail | PASS | `https://manga.in.ua/.../1788955798_24-tom-obkladynka.jpg` (image/jpeg, 197787 bytes, 508x800) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../168-ludyna-benzopyla.html` |  |  |  |
-| details thumbnail URL | PASS | `https://manga.in.ua/.../1769015877_23-tom-obkladynka-2285x3600.jpg` |  |  |  |
+| details thumbnail URL | PASS | `https://manga.in.ua/.../1788955798_24-tom-obkladynka.jpg` |  |  |  |
 | details author | PASS | null |  |  |  |
 | details artist | PASS | null |  |  |  |
 | details genres | PASS | МАНҐА, Божевілля, Бойовик, Демони, Драма, Надприродне, Шьонен |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 56 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://manga.in.ua/.../sort=news_read;desc` to `https://manga.in.ua/.../sort=news_read;desc` (1 redirects); popular: `https://manga.in.ua/.../sort=date;desc` to `https://manga.in.ua/.../sort=date;desc` (1 redirects) |  |  |  |
 | page load | PASS | `https://manga.in.ua/.../1685566127_dlraw_net-img-0001.png` (image/png, 454345 bytes, 764x1200) |  |  |  |

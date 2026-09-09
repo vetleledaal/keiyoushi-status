@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.traduccionesmoonlight-v1.4.47
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 29
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 30
 - Lint: 3
 - Warnings: 0
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: moonlighttl
 - Source ID: 4349338377187141550
 - Source name: Traducciones Moonlight
 - Source language: es
@@ -29,7 +30,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | EL ESPOSO DE MI AMIGA (`.../el-esposo-de-mi-amiga`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | EL ESPOSO DE MI AMIGA (`.../el-esposo-de-mi-amiga`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 39 | Capítulo 1 (`.../1`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 40 | Capítulo 1 (`.../1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 9 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | “Todos los hombres decentes ya están tomados”. Los hombres verdaderamente buenos son reclamados rápidamente por mujeres inteligentes. Al igual que Dongju, el esposo de mi amiga. Con su aspecto guapo, una carrera sólida y una personalidad cálida y cariñosa, Cha Dongju es un hombre probado que ha pasado siete años con mi amiga. ¿Hay realmente alguien más perfecto que él... para ser mi novio? |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 39 chapters |  |  |  |
-| chapter dates | PASS | 39 positive upload dates |  |  |  |
+| chapters | PASS | 40 chapters |  |  |  |
+| chapter dates | PASS | 40 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 9 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://media.traduccionesmoonlight.com/.../f2972018-36d5-451c-8950-111169533fc1.jpg` (image/jpeg, 3377042 bytes, 997x28170) |  |  |  |

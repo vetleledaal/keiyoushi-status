@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ru.astramanga-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -24,9 +24,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | Возрождение Хуашань (`.../vozrozhdenie-huashan`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | Новая жизнь убийцы богов (`.../novaya-zhizn-ubiytsy-bogov`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | Наномашины (`.../nanomashiny`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | Весна столицы (`.../vesna-stolitsy`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | Чёртова реинкарнация (`.../chyortova-reinkarnatsiya`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | Король демонов, побеждённый героями (`.../korol-demonov-pobezhdyonnyy-geroyami`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | Система власти (`.../dominion-system`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 20 | Возрождение Хуашань (`.../vozrozhdenie-huashan`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Возрождение Хуашань (`.../vozrozhdenie-huashan`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 168 | Том 1 Глава 1 — Глава 1 (`.../17512`) |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 56 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://img.astramanga.org/.../0_11c4c1fa.webp` (image/webp (encoding: lossy), 429446 bytes, 690x5000) |  |  |  |

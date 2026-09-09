@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.sereinscan-v1.4.32
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 1993924607457500259
 - Source name: Serein Scan
 - Source language: tr
@@ -25,7 +26,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | Caninin Tek Sonu Ölüm (`.../caninin-tek-sonu-olum`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 20 | Otome Oyunundaki Yüceler Bana Takıntılı (`.../otome-oyunundaki-yuceler-bana-takintili`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | Murim’in Bedbaht Torunu (`.../murimin-bedbaht-torunu`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | Aslında, Ben Gerçek Olanım (`.../aslinda-ben-gercek-olanim`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | success | 20 | Tiran İmparatoriçe (`.../tiran-imparatorice`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Caninin Tek Sonu Ölüm (`.../caninin-tek-sonu-olum`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Caninin Tek Sonu Ölüm (`.../caninin-tek-sonu-olum`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 8 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://sereinscan.com/.../01.jpg` (image/jpeg, 3429262 bytes, 760x9775) |  |  |  |

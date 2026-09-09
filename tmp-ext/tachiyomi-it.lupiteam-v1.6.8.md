@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-it.lupiteam-v1.6.8
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 0
 - Warnings: 0
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: pizzareader
 - Source ID: 148102640598931038
 - Source name: LupiTeam
 - Source language: it
@@ -23,9 +24,9 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 6 | Area no Kishi (`.../area-no-kishi`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 6 | Area no Kishi (`.../area-no-kishi`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 6 | One Piece (`.../one-piece`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 6 | One Piece (`.../one-piece`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Area no Kishi (`.../area-no-kishi`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Area no Kishi (`.../area-no-kishi`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://lupiteam.net/.../old-chapters.jpg <redacted query values: v>` (image/jpeg, 159807 bytes, 900x900) |  |  |  |

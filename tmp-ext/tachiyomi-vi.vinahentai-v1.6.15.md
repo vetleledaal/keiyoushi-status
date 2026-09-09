@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-vi.vinahentai-v1.6.15
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 35
 - Lint: 0
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -24,9 +24,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 40 | Sex Toy Không Dây (`.../sextoy-ket-noi-khong-day`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 40 | Ojisan Meat Shop (`.../ojisan-meat-shop`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 40 | Các Họa Sĩ Doujinshi Theo Đuổi Chủ Nghĩa Hiện Thực (`.../cac-hoa-si-doujinshi-theo-duoi-chu-nghia-hien-thuc`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 39 | Siêu Cấp Máy Dập Lạc Vào Công Ty Nữ (`.../sieu-cap-may-dap-lac-vao-cong-ty-nu`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 40 | Hệ Thống Thôi Miên Loạn Luân (`.../he-thong-thoi-mien-loan-luan`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 40 | Gia Đình Mifune (`.../gia-dinh-mifune`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 36 | Evernight NTR (`.../evernight-ntr`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 40 | Sex Toy Không Dây (`.../sextoy-ket-noi-khong-day`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Sex Toy Không Dây (`.../sextoy-ket-noi-khong-day`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 106 | Chương 1 (`.../chuong-1`) |  | <1s |
@@ -49,8 +49,8 @@
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 199/199 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 199/199 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 196/196 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 196/196 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://vnht.vinahentai.lat/.../image-1779675995793-a77e88f5.webp` (image/webp (container: extended), 48024 bytes, 360x480) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../sextoy-ket-noi-khong-day` |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 14 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://vinahentai.lat/.../danh-sach <redacted query values: page and sort>` to `https://vinahentai.lat/.../danh-sach <redacted query values: page and sort>` (1 redirects); popular: `https://vinahentai.lat/.../danh-sach <redacted query values: page and sort>` to `https://vinahentai.lat/.../danh-sach <redacted query values: page and sort>` (1 redirects); popular: `https://vinahentai.lat/.../danh-sach <redacted query values: page and sort>` to `https://vinahentai.lat/.../danh-sach <redacted query values: page and sort>` (1 redirects); popular: `https://vinahentai.lat/.../danh-sach <redacted query values: page and sort>` to `https://vinahentai.lat/.../danh-sach <redacted query values: page and sort>` (1 redirects) |  |  |  |
 | page load | PASS | `https://vnht.vinahentai.lat/.../001_67de1e94a25b7-1779671208505-8b0d1082.webp` (image/webp (encoding: lossy), 958784 bytes, 729x15110) |  |  |  |

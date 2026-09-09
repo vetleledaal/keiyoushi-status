@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.junmeitu-v1.4.7
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 32
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 33
 - Lint: 3
 - Warnings: 0
 - Skipped: 0
@@ -26,9 +26,9 @@
 | popular | `fetchPopularManga(1)` | success | 32 | 《JK白絲姐妹花》 [森蘿财團] X-025 寫真集 (`.../jkbaisijiemeihua_x_025.html`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 32 | 桜桃喵《小背心換水手服》 [蘿莉COS] 寫真集 (`.../yingtaomiao_xiaobeixinhuanshuishoufu_luolicos.html`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 32 | [SSA絲社]超清寫真 No.806 模特晶晶的浪莎絲襪（上）[118P] (`.../chaoqingxiezhen_no_806_motejingji.html`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 32 | [SSA絲社]超清寫真 NO.660 模特思甜的黑絲襪美足（上）[136P] (`.../chaoqingxiezhen_no_660_motesitian.html`) |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | [SSA絲社]超清寫真 No.806 模特晶晶的浪莎絲襪（上）[118P] (`.../chaoqingxiezhen_no_806_motejingji.html`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 32 | [SSA絲社]超清寫真 NO.660 模特思甜的黑絲襪美足（上）[136P] (`.../chaoqingxiezhen_no_660_motesitian.html`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | [SSA絲社]超清寫真 No.806 模特晶晶的浪莎絲襪（上）[118P] (`.../chaoqingxiezhen_no_806_motejingji.html`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 1 | Gallery (`.../chaoqingxiezhen_no_806_motejingji.html`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 118 |  |  | 1-10s |
 
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 118 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://s.wujituku.com/.../0001.webp` (image/webp (encoding: lossy), 72926 bytes, 1200x1800) |  |  |  |

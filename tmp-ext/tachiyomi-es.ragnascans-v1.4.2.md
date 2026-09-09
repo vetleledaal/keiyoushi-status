@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.ragnascans-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -24,12 +24,12 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 24 | Ha llegado el final (`.../manga.php <redacted query values: id>`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 24 | Estoy bien, Gracias, ¿y Tú? (`.../manga.php <redacted query values: id>`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 24 | Una Atracción Inevitable (`.../manga.php <redacted query values: id>`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 24 | Un ejemplo perfecto de una maldición que salió mal (`.../manga.php <redacted query values: id>`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 24 | ¡Meow Meow! ¡Squeak Squeak! (`.../manga.php <redacted query values: id>`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 24 | la niñera devota (`.../manga.php <redacted query values: id>`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 24 | El viaje de curación de un cazador de rango s con monstruos (`.../manga.php <redacted query values: id>`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Ha llegado el final (`.../manga.php <redacted query values: id>`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Ha llegado el final (`.../manga.php <redacted query values: id>`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 79 | Capítulo 0 (`.../capitulo-0.00`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 80 | Capítulo 0 (`.../capitulo-0.00`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 12 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | El mundo ha caído. Los zombis vagan por las calles. La civilización se desmorona. Y en medio de todo esto... Un torpe, arruinado y acosado marginado llamado Jung Min-jun se encuentra con la última persona que esperaba: Han Ye-na, una chica rica y popular que nunca ha tenido que luchar por nada en su vida. Ahora, la supervivencia no es sólo cuestión de fuerza o dinero. Se trata de confianza, valentía y de sobrevivir juntos al fin del mundo. Desde silencios incómodos hasta batallas sangrientas, ¿podrá este dúo improbable sobrevivir al apocalipsis zombi e incluso aprender a entenderse por el camino? |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 79 chapters |  |  |  |
-| chapter dates | PASS | 79 positive upload dates |  |  |  |
+| chapters | PASS | 80 chapters |  |  |  |
+| chapter dates | PASS | 80 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 12 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://lector.ragnascan.xyz/.../1.webp` (image/webp (encoding: lossy), 117096 bytes, 900x1512) |  |  |  |

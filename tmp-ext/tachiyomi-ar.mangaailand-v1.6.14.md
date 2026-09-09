@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.mangaailand-v1.6.14
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 30
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 31
 - Lint: 1
 - Warnings: 1
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 7109397520501699498
 - Source name: Manga Ai Land
 - Source language: ar
@@ -23,12 +24,12 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 6 | Juujika no Rokunin (`.../juujika-no-rokunin.html`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 6 | Juujika no Rokunin (`.../juujika-no-rokunin.html`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 8 | Usogui (`.../usogui.html`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Juujika no Rokunin (`.../juujika-no-rokunin.html`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Juujika no Rokunin (`.../juujika-no-rokunin.html`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Juujika no Rokunin (`.../juujika-no-rokunin.html`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Juujika no Rokunin (`.../juujika-no-rokunin.html`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 134 | الفصل 01 - تحول العينة البشرية أي (`.../01_12.html`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 77 |  |  | 1-10s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 77 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../EexXdUDWkAEbYXH.jpg` (image/jpeg, 132016 bytes, 612x878) |  |  |  |

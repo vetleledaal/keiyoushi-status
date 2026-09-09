@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.tenshimanga-v1.4.7
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: uzaymanga
 - Source ID: 5906663076478194825
 - Source name: Tenshi Manga
 - Source language: tr
@@ -24,12 +25,12 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | Seviye Atlaya Atlaya Dövüş İlahı (`.../seviye-atlaya-atlaya-dovus-ilahi`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | Batmış Akademinin Yeni Eğitmeni (`.../batmis-akademinin-yeni-egitmeni`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | Batmış Akademinin Yeni Eğitmeni (`.../batmis-akademinin-yeni-egitmeni`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 20 | Tarihin En Büyük Hekimi Yeniden Doğdu (`.../tarihin-en-buyuk-hekimi-yeniden-dogdu`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | success | 20 | Boyun Eğmeyen Gezgin Yolcu (`.../boyun-egmeyen-gezgin-yolcu`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Seviye Atlaya Atlaya Dövüş İlahı (`.../seviye-atlaya-atlaya-dovus-ilahi`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Seviye Atlaya Atlaya Dövüş İlahı (`.../seviye-atlaya-atlaya-dovus-ilahi`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 53 | Bölüm 1 (`.../1-bolum-oku`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 53 | Bölüm 1 (`.../1-bolum-oku`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 100 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 100 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn-t.efsaneler2.can.re/.../0.avif` (image/jpeg, 84769 bytes, 1024x1536; server Content-Type: image/avif) |  |  |  |

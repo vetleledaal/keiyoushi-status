@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-id.komikindoid-v1.4.19
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 34
 - Lint: 1
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 30 | Solo Leveling (`.../229848-solo-leveling`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 30 | Kingdom (`.../kingdom`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | Leu Leu Leu (`.../leu-leu-leu`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 30 | Yuusha Party wo Kubi ni Natta node Kokyou ni Kaettara, Member Zenin ga Tsuitekitandaga (`.../yuusha-party-wo-kubi-ni-natta-node-kokyou-ni-kaettara-member-zenin-ga-tsuitekitandaga`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 30 | To Save Seven Villainesses, I Went Full Harem! (`.../to-save-seven-villainesses-i-went-full-harem`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 30 | Pick Me Up! (`.../903347-pick-me-up`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 6 | Leveling Up with Skills (`.../leveling-up-with-skills`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Solo Leveling (`.../229848-solo-leveling`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 182 | Chapter 1 (`.../solo-leveling-chapter-1`) |  | 1-10s |
@@ -50,7 +50,7 @@
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
 | manga title and URL | PASS | 126/126 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | UNUSUAL | 125/126 manga have thumbnail URLs |  |  |  |
+| thumbnail URLs | UNUSUAL | 124/126 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://komikindo.ch/.../Komik-Solo-Leveling-236x319.jpeg` (image/jpeg, 23803 bytes, 236x319) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../229848-solo-leveling` |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 14 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://komikindo.ch/.../1 <redacted query values: order>` to `https://komikindo.ch/.../daftar-manga <redacted query values: order>` (1 redirects); latest: `https://komikindo.ch/.../1 <redacted query values: order>` to `https://komikindo.ch/.../daftar-manga <redacted query values: order>` (1 redirects); search: `https://komikindo.ch/.../1 <redacted query values: title and order>` to `https://komikindo.ch/.../daftar-manga <redacted query values: title and order>` (1 redirects) |  |  |  |
 | page load | PASS | `https://imageainewgeneration.lol/.../eG6WiHd9Woz1fyC001.jpg` (image/jpeg, 795047 bytes, 1124x768) |  |  |  |

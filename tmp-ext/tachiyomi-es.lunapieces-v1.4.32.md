@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.lunapieces-v1.4.32
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 33
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 34
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 688847276247637882
 - Source name: Luna Pieces
 - Source language: es
@@ -23,14 +24,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 30 | La bella y la bestia – Zoro x Sanji DJ ESP (`.../la-bella-y-la-bestia-zoro-x-sanji-dj-esp`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 30 | Nunca te voy a olvidar – Law x Luffy DJ ESP (`.../nunca-te-voy-a-olvidar-law-x-luffy-dj-esp`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | La bella y la bestia – Zoro x Sanji DJ ESP (`.../la-bella-y-la-bestia-zoro-x-sanji-dj-esp`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 30 | Cómo disfrutar de la leche de tu amante – Marco x Ace DJ ESP (`.../como-disfrutar-de-la-leche-de-tu-amante-marco-x-ace-dj-esp`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | La bella y la bestia – Zoro x Sanji DJ ESP (`.../la-bella-y-la-bestia-zoro-x-sanji-dj-esp`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 6 | Capítulo 1 - Leer La bella y la bestia Volumen 1 (`.../la-bella-y-la-bestia-zoro-x-sanji-dj-esp-volumen-1`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 14 |  |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 30 | La bella y la bestia – Zoro x Sanji DJ ESP (`.../la-bella-y-la-bestia-zoro-x-sanji-dj-esp`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 30 | Nunca te voy a olvidar – Law x Luffy DJ ESP (`.../nunca-te-voy-a-olvidar-law-x-luffy-dj-esp`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 30 | La bella y la bestia – Zoro x Sanji DJ ESP (`.../la-bella-y-la-bestia-zoro-x-sanji-dj-esp`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 30 | Cómo disfrutar de la leche de tu amante – Marco x Ace DJ ESP (`.../como-disfrutar-de-la-leche-de-tu-amante-marco-x-ace-dj-esp`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | La bella y la bestia – Zoro x Sanji DJ ESP (`.../la-bella-y-la-bestia-zoro-x-sanji-dj-esp`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 6 | Capítulo 1 - Leer La bella y la bestia Volumen 1 (`.../la-bella-y-la-bestia-zoro-x-sanji-dj-esp-volumen-1`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 14 |  |  | 10s+ |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 14 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://i0.wp.com/.../LPF-The-Beauty-and-the-Beast-Vol.-1-Espanol-Page-1-1.png` (image/webp (container: extended), 1015510 bytes, 1600x2500) |  |  |  |

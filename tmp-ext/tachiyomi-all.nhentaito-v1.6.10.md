@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.nhentaito-v1.6.10
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 34
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 35
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,21 +16,22 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.a
+- Source theme: galleryadults
 - Source ID: 1911624300824763845
 - Source name: NHentai.to
 - Source language: en
-- Selected manga input: latest offset 0: [Marubatsukuru (Reataka)] Saikyou Ansatsusha ga Saiin sarete Buzama ni Okasareru Hanashi (Re:Zero kara Hajimeru Isekai Seikatsu) | A Story About the Strongest Assassin Being Drugged and Humiliatingly Raped (Re:Zero - Starting Life in Another World) [English MTL] (`.../678742`)
+- Selected manga input: popular offset 0: [Amagami Honpo (Manno)] Iribitari Gal ni Manko Tsukawasete Morau Hanashi 1 - 3 | The Gyaru I Hang Out with Lets Me Use Her Pussy 1 - 3 [English] [Digital] (`.../532611`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 24 | [Amagami Honpo (Manno)] Iribitari Gal ni Manko Tsukawasete Morau Hanashi 1 - 3 | The Gyaru I Hang Out with Lets Me Use Her Pussy 1 - 3 [English] [Digital] (`.../532611`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 24 | [Kamatsuka (Kamatsuka)] Chichi no Saikon de Doukyo suru Koto ni Natta Gibo no Gijou Shimai to Kawarugawaru Sex shite shimatta Hon | Living with My Stepmom and Stepsisters After Dad's Remarriage and Having Sex with Them All [English] [Digital] (`.../565276`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 24 | [Marubatsukuru (Reataka)] Saikyou Ansatsusha ga Saiin sarete Buzama ni Okasareru Hanashi (Re:Zero kara Hajimeru Isekai Seikatsu) | A Story About the Strongest Assassin Being Drugged and Humiliatingly Raped (Re:Zero - Starting Life in Another World) [English MTL] (`.../678742`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | [ties (takei ooki)] Imouto Succubu [Digital] [English] [XO Manga] (`.../678597`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | [Marubatsukuru (Reataka)] Saikyou Ansatsusha ga Saiin sarete Buzama ni Okasareru Hanashi (Re:Zero kara Hajimeru Isekai Seikatsu) | A Story About the Strongest Assassin Being Drugged and Humiliatingly Raped (Re:Zero - Starting Life in Another World) [English MTL] (`.../678742`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Chapter (`.../678742`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 20 |  |  | <1s |
+| popular | `getPopularManga(1)` | success | 24 | [Amagami Honpo (Manno)] Iribitari Gal ni Manko Tsukawasete Morau Hanashi 1 - 3 | The Gyaru I Hang Out with Lets Me Use Her Pussy 1 - 3 [English] [Digital] (`.../532611`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 24 | [Kamatsuka (Kamatsuka)] Chichi no Saikon de Doukyo suru Koto ni Natta Gibo no Gijou Shimai to Kawarugawaru Sex shite shimatta Hon | Living with My Stepmom and Stepsisters After Dad's Remarriage and Having Sex with Them All [English] [Digital] (`.../565276`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 24 | [Blue Percussion (Bourne)] Kiara's Destruction - The Organ Destruction of a fallen heroine [ENG] (`.../680870`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | [Hoshino Ryuichi] Hitozuma Onmyouji Sakuya 1 - 3 (`.../680751`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | [Amagami Honpo (Manno)] Iribitari Gal ni Manko Tsukawasete Morau Hanashi 1 - 3 | The Gyaru I Hang Out with Lets Me Use Her Pussy 1 - 3 [English] [Digital] (`.../532611`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Chapter (`.../532611`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 110 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -52,14 +53,14 @@
 | manga title and URL | PASS | 96/96 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 96/96 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://zrocdn.xyz/.../thumb.webp` (image/webp (encoding: lossy), 13538 bytes, 500x695) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../678742` |  |  |  |
-| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://zrocdn.xyz/.../cover.webp` (image/webp (encoding: lossy), 20118 bytes, 700x973) |  |  |  |
-| details author | PASS | reataka |  |  |  |
+| thumbnail | PASS | `https://zrocdn.xyz/.../thumb.jpg` (image/webp (encoding: lossy), 17352 bytes, 500x704; server Content-Type: image/jpeg) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../532611` |  |  |  |
+| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://zrocdn.xyz/.../cover.jpg` (image/webp (encoding: lossy), 26312 bytes, 700x985; server Content-Type: image/jpeg) |  |  |  |
+| details author | PASS | manno |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | beauty mark, big areolae, big breasts, big nipples, bikini, blowjob, blowjob face, double penetration, full color, huge breasts, inverted nipples, kissing, multi-work series, pantyhose, ponytail, rough translation, sole female, swimsuit, very long hair |  |  |  |
+| details genres | PASS | ahegao, big areolae, big breasts, blowjob, compilation, condom, cunnilingus, emotionless sex, glasses, gyaru, multi-work series, nakadashi, schoolgirl uniform, sole female, sole male, twintails, x-ray |  |  |  |
 | details status | PASS | COMPLETED (2) |  |  |  |
-| details description | PASS | **Parodies**: re zero kara hajimeru isekai seikatsu<br><br>**Characters**: elsa granhiert<br><br>**Groups**: group<br><br>**Languages**: english, translated<br><br>**Categories**: doujinshi<br><br>**Pages**: 20<br><br>**Alternative title**: \[マルバツクル (れあたか)\] 最強暗殺者が催淫されて無様に犯される話 (Re:ゼロから始める異世界生活) |  |  |  |
+| details description | PASS | **Parodies**: original<br><br>**Groups**: amagami honpo<br><br>**Languages**: english, translated<br><br>**Categories**: doujinshi<br><br>**Pages**: 110<br><br>**Alternative title**: \[甘噛本舗 (まんの)\] 入り浸りギャルにま〇こ使わせて貰う話1 - 3 \[英訳\] \[DL版\] |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | PASS | 1 chapters |  |  |  |
 | chapter dates | PASS | 1 positive upload dates |  |  |  |
@@ -67,6 +68,7 @@
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 20 HTTP page URLs |  |  |  |
+| page URLs | PASS | 110 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://zrocdn.xyz/.../1.webp` (image/webp (encoding: lossy), 111916 bytes, 1280x1780) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://zrocdn.xyz/.../1.jpg` (image/jpeg, 264203 bytes, 1280x1801) |  |  |  |

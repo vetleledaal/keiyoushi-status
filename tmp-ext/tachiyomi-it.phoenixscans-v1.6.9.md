@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-it.phoenixscans-v1.6.9
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 0
 - Warnings: 0
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: pizzareader
 - Source ID: 6272882172599295519
 - Source name: Phoenix Scans
 - Source language: it
@@ -23,14 +24,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 67 | 2.5 Dimensional Seduction (`.../25-dimensional-seduction`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 67 | 2.5 Dimensional Seduction (`.../25-dimensional-seduction`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 10 | 2.5 Dimensional Seduction (`.../25-dimensional-seduction`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 10 | Kuroiwa Medaka is proof against my cuteness (`.../kuroiwa-medaka-is-proof-against-my-cuteness`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | 2.5 Dimensional Seduction (`.../25-dimensional-seduction`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | 2.5 Dimensional Seduction (`.../25-dimensional-seduction`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 32 | Vol.1 Ch.1 - La nuova arrivata (`.../1`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 56 |  |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 33 | Vol.1 Ch.1 - La nuova arrivata (`.../1`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 56 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | "Non ho interesse nelle ragazze reali!" È ciò che sostiene Okumura, il presidente del club del manga della scuola. È un tipico otaku, ossessionato da un personaggio (immaginario) sexy in 2D chiamato Liliel. Inizia il nuovo anno scolastico e una ragazza 3D (reale) di nome Lilysa con la passione del cosplay si unisce al club, assottigliando sempre più i confini tra 2D e 3D in questa elettrizzante commedia romantica! |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 32 chapters |  |  |  |
-| chapter dates | PASS | 32 positive upload dates |  |  |  |
+| chapters | PASS | 33 chapters |  |  |  |
+| chapter dates | PASS | 33 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 56 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://www.phoenixscans.com/.../2.5_Dimensional_Seduction_v01_c01_p00%5BPhoenixScans_NAFS%5D.jpg <redacted query values: v>` (image/jpeg, 1347202 bytes, 1600x1500) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-th.cat300-v1.6.57
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 6055828959180481405
 - Source name: Cat300
 - Source language: th
@@ -25,7 +26,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | สงครามแห่งกามราคะ Silent War (`.../8762`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 25 | Hero Villain (`.../35360`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 25 | คุณนายอารมณ์เปลี่ยว กับเพื่อนบ้านพร้อมสนอง | [Aoi Hitori] Tonari no Oku-san ~Kanojo wa Furin Taishitsu~ Kouhen (Web Comic Toutetsu Vol. 16) (`.../71191`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | คุณนายอารมณ์เปลี่ยว กับเพื่อนบ้านพร้อมสนอง | [Aoi Hitori] Tonari no Oku-san ~Kanojo wa Furin Taishitsu~ Kouhen (Web Comic Toutetsu Vol. 16) (`.../71191`) |  | 10s+ |
 | latest_next | `getLatestUpdates(2)` | success | 25 | ซิสเตอร์กับก็อบลิน | [Tuna Mayonnaise (tsuyomayo)] Bakunyuu Sister x Kyokon Goblin | Big breasts sister X big dick goblin (`.../71150`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | สงครามแห่งกามราคะ Silent War (`.../8762`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | สงครามแห่งกามราคะ Silent War (`.../8762`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 37 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cat-300.com/.../Silent-War_0.jpg` (image/png, 821401 bytes, 800x2746; server Content-Type: image/jpeg) |  |  |  |

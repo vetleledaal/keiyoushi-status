@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.truyentvn-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -23,10 +23,10 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 24 | Hentai Ran Mori Hóa Nô Lệ Tình Dục Phục Vụ Các Ngài (`.../hentai-ran-mori-hoa-no-le-tinh-duc-phuc-vu-cac-ngai.html`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 24 | Hentai Ran Mori Hóa Nô Lệ Tình Dục Phục Vụ Các Ngài (`.../hentai-ran-mori-hoa-no-le-tinh-duc-phuc-vu-cac-ngai.html`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 24 | Ta Sẽ Trở Thành Vợ Của Vua Hải Tặc (luffy X Boa Hancook) (`.../ta-se-tro-thanh-vo-cua-vua-hai-tac-luffy-x-boa-hancook.html`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 24 | Căn Phòng Nồng Cháy (`.../can-phong-nong-chay.html`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | Chín Chín Tám Mươi Một – 9981 (`.../chin-chin-tam-muoi-mot-9981.html`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 24 | Lớp Học Gia Đình (`.../lop-hoc-gia-dinh.html`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | My S-Rank Party Fired Me For Being A Curse Artificer ~ I Can Only Make “Cursed Items”, But They’re Artifact Class! (`.../my-s-rank-party-fired-me-for-being-a-curse-artificer-i-can-only-make-cursed-items-but-theyre-artifact-class.html`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Hentai Ran Mori Hóa Nô Lệ Tình Dục Phục Vụ Các Ngài (`.../hentai-ran-mori-hoa-no-le-tinh-duc-phuc-vu-cac-ngai.html`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Hentai Ran Mori Hóa Nô Lệ Tình Dục Phục Vụ Các Ngài (`.../hentai-ran-mori-hoa-no-le-tinh-duc-phuc-vu-cac-ngai.html`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 4 | Chapter 1 (`.../chapter-1.html`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 16 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn3.tymanga.com/.../0.jpg` (image/jpeg, 180590 bytes, 1056x739) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.mangahub-v1.6.16
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 29
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 30
 - Lint: 1
 - Warnings: 1
 - Skipped: 5
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 9160891278578525988
 - Source name: MangaHub
 - Source language: ar
@@ -24,7 +25,7 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 20 | مذكرات الفتحة (`.../blog-post_8.html`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 20 | Cucumber Market (`.../cucumber-market.html`) |  | <1s |
+| popular_next | `getPopularManga(2)` | success | 20 | Cucumber Market (`.../cucumber-market.html`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | مذكرات الفتحة (`.../blog-post_8.html`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 13 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://arabtoons.net/.../01-min.jpg` (image/jpeg, 578239 bytes, 720x8000) |  |  |  |

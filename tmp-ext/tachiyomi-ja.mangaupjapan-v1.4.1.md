@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.mangaupjapan-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 30
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 31
 - Lint: 1
 - Warnings: 1
 - Skipped: 4
@@ -19,18 +19,18 @@
 - Source ID: 697820552173578283
 - Source name: Manga UP! (Japan)
 - Source language: ja
-- Selected manga input: popular offset 0: 神達に拾われた男 (`.../237`)
+- Selected manga input: popular offset 0: 灰宮先輩は怖くてかわいい (`.../1626`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 50 | 神達に拾われた男 (`.../237`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 50 | 灰宮先輩は怖くてかわいい (`.../1626`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 64 | 皇帝陛下のお世話係〜女官暮らしが幸せすぎて後宮から出られません～ (`.../891`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 58 | 灰宮先輩は怖くてかわいい (`.../1626`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 神達に拾われた男 (`.../237`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | 神達に拾われた男 (`.../237`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 285 | 第1話 - 異世界転生 (`.../41740`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 52 |  |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 灰宮先輩は怖くてかわいい (`.../1626`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | 灰宮先輩は怖くてかわいい (`.../1626`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 48 | 第1話／第2話／第3話 (`.../316144`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 20 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -43,30 +43,31 @@
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 50 entries |  |  |  |
-| latest listing | PASS | 64 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=神達に拾われた男, URL=`.../237` |  |  |  |
+| latest listing | PASS | 58 entries |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=灰宮先輩は怖くてかわいい, URL=`.../1626` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 115/115 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 115/115 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 109/109 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 109/109 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://ja-img.manga-up.com/.../237.webp <redacted query values: hash and expires>` (image/webp (encoding: lossy), 38880 bytes, 640x442) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../237` |  |  |  |
-| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://ja-img.manga-up.com/.../237.webp <redacted query values: hash and expires>` (image/webp (encoding: lossy), 124902 bytes, 1242x828) |  |  |  |
-| details author | PASS | 原作：Roy, 漫画：蘭々, キャラクター原案：りりんら, 構成（66話以降）：中村基 |  |  |  |
+| thumbnail | PASS | `https://ja-img.manga-up.com/.../1626.webp <redacted query values: hash and expires>` (image/webp (encoding: lossy), 30304 bytes, 640x442) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../1626` |  |  |  |
+| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://ja-img.manga-up.com/.../1626.webp <redacted query values: hash and expires>` (image/webp (encoding: lossy), 69930 bytes, 1242x828) |  |  |  |
+| details author | PASS | 著者：神山すむ |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | 少年, アニメ化・実写化, ファンタジー・幻想, 日常・ほのぼの, 異世界, ファンタジー・幻想 |  |  |  |
+| details genres | PASS | 少年, ラブコメ, 学園, ラブコメ |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | 日本の中年サラリーマン竹林竜馬は、死後、三柱の神に協力を求められ、子どもの姿で異世界へ転生！ 森で一人、のんびり暮らし始めた竜馬は、魔法でテイムしたスライムたちの研究にのめり込んで行き…。 「小説家になろう」発! 意外と有能なスライムたちとまったり第二の人生を謳歌する、異世界スローライフファンタジー！ |  |  |  |
+| details description | PASS | うちの高校にいる灰宮先輩は、怖いと有名だ。 というのも、その強い見た目と歯に衣着せぬ言葉遣いが原因らしく… バチバチに開いたピアス！ 灰色のロングウルフカット！！ そして威圧感のある関西弁！！！ だけど、そんな怖い先輩がなぜか僕にだけは優しく接してくれて――!? ”怖い”が”かわいい”に変わっていく、 怖キュン先輩ラブコメ開幕です！ |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 285 chapters |  |  |  |
-| chapter dates | LINT | All 285 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=285 |  |  |  |
+| chapters | PASS | 48 chapters |  |  |  |
+| chapter dates | LINT | All 48 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=48 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 52 HTTP page URLs |  |  |  |
+| page URLs | PASS | 20 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://ja-img.manga-up.com/.../156380960_1_001.webp <redacted query values: hash and expires>` (image/webp (encoding: lossy), 53414 bytes, 1080x1536) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://ja-img.manga-up.com/.../1963i1960_1_001.webp <redacted query values: hash and expires>` (image/webp (encoding: lossy), 150916 bytes, 1080x1536) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangapill-v1.4.9
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 28
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 29
 - Lint: 3
 - Warnings: 0
 - Skipped: 4
@@ -25,12 +25,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 10 | Berserk (`.../berserk`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 120 | Ura no Report (`.../ura-no-report`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 120 | Kengan Omega (`.../kengan-omega`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 4 | Berserk (`.../berserk`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Berserk (`.../berserk`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 405 | Chapter 1 (`.../berserk-chapter-1`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 92 |  |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Berserk (`.../berserk`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 405 | Chapter 1 (`.../berserk-chapter-1`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 92 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -48,7 +48,7 @@
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
-| listing duplicates | FAIL | Latest page 1 repeats 5 manga entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| listing duplicates | FAIL | Latest page 1 repeats 3 manga entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | manga title and URL | PASS | 134/134 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 134/134 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 92 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.readdetectiveconan.com/.../1.jpg` (image/jpeg, 164210 bytes, 1131x1600) |  |  |  |

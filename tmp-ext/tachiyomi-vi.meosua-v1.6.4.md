@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.meosua-v1.6.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -24,9 +24,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 20 | Em Gái Bệnh Kiều Chỉ Muốn Tôi Bắt Nạt Em Ấy (`.../em-gai-benh-kieu-chi-muon-toi-bat-nat-em-ay`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 20 | Nuôi Dưỡng Một Nữ Nhân Điên Loạn (`.../nuoi-duong-mot-nu-nhan-dien-loan`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 20 | Đã Là Thời Đại Nào Rồi (`.../da-la-thoi-dai-nao-roi`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 20 | Đại Lão Đầu Của Cô Lại Rơi Rồi (`.../dai-lao-dau-cua-co-lai-roi-roi`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 20 | Nuôi Dưỡng Một Nữ Nhân Điên Loạn (`.../nuoi-duong-mot-nu-nhan-dien-loan`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 20 | Nhan sắc cô ấy tựa ngọc (`.../nhan-sac-co-ay-tua-ngoc`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 20 | Em Gái Bệnh Kiều Chỉ Muốn Tôi Bắt Nạt Em Ấy (`.../em-gai-benh-kieu-chi-muon-toi-bat-nat-em-ay`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | em gái bệnh kiều chỉ muốn tôi bắt nạt em ấy (`.../em-gai-benh-kieu-chi-muon-toi-bat-nat-em-ay`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Em Gái Bệnh Kiều Chỉ Muốn Tôi Bắt Nạt Em Ấy (`.../em-gai-benh-kieu-chi-muon-toi-bat-nat-em-ay`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 139 | Chap 0 (`.../em-gai-benh-kieu-chi-muon-toi-bat-nat-em-ay-chap-0`) |  | 10s+ |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 2 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://meosua.org/.../0.1.jpg` (image/jpeg, 113045 bytes, 640x289) |  |  |  |

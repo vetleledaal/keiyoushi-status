@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.manhuatop-v1.6.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 1903782575226230108
 - Source name: ManhuaTop
 - Source language: en
@@ -23,12 +24,12 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | Martial Peak (`.../70217`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 25 | Apex Future Martial Arts (`.../88519`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 25 | The General – Fighting Legend (`.../104259`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | The Lone SSS-Class Summoner (`.../87733`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 25 | Martial Peak (`.../70217`) |  | <1s |
+| popular_next | `getPopularManga(2)` | success | 25 | Apex Future Martial Arts (`.../88519`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | The Baby Sprout Who Bloomed in the Villain Duke’s Family (`.../104868`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | The Tales of Heaven And Earth (`.../94981`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 25 | Martial Peak (`.../70217`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Martial Peak (`.../70217`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Martial Peak (`.../70217`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 3869 | Chapter 1 (`.../chapter-1`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 22 |  |  | <1s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 22 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://manhuatop.org/.../about_manhuatop_3.webp` (image/webp (encoding: lossy), 143450 bytes, 800x533) |  |  |  |

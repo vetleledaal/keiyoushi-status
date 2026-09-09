@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.lolivault-v1.6.6
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 31
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 32
 - Lint: 1
 - Warnings: 3
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: foolslide
 - Source ID: 1420213267345607410
 - Source name: Lolivault
 - Source language: es
@@ -23,9 +24,9 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | A mi joven esposa y yo (`.../a_mi_joven_esposa_y_yo`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 25 | A mi joven esposa y yo (`.../a_mi_joven_esposa_y_yo`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 25 | Hina Meikyuu (`.../hina_meikyuu`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 18 | A mi joven esposa y yo (`.../a_mi_joven_esposa_y_yo`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 18 | A mi joven esposa y yo (`.../a_mi_joven_esposa_y_yo`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 15 | Viajeros Interestelares (`.../viajeros_interestelares`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | A mi joven esposa y yo (`.../a_mi_joven_esposa_y_yo`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | A mi joven esposa y yo (`.../a_mi_joven_esposa_y_yo`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 8 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://lector.lolivault.net/.../P001.jpg` (image/jpeg, 1587828 bytes, 5507x2500) |  |  |  |

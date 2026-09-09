@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.nebulosascan-v1.6.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 1410750574939174515
 - Source name: Nebulosa Scan
 - Source language: pt-BR
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | A reencarnação da gansa dourada do alfa dominante (`.../15`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 8 | Caçando Den (`.../301`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | A reencarnação da gansa dourada do alfa dominante (`.../15`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Xadrez Azul (`.../437`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 8 | A teoria da evolução humana – Conto: A caixa silenciosa (`.../294`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | A reencarnação da gansa dourada do alfa dominante (`.../15`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | A reencarnação da gansa dourada do alfa dominante (`.../15`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 62 | Capítulo 0 (`.../capitulo-0`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 63 | Capítulo 0 (`.../capitulo-0`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 2 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Lin Qiu, anteriormente um poderoso líder da máfia, é fatalmente ferido durante um confronto entre gangues. Ao despertar, encontra-se em um mundo alternativo omegaverse, ocupando o corpo de um ômega mantido como amante por um influente alpha. Surpreendido ao acordar ao lado de um homem prestes a se despir, Lin Qiu o domina com suas habilidades de combate. No entanto, percebe que está vestindo lingerie sensual, indicando sua nova identidade como ômega. A trama acompanha sua adaptação a essa realidade e o desenvolvimento do relacionamento com seu “patrocinador” alpha.<br><br>Quer ficar por dentro dos nossos lançamentos? https://t.me/.../nebulosascan<br><br>🔞 Classificação indicativa: +18 Esta obra é destinada a leitores adultos. Pode conter temas fortes, violência gráfica, gore, insinuações sexuais e nudez. Recomendamos discrição e leitura consciente.<br><br>Nomes alternativos: Reencarné en el Gran Ganso Dorado del alfa dominante / 穿成Alpha大佬的金丝大鹅 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 62 chapters |  |  |  |
-| chapter dates | LINT | 61 of 62 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=61 |  |  |  |
+| chapters | PASS | 63 chapters |  |  |  |
+| chapter dates | LINT | All 63 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=63 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 2 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://nebulosascan.com/.../01.webp` (image/webp (container: extended), 616548 bytes, 720x9355) |  |  |  |

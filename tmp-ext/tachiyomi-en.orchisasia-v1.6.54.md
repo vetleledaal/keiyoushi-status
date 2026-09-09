@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.orchisasia-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 4403086215261921832
 - Source name: Orchisasia
 - Source language: en
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | DEAR. DOOR UNCENSORED version (`.../76`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Define The Relationship (`.../360`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | The Rogue Prince Is Secretly an Omega (`.../3317`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Show Me Some Love! (`.../2378`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Please, Just This Once! (`.../5734`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | The Royal Bridegroom (`.../4715`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | DEAR. DOOR UNCENSORED version (`.../76`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | DEAR. DOOR UNCENSORED version (`.../76`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 166 | 0001 Chapter 001 Episode 1 (`.../0001-chapter-001-episode-1`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 21 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.orchisasia.org/.../001.jpg` (image/jpeg, 73103 bytes, 641x967) |  |  |  |

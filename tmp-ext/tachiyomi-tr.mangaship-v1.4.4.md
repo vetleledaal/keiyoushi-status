@@ -2,14 +2,14 @@
 
 - Extension: tachiyomi-tr.mangaship-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 28
-- Lint: 1
-- Warnings: 1
-- Skipped: 4
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 3
+- Lint: 0
+- Warnings: 0
+- Skipped: 32
 - Failed: 2
-- Retry disposition: REVIEW
+- Retry disposition: DO_NOT_RETRY
 
 ## Runtime Evidence
 
@@ -19,54 +19,54 @@
 - Source ID: 7110025728969951060
 - Source name: Manga Bahçesi
 - Source language: tr
-- Selected manga input: popular offset 0: Boruto: İki Mavi Girdap (`.../boruto-naruto-next-generations`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 16 | Boruto: İki Mavi Girdap (`.../boruto-naruto-next-generations`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 16 | I Lost the Leash of the Yandere Male Lead (`.../i-lost-the-leash-of-the-yandere-male-lead`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 16 | Zindanın Karşısındaki SSS- Seviye Kafe (`.../zindanin-karsisindaki-sss-seviye-kafe`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 16 | Ooh La La (`.../ooh-la-la`) |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Boruto: İki Mavi Girdap (`.../boruto-naruto-next-generations`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 116 | Boruto: İki Mavi Girdap 1. Bölüm Uzumaki Boruto (`.../1`) |  | <1s |
-| pages | `fetchPageList(chapter)` | error | 0 |  | java.lang.Exception: Bölümleri okumak için WebView üzerinden giriş yapmalısınız. | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 0 |  |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 0 |  |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | skipped | 0 |  |  | <1s |
+| details | `fetchMangaDetails(manga)` | skipped | 0 |  |  | <1s |
+| chapters | `fetchChapterList(manga)` | skipped | 0 |  |  | <1s |
+| pages | `fetchPageList(chapter)` | skipped | 0 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
 | popular operation | PASS |  |  |  |  |
-| popular_next operation | PASS |  |  |  |  |
+| popular_next operation | SKIP | hasNextPage = false |  |  |  |
 | latest operation | PASS |  |  |  |  |
-| latest_next operation | PASS |  |  |  |  |
-| search operation | PASS |  |  |  |  |
-| details operation | PASS |  |  |  |  |
-| chapters operation | PASS |  |  |  |  |
-| pages operation | ERROR | java.lang.Exception: Bölümleri okumak için WebView üzerinden giriş yapmalısınız. | REVIEW | INSUFFICIENT_EVIDENCE |  |
-| popular listing | PASS | 16 entries |  |  |  |
-| latest listing | PASS | 16 entries |  |  |  |
-| search listing | FAIL | 0 entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
-| latest differs from popular | PASS |  |  |  |  |
-| popular pagination | PASS |  |  |  |  |
-| latest pagination | PASS |  |  |  |  |
-| listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 64/64 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 64/64 manga have thumbnail URLs |  |  |  |
-| duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://mangabahcesi.com/.../decrypt <redacted query values: id>` (image/gif (format: 89a), 526403 bytes, 600x800) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../boruto-naruto-next-generations` |  |  |  |
-| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://mangabahcesi.com/.../decrypt <redacted query values: id>` (image/gif (format: 89a), 526403 bytes, 600x800) |  |  |  |
-| details author | PASS | Masashi Kishimoto |  |  |  |
-| details artist | PASS | null |  |  |  |
-| details genres | PASS | Doğaüstü Güçler, Aksiyon, Fantastik, Animeli Manga |  |  |  |
-| details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
-| details description | PASS | Babasının ilgisini çekebilmek için sınavda hile yapıp yakalanan Boruto, sınav esnasında gelen davetsiz misafirlerin babasını kaçırmasıyla kurtarma takımına katılır ve içinde yeni bir güç doğar... (Naruto mangasını bitirdikten sonra bu mangaya başlayın.) |  |  |  |
-| metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 116 chapters |  |  |  |
-| chapter dates | PASS | 116 positive upload dates |  |  |  |
-| chapter titles | PASS |  |  |  |  |
-| chapter URLs | PASS |  |  |  |  |
-| duplicate chapter URLs | PASS |  |  |  |  |
+| latest_next operation | SKIP | hasNextPage = false |  |  |  |
+| search operation | SKIP | No manga was returned by popular or latest |  |  |  |
+| details operation | SKIP | No manga was returned by popular or latest |  |  |  |
+| chapters operation | SKIP | No manga was returned by popular or latest |  |  |  |
+| pages operation | SKIP | No usable chapter was available |  |  |  |
+| popular listing | FAIL | 0 entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| latest listing | FAIL | 0 entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| search listing | SKIP | No manga was returned by popular or latest |  |  |  |
+| latest differs from popular | SKIP | Popular or latest has no manga to compare |  |  |  |
+| popular pagination | SKIP | Page 1 has no manga to check |  |  |  |
+| latest pagination | SKIP | Page 1 has no manga to check |  |  |  |
+| listing duplicates | SKIP | Fewer than 2 manga to check |  |  |  |
+| manga title and URL | SKIP | No manga to check |  |  |  |
+| thumbnail URLs | SKIP | No manga to check |  |  |  |
+| duplicate thumbnail URLs | SKIP | No manga to check |  |  |  |
+| thumbnail | SKIP | No manga to check |  |  |  |
+| details identity | SKIP | No selected manga URL to compare |  |  |  |
+| details thumbnail URL | SKIP | No details manga to check |  |  |  |
+| details author | SKIP | No details manga to check |  |  |  |
+| details artist | SKIP | No details manga to check |  |  |  |
+| details genres | SKIP | No details manga to check |  |  |  |
+| details status | SKIP | No details manga to check |  |  |  |
+| details description | SKIP | No details manga to check |  |  |  |
+| metadata trimming | SKIP | No details metadata to check |  |  |  |
+| chapters | SKIP | Chapters did not run successfully |  |  |  |
+| chapter dates | SKIP | No chapters to check |  |  |  |
+| chapter titles | SKIP | No chapters to check |  |  |  |
+| chapter URLs | SKIP | No chapters to check |  |  |  |
+| duplicate chapter URLs | SKIP | No chapters to check |  |  |  |
 | page indices | SKIP | No pages to check |  |  |  |
-| page URLs | SKIP | Bölümleri okumak için WebView üzerinden giriş yapmalısınız. |  |  |  |
+| page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.readattackontitanshingekinokyojinmanga-v1.4.14
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 23
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 24
 - Lint: 4
 - Warnings: 1
 - Skipped: 8
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangacatalog
 - Source ID: 8930801332831394412
 - Source name: Read Attack on Titan Shingeki no Kyojin Manga
 - Source language: en
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 69 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.readsnk.com/.../2.jpeg` (image/jpeg, 429078 bytes, 785x1200) |  |  |  |

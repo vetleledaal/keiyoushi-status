@@ -2,20 +2,21 @@
 
 - Extension: tachiyomi-en.zinmanga-v1.6.57
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 33
 - Lint: 2
 - Warnings: 1
 - Skipped: 0
-- Failed: 0
-- Retry disposition: NOT_APPLICABLE
+- Failed: 1
+- Retry disposition: DO_NOT_RETRY
 
 ## Runtime Evidence
 
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 5990114708086767078
 - Source name: Zinmanga
 - Source language: en
@@ -23,10 +24,10 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | CEO Above, Me Below (`.../1925`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 25 | CEO Above, Me Below (`.../1925`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 25 | Sweetheart V5: The Boss Is Too Kind! (`.../6054`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | The Ultimate Wantless Godly Rich System (`.../55537`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | The Chairman Who Wants to Slack Off and Enjoy Life (`.../63333`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | I Found A Family That Wasn’t In My Adoption Plan (`.../58462`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Selena (`.../27415`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | CEO Above, Me Below (`.../1925`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | CEO Above, Me Below (`.../1925`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 661 | Chapter 1 (`.../chapter-1`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 9 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://cdn-1.mangazin.org/.../ch_0_1.jpg` (image/jpeg, 59847 bytes, 560x508) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | FAIL | First page URL `https://cdn-1.mangazin.org/.../ch_0_1.jpg` could not be downloaded: eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |

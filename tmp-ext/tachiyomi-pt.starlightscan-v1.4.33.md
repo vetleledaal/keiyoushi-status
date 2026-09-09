@@ -2,10 +2,10 @@
 
 - Extension: tachiyomi-pt.starlightscan-v1.4.33
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 34
-- Lint: 0
+- Lint: 1
 - Warnings: 0
 - Skipped: 2
 - Failed: 0
@@ -16,21 +16,22 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 7977736050206547443
 - Source name: Starlight Scan
 - Source language: pt-BR
-- Selected manga input: popular offset 0: Love Hate Prince (`.../love-hate-prince`)
+- Selected manga input: latest offset 0: ⚠️AVISO⚠️ (`.../%E2%9A%A0%EF%B8%8Faviso%E2%9A%A0%EF%B8%8F`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 12 | Love Hate Prince (`.../love-hate-prince`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 12 | Punks Triangle (`.../punks-triangle`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 12 | Otoshi-Ai (`.../otoshi-ai`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 12 | ⚠️AVISO⚠️ (`.../%E2%9A%A0%EF%B8%8Faviso%E2%9A%A0%EF%B8%8F`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 12 | Steampunk AU Christmas – My Hero Academia dj (`.../steampunk-au-christmas-my-hero-academia-dj`) |  | 10s+ |
+| latest | `fetchLatestUpdates(1)` | success | 12 | ⚠️AVISO⚠️ (`.../%E2%9A%A0%EF%B8%8Faviso%E2%9A%A0%EF%B8%8F`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Love Hate Prince (`.../love-hate-prince`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Love Hate Prince (`.../love-hate-prince`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 2 | Capítulo 01 (`.../love-hate-prince <redacted query values: episodio>`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 30 |  |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | ⚠️AVISO⚠️ (`.../%E2%9A%A0%EF%B8%8Faviso%E2%9A%A0%EF%B8%8F`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | ⚠️AVISO⚠️ (`.../%E2%9A%A0%EF%B8%8Faviso%E2%9A%A0%EF%B8%8F`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 1 | AVISO - LEIAM (`.../%E2%9A%A0%EF%B8%8Faviso%E2%9A%A0%EF%B8%8F <redacted query values: episodio>`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 1 |  |  | 10s+ |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,7 +45,7 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 12 entries |  |  |  |
 | latest listing | PASS | 12 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Love Hate Prince, URL=`.../love-hate-prince` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=⚠️AVISO⚠️, URL=`.../%E2%9A%A0%EF%B8%8Faviso%E2%9A%A0%EF%B8%8F` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
@@ -52,21 +53,22 @@
 | manga title and URL | PASS | 37/37 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 37/37 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://starligthscan.com/.../000.jpg` (image/jpeg, 122060 bytes, 800x1134) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../love-hate-prince` |  |  |  |
-| details thumbnail URL | PASS | `https://starligthscan.com/.../000.jpg` |  |  |  |
-| details author | PASS | KAGO Santa |  |  |  |
+| thumbnail | PASS | `https://starligthscan.com/.../2_20260902_133301_0001.png` (image/png, 398576 bytes, 1080x1920) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../%E2%9A%A0%EF%B8%8Faviso%E2%9A%A0%EF%B8%8F` |  |  |  |
+| details thumbnail URL | PASS | `https://starligthscan.com/.../2_20260902_133301_0001.png` |  |  |  |
+| details author | PASS | null |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | +18, Ativo, Comédia, Mangá, Romance, Vida adulta, Yaoi |  |  |  |
+| details genres | LINT | Genres is empty; use null when unknown |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | No seu aniversário de 20 anos, a vida tranquila de Jyuri, um funcionário de uma loja de ramen, é virada de cabeça para baixo quando seu avô, com quem não tinha contato há anos, reaparece e pede que ele se mude para Tóquio, se matricule em uma universidade de prestígio e se prepare para ser o herdeiro de sua poderosa corporação. Na esperança de retribuir o apoio da família e honrar os desejos de sua falecida mãe, Jyuri mergulha em um mundo de riqueza e expectativas muito além de sua zona de conforto. Mas sua nova vida começa de forma caótica quando lhe é designado um zelador rigoroso e intimidador, Kai, e ele é forçado a morar com ele em uma mansão luxuosa. |  |  |  |
+| details description | PASS | Olá estrelinhas! Bem, alguns de vocês já devem ter percebido que o site não anda sendo atualizado. Isso se deve ao fato de termos extrapolado o armazenamento do site, mas isso não quer dizer que paramos com a Scan. Inclusive continuamos atualizando, lançando e concluindo todas as sextas-feiras, porém tudo isso está sendo feito apenas no drive da Scan. Então caso vocês queiram continuar acompanhando nossos projetos, dêem uma olhada no nosso drive. Para acompanhar nossas atualizações siga a gente no Instagram @starlightyaoi, no nosso Instagram nos Destaques tem o link para o nosso TELEGRAM ou WHATSAPP, onde terá o link do nosso drive. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 2 chapters |  |  |  |
-| chapter dates | PASS | 2 positive upload dates |  |  |  |
+| chapters | PASS | 1 chapters |  |  |  |
+| chapter dates | PASS | 1 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 30 HTTP page URLs |  |  |  |
+| page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://starligthscan.com/.../000-1.jpg` (image/webp (encoding: lossy), 113860 bytes, 800x1134) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://starligthscan.com/.../1_20260902_133301_0000.png` (image/webp (encoding: lossy), 262360 bytes, 1080x1920) |  |  |  |

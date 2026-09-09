@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.hentaiera-v1.6.12
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 30
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 31
 - Lint: 2
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.a
+- Source theme: galleryadults
 - Source ID: 647637185891033517
 - Source name: HentaiEra
 - Source language: en
@@ -24,10 +25,10 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Artist - EchoSaber (`.../1622035`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 25 | [Milk Force] Otonari NTR [English] [obsoletezero] (`.../563957`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Katt x Super MILF (Spinnerette) (`.../1723786`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | [Artist] - Vial - DryVial (`.../1723680`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
+| popular_next | `getPopularManga(2)` | success | 25 | Artist - Xipa (`.../1723352`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | [Sumirechan] Christmas Hilda! (Hilda) [Japanese, English] (`.../1728281`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | [GOJIN] Tomgirl Maid at Dark Elf Manor - [Ongoing] (`.../1728177`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Artist - EchoSaber (`.../1622035`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Chapter (`.../1622035`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 1381 |  |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | LINT | Page indices are 1-indexed, but should be 0-indexed |  |  |  |
 | page URLs | PASS | 1381 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | FAIL | First page URL `https://m10.hentaiera.com/.../1.webp` could not be downloaded: eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.mangazure-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 5075981853261303438
 - Source name: MangaZure
 - Source language: tr
@@ -25,12 +26,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Martial Peak (`.../1713`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Tale of a Scribe Who Retires to the Countryside (`.../704`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Serena (`.../252`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Serena (`.../252`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 25 | Overgeared (`.../35`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 2 | Martial Peak (`.../1713`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Martial Peak (`.../1713`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 3852 | Bölüm 1 (`.../bolum-1`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 16 |  |  | <1s |
+| pages | `getPageList(chapter)` | success | 16 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 16 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdni.xyz/.../1.jpg` (image/jpeg, 117875 bytes, 800x1132) |  |  |  |

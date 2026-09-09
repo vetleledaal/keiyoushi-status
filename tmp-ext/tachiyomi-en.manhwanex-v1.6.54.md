@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.manhwanex-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 3663840686576348637
 - Source name: ManhwaNex
 - Source language: en
@@ -24,11 +25,11 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | A Glimpse of the Jianghu (`.../244`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 25 | Postman of the Apocalypse (`.../256`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Overlord of Insects (`.../539`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Global Beast Tamer: I Can See the Path of Evolution (`.../618`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | Mysterious Revival: Starting with a Trillion Ghost Coins (`.../677`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Mysterious Revival: Starting with a Trillion Ghost Coins (`.../677`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Top Tier Providence: Secretly Cultivate for a Thousand Years (`.../662`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 2 | A Glimpse of the Jianghu (`.../244`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | A Glimpse of the Jianghu (`.../244`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | A Glimpse of the Jianghu (`.../244`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 19 | Chapter 0 - Entering the Martial World (`.../chapter-0`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 4 |  |  | 1-10s |
 
@@ -52,9 +53,9 @@
 | manga title and URL | PASS | 102/102 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 102/102 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://manhwanex.com/.../ChatGPT-Image-Feb-14-2026-06_43_22-PM-350x476.png` (image/png, 289061 bytes, 350x476) |  |  |  |
+| thumbnail | PASS | `https://manhwanex.com/.../ChatGPT-Image-Feb-14-2026-06_43_22-PM-350x476.png` (image/png, 285261 bytes, 350x476) |  |  |  |
 | details identity | PASS | Details preserved selected URL `244` |  |  |  |
-| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://manhwanex.com/.../ChatGPT-Image-Feb-14-2026-06_43_22-PM-193x278.png` (image/png, 107753 bytes, 193x278) |  |  |  |
+| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://manhwanex.com/.../ChatGPT-Image-Feb-14-2026-06_43_22-PM-193x278.png` (image/png, 106973 bytes, 193x278) |  |  |  |
 | details author | PASS | Snap Studio (三原社) |  |  |  |
 | details artist | PASS | Snap Studio (三原社) |  |  |  |
 | details genres | PASS | Action, A Glimpse of Jianghu webtoon, A Glimpse of the Jianghu manga, Adventure supernatural manga, Asian martial world series, Jianghu story manga, Martial arts fantasy manga, 江湖一瞥 manga, Manhua |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 4 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.manhwanex.com/.../imgi_2_01-68.jpg` (image/jpeg, 2373942 bytes, 800x14170) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.taurusfansub-v1.4.61
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,20 +16,21 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madaralegacy
 - Source ID: 5157867187592331768
 - Source name: Taurus Fansub
 - Source language: es
-- Selected manga input: popular offset 0: Después de dejar de actuar como un perro, me convertí en un Magnate Celestial Urbano (`.../despues-de-dejar-de-actuar-como-un-perro-me-converti-en-un-magnate-celestial-urbano`)
+- Selected manga input: latest offset 0: Después de dejar de actuar como un perro, me convertí en un Magnate Celestial Urbano (`.../despues-de-dejar-de-actuar-como-un-perro-me-converti-en-un-magnate-celestial-urbano`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 12 | Después de dejar de actuar como un perro, me convertí en un Magnate Celestial Urbano (`.../despues-de-dejar-de-actuar-como-un-perro-me-converti-en-un-magnate-celestial-urbano`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 12 | Soy el Dios de los Goblins (`.../soy-el-dios-de-los-goblins`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 12 | Carnicero Marcial De Rango Divino (`.../puedo-destruir-los-10000-mundos-con-un-cuchillo-carnicero`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 12 | Despertar del guerrero del Rayo Clase SSS (`.../despertar-del-guerrero-del-rayo-clase-sss`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Después de dejar de actuar como un perro, me convertí en un Magnate Celestial Urbano (`.../despues-de-dejar-de-actuar-como-un-perro-me-converti-en-un-magnate-celestial-urbano`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 12 | Resulta que ya era invencible (`.../resulta-que-ya-era-invencible`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 12 | Después de dejar de actuar como un perro, me convertí en un Magnate Celestial Urbano (`.../despues-de-dejar-de-actuar-como-un-perro-me-converti-en-un-magnate-celestial-urbano`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 12 | Carnicero Marcial De Rango Divino (`.../puedo-destruir-los-10000-mundos-con-un-cuchillo-carnicero`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Después de dejar de actuar como un perro, me convertí en un Magnate Celestial Urbano (`.../despues-de-dejar-de-actuar-como-un-perro-me-converti-en-un-magnate-celestial-urbano`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Después de dejar de actuar como un perro, me convertí en un Magnate Celestial Urbano (`.../despues-de-dejar-de-actuar-como-un-perro-me-converti-en-un-magnate-celestial-urbano`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 337 | Capitulo 0 (`https://lectortaurus.com/.../capitulo-0 <redacted query values: style>`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 339 | Capitulo 0 (`https://lectortaurus.com/.../capitulo-0 <redacted query values: style>`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 14 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Lin Xin era sólo un lamebotas ordinario, pero después de ser abandonado, adquirió un sistema de Dios de la riqueza y ¡obtuvo Miles de billones! Lo malo es que sólo puede gastar el dinero en chicas. Para gastar todo este dinero, Lin Xin se embarcó en un inusual viaje de contraataque del magnate celestial urbano. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 337 chapters |  |  |  |
-| chapter dates | PASS | 337 positive upload dates |  |  |  |
+| chapters | PASS | 339 chapters |  |  |  |
+| chapter dates | PASS | 339 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
-| chapter URLs | UNUSUAL | All 337 chapter URLs are absolute |  |  |  |
+| chapter URLs | UNUSUAL | All 339 chapter URLs are absolute |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 14 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://lectortaurus.com/.../001.webp` (image/webp (encoding: lossy), 125328 bytes, 1600x500) |  |  |  |

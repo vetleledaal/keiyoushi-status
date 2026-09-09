@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-fr.scanr-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 29
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 7
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 17 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | pages: `https://cubari.moe/.../ljyqxllmx42` to `https://cubari.moe/.../ljyqxllmx42` (2 redirects) |  |  |  |
 | page load | PASS | `https://cdn.imgchest.com/.../4nec8kbwrn4.jpeg` (image/jpeg, 3471065 bytes, 1651x2400) |  |  |  |

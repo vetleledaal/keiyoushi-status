@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.galaxydegenscans-v1.6.58
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 4598626990187882152
 - Source name: GalaxyDegenScans
 - Source language: en
@@ -24,12 +25,12 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Reincarnated • The Hero Marries the Sage (`.../528`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 25 | Danshi dato Omotteita Osanajimi tono Shinkon Seikatsu ga Umaku Ikisugiru ken ni Tsuite (`.../666`) |  | 10s+ |
-| latest | `getLatestUpdates(1)` | success | 25 | The Strongest Sage with 0 Magic Power (`.../981`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | I’m in charge of monsters (Spanish) (`.../968`) |  | 10s+ |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Reincarnated • The Hero Marries the Sage (`.../528`) |  | 10s+ |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Reincarnated • The Hero Marries the Sage (`.../528`) |  | 10s+ |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 44 | Ch.4.1 - Magic Academy's entrance exam (`.../ch-4-1`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | Danshi dato Omotteita Osanajimi tono Shinkon Seikatsu ga Umaku Ikisugiru ken ni Tsuite (`.../666`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Craft Game no Nouryoku de Isekai Kouryaku!! (`.../604`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Katainaka no Ossan (`.../574`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Reincarnated • The Hero Marries the Sage (`.../528`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Reincarnated • The Hero Marries the Sage (`.../528`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 44 | Ch.4.1 - Magic Academy's entrance exam (`.../ch-4-1`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 20 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 20 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://gdscans.com/.../000.webp` (image/webp (container: extended), 893506 bytes, 1000x700) |  |  |  |

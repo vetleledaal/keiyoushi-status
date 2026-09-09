@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.moetruyensuicao-v1.6.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -24,9 +24,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 20 | Chị em nhà Mikadono dễ đối phó thật đấy (`.../219`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 20 | Cho đến trước khi cô bạn thanh mai trúc mã Gyaru qua đời! (`.../1429`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 20 | Pháp sư tro tàn (`.../553`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 20 | Honzuki no Gekokujou: Ferdinand no Yakata ni Te (`.../2089`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 20 | Yomi no Tsugai (`.../68`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 20 | XIN CHO PHÉP TÔI ĐƯỢC TỰ HÀO (`.../1771`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 20 | Tuyển tập One-shot của LCR25 (`.../2215`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Chị em nhà Mikadono dễ đối phó thật đấy (`.../219`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Chị em nhà Mikadono dễ đối phó thật đấy (`.../219`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 225 | 1 (`.../7365`) |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 62 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://i.truyen.moe/.../001_XoXns.webp <redacted query values: t>` (image/webp (encoding: lossy), 136450 bytes, 1400x888) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.kumapoi-v1.4.36
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 27
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 28
 - Lint: 1
 - Warnings: 0
 - Skipped: 7
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 5075847076783200426
 - Source name: KumaPoi
 - Source language: id
@@ -23,13 +24,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 20 | Secret Class (`.../secret-class`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | The Main Character is the Villain (`.../the-main-character-is-the-villain`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | Mind Control (`.../mind-control`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | The Teachers’ Effort (`.../the-teachers-effort`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 20 | Secret Class (`.../secret-class`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | The Main Character is the Villain (`.../the-main-character-is-the-villain`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | My Girlfriend Was Already Fully Trained (`.../my-girlfriend-was-already-fully-trained`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | Soeun (`.../soeun`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | Secret Class (`.../secret-class`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | error | 0 |  | java.lang.NullPointerException | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 314 | Chapter 01 (`.../secret-class-chapter-01`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 316 | Chapter 01 (`.../secret-class-chapter-01`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 23 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | SKIP | No details manga to check |  |  |  |
 | details description | SKIP | No details manga to check |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 314 chapters |  |  |  |
-| chapter dates | LINT | 127 of 314 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=127 |  |  |  |
+| chapters | PASS | 316 chapters |  |  |  |
+| chapter dates | LINT | 127 of 316 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=127 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 23 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.komikindo.info/.../1.jpg` (image/jpeg, 59325 bytes, 720x880) |  |  |  |

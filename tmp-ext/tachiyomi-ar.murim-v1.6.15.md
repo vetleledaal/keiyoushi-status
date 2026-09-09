@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.murim-v1.6.15
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 0
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 1
 - Lint: 0
 - Warnings: 0
 - Skipped: 35
@@ -16,13 +16,14 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 4966914277555229831
 - Source name: Murim
 - Source language: ar
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | error | 0 |  | kotlinx.serialization.json.JsonDecodingException: Unexpected JSON token at offset 0: Expected start of the object '{', but had '<' instead at path: \$<br>JSON input: <!DOCTYPE html><br><html lang="ar..... | <1s |
+| popular | `getPopularManga(1)` | error | 0 |  | kotlinx.serialization.json.JsonDecodingException: Unexpected JSON token at offset 0: Expected start of the object '{', but had '<' instead at path: \$<br>JSON input: <!DOCTYPE html><html><head><sc..... | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
@@ -33,7 +34,7 @@
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
-| popular operation | ERROR | kotlinx.serialization.json.JsonDecodingException: Unexpected JSON token at offset 0: Expected start of the object '{', but had '<' instead at path: \$<br>JSON input: <!DOCTYPE html><br><html lang="ar..... | REVIEW | INSUFFICIENT_EVIDENCE |  |
+| popular operation | ERROR | kotlinx.serialization.json.JsonDecodingException: Unexpected JSON token at offset 0: Expected start of the object '{', but had '<' instead at path: \$<br>JSON input: <!DOCTYPE html><html><head><sc..... | REVIEW | INSUFFICIENT_EVIDENCE |  |
 | popular_next operation | SKIP | hasNextPage = false |  |  |  |
 | latest operation | SKIP | supportsLatest = false |  |  |  |
 | latest_next operation | SKIP | supportsLatest = false |  |  |  |
@@ -41,11 +42,11 @@
 | details operation | SKIP | No manga was returned by popular or latest |  |  |  |
 | chapters operation | SKIP | No manga was returned by popular or latest |  |  |  |
 | pages operation | SKIP | No usable chapter was available |  |  |  |
-| popular listing | SKIP | Unexpected JSON token at offset 0: Expected start of the object '{', but had '<' instead at path: \$<br>JSON input: <!DOCTYPE html><br><html lang="ar..... |  |  |  |
+| popular listing | SKIP | Unexpected JSON token at offset 0: Expected start of the object '{', but had '<' instead at path: \$<br>JSON input: <!DOCTYPE html><html><head><sc..... |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
 | search listing | SKIP | No manga was returned by popular or latest |  |  |  |
 | latest differs from popular | SKIP | supportsLatest = false |  |  |  |
-| popular pagination | SKIP | Unexpected JSON token at offset 0: Expected start of the object '{', but had '<' instead at path: \$<br>JSON input: <!DOCTYPE html><br><html lang="ar..... |  |  |  |
+| popular pagination | SKIP | Unexpected JSON token at offset 0: Expected start of the object '{', but had '<' instead at path: \$<br>JSON input: <!DOCTYPE html><html><head><sc..... |  |  |  |
 | latest pagination | SKIP | supportsLatest = false |  |  |  |
 | listing duplicates | SKIP | Fewer than 2 manga to check |  |  |  |
 | manga title and URL | SKIP | No manga to check |  |  |  |
@@ -68,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.webtoonscan-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 15
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 16
 - Lint: 0
 - Warnings: 0
 - Skipped: 18
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 3062846066388633553
 - Source name: WebtoonScan
 - Source language: en
@@ -23,10 +24,10 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | Secret Class (`.../1434`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 25 | Yanagihara Is A Sex Addict (`.../648`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | The Former Supreme (`.../21032`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Return of the Mount Hua Sect (`.../4569`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 25 | Secret Class (`.../1434`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | Yanagihara Is A Sex Addict (`.../648`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Saving Another World With Thrusts Raw (`.../20163`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Breakers (`.../20078`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 25 | Secret Class Uncensored (`.../19109`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

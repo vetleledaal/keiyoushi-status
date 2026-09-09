@@ -2,20 +2,21 @@
 
 - Extension: tachiyomi-es.asialotus-v1.4.33
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 34
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
-- Failed: 0
-- Retry disposition: NOT_APPLICABLE
+- Failed: 1
+- Retry disposition: DO_NOT_RETRY
 
 ## Runtime Evidence
 
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 3655128076360662290
 - Source name: Asia Lotus
 - Source language: es
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 32 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://imagizer.imageshack.com/.../tolIBh.jpg` (image/webp (container: extended), 104342 bytes, 1080x3305) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | FAIL | First page URL `https://imagizer.imageshack.com/.../tolIBh.jpg` could not be downloaded: eu.kanade.tachiyomi.network.HttpException: HTTP error 402 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |

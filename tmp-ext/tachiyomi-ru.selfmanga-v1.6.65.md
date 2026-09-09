@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ru.selfmanga-v1.6.65
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 25
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 26
 - Lint: 0
 - Warnings: 0
 - Skipped: 10
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: grouple
 - Source ID: 5227602742162454547
 - Source name: SelfManga
 - Source language: ru
@@ -23,12 +24,12 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 50 | NO_WAY (`.../no_way`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 50 | Прямо в кокоро (`.../priamo_v_kokoro`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 50 | Я же говорила, что старшая школа - самая скучная пора в жизни (`.../ia_je_govorila__chto_starshaia_shkola___samaia_skuchnaia_pora_v_jizni`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 50 | Путеводитель по Иным Мирам (`.../putevoditel_po_inym_miram`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | NO_WAY (`.../no_way`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | NO_WAY (`.../no_way`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 50 | NO_WAY (`.../no_way`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 50 | Прямо в кокоро (`.../priamo_v_kokoro`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 50 | Сквозь дождь (`.../skvoz_dojd`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 50 | Тяга к тебе (`.../tiaga_k_tebe`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | NO_WAY (`.../no_way`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | NO_WAY (`.../no_way`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | error | 0 |  | java.lang.Exception: Для просмотра контента необходима авторизация через WebView🌍 или включите автоматическую авторизацию в настройках расширения | <1s |
 | pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
 
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

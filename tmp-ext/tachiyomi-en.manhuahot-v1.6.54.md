@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.manhuahot-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 7638481723868333116
 - Source name: ManhuaHot
 - Source language: en
@@ -23,9 +24,9 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | Deliverance of the Counterattack (`.../2176`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 25 | Sissy (`.../2541`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | My Secretary Wants to Kill Me! (`.../11384`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 25 | Deliverance of the Counterattack (`.../2176`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | Sissy (`.../2541`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | A Love of Desert Love (`.../10872`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 25 | The Fragile Sparrow in the Palm (`.../11183`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Deliverance of the Counterattack (`.../2176`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Deliverance of the Counterattack (`.../2176`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 3 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.manhuahot.com/.../0-(1).jpg` (image/jpeg, 505738 bytes, 800x15033) |  |  |  |

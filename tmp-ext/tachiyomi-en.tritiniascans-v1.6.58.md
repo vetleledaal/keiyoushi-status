@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.tritiniascans-v1.6.58
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 34
 - Lint: 1
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 6032516943051342273
 - Source name: TritiniaScans
 - Source language: en
@@ -29,7 +30,7 @@
 | latest_next | `getLatestUpdates(2)` | success | 25 | Associate Professor Akira Takatsuki’s Inference (`.../2254`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Back from the Grave (`.../1970`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Back from the Grave (`.../1970`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 212 | Ch. 1 (`.../ch-1`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 212 | Ch. 1 (`.../ch-1`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 10 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 10 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://tritinia.org/.../001.png` to `https://30d8443f-9253-4cc7-b650-7c48b5ba54a2.tritinia.com/.../001.png` (1 redirects) |  |  |  |
 | page load | PASS | `https://tritinia.org/.../001.png` (image/png, 356019 bytes, 720x465) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ru.acomics-v1.4.8
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7
+- Passed: 35
 - Lint: 2
 - Warnings: 0
 - Skipped: 0
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 10 | Living with HipsterGirl & GamerGirl (`.../about`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 10 | Потерянный кошмар [Lost Nightmare] (`.../about`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 10 | Мой странный напарник (`.../about`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 10 | Moonlace (`.../about`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 10 | Принцесса и Воробей — The Princess and the Sparrow (`.../about`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 10 | Революция хвостов и ушек (`.../about`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Living with HipsterGirl & GamerGirl (`.../about`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Living with HipsterGirl & GamerGirl (`.../about`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 1240 | 1 (`.../1`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://acomics.ru/.../000001-5udl4juxxr.jpg` (image/jpeg, 564498 bytes, 1024x1034) |  |  |  |

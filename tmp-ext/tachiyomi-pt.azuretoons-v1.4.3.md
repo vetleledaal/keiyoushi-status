@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.azuretoons-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 31
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 32
 - Lint: 0
 - Warnings: 0
 - Skipped: 4
@@ -23,14 +23,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 174 | Rei do Gado (`.../rei-do-gado`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 174 | Rei do Gado (`.../rei-do-gado`) |  | 10s+ |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 174 | Mestre Espadachim Criado Pelas Estrelas (`.../mestre-espadachim-criado-pelas-estrelas`) |  | 10s+ |
+| latest | `fetchLatestUpdates(1)` | success | 174 | Vingança do Cão de Caça dos Baskerville (`.../vinganca-do-cao-de-caca-dos-baskerville`) |  | 10s+ |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Rei do Gado (`.../rei-do-gado`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 529 | 1 (`.../1.0`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 62 |  |  | 10s+ |
+| pages | `fetchPageList(chapter)` | success | 62 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 62 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://azuretoons.com/.../image <redacted query values: url and hash>` (image/webp (encoding: lossy), 214474 bytes, 800x1533) |  |  |  |

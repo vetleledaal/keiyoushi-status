@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.mangalt-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 0
 - Warnings: 1
 - Skipped: 2
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: comiciviewer
 - Source ID: 1153097454471755439
 - Source name: Mangalt
 - Source language: ja
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 10 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://viewer.mangalt.jp/.../master-1775708670642-01.jpg <redacted query values: Expires, Signature, and Key-Pair-Id> 2, 9, 1, 4, 8, 3, 10, 0, 11, 7, 12, 5, 13, 15, 6\]` (image/jpeg, 956889 bytes, 1444x2048) |  |  |  |

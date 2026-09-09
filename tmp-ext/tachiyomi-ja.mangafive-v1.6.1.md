@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-ja.mangafive-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 28
 - Lint: 0
-- Warnings: 1
+- Warnings: 2
 - Skipped: 6
 - Failed: 1
 - Retry disposition: REVIEW
@@ -27,10 +27,10 @@
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 10 | レベルファイブ大喜利 (`.../00430001`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 10 | ごえたむのまったりニノクロ生活（完結） (`.../00400001`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | ほのスト！ ～豪炎寺のひとりごと～ (`.../00220001`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | ほのスト！ ～豪炎寺のひとりごと～ (`.../00220001`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | ほのスト！ ～豪炎寺のひとりごと～ (`.../00220001`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | ほのスト！ ～豪炎寺のひとりごと～ (`.../00220001`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 169 | 第1話 タピオカと豪炎寺 (`.../00220001`) |  | 1-10s |
-| pages | `getPageList(chapter)` | error | 0 |  | java.lang.Exception: Log in via WebView and purchase this product to read. | 1-10s |
+| pages | `getPageList(chapter)` | error | 0 |  | java.lang.Exception: Log in via WebView and purchase this product to read. | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | Log in via WebView and purchase this product to read. |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://manga-5.com/.../00220001` to `https://manga-5.com/.../ads_before_launching_viewer.html <redacted query values: id>` (1 redirects) |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.otakusic-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -24,12 +24,12 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 48 | Bạn Cùng Lớp (`.../ban-cung-lop`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 48 | Chuyện Của Họ (`.../chuyen-cua-ho`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 48 | Lời tiên tri của Rita (`.../loi-tien-tri-cua-rita`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 48 | Onepunch Man (`.../onepunch-man`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 48 | Tôi Sinh Ra Là Con Gái Của Một Thứ Phi Thấp Hèn (`.../toi-sinh-ra-la-con-gai-cua-mot-thu-phi-thap-hen`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 48 | Đồng Tước Tỏa Kim Thoa (`.../dong-tuoc-toa-kim-thoa`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 7 | Bạn Cùng Lớp (`.../ban-cung-lop`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Bạn Cùng Lớp (`.../ban-cung-lop`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 60 | Chương 1 (`.../chuong-1`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 63 | Chương 1 (`.../chuong-1`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 173 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Eunha Joo - nữ sinh bị cả trường ruồng bỏ. Bị bắt nạt, cô lập suốt thời gian dài làm cô cảm thấy tuyệt vọng. Số phận đã mang đến cho cô một “người bạn” - Heasu Lee “ Tôi sẽ làm bạn của cậu”... Nhưng liệu đây sẽ là ánh sáng hay lại tiếp tục là lồng giam của Eunha ? Liệu bàn tay được người bạn bí ẩn này đưa ra sẽ là sự cứu rỗi, hay là một lời nguyền? |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 60 chapters |  |  |  |
-| chapter dates | PASS | 60 positive upload dates |  |  |  |
+| chapters | PASS | 63 chapters |  |  |  |
+| chapter dates | PASS | 63 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 173 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://img.otakusic.com/.../8fd8c86397.webp` (image/webp (encoding: lossy), 14992 bytes, 690x1017) |  |  |  |

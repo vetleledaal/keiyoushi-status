@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.mangamura-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangareader
 - Source ID: 1006356371941619891
 - Source name: Manga Mura
 - Source language: ja
@@ -24,11 +25,11 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 31 | だぶるぷれい (`.../%E3%81%A0%E3%81%B6%E3%82%8B%E3%81%B7%E3%82%8C%E3%81%84-raw`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 31 | サイコ×パスト 猟奇殺人潜入捜査 (`.../%E3%82%B5%E3%82%A4%E3%82%B3x%E3%83%91%E3%82%B9%E3%83%88-%E7%8C%9F%E5%A5%87%E6%AE%BA%E4%BA%BA%E6%BD%9C%E5%85%A5%E6%8D%9C%E6%9F%BB-raw`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 31 | 神血の救世主 (`.../%E7%A5%9E%E8%A1%80%E3%81%AE%E6%95%91%E4%B8%96%E4%B8%BB-raw`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 31 | せっかく農家に転生したので勇者は目指しません (`.../%E3%81%9B%E3%81%A3%E3%81%8B%E3%81%8F%E8%BE%B2%E5%AE%B6%E3%81%AB%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E5%8B%87%E8%80%85%E3%81%AF%E7%9B%AE%E6%8C%87%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93-raw`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 31 | ポコとわたしの車旅 (`.../%E3%83%9D%E3%82%B3%E3%81%A8%E3%82%8F%E3%81%9F%E3%81%97%E3%81%AE%E8%BB%8A%E6%97%85-raw`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 31 | ポコとわたしの車旅 (`.../%E3%83%9D%E3%82%B3%E3%81%A8%E3%82%8F%E3%81%9F%E3%81%97%E3%81%AE%E8%BB%8A%E6%97%85-raw`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | せっかく農家に転生したので勇者は目指しません (`.../%E3%81%9B%E3%81%A3%E3%81%8B%E3%81%8F%E8%BE%B2%E5%AE%B6%E3%81%AB%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E5%8B%87%E8%80%85%E3%81%AF%E7%9B%AE%E6%8C%87%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93-raw`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | せっかく農家に転生したので勇者は目指しません (`.../%E3%81%9B%E3%81%A3%E3%81%8B%E3%81%8F%E8%BE%B2%E5%AE%B6%E3%81%AB%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E5%8B%87%E8%80%85%E3%81%AF%E7%9B%AE%E6%8C%87%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93-raw`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | せっかく農家に転生したので勇者は目指しません (`.../%E3%81%9B%E3%81%A3%E3%81%8B%E3%81%8F%E8%BE%B2%E5%AE%B6%E3%81%AB%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E5%8B%87%E8%80%85%E3%81%AF%E7%9B%AE%E6%8C%87%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93-raw`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 25 | 第1話-JP: 第1話 (`.../chapter-1-raw`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 58 |  |  | <1s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 58 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://sv1.freeimgmg.online/.../1.webp` (image/webp (container: extended), 172456 bytes, 844x1200) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.cucumbermanga-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 3890119680043332770
 - Source name: Cucumber Manga
 - Source language: en
@@ -24,13 +25,13 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Jinx [Cucumbermanga] (`.../5838`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 25 | The Color Of The Night (`.../1163`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Moon Embracing The Sun (Yaoi) (`.../2581`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | DESIRE ME IF YOU CAN (`.../3943`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | The Pizza Delivery Man And The Gold Palace [Cucumbermanga] (`.../1517`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Yang Ilwoo and Me (`.../4657`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Thousand years of Love (`.../3094`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Jinx [Cucumbermanga] (`.../5838`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Jinx [Cucumbermanga] (`.../5838`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 266 | Chapter 1 (`.../chapter-1`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 52 |  |  | <1s |
+| pages | `getPageList(chapter)` | success | 52 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 52 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cucumbermanga.com/.../1.jpg` (image/jpeg, 106995 bytes, 690x1174) |  |  |  |

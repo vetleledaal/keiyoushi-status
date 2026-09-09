@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mistscans-v1.6.22
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 31
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 32
 - Lint: 0
 - Warnings: 1
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: keyoapp
 - Source ID: 80073424419623517
 - Source name: Mist Scans
 - Source language: en
@@ -23,14 +24,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 10 | Solo EX Rank Summoner (`.../solo-ex-rank-summoner`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 10 | Solo EX Rank Summoner (`.../solo-ex-rank-summoner`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 164 | Skill Taker Of Other World Domination (Uncensored) (`.../skill-taker-of-other-world-domination-uncensored`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 168 | Vengeful Villainslayer (`.../vengeful-villainslayer`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Solo EX Rank Summoner (`.../solo-ex-rank-summoner`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Solo EX Rank Summoner (`.../solo-ex-rank-summoner`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 37 | Chapter 1 (`.../64f6dd0cdf8-64f809142b0`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 15 |  |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Solo EX Rank Summoner (`.../solo-ex-rank-summoner`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Solo EX Rank Summoner (`.../solo-ex-rank-summoner`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 38 | Chapter 1 (`.../64f6dd0cdf8-64f809142b0`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 15 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -43,14 +44,14 @@
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 10 entries |  |  |  |
-| latest listing | PASS | 164 entries |  |  |  |
+| latest listing | PASS | 168 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Solo EX Rank Summoner, URL=`.../solo-ex-rank-summoner` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 175/175 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 175/175 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 179/179 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 179/179 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://wsrv.nl <redacted query values: url and w>` (image/png, 322566 bytes, 480x240) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../solo-ex-rank-summoner` |  |  |  |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Alternative Titles:<br>- 나 혼자 EX급 소환수 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 37 chapters |  |  |  |
-| chapter dates | PASS | 37 positive upload dates |  |  |  |
+| chapters | PASS | 38 chapters |  |  |  |
+| chapter dates | PASS | 38 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 15 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.meowing.org/.../64f809142b0.avif` (image/avif (format: avif), 451620 bytes, 800x15000) |  |  |  |

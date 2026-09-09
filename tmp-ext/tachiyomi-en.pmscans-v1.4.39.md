@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.pmscans-v1.4.39
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 31
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 32
 - Lint: 0
 - Warnings: 1
 - Skipped: 4
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 13 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://rackusreads.com/.../00-RYU-creds.webp` (image/webp (encoding: lossy), 142436 bytes, 1200x1197) |  |  |  |

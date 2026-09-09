@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.readnanatsunotaizai7deadlysinsmangaonline-v1.4.11
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 22
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 23
 - Lint: 4
 - Warnings: 1
 - Skipped: 8
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangacatalog
 - Source ID: 3945031984510180731
 - Source name: Read Nanatsu no Taizai 7 Deadly Sins Manga Online
 - Source language: en
@@ -29,7 +30,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Four Horsemen of the Apocalypse (`https://ww8.read7deadlysins.com/.../four-horsemen-of-the-apocalypse`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Four Horsemen of the Apocalypse (`https://ww8.read7deadlysins.com/.../four-horsemen-of-the-apocalypse`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 254 | Four Horsemen of the Apocalypse Chapter 1 - The boy Sets off (`https://ww8.read7deadlysins.com/.../four-horsemen-of-the-apocalypse-chapter-1`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 255 | Four Horsemen of the Apocalypse Chapter 1 - The boy Sets off (`https://ww8.read7deadlysins.com/.../four-horsemen-of-the-apocalypse-chapter-1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 71 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | Alternative name: Mokushiroku no Yonkishi The Four Horsemen of the Apocalypse 「黙示録の四人の騎士, Mokushiroku no shi-ri no kishi」are an extremely powerful group of four elite warriors of the Britannia's largest clans. It's main goal is to bring a new holy war to the world. All its members are children of the Seven Deadly Sins. In addition, everyone has peculiarities that set them apart from their clans. Each of them has a symbol embedded in his body, symbolizing which knight he is Each horsemen has a special ability, called the "Horse," which names them within the group. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 254 chapters |  |  |  |
-| chapter dates | LINT | All 254 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=254 |  |  |  |
+| chapters | PASS | 255 chapters |  |  |  |
+| chapter dates | LINT | All 255 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=255 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
-| chapter URLs | UNUSUAL | All 254 chapter URLs are absolute |  |  |  |
+| chapter URLs | UNUSUAL | All 255 chapter URLs are absolute |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 71 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.readneverland.com/.../2.jpeg <redacted query values: t>` (image/jpeg, 148329 bytes, 1067x1600) |  |  |  |

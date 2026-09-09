@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.goda-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 34
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 35
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: goda
 - Source ID: 4273874799952447458
 - Source name: Goda
 - Source language: en
@@ -26,10 +27,10 @@
 | popular | `getPopularManga(1)` | success | 18 | A Returner's Magic Should Be Special (`.../00-a-returner-s-magic-should-be-special`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 18 | Legendary Youngest Son of the Marquis House (`.../legendary-youngest-son-of-the-marquis-house-manhwa`) |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 18 | Damn Reincarnation (`.../02-damn-reincarnation`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 18 | Katatsumuri-chan (`.../katatsumuri-chan`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 30 | A Returner's Magic Should Be Special (`.../00-a-returner-s-magic-should-be-special`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | A Returner's Magic Should Be Special (`.../00-a-returner-s-magic-should-be-special`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 262 | Chapter 1 (`.../19055_1`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 18 | Katatsumuri-chan (`.../katatsumuri-chan`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 30 | A Returner's Magic Should Be Special (`.../00-a-returner-s-magic-should-be-special`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | A Returner's Magic Should Be Special (`.../00-a-returner-s-magic-should-be-special`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 262 | Chapter 1 (`.../19055_1`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 79 |  |  | 10s+ |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 79 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | FAIL | First page URL `https://f03-wt.chapt.top/.../0-mgsearch.webp` could not be downloaded: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 30000 ms | RETRY_NOW | TIMEOUT |  |

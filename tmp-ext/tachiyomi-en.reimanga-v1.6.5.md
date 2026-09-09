@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.reimanga-v1.6.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 23
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 24
 - Lint: 1
 - Warnings: 1
 - Skipped: 10
@@ -23,10 +23,10 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 100 | Behind the Stage (`.../behind-the-stage-99362`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 100 | Behind the Stage (`.../behind-the-stage-99362`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 24 | Jinx (`.../jinx-82002`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 24 | Solitude Murder (`.../solitude-murder-108153`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | Azur Lane - Akagi² (`.../azur-lane-akagi-108013`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 24 | Ramia-Yana (`.../ramiayana-110232`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | Near and Dear (`.../near-and-dear-98410`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Behind the Stage (`.../behind-the-stage-99362`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Behind the Stage (`.../behind-the-stage-99362`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | 1-10s |
@@ -46,7 +46,7 @@
 | latest listing | PASS | 24 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Behind the Stage, URL=`behind-the-stage-99362` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
-| popular pagination | UNUSUAL | Overlapping manga: title=Dear Door, URL=`dear-door-o38a7ec-47331` at page 1 offset 1 and page 2 offset 12, title=Dangerous Convenience Store, URL=`dangerous-convenience-store-qw-64958` at page 1 offset 4 and page 2 offset 7, title=Payback, URL=`payback-70187` at page 1 offset 10 and page 2 offset 17, title=Roses and Champagne, URL=`roses-and-champagne-71208` at page 1 offset 14 and page 2 offset 1, title=Shutline, URL=`shutline-b-69533` at page 1 offset 22 and page 2 offset 6 |  |  |  |
+| popular pagination | UNUSUAL | Overlapping manga: title=Dear Door, URL=`dear-door-o38a7ec-47331` at page 1 offset 1 and page 2 offset 14, title=Dangerous Convenience Store, URL=`dangerous-convenience-store-qw-64958` at page 1 offset 4 and page 2 offset 9, title=Payback, URL=`payback-70187` at page 1 offset 10 and page 2 offset 19, title=Roses and Champagne, URL=`roses-and-champagne-71208` at page 1 offset 14 and page 2 offset 1, title=Shutline, URL=`shutline-b-69533` at page 1 offset 22 and page 2 offset 8 |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
 | manga title and URL | PASS | 173/173 listing manga have titles and relative URLs |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

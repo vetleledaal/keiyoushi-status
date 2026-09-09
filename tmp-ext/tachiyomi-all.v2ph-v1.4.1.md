@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.v2ph-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 28
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 29
 - Lint: 1
 - Warnings: 0
 - Skipped: 6
@@ -25,11 +25,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 16 | Selected Street Style Photos – Exquisite Nude-Colored Stockings and High Heels (`.../amo89e8a.html`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 16 | Yu Feng Street Photography – Spy Killing Storm – Exquisite Female Spy in Stockings: The Truth Revealed (Photos + Video) (`.../z4mxo6na.html`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 12 | Yuzuha Saeki - Ambiguity is Fine (`.../zo7x35ez.html`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 12 | [週刊少年マガジン] 与田祐希 - 2026 No.38 (`.../an9on7ez.html`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Selected Street Style Photos – Exquisite Nude-Colored Stockings and High Heels (`.../amo89e8a.html`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Selected Street Style Photos – Exquisite Nude-Colored Stockings and High Heels (`.../amo89e8a.html`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Selected Street Style Photos – Exquisite Nude-Colored Stockings and High Heels (`.../amo89e8a.html`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 1 | Gallery (`.../amo89e8a.html`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 1 | Gallery (`.../amo89e8a.html`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | error | 0 |  | java.lang.Exception: V2PH Session expired. Please log in via WebView to view more than 20 images. | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -57,7 +57,7 @@
 | details thumbnail URL | PASS | null |  |  |  |
 | details author | PASS | Street Snap |  |  |  |
 | details artist | PASS | Anonymous |  |  |  |
-| details genres | PASS | Quality, Street style, Beautiful Bust, sexy, Quality, lovely, Pure, sweet, Quality, Fresh, Japanese, sunlight, Outdoor beauty, Beautiful Bust, Quality, Lingerie, Sexy girl, Boudoir, Quality, Tits, Lingerie, F Cup |  |  |  |
+| details genres | PASS | Quality, Street style, Quality, Beautiful girl, Lingerie, Busty, Busty Beauty, Quality, Fresh, Beautiful, Poised, Quality, Fresh, Beautiful, C cup beauty, sweet, Poised, Quality, Goddess, Long-legged beauty |  |  |  |
 | details status | PASS | COMPLETED (2) |  |  |  |
 | details description | PASS | Photos: 125 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | V2PH Session expired. Please log in via WebView to view more than 20 images. |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

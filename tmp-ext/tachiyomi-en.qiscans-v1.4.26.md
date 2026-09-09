@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.qiscans-v1.4.26
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: ezmanhwa
 - Source ID: 5806040666300479660
 - Source name: QiScans
 - Source language: en
@@ -24,10 +25,10 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | Evolution From a Tree (`.../4190634673-cong-da-shu-kaishi-de-jinhuatrashed`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | The End Has Come (`.../the-end-has-come`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | The Eight Empresses Betrayed Me, Only to Deeply Regret It After Being Reborn (`.../the-eight-empresses-betrayed-me-only-to-deeply-regret-it-after-being-reborn`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | Return of the First Generation: The Strongest in History Reincarnates as His Descendant 1000 Years Later (`<redacted URL #1: selected resource; absolute; invalid web scheme>`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 3 | Evolution From a Tree (`.../4190634673-cong-da-shu-kaishi-de-jinhuatrashed`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | The End Has Come (`.../the-end-has-come`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | Apocalypse Smuggler: Trading Spicy Strips for Gold Bars (`.../apocalypse-smuggler-trading-spicy-strips-for-gold-bars`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | The Demon God (`.../demon-god`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 3 | Evolution From a Tree (`.../4190634673-cong-da-shu-kaishi-de-jinhuatrashed`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Evolution From a Tree (`.../4190634673-cong-da-shu-kaishi-de-jinhuatrashed`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 539 | Chapter 1 - Evolution From a Tree 1 (`.../8781815493-evolution-from-a-tree-1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 7 |  |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 7 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://media.qimanhwa.com/.../page_001.webp` (image/webp (container: extended), 89870 bytes, 800x450) |  |  |  |

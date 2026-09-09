@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.s2manga-v1.6.58
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 30
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 31
 - Lint: 1
 - Warnings: 0
 - Skipped: 3
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 4870917758913494428
 - Source name: S2Manga
 - Source language: en
@@ -23,14 +24,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | Under the Oak Tree (`.../4073`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 25 | I Got Married To A Villain (`.../58201`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | The Dilettante (`.../77877`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | The Baby Isn’t Yours (`.../92174`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Under the Oak Tree (`.../4073`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Under the Oak Tree (`.../4073`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 25 | Under the Oak Tree (`.../4073`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | What It Means to be You? (`.../54752`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Jungle Juice (`.../89546`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | This Is How Revenge Is Done (`.../90140`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Under the Oak Tree (`.../4073`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Under the Oak Tree (`.../4073`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 229 | Chap 62 (`.../chap-62`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 0 |  |  | <1s |
+| pages | `getPageList(chapter)` | success | 0 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | FAIL | Page list is empty (0 pages) | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

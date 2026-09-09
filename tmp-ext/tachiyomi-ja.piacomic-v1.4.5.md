@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.piacomic-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 31
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 32
 - Lint: 0
 - Warnings: 1
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: comiciviewer
 - Source ID: 2932724617903419016
 - Source name: PiaComic
 - Source language: ja
@@ -28,7 +29,7 @@
 | latest | `fetchLatestUpdates(1)` | success | 13 | イケオジ王弟殿下との白い結婚～君を愛するつもりはないと言った旦那様が過保護に溺愛してきます～ (`.../17bc083b6615d`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 私のお尻のメッセー痔 (`.../e8d5d0d785ed3`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | 私のお尻のメッセー痔 (`.../e8d5d0d785ed3`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | 私のお尻のメッセー痔 (`.../e8d5d0d785ed3`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 10 | 第1章　Di革命 外Di核　の変 （１） (`.../2f0e868e189ad`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 16 |  |  | 1-10s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 16 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://viewer.piacomic.jp/.../master-1777610528661-01_q95.jpg <redacted query values: Expires, Signature, and Key-Pair-Id> 7, 11, 9, 6, 1, 2, 0, 4, 5, 3, 14, 8, 13, 12, 10\]` (image/jpeg, 213659 bytes, 1353x1920) |  |  |  |

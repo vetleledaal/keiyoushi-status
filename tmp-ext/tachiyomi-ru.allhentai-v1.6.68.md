@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ru.allhentai-v1.6.68
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 25
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 26
 - Lint: 0
 - Warnings: 0
 - Skipped: 10
@@ -16,19 +16,20 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: grouple
 - Source ID: 1809051393403180443
 - Source name: AllHentai
 - Source language: ru
-- Selected manga input: latest offset 0: Сам рисуй свою пошлятину! (`.../sam_risui_svoiu_poshliatinu_`)
+- Selected manga input: popular offset 0: Мачеха и ее подруги!!! (`.../macheha_i_ee_podrugi___`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 50 | Мачеха и ее подруги!!! (`.../macheha_i_ee_podrugi___`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 50 | «Членодевка!», история издевательств (`.../_chlenodevka____istoriia_izdevatelstv`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 50 | Сам рисуй свою пошлятину! (`.../sam_risui_svoiu_poshliatinu_`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 50 | Химическая любовь (`.../himicheskaia_liubov`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Сам рисуй свою пошлятину! (`.../sam_risui_svoiu_poshliatinu_`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Сам рисуй свою пошлятину! (`.../sam_risui_svoiu_poshliatinu_`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 50 | Мачеха и ее подруги!!! (`.../macheha_i_ee_podrugi___`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 50 | «Членодевка!», история издевательств (`.../_chlenodevka____istoriia_izdevatelstv`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 50 | Нехватка мужчин (`.../nehvatka_mujchin`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 50 | Комиксы от Junkzero (`.../komiksy_ot_junkzero`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Мачеха и ее подруги!!! (`.../macheha_i_ee_podrugi___`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Мачеха и ее подруги!!! (`.../macheha_i_ee_podrugi___`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | error | 0 |  | java.lang.Exception: Для просмотра контента необходима авторизация через WebView🌎 | <1s |
 | pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
 
@@ -44,7 +45,7 @@
 | pages operation | SKIP | No usable chapter was available |  |  |  |
 | popular listing | PASS | 50 entries |  |  |  |
 | latest listing | PASS | 50 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Сам рисуй свою пошлятину!, URL=`.../sam_risui_svoiu_poshliatinu_` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=Мачеха и ее подруги!!!, URL=`.../macheha_i_ee_podrugi___` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
@@ -52,14 +53,14 @@
 | manga title and URL | PASS | 201/201 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 201/201 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://staticahen2.aaa200.one/.../873.jpg` (image/jpeg, 35367 bytes, 325x450) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../sam_risui_svoiu_poshliatinu_` |  |  |  |
-| details thumbnail URL | PASS | `https://staticahen2.aaa200.one/.../873.jpg` |  |  |  |
-| details author | PASS | Kimmundo |  |  |  |
-| details artist | PASS | null |  |  |  |
-| details genres | PASS | манхва, без цензуры, большая грудь, в цвете, гарем, комедия, оральный секс, романтика, мастурбация, психические отклонения, сексуально возбужденная |  |  |  |
-| details status | PASS | PUBLISHING_FINISHED (4) |  |  |  |
-| details description | PASS | ★★★✬☆ 7.42 (голосов: 166)<br>История о двух авторах вебтунов, которые поселились в странном доме. Давать волю грязным фантазиям в одиночку не так-то просто… «Эй, не хочешь стать героем моего пикантного комикса?»<br>**Альтернативные названия**:<br>- Сам рисуй свою пошлятину!<br>- Draw Yours<br>- Cartoonists NSFW<br>- Художник 18+ |  |  |  |
+| thumbnail | PASS | `https://staticahen2.aaa200.one/.../077.jpg` (image/jpeg, 39901 bytes, 325x450) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../macheha_i_ee_podrugi___` |  |  |  |
+| details thumbnail URL | PASS | `https://staticahen2.aaa200.one/.../077.jpg` |  |  |  |
+| details author | PASS | Neck Pillow |  |  |  |
+| details artist | PASS | Red-A |  |  |  |
+| details genres | PASS | манхва, ahegao, анал, бдсм, большая грудь, большая попка, большой член, в первый раз, в цвете, гарем, групповой секс, зрелые женщины, романтика, handjob, вибратор, глубокий минет, двойное проникновение, домохозяйки, исполнение желаний, латекс и кожа, пайзури, повседневность, спортивная форма, фетиш, шалава |  |  |  |
+| details status | PASS | COMPLETED (2) |  |  |  |
+| details description | PASS | ★★★★✬ 8.55 (голосов: 4934)<br>История про паренька, у которого, появляется сексапильная мачеха, у которой много сексуальных подруг,которых он увидел в порнухе ,все бы ничего если бы там не участвовала его новая сексуальная мачеха. Как развернётся его судьба и сексуальное мышление вы узнаете когда прочтёте<br>**Альтернативные названия**:<br>- Мачеха и ее подруги!!!<br>- STEPMOTHER'S FRIENDS<br>- STEPMOTHER FRIENDS<br>- Saeeommaui Chingudeul |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | SKIP | Chapters did not run successfully |  |  |  |
 | chapter dates | SKIP | No chapters to check |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

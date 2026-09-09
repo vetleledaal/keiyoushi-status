@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.daomeoden-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -24,9 +24,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | bộ truyện của tác giả rororogi mogera (`.../kotoriba-11619-0.html`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 24 | thỏa thuận đầy tội lỗi vì bóng hồng sát vách (`.../thoa-thuan-day-toi-loi-vi-bong-hong-sat-vach-61979-0.html`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 24 | hội chứng beethoven (`.../hoi-chung-beethoven-47676-0.html`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | hoa sơn tái khởi (`.../hoa-son-tai-khoi-46204-0.html`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 24 | tuyển tập: trai có lồn (`.../tuyen-tap-trai-co-lon-60267-0.html`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 24 | bắt đầu chuyển chức tài thần, ta chuyển hóa triệu vạn thần sủng (`.../bat-dau-chuyen-chuc-tai-than-ta-chuyen-hoa-trieu-van-than-sung-55943-0.html`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | xuyên thành tiểu muội của đại lão giấu mặt (`.../xuyen-thanh-tieu-muoi-cua-dai-lao-giau-mat-45868-0.html`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | bộ truyện của tác giả rororogi mogera (`.../kotoriba-11619-0.html`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | bộ truyện của tác giả rororogi mogera (`.../kotoriba-11619-0.html`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 51 | Chương 1.1 (`.../chuong-1.1-467733-0.html`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 14 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://dmd-image-content-sng-1.imggo.net/.../1665806378ovabxfrfoo.jpg` (image/jpeg, 866129 bytes, 1670x2156) |  |  |  |

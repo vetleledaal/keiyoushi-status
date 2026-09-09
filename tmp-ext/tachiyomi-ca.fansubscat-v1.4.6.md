@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ca.fansubscat-v1.4.6
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,21 +16,22 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: fansubscat
 - Source ID: 3974404971892520732
 - Source name: Fansubs.cat
 - Source language: ca
-- Selected manga input: popular offset 0: El noi en què estava interessada no era en cap cas un noi (`.../el-noi-en-que-estava-interessada-no-era-en-cap-cas-un-noi`)
+- Selected manga input: latest offset 0: Quedes detingut! (`.../quedes-detingut`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | El noi en què estava interessada no era en cap cas un noi (`.../el-noi-en-que-estava-interessada-no-era-en-cap-cas-un-noi`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | La serp i l'ofrena (`.../la-serp-i-l-ofrena`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | La Tomo és una noia! (`.../la-tomo-es-una-noia`) |  | <1s |
 | latest | `fetchLatestUpdates(1)` | success | 20 | Quedes detingut! (`.../quedes-detingut`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | success | 20 | T'he trobat!! (`.../t-he-trobat`) |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | El noi en què estava interessada no era en cap cas un noi (`.../el-noi-en-que-estava-interessada-no-era-en-cap-cas-un-noi`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | El noi en què estava interessada no era en cap cas un noi (`.../el-noi-en-que-estava-interessada-no-era-en-cap-cas-un-noi`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 167 | Volum 1 - Capítol 1: Ritme A (`.../16687`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 9 |  |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Quedes detingut! (`.../quedes-detingut`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Quedes detingut! (`.../quedes-detingut`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 22 | Volum 1 - Capítol 1: Dones policia explosives sense cap mena de por! (`.../17583`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 11 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,7 +45,7 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 20 entries |  |  |  |
 | latest listing | PASS | 20 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=El noi en què estava interessada no era en cap cas un noi, URL=`el-noi-en-que-estava-interessada-no-era-en-cap-cas-un-noi` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=Quedes detingut!, URL=`quedes-detingut` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
@@ -52,21 +53,22 @@
 | manga title and URL | PASS | 81/81 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 81/81 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://static.fansubs.cat/.../version_4239.jpg` (image/jpeg, 132409 bytes, 301x426) |  |  |  |
-| details identity | PASS | Details preserved selected URL `el-noi-en-que-estava-interessada-no-era-en-cap-cas-un-noi` |  |  |  |
-| details thumbnail URL | PASS | `https://static.fansubs.cat/.../version_4239.jpg` |  |  |  |
-| details author | PASS | Sumiko Arai |  |  |  |
+| thumbnail | PASS | `https://static.fansubs.cat/.../version_4348.jpg` (image/jpeg, 101330 bytes, 300x430) |  |  |  |
+| details identity | PASS | Details preserved selected URL `quedes-detingut` |  |  |  |
+| details thumbnail URL | PASS | `https://static.fansubs.cat/.../version_4348.jpg` |  |  |  |
+| details author | PASS | Kousuke Fujishima |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | Amor, Amor entre noies, Música |  |  |  |
+| details genres | PASS | Acció, Comèdia, Detectivesc, Laboral, Personatges adults, Seinen |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | L'Aya, una estudiant que va a la moda, perd el cap pel treballador d'una botiga de discos. Té un aire de misteri, un gran estil i un gust musical impecable. Tot i això, ella no sap que aquest treballador és de fet una companya de classe, la Mitsuki! |  |  |  |
+| details description | PASS | La Natsumi i la Miyuki són dues agents de l'ordre de Tòquio, al Japó. Cadascuna d'elles amb la seva personalitat, aquesta parella es va fer famosa arran de la seva adaptació animada. Ara, segueix les seves aventures en format manga! |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 167 chapters |  |  |  |
-| chapter dates | PASS | 167 positive upload dates |  |  |  |
+| chapters | PASS | 22 chapters |  |  |  |
+| chapter dates | PASS | 22 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 9 HTTP page URLs |  |  |  |
+| page URLs | PASS | 11 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://fideusalacassola.xyz/.../001.jpg` (image/jpeg, 1850502 bytes, 1443x2048) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://fideusalacassola.xyz/.../001.jpg` (image/jpeg, 917335 bytes, 1114x1600) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangatrend-v1.4.32
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 1983630122600815139
 - Source name: Manga Trend
 - Source language: en
@@ -25,12 +26,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | One Piece English (`.../one-piece-english`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 6 | The Exiled Heavy Knight Knows How to Game the System Manga (`.../the-exiled-heavy-knight-knows-how-to-game-the-system-manga`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | Blue Lock English (`.../blue-lock-english`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | One Piece English (`.../one-piece-english`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | success | 6 | One Punch Man (`.../one-punch-man`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | One Piece English (`.../one-piece-english`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | One Piece English (`.../one-piece-english`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 19 | Chapter 1179 (`.../read-one-piece-1179-english`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 15 |  |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 21 | Chapter 1175 (`.../one-piece-chapter-1175-english`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 11 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | As a child, Monkey D. Luffy was inspired to become a pirate by listening to the tales of the buccaneer “Red-Haired” Shanks. But Luffy’s life changed when he accidentally ate the Gum-Gum Devil Fruit and gained the power to stretch like rubber…at the cost of never being able to swim again! Years later, still vowing to become the king of the pirates, Luffy sets out on his adventure…one guy alone in a rowboat, in search of the legendary “One Piece,” said to be the greatest treasure in the world… |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 19 chapters |  |  |  |
-| chapter dates | LINT | All 19 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=19 |  |  |  |
+| chapters | PASS | 21 chapters |  |  |  |
+| chapter dates | LINT | All 21 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=21 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 15 HTTP page URLs |  |  |  |
+| page URLs | PASS | 11 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://i0.wp.com/.../one-piece-chapter-1179-tcb-scans-are-out-v0-ivu19f2hntsg1.png` (image/webp (encoding: lossless), 248762 bytes, 640x934) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://i3.wp.com/.../20260227164454101.png` (image/webp (encoding: lossless), 462736 bytes, 1100x1606) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.oglaf-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 26
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 27
 - Lint: 1
 - Warnings: 0
 - Skipped: 8
@@ -29,7 +29,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Oglaf (`.../archive`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 880 | cumsprite (`.../cumsprite`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 881 | cumsprite (`.../cumsprite`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 8 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Filth and other Fantastical Things in handy webcomic form. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 880 chapters |  |  |  |
-| chapter dates | LINT | All 880 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=880 |  |  |  |
+| chapters | PASS | 881 chapters |  |  |  |
+| chapter dates | LINT | All 881 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=881 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 8 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://media.oglaf.com/.../cumsprite1.jpg` (image/jpeg, 141647 bytes, 760x596) |  |  |  |

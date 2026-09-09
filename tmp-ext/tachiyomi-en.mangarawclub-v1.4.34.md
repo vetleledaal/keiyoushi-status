@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangarawclub-v1.4.34
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 2
 - Warnings: 0
 - Skipped: 0
@@ -25,11 +25,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 24 | Magic Emperor (`.../magic-emperor-mg1`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 24 | Eternally Regressing Knight (`.../eternally-regressing-knight`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 24 | The Strongest Wife In The Hidden Dungeon (`.../ura-dungeon-okusan`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 24 | Clever Cleaning Life Of The Returned Genius Hunter (`.../clever-cleaning-life-of-the-returned-genius`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 24 | Infinite Level Up in Murim (`.../infinite-level-up-in-murim`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 24 | Fukushuu no Taishi - Level 9999 no Bakumatsu Isekai Tensei (`.../fukushuu-no-taishi-level-9999-no-bakumatsu-isekai-tensei`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Magic Emperor (`.../magic-emperor-mg1`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Magic Emperor (`.../magic-emperor-mg1`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 906 | Chapter 1 (`.../magic-emperor-chapter-1-eng-li`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 909 | Chapter 1 (`.../magic-emperor-chapter-1-eng-li`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 214 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS |  Zhuo Yifan was a magic emperor or could be called a demon emperor because he had an ancient emperor’s book called the Book of the Nine Secrets, he was targeted by all the experts, and he was even betrayed and killed by his students. Then his soul enters and comes back to life in a family servant boy named Zhuo Fan. Because some demonic magic is holding him back, he must unite the child’s memories and cannot ignore the family and the mistress he serves. How can he lead this descending family back to the pinnacle of this continent!<br><br>Alternative Names:<br>- Carp Reborn<br>- Devil Housekeeper<br>- Emperor<br>- First Dragon<br>- Nguyên Long<br>- Yuan Long<br>- Yuanlong<br>- 元龙<br>- 魔皇大管家 |  |  |  |
 | metadata trimming | LINT | Untrimmed fields: description |  |  |  |
-| chapters | PASS | 906 chapters |  |  |  |
-| chapter dates | LINT | 3 of 906 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=3 |  |  |  |
+| chapters | PASS | 909 chapters |  |  |  |
+| chapter dates | LINT | 3 of 909 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=3 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 214 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://imgsrv5.com/.../01.jpg` (image/jpeg, 47882 bytes, 750x586) |  |  |  |

@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.manhwaden-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 33
 - Lint: 1
-- Warnings: 2
+- Warnings: 3
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 7672439791159944710
 - Source name: ManhwaDen
 - Source language: en
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 10 | Jinx Season 2 (`.../31093`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 10 | Boarding Diary (`.../3292`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 10 | Codename Anastasia (`.../13957`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 10 | The Bride’s Duty Begins with Her Brothers (`.../47017`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 10 | Endless Yearning (`.../43626`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 10 | Prototype Terms of Use (`.../47052`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Jinx Season 2 (`.../31093`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Jinx Season 2 (`.../31093`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 50 | Chapter 54 (`.../chapter-54`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 43 HTTP page URLs |  |  |  |
 | duplicate page URLs | UNUSUAL | Duplicate page URLs: `https://www.manhwaden.com/.../chapter-54` at pages 37, 38, 39, 40, 41, 42, 43 |  |  |  |
+| redirects | UNUSUAL | popular: `https://manhwamint.com/.../JINX-S2-Chapter-54-01.webp` to `https://www.manhwamint.com/.../JINX-S2-Chapter-54-01.webp` (1 redirects) |  |  |  |
 | page load | PASS | `https://manhwamint.com/.../JINX-S2-Chapter-54-01.webp` (image/webp (encoding: lossy), 27410 bytes, 1024x750) |  |  |  |

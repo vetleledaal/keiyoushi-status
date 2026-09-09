@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-uk.pureskill-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 31
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 32
 - Lint: 1
 - Warnings: 0
 - Skipped: 4
@@ -25,11 +25,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Абсолютна Влада (`.../absolyutna-vlada`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Виживання невиліковно хворого генія (`.../vyzhyvannya-nevylikovno-khvoroho-heniya`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Великий небесний повелитель демонів (`.../velykyi-nebesnyi-povelytel-demoniv`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Абсолютна Влада (`.../absolyutna-vlada`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Абсолютна Влада (`.../absolyutna-vlada`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 26 | Глава 46 (`.../46`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 28 | Глава 46 (`.../46`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 43 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | null |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 26 chapters |  |  |  |
-| chapter dates | PASS | 26 positive upload dates |  |  |  |
+| chapters | PASS | 28 chapters |  |  |  |
+| chapter dates | PASS | 28 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 43 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://pure-skill.pages.dev/.../000.webp` (image/webp (encoding: lossy), 207776 bytes, 700x3064) |  |  |  |

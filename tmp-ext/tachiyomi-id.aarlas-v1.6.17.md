@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.aarlas-v1.6.17
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 0
 - Warnings: 1
 - Skipped: 2
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 6495978594979776478
 - Source name: Aarlas
 - Source language: id
@@ -23,7 +24,7 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 10 | Marry or Die: Women of Defeated Countries (`.../marry-or-die-women-of-defeated-countries.html`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 9 | Marry or Die: Women of Defeated Countries (`.../marry-or-die-women-of-defeated-countries.html`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 20 | Urakata de Support Shiteta Geinou Ikka wo Tsuihousareta Boku wa, Futsuu no Seishun wo Ouka Shitai (`.../urakata-de-support-shiteta-geinou-ikka.html`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 10 | Konsei wa Goen ga Arimasu you ni! (`.../konsei-wa-goen-ga-arimasu-you-ni.html`) |  | 1-10s |
@@ -42,15 +43,15 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 10 entries |  |  |  |
+| popular listing | PASS | 9 entries |  |  |  |
 | latest listing | PASS | 20 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Marry or Die: Women of Defeated Countries, URL=`.../marry-or-die-women-of-defeated-countries.html` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 41/41 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 41/41 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 40/40 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 40/40 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://blogger.googleusercontent.com/.../Tsuma%20Ka%20Shiv4.jpg` (image/jpeg, 42632 bytes, 225x320) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../marry-or-die-women-of-defeated-countries.html` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 57 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../00000.jpg` (image/jpeg, 363380 bytes, 1131x1600) |  |  |  |

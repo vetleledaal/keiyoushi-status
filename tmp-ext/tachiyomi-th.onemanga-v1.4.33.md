@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-th.onemanga-v1.4.33
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -24,8 +24,8 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 60 | Wazawai no Avalon ~Game Saijaku no Akuyaku Debu ni Ten’i Shita kedo, Ore dake “Yasereba Tsuyokute New Game” na Sekai datta no de, Saisoku Level Up & Hametsu Flag Kaihi de Kage no Eiyuu wo Mezashimasu~ อวาลอนแห่งหายนะ เกิดใหม่เป็นตัวร้ายสุดอ้วนที่อ่อนแอที่ (`.../wazawai-no-avalon-game-saijaku-no-akuyaku-debu-ni-teni-shita-kedo-ore-dake-yasereba-tsuyokute-new-game-na-sekai-datta-no-de-saisoku-level-up-hametsu-flag-kaihi-de-kage-no-eiyuu-wo-mezashimasu`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 60 | Anta to Osananajimitte dake demo Iyananoni! ~Zekkou kara Hajimaru S-kyuu Bishoujo to no Gakuen Nariagari Seikatsu~ แค่ต้องเป็นเพื่อนสมัยเด็กกับนายนี่มันก็น่าขยะแขยงอยู่แล้ว จากจุดแตกหักสู่การเริ่มต้นชีวิตใหม่ในรั้วโรงเรียนกับสาวสวยระดับ S (`.../anta-to-osananajimitte-dake-demo-iyananoni-zekkou-kara-hajimaru-s-kyuu-bishoujo-to-no-gakuen-nariagari-seikatsu-s`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 60 | Murim Psychopath ไซโคพาธต้องห้ามแห่งยุทธภพ (`.../murim-psychopath-%E0%B9%84%E0%B8%8B%E0%B9%82%E0%B8%84%E0%B8%9E%E0%B8%B2%E0%B8%98%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%A0%E0%B8%9E`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 60 | Magic Emperor ราชาจอมเวทย์ (`.../magic-emperor-%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%88%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%A7%E0%B8%97%E0%B8%A2%E0%B9%8C`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 60 | Black Killer Whale Baby วาฬเพชฌฆาตจิ๋วจอมแสบ (`.../black-killer-whale-baby-%E0%B8%A7%E0%B8%B2%E0%B8%AC%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%8C%E0%B8%86%E0%B8%B2%E0%B8%95%E0%B8%88%E0%B8%B4%E0%B9%8B%E0%B8%A7%E0%B8%88%E0%B8%AD%E0%B8%A1%E0%B9%81%E0%B8%AA%E0%B8%9A`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | success | 60 | The Regressed Son of a Duke is an Assassin ลูกชายคนเล็กของดยุกคือมือสังหาร (`.../the-regressed-son-of-a-duke-is-an-assassin`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 20 | Wazawai no Avalon ~Game Saijaku no Akuyaku Debu ni Ten’i Shita kedo, Ore dake “Yasereba Tsuyokute New Game” na Sekai datta no de, Saisoku Level Up & Hametsu Flag Kaihi de Kage no Eiyuu wo Mezashimasu~ อวาลอนแห่งหายนะ เกิดใหม่เป็นตัวร้ายสุดอ้วนที่อ่อนแอที่ (`.../wazawai-no-avalon-game-saijaku-no-akuyaku-debu-ni-teni-shita-kedo-ore-dake-yasereba-tsuyokute-new-game-na-sekai-datta-no-de-saisoku-level-up-hametsu-flag-kaihi-de-kage-no-eiyuu-wo-mezashimasu`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Wazawai no Avalon ~Game Saijaku no Akuyaku Debu ni Ten’i Shita kedo, Ore dake “Yasereba Tsuyokute New Game” na Sekai datta no de, Saisoku Level Up & Hametsu Flag Kaihi de Kage no Eiyuu wo Mezashimasu~ อวาลอนแห่งหายนะ เกิดใหม่เป็นตัวร้ายสุดอ้วนที่อ่อนแอที่ (`.../wazawai-no-avalon-game-saijaku-no-akuyaku-debu-ni-teni-shita-kedo-ore-dake-yasereba-tsuyokute-new-game-na-sekai-datta-no-de-saisoku-level-up-hametsu-flag-kaihi-de-kage-no-eiyuu-wo-mezashimasu`) |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 61 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.mangablackcat.com/.../001.webp` (image/webp (encoding: lossy), 128028 bytes, 800x1142) |  |  |  |

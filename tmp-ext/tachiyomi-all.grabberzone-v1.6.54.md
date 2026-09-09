@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.grabberzone-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 2
 - Warnings: 1
 - Skipped: 0
@@ -16,17 +16,18 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 7008887237419113673
 - Source name: Grabber Zone
 - Source language: all
-- Selected manga input: popular offset 0: IDW Sonic The Hedgehog (#1-87) (`.../3102`)
+- Selected manga input: latest offset 0: IDW Sonic The Hedgehog (#1-87) (`.../3102`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | IDW Sonic The Hedgehog (#1-87) (`.../3102`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 25 | Sonic Boom (`.../1470`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | IDW Sonic The Hedgehog (#1-87) (`.../3102`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Sonic X Shadow TOKYO MISSION Manga (`.../8434`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 25 | IDW Sonic The Hedgehog (#1-87) (`.../3102`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | Sonic Boom (`.../1470`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | IDW Sonic The Hedgehog (#1-87) (`.../3102`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Sonic X Shadow TOKYO MISSION Manga (`.../8434`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | IDW Sonic The Hedgehog (#1-87) (`.../3102`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | IDW Sonic The Hedgehog (#1-87) (`.../3102`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 88 | Sonic The Hedgehog #01 (`.../sonic-the-hedgehog-01`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 24 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://grabber.zone/.../Sonic-The-Hedgehog-(2018-)-001-000.jpg` (image/jpeg, 1094382 bytes, 1988x3056) |  |  |  |

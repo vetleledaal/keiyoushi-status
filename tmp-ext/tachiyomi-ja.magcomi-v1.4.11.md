@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.magcomi-v1.4.11
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 27
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 28
 - Lint: 1
 - Warnings: 1
 - Skipped: 7
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: gigaviewer
 - Source ID: 8643773902904736600
 - Source name: MAGCOMI
 - Source language: ja
@@ -23,7 +24,7 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 99 | あなたとわたしの死に戻り (`.../12207421983656985562`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 100 | あなたとわたしの死に戻り (`.../12207421983656985562`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
@@ -42,15 +43,15 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 99 entries |  |  |  |
+| popular listing | PASS | 100 entries |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=あなたとわたしの死に戻り, URL=`.../12207421983656985562` |  |  |  |
 | latest differs from popular | SKIP | supportsLatest = false |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | supportsLatest = false |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 100/100 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 100/100 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 101/101 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 101/101 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://cdn-scissors.gigaviewer.com/.../https%3A%2F%2Fcdn-img.magcomi.com%2Fpublic%2Fseries-thumbnail%2F12207421983656985269-faa5ad02ebdd396ed669fef256e09261%3F1777975778` (image/jpeg, 188348 bytes, 1320x880) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../12207421983656985562` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 50 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn-img.magcomi.com/.../12207421983672109865-b9ec4556207cc1af52c9eef7d6e4fca5` (image/jpeg, 355992 bytes, 1025x1457) |  |  |  |

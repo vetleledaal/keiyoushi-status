@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.manhwa18-v1.4.14
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 25
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 26
 - Lint: 1
 - Warnings: 0
 - Skipped: 9
@@ -23,11 +23,11 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 18 | Secret class (`.../secret-class`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 18 | Welcome to Kids Cafe (`.../welcome-to-kids-cafe`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 18 | A Theme For Every Building (`.../a-theme-for-every-building`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 18 | Scumbag (`.../scumbag`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | Secret class (`.../secret-class`) |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 18 | Secret class (`.../secret-class`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 18 | Welcome to Kids Cafe (`.../welcome-to-kids-cafe`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 18 | Scumbag (`.../scumbag`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 18 | The Professor’s Secret Account (`.../the-professor-s-secret-account`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 3 | Secret Class (Uncensored Fan Edition) (`.../secret-class-uncensored-fan-edition`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Secret class (`.../secret-class`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 0 |  |  | 1-10s |
 | pages | `fetchPageList(chapter)` | skipped | 0 |  |  | <1s |
@@ -44,13 +44,13 @@
 | pages operation | SKIP | No usable chapter was available |  |  |  |
 | popular listing | PASS | 18 entries |  |  |  |
 | latest listing | PASS | 18 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Secret class, URL=`.../secret-class` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 1: title=Secret class, URL=`.../secret-class` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 74/74 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 74/74 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 75/75 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 75/75 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://manhwa18.com/.../8e1b6098-c6f8-4956-8d59-65aed6066e12.jpg` (image/jpeg, 43780 bytes, 344x500) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../secret-class` |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

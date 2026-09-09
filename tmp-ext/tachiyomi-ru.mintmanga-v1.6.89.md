@@ -2,33 +2,34 @@
 
 - Extension: tachiyomi-ru.mintmanga-v1.6.89
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 25
 - Lint: 0
 - Warnings: 0
 - Skipped: 10
-- Failed: 1
-- Retry disposition: REVIEW
+- Failed: 2
+- Retry disposition: RETRY_NOW
 
 ## Runtime Evidence
 
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: grouple
 - Source ID: 6
 - Source name: MintManga
 - Source language: ru
-- Selected manga input: latest offset 0: Мой самый дорогой (`.../moi_samyi_dorogoi`)
+- Selected manga input: popular offset 0: 19 дней — Однажды (`.../19_dnei___odnajdy`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 50 | 19 дней — Однажды (`.../19_dnei___odnajdy`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 50 | 19 дней — Однажды (`.../19_dnei___odnajdy`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 50 | Смирна и Капри (`.../smirna_i_kapri`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 50 | Мой самый дорогой (`.../moi_samyi_dorogoi`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 50 | Руководство для девушки (Перезапуск) (`.../rukovodstvo_dlia_devushki__perezapusk_`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Мой самый дорогой (`.../moi_samyi_dorogoi`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Мой самый дорогой (`.../moi_samyi_dorogoi`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 50 | Современный роман (`.../sovremennyi_roman`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 50 | Игра вничью (`.../igra_vnichiu`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | 19 дней — Однажды (`.../19_dnei___odnajdy`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | 19 дней — Однажды (`.../19_dnei___odnajdy`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | error | 0 |  | java.lang.Exception: Для просмотра контента необходима авторизация через WebView🌍 или включите автоматическую авторизацию в настройках расширения | <1s |
 | pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
 
@@ -44,7 +45,7 @@
 | pages operation | SKIP | No usable chapter was available |  |  |  |
 | popular listing | PASS | 50 entries |  |  |  |
 | latest listing | PASS | 50 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Мой самый дорогой, URL=`.../moi_samyi_dorogoi` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=19 дней — Однажды, URL=`.../19_dnei___odnajdy` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
@@ -52,14 +53,14 @@
 | manga title and URL | PASS | 201/201 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 201/201 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://mm.one-way.work/.../054.webp` (image/webp (encoding: lossy), 24350 bytes, 325x450) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../moi_samyi_dorogoi` |  |  |  |
-| details thumbnail URL | PASS | `https://mm.one-way.work/.../054.webp` |  |  |  |
-| details author | PASS | Чхон Ун |  |  |  |
+| thumbnail | FAIL | Thumbnail URL `https://mmm.one-way.work/.../543.webp` could not be downloaded: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 30000 ms | RETRY_NOW | TIMEOUT |  |
+| details identity | PASS | Details preserved selected URL `.../19_dnei___odnajdy` |  |  |  |
+| details thumbnail URL | PASS | `https://mmm.one-way.work/.../543.webp` |  |  |  |
+| details author | PASS | Студия Мосспака, Олд Сянь |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | манхва, драма, мужчины, повседневность, романтика, спортивное тело |  |  |  |
+| details genres | PASS | маньхуа, драма, комедия, мужчины, повседневность, романтика, школа, юноши, благополучные семьи, брат и сестра, братья, гг мужчина, дружба, друзья детства, издевательства, китай, насилие, неблагополучные семьи, несколько гг, преступники, путешествие, современный мир |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | ★★★★✬ 9.3 (голосов: 771)<br>Тео, работающий адвокатом в одной юридической фирме, обеспокоен своим бывшим, который внезапно исчез, прихватив с собой доказательства по одному делу. Помимо этого, в его жизни случается еще одна неприятность – появляются трудности с покупкой "Зеленого дома", о котором мужчина так давно мечтал. Примерно в то же время он сталкивается с Диланом, довольно известным актером, и решает провести с ним ночь. Однако, приняв это решение, Тео даже и не догадывался, к чему это приведет.<br>**Альтернативные названия**:<br>- Мой самый дорогой<br>- Dearest<br>- 디어리스트 |  |  |  |
+| details description | PASS | ★★★★★ 9.6 (голосов: 31983)<br>Стрипы про четырех школьников, сперва в виде комедийных зарисовок, позже перерастающие в маньхуа с полноценным сюжетом.<br>**Альтернативные названия**:<br>- 19 дней — Однажды<br>- 19 Days — One Day<br>- 19 Tian<br>- 19天 一旦<br>- 19 Tian Yidan<br>- 19 Days<br>- 19天 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | SKIP | Chapters did not run successfully |  |  |  |
 | chapter dates | SKIP | No chapters to check |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

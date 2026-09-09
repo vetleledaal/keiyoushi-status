@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.mimi-v1.6.7
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 33
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 34
 - Lint: 2
 - Warnings: 0
 - Skipped: 0
@@ -25,9 +25,9 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 45 | Tổng hợp sếch của Mana (`.../27652`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 45 | Quằn quại trong sung sướng đi, Adam-kun! (`.../61236`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 45 | Kokureba Zettai Tsukiaeta HSP ga Arufaa Osu Tsuwamono Dansei ni Torareru Hanashi (`.../69898`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 45 | TỔNG HỢP: KỲ NGHỈ HÈ TRONG MƠ (`.../69855`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 24 | Kokureba Zettai Tsukiaeta HSP ga Arufaa Osu Tsuwamono Dansei ni Torareru Hanashi (`.../69898`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 45 | HOLO_AI (`.../69979`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 45 | Sensei de, Eiyou Hokyu Shitai naa (`.../69978`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 24 | HOLO_AI (`.../69979`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Tổng hợp sếch của Mana (`.../27652`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 43 | Burnice (`.../52953`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 7 |  |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 7 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://moe-cdn.net/.../file_1744740753538_Burnice_A_jpg` (image/jpeg, 2004706 bytes, 2591x3624; server Content-Type: img/jpeg) |  |  |  |

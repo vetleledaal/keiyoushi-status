@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.globalcomix-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -23,13 +23,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 22 | Absolute Batman (2024-) (`.../26982`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 24 | The Horror of Godzilla [Kai-Sei Era] (`.../47969`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 22 | Absolute Batman (2024-) (`.../26982`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 24 | Storm: Earth's Mightiest Mutant (2026) (`.../33950`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 24 | Life Remains (`.../17918`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 24 | Frankenstein (`.../17336`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 24 | SparkofHope (`.../50691`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 22 | Life Remains (`.../17918`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Life Remains (`.../17918`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 65 | Ch.103 - Break on Through (to the other side) (`.../076228f8-4cf7-4bbb-909c-88fe812c4db9`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Life Remains (`.../17918`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 73 | Ch.103 - Break on Through (to the other side) (`.../076228f8-4cf7-4bbb-909c-88fe812c4db9`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | An autobiography of the author, a psychological thriller spanning two centuries, five continents and many peculiar adventures |  |  |  |
 | metadata trimming | LINT | Untrimmed fields: chapter 8 name |  |  |  |
-| chapters | PASS | 65 chapters |  |  |  |
-| chapter dates | PASS | 65 positive upload dates |  |  |  |
+| chapters | PASS | 73 chapters |  |  |  |
+| chapter dates | PASS | 73 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://globalcomix-comics-assets-files-thumbnails.nyc3.cdn.digitaloceanspaces.com/.../12750376_e142d5f3cb4ccfd20c36cea04cac6360.png` (image/jpeg, 13511 bytes, 280x106) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.mangawow-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 2576579305327069452
 - Source name: MangaWOW
 - Source language: tr
@@ -29,7 +30,7 @@
 | latest_next | `getLatestUpdates(2)` | success | 25 | Bir Zorbayı Evcilleştirdim ve Kaçtım (`.../44047`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Görünüşçülük (`.../43389`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Görünüşçülük (`.../43389`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 486 | Bölüm 000 (`.../bolum-000`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 486 | Bölüm 000 (`.../bolum-000`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 1 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://yedek.mangawow.com/.../mangawow.png` (image/png, 282924 bytes, 1200x638) |  |  |  |

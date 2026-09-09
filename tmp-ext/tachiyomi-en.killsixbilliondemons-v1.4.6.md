@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.killsixbilliondemons-v1.4.6
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 25
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 26
 - Lint: 2
 - Warnings: 0
 - Skipped: 8
@@ -28,7 +28,7 @@
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | error | 0 |  | java.lang.Exception: Search functionality is not available. | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Book 1: Kill Six Billion Demons (`.../kill-six-billion-demons`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Book 1: Kill Six Billion Demons (`.../kill-six-billion-demons`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 92 | Chapter 1 - KILL SIX BILLION DEMONS – Chapter 1 (`.../kill-six-billion-demons-chapter-1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | <1s |
 
@@ -69,4 +69,5 @@
 | page indices | LINT | Page indices are 1-indexed, but should be 0-indexed |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://killsixbilliondemons.com/.../ksbdcoverchapter1.jpg` (image/jpeg, 440378 bytes, 750x1120) |  |  |  |

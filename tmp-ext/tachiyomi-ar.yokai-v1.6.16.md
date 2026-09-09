@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.yokai-v1.6.16
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 29
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 30
 - Lint: 2
 - Warnings: 1
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 4337506350787725909
 - Source name: Yokai
 - Source language: ar
@@ -25,10 +26,10 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 4 | Hunter X Hunter - Digital Colored (`.../hunter-x-hunter-colored.html`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 3 | Hunter x Hunter (`.../hunter-x-hunter.html`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 3 | Hunter x Hunter (`.../hunter-x-hunter.html`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Hunter X Hunter - Digital Colored (`.../hunter-x-hunter-colored.html`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Hunter X Hunter - Digital Colored (`.../hunter-x-hunter-colored.html`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Hunter X Hunter - Digital Colored (`.../hunter-x-hunter-colored.html`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Hunter X Hunter - Digital Colored (`.../hunter-x-hunter-colored.html`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 124 | الفصل 1 (`.../volume-1-chapter-1.html`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 39 |  |  | 1-10s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 39 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../000.jpg` (image/jpeg, 352615 bytes, 1066x1600) |  |  |  |

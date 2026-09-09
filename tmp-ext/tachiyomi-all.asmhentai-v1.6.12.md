@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.asmhentai-v1.6.12
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 34
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.a
+- Source theme: galleryadults
 - Source ID: 6135783261825346877
 - Source name: AsmHentai
 - Source language: en
@@ -25,12 +26,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 20 | [Takatsu] Ou-sama Appli - King App [English] (`.../165159`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 20 | [Otochichi] Gamandekinai Mesuana [English] [desudesu, LWB, Brolen] (`.../199298`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 20 | [Ampullaria (ki-51)] Matsuri to Hamakaze to | The Festival and Hamakaze (Kantai Collection -KanColle-) [ENGLISH] [Digital] [UsualCat] (`.../678215`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 20 | [Umamusuko] Lana's Mom Is a Nurse + a (Pokémon) [English, Japanese] (`.../678144`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 20 | [Botamochi] Masaka Ano Oni Joushi ga Ore no SeFri ni Naru nante... 4 ~ Oni Joushi to Kokoro to Karada Kasaneru Jun'ai Kekkon Shoya | I never thought that diabolical boss would become my sex friend 4 [English] [MTL] (`.../680458`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 20 | [Bitch Goigostar] Ero BBA ♥ Dosukebe Ha Sengen [Digital] (`.../680323`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 2 | [Takatsu] Ou-sama Appli - King App [English] [TheRobotsGhost] [AI colored] (`.../493025`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | [Takatsu] Ou-sama Appli - King App [English] (`.../165159`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | [Takatsu] Ou-sama Appli - King App [English] (`.../165159`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Chapter (`.../165159`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 203 |  |  | 1-10s |
+| pages | `getPageList(chapter)` | success | 203 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 203 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://images.asmhentai.com/.../1.jpg` (image/jpeg, 221558 bytes, 1280x1761) |  |  |  |

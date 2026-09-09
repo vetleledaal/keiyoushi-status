@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.myhentaigallery-v1.4.10
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 23 | The Joy Of Breeding (`.../20251`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 23 | Suzie Q - Breeding Mount (`.../27424`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 23 | Coco The Ceo (`.../62579`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 23 | Muscle Date 4 (`.../62556`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 23 | Waifunator 6 (Futa Version) (`.../62779`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 23 | Fallout - Guts And Glory 5 (`.../62756`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | The Joy Of Breeding (`.../20251`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | The Joy Of Breeding (`.../20251`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 1 | Chapter (`.../20251`) |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 39 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.myhentaicomics.com/.../001_11.jpg <redacted query values: 22>` (image/jpeg, 423000 bytes, 1280x1804) |  |  |  |

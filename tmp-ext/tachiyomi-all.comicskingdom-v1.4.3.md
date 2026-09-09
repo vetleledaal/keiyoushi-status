@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.comicskingdom-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 3
 - Warnings: 1
 - Skipped: 0
@@ -19,7 +19,7 @@
 - Source ID: 3350274514125477391
 - Source name: Comics Kingdom
 - Source language: en
-- Selected manga input: latest offset 0: Wannabe (`.../7367349 <redacted query values: per_page, _fields, ck_language, and slug>`)
+- Selected manga input: popular offset 0: Wannabe (`.../7367349 <redacted query values: per_page, _fields, ck_language, and slug>`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
@@ -30,7 +30,7 @@
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Wannabe (`.../7367349 <redacted query values: per_page, _fields, ck_language, and slug>`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Wannabe (`.../7367349 <redacted query values: per_page, _fields, ck_language, and slug>`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 10 | 1-100 (`.../ck_comic <redacted query values: per_page, _fields, orderBy, order, ck_feature, and page>`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 100 |  |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 100 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 100 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://wp.comicskingdom.com/.../Y2tXYW5uYWJlLUVORy01NjQyNDIx.jpg` (image/jpeg, 504518 bytes, 2047x670) |  |  |  |

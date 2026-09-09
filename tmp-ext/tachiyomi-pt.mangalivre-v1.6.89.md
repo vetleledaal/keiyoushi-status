@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.mangalivre-v1.6.89
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 30
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 31
 - Lint: 1
 - Warnings: 0
 - Skipped: 4
@@ -25,13 +25,13 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | O Retorno do Cão de Caça dos Baskerville (`.../obra-c1f65a0b`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 24 | Estou Te Dizendo, Só Tenho Olhos para Você (`.../obra-695ec683`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 24 | Simulação de Namoro Fantasma (`.../obra-9c33fd2a`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | A Espada Suprema do Culto Demoníaco (`.../obra-6955dd77`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 24 | Secretamente Mais Poderoso que o Herói (`.../obra-1e430268`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 24 | O Investidor que Vê o Futuro (`.../obra-c4395c8e`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | Talvez Invencível (`.../obra-115b7a59`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | O Retorno do Cão de Caça dos Baskerville (`.../obra-c1f65a0b`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | O Retorno do Cão de Caça dos Baskerville (`.../obra-c1f65a0b`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 178 | Capítulo 01 (`.../01`) |  | <1s |
-| pages | `getPageList(chapter)` | error | 0 |  | java.lang.RuntimeException: Stub! | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 179 | Capítulo 01 (`.../01`) |  | <1s |
+| pages | `getPageList(chapter)` | error | 0 |  | java.lang.RuntimeException: Stub! | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -62,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Criados para matar como uma matilha de cães leais, as crianças Baskerville tiraram incontáveis vidas como um grupo de assassinos temíveis. Apesar de ser o filho ilegítimo desprezado da família, Vikir serviu fielmente seu clã — apenas para encontrar uma morte prematura pelas mãos de seu próprio pai. Mas quando inexplicavelmente renasce com uma segunda chance, Vikir, munido das memórias e do conhecimento de sua vida passada, jura se elevar acima da matilha e buscar vingança. Desta vez, ele está pronto para morder a mão que o alimentou.<br><br><br> Nome alternativo: Revenge of the Baskerville Bloodhound<br> |  |  |  |
 | metadata trimming | LINT | Untrimmed fields: description |  |  |  |
-| chapters | PASS | 178 chapters |  |  |  |
-| chapter dates | PASS | 178 positive upload dates |  |  |  |
+| chapters | PASS | 179 chapters |  |  |  |
+| chapter dates | PASS | 179 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | Stub! |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

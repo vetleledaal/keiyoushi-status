@@ -2,14 +2,14 @@
 
 - Extension: tachiyomi-ja.manga1000-v1.4.13
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 0
-- Lint: 0
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 29
+- Lint: 3
 - Warnings: 0
-- Skipped: 35
-- Failed: 1
-- Retry disposition: RETRY_NOW
+- Skipped: 5
+- Failed: 0
+- Retry disposition: NOT_APPLICABLE
 
 ## Runtime Evidence
 
@@ -19,53 +19,55 @@
 - Source ID: 2990178902658283254
 - Source name: Manga1000
 - Source language: ja
+- Selected manga input: popular offset 0: SAIKYOU ONNA SHISHОU-TACHI GA IKUSEI HOUSHIN O MEGUTTE SHURABA (`.../manga-saikyou-onna-shishu-tachi-ga-ikusei-houshin-o-megutte-shuraba`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 530 | 1-10s |
-| popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 20 | SAIKYOU ONNA SHISHОU-TACHI GA IKUSEI HOUSHIN O MEGUTTE SHURABA (`.../manga-saikyou-onna-shishu-tachi-ga-ikusei-houshin-o-megutte-shuraba`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | DATSUHOU TAMER NO NARIAGARI BOUKENTAN: S RANK BISHOUJO BOUKENSHA GA ORE NO JUUMA NI NA TAMERS (MANGA) (`.../manga-datsuhou-tamer-no-nariagari-boukentan-s-rank-bishoujo-boukensha-ga-ore-no-juuma-ni-na-tamers-manga`) |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | skipped | 0 |  |  | <1s |
-| details | `fetchMangaDetails(manga)` | skipped | 0 |  |  | <1s |
-| chapters | `fetchChapterList(manga)` | skipped | 0 |  |  | <1s |
-| pages | `fetchPageList(chapter)` | skipped | 0 |  |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | SAIKYOU ONNA SHISHОU-TACHI GA IKUSEI HOUSHIN O MEGUTTE SHURABA (`.../manga-saikyou-onna-shishu-tachi-ga-ikusei-houshin-o-megutte-shuraba`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | SAIKYOU ONNA SHISHОU-TACHI GA IKUSEI HOUSHIN O MEGUTTE SHURABA (`.../manga-saikyou-onna-shishu-tachi-ga-ikusei-houshin-o-megutte-shuraba`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 162 | Chapter 1 (`.../1381268`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 62 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
-| popular operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 530 | RETRY_NOW | HTTP_SERVER_ERROR |  |
-| popular_next operation | SKIP | hasNextPage = false |  |  |  |
+| popular operation | PASS |  |  |  |  |
+| popular_next operation | PASS |  |  |  |  |
 | latest operation | SKIP | supportsLatest = false |  |  |  |
 | latest_next operation | SKIP | supportsLatest = false |  |  |  |
-| search operation | SKIP | No manga was returned by popular or latest |  |  |  |
-| details operation | SKIP | No manga was returned by popular or latest |  |  |  |
-| chapters operation | SKIP | No manga was returned by popular or latest |  |  |  |
-| pages operation | SKIP | No usable chapter was available |  |  |  |
-| popular listing | SKIP | HTTP error 530 |  |  |  |
+| search operation | PASS |  |  |  |  |
+| details operation | PASS |  |  |  |  |
+| chapters operation | PASS |  |  |  |  |
+| pages operation | PASS |  |  |  |  |
+| popular listing | PASS | 20 entries |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
-| search listing | SKIP | No manga was returned by popular or latest |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=SAIKYOU ONNA SHISHОU-TACHI GA IKUSEI HOUSHIN O MEGUTTE SHURABA, URL=`.../manga-saikyou-onna-shishu-tachi-ga-ikusei-houshin-o-megutte-shuraba` |  |  |  |
 | latest differs from popular | SKIP | supportsLatest = false |  |  |  |
-| popular pagination | SKIP | HTTP error 530 |  |  |  |
+| popular pagination | PASS |  |  |  |  |
 | latest pagination | SKIP | supportsLatest = false |  |  |  |
-| listing duplicates | SKIP | Fewer than 2 manga to check |  |  |  |
-| manga title and URL | SKIP | No manga to check |  |  |  |
-| thumbnail URLs | SKIP | No manga to check |  |  |  |
-| duplicate thumbnail URLs | SKIP | No manga to check |  |  |  |
-| thumbnail | SKIP | No manga to check |  |  |  |
-| details identity | SKIP | No selected manga URL to compare |  |  |  |
-| details thumbnail URL | SKIP | No details manga to check |  |  |  |
-| details author | SKIP | No details manga to check |  |  |  |
-| details artist | SKIP | No details manga to check |  |  |  |
-| details genres | SKIP | No details manga to check |  |  |  |
-| details status | SKIP | No details manga to check |  |  |  |
-| details description | SKIP | No details manga to check |  |  |  |
-| metadata trimming | SKIP | No details metadata to check |  |  |  |
-| chapters | SKIP | Chapters did not run successfully |  |  |  |
-| chapter dates | SKIP | No chapters to check |  |  |  |
-| chapter titles | SKIP | No chapters to check |  |  |  |
-| chapter URLs | SKIP | No chapters to check |  |  |  |
-| duplicate chapter URLs | SKIP | No chapters to check |  |  |  |
-| page indices | SKIP | No pages to check |  |  |  |
-| page URLs | SKIP | No usable chapter was available |  |  |  |
-| duplicate page URLs | SKIP | No pages to check |  |  |  |
-| page load | SKIP | No pages to load |  |  |  |
+| listing duplicates | PASS |  |  |  |  |
+| manga title and URL | PASS | 41/41 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 41/41 manga have thumbnail URLs |  |  |  |
+| duplicate thumbnail URLs | PASS |  |  |  |  |
+| thumbnail | PASS | `https://i4.hachiraw.win/.../67053_6130f67a88d82.jpg` (image/png, 138803 bytes, 200x283; server Content-Type: image/jpeg) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../manga-saikyou-onna-shishu-tachi-ga-ikusei-houshin-o-megutte-shuraba` |  |  |  |
+| details thumbnail URL | PASS | `https://i4.hachiraw.win/.../67053_6130f67a88d82.jpg` |  |  |  |
+| details author | PASS | Hirotaka AKAGI |  |  |  |
+| details artist | PASS | null |  |  |  |
+| details genres | PASS | Comedy, Ecchi, Fantasy, Harem, Romance |  |  |  |
+| details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
+| details description | PASS | Updating<br> |  |  |  |
+| metadata trimming | LINT | Untrimmed fields: description |  |  |  |
+| chapters | PASS | 162 chapters |  |  |  |
+| chapter dates | LINT | All 162 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=162 |  |  |  |
+| chapter titles | PASS |  |  |  |  |
+| chapter URLs | PASS |  |  |  |  |
+| duplicate chapter URLs | PASS |  |  |  |  |
+| page indices | PASS |  |  |  |  |
+| page URLs | PASS | 62 HTTP page URLs |  |  |  |
+| duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://p16-sg.tiktokcdn.com/.../c9def63e363c9a2eecf498005380ce78` (image/png, 1472072 bytes, 960x1361) |  |  |  |

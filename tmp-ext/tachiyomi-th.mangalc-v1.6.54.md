@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-th.mangalc-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 5607835948857138011
 - Source name: Manga-Lc
 - Source language: th
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Lookism (`.../43824`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Max Level Player (`.../52919`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Tyrant of the Otherworld Prison: My Shadow Can Evolve Infinitely (`.../322940`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | The Shepherd Wizard จอมเวทคนเลี้ยงแกะ (`.../406113`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Genius Grandson of the Loan Shark King – หลานอัจฉริยะของราชาเงินกู้ (`.../311232`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | The Boy of Death ตั๋วโกงชีวิต (`.../54809`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Lookism (`.../43824`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Lookism (`.../43824`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 594 | 573 - อัพเดท (`.../573`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Lookism (`.../43824`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 595 | 573 - อัพเดท (`.../573`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 2 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | เรื่องย่อ : Lookism – พัคฮยองซอก ที่มีน้ำหนักเกินและไม่สวย ถูกรังแกและทารุณกรรมทุกวัน แต่ปาฏิหาริย์กำลังจะเกิดขึ้น ปาร์คฮยองซอก เด็กหนุ่มอ้วนเตี้ย ถูกบุลลี่รังแกเป็นประจำ วันหนึ่งเขาได้รับพรวิเศษ ทำให้เมื่อหลับแล้วเขาจะตื่นขึ้นมาในอีกร่างหนุ่มหล่อสมบูรณ์แบบ แต่ถ้าหลับแล้วตื่นอีกครั้งจะกลับร่างเดิม ทำให้เขาใช้ชีวิตกลางวันในรูปแบบหนุ่มหล่อและใช้ร่างเดิมทำงานพาร์ทไทม์ในตอนกลางคืน ใช้ชีวิตในสองรูปแบบที่แตกต่างกันคนละขั้ว กับสังคมที่ต่างกันไป!<br><br>อ่านเรื่องนี้ก่อนใครได้ที่ MANGA-LC.NET เท่านั้น! |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 594 chapters |  |  |  |
-| chapter dates | PASS | 594 positive upload dates |  |  |  |
+| chapters | PASS | 595 chapters |  |  |  |
+| chapter dates | PASS | 595 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 2 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://manga-lc.net/.../Purple-Colorful-Cartoon-Illustrative-Anime-Presentation.jpg` (image/jpeg, 213067 bytes, 1920x1080) |  |  |  |

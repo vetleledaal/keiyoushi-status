@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.spicyscan-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: spicytheme
 - Source ID: 2665002677795338092
 - Source name: Spicy Scan
 - Source language: es
@@ -25,12 +26,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 12 | Dome al perro corrompido del palacio imperial (`.../dome-al-perro-corrompido-del-palacio`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 12 | El duque quiere tener un heredero  (`.../el-duque-quiere-tener-un-heredero`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 12 | Pensé que era una posesión común  (`.../pens-que-era-una-posesin-comn`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 12 | La mariposa que se tragó la niebla (`.../la-mariposa-que-se-trago-la-niebla`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 12 | El duque quiere tener un heredero  (`.../el-duque-quiere-tener-un-heredero`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 12 | Mi Favorito está Obsesionado conmigo. (`.../mi-favorito-esta-obsesionado-conmigo`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Dome al perro corrompido del palacio imperial (`.../dome-al-perro-corrompido-del-palacio`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Dome al perro corrompido del palacio imperial (`.../dome-al-perro-corrompido-del-palacio`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 124 | Capítulo 1.1 (`.../capitulo-11`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 7 |  |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 7 |  |  | 10s+ |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 7 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://media.spicyseries.com/.../0.jpg` (image/jpeg, 1823029 bytes, 1280x5506) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.idolgravureprincessdate-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 30
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 31
 - Lint: 1
 - Warnings: 0
 - Skipped: 5
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 13 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../CAMP14MIKU_0.webp` (image/jpeg, 78178 bytes, 500x750) |  |  |  |

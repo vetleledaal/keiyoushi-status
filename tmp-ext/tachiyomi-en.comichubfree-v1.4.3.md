@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.comichubfree-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 34
 - Lint: 1
-- Warnings: 0
+- Warnings: 1
 - Skipped: 0
 - Failed: 1
 - Retry disposition: DO_NOT_RETRY
@@ -24,11 +24,11 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | Invincible (2003) (`.../invincible`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | Fables (`.../fables`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | Fables (`.../fables`) |  | <1s |
 | latest | `fetchLatestUpdates(1)` | success | 20 | The Last Starfighter (2026) (`.../the-last-starfighter-2026`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | success | 20 | X-Men: Outback (`.../x-men-outback`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Invincible (2003) (`.../invincible`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Invincible (2003) (`.../invincible`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Invincible (2003) (`.../invincible`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 170 | Invincible (2003) Issue #0 (`.../issue-0`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 18 |  |  | <1s |
 
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 18 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://comichubfree.com/.../popular-comic <redacted query values: page>` to `https://comichubfree.com/.../popular-comic` (1 redirects); latest: `https://comichubfree.com/.../new-comic <redacted query values: page>` to `https://comichubfree.com/.../new-comic` (1 redirects); search: `https://comichubfree.com/.../search-comic <redacted query values: key and page>` to `https://comichubfree.com/.../search-comic <redacted query values: key>` (1 redirects) |  |  |  |
 | page load | FAIL | First page URL `https://comichubfree.com/.../1.jpg` could not be downloaded: eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |

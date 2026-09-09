@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.apollcomics-v1.6.57
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 3044113561993269522
 - Source name: ApollComics
 - Source language: es
@@ -28,7 +29,7 @@
 | latest | `getLatestUpdates(1)` | success | 25 | Las manos sanadoras del doctor (`.../1435`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 25 | Encerrada (`.../3426`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 25 | Dos por una (`.../2080`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Dos por una (`.../2080`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Dos por una (`.../2080`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 50 | Capitulo 1 (`.../capitulo-1`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 100 |  |  | 1-10s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 100 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://www.apollshort.xyz/.../0.jpg` (image/jpeg, 18318 bytes, 720x500) |  |  |  |

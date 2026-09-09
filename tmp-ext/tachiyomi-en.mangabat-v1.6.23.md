@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangabat-v1.6.23
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangabox
 - Source ID: 4215511432986138970
 - Source name: Mangabat
 - Source language: en
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | Martial Peak (`.../martial-peak`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 24 | Hajime No Ippo (`.../hajime-no-ippo`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 24 | The Scum Noble Dominates by Humbly Grinding ~ Using Meta-Knowledge and the Unique Magic To Dodge the Bad End ~ (`.../the-scum-noble-dominates-by-humbly-grinding-using-meta-knowledge-and-the-unique-magic-to-dodge-the-bad-end`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | A Horde Of Zombies (`.../a-horde-of-zombies`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 24 | Wol-eun Yadam (`.../wol-eun-yadam`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | The Story of Huazhi (`.../the-story-of-huazhi`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 20 | Martial Peak (`.../martial-peak`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Martial Peak (`.../martial-peak`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 3877 | Chapter 1 (`https://www.mangabats.com/.../chapter-1`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 20 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://img-r1.2xstorage.com/.../0.webp` (image/webp (encoding: lossy), 142546 bytes, 764x1200) |  |  |  |

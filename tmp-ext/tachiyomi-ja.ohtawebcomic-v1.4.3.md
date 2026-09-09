@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.ohtawebcomic-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 28
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 29
 - Lint: 3
 - Warnings: 0
 - Skipped: 5
@@ -28,9 +28,9 @@
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 起承転転 (`.../kishotenten`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | 起承転転 (`.../kishotenten`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 2 | 第1話　50歳の転機 (`.../64823`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 32 |  |  | 10s+ |
+| details | `fetchMangaDetails(manga)` | success | 1 | 起承転転 (`.../kishotenten`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 2 | 第1話　50歳の転機 (`.../64823`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 32 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 32 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://s3-ap-northeast-1.amazonaws.com/.../M_H.jpg <redacted query values: dmytime>` (image/jpeg, 220899 bytes, 987x1400) |  |  |  |

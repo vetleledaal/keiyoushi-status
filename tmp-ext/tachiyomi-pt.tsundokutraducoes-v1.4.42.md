@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.tsundokutraducoes-v1.4.42
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 2091088265283814173
 - Source name: Tsundoku Traduções
 - Source language: pt-BR
@@ -25,7 +26,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 18 | Kage no Jitsuryokusha ni Naritakute (`.../kage-no-jitsuryokusha-ni-naritakute`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 9 | Love is Bone (`.../love-is-bone`) |  | 10s+ |
-| latest | `fetchLatestUpdates(1)` | success | 16 | Kage no Jitsuryokusha ni Naritakute (`.../kage-no-jitsuryokusha-ni-naritakute`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 16 | Kage no Jitsuryokusha ni Naritakute (`.../kage-no-jitsuryokusha-ni-naritakute`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | success | 11 | Hinowa ga Yuku (`.../hinowa-ga-yuku`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | Kage no Jitsuryokusha ni Naritakute (`.../kage-no-jitsuryokusha-ni-naritakute`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Kage no Jitsuryokusha ni Naritakute (`.../kage-no-jitsuryokusha-ni-naritakute`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 36 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://i0.wp.com/.../0-capa-min.jpg <redacted query values: resize and ssl>` (image/webp (encoding: lossy), 159706 bytes, 975x1400) |  |  |  |

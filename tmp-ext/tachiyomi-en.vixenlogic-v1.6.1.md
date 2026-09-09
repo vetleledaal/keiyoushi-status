@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.vixenlogic-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 27
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 28
 - Lint: 1
 - Warnings: 0
 - Skipped: 8
@@ -29,8 +29,8 @@
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Vixen Logic (`<redacted URL #1: selected resource; relative; no scheme>`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Vixen Logic (`<redacted URL #1: selected resource; relative; no scheme>`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 207 | 0001 – Now Arriving (`.../vl0001`) |  | 1-10s |
-| pages | `getPageList(chapter)` | success | 1 |  |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 208 | 0001 – Now Arriving (`.../vl0001`) |  | 1-10s |
+| pages | `getPageList(chapter)` | success | 1 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -61,12 +61,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | null |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 207 chapters |  |  |  |
-| chapter dates | PASS | 207 positive upload dates |  |  |  |
+| chapters | PASS | 208 chapters |  |  |  |
+| chapter dates | PASS | 208 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://www.vixenlogic.com/.../vl0001.png` (image/png, 846343 bytes, 1032x1566) |  |  |  |

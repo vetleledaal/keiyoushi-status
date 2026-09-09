@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.ososedki-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -25,11 +25,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 24 | Yuzuki 13 (`.../-196439351_282852958`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 24 | Adina Luna - Yor Forger - Spy X Family (`.../-10000001_10009434`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 24 | Caticornplay - Holo - Spice And Wolf Ookami To Koushinryou (`.../-10000001_10016053`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 24 | Tsubaki1314 - Marie Rose - Dead Or Alive (`.../-10000001_10016029`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 24 | Hiniitaa - Tsunade - Naruto (`.../-10000001_10016124`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 24 | Aqua 水淼 – Clorinde (`.../-10000001_10016100`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Yuzuki 13 (`.../-196439351_282852958`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Yuzuki (`.../-196439351_282852958`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 1 | Gallery (`.../-196439351_282852958`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Yuzuki (`.../-196439351_282852958`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 1 | Gallery (`.../-196439351_282852958`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 56 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 56 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://ososedki.com/.../457262383.webp` (image/webp (encoding: lossy), 65122 bytes, 1280x1917) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.mangaparkpublisher-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 31
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 32
 - Lint: 0
 - Warnings: 1
 - Skipped: 4
@@ -19,18 +19,18 @@
 - Source ID: 2905661176145448719
 - Source name: Manga-Park
 - Source language: ja
-- Selected manga input: popular offset 0: 営業部の高杉さんは心臓に悪い (`.../64096`)
+- Selected manga input: latest offset 0: 隙間ヶ刻の住人たち (`.../108556`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 30 | 営業部の高杉さんは心臓に悪い (`.../64096`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 30 | 社交界の毒婦とよばれる私～素敵な辺境伯令息に腕を折られたので、責任とってもらいます～ (`.../82650`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 92 | 営業部の高杉さんは心臓に悪い (`.../64096`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 86 | 隙間ヶ刻の住人たち (`.../108556`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 営業部の高杉さんは心臓に悪い (`.../64096`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | 営業部の高杉さんは心臓に悪い (`.../64096`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 200 | 🆓 第1話・第2話 (`.../558814`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 10 |  |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 隙間ヶ刻の住人たち (`.../108556`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | 隙間ヶ刻の住人たち (`.../108556`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 7 | 🆓 第1話① (`.../819247`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 11 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -43,30 +43,31 @@
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 30 entries |  |  |  |
-| latest listing | PASS | 92 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=営業部の高杉さんは心臓に悪い, URL=`.../64096` |  |  |  |
+| latest listing | PASS | 86 entries |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=隙間ヶ刻の住人たち, URL=`.../108556` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 123/123 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 123/123 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 117/117 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 117/117 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://manga-park.com/.../2\$rNuVwgw.jpg <redacted query values: 7cVx63ZrQ4IuamMCDWNC-RWDZX_80VDdcjsnQw4pYe0>` (image/jpeg, 52563 bytes, 540x540) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../64096` |  |  |  |
-| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://manga-park.com/.../1\$ptuVwgw.jpg <redacted query values: O-duLj3hUhnXlthjo6BfFCejha_DU9VY2SK8d2XZ3eE>` (image/jpeg, 64198 bytes, 750x450) |  |  |  |
-| details author | PASS | eruko |  |  |  |
+| thumbnail | PASS | `https://manga-park.com/.../2\$nLrqqA0.jpg <redacted query values: d9xYwZbKnShQ4wif-yjOJhYPfIvc13QkVU-jTm7YsXo>` (image/jpeg, 45568 bytes, 750x351) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../108556` |  |  |  |
+| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://manga-park.com/.../1\$iLrqqA0.jpg <redacted query values: cNDduL6iyYPig8n7N6q-Z5-YqlXjNofQ38ZRmgXsIIE>` (image/jpeg, 62405 bytes, 750x450) |  |  |  |
+| details author | PASS | 式縞鳴 |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | 女子向け, 恋愛, Parkオリジナル |  |  |  |
+| details genres | PASS | 女子向け, ギャグ・コメディ, Parkオリジナル |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | 商社で事務をする堤さん。彼女の部署に転属してきた高杉さんは、仕事はできるけど自分にも他人にも厳しい鬼上司！ でも、そんな彼が見せる不意打ちな優しさにときめいてしまって―!? ハイスペ上司に翻弄される♥オフィスラブコメ！ ★CV.島﨑信長さんによる、 PVはコチラ、ショート動画はコチラから！ ★eruko先生のX(Twitter)はコチラ |  |  |  |
+| details description | PASS | "貧乏生活ゆえ貰える仕事は何でもこなす駆け出しライターの遠野（とおの）25歳。格安ワケアリ物件で暮らす遠野にある日、念願の執筆依頼が…！？ 滅多にない真っ当なライターの仕事に大喜びの遠野だったが、この仕事にはひとつ「条件」があった。それは、泥沼スランプ真っ最中のド陰気な推理小説家・灯雷巡（ひらいめぐり）と二人で取り組むこと――！！不屈の零細ライターとネガティブ小説家のコンビが日常の「隙間」をネタにすべく駆け巡る！SNSでのご感想はぜひ「#スキマガ」で！ |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 200 chapters |  |  |  |
-| chapter dates | PASS | 200 positive upload dates |  |  |  |
+| chapters | PASS | 7 chapters |  |  |  |
+| chapter dates | PASS | 7 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 10 HTTP page URLs |  |  |  |
+| page URLs | PASS | 11 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://manga-park.com/.../2h\$4pCCugw.jpg.enc <redacted query values: rKXBqQ3cy9fz-crC0TEBgJDX1dylJ8gSQXoGDax4qSgQBk3meiHiC90XPjE1i186tSyQgKtU>` (image/jpeg, 177441 bytes, 960x1378; server Content-Type: application/octet-stream) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://manga-park.com/.../2h\$pPqspw0.jpg.enc <redacted query values: xPOMqg2c54vEhqHc0zEBgJDX1dylJwWdE3b3bRIimKiAUx7_NxFO33uBwTBMzWvTYiKA8yNY>` (image/jpeg, 189786 bytes, 960x1378; server Content-Type: application/octet-stream) |  |  |  |

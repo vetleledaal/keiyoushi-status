@@ -2,14 +2,14 @@
 
 - Extension: tachiyomi-en.vizshonenjump-v1.6.29
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 0
-- Lint: 0
-- Warnings: 0
-- Skipped: 34
-- Failed: 2
-- Retry disposition: REVIEW
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 29
+- Lint: 2
+- Warnings: 2
+- Skipped: 4
+- Failed: 0
+- Retry disposition: NOT_APPLICABLE
 
 ## Runtime Evidence
 
@@ -19,53 +19,55 @@
 - Source ID: 5065732785260259278
 - Source name: VIZ Shonen Jump
 - Source language: en
+- Selected manga input: popular offset 0: One Piece (`.../one-piece`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | error | 0 |  | java.io.IOException: This service is not available in your country. | <1s |
+| popular | `getPopularManga(1)` | success | 9 | One Piece (`.../one-piece`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | error | 0 |  | java.io.IOException: This service is not available in your country. | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 283 | Haunted Peak (`.../haunted-peak`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | skipped | 0 |  |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | skipped | 0 |  |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | skipped | 0 |  |  | <1s |
-| pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 4 | One Piece (`.../one-piece`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | One Piece (`.../one-piece`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1192 | Ch. 1 (`.../5090`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 55 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
-| popular operation | ERROR | java.io.IOException: This service is not available in your country. | REVIEW | INSUFFICIENT_EVIDENCE |  |
+| popular operation | PASS |  |  |  |  |
 | popular_next operation | SKIP | hasNextPage = false |  |  |  |
-| latest operation | ERROR | java.io.IOException: This service is not available in your country. | REVIEW | INSUFFICIENT_EVIDENCE |  |
+| latest operation | PASS |  |  |  |  |
 | latest_next operation | SKIP | hasNextPage = false |  |  |  |
-| search operation | SKIP | No manga was returned by popular or latest |  |  |  |
-| details operation | SKIP | No manga was returned by popular or latest |  |  |  |
-| chapters operation | SKIP | No manga was returned by popular or latest |  |  |  |
-| pages operation | SKIP | No usable chapter was available |  |  |  |
-| popular listing | SKIP | This service is not available in your country. |  |  |  |
-| latest listing | SKIP | This service is not available in your country. |  |  |  |
-| search listing | SKIP | No manga was returned by popular or latest |  |  |  |
-| latest differs from popular | SKIP | Popular or latest has no manga to compare |  |  |  |
-| popular pagination | SKIP | This service is not available in your country. |  |  |  |
-| latest pagination | SKIP | This service is not available in your country. |  |  |  |
-| listing duplicates | SKIP | Fewer than 2 manga to check |  |  |  |
-| manga title and URL | SKIP | No manga to check |  |  |  |
-| thumbnail URLs | SKIP | No manga to check |  |  |  |
-| duplicate thumbnail URLs | SKIP | No manga to check |  |  |  |
-| thumbnail | SKIP | No manga to check |  |  |  |
-| details identity | SKIP | No selected manga URL to compare |  |  |  |
-| details thumbnail URL | SKIP | No details manga to check |  |  |  |
-| details author | SKIP | No details manga to check |  |  |  |
-| details artist | SKIP | No details manga to check |  |  |  |
-| details genres | SKIP | No details manga to check |  |  |  |
-| details status | SKIP | No details manga to check |  |  |  |
-| details description | SKIP | No details manga to check |  |  |  |
-| metadata trimming | SKIP | No details metadata to check |  |  |  |
-| chapters | SKIP | Chapters did not run successfully |  |  |  |
-| chapter dates | SKIP | No chapters to check |  |  |  |
-| chapter titles | SKIP | No chapters to check |  |  |  |
-| chapter URLs | SKIP | No chapters to check |  |  |  |
-| duplicate chapter URLs | SKIP | No chapters to check |  |  |  |
-| page indices | SKIP | No pages to check |  |  |  |
-| page URLs | SKIP | No usable chapter was available |  |  |  |
-| duplicate page URLs | SKIP | No pages to check |  |  |  |
-| page load | SKIP | No pages to load |  |  |  |
+| search operation | PASS |  |  |  |  |
+| details operation | PASS |  |  |  |  |
+| chapters operation | PASS |  |  |  |  |
+| pages operation | PASS |  |  |  |  |
+| popular listing | PASS | 9 entries |  |  |  |
+| latest listing | PASS | 283 entries |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=One Piece, URL=`one-piece` |  |  |  |
+| latest differs from popular | PASS |  |  |  |  |
+| popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
+| latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
+| listing duplicates | PASS |  |  |  |  |
+| manga title and URL | PASS | 296/296 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 296/296 manga have thumbnail URLs |  |  |  |
+| duplicate thumbnail URLs | UNUSUAL | Thumbnail URLs used by different manga URLs: `https://dw9to29mmj727.cloudfront.net/.../31-SeriesThumbnailsManga_BOF__400x320.jpg` -> 2 manga URLs (examples: `boys-over-flowers`, `boys-over-flowers-jewelry-box`) |  |  |  |
+| thumbnail | PASS | `https://dw9to29mmj727.cloudfront.net/.../526-SeriesThumb_OP_400x320.png` (image/png, 307505 bytes, 400x320) |  |  |  |
+| details identity | PASS | Details preserved selected URL `one-piece` |  |  |  |
+| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://dwgkfo5b3odmw.cloudfront.net/.../thumb-196468-OnePiece_GN112_C1_Web-3-RjXnpWDHRJHMG3ps8cj5tQ.jpg` (image/jpeg, 252530 bytes, 600x900) |  |  |  |
+| details author | PASS | Eiichiro Oda |  |  |  |
+| details artist | PASS | null |  |  |  |
+| details genres | PASS | null |  |  |  |
+| details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
+| details description | PASS | Join Monkey D. Luffy and his swashbuckling crew in their search for the ultimate treasure, the One Piece. |  |  |  |
+| metadata trimming | PASS |  |  |  |  |
+| chapters | PASS | 1192 chapters |  |  |  |
+| chapter dates | LINT | 1144 of 1192 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1144 |  |  |  |
+| chapter titles | PASS |  |  |  |  |
+| chapter URLs | PASS |  |  |  |  |
+| duplicate chapter URLs | PASS |  |  |  |  |
+| page indices | PASS |  |  |  |  |
+| page URLs | PASS | 55 HTTP page URLs |  |  |  |
+| duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://d2vs6ffylckc3p.cloudfront.net/.../0.jpg <redacted query values: Expires, Signature, and Key-Pair-Id>` (image/jpeg, 15627 bytes, 800x1200) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.mangaplus-v1.6.65
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 0
 - Warnings: 0
 - Skipped: 4
@@ -25,7 +25,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 100 | One Piece (`<redacted URL #1: selected resource; relative; no scheme>`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 67 | MARRIAGETOXIN (`<redacted URL #2: selected resource; relative; no scheme>`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 76 | Asura’s Verdict (`<redacted URL #2: selected resource; relative; no scheme>`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | One Piece (`<redacted URL #1: selected resource; relative; no scheme>`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | One Piece (`<redacted URL #1: selected resource; relative; no scheme>`) |  | 1-10s |
@@ -43,18 +43,18 @@
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 100 entries |  |  |  |
-| latest listing | PASS | 67 entries |  |  |  |
+| latest listing | PASS | 76 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=One Piece, URL=`#.../100020` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 168/168 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 168/168 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 177/177 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 177/177 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://jumpg-assets.tokyo-cdn.com/.../326439.jpg <redacted query values: hash and expires>` (image/jpeg, 57369 bytes, 352x528) |  |  |  |
+| thumbnail | PASS | `https://jumpg-assets.tokyo-cdn.com/.../616286.jpg <redacted query values: hash and expires>` (image/jpeg, 53155 bytes, 352x528) |  |  |  |
 | details identity | PASS | Details preserved selected URL `#.../100020` |  |  |  |
-| details thumbnail URL | PASS | `https://jumpg-assets.tokyo-cdn.com/.../326439.jpg <redacted query values: hash and expires>` |  |  |  |
+| details thumbnail URL | PASS | `https://jumpg-assets.tokyo-cdn.com/.../616286.jpg <redacted query values: hash and expires>` |  |  |  |
 | details author | PASS | Eiichiro Oda |  |  |  |
 | details artist | PASS | Eiichiro Oda |  |  |  |
 | details genres | PASS | Battle / Action, Sci-Fi / Fantasy |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 53 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://jumpg-assets3.tokyo-cdn.com/.../1.jpg <redacted query values: hash and expires>` (image/jpeg, 787681 bytes, 1400x2100) |  |  |  |

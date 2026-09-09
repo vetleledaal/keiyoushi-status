@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangatown-v1.4.10
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -24,9 +24,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 30 | Tales of Demons and Gods (`.../tales_of_demons_and_gods`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 30 | Kimetsu no Yaiba (`.../kimetsu_no_yaiba`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | The S-Classes That I Raised (`.../the_s_classes_that_i_raised`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 30 | Matchmaking Breach (`.../matchmaking_breach`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 30 | Kimetsu no Yaiba (`.../kimetsu_no_yaiba`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 30 | Kengan Omega (`.../kengan_omega`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 30 | I Am God Killer (`.../i_am_god_killer`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Tales of Demons and Gods (`.../tales_of_demons_and_gods`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Tales of Demons and Gods (`.../tales_of_demons_and_gods`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 969 | Tales of Demons and Gods 1  (`.../c001`) |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 13 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://zjcdn.mangahere.org/.../msimg002.jpg` (image/jpeg, 220537 bytes, 730x1032) |  |  |  |

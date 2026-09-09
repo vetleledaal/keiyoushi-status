@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.readfairytailedenszeromangaonline-v1.4.10
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 21
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 22
 - Lint: 4
 - Warnings: 2
 - Skipped: 8
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangacatalog
 - Source ID: 1330793582354406642
 - Source name: Read Fairy Tail & Edens Zero Manga Online
 - Source language: en
@@ -29,8 +30,8 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Eden's Zero (`https://ww9.readfairytail.com/.../edens-zero`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Eden’s Zero (`https://ww9.readfairytail.com/.../edens-zero`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 294 | Eden’s Zero Chapter 1 (`https://ww9.readfairytail.com/.../edens-zero-chapter-1`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 79 |  |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 294 | Eden’s Zero Chapter 1 (`https://ww9.readfairytail.com/.../edens-zero-chapter-1`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 79 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 79 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.readfairytail.com/.../2.jpeg` (image/jpeg, 254333 bytes, 1066x1600) |  |  |  |

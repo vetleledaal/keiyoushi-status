@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.euphoriascan-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 1
 - Warnings: 2
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 6045078216682014867
 - Source name: Euphoria Scan
 - Source language: pt-BR
@@ -25,7 +26,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | A Sedução da Serpente Sagrada (`.../423`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Love & Hatred (`.../126`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Teoria do Amor (`.../254`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Bones and Petals (`.../250`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | success | 25 | Speak up (`.../873`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | A Sedução da Serpente Sagrada (`.../423`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | A Sedução da Serpente Sagrada (`.../423`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 10 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://euphoriascan.com/.../0.jpg` (image/jpeg, 174834 bytes, 1280x720) |  |  |  |

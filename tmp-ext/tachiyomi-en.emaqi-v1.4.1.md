@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.emaqi-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 0
 - Warnings: 0
 - Skipped: 2
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 10 | Anjo the Mischievous Gal (`.../6763d1bb-0d5e-4c6d-a634-a82db649c0c1`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 40 | GALAXIAS (`.../bc5b1f05-1ecb-476d-b513-a306ce36cd0d`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 40 | The Revenge Widow (`.../9f0c5062-20bb-4c91-bc6f-bc6d2102b4f4`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 40 | Animal Crossing: New Horizons (`.../e6c9c5f5-9383-407b-92b2-97c7bc587ac5`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 14 | Barefaced: The Man Who Left Public Security (`.../9a5d90f9-9824-4adc-b277-9ee851c6b5c6`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Anjo the Mischievous Gal (`.../6763d1bb-0d5e-4c6d-a634-a82db649c0c1`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Anjo the Mischievous Gal (`.../6763d1bb-0d5e-4c6d-a634-a82db649c0c1`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 135 | 🔒 (Preview) Vol. 1 (`.../vol-1`) |  | <1s |
@@ -49,8 +49,8 @@
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 91/91 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 91/91 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 65/65 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 65/65 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://r.emaqi.com/.../877765a7-407c-4cd0-a1bf-642ac1edeba4.jpg` (image/png, 1190811 bytes, 853x1200; server Content-Type: image/jpeg) |  |  |  |
 | details identity | PASS | Details preserved selected URL `6763d1bb-0d5e-4c6d-a634-a82db649c0c1#anjo-the-mischievous-gal` |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 87 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://pr.emaqi.com/.../4739a585-d487-4983-9eb6-5c0b71bbf1e9 <redacted query values: Expires, KeyName, and Signature>` (image/jpeg, 6499 bytes, 853x1200; server Content-Type: application/octet-stream) |  |  |  |

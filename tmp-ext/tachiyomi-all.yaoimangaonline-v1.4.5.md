@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-all.yaoimangaonline-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 24
 - Lint: 3
-- Warnings: 0
+- Warnings: 1
 - Skipped: 8
 - Failed: 1
 - Retry disposition: DO_NOT_RETRY
@@ -23,8 +23,8 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 25 | YMO Discord Server! (`.../ymo-discord-server`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 24 | Ensemble Stars! Dj – NIGHT SCAPE by 1102/Ruka [JP] (`.../ensemble-stars-dj-night-scape-by-1102-ruka-jp`) |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 25 | YMO Discord Server! (`.../ymo-discord-server`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 24 | Full-Cock-Out Gay Sex Yoga by Izu (izukonohito) [Chn] (`.../full-cock-out-gay-sex-yoga-by-izu-izukonohito-chn`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 14 | YMO Discord Server! (`.../ymo-discord-server`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | FAIL | Page list is empty (0 pages) | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://yaoimangaonline.com/.../1` to `https://yaoimangaonline.com` (1 redirects) |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

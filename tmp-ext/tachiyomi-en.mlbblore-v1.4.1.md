@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mlbblore-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -24,10 +24,10 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 5 | Visitors from Cybertron (`.../98`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 5 | Shades of Secrets (`.../119`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 5 | Shades of Secrets (`.../119`) |  | <1s |
 | latest | `fetchLatestUpdates(1)` | success | 5 | MLBB Rank Party Comic Special (`.../294`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | success | 5 | Ruby's Comic (`.../272`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 5 | Visitors from Cybertron (`.../98`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 5 | Visitors from Cybertron (`.../98`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Visitors from Cybertron (`.../98`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 1 | Chapter 1 (`.../98`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 14 |  |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 14 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://akmweb.youngjoygame.com/.../1ffd030b890a0a99b51896e1754fe92c.jpg <redacted query values: w>` (image/jpeg, 241524 bytes, 1000x3434) |  |  |  |

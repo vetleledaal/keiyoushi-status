@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.linkmanga-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 34
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 35
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 8622937201319058235
 - Source name: LinkManga
 - Source language: en
@@ -24,9 +25,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Ojisan to Ore no Koiwazurai (`.../58265`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 25 | Motoyan Papa to Hitsuji-sensei (`.../63629`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | Natsu ni Mebuku wa Koi no Oto (`.../41825`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | success | 25 | Kengan Omega (`.../30073`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Returned Solider’s Female Conquest Diary (`.../58039`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | The Count’s Secret Maid (`.../64995`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Ojisan to Ore no Koiwazurai (`.../58265`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Ojisan to Ore no Koiwazurai (`.../58265`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 6 | chapter 1 (`.../ch-001`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 40 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | FAIL | First page URL `https://f1link.linkmanga.com/.../f20190802_15465d_1336.jpg` could not be downloaded: eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |

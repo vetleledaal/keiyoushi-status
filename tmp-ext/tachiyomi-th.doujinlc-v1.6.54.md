@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-th.doujinlc-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 4360984402391235039
 - Source name: Doujin-Lc
 - Source language: th
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Moby Dick (`.../49601`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | My Sister’s Duty (`.../11222`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 25 | Save the World by Hitting it (`.../95427`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | วันเเบบนั้นก็มีอยู่เหมือนกัน [Kurokawa Otogi] (`.../118172`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Erotic Scheme (`.../97769`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | เเม่บ้านสาวเปลี่ยวใจ (Raidon) (`.../119994`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Moby Dick (`.../49601`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Moby Dick (`.../49601`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 108 | ตอนที่ 1 (`.../%e0%b8%95%e0%b8%ad%e0%b8%99%e0%b8%97%e0%b8%b5%e0%b9%88-1`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 11 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://mangaclaw.com/.../uploads-by-doujin-lc-com-1.jpg` (image/jpeg, 2195120 bytes, 1000x26896) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-zh.baozimhorg-v1.6.37
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: goda
 - Source ID: 774030471139699415
 - Source name: GoDa漫画
 - Source language: zh
@@ -24,11 +25,11 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 18 | 武炼巅峰 (`.../wuliandianfeng-pikapi`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 18 | 武林世家的失宠小孙女 (`.../wulinshijiadeshichongxiaosunn-xs634079`) |  | <1s |
+| popular_next | `getPopularManga(2)` | success | 18 | 穿越者的幸运礼 (`.../chuanyuezhedexingyunli-ap91419`) |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 18 | 八女帝全背叛，重生悔到肠断 (`.../banvdiquanbeipanchongshenghuidaochangduan-26930`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 18 | 离渊纲要 (`.../liyuangangyao-23373`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 30 | 武炼巅峰 (`.../wuliandianfeng-pikapi`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | 武炼巅峰 (`.../wuliandianfeng-pikapi`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 18 | 离渊纲要 (`.../liyuangangyao-23373`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 30 | 武炼巅峰 (`.../wuliandianfeng-pikapi`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | 武炼巅峰 (`.../wuliandianfeng-pikapi`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 3875 | 1 扫地小厮 (`.../0_0`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 17 |  |  | <1s |
 
@@ -46,7 +47,7 @@
 | latest listing | PASS | 18 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=武炼巅峰, URL=`wuliandianfeng-pikapi` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
-| popular pagination | UNUSUAL | Overlapping manga: title=穿越者的幸运礼, URL=`chuanyuezhedexingyunli-ap91419` at page 1 offset 17 and page 2 offset 1 |  |  |  |
+| popular pagination | UNUSUAL | Overlapping manga: title=穿越者的幸运礼, URL=`chuanyuezhedexingyunli-ap91419` at page 1 offset 17 and page 2 offset 0 |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
 | manga title and URL | PASS | 102/102 listing manga have titles and relative URLs |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | LINT | Page indices are 1-indexed, but should be 0-indexed |  |  |  |
 | page URLs | PASS | 17 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://c-nd2-1.6wm.top/.../1.webp` (image/webp (encoding: lossy), 104602 bytes, 800x1131) |  |  |  |

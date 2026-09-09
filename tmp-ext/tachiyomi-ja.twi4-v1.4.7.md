@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-ja.twi4-v1.4.7
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 28
 - Lint: 1
-- Warnings: 0
+- Warnings: 1
 - Skipped: 7
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -29,7 +29,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | 悪役令嬢の四畳半 (`.../yojouhan`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | 悪役令嬢の四畳半 (`.../yojouhan`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 516 | 1 - プロローグ１ (`.../0001.html`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 523 | 1 - プロローグ１ (`.../0001.html`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | 婚約破棄された悪役令嬢が“やけくそ魔術”で四畳半の和室を召喚⁉︎現代の日本で癒される！異世界転移コメディ！ |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 516 chapters |  |  |  |
-| chapter dates | LINT | All 516 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=516 |  |  |  |
+| chapters | PASS | 523 chapters |  |  |  |
+| chapter dates | LINT | All 523 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=523 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://sai-zen-sen.jp/.../twi4` to `https://sai-zen-sen.jp/.../twi4` (1 redirects); search: `https://sai-zen-sen.jp/.../twi4` to `https://sai-zen-sen.jp/.../twi4` (1 redirects); details: `https://sai-zen-sen.jp/.../twi4` to `https://sai-zen-sen.jp/.../twi4` (1 redirects) |  |  |  |
 | page load | PASS | `https://sai-zen-sen.jp/.../0001.2aLf2o1169evU3885BnqrvBsaOrJfak1.jpg` (image/jpeg, 341168 bytes, 1920x2880) |  |  |  |

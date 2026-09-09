@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.anisascans-v1.6.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 8904806262353429205
 - Source name: Anisa Scans
 - Source language: en
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Death Is The Only Ending For The Villainess (`.../664`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | I Became The Youngest Sister-in-law Of The Male Leads In A Tragic Reverse Harem (`.../4743`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | The Ultimate Wantless Godly Rich System (`.../2642`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | I Reincarnated as the Princess of a Country That Is Going to Destroyed by Male Protagonist (`.../14813`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Rural Ace (`.../14006`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Mood Disorder (`.../9985`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 3 | Death Is The Only Ending For The Villainess (`.../664`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Death Is The Only Ending For The Villainess (`.../664`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 215 | Chapter 0.1 (`.../chapter-0-1`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 62 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://like.mgread.io/.../2.jpg.webp` (image/webp (container: extended), 2392262 bytes, 940x792) |  |  |  |

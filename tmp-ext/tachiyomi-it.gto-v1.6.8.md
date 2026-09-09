@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-it.gto-v1.6.8
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 0
 - Warnings: 0
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: pizzareader
 - Source ID: 2773063800266255222
 - Source name: GTO The Great Site
 - Source language: it
@@ -23,14 +24,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 83 | 100% Fragola East Side Story (`.../100-fragola-east-side-story`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 83 | 100% Fragola East Side Story (`.../100-fragola-east-side-story`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 10 | Il mio senpai è irritante (`.../il-mio-senpai-e-irritante`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | 100% Fragola East Side Story (`.../100-fragola-east-side-story`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | 100% Fragola East Side Story (`.../100-fragola-east-side-story`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 4 | Ch.1 - La donna dalle mutandine con le fragole (`.../1`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 23 |  |  | <1s |
+| pages | `getPageList(chapter)` | success | 23 |  |  | 10s+ |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 23 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://reader.gtothegreatsite.net/.../Credits.png <redacted query values: v>` (image/png, 1085983 bytes, 800x1200) |  |  |  |

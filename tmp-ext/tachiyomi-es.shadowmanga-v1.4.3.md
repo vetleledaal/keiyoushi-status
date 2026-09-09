@@ -2,10 +2,10 @@
 
 - Extension: tachiyomi-es.shadowmanga-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 32
-- Lint: 0
+- Lint: 1
 - Warnings: 0
 - Skipped: 4
 - Failed: 0
@@ -19,18 +19,18 @@
 - Source ID: 5649269152264667286
 - Source name: Shadow Manga
 - Source language: es
-- Selected manga input: popular offset 0: Shujinkou-sama No Imouto Ni Aisareteiru Kedo, Shikkari Yandere (`.../103339`)
+- Selected manga input: latest offset 0: Shinmai Ossan Bouken-sha, Saikyou paati ni shinu hodo kitae rarete Muteki ni naru (`.../102964`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 278 | Shujinkou-sama No Imouto Ni Aisareteiru Kedo, Shikkari Yandere (`.../103339`) |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 292 | Morino-san no me deja en paz (`.../103360`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 299 | Konjiki No Word Master Yuusha Yonin Ni Makikomareta Unique Cheat (`.../24519`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 301 | Shinmai Ossan Bouken-sha, Saikyou paati ni shinu hodo kitae rarete Muteki ni naru (`.../102964`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 6 | Juunenme Kikan O Akirameta Tenisha Wa Imasara Shujinkou Ni Naru (`.../22350`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Shujinkou-sama No Imouto Ni Aisareteiru Kedo, Shikkari Yandere (`.../103339`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 1 | Cap. 1 - Prólogo (`.../1390705`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 40 |  |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Shinmai Ossan Bouken-sha, Saikyou paati ni shinu hodo kitae rarete Muteki ni naru (`.../102964`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Shinmai Ossan Bouken-sha, Saikyou paati ni shinu hodo kitae rarete Muteki ni naru (`.../102964`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 59 | Cap. 0 -  (`.../1356593`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 4 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -42,31 +42,32 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 278 entries |  |  |  |
-| latest listing | PASS | 299 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 3: title=Shujinkou-sama No Imouto Ni Aisareteiru Kedo, Shikkari Yandere, URL=`103339` |  |  |  |
+| popular listing | PASS | 292 entries |  |  |  |
+| latest listing | PASS | 301 entries |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=Shinmai Ossan Bouken-sha, Saikyou paati ni shinu hodo kitae rarete Muteki ni naru, URL=`102964` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 583/583 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 583/583 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 594/594 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 594/594 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://cdn.shademanga.com/.../portada-1788325226984.webp <redacted query values: v>` (image/webp (encoding: lossy), 89564 bytes, 600x849) |  |  |  |
-| details identity | PASS | Details preserved selected URL `103339` |  |  |  |
-| details thumbnail URL | PASS | `https://cdn.shademanga.com/.../portada-1788325226984.webp <redacted query values: v>` |  |  |  |
-| details author | PASS | null |  |  |  |
+| thumbnail | PASS | `https://cdn.shademanga.com/.../portada-1782088464851.webp <redacted query values: v>` (image/webp (encoding: lossy), 97330 bytes, 512x728) |  |  |  |
+| details identity | PASS | Details preserved selected URL `102964` |  |  |  |
+| details thumbnail URL | PASS | `https://cdn.shademanga.com/.../portada-1782088464851.webp <redacted query values: v>` |  |  |  |
+| details author | PASS | Kishima Kiraku |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | Comedy, Romance, Vida escolar, Psicológico, Drama |  |  |  |
+| details genres | PASS | Drama, Acción, Aventura, Fantasía, Comedia, Survival, Magia |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | Usui Shinji, un estudiante de secundaria, tiene un apuesto amigo de la infancia, Ichinose Hinata, tan popular entre las chicas como el protagonista de una historia. Estar al lado de Hinata, cuyo encanto atrae a todos como el sol, siempre hace que Shinji se sienta inferior, y sin darse cuenta, ha empezado a sentir cierta aversión hacia él. Mientras tanto, por alguna razón, Ichinose Runa, la hermana menor de Hinata, está muy apegada a Shinji como si fuera su verdadero hermano mayor. Mientras Shinji vive sus días agobiado por estos sentimientos complejos, la historia comienza cuando recibe una sospechosa carta de amor. |  |  |  |
-| metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 1 chapters |  |  |  |
-| chapter dates | PASS | 1 positive upload dates |  |  |  |
+| details description | PASS | Es de conocimiento común que es mejor convertirse en aventurero cuando eres lo más joven posible, porque el poder mágico que es la base de la fuerza de un aventurero difícilmente crecerá si no lo entrenas cuando eres joven. Pero este hombre, Rick Gladiator.... ¡¡¿se convirtió en aventurero cuando tenía más de treinta años y después de trabajar años como un simple recepcionista?!! Rick havivido una vida inimaginable mientras entrenaba con los miembros del legendario Orichalcum Fist, considerados los aventureros mas fuertes de continente, y ahora vuelve a la ciudad para poder ser formalmente un aventurero y cumplir su sueño de la niñez. |  |  |  |
+| metadata trimming | LINT | Untrimmed fields: chapter 9 name, chapter 10 name, chapter 11 name, chapter 12 name, chapter 13 name, chapter 14 name, chapter 15 name, chapter 16 name, chapter 17 name, chapter 18 name, chapter 19 name, chapter 20 name, chapter 21 name, chapter 22 name, chapter 23 name, chapter 24 name, chapter 25 name, chapter 26 name, chapter 27 name, chapter 28 name, chapter 29 name, chapter 30 name, chapter 31 name, chapter 32 name, chapter 33 name, chapter 34 name, chapter 35 name, chapter 36 name, chapter 37 name, chapter 38 name, chapter 39 name, chapter 40 name, chapter 41 name, chapter 42 name, chapter 43 name, chapter 44 name, chapter 46 name, chapter 47 name, chapter 48 name, chapter 49 name, chapter 50 name, chapter 51 name, chapter 52 name, chapter 53 name, chapter 54 name, chapter 55 name, chapter 56 name, chapter 57 name, chapter 58 name, chapter 59 name |  |  |  |
+| chapters | PASS | 59 chapters |  |  |  |
+| chapter dates | PASS | 59 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 40 HTTP page URLs |  |  |  |
+| page URLs | PASS | 4 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://cdn.shademanga.com/.../0001.webp <redacted query values: v>` (image/webp (container: extended), 210526 bytes, 1054x1492) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://cdn.shademanga.com/.../0001.webp <redacted query values: v>` (image/jpeg, 360726 bytes, 1414x2000; server Content-Type: image/webp) |  |  |  |

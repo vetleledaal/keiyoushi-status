@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-uk.honeymanga-v1.6.11
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -25,12 +25,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 29 | Обери мене! (`.../52e6a78a-8930-4265-b0eb-f77c0dcb6b96`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 30 | Клуб 1Нр (`.../9336f6ce-81b8-443e-b3ba-935892da2553`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 30 | Повелитель чотирьох стін (`.../8ea02ec6-4109-4b9a-ada7-0ba64cac449d`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 30 | Навіжений в Мурімі! (`.../a83bb2f2-508d-4782-acaf-97cf6f1fec26`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 30 | Скажений командир у світі середньовічного фентезі (`.../eefbaed9-88b6-4d94-900c-97f098119b03`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 30 | Маг піску з Випаленої пустелі (`.../c8316e88-499a-49cc-b03e-ea2bd4f98653`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Обери мене! (`.../52e6a78a-8930-4265-b0eb-f77c0dcb6b96`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Обери мене! (`.../52e6a78a-8930-4265-b0eb-f77c0dcb6b96`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 214 | Том 1 - Розділ 1 (`.../38f5e0ec-3675-4325-9cd2-fd791fa2ab53`) |  | 1-10s |
-| pages | `getPageList(chapter)` | success | 55 |  |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 216 | Том 1 - Розділ 1 (`.../38f5e0ec-3675-4325-9cd2-fd791fa2ab53`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 55 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -60,13 +60,14 @@
 | details genres | PASS | Манхва, Фентезі, Екшн, Магія, Пригоди, Кіберпанк, ГГ чоловік, Виживання, Підземелля, Система, Артефакти, Бої на мечах, Гільдії, Чарівники |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Локі, гравець, що посідає 5-те місце у світі, втрачає свідомість під час рейду Підземелля в мобільній ґача-грі. «Що? Я тепер ігровий персонаж?». Прийшовши до тями, Локі усвідомлює, що став 1-зірковим героєм першого рівня – Ганом Іслатом. Щоб повернутися на Землю, йому необхідно підкорити 100-рівневу Вежу! Але спочатку він має допомогти Майстру-новачку та іншим героям опанувати ігрові механіки. «Не на того напали». Це розповідь про героя Локі, що ніколи не визнає жодної поразки. |  |  |  |
-| metadata trimming | LINT | Untrimmed fields: chapter 6 name, chapter 8 name, chapter 10 name, chapter 11 name, chapter 16 name, chapter 17 name, chapter 18 name, chapter 24 name, chapter 32 name, chapter 34 name, chapter 44 name, chapter 52 name, chapter 68 name, chapter 107 name, chapter 109 name |  |  |  |
-| chapters | PASS | 214 chapters |  |  |  |
-| chapter dates | PASS | 214 positive upload dates |  |  |  |
+| metadata trimming | LINT | Untrimmed fields: chapter 8 name, chapter 10 name, chapter 12 name, chapter 13 name, chapter 18 name, chapter 19 name, chapter 20 name, chapter 26 name, chapter 34 name, chapter 36 name, chapter 46 name, chapter 54 name, chapter 70 name, chapter 109 name, chapter 111 name |  |  |  |
+| chapters | PASS | 216 chapters |  |  |  |
+| chapter dates | PASS | 216 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 55 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://hmvolumestorage.b-cdn.net/.../888a37d2-03bf-4e1d-b2f2-4b5a446d4101` (image/webp (encoding: lossy), 100922 bytes, 800x3000) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.foamgirl-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 29
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 30
 - Lint: 1
 - Warnings: 0
 - Skipped: 5
@@ -19,18 +19,18 @@
 - Source ID: 5874068195320206396
 - Source name: FoamGirl
 - Source language: all
-- Selected manga input: popular offset 0: Pimpa – The Black Alley Photobook Set.02 (`.../1839041.html`)
+- Selected manga input: popular offset 0: Hayun 하윤 – Bimilstory Vol.30 「Hong Kong Mood」 (`.../1839124.html`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 20 | Pimpa – The Black Alley Photobook Set.02 (`.../1839041.html`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | Pureding 퓨딩 – Sexy Photobook Vol.14 (`.../1839021.html`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 20 | Hayun 하윤 – Bimilstory Vol.30 「Hong Kong Mood」 (`.../1839124.html`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | Miu Shirahama 白濱美兎 – 漫画アクションデジタル写真集 「君と僕の夏合宿」 (`.../1839104.html`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Pimpa – The Black Alley Photobook Set.02 (`.../1839041.html`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 1 | GALLERY (`.../1839041.html`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 90 |  |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Hayun 하윤 – Bimilstory Vol.30 「Hong Kong Mood」 (`.../1839124.html`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 1 | GALLERY (`.../1839124.html`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 120 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -52,9 +52,9 @@
 | manga title and URL | PASS | 40/40 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 40/40 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://cdn.foamgirl.net/.../38860020400501.webp!320x440` (image/webp (encoding: lossy), 53676 bytes, 320x440) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../1839041.html` |  |  |  |
-| details thumbnail URL | PASS | `https://cdn.foamgirl.net/.../38860020400501.webp!320x440` |  |  |  |
+| thumbnail | PASS | `https://cdn.foamgirl.net/.../39141081905532.webp!320x440` (image/webp (encoding: lossy), 37246 bytes, 320x440) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../1839124.html` |  |  |  |
+| details thumbnail URL | PASS | `https://cdn.foamgirl.net/.../39141081905532.webp!320x440` |  |  |  |
 | details author | PASS | null |  |  |  |
 | details artist | PASS | null |  |  |  |
 | details genres | PASS | null |  |  |  |
@@ -67,6 +67,7 @@
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 90 HTTP page URLs |  |  |  |
+| page URLs | PASS | 120 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://cdn.foamgirl.net/.../38860020400502.webp` (image/webp (encoding: lossy), 278986 bytes, 1000x1500; server Content-Type: application/octet-stream) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://cdn.foamgirl.net/.../39141081905532.webp` (image/webp (encoding: lossy), 100868 bytes, 1125x1500; server Content-Type: application/octet-stream) |  |  |  |

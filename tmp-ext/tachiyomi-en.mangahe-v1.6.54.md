@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangahe-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 2
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 1406386535599331231
 - Source name: MangaHe
 - Source language: en
@@ -24,12 +25,12 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Secret Class (`.../252`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 25 | Switch ON (Uncensored) (`.../932`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | HOT A Theme For Every Building (`.../24449`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | HOT The Regressed Man (`.../25587`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | My Neighbor’s Widow (`.../174`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | HOT The Professor’s Secret Account (`.../24462`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | NEW Paradise Villa (`.../25566`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 5 | Secret Class (`.../252`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Secret Class (`.../252`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 628 | Chapter 1 (`.../chapter1`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 629 | Chapter 1 (`.../chapter1`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 41 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | After losing his parents at 13, Dae Ho was taken in by a close friend of his father. Now an adult, he remains completely clueless about relationships between men and women. To guide him, his aunt and sisters decide to give Dae Ho a discreet and private lesson… |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 628 chapters |  |  |  |
-| chapter dates | LINT | 5 of 628 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=5 |  |  |  |
+| chapters | PASS | 629 chapters |  |  |  |
+| chapter dates | LINT | 6 of 629 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=6 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | LINT | Page indices are 1-indexed, but should be 0-indexed |  |  |  |
 | page URLs | PASS | 41 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://mangahe.com/.../2-01.jpg` (image/jpeg, 696444 bytes, 1440x10000) |  |  |  |

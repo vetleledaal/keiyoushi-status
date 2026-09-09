@@ -2,71 +2,72 @@
 
 - Extension: tachiyomi-pt.ghostscan-v1.6.56
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
-- Lint: 1
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 2
+- Lint: 0
 - Warnings: 1
-- Skipped: 0
-- Failed: 0
-- Retry disposition: NOT_APPLICABLE
+- Skipped: 32
+- Failed: 2
+- Retry disposition: DO_NOT_RETRY
 
 ## Runtime Evidence
 
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 2150748053027323425
 - Source name: Ghost Scan
 - Source language: pt-BR
-- Selected manga input: popular offset 0: Sonhando com a Liberdade (`.../176`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | Sonhando com a Liberdade (`.../176`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 21 | Registros Eróticos da Dinastia Joseon (`.../1863`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 25 | As Flores Dançam e o Vento Canta (`.../1402`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 21 | Todas as Cores da Neve (`.../978`) |  | 10s+ |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Sonhando com a Liberdade (`.../176`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Sonhando com a Liberdade (`.../176`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 185 | Cap 1 (`.../cap-1`) |  | 1-10s |
-| pages | `getPageList(chapter)` | success | 68 |  |  | 10s+ |
+| popular | `getPopularManga(1)` | success | 0 |  |  | 1-10s |
+| popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 0 |  |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | skipped | 0 |  |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | skipped | 0 |  |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | skipped | 0 |  |  | <1s |
+| pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
 | popular operation | PASS |  |  |  |  |
-| popular_next operation | PASS |  |  |  |  |
+| popular_next operation | SKIP | hasNextPage = false |  |  |  |
 | latest operation | PASS |  |  |  |  |
-| latest_next operation | PASS |  |  |  |  |
-| search operation | PASS |  |  |  |  |
-| details operation | PASS |  |  |  |  |
-| chapters operation | PASS |  |  |  |  |
-| pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 25 entries |  |  |  |
-| latest listing | PASS | 25 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Sonhando com a Liberdade, URL=`176` |  |  |  |
-| latest differs from popular | PASS |  |  |  |  |
-| popular pagination | PASS |  |  |  |  |
-| latest pagination | PASS |  |  |  |  |
-| listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 93/93 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 93/93 manga have thumbnail URLs |  |  |  |
-| duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://ghostscan.xyz/.../capa-dream-350x476.jpeg` (image/jpeg, 39904 bytes, 350x476) |  |  |  |
-| details identity | PASS | Details preserved selected URL `176` |  |  |  |
-| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://ghostscan.xyz/.../capa-dream-193x278.jpeg` (image/jpeg, 15601 bytes, 193x278) |  |  |  |
-| details author | PASS | 2 L |  |  |  |
-| details artist | PASS | null |  |  |  |
-| details genres | PASS | Drama, Escolar, Josei, Manhwa, Psicológico, Romance, Sobrenatural |  |  |  |
-| details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | Choi Jungmin é severamente intimidada no ensino médio por causa de um relacionamento ruim com Ha Joohyun quando criança. Seu único consolo é o “sonho lúcido” que assombra Ha Joohyun em um sonho que ninguém pode perturbar. |  |  |  |
-| metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 185 chapters |  |  |  |
-| chapter dates | LINT | 30 of 185 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=30 |  |  |  |
-| chapter titles | PASS |  |  |  |  |
-| chapter URLs | PASS |  |  |  |  |
-| duplicate chapter URLs | PASS |  |  |  |  |
-| page indices | PASS |  |  |  |  |
-| page URLs | PASS | 68 HTTP page URLs |  |  |  |
-| duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://ghostscan.xyz/.../0.png` (image/png, 456019 bytes, 720x405) |  |  |  |
+| latest_next operation | SKIP | hasNextPage = false |  |  |  |
+| search operation | SKIP | No manga was returned by popular or latest |  |  |  |
+| details operation | SKIP | No manga was returned by popular or latest |  |  |  |
+| chapters operation | SKIP | No manga was returned by popular or latest |  |  |  |
+| pages operation | SKIP | No usable chapter was available |  |  |  |
+| popular listing | FAIL | 0 entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| latest listing | FAIL | 0 entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| search listing | SKIP | No manga was returned by popular or latest |  |  |  |
+| latest differs from popular | SKIP | Popular or latest has no manga to compare |  |  |  |
+| popular pagination | SKIP | Page 1 has no manga to check |  |  |  |
+| latest pagination | SKIP | Page 1 has no manga to check |  |  |  |
+| listing duplicates | SKIP | Fewer than 2 manga to check |  |  |  |
+| manga title and URL | SKIP | No manga to check |  |  |  |
+| thumbnail URLs | SKIP | No manga to check |  |  |  |
+| duplicate thumbnail URLs | SKIP | No manga to check |  |  |  |
+| thumbnail | SKIP | No manga to check |  |  |  |
+| details identity | SKIP | No selected manga URL to compare |  |  |  |
+| details thumbnail URL | SKIP | No details manga to check |  |  |  |
+| details author | SKIP | No details manga to check |  |  |  |
+| details artist | SKIP | No details manga to check |  |  |  |
+| details genres | SKIP | No details manga to check |  |  |  |
+| details status | SKIP | No details manga to check |  |  |  |
+| details description | SKIP | No details manga to check |  |  |  |
+| metadata trimming | SKIP | No details metadata to check |  |  |  |
+| chapters | SKIP | Chapters did not run successfully |  |  |  |
+| chapter dates | SKIP | No chapters to check |  |  |  |
+| chapter titles | SKIP | No chapters to check |  |  |  |
+| chapter URLs | SKIP | No chapters to check |  |  |  |
+| duplicate chapter URLs | SKIP | No chapters to check |  |  |  |
+| page indices | SKIP | No pages to check |  |  |  |
+| page URLs | SKIP | No usable chapter was available |  |  |  |
+| duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://ghostscan.xyz/.../admin-ajax.php` to `https://ghostscan.xyz/.../suspendedpage.cgi` (1 redirects); popular: `https://ghostscan.xyz/.../admin-ajax.php` to `https://ghostscan.xyz/.../suspendedpage.cgi` (1 redirects) |  |  |  |
+| page load | SKIP | No pages to load |  |  |  |

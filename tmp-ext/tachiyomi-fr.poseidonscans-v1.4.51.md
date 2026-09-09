@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-fr.poseidonscans-v1.4.51
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 34
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 2
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -23,13 +23,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 6 | Pick Me Up (`.../pick-me-up-2334`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 6 | Pick Me Up (`.../pick-me-up-2334`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `fetchLatestUpdates(1)` | success | 16 | 30 Years Since the Prologue (`.../30-years-since-the-prologue`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 16 | Catastrophic Necromancer (`.../catastrophic-necromancer`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 16 | Academy’s Genius Swordmaster (`.../academys-genius-swordmaster`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 30 Years Since the Prologue (`.../30-years-since-the-prologue`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | 30 Years Since the Prologue (`.../30-years-since-the-prologue`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 5 | Chapitre 1 - Prologue (`.../1`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 5 | Chapitre 1 - Prologue (`.../1`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 60 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 60 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://poseidon-scans.net` to `https://poseidon-scans.net <redacted query values: _rsc>` (1 redirects); chapters: `https://poseidon-scans.net/.../30-years-since-the-prologue` to `https://poseidon-scans.net/.../30-years-since-the-prologue <redacted query values: _rsc>` (1 redirects); pages: `https://poseidon-scans.net/.../1` to `https://poseidon-scans.net/.../1 <redacted query values: _rsc>` (1 redirects) |  |  |  |
 | page load | PASS | `https://poseidon-scans.net/.../97765dc8-1d1f-4395-9523-b54ec1d6a992` (image/webp (encoding: lossy), 202258 bytes, 800x5000) |  |  |  |

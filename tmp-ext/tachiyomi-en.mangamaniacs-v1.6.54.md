@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangamaniacs-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 5502656519292762717
 - Source name: MangaManiacs
 - Source language: en
@@ -23,14 +24,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | A Man of Virtue (`.../2056`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 25 | A Man of Virtue (`.../2056`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 25 | Dangerous Convenience Store (`.../188`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | The Rogue Prince Is Secretly an Omega (`.../6791`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Black Beast Falls in Love (`.../4489`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | A Man of Virtue (`.../2056`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | A Man of Virtue (`.../2056`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Please, Just This Once! (`.../9300`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Dearest (SMS) (`.../7291`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | A Man of Virtue (`.../2056`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | A Man of Virtue (`.../2056`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 61 | Chapter 1 (`.../chapter-1`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 16 |  |  | <1s |
+| pages | `getPageList(chapter)` | success | 16 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 16 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://images.mangamaniacs.org/.../2021-09-24_14-55-13.951Z_00_866c89aece764db0169275ccae5ab0c7.jpeg` (image/jpeg, 219917 bytes, 720x4302) |  |  |  |

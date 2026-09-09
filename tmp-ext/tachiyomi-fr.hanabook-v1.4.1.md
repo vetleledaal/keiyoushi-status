@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-fr.hanabook-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 28
 - Lint: 3
-- Warnings: 1
+- Warnings: 2
 - Skipped: 4
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -19,17 +19,17 @@
 - Source ID: 4125236041054867131
 - Source name: Hana Book
 - Source language: fr
-- Selected manga input: popular offset 0: Cherry Bullet Adolescence (`.../2279`)
+- Selected manga input: popular offset 0: Slip (`.../2262`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 45 | Cherry Bullet Adolescence (`.../2279`) |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 48 | Slip (`.../2262`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 7 | L'amour brûlant de mon boss (`.../2361`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 8 | Second virgin (`.../2288`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Cherry Bullet Adolescence (`.../2279`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Cherry Bullet Adolescence (`.../2279`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 1 | Cherry Bullet Adolescence (`.../2279 <redacted query values: n>`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Slip (`.../2262`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Slip (`.../2262`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 1 | Slip (`.../2262 <redacted query values: n>`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 20 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -42,26 +42,24 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 45 entries |  |  |  |
-| latest listing | PASS | 7 entries |  |  |  |
-| search listing | LINT | Matched selected manga by title at result offset 0: title=Cherry Bullet Adolescence, URL=`.../2279` |  |  |  |
+| popular listing | PASS | 48 entries |  |  |  |
+| latest listing | PASS | 8 entries |  |  |  |
+| search listing | LINT | Matched selected manga by title at result offset 0: title=Slip, URL=`.../2262` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 53/53 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 53/53 manga have thumbnail URLs |  |  |  |
-| duplicate thumbnail URLs | UNUSUAL | Thumbnail URLs used by different manga URLs: `https://www.boys-loves.fr/.../2279.jpg` -> 2 manga URLs (examples: `.../2279`, `.../2279`) |  |  |  |
-| thumbnail | PASS | `https://www.boys-loves.fr/.../2279.jpg` (image/jpeg, 124076 bytes, 600x831) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../2279` |  |  |  |
-| details thumbnail URL | PASS | `https://www.boys-loves.fr/.../2279.jpg` |  |  |  |
-| details author | PASS | Natsuwo |  |  |  |
+| manga title and URL | PASS | 57/57 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 57/57 manga have thumbnail URLs |  |  |  |
+| duplicate thumbnail URLs | UNUSUAL | Thumbnail URLs used by different manga URLs: `https://www.boys-loves.fr/.../2262.jpg` -> 2 manga URLs (examples: `.../2262`, `.../2262`) |  |  |  |
+| thumbnail | PASS | `https://www.boys-loves.fr/.../2262.jpg` (image/jpeg, 58699 bytes, 600x831) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../2262` |  |  |  |
+| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://www.boys-loves.fr/.../cover.jpg` (image/jpeg, 48504 bytes, 460x654) |  |  |  |
+| details author | PASS | epaule |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | Yaoi (Boys' Love), Classique, Romance, School life |  |  |  |
+| details genres | PASS | Yaoi (Boys' Love), Classique, Romance, Drame |  |  |  |
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
-| details description | PASS | Asahi Unosawa, camarade de Azusa Ôtani, est un garçon plein d'innocence au visage d'ange et particulièrement attachant. Comme le prédisait son nom, c'est justement sa personnalité rayonnante et son visage éclatant qui ont envoûté Azusa, amour réciproque qui les entraîne rapidement à se mettre en couple.
-<br>Dans la fleur de leur adolescence, bien sûr que nos amoureux s'enlacent et s'embrassent à foison, mais l'expression virile sur le visage de Asahi lors de leur première nuit d'amour reste gravée dans la mémoire de Azusa... Voulant revoir cette facette de Asahi, Azusa essaie différents stratagèmes pour remettre Asahi en conditions, menant sa raison à rude épreuve.
-<br>Voici les débuts tant attendus de la mangaka Natsuwo, dans une romance adolescente pure, à l'aube des premiers ébats.<br><br>Tome 1/1<br><br>Collection: Hana Book<br>Éditeur VO: Julian Publishing<br>Parution: 26-08-2026<br>Public: 16 ans et plus<br><br>Le manga Cherry Bullet Adolescence, connu au Japon sous le titre Shishunki Cherry Bullet, est publié en France par les éditions Boy's Love, sous la collection Hana Book. Le premier tome est prévu pour une sortie le 11 septembre 2026 sur le marché francophone.<br><br>Concernant sa publication originale au Japon, les recherches indiquent qu'il s'agit d'une œuvre de Natsuwo, mais les détails précis concernant le magazine de prépublication spécialisé Yaoi et l'éditeur japonais n'ont pas été explicitement trouvés dans les sources consultées. Il est courant pour les titres BL d'être prépubliés dans des magazines dédiés avant d'être compilés en volumes reliés.<br><br>Le nombre de tomes pour la série n'est pas clairement établi comme une série longue, le premier tome étant présenté comme les débuts de la mangaka, ce qui suggère qu'il pourrait s'agir d'un one-shot ou d'une série courte.<br><br>Auteur(s):<br>Natsuwo est une mangaka dont l'œuvre Cherry Bullet Adolescence marque des débuts très attendus dans le paysage du Boys' Love. Son style se distingue par une approche délicate et une exploration des premiers émois amoureux, comme en témoigne cette romance adolescente. Bien que les informations détaillées sur son parcours et ses œuvres antérieures soient encore en cours de diffusion pour le public francophone, Cherry Bullet Adolescence est présenté comme une œuvre inaugurale prometteuse, posant les bases d'une carrière axée sur les récits sentimentaux masculins.<br><br>Adaptations:<br>À ce jour, aucune adaptation en anime, film, OAV, jeu vidéo ou spin-off n'a été annoncée pour le manga Cherry Bullet Adolescence. Le format Drama CD est une adaptation courante pour les œuvres Boys' Love au Japon, permettant de donner vie aux personnages et aux scènes par le biais de la voix et de la musique. Cependant, aucune information spécifique n'indique l'existence d'un Drama CD pour cette œuvre en particulier.<br><br>Réception:<br>Étant donné la date de parution très récente ou à venir du manga Cherry Bullet Adolescence en France (septembre 2026), et l'absence d'informations détaillées sur sa réception au Japon dans les résultats de recherche actuels, il est difficile de fournir un bilan exhaustif des prix reçus, des critiques spécifiques ou des chiffres de ventes Oricon pour cette œuvre en particulier. Les prix tels que les Chil Chil BL Awards sont des indicateurs majeurs de la popularité et de la reconnaissance dans la communauté Boys' Love au Japon, mais aucune mention de Cherry Bullet Adolescence parmi les lauréats n'a été trouvée. Néanmoins, la publication par un éditeur spécialisé dans le Boys' Love en France, Boy's Love, témoigne d'un potentiel d'attrait pour le public francophone amateur du genre. |  |  |  |
+| details description | PASS | Minori, quarante ans et célibataire, est le président d'une entreprise de design. Lors d'un mariage, il croise un ancien ami et camarade de classe d'université, Takuya, dont il est toujours amoureux.<br>À son âge, Minori est plutôt doué pour cacher ses sentiments, mais dès le moment où Takuya le touche, il ne peut pas résister...<br>Une histoire d'amour entre deux hommes riches et sexy qui pensent déjà avoir tout vu de la vie !<br><br>Tome 1/1<br><br>Collection: Hana Book<br>Éditeur VO: Julian Publishing<br>Parution: 28-05-2026<br>Public: +18 ans<br><br>L'œuvre originale, intitulée « スリップ » (Slip), a vu le jour au Japon en 2025. Il s'agit d'un webcomic de type Yaoi, prépublié sous le label « arca comics », une empreinte éditoriale spécialisée dans les récits Boys' Love. L'édition originale est publiée par Julian au Japon, et se compose d'un unique volume, marquant ainsi une histoire complète. En France, les droits ont été acquis par Hana (Hana Book), qui prévoit la publication du premier tome en 2026.<br><br>Auteur(s):<br>epaule est une mangaka japonaise dont le parcours, bien que relativement récent avec des débuts en 2022, s'inscrit déjà dans le paysage du Boys' Love. Reconnue pour son trait délicat et sa capacité à explorer les nuances des relations masculines, elle s'est rapidement distinguée dans le genre Yaoi. Bien que les informations détaillées sur ses œuvres antérieures soient limitées, « Slip » confirme son orientation vers des récits romantiques et intimes.<br><br>Adaptations:<br>À ce jour, « Slip » de epaule n'a fait l'objet d'aucune adaptation en anime, film, OAV, drama CD ou jeu vidéo. Aucun spin-off n'a été annoncé pour cette licence.<br><br>Réception:<br>Bien que « Slip » soit une œuvre relativement récente, elle a déjà su capter l'attention de la communauté Boys' Love. Sur des plateformes dédiées, le manga affiche une note moyenne de 8.47 sur 10, basée sur un nombre significatif de votes, témoignant d'une réception positive et d'un engouement certain de la part des lecteurs. Cette appréciation souligne la qualité de son récit et la justesse de son approche des dynamiques amoureuses masculines, confirmant son potentiel à devenir un titre apprécié au sein du genre Yaoi. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | PASS | 1 chapters |  |  |  |
 | chapter dates | LINT | All 1 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1 |  |  |  |
@@ -71,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 20 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://www.boys-loves.fr/.../bl-img <redacted query values: p and k>` (image/jpeg, 184100 bytes, 830x1170; server Content-Type: image/jpg) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://www.boys-loves.fr/.../bl-img <redacted query values: p and k>` (image/jpeg, 142785 bytes, 830x1170; server Content-Type: image/jpg) |  |  |  |

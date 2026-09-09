@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.orionscans-v1.6.27
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,21 +16,22 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: iken
 - Source ID: 7776050777496310004
 - Source name: Orion Scans
 - Source language: en
-- Selected manga input: latest offset 0: Little Fenrir and the Huge Dungeon (`.../little-fenrir-and-the-huge-dungeon`)
+- Selected manga input: popular offset 0: A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires (`.../a-livid-lady's-guide-to-getting-even:-how-i-crushed-my-homeland-with-my-mighty-grimoires`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 18 | A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires (`.../a-livid-lady's-guide-to-getting-even:-how-i-crushed-my-homeland-with-my-mighty-grimoires`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 18 | The Lowest Adventurer. When the Guild is Expelled, Efforts Are Rewarded and He Gets (Unconditional Victory) (`.../the-lowest-adventurer.-when-the-guild-is-expelled-efforts-are-rewarded-and-he-gets-(unconditional-victory)`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 18 | Little Fenrir and the Huge Dungeon (`.../little-fenrir-and-the-huge-dungeon`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 18 | MMO! Playing the Game Freely Led to Superhuman Abilities (`.../mmo!-playing-the-game-freely-led-to-superhuman-abilities`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Little Fenrir and the Huge Dungeon (`.../little-fenrir-and-the-huge-dungeon`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Little Fenrir and the Huge Dungeon (`.../little-fenrir-and-the-huge-dungeon`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 2 | Chapter 1 (`.../chapter-1`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 42 |  |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 18 | A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires (`.../a-livid-lady's-guide-to-getting-even:-how-i-crushed-my-homeland-with-my-mighty-grimoires`) |  | <1s |
+| popular_next | `getPopularManga(2)` | success | 18 | The Kicked Out S-Rank Appraiser Creates the Strongest Guild (`.../the-kicked-out-s-rank-appraiser-creates-the-strongest-guild`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 18 | I Swapped Bodies with a Wicked Witch, but Today I'll Keep Having Fun! (`.../i-swapped-bodies-with-a-wicked-witch-but-today-i'll-keep-having-fun!`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 18 | The Noble's Third Son, From a Dummy to the Strongest Mage (`.../the-noble's-third-son-from-a-dummy-to-the-strongest-mage`) |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires (`.../a-livid-lady's-guide-to-getting-even:-how-i-crushed-my-homeland-with-my-mighty-grimoires`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires (`.../a-livid-lady's-guide-to-getting-even:-how-i-crushed-my-homeland-with-my-mighty-grimoires`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 18 | Chapter 43 (`.../chapter-43`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 31 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,7 +45,7 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 18 entries |  |  |  |
 | latest listing | PASS | 18 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Little Fenrir and the Huge Dungeon, URL=`little-fenrir-and-the-huge-dungeon#221` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires, URL=`a-livid-lady's-guide-to-getting-even:-how-i-crushed-my-homeland-with-my-mighty-grimoires#135` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
@@ -52,21 +53,22 @@
 | manga title and URL | PASS | 73/73 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 73/73 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://storage.orion-scans.com/.../91bd16a9-6b4c-4826-b976-27faa44437b8.jpg` (image/jpeg, 459713 bytes, 848x1216) |  |  |  |
-| details identity | PASS | Details preserved selected URL `little-fenrir-and-the-huge-dungeon#221` |  |  |  |
-| details thumbnail URL | PASS | `https://storage.orion-scans.com/.../91bd16a9-6b4c-4826-b976-27faa44437b8.jpg` |  |  |  |
-| details author | PASS | Nemuri Gunji |  |  |  |
-| details artist | PASS | null |  |  |  |
-| details genres | PASS | Manga, Adventure, comedy, Fantasy, Slice of Life, action |  |  |  |
+| thumbnail | PASS | `https://storage.orion-scans.com/.../d35595a7-3497-442f-82cf-049c5c80b2ea.jpg` (image/jpeg, 816883 bytes, 864x1229) |  |  |  |
+| details identity | PASS | Details preserved selected URL `a-livid-lady's-guide-to-getting-even:-how-i-crushed-my-homeland-with-my-mighty-grimoires#135` |  |  |  |
+| details thumbnail URL | PASS | `https://storage.orion-scans.com/.../d35595a7-3497-442f-82cf-049c5c80b2ea.jpg` |  |  |  |
+| details author | PASS | Hagure Metabo |  |  |  |
+| details artist | PASS | OONO Imo |  |  |  |
+| details genres | PASS | Manga, Shounen, Drama, Adventure, Fantasy |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | Yasuhiro Nakano was a salaryman at a black company who once aspired to become a Tame Seeker. One day, he receives an egg left behind by his great-grandfather and, following his last will and testament, visits the World Tree dungeon. There, he is saved from a monster attack by an SS-rank Fenrir that hatches from the egg! With "Fukumaro," a creature who can somehow understand his language, as his partner, he decides to start his journey as a seeker once again. "Together with my companions, I will definitely reach the deepest part of the World Tree!" Bonding with monsters and meeting new allies, he heads toward unknown floors! An exciting dungeon-crawling fantasy about a former salaryman and his incredibly cute and reliable tamed monsters! |  |  |  |
+| details description | PASS | From J-Novel Club: Elizabeth Leiston, the daughter of Haldoria’s powerful prime minister, is the picture of a refined noble lady and the perfect future queen. But when her fiancé publicly humiliates her, calls off their engagement, and starts spreading nasty rumors about her, Elizabeth reaches her breaking point. Why should her only friend be her loyal maid, and why should she continue to serve a country that doesn’t respect her? Elizabeth concludes she won't stand it any longer and will bring down the kingdom, even if it's the last thing she does! As such, she uses her quick wit and, more importantly, her seven magic grimoires to embark on a quest for revenge. And let her tell you, there will be hell to pay!<br><br>Alternative Names: A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires / Buchigire Reijou wa Houfuku wo Chikaimashita. / ブチ切れ令嬢は報復を誓いました。　～魔導書の力で祖国を叩き潰します～ / 열받은 영애는 복수를 다짐했습니다 ~마도서의 힘으로 조국을 부숴버릴게요~ |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 2 chapters |  |  |  |
-| chapter dates | PASS | 2 positive upload dates |  |  |  |
+| chapters | PASS | 18 chapters |  |  |  |
+| chapter dates | PASS | 18 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 42 HTTP page URLs |  |  |  |
+| page URLs | PASS | 31 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://storage.orion-scans.com/.../page-0001_0_1788331752436-97400.png` (image/png, 1341863 bytes, 1024x1044) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://storage.orion-scans.com/.../page-0001_0_1783569234772-871525.jpg` (image/jpeg, 309129 bytes, 1024x1044) |  |  |  |

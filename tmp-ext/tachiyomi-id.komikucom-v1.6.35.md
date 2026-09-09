@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.komikucom-v1.6.35
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 12 | Solo Leveling (`.../060624-solo-leveling`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 12 | I Have 90 Billion Licking Gold (`.../i-have-90-billion-licking-gold`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 12 | Trauma Center: Surgeon Baek Kang-Hyeok (`.../trauma-center-surgeon-baek-kang-hyeok`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 12 | World-Saving Is A Skill (`.../world-saving-is-a-skill`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 12 | Nano Machine (`.../nano-machine`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 12 | All My Alter Egos Are Tycoons (`.../all-my-alter-egos-are-tycoons`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 3 | Solo Leveling (`.../060624-solo-leveling`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Solo Leveling (`.../060624-solo-leveling`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 185 | Chapter 0 (`.../233898`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 17 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdnkomiku.xyz/.../a11dfd1e099f342d5fe597c54d1641f3.jpg` (image/jpeg, 611535 bytes, 800x9790) |  |  |  |

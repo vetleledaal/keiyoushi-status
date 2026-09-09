@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.hentaikisu-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 29
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 30
 - Lint: 1
 - Warnings: 1
 - Skipped: 5
@@ -30,7 +30,7 @@
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Maa... Sounee (`.../39054`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Maa... Sounee (`.../39054`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 1 | Chapter (`.../39054`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 25 |  |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 25 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 25 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://h1.kmcdn.top/.../0.jpg` (image/jpeg, 86346 bytes, 910x1326) |  |  |  |

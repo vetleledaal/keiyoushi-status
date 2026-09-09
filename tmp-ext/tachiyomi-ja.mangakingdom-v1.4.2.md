@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.mangakingdom-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 22
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 23
 - Lint: 0
 - Warnings: 1
 - Skipped: 12
@@ -19,16 +19,16 @@
 - Source ID: 3806352284314527898
 - Source name: Manga Kingdom
 - Source language: ja
-- Selected manga input: popular offset 0: 軍人婿さんと大根嫁さん (`.../195262`)
+- Selected manga input: popular offset 0: あなたのお城の小人さん　～御飯下さい、働きますっ～（コミック） (`.../207506`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 100 | 軍人婿さんと大根嫁さん (`.../195262`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 100 | あなたのお城の小人さん　～御飯下さい、働きますっ～（コミック） (`.../207506`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 100 | カモフラージュ夫婦【フルカラー】【タテヨミ】 (`.../178659`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 100 | あなたと奏でるカプリッチオ【タテヨミ】 (`.../240441`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 軍人婿さんと大根嫁さん (`.../195262`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | 軍人婿さんと大根嫁さん (`.../195262`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 100 | 美醜の大地～復讐のために顔を捨てた女～（分冊版） (`.../97553`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 100 | 刀剣乱舞 あうとどあ異聞 刀剣野営(話売り) (`.../180298`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 3 | あなたのお城の小人さん　～御飯下さい、働きますっ～（コミック） (`.../207506`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | あなたのお城の小人さん　～御飯下さい、働きますっ～（コミック） (`.../207506`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | error | 0 |  | java.lang.NullPointerException | 1-10s |
 | pages | `fetchPageList(chapter)` | skipped | 0 |  |  | <1s |
 
@@ -44,20 +44,20 @@
 | pages operation | SKIP | No usable chapter was available |  |  |  |
 | popular listing | PASS | 100 entries |  |  |  |
 | latest listing | PASS | 100 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=軍人婿さんと大根嫁さん, URL=`195262` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=あなたのお城の小人さん　～御飯下さい、働きますっ～（コミック）, URL=`207506` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 301/301 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 301/301 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 303/303 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 303/303 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://cf.image-cdn.k-manga.jp/.../b195262_10_200.jpg` (image/jpeg, 27023 bytes, 200x285) |  |  |  |
-| details identity | PASS | Details preserved selected URL `195262` |  |  |  |
-| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://cf.image-cdn.k-manga.jp/.../b195262_1_320.jpg` (image/jpeg, 50560 bytes, 320x455) |  |  |  |
-| details author | PASS | コマkoma |  |  |  |
+| thumbnail | PASS | `https://cf.image-cdn.k-manga.jp/.../b207506_5_200.jpg` (image/jpeg, 24485 bytes, 200x284) |  |  |  |
+| details identity | PASS | Details preserved selected URL `207506` |  |  |  |
+| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://cf.image-cdn.k-manga.jp/.../b207506_1_320.jpg` (image/jpeg, 50879 bytes, 320x455) |  |  |  |
+| details author | PASS | 美袋和仁, п猫R, 栗原一実 |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | 女性漫画, 恋愛 |  |  |  |
+| details genres | PASS | 女性漫画, SF・ファンタジー |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | null |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

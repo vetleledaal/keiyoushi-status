@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.manhwa68-v1.6.57
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 1
 - Warnings: 2
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 2676315620251021475
 - Source name: Manhwa68
 - Source language: en
@@ -26,7 +27,7 @@
 | popular | `getPopularManga(1)` | success | 25 | Secret Class (`.../974`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Banging My Aunt (`.../1310`) |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 25 | Simple Yet Sexy (`.../2218`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Room of Guilty Pleasure (`.../10282`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Room of Guilty Pleasure (`.../10282`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 25 | Secret Class HOT (`.../8723`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Secret Class HOT (`.../974`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 295 | Chapter 1 (`.../chapter-1`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 16 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.manhwa68.com/.../ch_0_1.jpg` (image/jpeg, 555348 bytes, 720x12500) |  |  |  |

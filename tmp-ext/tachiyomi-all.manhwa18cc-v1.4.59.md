@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.manhwa18cc-v1.4.59
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.a
+- Source theme: madaralegacy
 - Source ID: 4841602236575491202
 - Source name: Manhwa18.cc
 - Source language: en
@@ -24,12 +25,12 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 23 | Keep it a secret from your mother! (`.../keep-it-a-secret-from-your-mother-01`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 22 | My Landlady Noona (`.../my-landlady-noona-01`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 21 | I Banged All My Classmates After Graduation (`.../i-banged-all-my-classmates-after-graduation`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 14 | Mount Hua Sect’s Genius Phantom Swordsman (`.../mount-hua-sects-genius-phantom-swordsman`) |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Keep it a secret from your mother! (`.../keep-it-a-secret-from-your-mother-01`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Keep it a secret from your mother! (`.../keep-it-a-secret-from-your-mother-01`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 112 | Chapter 1 (`https://manhwa18.cc/.../chapter-1 <redacted query values: style>`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 22 | My Landlady Noona (`.../my-landlady-noona-01`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 14 | Genius Prismatic Mage (`.../genius-prismatic-mage`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 24 | Return of the Mount Hua Sect (`.../return-of-the-mount-hua-sect`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Keep it a secret from your mother! (`.../keep-it-a-secret-from-your-mother-01`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Keep it a secret from your mother! (`.../keep-it-a-secret-from-your-mother-01`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 112 | Chapter 1 (`https://manhwa18.cc/.../chapter-1 <redacted query values: style>`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 62 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -43,14 +44,14 @@
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 23 entries |  |  |  |
-| latest listing | PASS | 21 entries |  |  |  |
+| latest listing | PASS | 14 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Keep it a secret from your mother!, URL=`.../keep-it-a-secret-from-your-mother-01` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 81/81 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 81/81 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 84/84 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 84/84 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://manhwa18.cc/.../keep-it-a-secret-from-your-motherm.jpg` (image/jpeg, 12956 bytes, 187x300) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../keep-it-a-secret-from-your-mother-01` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 62 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://img01.manhwa18.cc/.../1-534.jpg` (image/jpeg, 359157 bytes, 719x2975) |  |  |  |

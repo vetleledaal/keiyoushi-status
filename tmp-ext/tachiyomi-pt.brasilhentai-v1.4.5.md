@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.brasilhentai-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 28
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 29
 - Lint: 2
 - Warnings: 0
 - Skipped: 5
@@ -19,18 +19,18 @@
 - Source ID: 8020430975962445741
 - Source name: Brasil Hentai
 - Source language: pt-BR
-- Selected manga input: popular offset 0: Minha Vida Sexual em Tóquio ~A Senhoria E Sua Filha 1 (`.../minha-vida-sexual-em-toquio-a-senhoria-e-sua-filha-1`)
+- Selected manga input: popular offset 0: A História da Pessoa Que Eu Achava Ser Um Cara na Rede Social (`.../a-historia-da-pessoa-que-eu-achava-ser-um-cara-na-rede-social`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 8 | Minha Vida Sexual em Tóquio ~A Senhoria E Sua Filha 1 (`.../minha-vida-sexual-em-toquio-a-senhoria-e-sua-filha-1`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 8 | Eu, Um Universitário, Acabei Gozando Sem Camisinha (`.../eu-um-universitario-acabei-gozando-sem-camisinha`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 8 | A História da Pessoa Que Eu Achava Ser Um Cara na Rede Social (`.../a-historia-da-pessoa-que-eu-achava-ser-um-cara-na-rede-social`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 8 | Pousada Feminina 3 (`.../pousada-feminina-3`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 7 | Dando uma Ajudinha para o Sogro (`.../dando-uma-ajudinha-para-o-sogro`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Minha Vida Sexual em Tóquio ~A Senhoria E Sua Filha 1 (`.../minha-vida-sexual-em-toquio-a-senhoria-e-sua-filha-1`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 1 | Capítulo único (`.../minha-vida-sexual-em-toquio-a-senhoria-e-sua-filha-1`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 67 |  |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | A História da Pessoa Que Eu Achava Ser Um Cara na Rede Social (`.../a-historia-da-pessoa-que-eu-achava-ser-um-cara-na-rede-social`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 1 | Capítulo único (`.../a-historia-da-pessoa-que-eu-achava-ser-um-cara-na-rede-social`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 46 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -52,9 +52,9 @@
 | manga title and URL | PASS | 23/23 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 23/23 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://brasilhentai.com/.../Minha-Vida-Sexual-CAPA.jpg` (image/jpeg, 32375 bytes, 600x848) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../minha-vida-sexual-em-toquio-a-senhoria-e-sua-filha-1` |  |  |  |
-| details thumbnail URL | PASS | `https://brasilhentai.com/.../Minha-Vida-Sexual-CAPA.jpg` |  |  |  |
+| thumbnail | PASS | `https://brasilhentai.com/.../Pessoa-Achava-CAPA.jpg` (image/jpeg, 50656 bytes, 600x834) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../a-historia-da-pessoa-que-eu-achava-ser-um-cara-na-rede-social` |  |  |  |
+| details thumbnail URL | PASS | `https://brasilhentai.com/.../Pessoa-Achava-CAPA.jpg` |  |  |  |
 | details author | PASS | null |  |  |  |
 | details artist | PASS | null |  |  |  |
 | details genres | PASS | null |  |  |  |
@@ -67,6 +67,7 @@
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 67 HTTP page URLs |  |  |  |
+| page URLs | PASS | 46 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://brasilhentai.com/.../Minha-Vida-Sexual-01.jpg` (image/jpeg, 100201 bytes, 849x1200) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://brasilhentai.com/.../Pessoa-Achava-01.jpg` (image/jpeg, 163729 bytes, 863x1200) |  |  |  |

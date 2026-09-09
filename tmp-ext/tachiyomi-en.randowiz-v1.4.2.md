@@ -2,12 +2,12 @@
 
 - Extension: tachiyomi-en.randowiz-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 24
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 19
 - Lint: 0
 - Warnings: 0
-- Skipped: 11
+- Skipped: 17
 - Failed: 1
 - Retry disposition: REVIEW
 
@@ -29,8 +29,8 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Randowiz: We live in an MMO!? (`.../we-live-in-an-mmo`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Randowiz: We live in an MMO!? (`.../we-live-in-an-mmo`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 12 | We Live In An MMO?! – CHAPTER 6 (`.../we-live-in-an-mmo-chapter-6`) |  | <1s |
-| pages | `fetchPageList(chapter)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
+| chapters | `fetchChapterList(manga)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | 1-10s |
+| pages | `fetchPageList(chapter)` | skipped | 0 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -40,8 +40,8 @@
 | latest_next operation | SKIP | supportsLatest = false |  |  |  |
 | search operation | PASS |  |  |  |  |
 | details operation | PASS |  |  |  |  |
-| chapters operation | PASS |  |  |  |  |
-| pages operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | REVIEW | INSUFFICIENT_EVIDENCE |  |
+| chapters operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | REVIEW | INSUFFICIENT_EVIDENCE |  |
+| pages operation | SKIP | No usable chapter was available |  |  |  |
 | popular listing | PASS | 3 entries |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Randowiz: We live in an MMO!?, URL=`.../we-live-in-an-mmo` |  |  |  |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | The world of 'Mamuon' where players and NPC's live together in harmony. Or do they? DO THEY? |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 12 chapters |  |  |  |
-| chapter dates | PASS | 12 positive upload dates |  |  |  |
-| chapter titles | PASS |  |  |  |  |
-| chapter URLs | PASS |  |  |  |  |
-| duplicate chapter URLs | PASS |  |  |  |  |
+| chapters | SKIP | Chapters did not run successfully |  |  |  |
+| chapter dates | SKIP | No chapters to check |  |  |  |
+| chapter titles | SKIP | No chapters to check |  |  |  |
+| chapter URLs | SKIP | No chapters to check |  |  |  |
+| duplicate chapter URLs | SKIP | No chapters to check |  |  |  |
 | page indices | SKIP | No pages to check |  |  |  |
-| page URLs | SKIP | HTTP error 403 |  |  |  |
+| page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-all.mayotune-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 31
-- Lint: 1
-- Warnings: 0
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 30
+- Lint: 2
+- Warnings: 1
 - Skipped: 4
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -19,7 +19,7 @@
 - Source ID: 1480743237782384863
 - Source name: MayoTune
 - Source language: en
-- Selected manga input: latest offset 0: Tune In to the Midnight Heart (`<redacted URL #1: manga resource; relative; no scheme>`)
+- Selected manga input: popular offset 0: Tune In to the Midnight Heart (`<redacted URL #1: manga resource; relative; no scheme>`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
@@ -28,8 +28,8 @@
 | latest | `fetchLatestUpdates(1)` | success | 1 | Tune In to the Midnight Heart (`<redacted URL #1: selected resource; relative; no scheme>`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Tune In to the Midnight Heart (`<redacted URL #1: selected resource; relative; no scheme>`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Tune In to the Midnight Heart (`<redacted URL #1: selected resource; relative; no scheme>`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 129 | Chapter 1: RE:START (`.../chapters <redacted query values: id and number>`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Tune In to the Midnight Heart (`<redacted URL #1: selected resource; relative; no scheme>`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 130 | Chapter 1: RE:START (`.../chapters <redacted query values: id and number>`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 54 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | When Arisu Yamabuki was all alone in bed at night, he was able to find solace in the voice of a radio host who went by "Apollo." However, one day, she simply stopped broadcasting without any explanation. Years then passed, and Arisu is now a second-year high-schooler. He makes it his mission to search for Apollo, as there is something he wants to tell her. He doesn't know what she looks like, or even what her real name is, but he manages to get some leads on her in his school's broadcasting club. That's where he meets four girls who all dream to get a job where they can make full use of their voices! Just who is Apollo, and how will those four's dreams pan out? |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 129 chapters |  |  |  |
-| chapter dates | PASS | 129 positive upload dates |  |  |  |
+| chapters | PASS | 130 chapters |  |  |  |
+| chapter dates | LINT | 1 of 130 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 54 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | chapters: `https://mayochuu.xyz/.../chapters` to `https://mayochuu.xyz/.../chapters` (1 redirects); pages: `https://mayochuu.xyz/.../chapters <redacted query values: id and number>` to `https://mayochuu.xyz/.../chapters <redacted query values: id and number>` (1 redirects) |  |  |  |
 | page load | PASS | `https://mayochuu.xyz/.../1` (image/jpeg, 580226 bytes, 960x1378) |  |  |  |

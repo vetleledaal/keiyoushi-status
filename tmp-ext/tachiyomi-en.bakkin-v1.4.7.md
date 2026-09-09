@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.bakkin-v1.4.7
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 28
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 29
 - Lint: 1
 - Warnings: 0
 - Skipped: 7
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: bakkin
 - Source ID: 2005076600562293471
 - Source name: Bakkin
 - Source language: en
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 4 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://bakkin.moe/.../img_YRYR_V1_001.jpg.jpg` (image/jpeg, 198308 bytes, 1800x780) |  |  |  |

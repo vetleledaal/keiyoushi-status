@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.ngamenkomik-v1.6.15
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 29
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 30
 - Lint: 2
 - Warnings: 1
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 4607768416266139943
 - Source name: NgamenKomik
 - Source language: id
@@ -23,13 +24,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 9 | Webtoon Character Na Kang Lim (`.../webtoon-character-na-kang-lim_9.html`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 8 | Webtoon Character Na Kang Lim (`.../webtoon-character-na-kang-lim_9.html`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 13 | Xuanmen Prodigal Son (`.../xuanmen-prodigal-son.html`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Webtoon Character Na Kang Lim (`.../webtoon-character-na-kang-lim_9.html`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Webtoon Character Na Kang Lim (`.../webtoon-character-na-kang-lim_9.html`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 123 | Chapter 50 (`.../chapter-00.html`) |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Webtoon Character Na Kang Lim (`.../webtoon-character-na-kang-lim_9.html`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Webtoon Character Na Kang Lim (`.../webtoon-character-na-kang-lim_9.html`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 123 | Chapter 50 (`.../chapter-00.html`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 12 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -42,15 +43,15 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 9 entries |  |  |  |
+| popular listing | PASS | 8 entries |  |  |  |
 | latest listing | PASS | 13 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Webtoon Character Na Kang Lim, URL=`.../webtoon-character-na-kang-lim_9.html` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 23/23 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 23/23 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 22/22 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 22/22 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://blogger.googleusercontent.com/.../%EC%88%98%EC%9A%94%EC%9B%B9%ED%88%B0%EC%9D%98%20%EB%82%98%EA%B0%95%EB%A6%BC.jpg` (image/jpeg, 19880 bytes, 154x200) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../webtoon-character-na-kang-lim_9.html` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 12 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../000.jpg` (image/jpeg, 360131 bytes, 1600x1200) |  |  |  |

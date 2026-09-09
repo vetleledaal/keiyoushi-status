@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.doujinio-v1.6.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 27
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 7
 - Failed: 2
 - Retry disposition: RETRY_NOW
@@ -19,17 +19,17 @@
 - Source ID: 2738692054520731722
 - Source name: Doujin.io - J18
 - Source language: en
-- Selected manga input: popular offset 0: Devilish Punishment Game (`.../89367826`)
+- Selected manga input: popular offset 0: r[E]:2B9S (`.../778577755`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 10 | Devilish Punishment Game (`.../89367826`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 10 | r[E]:2B9S (`.../778577755`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 20 | Devilish Punishment Game (`.../89367826`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 20 | Five Seconds Before I Died (`.../288449525`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 20 | r[E]:2B9S (`.../778577755`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 20 | Don't Feed the Trolls (`.../1405262504`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 500 | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Devilish Punishment Game (`.../89367826`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | ⁣Devilish Punishment Game (`.../558917415`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | r[E]:2B9S (`.../778577755`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | ⁣r[E]:2B9S (`.../1247207788`) |  | 1-10s |
 | pages | `getPageList(chapter)` | error | 0 |  | java.lang.IllegalStateException: Login through WebView to read | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -52,14 +52,14 @@
 | manga title and URL | PASS | 50/50 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 50/50 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://ecchi.b-cdn.net/.../thumb_jpeg` (image/jpeg, 39811 bytes, 500x700) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../89367826` |  |  |  |
+| thumbnail | PASS | `https://ecchi.b-cdn.net/.../thumb_jpeg` (image/jpeg, 46821 bytes, 500x700) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../778577755` |  |  |  |
 | details thumbnail URL | PASS | `https://ecchi.b-cdn.net/.../thumb_jpeg` |  |  |  |
 | details author | PASS | null |  |  |  |
-| details artist | PASS | Beijuu |  |  |  |
-| details genres | PASS | Defloration, Petite |  |  |  |
+| details artist | PASS | Aoin |  |  |  |
+| details genres | PASS | Creampie |  |  |  |
 | details status | PASS | COMPLETED (2) |  |  |  |
-| details description | PASS | Mutsuki has locked up Sensei's computer, and the combination is somewhere on her body! If Sensei can't find it, he'll be subject to a punishment game... |  |  |  |
+| details description | PASS | THIS     CAN     CONTINUE |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | PASS | 1 chapters |  |  |  |
 | chapter dates | PASS | 1 positive upload dates |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | Login through WebView to read |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://doujin.io/.../manifest` to `https://doujin.io/.../login` (1 redirects); popular: `https://ecchi.b-cdn.net/.../thumb_jpeg` to `https://doujin-io-manga.b-cdn.net/.../thumb_jpeg_3014b354-9151-4531-b636-5e9b05da6384.jpg` (1 redirects) |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

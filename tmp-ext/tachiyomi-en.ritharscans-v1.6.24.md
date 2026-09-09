@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.ritharscans-v1.6.24
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 29
 - Lint: 1
-- Warnings: 0
+- Warnings: 1
 - Skipped: 5
 - Failed: 1
 - Retry disposition: REVIEW
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: keyoapp
 - Source ID: 8220771912098311271
 - Source name: RitharScans
 - Source language: en
@@ -23,14 +24,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 5 | Geemu Chuuban De Shinu Akuyaku Kizoku Ni Tensei Shita Node, Hazure Skill "tame" Wo Kushi Shite Saikyou Wo Mezashite Mita (`.../3c5afb0a-0f72-4c33-a5fc-2113fdf48d9e`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 5 | Geemu Chuuban De Shinu Akuyaku Kizoku Ni Tensei Shita Node, Hazure Skill "tame" Wo Kushi Shite Saikyou Wo Mezashite Mita (`.../3c5afb0a-0f72-4c33-a5fc-2113fdf48d9e`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 262 | Geemu Chuuban De Shinu Akuyaku Kizoku Ni Tensei Shita Node, Hazure Skill "tame" Wo Kushi Shite Saikyou Wo Mezashite Mita (`.../3c5afb0a-0f72-4c33-a5fc-2113fdf48d9e`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Geemu Chuuban De Shinu Akuyaku Kizoku Ni Tensei Shita Node, Hazure Skill "tame" Wo Kushi Shite Saikyou Wo Mezashite Mita (`.../3c5afb0a-0f72-4c33-a5fc-2113fdf48d9e`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Geemu Chuuban De Shinu Akuyaku Kizoku Ni Tensei Shita Node, Hazure Skill "tame" Wo Kushi Shite Saikyou Wo Mezashite Mita (`.../3c5afb0a-0f72-4c33-a5fc-2113fdf48d9e`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 65 | Chapter 01 (`.../96035d57-f1bd-4431-a65b-35331a57367c`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 60 |  |  | <1s |
+| pages | `getPageList(chapter)` | success | 60 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 60 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://ritharscans.com/.../latest` to `https://ritharscans.com/.../latest` (1 redirects) |  |  |  |
 | page load | PASS | `https://ritharscans.com/.../001.jpg` (image/jpeg, 864842 bytes, 1115x1600) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.kmansin09-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 4046163527731172053
 - Source name: Kmansin09
 - Source language: ja
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 10 | 俺だけレベルアップな件 (`.../3540`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 10 | 剣術名家の末息子 (`.../3063`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 10 | 転生した暗殺者は剣術の天才 (`.../4993`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 10 | 鉄槌教師 (`.../752`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 10 | 外見至上主義 (`.../73`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 10 | 追放されたゲーマーは最強武器で無双する (`.../68`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 3 | 俺だけレベルアップな件〜ラグナロク〜 (`.../5420`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | 俺だけレベルアップな件 (`.../3540`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 217 | Chapter 第196話 (`.../chapter-196`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 217 | Chapter 第196話 (`.../chapter-196`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 10 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 10 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://kmansin09.top/.../Output1.jpg` (image/jpeg, 1117372 bytes, 760x15783) |  |  |  |

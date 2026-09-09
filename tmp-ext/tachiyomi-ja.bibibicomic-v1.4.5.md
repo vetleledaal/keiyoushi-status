@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.bibibicomic-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 0
 - Warnings: 1
 - Skipped: 2
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: comiciviewer
 - Source ID: 3726193166490568923
 - Source name: Bibibi Comic
 - Source language: ja
@@ -23,11 +24,11 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 32 | 超かぐやメシ！ (`.../41de76fc8df5f`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 31 | 超かぐやメシ！ (`.../41de76fc8df5f`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | 別世界ガール (`.../702a130522ef4`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 3 | ムーンブラッドに踊る (`.../a9a63e771874e`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 超かぐやメシ！ (`.../41de76fc8df5f`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 30 | ニナちゃんは浮きたくない (`.../bc81c39cf2eff`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 4 | エクストラ・エキストラ (`.../b93ce70810b5a`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 超かぐやメシ！ (`.../41de76fc8df5f`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | 超かぐやメシ！ (`.../41de76fc8df5f`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 1 | 0話 (`.../7e06f5b186c99`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 12 |  |  | 1-10s |
@@ -42,7 +43,7 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 32 entries |  |  |  |
+| popular listing | PASS | 31 entries |  |  |  |
 | latest listing | PASS | 30 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=超かぐやメシ！, URL=`.../41de76fc8df5f` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 12 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://viewer.bibibi-comic.com/.../master-1786013982189-01.jpg <redacted query values: Expires, Signature, and Key-Pair-Id> 0, 7, 10, 1, 8, 12, 5, 15, 14, 2, 9, 11, 4, 6, 3\]` (image/jpeg, 326402 bytes, 850x1200) |  |  |  |

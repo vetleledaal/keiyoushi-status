@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.questionablecontent-v1.4.10
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 25
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 26
 - Lint: 1
 - Warnings: 0
 - Skipped: 8
@@ -29,7 +29,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Questionable Content (`.../archive.php`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 5939 | See #1: "Employment Sucks" with newspost (`.../view.php <redacted query values: comic>`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 5946 | See #1: "Employment Sucks" with newspost (`.../view.php <redacted query values: comic>`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | An internet comic strip about romance and robots |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 5939 chapters |  |  |  |
-| chapter dates | LINT | 5938 of 5939 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=5938 |  |  |  |
+| chapters | PASS | 5946 chapters |  |  |  |
+| chapter dates | LINT | 5945 of 5946 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=5945 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
-| duplicate chapter URLs | FAIL | Duplicate chapter URLs: `.../view.php <redacted query values: comic>` at offsets 812, 814, `.../view.php <redacted query values: comic>` at offsets 836, 837, `.../view.php <redacted query values: comic>` at offsets 1094, 1095, `.../view.php <redacted query values: comic>` at offsets 1218, 1219, `.../view.php <redacted query values: comic>` at offsets 1302, 1303, `.../view.php <redacted query values: comic>` at offsets 1359, 1360, `.../view.php <redacted query values: comic>` at offsets 1362, 1363, `.../view.php <redacted query values: comic>` at offsets 1416, 1417, `.../view.php <redacted query values: comic>` at offsets 1478, 1479, `.../view.php <redacted query values: comic>` at offsets 1640, 1641, `.../view.php <redacted query values: comic>` at offsets 1680, 1681, `.../view.php <redacted query values: comic>` at offsets 2012, 2017, `.../view.php <redacted query values: comic>` at offsets 2026, 2027, `.../view.php <redacted query values: comic>` at offsets 2076, 2077, `.../view.php <redacted query values: comic>` at offsets 2173, 2174, `.../view.php <redacted query values: comic>` at offsets 2461, 2462, `.../view.php <redacted query values: comic>` at offsets 2463, 2464, `.../view.php <redacted query values: comic>` at offsets 2465, 2466, `.../view.php <redacted query values: comic>` at offsets 2491, 2492, `.../view.php <redacted query values: comic>` at offsets 2495, 2496, `.../view.php <redacted query values: comic>` at offsets 2666, 2667, `.../view.php <redacted query values: comic>` at offsets 2780, 2781, `.../view.php <redacted query values: comic>` at offsets 2914, 2915, `.../view.php <redacted query values: comic>` at offsets 2950, 2951, `.../view.php <redacted query values: comic>` at offsets 2976, 2977, `.../view.php <redacted query values: comic>` at offsets 3044, 3046, `.../view.php <redacted query values: comic>` at offsets 3068, 3069, `.../view.php <redacted query values: comic>` at offsets 3089, 3090, `.../view.php <redacted query values: comic>` at offsets 3098, 3099, `.../view.php <redacted query values: comic>` at offsets 3124, 3125, `.../view.php <redacted query values: comic>` at offsets 3165, 3166, `.../view.php <redacted query values: comic>` at offsets 3194, 3195, `.../view.php <redacted query values: comic>` at offsets 3203, 3204, `.../view.php <redacted query values: comic>` at offsets 3215, 3216, `.../view.php <redacted query values: comic>` at offsets 3229, 3230 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| duplicate chapter URLs | FAIL | Duplicate chapter URLs: `.../view.php <redacted query values: comic>` at offsets 819, 821, `.../view.php <redacted query values: comic>` at offsets 843, 844, `.../view.php <redacted query values: comic>` at offsets 1101, 1102, `.../view.php <redacted query values: comic>` at offsets 1225, 1226, `.../view.php <redacted query values: comic>` at offsets 1309, 1310, `.../view.php <redacted query values: comic>` at offsets 1366, 1367, `.../view.php <redacted query values: comic>` at offsets 1369, 1370, `.../view.php <redacted query values: comic>` at offsets 1423, 1424, `.../view.php <redacted query values: comic>` at offsets 1485, 1486, `.../view.php <redacted query values: comic>` at offsets 1647, 1648, `.../view.php <redacted query values: comic>` at offsets 1687, 1688, `.../view.php <redacted query values: comic>` at offsets 2019, 2024, `.../view.php <redacted query values: comic>` at offsets 2033, 2034, `.../view.php <redacted query values: comic>` at offsets 2083, 2084, `.../view.php <redacted query values: comic>` at offsets 2180, 2181, `.../view.php <redacted query values: comic>` at offsets 2468, 2469, `.../view.php <redacted query values: comic>` at offsets 2470, 2471, `.../view.php <redacted query values: comic>` at offsets 2472, 2473, `.../view.php <redacted query values: comic>` at offsets 2498, 2499, `.../view.php <redacted query values: comic>` at offsets 2502, 2503, `.../view.php <redacted query values: comic>` at offsets 2673, 2674, `.../view.php <redacted query values: comic>` at offsets 2787, 2788, `.../view.php <redacted query values: comic>` at offsets 2921, 2922, `.../view.php <redacted query values: comic>` at offsets 2957, 2958, `.../view.php <redacted query values: comic>` at offsets 2983, 2984, `.../view.php <redacted query values: comic>` at offsets 3051, 3053, `.../view.php <redacted query values: comic>` at offsets 3075, 3076, `.../view.php <redacted query values: comic>` at offsets 3096, 3097, `.../view.php <redacted query values: comic>` at offsets 3105, 3106, `.../view.php <redacted query values: comic>` at offsets 3131, 3132, `.../view.php <redacted query values: comic>` at offsets 3172, 3173, `.../view.php <redacted query values: comic>` at offsets 3201, 3202, `.../view.php <redacted query values: comic>` at offsets 3210, 3211, `.../view.php <redacted query values: comic>` at offsets 3222, 3223, `.../view.php <redacted query values: comic>` at offsets 3236, 3237 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://www.questionablecontent.net/.../1.png` (image/png, 209502 bytes, 510x1300) |  |  |  |

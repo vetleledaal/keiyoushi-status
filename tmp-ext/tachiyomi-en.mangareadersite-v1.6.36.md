@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangareadersite-v1.6.36
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangahub
 - Source ID: 2527199067559866087
 - Source name: MangaReader.site
 - Source language: en
@@ -25,12 +26,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 30 | Kimetsu no Yaiba (`.../kimetsu-no-yaiba_106`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 30 | Yuan Zun (`.../yuan-zun`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 30 | Shinka no Mi (`.../shinka-no-mi`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 30 | Kamen Rider W: Fuuto Tantei (`.../kamen-rider-w-fuuto-tantei`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Kimetsu no Yaiba (`.../kimetsu-no-yaiba_106`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Kimetsu no Yaiba (`.../kimetsu-no-yaiba_106`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 30 | Kengan Omega (`.../kengan-omega`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 30 | STAR WARS: Lost Stars (`.../star-wars-lost-stars`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Kimetsu no Yaiba (`.../kimetsu-no-yaiba_106`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Kimetsu no Yaiba (`.../kimetsu-no-yaiba_106`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 236 | Chapter 1 - Cruelty (`.../chapter-1.0`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 55 |  |  | <1s |
+| pages | `getPageList(chapter)` | success | 55 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 55 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://imgx.mghcdn.com/.../1.jpg` (image/jpeg, 243909 bytes, 728x1059) |  |  |  |

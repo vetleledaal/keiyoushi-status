@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.yskcomics-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 33
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7
+- Passed: 34
 - Lint: 1
 - Warnings: 0
 - Skipped: 2
@@ -23,14 +23,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 8 | Ghost Pepper (2025) (`.../ghost-pepper-2025`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 8 | Ghost Pepper (2025) (`.../ghost-pepper-2025`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 12 | American Caper (2025) (`.../american-caper-2025`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 12 | American Caper (2025) (`.../american-caper-2025`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | success | 12 | Ghost Pepper (2025) (`.../ghost-pepper-2025`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 10 | American Caper (2025) (`.../american-caper-2025`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | American Caper (2025) (`.../american-caper-2025`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 7 | #1 (`.../american-caper-2025-1`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 33 |  |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 10 | American Caper (2025) (`.../american-caper-2025`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | American Caper (2025) (`.../american-caper-2025`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 7 | #1 (`.../american-caper-2025-1`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 33 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 33 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.ysk-comics.com/.../1.jpg` (image/jpeg, 3995389 bytes, 3816x5868) |  |  |  |

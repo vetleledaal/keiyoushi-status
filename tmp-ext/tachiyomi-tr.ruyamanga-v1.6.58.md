@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-tr.ruyamanga-v1.6.58
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 35
 - Lint: 0
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 5786550835901373927
 - Source name: Rüya Manga
 - Source language: tr
@@ -24,9 +25,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Solo Leveling (`.../7394`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 25 | Mutlak Büyücü (`.../6538`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | KAIJU NO.8 (`.../6792`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | success | 25 | Hükümdarlık Yolu (`.../8570`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | SSS-Class Gacha Hunter (`.../8522`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Regressor’s Life After Retirement (`.../8520`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 4 | Solo Leveling: Ragnarok (`.../7612`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Solo Leveling (`.../7394`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 193 | Bölüm 0 (`.../bolum-0`) |  | <1s |
@@ -47,7 +48,7 @@
 | search listing | PASS | Matched selected manga by URL at result offset 1: title=Solo Leveling, URL=`7394` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
-| latest pagination | PASS |  |  |  |  |
+| latest pagination | UNUSUAL | Overlapping manga: title=Regressor’s Life After Retirement, URL=`8520` at page 1 offset 24 and page 2 offset 0 |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
 | manga title and URL | PASS | 104/104 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 104/104 manga have thumbnail URLs |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 7 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn1.cdnformanga.xyz/.../06a76881e6374c2792fb5c5ee563a4c9_1.webp` (image/webp (encoding: lossy), 31574 bytes, 720x360) |  |  |  |

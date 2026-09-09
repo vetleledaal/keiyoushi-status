@@ -2,10 +2,10 @@
 
 - Extension: tachiyomi-all.taddyink-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 29
-- Lint: 1
+- Lint: 2
 - Warnings: 1
 - Skipped: 5
 - Failed: 0
@@ -19,18 +19,18 @@
 - Source ID: 2332326521515456967
 - Source name: Taddy INK (Webtoons)
 - Source language: all
-- Selected manga input: popular offset 0: Skylark (`https://taddy.org/.../80f1c270-4782-4689-b6b7-d309b6f0fe93`)
+- Selected manga input: popular offset 0: To Shield the Light (`https://taddy.org/.../cc2dba60-023d-48cd-9298-393f51f2e7f9`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 25 | Skylark (`https://taddy.org/.../80f1c270-4782-4689-b6b7-d309b6f0fe93`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 25 | Dream of Snow (`https://taddy.org/.../9792360c-eb8e-451b-80e4-1f3698289b06`) |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 25 | To Shield the Light (`https://taddy.org/.../cc2dba60-023d-48cd-9298-393f51f2e7f9`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 25 | Saint Crusader (`https://taddy.org/.../7e5c3bb1-ae66-4455-a493-f831873c108d`) |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Skylark (`https://taddy.org/.../80f1c270-4782-4689-b6b7-d309b6f0fe93`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Skylark (`https://taddy.org/.../80f1c270-4782-4689-b6b7-d309b6f0fe93`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 1 | Adventure in New Lark City Part 1 (`https://taddy.org/.../80f1c270-4782-4689-b6b7-d309b6f0fe93`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 177 |  |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | To Shield the Light (`https://taddy.org/.../cc2dba60-023d-48cd-9298-393f51f2e7f9`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | To Shield the Light (`https://taddy.org/.../cc2dba60-023d-48cd-9298-393f51f2e7f9`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 4 | Prologue  (`https://taddy.org/.../cc2dba60-023d-48cd-9298-393f51f2e7f9`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 23 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,29 +44,30 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 25 entries |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Skylark, URL=`https://taddy.org/.../80f1c270-4782-4689-b6b7-d309b6f0fe93` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=To Shield the Light, URL=`https://taddy.org/.../cc2dba60-023d-48cd-9298-393f51f2e7f9` |  |  |  |
 | latest differs from popular | SKIP | supportsLatest = false |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | SKIP | supportsLatest = false |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | LINT | 51/51 listing manga have titles and URLs; popular: all absolute; popular_next: all absolute; search: all absolute; Absolute URL examples: popular entry 1: `https://taddy.org/.../80f1c270-4782-4689-b6b7-d309b6f0fe93`, popular entry 2: `https://taddy.org/.../e94ba567-b555-4290-9b5a-c517795064d4`, popular entry 3: `https://taddy.org/.../b4e0e78c-8c1a-4787-80bc-11f34fa933a4` |  |  |  |
+| manga title and URL | LINT | 51/51 listing manga have titles and URLs; popular: all absolute; popular_next: all absolute; search: all absolute; Absolute URL examples: popular entry 1: `https://taddy.org/.../cc2dba60-023d-48cd-9298-393f51f2e7f9`, popular entry 2: `https://taddy.org/.../efc9db86-f392-4206-be5f-2369a5dcff01`, popular entry 3: `https://taddy.org/.../e3348491-cbab-484c-9b14-e985cbbeee4e` |  |  |  |
 | thumbnail URLs | PASS | 51/51 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://ax1.taddy.org/.../cover-sm.webp` (image/webp (encoding: lossy), 72476 bytes, 320x480; server Content-Type: application/octet-stream) |  |  |  |
-| details identity | PASS | Details preserved selected URL `https://taddy.org/.../80f1c270-4782-4689-b6b7-d309b6f0fe93` |  |  |  |
+| thumbnail | PASS | `https://ax1.taddy.org/.../cover-sm.webp` (image/webp (encoding: lossy), 46976 bytes, 320x480; server Content-Type: application/octet-stream) |  |  |  |
+| details identity | PASS | Details preserved selected URL `https://taddy.org/.../cc2dba60-023d-48cd-9298-393f51f2e7f9` |  |  |  |
 | details thumbnail URL | PASS | `https://ax1.taddy.org/.../cover-sm.webp` |  |  |  |
 | details author | PASS | null |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | Action, Fantasy |  |  |  |
+| details genres | PASS | Romance, Fantasy, Drama |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | When a young and hard of hearing artist named Arthena "Art" Lavender arrives is the vibrant and colorful "New Lark City" she encounters the adventurous Robin Skylark and her uniquely found family of outcasts called "The Skylarks" Art is soon offered to join their family. Will she accept? And in a city full of danger, powerful Rogues, and a very crippling debt will she and her newfound family survive? The start of a brand new legend begins! |  |  |  |
-| metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 1 chapters |  |  |  |
-| chapter dates | PASS | 1 positive upload dates |  |  |  |
+| details description | PASS | Lillia Fairling believes she is saving a child when she enters a dismal manor. Now trapped, she must try to escape. Only behind every door lurks a monster, and danger eyes her from every shadow. |  |  |  |
+| metadata trimming | LINT | Untrimmed fields: chapter 2 name, chapter 4 name |  |  |  |
+| chapters | PASS | 4 chapters |  |  |  |
+| chapter dates | PASS | 4 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
-| chapter URLs | UNUSUAL | All 1 chapter URLs are absolute |  |  |  |
+| chapter URLs | UNUSUAL | All 4 chapter URLs are absolute |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 177 HTTP page URLs |  |  |  |
+| page URLs | PASS | 23 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://ay1.taddy.org/.../story.webp` (image/webp (encoding: lossy), 66488 bytes, 800x1280; server Content-Type: application/octet-stream) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://ay1.taddy.org/.../story.webp` (image/webp (encoding: lossy), 10126 bytes, 800x1280; server Content-Type: application/octet-stream) |  |  |  |

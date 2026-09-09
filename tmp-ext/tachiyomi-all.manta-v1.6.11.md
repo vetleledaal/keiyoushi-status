@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.manta-v1.6.11
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 29
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 30
 - Lint: 0
 - Warnings: 0
 - Skipped: 7
@@ -19,18 +19,18 @@
 - Source ID: 8753096034341798862
 - Source name: Manta
 - Source language: en
-- Selected manga input: popular offset 0: Saving the Dying Duchess (`.../4324`)
+- Selected manga input: popular offset 0: I Want to Prey on You (`.../4230`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 436 | Saving the Dying Duchess (`.../4324`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 82 | I Want to Prey on You (`.../4230`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Saving the Dying Duchess (`.../4324`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Saving the Dying Duchess (`.../4324`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 12 | Episode 1 (`.../204053`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 135 |  |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | I Want to Prey on You (`.../4230`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | I Want to Prey on You (`.../4230`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 52 | Episode 1 (`.../184980`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 97 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -42,31 +42,32 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 436 entries |  |  |  |
+| popular listing | PASS | 82 entries |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Saving the Dying Duchess, URL=`4324` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=I Want to Prey on You, URL=`4230` |  |  |  |
 | latest differs from popular | SKIP | supportsLatest = false |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | supportsLatest = false |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 437/437 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 437/437 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 83/83 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 83/83 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://static.mantacdn.net/.../Hmxtu5Qtoe0u6CSx.jpg` (image/jpeg, 83186 bytes, 480x690) |  |  |  |
-| details identity | PASS | Details preserved selected URL `4324` |  |  |  |
+| thumbnail | PASS | `https://static.mantacdn.net/.../9PhKWIaZyPFpnw2o.jpg` (image/jpeg, 83985 bytes, 480x690; server Content-Type: image/png) |  |  |  |
+| details identity | PASS | Details preserved selected URL `4230` |  |  |  |
 | details thumbnail URL | PASS | null |  |  |  |
-| details author | PASS | Chem, dalbome, Manta Comics |  |  |  |
-| details artist | PASS | Goraeya |  |  |  |
-| details genres | PASS | Romantasy, Historical, Non-Asian setting, Royalty/Nobility, Regression, Contract relationship, Devoted ML, Remorseful ML, Capable FL, Troubled-past FL, Dark, Bittersweet, New, Exclusive, Event |  |  |  |
+| details author | PASS | Lee Seul Gi, HEO IRYEONG |  |  |  |
+| details artist | PASS | Lee Seul Gi |  |  |  |
+| details genres | PASS | Romance, Historical, Eastern/Asian-inspired setting, Royalty/Nobility, Non-human, Contract relationship, Possessive ML, Capable ML, Troubled-past FL, Capable FL, Steamy, Lighthearted, New |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | When Grand Duke Heveruth realizes he's in love, their contract marriage is already over, and Litricia has died from her terminal illness. He then finds himself traveling back in time to the day they first met, and this time, he swears to save his wife so they can live happily ever after together. |  |  |  |
+| details description | PASS | After receiving an imperial decree to marry a barbarian, Joseon princess Lee Eunwoo wanders alone in distress.<br><br>She meets a wounded tiger—Baek Hwi, king of the Tiger Clan.<br><br>After helping him, she makes a shocking request: “Eat me.”<br><br>Though stunned, Baek Hwi is drawn to her and vows to claim her as his mate. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 12 chapters |  |  |  |
-| chapter dates | PASS | 12 positive upload dates |  |  |  |
+| chapters | PASS | 52 chapters |  |  |  |
+| chapter dates | PASS | 52 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 135 HTTP page URLs |  |  |  |
+| page URLs | PASS | 97 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://si.mantacdn.net/.../DS9oKErMqX9ctYbg.jpg <redacted query values: sign>` (image/jpeg, 56428 bytes, 720x1199; server Content-Type: application/epub+zip) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://si.mantacdn.net/.../NuKrAnld5REGwlWe.jpg <redacted query values: sign>` (image/jpeg, 52564 bytes, 720x1204) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangagg-v1.6.57
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 8173282214298911566
 - Source name: MangaGG
 - Source language: en
@@ -30,7 +31,7 @@
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | The Symbiotic Relationship Between the Rabbit and the Black Panther (`.../472`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | The Symbiotic Relationship Between the Rabbit and the Black Panther (`.../472`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 24 | Chapter 183 (`.../chapter-183`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 16 |  |  | 1-10s |
+| pages | `getPageList(chapter)` | success | 16 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 16 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://s3.mangagg.com/.../ch_216_1.jpg` (image/jpeg, 543050 bytes, 720x8000) |  |  |  |

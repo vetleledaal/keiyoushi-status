@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.leslievictims-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 27
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 28
 - Lint: 2
 - Warnings: 0
 - Skipped: 7
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 6 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://pub-bbb8fb21be124a2aac670aec2e38d9d1.r2.dev/.../01.webp` (image/webp (encoding: lossy), 421086 bytes, 1200x8559) |  |  |  |

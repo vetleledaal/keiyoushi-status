@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.seikowo-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 13
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 14
 - Lint: 0
 - Warnings: 0
 - Skipped: 20
@@ -26,10 +26,10 @@
 | popular | `getPopularManga(1)` | success | 10 | TS Tensei Bishoujo Netora Reiko wa Netoraretai (`.../ts-tensei-bishoujo-netora-reiko-wa.html`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 21 | Cuộc chơi trên núi tử thần (`.../cuoc-choi-tren-nui-tu-than_5.html`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | Haimiya-Senpai Vừa Đáng Sợ Lại Vừa Dễ Thương (`.../haimiya-senpai-khong-chi-ang-so-ma-con.html`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | 10s+ |
+| latest_next | `getLatestUpdates(2)` | success | 24 | Haimiya-Senpai Vừa Đáng Sợ Lại Vừa Dễ Thương (`.../haimiya-senpai-khong-chi-ang-so-ma-con.html`) |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | error | 0 |  | java.lang.Exception: Cannot find metadata | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | error | 0 |  | java.lang.Exception: Cannot find metadata | 10s+ |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | error | 0 |  | java.lang.Exception: Cannot find metadata | 1-10s |
 | pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

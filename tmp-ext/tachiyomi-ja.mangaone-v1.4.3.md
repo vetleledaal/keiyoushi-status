@@ -2,10 +2,10 @@
 
 - Extension: tachiyomi-ja.mangaone-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 31
-- Lint: 1
+- Lint: 2
 - Warnings: 0
 - Skipped: 4
 - Failed: 0
@@ -19,18 +19,18 @@
 - Source ID: 7948822981386785924
 - Source name: Manga One
 - Source language: ja
-- Selected manga input: popular offset 0: 獣王と薬草 (`.../2379`)
+- Selected manga input: popular offset 0: ケンガンオメガ (`.../659`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 294 | 獣王と薬草 (`.../2379`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 296 | ケンガンオメガ (`.../659`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 15 | 獣王と薬草 (`.../2379`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 12 | ケンガンオメガ (`.../659`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 獣王と薬草 (`.../2379`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | 獣王と薬草 (`.../2379`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 115 | 第1話 - 人と魔族の物語 (`.../214131`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 71 |  |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | ケンガンオメガ (`.../659`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | ケンガンオメガ (`.../659`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 411 | 第0話 - プロローグ (`.../66863`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 26 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -42,31 +42,32 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 294 entries |  |  |  |
-| latest listing | PASS | 15 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=獣王と薬草, URL=`2379` |  |  |  |
+| popular listing | PASS | 296 entries |  |  |  |
+| latest listing | PASS | 12 entries |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=ケンガンオメガ, URL=`659` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 310/310 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 310/310 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 309/309 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 309/309 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://app.manga-one.com/.../8800.webp <redacted query values: hash and expires>` (image/webp (encoding: lossy), 79120 bytes, 640x400) |  |  |  |
-| details identity | PASS | Details preserved selected URL `2379` |  |  |  |
+| thumbnail | PASS | `https://app.manga-one.com/.../1220.webp <redacted query values: hash and expires>` (image/webp (encoding: lossy), 18584 bytes, 640x400) |  |  |  |
+| details identity | PASS | Details preserved selected URL `659` |  |  |  |
 | details thumbnail URL | PASS | null |  |  |  |
-| details author | PASS | 艮田竜和,坂野旭,ももちち |  |  |  |
+| details author | PASS | サンドロビッチ・ヤバ子,だろめおん |  |  |  |
 | details artist | PASS | null |  |  |  |
 | details genres | PASS | null |  |  |  |
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
-| details description | PASS | ダンジョンには夢があるーー 倒したモンスターの素材を剥ぎ取り、 未開拓エリアに到達してお宝を手にいれる！ そんな成り上がりを夢見る冒険者のティナは ダンジョンの探索中、重傷を負ってしまう。 彼女の前に現れたのは、かつて勇者に 殺されたはずの最強の魔族「獣王・ガロン」で―!? 『銀狼ブラッドボーン』原作の艮田竜和が描く ダンジョンファンタジー×医療ドラマ、開幕！ |  |  |  |
-| metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 115 chapters |  |  |  |
-| chapter dates | PASS | 115 positive upload dates |  |  |  |
+| details description | PASS | 企業同士の争いを、雇った闘技者のタイマン勝負で決着をつける…裏格闘。 “拳願仕合(ケンガンジアイ)”の存在を知った一人の男が、山下商事を訪れる…!! あのトーナメントから2年後…『ケンガンアシュラ』から続くシリーズ最新作、開幕!!! |  |  |  |
+| metadata trimming | LINT | Untrimmed fields: chapter 244 name, chapter 283 name |  |  |  |
+| chapters | PASS | 411 chapters |  |  |  |
+| chapter dates | PASS | 411 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 71 HTTP page URLs |  |  |  |
+| page URLs | PASS | 26 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://app.manga-one.com/.../1.webp.enc <redacted query values: hash and expires>` (image/webp (encoding: lossy), 56016 bytes, 720x1020; server Content-Type: application/octet-stream) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://app.manga-one.com/.../1.webp.enc <redacted query values: hash and expires>` (image/webp (encoding: lossy), 35234 bytes, 720x1020; server Content-Type: application/octet-stream) |  |  |  |

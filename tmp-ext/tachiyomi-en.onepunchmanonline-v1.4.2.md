@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.onepunchmanonline-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 20
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 21
 - Lint: 1
 - Warnings: 0
 - Skipped: 14
@@ -19,7 +19,7 @@
 - Source ID: 897097334505121559
 - Source name: One Punch Man Online
 - Source language: en
-- Selected manga input: popular offset 0: One Punch Man (`<redacted URL #1: manga resource; relative; no scheme>`)
+- Selected manga input: latest offset 0: One Punch Man (`<redacted URL #1: manga resource; relative; no scheme>`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

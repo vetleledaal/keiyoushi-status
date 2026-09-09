@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-id.mikoroku-v1.6.20
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 1
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 33
 - Failed: 2
 - Retry disposition: REVIEW
@@ -16,13 +16,14 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 8593493873810750465
 - Source name: MikoRoku
 - Source language: id
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 0 |  |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 0 |  |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | error | 0 |  | kotlinx.serialization.json.JsonDecodingException: Unexpected JSON token at offset 0: Expected start of the object '{', but had '<' instead at path: \$<br>JSON input: <!DOCTYPE html><br><!--<br>Name    :..... | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
@@ -68,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://www.mikoroku.com` to `https://mikoroku.com` (1 redirects); popular: `https://www.mikoroku.com/.../Series <redacted query values: alt, orderby, max-results, and start-index>` to `https://mikoroku.com <redacted query values: alt, orderby, max-results, and start-index>` (1 redirects) |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

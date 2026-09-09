@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.magkan-v1.4.6
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 20
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 21
 - Lint: 5
 - Warnings: 1
 - Skipped: 9
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: comiciviewer
 - Source ID: 8826192789792786070
 - Source name: MagKan
 - Source language: ja
@@ -24,13 +25,13 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 24 | MAGKAN漫画賞 (`.../5847788403bdd`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 24 | 後宮小説 (`.../4d8d8b62b1bdc`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 24 | 後宮小説 (`.../4d8d8b62b1bdc`) |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | MAGKAN漫画賞 (`.../5847788403bdd`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | MAGKAN漫画賞 (`.../5847788403bdd`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 34 | 第1回MAGKAN漫画賞、結果発表！ (`.../4b93daeef088d`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | error | 0 |  | kotlinx.serialization.MissingFieldException: Field 'viewerId' is required for type with serial name 'eu.kanade.tachiyomi.multisrc.comiciviewer.EpisodeContent', but it was missing | 1-10s |
+| pages | `fetchPageList(chapter)` | error | 0 |  | kotlinx.serialization.MissingFieldException: Field 'viewerId' is required for type with serial name 'eu.kanade.tachiyomi.multisrc.comiciviewer.EpisodeContent', but it was missing | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | Field 'viewerId' is required for type with serial name 'eu.kanade.tachiyomi.multisrc.comiciviewer.EpisodeContent', but it was missing |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

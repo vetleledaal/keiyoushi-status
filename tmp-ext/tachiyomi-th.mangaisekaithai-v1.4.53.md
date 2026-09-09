@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-th.mangaisekaithai-v1.4.53
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 28
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 29
 - Lint: 1
 - Warnings: 2
 - Skipped: 5
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madaralegacy
 - Source ID: 216201039129437954
 - Source name: MangaIsekaiThai
 - Source language: th
@@ -24,10 +25,10 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 10 | Hazure Waku no [Joutai Ijou Skill] de Saikyou ni Natta Ore ga Subete wo Juurin Suru made (`.../hazure-waku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 10 | Tensei Akuma no Saikyou Yuusha Ikusei Keikaku (`.../tensei-akuma-no-saikyou-yuusha-ikusei-keikaku`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 10 | Tensei Akuma no Saikyou Yuusha Ikusei Keikaku (`.../tensei-akuma-no-saikyou-yuusha-ikusei-keikaku`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Hazure Waku no [Joutai Ijou Skill] de Saikyou ni Natta Ore ga Subete wo Juurin Suru made (`.../hazure-waku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Hazure Waku no [Joutai Ijou Skill] de Saikyou ni Natta Ore ga Subete wo Juurin Suru made (`.../hazure-waku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Hazure Waku no [Joutai Ijou Skill] de Saikyou ni Natta Ore ga Subete wo Juurin Suru made (`.../hazure-waku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 150 | ตอนที่ 1 (`https://www.mangaisekaithai.net/.../%e0%b8%95%e0%b8%ad%e0%b8%99%e0%b8%97%e0%b8%b5%e0%b9%88-1 <redacted query values: style>`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 48 |  |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 48 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://img.mangaisekaithai.com/.../Upload-Hazure-Waku-no-Joutai-Ijou-Skill-de-Saikyou-ni-Natta-Ore-ga-Subete-wo-Juurin-Suru-made-1-XF4MO.jpg` (image/jpeg, 196348 bytes, 1000x1422) |  |  |  |

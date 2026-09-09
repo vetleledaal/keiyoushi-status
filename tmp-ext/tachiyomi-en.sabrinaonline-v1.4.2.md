@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.sabrinaonline-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 25
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 26
 - Lint: 2
 - Warnings: 0
 - Skipped: 8
@@ -29,7 +29,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Sabrina Online (`.../archive.html`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 93 | 1996 All (`.../1996-01.html`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 93 | 1996 All (`.../1996-01.html`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 10 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 10 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://www.sabrina-online.com/.../SabOnline01.GIF` (image/gif (format: 87a), 53567 bytes, 1573x600) |  |  |  |

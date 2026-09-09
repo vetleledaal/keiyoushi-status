@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.onereader-v1.6.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 0
 - Warnings: 0
 - Skipped: 2
@@ -25,12 +25,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | "O Herói", Dirigido Pelo Rei Demônio (`.../o-heroi-dirigido-pelo-rei-demonio`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 24 | A Ascensão do Supremo Demônio Celestial (`.../a-ascensao-do-supremo-demonio-celestial`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 60 | Guarda Malandro em uma Fantasia Medieval (`.../guarda-malandro-em-uma-fantasia-medieval`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 60 | Vou Viver Tranquilo na Loja de Conveniência da Academia (`.../vou-viver-tranquilo-na-loja-de-conveniencia-da-academia`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | "O Herói", Dirigido Pelo Rei Demônio (`.../o-heroi-dirigido-pelo-rei-demonio`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | "O Herói", Dirigido Pelo Rei Demônio (`.../o-heroi-dirigido-pelo-rei-demonio`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 14 | Capítulo 1 (`.../1`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 11 |  |  | <1s |
+| pages | `getPageList(chapter)` | success | 11 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 11 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://b2.onereader.net/.../1.webp` (image/webp (container: extended), 574674 bytes, 800x14445) |  |  |  |

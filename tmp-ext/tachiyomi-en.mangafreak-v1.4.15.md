@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.mangafreak-v1.4.15
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 31
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 32
 - Lint: 1
 - Warnings: 0
 - Skipped: 2
@@ -19,18 +19,18 @@
 - Source ID: 1201694572804778862
 - Source name: Mangafreak
 - Source language: en
-- Selected manga input: latest offset 0: Haimiya Senpai Wa Kowakute KawaII (`.../Haimiya_Senpai_Wa_Kowakute_Kawaii`)
+- Selected manga input: latest offset 0: Intaishita Ossan Kenjada Ga Manadeshi Ga Tsuihou Sarete Kita No De Shoushin Ryokou Ni Tsureteiku Surouraifu Na Tabi No Tsumori Ga Nazeka Sekai Saikyou No Shitei Ni Natte Ita (`.../Intaishita_Ossan_Kenjada_Ga_Manadeshi_Ga_Tsuihou_Sarete_Kita_No_De_Shoushin_Ryokou_Ni_Tsureteiku_Surouraifu_Na_Tabi_No_Tsumori_Ga_Nazeka_Sekai_Saikyou_No_Shitei_Ni_Natte_Ita`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 15 | One Piece (`.../One_Piece`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 15 | Shingeki no Kyojin (`.../Shingeki_No_Kyojin`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 193 | Haimiya Senpai Wa Kowakute KawaII (`.../Haimiya_Senpai_Wa_Kowakute_Kawaii`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 15 | Shingeki no Kyojin (`.../Shingeki_No_Kyojin`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 217 | Intaishita Ossan Kenjada Ga Manadeshi Ga Tsuihou Sarete Kita No De Shoushin Ryokou Ni Tsureteiku Surouraifu Na Tabi No Tsumori Ga Nazeka Sekai Saikyou No Shitei Ni Natte Ita (`.../Intaishita_Ossan_Kenjada_Ga_Manadeshi_Ga_Tsuihou_Sarete_Kita_No_De_Shoushin_Ryokou_Ni_Tsureteiku_Surouraifu_Na_Tabi_No_Tsumori_Ga_Nazeka_Sekai_Saikyou_No_Shitei_Ni_Natte_Ita`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Haimiya-senpai wa Kowakute Kawaii (`.../Haimiya_Senpai_Wa_Kowakute_Kawaii`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Haimiya Senpai Wa Kowakute KawaII (`.../Haimiya_Senpai_Wa_Kowakute_Kawaii`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 41 | Chapter 1 (`.../Read1_Haimiya_Senpai_Wa_Kowakute_Kawaii_1`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 4 |  |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Intaishita Ossan Kenjada ga Manadeshi ga Tsuihou Sarete Kita no de Shoushin Ryokou ni Tsureteiku ~Surouraifu na Tabi no Tsumori ga, Nazeka Sekai Saikyou no Shitei ni Natte Ita~ (`.../Intaishita_Ossan_Kenjada_Ga_Manadeshi_Ga_Tsuihou_Sarete_Kita_No_De_Shoushin_Ryokou_Ni_Tsureteiku_Surouraifu_Na_Tabi_No_Tsumori_Ga_Nazeka_Sekai_Saikyou_No_Shitei_Ni_Natte_Ita`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Intaishita Ossan Kenjada Ga Manadeshi Ga Tsuihou Sarete Kita No De Shoushin Ryokou Ni Tsureteiku Surouraifu Na Tabi No Tsumori Ga Nazeka Sekai Saikyou No Shitei Ni Natte Ita (`.../Intaishita_Ossan_Kenjada_Ga_Manadeshi_Ga_Tsuihou_Sarete_Kita_No_De_Shoushin_Ryokou_Ni_Tsureteiku_Surouraifu_Na_Tabi_No_Tsumori_Ga_Nazeka_Sekai_Saikyou_No_Shitei_Ni_Natte_Ita`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 77 | Chapter 1 (`.../Read1_Intaishita_Ossan_Kenjada_Ga_Manadeshi_Ga_Tsuihou_Sarete_Kita_No_De_Shoushin_Ryokou_Ni_Tsureteiku_Surouraifu_Na_Tabi_No_Tsumori_Ga_Nazeka_Sekai_Saikyou_No_Shitei_Ni_Natte_Ita_1`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 20 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -43,30 +43,31 @@
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 15 entries |  |  |  |
-| latest listing | PASS | 193 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Haimiya-senpai wa Kowakute Kawaii, URL=`.../Haimiya_Senpai_Wa_Kowakute_Kawaii` |  |  |  |
+| latest listing | PASS | 217 entries |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=Intaishita Ossan Kenjada ga Manadeshi ga Tsuihou Sarete Kita no de Shoushin Ryokou ni Tsureteiku ~Surouraifu na Tabi no Tsumori ga, Nazeka Sekai Saikyou no Shitei ni Natte Ita~, URL=`.../Intaishita_Ossan_Kenjada_Ga_Manadeshi_Ga_Tsuihou_Sarete_Kita_No_De_Shoushin_Ryokou_Ni_Tsureteiku_Surouraifu_Na_Tabi_No_Tsumori_Ga_Nazeka_Sekai_Saikyou_No_Shitei_Ni_Natte_Ita` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | FAIL | Latest page 1 repeats 10 manga entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | manga title and URL | FAIL | Invalid manga: popular entry 15: title=<blank>, URL=`.../Manga` | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
-| thumbnail URLs | PASS | 224/224 manga have thumbnail URLs |  |  |  |
+| thumbnail URLs | PASS | 248/248 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://images.mangafreak.me/.../haimiya_senpai_wa_kowakute_kawaii.jpg` (image/jpeg, 50168 bytes, 400x568) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../Haimiya_Senpai_Wa_Kowakute_Kawaii` |  |  |  |
-| details thumbnail URL | PASS | `https://images.mangafreak.me/.../haimiya_senpai_wa_kowakute_kawaii.jpg` |  |  |  |
+| thumbnail | PASS | `https://images.mangafreak.me/.../intaishita_ossan_kenjada_ga_manadeshi_ga_tsuihou_sarete_kita_no_de_shoushin_ryokou_ni_tsureteiku_surouraifu_na_tabi_no_tsumori_ga_nazeka_sekai_saikyou_no_shitei_ni_natte_ita.jpg` (image/jpeg, 52080 bytes, 400x522) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../Intaishita_Ossan_Kenjada_Ga_Manadeshi_Ga_Tsuihou_Sarete_Kita_No_De_Shoushin_Ryokou_Ni_Tsureteiku_Surouraifu_Na_Tabi_No_Tsumori_Ga_Nazeka_Sekai_Saikyou_No_Shitei_Ni_Natte_Ita` |  |  |  |
+| details thumbnail URL | PASS | `https://images.mangafreak.me/.../intaishita_ossan_kenjada_ga_manadeshi_ga_tsuihou_sarete_kita_no_de_shoushin_ryokou_ni_tsureteiku_surouraifu_na_tabi_no_tsumori_ga_nazeka_sekai_saikyou_no_shitei_ni_natte_ita.jpg` |  |  |  |
 | details author | PASS | This is ON-GOING series |  |  |  |
 | details artist | PASS | Type: Manga |  |  |  |
-| details genres | PASS | Comedy, Drama, Romance, Slice of Life |  |  |  |
+| details genres | PASS | Action, Adventure, Fantasy, Shounen |  |  |  |
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
-| details description | PASS | At my high school, Haimiya-senpai is known for being terrifying — her intimidating looks and blunt speech have earned her a reputation as someone to avoid. Add to that her sparkling piercings, striking long gray wolf-cut hair, and a Kansai accent, and it’s easy to see why she’s considered so scary. But surprisingly, this "scary" senpai has been nothing but kind to me. As her tough exterior gives way to a softer side, the line between "scary" and "cute" starts to blur. And so begins the heart-pounding, rom-com journey with my intimidating, yet adorable, senpai! |  |  |  |
+| details description | PASS | "Should we embark on an adventure as we used to?" Despite being an orphan, Roge put a lot of effort into his training and earned the nickname "Sage." Liliane, his cherished pupil, unexpectedly paid him a visit. "I have been expelled, Roge-sensei." Liliane had worked as a royal court wizard, but she was sacked without explanation after becoming weary of the demanding work environment and dubious interpersonal ties. Roge offers to take her on an adventure to ease her heartache and try to heal her weary heart. "Sensei, I wish we could go together and relive those wonderful times!" Following the routes they once took together, a leisurely voyage commences. However, the two, who are both too gifted for their own good, wind up leaving legends in their wake everywhere they go. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 41 chapters |  |  |  |
-| chapter dates | PASS | 41 positive upload dates |  |  |  |
+| chapters | PASS | 77 chapters |  |  |  |
+| chapter dates | PASS | 77 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 4 HTTP page URLs |  |  |  |
+| page URLs | PASS | 20 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://images.mangafreak.me/.../haimiya_senpai_wa_kowakute_kawaii_1_1.jpg` (image/jpeg, 220087 bytes, 800x1138) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://images.mangafreak.me/.../intaishita_ossan_kenjada_ga_manadeshi_ga_tsuihou_sarete_kita_no_de_shoushin_ryokou_ni_tsureteiku_surouraifu_na_tabi_no_tsumori_ga_nazeka_sekai_saikyou_no_shitei_ni_natte_ita_1_1.jpg` (image/jpeg, 456402 bytes, 720x6627) |  |  |  |

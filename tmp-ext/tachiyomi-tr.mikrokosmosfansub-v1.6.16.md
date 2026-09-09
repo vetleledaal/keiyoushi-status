@@ -2,12 +2,12 @@
 
 - Extension: tachiyomi-tr.mikrokosmosfansub-v1.6.16
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 29
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 32
 - Lint: 2
 - Warnings: 1
-- Skipped: 4
+- Skipped: 2
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
 
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 1959637408417261960
 - Source name: Mikrokosmos Fansub
 - Source language: tr
@@ -23,10 +24,10 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 8 | Missing Love/ A Married Man (`.../a-married-man.html`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 8 | Missing Love/ A Married Man (`.../a-married-man.html`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 20 | Borderline (GÜNCEL) (`.../borderline.html`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 20 | Diamond Dust (`.../00003.html`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 1 | Our Omega Leadernim-Patreon (`.../our-omega-leadernim-patreon.html`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Missing Love/ A Married Man (`.../a-married-man.html`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Missing Love/ A Married Man (`.../a-married-man.html`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 78 | Bölüm 1 (`.../bolum-1_19.html`) |  | 1-10s |
@@ -37,7 +38,7 @@
 | popular operation | PASS |  |  |  |  |
 | popular_next operation | SKIP | hasNextPage = false |  |  |  |
 | latest operation | PASS |  |  |  |  |
-| latest_next operation | SKIP | hasNextPage = false |  |  |  |
+| latest_next operation | PASS |  |  |  |  |
 | search operation | PASS |  |  |  |  |
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
@@ -47,10 +48,10 @@
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Missing Love/ A Married Man, URL=`.../a-married-man.html` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
-| latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
+| latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 29/29 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 29/29 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 30/30 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 30/30 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://blogger.googleusercontent.com/.../20210910170111_1631260871231%20%283%29.webp` (image/jpeg, 119763 bytes, 600x931) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../a-married-man.html` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 24 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../1.png` (image/webp (container: extended), 1720468 bytes, 689x3816) |  |  |  |

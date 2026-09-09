@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-fr.pantheonscan-v1.6.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 34
 - Lint: 1
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 1615599506055429686
 - Source name: Pantheon Scan
 - Source language: fr
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 12 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://pantheon-scan.com/.../chapters` to `https://pantheon-scan.com/.../chapters` (1 redirects) |  |  |  |
 | page load | PASS | `https://pantheon-scan.com/.../1.jpg` (image/jpeg, 119803 bytes, 735x1219) |  |  |  |

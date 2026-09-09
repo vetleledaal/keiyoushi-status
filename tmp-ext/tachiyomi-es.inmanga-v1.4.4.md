@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.inmanga-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 35
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 36
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -28,8 +28,8 @@
 | latest | `fetchLatestUpdates(1)` | success | 10 | One Piece (`.../dfc7ecb5-e9b3-4aa5-a61b-a498993cd935`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | success | 10 | Kaiju No. 8 (`.../646317fc-f37c-4686-b568-df8efc60285d`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 4 | One Piece (`.../dfc7ecb5-e9b3-4aa5-a61b-a498993cd935`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | One Piece (`.../dfc7ecb5-e9b3-4aa5-a61b-a498993cd935`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 1193 | Chapter 01 (`.../chapterIndexControls <redacted query values: identification>`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | One Piece (`.../dfc7ecb5-e9b3-4aa5-a61b-a498993cd935`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 1194 | Chapter 01 (`.../chapterIndexControls <redacted query values: identification>`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 56 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | La serie comienza con la ejecución de Gol D. Roger, un hombre conocido como el Rey de los Piratas. Poco antes de su muerte, Roger hace mención a su gran tesoro legendario, el One Piece, ya que puede ser tomado por todo aquél que lo desee. Esto marca el inicio de una era conocida como la Gran Era Pirata. Como resultado, un sinnúmero de piratas zarparon hacia Grand Line con el objetivo de encontrarlo |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 1193 chapters |  |  |  |
-| chapter dates | PASS | 1193 positive upload dates |  |  |  |
+| chapters | PASS | 1194 chapters |  |  |  |
+| chapter dates | PASS | 1194 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 56 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | FAIL | First page URL `https://cdn1.intomanga.com/.../e720d0bf-cc16-4419-8118-dcc03433f8b7.jpg` could not be downloaded: eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |

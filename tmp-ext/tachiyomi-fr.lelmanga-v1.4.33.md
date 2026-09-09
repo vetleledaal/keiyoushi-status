@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-fr.lelmanga-v1.4.33
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 35
 - Lint: 0
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,20 +16,21 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 8647761747185981431
 - Source name: Lelmanga
 - Source language: fr
-- Selected manga input: latest offset 0: One Piece (`.../one-piece`)
+- Selected manga input: popular offset 0: One Piece (`.../one-piece`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | One Piece (`.../one-piece`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 20 | Hunter X Hunter (`.../hunter-x-hunter`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | One Piece (`.../one-piece`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | Four Knights of the Apocalypse (`.../four-knights-of-the-apocalypse`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | success | 20 | Centuria (`.../centuria`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | One Piece (`.../one-piece`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | One Piece (`.../one-piece`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 187 | Chapitre 1043 (`.../one-piece-1043-vf`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 188 | Chapitre 1043 (`.../one-piece-1043-vf`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 17 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Gloire, fortune et puissance, c’est ce que possédait Gold Roger, le tout puissant roi des pirates, avant de mourir sur l’échafaud. Mais ses dernières paroles ont éveillées bien des convoitises, et lança la fabuleuse “ère de la piraterie”, chacun voulant trouver le fabuleux trésor qu’il disait avoir laissé. Bien des années plus tard, Shanks, un redoutable pirate aux cheveux rouges, rencontre Luffy, un jeune garçon d’une dizaine d’années dans un petit port de pêche. Il veut devenir pirate et le rejoindre, mais Shanks lui répond qu’il est trop jeune. Plus tard, Luffy avalera accidentellement le fruit Gomu Gomu qui rendra son corps élastique, mais aussi maudit par les eaux. Incapable de nager, Luffy ne veut pourtant pas renoncer à son rêve. Pour le consoler lorsqu’il part, Shanks lui offre son chapeau. Luffy jure alors de le rejoindre un jour avec son propre équipage. A 17 ans, Luffy prend la mer dans une petite barque avec pour but de réunir un équipage de pirates, mais de pirates pas comme les autres, qui devront partager sa conception un peu étrange de la piraterie. L’aventure est lancée. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 187 chapters |  |  |  |
-| chapter dates | PASS | 187 positive upload dates |  |  |  |
+| chapters | PASS | 188 chapters |  |  |  |
+| chapter dates | PASS | 188 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 17 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://www.lelmanga.com/.../manga <redacted query values: title, page, and order>` to `https://www.lelmanga.com/.../manga <redacted query values: title, page, and order>` (1 redirects); popular_next: `https://www.lelmanga.com/.../manga <redacted query values: title, page, and order>` to `https://www.lelmanga.com/.../manga <redacted query values: title, page, and order>` (1 redirects); latest: `https://www.lelmanga.com/.../manga <redacted query values: title, page, and order>` to `https://www.lelmanga.com/.../manga <redacted query values: title, page, and order>` (1 redirects); latest_next: `https://www.lelmanga.com/.../manga <redacted query values: title, page, and order>` to `https://www.lelmanga.com/.../manga <redacted query values: title, page, and order>` (1 redirects); search: `https://www.lelmanga.com/.../manga <redacted query values: title, page, author, yearx, status, type, and order>` to `https://www.lelmanga.com/.../manga <redacted query values: title, page, author, yearx, status, type, and order>` (1 redirects) |  |  |  |
 | page load | PASS | `https://i3.wp.com/.../01-16.jpg <redacted query values: lmv>` (image/webp (encoding: lossy), 424712 bytes, 1392x2100) |  |  |  |

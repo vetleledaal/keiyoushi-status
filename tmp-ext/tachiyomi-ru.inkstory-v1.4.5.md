@@ -2,14 +2,14 @@
 
 - Extension: tachiyomi-ru.inkstory-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 36
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
-- Failed: 0
-- Retry disposition: NOT_APPLICABLE
+- Failed: 1
+- Retry disposition: DO_NOT_RETRY
 
 ## Runtime Evidence
 
@@ -24,13 +24,13 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 30 | Поднятие уровня в одиночку (`.../solo-leveling`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 30 | Охотник-суицидник SSS-уровня (`.../sss-class-revival-hunter`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | Нарисованная мной жуткая яндере стала реальностью! (`.../the-yandere-character-i-drew-has-become-a-real-person`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 30 | Альмарк (`.../almark`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 30 | Охотник-суицидник SSS-уровня (`.../sss-class-revival-hunter`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 30 | Мой ласковый зверь (`.../my-affectionate-beast`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 30 | Западный Мурим (`.../murim-west`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 30 | Поднятие уровня в одиночку (`.../solo-leveling`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Поднятие уровня в одиночку (`.../solo-leveling`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 404 | Том 1 Глава 0 - Пролог (`.../d0bd2e80-c180-420a-8eae-d6c30f26f068`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 4 |  |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Поднятие уровня в одиночку (`.../solo-leveling`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 404 | Том 1 Глава 0 - Пролог (`.../d0bd2e80-c180-420a-8eae-d6c30f26f068`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 4 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -48,7 +48,7 @@
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
-| listing duplicates | PASS |  |  |  |  |
+| listing duplicates | FAIL | Latest page 2 repeats 1 manga entry: title=Атака Титанов, URL=`.../shingeki-no-kyojin` | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | manga title and URL | PASS | 150/150 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 150/150 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 4 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://static.inuko.me/.../5db40151-1ef5-x6d5-8d9a-c39428175fcd.jpeg` (image/jpeg, 901465 bytes, 720x8860; server Content-Type: application/octet-stream) |  |  |  |

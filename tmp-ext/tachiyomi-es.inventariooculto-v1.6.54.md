@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.inventariooculto-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 609477585841458199
 - Source name: Inventario Oculto
 - Source language: es
@@ -25,12 +26,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Jujutsu Kaisen Módulo (`.../2796`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 5 | Jujutsu Kaisen 0 (`.../2868`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Madan no Ichi (`.../2530`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 5 | Trigun Maximum (`.../2609`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Jujutsu Kaisen Módulo (`.../2796`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Jujutsu Kaisen Módulo (`.../2796`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Kagurabachi (`.../2650`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 5 | Trigun Maximum (`.../2609`) |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Jujutsu Kaisen Módulo (`.../2796`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Jujutsu Kaisen Módulo (`.../2796`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 29 | Capítulo 1 - Incidente de Grado Especial (`.../capitulo-1`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 54 |  |  | 1-10s |
+| pages | `getPageList(chapter)` | success | 54 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 54 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://inventariooculto.com/.../0a.png` (image/png, 174258 bytes, 945x614) |  |  |  |

@@ -2,20 +2,21 @@
 
 - Extension: tachiyomi-zh.sixmh-v1.4.16
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 33
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
-- Failed: 1
-- Retry disposition: DO_NOT_RETRY
+- Failed: 0
+- Retry disposition: NOT_APPLICABLE
 
 ## Runtime Evidence
 
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mccms
 - Source ID: 5183325399429659419
 - Source name: 六漫画
 - Source language: zh
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 30 | 魔都精兵的奴隶 (`.../263176`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 30 | 可爱过敏原 (`.../302262`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | 若能相恋，唯你不可 (`.../618914`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 30 | 姬川是超级喜欢前辈的抖M辣妹 (`.../305873`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 30 | 格雷基斯的魔界语译录 (`.../619010`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 30 | 无论多么努力都是万年等级0的我被放逐了～被称为神之敌的少年，与社畜女神相遇并获得了最强力量～ (`.../618992`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 魔都精兵的奴隶 (`.../263176`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | 魔都精兵的奴隶 (`.../263176`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 221 | 第02话 (`.../63234.html`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 52 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | FAIL | First page URL `https://s2.bzcdn.net/.../1.jpg` could not be downloaded: java.io.EOFException: SSL peer shut down incorrectly | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://s2.bzcdn.net/.../1.jpg` (image/jpeg, 249831 bytes, 822x1200) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.xiutaku-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -24,7 +24,7 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | [XiuRen秀人网]第FW0510期潘娇娇写真 (`.../19341`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | [XiuRen秀人网]第FW0494期熊小诺写真 (`.../19325`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | [XiuRen秀人网]第B164期潘娇娇写真 (`.../18799`) |  | <1s |
 | latest | `fetchLatestUpdates(1)` | success | 20 | [XiuRen秀人网]第FW0510期潘娇娇写真 (`.../19341`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | success | 20 | [XiuRen秀人网]第FW0490期王馨瑶写真 (`.../19321`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | [XiuRen秀人网]第FW0510期潘娇娇写真 (`.../19341`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 20 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://i.xiutaku.com/.../74103831700.jpg` (image/webp (encoding: lossy), 136004 bytes, 2400x3600; server Content-Type: image/jpeg) |  |  |  |

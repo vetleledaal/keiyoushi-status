@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-zh.tongli-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 2
 - Warnings: 0
 - Skipped: 2
@@ -25,9 +25,9 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | 火鳳燎原 (`.../d2091f2c-6a96-e811-a947-00155d020a17,true`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | 豔漢 (`.../003f132c-6a96-e811-a947-00155d020a17,true`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | 魔女的使命 (`.../8834132c-6a96-e811-a947-00155d020a17,true`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 3 | 火鳳燎原Q我的水鏡學園 (`.../45091f2c-6a96-e811-a947-00155d020a17,false`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | 青春偶像製作中 (`.../00c5ee5b-5271-ee11-80c5-40f2e9cd029b,true`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | 雨夜之月 (`.../93c876ea-53c9-ed11-80c2-40f2e9cd029d,false`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 3 | 火鳳燎原Q我的水鏡學園 (`.../45091f2c-6a96-e811-a947-00155d020a17,false`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | 火鳳燎原 (`.../d2091f2c-6a96-e811-a947-00155d020a17,true`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 4 | 第1話 (`.../ebb953d2-75e7-4f07-7c16-08d601b9d2c1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 67 |  |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 67 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://tongli-ebook-cdn.azureedge.net/.../1 <redacted query values: sv, sr, st, se, sp, spr, rsct, and sig>` (image/jpeg, 1513888 bytes, 1128x1600; server Content-Type: binary) |  |  |  |

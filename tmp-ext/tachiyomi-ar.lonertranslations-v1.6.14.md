@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.lonertranslations-v1.6.14
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 31
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 32
 - Lint: 0
 - Warnings: 1
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 323105186892383931
 - Source name: Loner Translations
 - Source language: ar
@@ -25,10 +26,10 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 3 | My Dearest Self With Malice Aforethought (`.../my-dearest-self-with-malice-aforethought.html`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 3 | My Dearest Self With Malice Aforethought (`.../my-dearest-self-with-malice-aforethought.html`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 3 | My Dearest Self With Malice Aforethought (`.../my-dearest-self-with-malice-aforethought.html`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | My Dearest Self With Malice Aforethought (`.../my-dearest-self-with-malice-aforethought.html`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | My Dearest Self With Malice Aforethought (`.../my-dearest-self-with-malice-aforethought.html`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | My Dearest Self With Malice Aforethought (`.../my-dearest-self-with-malice-aforethought.html`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | My Dearest Self With Malice Aforethought (`.../my-dearest-self-with-malice-aforethought.html`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 98 | الفصل 01 (`.../my-dearest-self-with-malice-chapter-1.html`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 70 |  |  | 1-10s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 70 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../MDSWMA-1-00.jpg` (image/jpeg, 121677 bytes, 1125x1600) |  |  |  |

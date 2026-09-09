@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.simplyhentai-v1.4.8
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 4
 - Warnings: 0
 - Skipped: 0
@@ -24,13 +24,13 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 24 | Luocha x Female MC x Blade Part 1 (`.../luocha-x-female-mc-x-blade-part-1`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 24 | How to XXX (`.../how-to-xxx`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 24 | How to XXX (`.../how-to-xxx`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 24 | Mama Mega captions 2022-2023 (`.../mama-mega-captions-2022-2023`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | success | 24 | Peco-chan Muccha Kawaii yo ne (`.../peco-chan-muccha-kawaii-yo-ne`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Mama Mega captions 2022-2023 (`.../mama-mega-captions-2022-2023`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Mama Mega captions 2022-2023 (`.../mama-mega-captions-2022-2023`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 1 | Chapter (`.../all-pages`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 173 |  |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 173 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | LINT | Page indices are 1-indexed, but should be 0-indexed |  |  |  |
 | page URLs | PASS | 173 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://images.sh-cdn.com/.../246c812a.jpg` (image/jpeg, 152465 bytes, 1033x1508) |  |  |  |

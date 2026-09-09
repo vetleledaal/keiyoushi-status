@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.gafeland-v1.4.32
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 35
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 3266930735690843593
 - Source name: gafeland
 - Source language: tr
@@ -26,10 +27,10 @@
 | popular | `fetchPopularManga(1)` | success | 10 | Kana Susamış Erkek Başrolün Annesi Oldum (`.../kana-susamis-erkek-basrolun-annesi-oldum`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 10 | Beyaz Kaplanın Kızı Oldum (`.../beyaz-kaplanin-kizi-oldum`) |  | <1s |
 | latest | `fetchLatestUpdates(1)` | success | 10 | Küçük Civcivimizin Ebeveyn Bulma Görevi! (`.../kucuk-civcivimizin-ebeveyn-bulma-gorevi`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 10 | Baduk Kızı (`.../baduk-kizi`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 10 | Baduk Kızı (`.../baduk-kizi`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Küçük Civcivimizin Ebeveyn Bulma Görevi! (`.../kucuk-civcivimizin-ebeveyn-bulma-gorevi`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Küçük Civcivimizin Ebeveyn Bulma Görevi! (`.../kucuk-civcivimizin-ebeveyn-bulma-gorevi`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 19 | Bölüm 1 (`.../kucuk-civcivimizin-ebeveyn-bulma-gorevi-bolum-1`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Küçük Civcivimizin Ebeveyn Bulma Görevi! (`.../kucuk-civcivimizin-ebeveyn-bulma-gorevi`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 19 | Bölüm 1 (`.../kucuk-civcivimizin-ebeveyn-bulma-gorevi-bolum-1`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 11 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 11 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://gafeland.com/.../01-copy.jpg` (image/jpeg, 604689 bytes, 720x11550) |  |  |  |

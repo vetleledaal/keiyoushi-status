@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-all.onepiecefans-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 26
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 27
 - Lint: 2
 - Warnings: 1
 - Skipped: 7
@@ -29,8 +29,8 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | One Piece (Todos los capitulos) (`.../all`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | One Piece (Todos los capitulos) (`.../all`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 217 | Chapter 975 (`.../975`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 18 |  |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 218 | Chapter 975 (`.../975`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 18 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -61,12 +61,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | null |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 217 chapters |  |  |  |
-| chapter dates | LINT | All 217 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=217 |  |  |  |
+| chapters | PASS | 218 chapters |  |  |  |
+| chapter dates | LINT | All 218 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=218 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 18 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://one-piece-fans2.com/.../01.jpg` (image/jpeg, 472769 bytes, 1067x1600) |  |  |  |

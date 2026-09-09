@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ar.paradisebl-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 2
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 4957859168133378262
 - Source name: Paradise BL
 - Source language: ar
@@ -24,11 +25,11 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Kiss me, Liar (`.../2809`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 25 | To you in my hand (`.../2815`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | To you in my hand (`.../2815`) |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 25 | In good faith (`.../3087`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 25 | Plaything (`.../2817`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Kiss me, Liar (`.../2809`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Kiss me, Liar (`.../2809`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Kiss me, Liar (`.../2809`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 80 | 1 الفصل (`.../1-%d8%a7%d9%84%d9%81%d8%b5%d9%84`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 24 |  |  | 1-10s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 24 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://paradise-bl.com/.../%D9%82%D8%A8%D9%84%D9%86%D9%8A-%D8%A7%D9%94%D9%8A%D9%87%D8%A7-%D8%A7%D9%84%D9%83%D8%A7%D8%B0%D8%A8-%D8%A7%D9%84%D9%81%D8%B5%D9%84-%D9%A1-01.jpg` (image/jpeg, 1212492 bytes, 2612x6945) |  |  |  |

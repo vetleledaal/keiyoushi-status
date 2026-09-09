@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.bymichiscan-v1.4.33
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 4436777272781358384
 - Source name: Bymichi Scan
 - Source language: es
@@ -23,14 +24,14 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 20 | Hattori-sensei no quiere tener novia (`.../hattori-sensei-no-quiere-tener-novia`) |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 20 | Hattori-sensei no quiere tener novia (`.../hattori-sensei-no-quiere-tener-novia`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 20 | El caballero santo viste una armadura negra (`.../el-caballero-santo-viste-una-armadura-negra`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | Quiero volver a amar (`.../quiero-volver-a-amar`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | Encantado de conocerte, mi esposa. (`.../encantado-de-conocerte-mi-esposa`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Hattori-sensei no quiere tener novia (`.../hattori-sensei-no-quiere-tener-novia`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | Durmiendo con mi senpai (`.../durmiendo-con-mi-senpai`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | Nasaka, a quien tanto admiraba, no era como yo creía (`.../nasaka-a-quien-tanto-admiraba-no-era-como-yo-creia`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Hattori-sensei no quiere tener novia (`.../hattori-sensei-no-quiere-tener-novia`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Hattori-sensei no quiere tener novia (`.../hattori-sensei-no-quiere-tener-novia`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 9 | Chapter 1 (`.../hattori-sensei-no-quiere-tener-novia-parte-1`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 8 |  |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 8 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 8 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://bymichiby.com/.../001.webp` (image/webp (encoding: lossy), 191342 bytes, 1280x1808) |  |  |  |

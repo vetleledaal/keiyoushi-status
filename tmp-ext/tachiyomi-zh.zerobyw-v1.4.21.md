@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-zh.zerobyw-v1.4.21
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 28
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 29
 - Lint: 2
 - Warnings: 1
 - Skipped: 5
@@ -19,18 +19,18 @@
 - Source ID: 8743284448117690086
 - Source name: zero搬运网
 - Source language: zh
-- Selected manga input: popular offset 0: Fate／stay night [Unlimited Blade Works] (`.../details <redacted query values: kuid>`)
+- Selected manga input: popular offset 0: 没有辣妹会对阿宅温柔 (`.../details <redacted query values: kuid>`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 24 | Fate／stay night [Unlimited Blade Works] (`.../details <redacted query values: kuid>`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 24 | 对准枪口 (`.../details <redacted query values: kuid>`) |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 24 | 没有辣妹会对阿宅温柔 (`.../details <redacted query values: kuid>`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 24 | 受够了职场压榨的勇者，被魔王军以高福利待遇给挖走了 (`.../details <redacted query values: kuid>`) |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Fate／stay night [Unlimited Blade Works] (`.../details <redacted query values: kuid>`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Fate／stay night [Unlimited Blade Works]  (`.../details <redacted query values: kuid>`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 没有辣妹会对阿宅温柔 (`.../details <redacted query values: kuid>`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | 没有辣妹会对阿宅温柔  (`.../details <redacted query values: kuid>`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 5 | 1 (`.../index.php <redacted query values: zjid>`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 184 |  |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 164 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,7 +44,7 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 24 entries |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Fate／stay night \[Unlimited Blade Works\], URL=`.../details <redacted query values: kuid>` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=没有辣妹会对阿宅温柔, URL=`.../details <redacted query values: kuid>` |  |  |  |
 | latest differs from popular | SKIP | supportsLatest = false |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | SKIP | supportsLatest = false |  |  |  |
@@ -52,14 +52,14 @@
 | manga title and URL | PASS | 49/49 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 49/49 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `http://tupa.zerobyw33.com/.../001.jpg` (image/jpeg, 265476 bytes, 1400x1991) |  |  |  |
-| details identity | UNUSUAL | Details changed selected title Fate／stay night \[Unlimited Blade Works\] to Fate／stay night \[Unlimited Blade Works\]  |  |  |  |
+| thumbnail | PASS | `http://tupa.zerobyw33.com/.../001.jpg` (image/jpeg, 281760 bytes, 1400x1991) |  |  |  |
+| details identity | UNUSUAL | Details changed selected title 没有辣妹会对阿宅温柔 to 没有辣妹会对阿宅温柔  |  |  |  |
 | details thumbnail URL | PASS | `http://tupa.zerobyw33.com/.../001.jpg` |  |  |  |
-| details author | PASS | TYPE-MOON×森山大輔 |  |  |  |
+| details author | PASS | のりしろちゃん×魚住さかな |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | 作者: TYPE-MOON×森山大輔, 冒险, 奇幻, 一半中文一半生肉, 连载中, 收藏: 3, 人气: 36 |  |  |  |
+| details genres | PASS | 作者: のりしろちゃん×魚住さかな, 搞笑, 日常, 一半中文一半生肉, 连载中, 收藏: 13, 人气: 253 |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | 七名魔术师与七名英灵订下契约，并参与争夺圣杯的「圣杯战争」。在魔术师家系中成长的远坂凛，为继承父亲参加圣杯战争的遗志，而尝试召唤最强的英灵剑兵。然而，现身于她面前的却是连自身名字都遗忘的英灵弓兵 |  |  |  |
+| details description | PASS | 不太敢宣扬自己喜欢“幼女向动画”的阿宅 濑尾卓也。有一天和班里的辣妹天音同学和伊地知同学有了瓜葛，好像天音同学也是阿宅…？阿宅邂逅辣妹的"喜欢"交错的校园种姓恋爱喜剧！！ |  |  |  |
 | metadata trimming | LINT | Untrimmed fields: title |  |  |  |
 | chapters | PASS | 5 chapters |  |  |  |
 | chapter dates | LINT | All 5 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=5 |  |  |  |
@@ -67,6 +67,7 @@
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 184 HTTP page URLs |  |  |  |
+| page URLs | PASS | 164 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `http://tupa.zerobyw33.com/.../001.jpg` (image/jpeg, 349638 bytes, 1445x2048) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `http://tupa.zerobyw33.com/.../001.jpg` (image/jpeg, 262222 bytes, 1400x1989) |  |  |  |

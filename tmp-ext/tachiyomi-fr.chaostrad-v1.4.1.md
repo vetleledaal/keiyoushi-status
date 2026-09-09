@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-fr.chaostrad-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 25
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 26
 - Lint: 2
 - Warnings: 1
 - Skipped: 8
@@ -27,9 +27,9 @@
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | IDW [Série Principale] (`.../sonic-idw`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | IDW [Série Principale] (`.../sonic-idw`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Sonic The Hedgehog (`.../sonic-idw`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 86 | #1 (`.../1`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 86 | #1 (`.../1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 24 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 24 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://chaostrad.fr/.../e8fa89bfaa688517ed2c7a7bb077e865.webp` (image/webp (encoding: lossy), 356326 bytes, 1988x3056) |  |  |  |

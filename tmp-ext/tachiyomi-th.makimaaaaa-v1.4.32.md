@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-th.makimaaaaa-v1.4.32
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 6102454165244031412
 - Source name: Makimaaaaa
 - Source language: th
@@ -24,9 +25,9 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 30 | A Returner’s Magic Should Be Special (`.../a-returners-magic-should-be-special`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 30 | I’m an Evil God (`.../im-an-evil-god`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 30 | I’m an Evil God (`.../im-an-evil-god`) |  | 10s+ |
 | latest | `fetchLatestUpdates(1)` | success | 30 | Omniscient Reader (`.../omniscient-reader-%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%8A%E0%B8%B0%E0%B8%95%E0%B8%B2%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%81`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 30 | The Return of the Disaster-Class Hero (`.../the-return-of-the-disaster-class-hero`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 30 | The Return of the Disaster-Class Hero (`.../the-return-of-the-disaster-class-hero`) |  | 10s+ |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | Omniscient Reader (`.../omniscient-reader-%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%8A%E0%B8%B0%E0%B8%95%E0%B8%B2%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%81`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Omniscient Reader (`.../omniscient-reader-%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%8A%E0%B8%B0%E0%B8%95%E0%B8%B2%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%81`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 255 | ตอนที่ 0 (`.../omniscient-reader-%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%8A%E0%B8%B0%E0%B8%95%E0%B8%B2%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%81%E0%B8%95%E0%B8%AD`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 64 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://bbb.webtoon168.com/.../omniscient-reader-13-8-65-00001.webp` (image/jpeg, 26560 bytes, 800x1000; server Content-Type: image/webp) |  |  |  |

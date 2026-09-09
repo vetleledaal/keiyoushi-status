@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.kewnscans-v1.6.22
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 31
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 32
 - Lint: 0
 - Warnings: 0
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: keyoapp
 - Source ID: 2816768640766208312
 - Source name: Kewn Scans
 - Source language: en
@@ -30,7 +31,7 @@
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Snow Mountain Monster Princess - Season 1 (`.../snow-mountain-monster-princess-season-1`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Snow Mountain Monster Princess - Season 1 (`.../snow-mountain-monster-princess-season-1`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 35 | Chapter 1 (`.../74caf5685eb-6f7ef986943`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 21 |  |  | <1s |
+| pages | `getPageList(chapter)` | success | 21 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 21 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.meowing.org/.../2bfc5b59570` (image/webp (encoding: lossy), 166070 bytes, 800x5555; server Content-Type: text/plain) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.xlecx-v1.6.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 14
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 15
 - Lint: 0
 - Warnings: 1
 - Skipped: 18
@@ -23,10 +23,10 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 18 | Suzie Q - Breeding Mount (`.../33811-suzie-q-breeding-mount.html`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 18 | Suzie Q - Breeding Mount (`.../33811-suzie-q-breeding-mount.html`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 18 | I See You (`.../33108-i-see-you-ongoing.html`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 18 | Suiren-ke e Youkoso (`.../63567-suiren-ke-e-youkoso.html`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 18 | Lana's Mom (`.../63545-lanas-mom.html`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 18 | MHA Halloween (`.../63714-mha-halloween.html`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 18 | Dog Trick (`.../63696-dog-trick.html`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

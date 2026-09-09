@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.eldermanga-v1.4.8
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: uzaymanga
 - Source ID: 5412929724953013469
 - Source name: Elder Manga
 - Source language: tr
@@ -26,10 +27,10 @@
 | popular | `fetchPopularManga(1)` | success | 20 | Kıyamette Sığınak Kurdum (`.../kiyamette-siginak-kurdum`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 20 | Tarikat Liderine Selam Olsun (`.../tarikat-liderine-selam-olsun`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 20 | Kıyamette Başkalarını Güçlendiriyorum (`.../kiyamette-baskalarini-guclendiriyorum`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | Oyunun En Büyük Düşmanı! (`.../oyunun-en-buyuk-dusmani`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | Oyunun En Büyük Düşmanı! (`.../oyunun-en-buyuk-dusmani`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Kıyamette Başkalarını Güçlendiriyorum (`.../kiyamette-baskalarini-guclendiriyorum`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Kıyamette Başkalarını Güçlendiriyorum (`.../kiyamette-baskalarini-guclendiriyorum`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 4 | Bölüm 1 (`.../1-bolum-oku`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 5 | Bölüm 1 (`.../1-bolum-oku`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 31 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | <p>Ortaya çıkan gizemli “Kapılar”, canavarları dünyaya taşıyarak insanlığı kıyametin eşiğine sürükler. Başkalarının seviyesini yükseltme yeteneğine sahip tek kişi olan Xiao Haiyun, bu gücüyle insanlığın son kurtarıcısı olabilecek midir?<.../p%3E |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 4 chapters |  |  |  |
-| chapter dates | PASS | 4 positive upload dates |  |  |  |
+| chapters | PASS | 5 chapters |  |  |  |
+| chapter dates | PASS | 5 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 31 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn-el.efsaneler2.can.re/.../1__0mvg0c.avif` (image/avif (format: avif), 188453 bytes, 1086x1448) |  |  |  |

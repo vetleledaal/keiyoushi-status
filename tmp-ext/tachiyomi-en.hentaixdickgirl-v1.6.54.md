@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.hentaixdickgirl-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 918523496924275699
 - Source name: HentaiXDickgirl
 - Source language: en
@@ -25,12 +26,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Anya to Yor (Spy x Family) (`.../1317`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Tsuiteru (`.../965`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Everyone’s Elf Sensei (`.../5572`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Junsei yori Ai o Komete (`.../5567`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | COSMIC DARK AUCTION (`.../5561`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | A Hard Debut (`.../5604`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Anya to Yor (Spy x Family) (`.../1317`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Anya to Yor (Spy x Family) (`.../1317`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Oneshot (`.../oneshot`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 7 |  |  | 1-10s |
+| pages | `getPageList(chapter)` | success | 7 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 7 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://hentaixdickgirl.com/.../Pg_1.webp` (image/webp (encoding: lossy), 91798 bytes, 835x1200) |  |  |  |

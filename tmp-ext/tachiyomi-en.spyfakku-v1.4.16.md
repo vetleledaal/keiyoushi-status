@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.spyfakku-v1.4.16
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -23,9 +23,9 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 24 | Hidden Emotions (`.../18792 <redacted query values: 22 and hash>`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 24 | Hidden Emotions (`.../18792 <redacted query values: 22 and hash>`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 24 | Isekai Mononoke Hot Spring Town 6 (`.../18725 <redacted query values: 21 and hash>`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 24 | Only Fools Rely on Cat-Eared Slaves - My First Domestication Finale (`.../18827 <redacted query values: 27 and hash>`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 24 | Only Fools Rely on Cat-Eared Slaves - My First Domestication Finale (`.../18827 <redacted query values: 27 and hash>`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | success | 24 | Last Summer - Color Version (`.../18803 <redacted query values: 22 and hash>`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Only Fools Rely on Cat-Eared Slaves - My First Domestication Finale (`.../18827 <redacted query values: 27 and hash>`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Only Fools Rely on Cat-Eared Slaves - My First Domestication Finale (`.../18827 <redacted query values: 27 and hash>`) |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 27 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `<redacted URL #2: resource; absolute; valid web scheme; workstation or local network>` (image/png, 2664427 bytes, 1337x1920) |  |  |  |

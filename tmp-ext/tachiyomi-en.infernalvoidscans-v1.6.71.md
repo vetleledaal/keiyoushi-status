@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.infernalvoidscans-v1.6.71
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -23,13 +23,13 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 18 | Lookism (`.../lookism`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 18 | Lookism (`.../lookism`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 18 | Hanlim Gym (`.../hanlim-gym`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 18 | Our High School Music Genius Is Paganini's Reincarnate (`.../our-high-school-music-genius-is-paganini's-reincarnate`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 18 | Silent Transfer Student (`.../silent-transfer-student`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 18 | The Investment Method of a Wall Street Genius on Borrowed Time (`.../the-investment-method-of-a-wall-street-genius-on-borrowed-time`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 18 | Eleceed (`.../eleceed`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Lookism (`.../lookism`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Lookism (`.../lookism`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 631 | Chapter 1 - Ep. 1 (`.../chapter-1`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 632 | Chapter 1 - Ep. 1 (`.../chapter-1`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 92 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -60,13 +60,14 @@
 | details genres | PASS | Manhwa, Drama, Shounen, Action, Comedy, School Life, Supernatural |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Daniel is an unattractive loner who wakes up in a different body. Now tall, handsome, and cooler than ever in his new form, Daniel aims to achieve everything he couldn’t before. How far will he go to keep his body… and his secrets?<br><br>Alternative Names: Lookism |  |  |  |
-| metadata trimming | LINT | Untrimmed fields: chapter 494 name, chapter 495 name, chapter 496 name, chapter 497 name, chapter 498 name, chapter 499 name |  |  |  |
-| chapters | PASS | 631 chapters |  |  |  |
-| chapter dates | PASS | 631 positive upload dates |  |  |  |
+| metadata trimming | LINT | Untrimmed fields: chapter 495 name, chapter 496 name, chapter 497 name, chapter 498 name, chapter 499 name, chapter 500 name |  |  |  |
+| chapters | PASS | 632 chapters |  |  |  |
+| chapter dates | PASS | 632 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 92 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://storage.hivetoon.com/.../image_1_9c56338a.webp` (image/webp (encoding: lossy), 32964 bytes, 800x1000) |  |  |  |

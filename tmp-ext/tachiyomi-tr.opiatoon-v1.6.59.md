@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.opiatoon-v1.6.59
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 22
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 23
 - Lint: 1
 - Warnings: 0
 - Skipped: 11
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 2266890064732906146
 - Source name: Opiatoon
 - Source language: tr
@@ -24,13 +25,13 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Painter of the Night (`.../1245`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 25 | Sadistic Beauty BL Sidestory (`.../16651`) |  | <1s |
+| popular_next | `getPopularManga(2)` | success | 25 | Sadistic Beauty BL Sidestory (`.../16651`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | success | 25 | Ennead (`.../12480`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 25 | Nagahama to Be, or Not to Be (`.../30650`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Painter of the Night (`.../1245`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | error | 0 |  | java.io.IOException: Okumak için WebView üzerinden giriş yapın | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 143 | Bölüm 1 (`.../bolum-1`) |  | <1s |
-| pages | `getPageList(chapter)` | error | 0 |  | java.io.IOException: Okumak için WebView üzerinden giriş yapın | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 143 | Bölüm 1 (`.../bolum-1`) |  | 1-10s |
+| pages | `getPageList(chapter)` | error | 0 |  | java.io.IOException: Okumak için WebView üzerinden giriş yapın | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | Okumak için WebView üzerinden giriş yapın |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

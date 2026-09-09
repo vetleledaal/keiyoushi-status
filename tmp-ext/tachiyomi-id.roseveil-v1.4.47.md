@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.roseveil-v1.4.47
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | ADULT READING CLUB (Moymoyxi) (`.../adult-reading-club-moymoyxi`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 20 | I Drank It Instead of My Husband [SAKURA] (`.../i-drank-it-instead-of-my-husband-sakura`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | Somehow with My Brother's Friend [ROSEVEIL] (`.../somehow-with-my-brothers-friend-roseveil`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | Tidal Warning [ROSEVEIL] (`.../tidal-warning-roseveil`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | A Very Private Area [ROSEVEIL] (`.../a-very-private-area-roseveil`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | My Academic System Is Making Me Date?! (`.../my-academic-system-is-making-me-date`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | ADULT READING CLUB (Moymoyxi) (`.../adult-reading-club-moymoyxi`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | ADULT READING CLUB (Moymoyxi) (`.../adult-reading-club-moymoyxi`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 12 | Chapter 31 (`.../chapter-31`) |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 25 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.roseveil.org/.../page_001.jpg` (image/jpeg, 480149 bytes, 827x5742) |  |  |  |

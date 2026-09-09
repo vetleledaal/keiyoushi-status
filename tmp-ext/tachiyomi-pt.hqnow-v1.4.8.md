@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.hqnow-v1.4.8
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 29
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 30
 - Lint: 1
 - Warnings: 2
 - Skipped: 4
@@ -23,7 +23,7 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 300 | Invencível (2003) (`.../invencivel-2003`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 300 | Invencível (2003) (`.../invencivel-2003`) |  | 10s+ |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `fetchLatestUpdates(1)` | success | 45 | Doutor Estranho (2023) (`.../doutor-estranho-2023`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 32 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `http://static.hq-now.com/.../Doctor_Strange_001-000.jpg` (image/jpeg, 374427 bytes, 976x1500) |  |  |  |

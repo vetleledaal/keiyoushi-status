@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.toonbr-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 0
 - Warnings: 0
 - Skipped: 4
@@ -28,9 +28,9 @@
 | latest | `fetchLatestUpdates(1)` | success | 129 | O Mundo Após a Queda (`.../o-mundo-apos-a-queda`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Vingança do Cão de Caça dos Baskerville (`.../vinganca-do-cao-de-caca-dos-baskerville`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Vingança do Cão de Caça dos Baskerville (`.../vinganca-do-cao-de-caca-dos-baskerville`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Vingança do Cão de Caça dos Baskerville (`.../vinganca-do-cao-de-caca-dos-baskerville`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 152 | Capítulo 0 (`.../94223f23-c935-4efb-9661-dac7f8a11e25`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 1 |  |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 1 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn2.toonbr.com/.../4fa9ba83-eb20-4ac2-a759-9700e94635ba.jpeg` (image/webp (encoding: lossy), 843250 bytes, 2908x2022; server Content-Type: image/jpeg) |  |  |  |

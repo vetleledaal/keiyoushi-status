@@ -2,10 +2,10 @@
 
 - Extension: tachiyomi-en.mangabuddy-v1.6.34
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 36
-- Lint: 0
+- Lint: 1
 - Warnings: 0
 - Skipped: 0
 - Failed: 0
@@ -16,21 +16,22 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangak
 - Source ID: 5020395055978987501
 - Source name: MangaK
 - Source language: en
-- Selected manga input: popular offset 0: Jinx (`.../jinx`)
+- Selected manga input: popular offset 0: Shutline (`.../shutline`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 24 | Jinx (`.../jinx`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 24 | Solo Max-Level Newbie (`.../solo-max-level-newbie`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 24 | Tale of the Floating Sages (`.../tale-of-the-floating-sages`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | Loving Aunt (`.../loving-aunt`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 24 | Jinx (`.../jinx`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Jinx (`.../jinx`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 198 | Chapter 1 (`.../chapter-1`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 98 |  |  | <1s |
+| popular | `getPopularManga(1)` | success | 24 | Shutline (`.../shutline`) |  | <1s |
+| popular_next | `getPopularManga(2)` | success | 24 | Dog and Bird (`.../dog-and-bird`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 24 | Shinkon Gokko (`.../shinkon-gokko`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | Ochibure Shinshi ni Ai no Uta (`.../ochibure-shinshi-ni-ai-no-uta`) |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 4 | Shutline (`.../shutline`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Shutline (`.../shutline`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 191 | Chapter 0 (`.../chapter-0`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 4 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,29 +45,30 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 24 entries |  |  |  |
 | latest listing | PASS | 24 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Jinx, URL=`.../jinx` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=Shutline, URL=`.../shutline` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 120/120 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 120/120 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 100/100 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 100/100 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://rx.resmk.org/.../60adf5a9b476.webp` (image/webp (encoding: lossy), 13644 bytes, 193x278) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../jinx` |  |  |  |
-| details thumbnail URL | PASS | `https://rx.resmk.org/.../60adf5a9b476.webp` |  |  |  |
-| details author | PASS | Mingwa |  |  |  |
+| thumbnail | PASS | `https://rx.resmk.org/.../2df477b225b7.webp` (image/webp (encoding: lossy), 10054 bytes, 200x267) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../shutline` |  |  |  |
+| details thumbnail URL | PASS | `https://rx.resmk.org/.../2df477b225b7.webp` |  |  |  |
+| details author | PASS | Kyou (II), Kyo Woo, Kyou. |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | Smut, Drama, Boys Love, Sports, Adult, Webtoons, Yaoi, Mature, Romance, Slice of life, Manhwa, Martial arts, Tragedy |  |  |  |
+| details genres | PASS | Action, Drama, Boys Love, Romance, Adult, Mature, Smut, Yaoi, Webtoon, Webtoons, Manhwa |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | Physical therapist Kim Dan has been down on his luck for as long as he can remember. Between an ailing grandmother, menacing loansharks, and an old boss making it almost impossible for him to find work, Dan is truly running out of options. Naturally, it feels like a dream come true when he’s finally hired to treat top-paid MMA fighter Joo Jaekyung, especially when the man then calls him out for a treatment the night before a match with an oh-so-tantalizing offer of five thousand dollars. He claims to have a “jinx” in need of a particular type of “treatment," but it's one that Dan isn't quite prepared to offer… You see, Jaekyung may be a beast in the ring, but he’s even rougher in the bedroom, and Dan’s not sure he can survive Jaekyung at his most primal. Nevertheless, the promise of much-needed cash has Dan agreeing to this ill-fated deal... Could a night together be the thing to help Jaekyung break this jinx once and for all?<br><br>\[Original Webtoon\](https://www.lezhin.com/.../jinx)<br><br>**Official Translations:**  <br>*Uncensored:* \[English\](https://www.lezhinus.com/.../jinx_en), \[Spanish\](https://www.lezhin.es/.../jinx-sin-censura), \[French\](https://www.lezhinfr.com/.../bt_1111096), \[T.Chinese\](https://www.bomtoon.tw/.../jinx), \[Thai\](https://www.lezhinth.com/.../jinx), \[German\](https://www.lezhinde.com/.../dbd_00393)    <br>*Censored:* \[Spanish\](https://www.lezhin.es/.../jinx), \[French\](https://www.lezhinfr.com/.../bt_1110970), \[German\](https://www.lezhinde.com/.../dbd_00331)   <br>Japanese: \[Lezhin\](https://www.lezhin.jp/.../jinx), \[Beltoon\](https://www.beltoon.jp/.../jinx) |  |  |  |
-| metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 198 chapters |  |  |  |
-| chapter dates | PASS | 198 positive upload dates |  |  |  |
+| details description | PASS | Shin is barely making ends meet, hustling as a rogue mechanic on the mean city streets. Problem is, work never comes easy and the dough is nothing to shout about. But when Jake pulls up with car trouble one day, it’s obvious that there’s money to be made: he’s tall, blond and dressed like a million bucks. Jackpot. And after such a handsome payday, Shin is reluctant to let this sucker go. Little does he know that giving Jake his number may be the biggest mistake he’s ever made. And it isn’t long before Jake wants more than his car fixing… *(Source: Lezhin)*<br><br>\[Original Webtoon\](https://www.lezhin.com/.../shutline)  <br>**Audio Drama:** \[Vimeo\](https://vimeo.com/.../831768504)<br><br>**Official Translations:**  <br>\[English\](https://www.lezhinus.com/.../shutline_en), \[Thai\](https://www.boomtoon.com/.../shutline), \[French\](https://www.lezhinfr.com/.../bt_1110152), \[German\](https://www.lezhinde.com/.../dbd_00341), \[T.Chinese\](https://www.bomtoon.tw/.../shutline)  <br>Japanese: \[Beltoon\](https://www.beltoon.jp/.../shutline), \[Lezhin\](https://www.lezhin.jp/.../shutline)  <br>Spanish: \[Censored\](https://www.lezhin.es/.../shutline-sin-censura), \[Uncensored\](https://www.lezhin.es/.../shutline)  <br>Print: \[German\](https://altraverse.de/.../shutline), Italian, Thai <br><br>***Note:**  <br>-The German print version from Altraverse, the Italian edition, and the Thai edition are completely uncensored.  <br>-The T.Chinese, English, French, and Spanish versions will become \[uncensored\](https://twitter.com/.../1760175354185142323 <redacted query values: s>). It will be serialized uncensored from S3 onwards.* |  |  |  |
+| metadata trimming | LINT | Untrimmed fields: chapter 54 name, chapter 105 name, chapter 190 name |  |  |  |
+| chapters | PASS | 191 chapters |  |  |  |
+| chapter dates | PASS | 191 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 98 HTTP page URLs |  |  |  |
+| page URLs | PASS | 4 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://rx.qvzrb.org/.../7fefa5bd2eff.webp` (image/webp (encoding: lossy), 47736 bytes, 720x1159) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://rx.qvzrg.org/.../bb7346f8d9d5.webp` (image/webp (encoding: lossy), 105140 bytes, 1200x2400) |  |  |  |

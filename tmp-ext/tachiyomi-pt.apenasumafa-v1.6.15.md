@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.apenasumafa-v1.6.15
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 26
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 27
 - Lint: 2
 - Warnings: 0
 - Skipped: 7
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 6897166867127039489
 - Source name: Apenas Uma Fã
 - Source language: pt-BR
@@ -23,12 +24,12 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 12 | Nós, Introvertidos (`.../nos-introvertidos.html`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 12 | Nós, Introvertidos (`.../nos-introvertidos.html`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `getLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Nós, Introvertidos (`.../nos-introvertidos.html`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Nós, Introvertidos (`.../nos-introvertidos.html`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Nós, Introvertidos (`.../nos-introvertidos.html`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 47 | Chapter 1 (`.../chapter-1_1.html`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 13 |  |  | 1-10s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 13 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../47db26235d0f43b7895366a602a5cf70.webp` (image/jpeg, 161358 bytes, 854x856) |  |  |  |

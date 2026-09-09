@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.maidmanga-v1.6.14
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 34
 - Lint: 2
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zmanga
 - Source ID: 5716614438725518956
 - Source name: Maid - Manga
 - Source language: id
@@ -23,10 +24,10 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 12 | Lust Geass (`.../lust-geass`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 12 | Lust Geass (`.../lust-geass`) |  | 10s+ |
 | popular_next | `getPopularManga(2)` | success | 12 | Nihon e Youkoso Elf-san. (`.../nihon-e-youkoso-elf-san`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 12 | Furoufushi Shoujo no Naedoko Ryokouki (`.../furoufushi-shoujo-no-naedoko-ryokouki`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 12 | Otoko Girai na Bijin Shimai wo Namae mo Tsugezu ni Tasuketara Ittai Dounaru? (`.../otoko-girai-na-bijin-shimai-wo-namae-mo-tsugezu-ni-tasuketara-ittai-dounaru`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 12 | Kimi No Koto Ga Dai Dai Dai Dai Daisuki Na 100-ri No Kanojo (`.../kimi-no-koto-ga-dai-dai-dai-dai-daisuki-na-100-ri-no-kanojo`) |  | 10s+ |
+| latest_next | `getLatestUpdates(2)` | success | 12 | Yuusha Ni Zenbu Ubawareta Ore Wa Yuusha No Hahaoya To Party Wo Kumimashita! (`.../yuusha-ni-zenbu-ubawareta-ore-wa-yuusha-no-hahaoya-to-party-wo-kumimashita`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Lust Geass (`.../lust-geass`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Lust Geass (`.../lust-geass`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 46 | Chapter 00 (`.../lust-geass-chapter-00-bahasa-indonesia`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 60 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://2.bp.blogspot.com/.../0a.jpg` (image/jpeg, 353813 bytes, 855x1216) |  |  |  |

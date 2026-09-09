@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.yurionline-v1.6.54
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 3410370616110029377
 - Source name: Yuri-Online
 - Source language: es
@@ -24,12 +25,12 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Ame to Muchi (`.../1044`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 25 | La forma en que mi enemiga me mira está cambiando lentamente (`.../1851`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Hitozuma to JK (`.../4365`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Wicked Spot (`.../4473`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | Amor Distorsionado (`.../2037`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 25 | Hermana mayor, ya no quiero ser la número uno de la secta (`.../3888`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Acosadora y Acosada (`.../4381`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Ame to Muchi (`.../1044`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Ame to Muchi (`.../1044`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 20 | Capítulo 1 - Tratamiento y castigo (`.../capitulo-1`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 20 | Capítulo 1 - Tratamiento y castigo (`.../capitulo-1`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 32 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 32 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://yuri-online.com/.../01.jpg` (image/jpeg, 393282 bytes, 1350x1900) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.monomanga-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 34
 - Lint: 0
 - Warnings: 1
 - Skipped: 2
@@ -26,8 +26,8 @@
 | popular | `fetchPopularManga(1)` | success | 21 | Ichizu de Bitch na Kouhai (`.../ichizu-de-bitch-na-kouhai`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `fetchLatestUpdates(1)` | success | 20 | Kuzu no Honkai (`.../kuzu-no-honkai`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 24 | Ballroom e Youkoso (`.../ballroom-e-youkoso`) |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Ichizu de Bitch na Kouhai (`.../ichizu-de-bitch-na-kouhai`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 24 | Ballroom e Youkoso (`.../ballroom-e-youkoso`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Ichizu de Bitch na Kouhai (`.../ichizu-de-bitch-na-kouhai`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Ichizu de Bitch na Kouhai (`.../ichizu-de-bitch-na-kouhai`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 136 | Bölüm 1 (`.../bolum-1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 4 |  |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 4 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.monomanga.com.tr/.../001.webp` (image/webp (container: extended), 292572 bytes, 1133x1600) |  |  |  |

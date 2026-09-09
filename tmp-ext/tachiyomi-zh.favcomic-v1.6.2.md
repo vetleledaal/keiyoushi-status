@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-zh.favcomic-v1.6.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 1
 - Warnings: 1
 - Skipped: 2
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 50 | 新常态 (`.../964242115192299520`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 36 | 灰色兼职：逃亡禁止 (`.../875771768416116736`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 36 | 神乐钵 (`.../928789614762795008`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 36 | 贵族次子的逆袭 (`.../1252214201451343872`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 36 | 终末的女武神禁传 诸神的默示录 (`.../1017084829071712256`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 2 | 新常态 (`.../964242115192299520`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | 新常态 (`.../964242115192299520`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 57 | 短篇 (`.../966688283872600064`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 8 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.favcomic.com/.../1-4dZjUY.webp` (image/webp (encoding: lossy), 206928 bytes, 960x1357) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.shadowceviri-v1.6.15
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 28
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 29
 - Lint: 2
 - Warnings: 1
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 3852979672050614736
 - Source name: Shadow Çeviri
 - Source language: tr
@@ -23,9 +24,9 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 14 | Hajime No Ippo (`.../hajime-no-ippo_1.html`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 15 | Hajime No Ippo (`.../hajime-no-ippo_1.html`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 11 | Hajime No Ippo (`.../hajime-no-ippo_1.html`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 11 | Hajime No Ippo (`.../hajime-no-ippo_1.html`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Hajime No Ippo (`.../hajime-no-ippo_1.html`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Hajime No Ippo (`.../hajime-no-ippo_1.html`) |  | <1s |
@@ -42,15 +43,15 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 14 entries |  |  |  |
+| popular listing | PASS | 15 entries |  |  |  |
 | latest listing | PASS | 11 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Hajime No Ippo, URL=`.../hajime-no-ippo_1.html` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | FAIL | Popular page 1 repeats 9 manga entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
-| manga title and URL | PASS | 26/26 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 26/26 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 27/27 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 27/27 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://blogger.googleusercontent.com/.../Ippo%20Kapak.jpg` (image/jpeg, 1296329 bytes, 1042x1600) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../hajime-no-ippo_1.html` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 15 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../00.jpg` (image/jpeg, 1253799 bytes, 1042x1600) |  |  |  |

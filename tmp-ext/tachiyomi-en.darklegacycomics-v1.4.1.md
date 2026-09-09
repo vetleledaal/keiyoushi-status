@@ -2,14 +2,14 @@
 
 - Extension: tachiyomi-en.darklegacycomics-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 16
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 17
 - Lint: 0
 - Warnings: 1
 - Skipped: 17
 - Failed: 2
-- Retry disposition: REVIEW
+- Retry disposition: RETRY_NOW
 
 ## Runtime Evidence
 
@@ -52,7 +52,7 @@
 | manga title and URL | PASS | 4/4 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 4/4 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | UNUSUAL | Thumbnail URLs used by different manga URLs: `https://images2.imgbox.com/.../BVxRdljH_o.png` -> all 2 manga URLs (examples: `.../archive`, `.../1.php`) |  |  |  |
-| thumbnail | FAIL | `https://images2.imgbox.com/.../BVxRdljH_o.png` (image/jpeg, 8091 bytes, 240x240); known placeholder: imgbox: Thumbnail Temporarily Unavailable | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| thumbnail | FAIL | Thumbnail URL `https://images2.imgbox.com/.../BVxRdljH_o.png` could not be downloaded: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 30000 ms | RETRY_NOW | TIMEOUT |  |
 | details identity | PASS | Details preserved selected URL `.../archive` |  |  |  |
 | details thumbnail URL | PASS | `https://images2.imgbox.com/.../BVxRdljH_o.png` |  |  |  |
 | details author | PASS | Arad Kedar (Keydar) |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

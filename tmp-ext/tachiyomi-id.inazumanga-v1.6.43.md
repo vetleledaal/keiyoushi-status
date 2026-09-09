@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.inazumanga-v1.6.43
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 34
 - Lint: 0
 - Warnings: 1
 - Skipped: 2
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
 - Source ID: 1645729642561182833
 - Source name: ReYume
 - Source language: id
@@ -25,10 +26,10 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 12 | Shangri-La Frontier ~Kusoge Hunter. Kamige ni Idoman to su~ (`.../shangri-la-frontier-kusoge-hunter.html`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 20 | Yuusha Party wo Tsuihou Sareta Ore da ga, Ore kara Sudatte Kureta you de Ureshii... Nanode Daiseijo, Omae ni Otte Korarete wa Komaru no da ga? (`.../yuusha-party-wo-tsuihou-sareta-ore-da.html`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 20 | Tsuihousareru Tabi ni Skill wo Te ni Ireta Ore ga, 100 no Isekai de 2-shuume Musou (`.../tsuihousareru-tabi-ni-skill-wo-te-ni.html`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 20 | Ultimate Son-in-law (`.../ultimate-son-in-law.html`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 20 | Watashi Yori Tsuyoi Otoko to Kekkon Shitaino (`.../watashi-yori-tsuyoi-otoko-to-kekkon.html`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Shangri-La Frontier ~Kusoge Hunter. Kamige ni Idoman to su~ (`.../shangri-la-frontier-kusoge-hunter.html`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Shangri-La Frontier ~Kusoge Hunter. Kamige ni Idoman to su~ (`.../shangri-la-frontier-kusoge-hunter.html`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Shangri-La Frontier ~Kusoge Hunter. Kamige ni Idoman to su~ (`.../shangri-la-frontier-kusoge-hunter.html`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 262 | Shangri-La Frontier Chapter 17 (`.../shangri-la-frontier-chapter-17.html`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 19 |  |  | 1-10s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 19 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://blogger.googleusercontent.com/.../0.westmanga.info.jpg` (image/webp (container: extended), 95474 bytes, 840x1050) |  |  |  |

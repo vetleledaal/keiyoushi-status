@@ -2,14 +2,14 @@
 
 - Extension: tachiyomi-ja.mangasaison-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 34
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 32
 - Lint: 0
-- Warnings: 0
+- Warnings: 2
 - Skipped: 2
-- Failed: 0
-- Retry disposition: NOT_APPLICABLE
+- Failed: 1
+- Retry disposition: DO_NOT_RETRY
 
 ## Runtime Evidence
 
@@ -19,18 +19,18 @@
 - Source ID: 7468001507218227155
 - Source name: Manga Saison
 - Source language: ja
-- Selected manga input: popular offset 0: 雑用付与術師が自分の最強に気付くまで（コミック） (`.../1048368`)
+- Selected manga input: latest offset 0: 青と陽炎　分冊版（１７） (`.../1471490`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 100 | 雑用付与術師が自分の最強に気付くまで（コミック） (`.../1048368`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 100 | 悪役令嬢たちは揺るがない (`.../1789286`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | 愛されないとわかっていても～捨てられ王女は黒騎士の激重執愛に囚われる～４ (`.../2299323`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 30 | 今度こそ幸せになりたくて離婚を決意したところ、無表情な旦那様が「愛してる」と言ってきました。18 (`.../1911537`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | 雑用付与術師が自分の最強に気付くまで（コミック） 分冊版 (`.../1061539`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | 雑用付与術師が自分の最強に気付くまで（コミック） (`.../1048368`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 12 | 雑用付与術師が自分の最強に気付くまで（コミック） 1 (`.../d165d45d-24ec-4bed-b50b-f968316ef149`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 168 |  |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 30 | 青と陽炎　分冊版（１７） (`.../1471490`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 30 | 大阪マダム、後宮妃になる！（１５） (`.../1092891`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | 青と陽炎　分冊版 (`.../1471490`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 17 | 青と陽炎　分冊版（１） (`.../8ef5a74c-c6f1-4496-ab4a-51e767b289d9`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 54 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,29 +44,30 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 100 entries |  |  |  |
 | latest listing | PASS | 30 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 1: title=雑用付与術師が自分の最強に気付くまで（コミック）, URL=`1048368` |  |  |  |
+| search listing | FAIL | 0 entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 162/162 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 162/162 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 160/160 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 160/160 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://image.mechacomi.jp/.../1048368.jpg <redacted query values: ver>` (image/jpeg, 53664 bytes, 238x338) |  |  |  |
-| details identity | PASS | Details preserved selected URL `1048368` |  |  |  |
-| details thumbnail URL | PASS | `https://image.mechacomi.jp/.../1048368.jpg <redacted query values: ver>` |  |  |  |
-| details author | PASS | アラカワシン, 戸倉儚 |  |  |  |
+| thumbnail | PASS | `https://image.mechacomi.jp/.../6d2b8b41-99e3-489f-b073-1de508a5ba64.jpg` (image/jpeg, 52346 bytes, 238x338) |  |  |  |
+| details identity | UNUSUAL | Details changed selected title 青と陽炎　分冊版（１７） to 青と陽炎　分冊版 |  |  |  |
+| details thumbnail URL | UNUSUAL | Differs from selected listing thumbnail; `https://image.mechacomi.jp/.../1471490.jpg <redacted query values: ver>` (image/jpeg, 46630 bytes, 238x338) |  |  |  |
+| details author | PASS | ドンドン |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | 青年, ファンタジー |  |  |  |
+| details genres | PASS | 女性, BL |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | 〝付与術師〟としてサポートに徹する非戦闘員のヴィムは、仲間の危機を救うために立ち上がり、単独で階層主を倒すことに成功する。しかし、手柄を横取りされたと激昂したリーダーのクロノスによって、パーティーから追放されてしまう。途方に暮れるヴィムだったが、幼馴染のハイデマリーによって見出され、最大手パーティー「夜蜻蛉」の勧誘を受けることになるのだが……。自身の能力に無自覚な〝雑用係〟がその真の力に気付くとき――世界は震撼することになる。<br><br>Alternative Title: ザツヨウフヨジュツシガジブンノサイキョウニキヅクマデコミック<br><br>Publisher: 双葉社 |  |  |  |
+| details description | PASS | 高校野球部のエースピッチャーである南真琴は、突然彼の前から姿を消した幼なじみ且つ中学時代にバッテリーを組んでいた和谷鷲介のことを忘れられずにいる。「野球さえ続けていれば、またいつか鷲介に会えるはず」、そんな独りよがりな希望を胸に抱き、野球部主将・白鳥北斗とバッテリーを組んで練習に打ち込む毎日だった。しかし高３の春、突然鷲介が真琴の前に姿を現し、「転校してきた」と告げる。 三者三様の想いを胸に、最後の夏が始まる――。<br><br>Alternative Title: アオトカゲロウブンサツバン<br><br>Publisher: 講談社<br><br>Magazine: ハニーミルク |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 12 chapters |  |  |  |
-| chapter dates | PASS | 12 positive upload dates |  |  |  |
+| chapters | PASS | 17 chapters |  |  |  |
+| chapter dates | PASS | 17 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 168 HTTP page URLs |  |  |  |
+| page URLs | PASS | 54 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://api.distribution.mediadotech.com/.../BT000240009900100101900209_00120260820110120.uze <redacted query values: Expires, Signature, and Key-Pair-Id>` (image/jpeg, 307167 bytes, 1125x1600; server Content-Type: binary/octet-stream) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://api.distribution.mediadotech.com/.../BT000241795000100101900206_00120260902130124.uze <redacted query values: Expires, Signature, and Key-Pair-Id>` (image/jpeg, 445742 bytes, 1125x1600; server Content-Type: binary/octet-stream) |  |  |  |

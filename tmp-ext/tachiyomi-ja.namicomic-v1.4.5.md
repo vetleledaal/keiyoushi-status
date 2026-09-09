@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.namicomic-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 31
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 32
 - Lint: 0
 - Warnings: 1
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: comiciviewer
 - Source ID: 1860491637286237325
 - Source name: Nami Comic
 - Source language: ja
@@ -25,7 +26,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 32 | 地味子がド派手にモテてる件 (`.../9092669370aeb`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 4 | 二部次長は人たらし。 (`.../8b54399779e50`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 5 | ウチの淫魔は脳筋すぎる (`.../8fd3460cdd381`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 地味子がド派手にモテてる件 (`.../9092669370aeb`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | 地味子がド派手にモテてる件 (`.../9092669370aeb`) |  | 1-10s |
@@ -43,14 +44,14 @@
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 32 entries |  |  |  |
-| latest listing | PASS | 4 entries |  |  |  |
+| latest listing | PASS | 5 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=地味子がド派手にモテてる件, URL=`.../9092669370aeb` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 37/37 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 37/37 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 38/38 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 38/38 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://cdn-public.comici.jp/.../c0708b81de44dbc0-lg.webp` (image/webp (encoding: lossy), 84146 bytes, 720x378) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../9092669370aeb` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 24 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://viewer.namicomic.jp/.../master-1784105162266-01.jpg <redacted query values: Expires, Signature, and Key-Pair-Id> 3, 13, 11, 15, 12, 2, 5, 7, 1, 6, 14, 9, 0, 4, 10\]` (image/jpeg, 428238 bytes, 1000x1412) |  |  |  |

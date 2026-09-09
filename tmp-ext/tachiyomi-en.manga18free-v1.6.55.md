@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.manga18free-v1.6.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 34
 - Lint: 1
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 4446818596127611511
 - Source name: Manga18Free
 - Source language: en
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 25 | Stop Smoking (`.../1028`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | Prison Revenge (`.../1633`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Money Games (`.../2230`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | The owner of the deserted island (`.../2381`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Slave Code (`.../2391`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Guaranteed Pass! Grades Training Camp (`.../2371`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Stop Smoking (`.../1028`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Stop Smoking (`.../1028`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 180 | Chapter 1 (`.../chapter-1`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 183 | Chapter 1 (`.../chapter-1`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 30 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | To regain his peace, Gangchan must welcome his blood-curdling, smoking neighbor and her housemates into his home.<br><br>Alternative Names: Stop Smoking/ Deja de fumar/ DEJA DE FUMAR/ Don't smok/ Dont smok/ Don't smoke/ Someone Stop Her/ ¡Deja De Fumar! |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 180 chapters |  |  |  |
-| chapter dates | LINT | 46 of 180 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=46 |  |  |  |
+| chapters | PASS | 183 chapters |  |  |  |
+| chapter dates | LINT | 48 of 183 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=48 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 30 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `http://manga18free.com/.../01_result01.jpg` to `https://manga18free.com/.../01_result01.jpg` (1 redirects) |  |  |  |
 | page load | PASS | `http://manga18free.com/.../01_result01.jpg` (image/jpeg, 205209 bytes, 720x7980) |  |  |  |

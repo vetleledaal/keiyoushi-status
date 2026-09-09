@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-all.sandraandwoo-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 27
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 8
 - Failed: 1
 - Retry disposition: DO_NOT_RETRY
@@ -29,7 +29,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Sandra and Woo (`.../archive`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 1372 | Welcome to Sandra and Woo (`.../welcome-to-sandra-and-woo`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 1372 | Welcome to Sandra and Woo (`.../welcome-to-sandra-and-woo`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | chapters: `https://www.sandraandwoo.com/.../archive` to `https://www.sandraandwoo.com/.../archive` (1 redirects) |  |  |  |
 | page load | PASS | `https://www.sandraandwoo.com/.../2000-01-01-Welcome-to-Sandra-and-Woo.png` (image/png, 573428 bytes, 980x3621) |  |  |  |

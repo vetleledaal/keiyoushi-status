@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.schlockmercenary-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 27
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 28
 - Lint: 0
 - Warnings: 1
 - Skipped: 7
@@ -23,7 +23,7 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 23 | Book 1: The Tub of Happiness (`.../2000-06-12`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 23 | Book 1: The Tub of Happiness (`.../2000-06-12`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 54 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://www.schlockmercenary.com/.../schlock20000612.jpg <redacted query values: v>` (image/jpeg, 88867 bytes, 780x235) |  |  |  |

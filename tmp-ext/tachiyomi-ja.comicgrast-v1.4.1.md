@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.comicgrast-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 28
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 29
 - Lint: 2
 - Warnings: 1
 - Skipped: 5
@@ -28,8 +28,8 @@
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | モブ魂～下っ端ザコキャラに転生したので、ゲーム知識で無双したら最強パーティができました～ (`.../n284`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | モブ魂～下っ端ザコキャラに転生したので、ゲーム知識で無双したら最強パーティができました～ (`.../n284`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 1 | １話ｰ① (`.../1`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | モブ魂～下っ端ザコキャラに転生したので、ゲーム知識で無双したら最強パーティができました～ (`.../n284`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 2 | １話ｰ① (`.../1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 33 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | 苦悩の末に自ら命を絶った男の転生先は、やり込んでいたRPG「魔剣伝説」の序盤で死ぬザコモブの手下のD!? ディートフリートという名が明かされる前に死んでいく運命に嘆く中、ストーリーには出てこない妹と出会う。可愛い妹・リアを守るべく、下っ端ザコキャラには厳しすぎるシナリオに抗う事を決めたD。前世知識で仲間を鍛え、ゲーム知識で己の治癒魔法を予想外に覚醒させろ!! そしてどん底からの反逆はだんだんとシナリオを壊し始めて…!? |  |  |  |
 | metadata trimming | LINT | Untrimmed fields: author |  |  |  |
-| chapters | PASS | 1 chapters |  |  |  |
-| chapter dates | PASS | 1 positive upload dates |  |  |  |
+| chapters | PASS | 2 chapters |  |  |  |
+| chapter dates | PASS | 2 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 33 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://novema.jp/.../cover.jpg <redacted query values: seed and size>` (image/jpeg, 321439 bytes, 1350x1920) |  |  |  |

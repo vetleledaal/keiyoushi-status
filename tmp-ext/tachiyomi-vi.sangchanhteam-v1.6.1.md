@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-vi.sangchanhteam-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 31
 - Lint: 0
-- Warnings: 1
+- Warnings: 2
 - Skipped: 3
 - Failed: 1
 - Retry disposition: DO_NOT_RETRY
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | FAIL | Page list is empty (0 pages) | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://sangchanhteam.com/.../2 <redacted query values: type, status, age_rating, team, rating_min, rating_max, and sort>` to `https://sangchanhteam.com/.../2 <redacted query values: type, status, age_rating, team, rating_min, rating_max, and sort>` (1 redirects); popular: `https://sangchanhteam.com/.../2 <redacted query values: type, status, age_rating, team, rating_min, rating_max, and sort>` to `https://sangchanhteam.com/.../2 <redacted query values: type, status, age_rating, team, rating_min, rating_max, and sort>` (1 redirects) |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

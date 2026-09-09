@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.readkingdommangaonline-v1.4.9
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 23
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 24
 - Lint: 4
 - Warnings: 1
 - Skipped: 8
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangacatalog
 - Source ID: 7952360835727640966
 - Source name: Read Kingdom Manga Online
 - Source language: en
@@ -29,7 +30,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Kingdom (`https://ww6.readkingdom.com/.../kingdom`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Kingdom (`https://ww6.readkingdom.com/.../kingdom`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 927 | Kingdom Chapter 1 (`https://ww6.readkingdom.com/.../kingdom-chapter-001`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 928 | Kingdom Chapter 1 (`https://ww6.readkingdom.com/.../kingdom-chapter-001`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 61 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | Read Kingdom Manga Online Scans by turnipfarmers & complexbowler and sensescans Kingdom Official Version Kingdom Official Japanese Version |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 927 chapters |  |  |  |
-| chapter dates | LINT | All 927 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=927 |  |  |  |
+| chapters | PASS | 928 chapters |  |  |  |
+| chapter dates | LINT | All 928 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=928 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
-| chapter URLs | UNUSUAL | All 927 chapter URLs are absolute |  |  |  |
+| chapter URLs | UNUSUAL | All 928 chapter URLs are absolute |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 61 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.readkingdom.com/.../2.jpeg` (image/jpeg, 57599 bytes, 700x489) |  |  |  |

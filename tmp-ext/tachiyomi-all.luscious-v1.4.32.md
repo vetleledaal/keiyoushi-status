@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-all.luscious-v1.4.32
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 34
 - Lint: 2
-- Warnings: 0
+- Warnings: 1
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -25,11 +25,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 27 | Creampies💦Hentai (`.../creampieshentai_341758`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 25 | The Monstergirl Bestiary (`.../the-monstergirl-bestiary_403876`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | Just the best 2 (`.../just-the-best-2_614500`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 29 | Mikoto Uchiha - Naruto (`.../mikoto-uchiha-naruto_622577`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 25 | AI hentai 2d (`.../ai-hentai-2d_624875`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 30 | A Peek at 0.1% of Love Vol. 3 (`.../a-peek-at-01-of-love-vol-3_625567`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 30 | Creampies💦Hentai (`.../creampieshentai_341758`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Creampies💦Hentai (`.../creampieshentai_341758`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 996 | 1 - Bnha 89 01Cw9Z65Fzm409B0K1Kq5Y1Hpc1680X0 01Cze38E0Z6Jemz7G13022Pxsc.1680X0 (`.../bnha-89_01cw9z65fzm409b0k1kq5y1hpc1680x0_01cze38e0z_01DAMRQ6K09NYGE3CXAVTQJ2SC.1680x0.jpg`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 996 | 1 - Bnha 89 01Cw9Z65Fzm409B0K1Kq5Y1Hpc1680X0 01Cze38E0Z6Jemz7G13022Pxsc.1680X0 (`.../bnha-89_01cw9z65fzm409b0k1kq5y1hpc1680x0_01cze38e0z_01DAMRQ6K09NYGE3CXAVTQJ2SC.1680x0.jpg`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -43,14 +43,14 @@
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 27 entries |  |  |  |
-| latest listing | PASS | 30 entries |  |  |  |
+| latest listing | PASS | 25 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Creampies💦Hentai, URL=`.../creampieshentai_341758` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
-| latest pagination | PASS |  |  |  |  |
+| latest pagination | UNUSUAL | Overlapping manga: title=A Peek at 0.1% of Love Vol. 3, URL=`.../a-peek-at-01-of-love-vol-3_625567` at page 1 offset 24 and page 2 offset 0 |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 141/141 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 141/141 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 137/137 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 137/137 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://ah-img.luscious.net/.../defeadc4f2d7f94d37bd_01GNA8Q1HAJWFEQAM3ZBCH0KWA.640x0.jpg` (image/jpeg, 76171 bytes, 640x710) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../creampieshentai_341758` |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://ah-img.luscious.net/.../bnha-89_01cw9z65fzm409b0k1kq5y1hpc1680x0_01cze38e0z_01DAMRQ6K09NYGE3CXAVTQJ2SC.1680x0.jpg` (image/jpeg, 70127 bytes, 758x1020) |  |  |  |

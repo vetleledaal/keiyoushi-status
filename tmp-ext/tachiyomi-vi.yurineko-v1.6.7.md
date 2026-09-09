@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.yurineko-v1.6.7
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 0
 - Warnings: 0
 - Skipped: 2
@@ -25,12 +25,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 10 | Đồ Ăn Của Ta Trông Thật Đáng Yêu (`.../c0df8ec4-6e65-449f-9462-9f89f3e3ee05`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 16 | 怜-Toki- (`.../3546d717-78c3-44f3-9159-bfe4ef2ad822`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 16 | Khi Bị Đứa Mình Ghét Tỏ Tình (`.../9f5258f3-0f51-4d38-8883-730ba4dce647`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 20 | Đồ Ăn Của Ta Trông Thật Đáng Yêu (`.../c0df8ec4-6e65-449f-9462-9f89f3e3ee05`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Đồ Ăn Của Ta Trông Thật Đáng Yêu (`.../c0df8ec4-6e65-449f-9462-9f89f3e3ee05`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 16 | Người chị muốn ra dáng chị gái và Cô em kế muốn một mối quan hệ Yuri (`.../6113b9fa-3898-4720-8906-f94c4f7f9914`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 16 | Bắt nạt mình đi mà, nữ phản diện ơi! (`.../105240ea-7cbe-46ef-9dc6-f606eed14fad`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 20 | Đồ Ăn Của Ta Trông Thật Đáng Yêu (`.../c0df8ec4-6e65-449f-9462-9f89f3e3ee05`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Đồ Ăn Của Ta Trông Thật Đáng Yêu (`.../c0df8ec4-6e65-449f-9462-9f89f3e3ee05`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 196 | Chương 0 (`.../3287abd8-1738-4816-95d1-63a5612bc475`) |  | 1-10s |
-| pages | `getPageList(chapter)` | success | 14 |  |  | <1s |
+| pages | `getPageList(chapter)` | success | 14 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 14 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://yurinekoz.com/.../img <redacted query values: d, e, and s>` (image/webp (encoding: lossy), 220352 bytes, 1000x1448; server Content-Type: application/octet-stream) |  |  |  |

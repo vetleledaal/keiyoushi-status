@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-vi.goctruyentranh-v1.6.12
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 35
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 36
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -24,10 +24,10 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 30 | Công Tử Biệt Tú! (`.../cong-tu-biet-tu`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 30 | Solo Leveling Ragnarok (`.../solo-leveling-ragnarok`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 30 | Solo Leveling Ragnarok (`.../solo-leveling-ragnarok`) |  | <1s |
 | latest | `getLatestUpdates(1)` | success | 30 | Chiến Lược Giúp Nữ Phản Diện Hoàn Lương (`.../chien-luoc-giup-nu-phan-dien-hoan-luong`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 30 | Yuusha Ni Zenbu Ubawareta Ore Wa Yuusha No Hahaoya To Party Wo Kumimashita! (`.../yuusha-ni-zenbu-ubawareta-ore-wa-yuusha-no-hahaoya-to-party-wo-kumimashita`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Công Tử Biệt Tú! (`.../cong-tu-biet-tu`) |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Công Tử Biệt Tú! (`.../cong-tu-biet-tu`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Công Tử Biệt Tú! (`.../cong-tu-biet-tu`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 216 | Chapter 1 (`.../chuong-1`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 112 |  |  | 1-10s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 112 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | FAIL | First page URL `https://db.goctruyentranh.org/.../images <redacted query values: src>` could not be downloaded: eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |

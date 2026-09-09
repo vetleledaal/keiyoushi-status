@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.kenscans-v1.6.37
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,21 +16,22 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: iken
 - Source ID: 7831933086917318633
 - Source name: Ken Scans
 - Source language: en
-- Selected manga input: latest offset 0: I became the stepmother who caused my favorite character to fall into darkness (`.../i-became-the-stepmother-who-caused-my-favorite-character-to-fall-into-darkness`)
+- Selected manga input: popular offset 0: I've Been Invincible for a Long Time (`.../it-turns-out-that-i-have-been-invincible-for-a-long-time`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 18 | I've Been Invincible for a Long Time (`.../it-turns-out-that-i-have-been-invincible-for-a-long-time`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 18 | I've Been Invincible for a Long Time (`.../it-turns-out-that-i-have-been-invincible-for-a-long-time`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 18 | Jiyujiyo (`.../jiyujiyo`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 18 | I became the stepmother who caused my favorite character to fall into darkness (`.../i-became-the-stepmother-who-caused-my-favorite-character-to-fall-into-darkness`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 18 | Men City (`.../men-city`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | I became the stepmother who caused my favorite character to fall into darkness (`.../i-became-the-stepmother-who-caused-my-favorite-character-to-fall-into-darkness`) |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | I became the stepmother who caused my favorite character to fall into darkness (`.../i-became-the-stepmother-who-caused-my-favorite-character-to-fall-into-darkness`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 31 | Chapter 1 (`.../chapter-1`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 27 |  |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 18 | I Will Buy Divine Power With Money (`.../i-will-buy-divine-power-with-money`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 18 | An Awkward Relationship (`.../an-awkward-relationship`) |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | I've Been Invincible for a Long Time (`.../it-turns-out-that-i-have-been-invincible-for-a-long-time`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | I've Been Invincible for a Long Time (`.../it-turns-out-that-i-have-been-invincible-for-a-long-time`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 225 | Chapter 1 (`.../chapter-1`) |  | 1-10s |
+| pages | `getPageList(chapter)` | success | 14 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,7 +45,7 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 18 entries |  |  |  |
 | latest listing | PASS | 18 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=I became the stepmother who caused my favorite character to fall into darkness, URL=`i-became-the-stepmother-who-caused-my-favorite-character-to-fall-into-darkness#67` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=I've Been Invincible for a Long Time, URL=`it-turns-out-that-i-have-been-invincible-for-a-long-time#44` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
@@ -52,21 +53,22 @@
 | manga title and URL | PASS | 73/73 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 73/73 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://storage.kencomics.com/.../cover_1744395592349.webp` (image/webp (encoding: lossy), 177632 bytes, 500x707) |  |  |  |
-| details identity | PASS | Details preserved selected URL `i-became-the-stepmother-who-caused-my-favorite-character-to-fall-into-darkness#67` |  |  |  |
-| details thumbnail URL | PASS | `https://storage.kencomics.com/.../cover_1744395592349.webp` |  |  |  |
-| details author | PASS | NISHIZEN Mio |  |  |  |
-| details artist | PASS | C&R Creative Studios |  |  |  |
-| details genres | PASS | Manhwa, Josei, Romance, Fantasy |  |  |  |
+| thumbnail | PASS | `https://storage.kencomics.com/.../cover_1744394904211.webp` (image/webp (encoding: lossy), 139002 bytes, 500x667) |  |  |  |
+| details identity | PASS | Details preserved selected URL `it-turns-out-that-i-have-been-invincible-for-a-long-time#44` |  |  |  |
+| details thumbnail URL | PASS | `https://storage.kencomics.com/.../cover_1744394904211.webp` |  |  |  |
+| details author | PASS | 奇想漫画 |  |  |  |
+| details artist | PASS | 奇想漫画 |  |  |  |
+| details genres | PASS | Manhua, Drama , Fantasy, Action, Shounen, Adventure, Martial Arts |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | Akari, who possessed the body of her favorite character's stepmother. While she was delighted to see her beloved character in their adorable childhood up close, she realized that she herself is the stepmother 'Elena,' the person responsible for causing the character to fall into darkness. Determined to avoid the character's descent into darkness and make them happy, Akari faces numerous challenges as the misdeeds of Elena before the possession come back to haunt her. Will she be able to make her favorite character happy?<br><br>Alternative Names: 日本語 (にほんご／にっぽんご) |  |  |  |
+| details description | PASS | Over a five-year journey around the world, Ye Changqing first believed he could be like other cool novel protagonist systems with a plug-in, but even the most common immortal cultivator cannot be. Living close to a sect in a small town was his only option, so he started a business. His small store eventually turned into the holy land of all the righteous individuals, and the dog he raised up turned out to be the feared demon king. From that moment on, everyone acknowledged Ye Changqing as a Supreme Master. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 31 chapters |  |  |  |
-| chapter dates | PASS | 31 positive upload dates |  |  |  |
+| chapters | PASS | 225 chapters |  |  |  |
+| chapter dates | PASS | 225 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 27 HTTP page URLs |  |  |  |
+| page URLs | PASS | 14 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://storage.kencomics.com/.../image_4180_9a640f6c.webp` (image/webp (encoding: lossy), 759414 bytes, 800x4180) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://storage.kencomics.com/.../image_5980_35da72be.webp` (image/webp (encoding: lossy), 1348524 bytes, 800x5980) |  |  |  |

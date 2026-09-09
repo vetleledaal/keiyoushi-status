@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.leercapitulo-v1.4.17
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 26
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 27
 - Lint: 1
 - Warnings: 0
 - Skipped: 8
@@ -25,11 +25,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 24 | Subiendo De Nivel 10.000 Años En el Futuro. (`.../subiendo-de-nivel-10-000-anos-en-el-futuro`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 90 | Antes una asesina, ahora niñera real (`.../antes-una-asesina-ahora-ninera-real`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 90 | K-9: Keishichou Kouanbu Kouan Dai-9-Ka Inou Taisaku Gakari (`.../k-9-keishichou-kouanbu-kouan-dai-9-ka-inou-taisaku-gakari`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Subiendo De Nivel 10.000 Años En el Futuro. (`.../subiendo-de-nivel-10-000-anos-en-el-futuro`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Subiendo De Nivel 10.000 Años En el Futuro. (`.../subiendo-de-nivel-10-000-anos-en-el-futuro`) |  | 10s+ |
-| chapters | `fetchChapterList(manga)` | success | 355 | Capitulo 1 (`.../1`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 357 | Capitulo 1 (`.../1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | error | 0 |  | java.lang.Exception: Unable to find the script | 10s+ |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | Al principio del dao marcial, terroríficas bestias invadieron el mundo y los artistas marciales humanos fueron derrotados. Lu Sheng viaja en el tiempo y entra en el mundo 10.000 años en el futuro en su sueño... Diez mil años después, las técnicas básicas de refinamiento corporal han sido renovadas para ser miles de veces más efectivas de lo que son ahora. Técnicas de respiración, remedios para refinar el cuerpo y textos sagrados sobre artes marciales. Diez mil años después del Dao Marcial, la humanidad se ha extinguido. La civilización marcial que había florecido hasta su apogeo no tenía a nadie que la heredara y ¡Lu Sheng, es la única esperanza!<br><br>Alt name(s): 高武：登陆未来一万年, Level Up In The Future, Iniciando sesión en 10,000 años en el futuro |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 355 chapters |  |  |  |
-| chapter dates | LINT | All 355 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=355 |  |  |  |
+| chapters | PASS | 357 chapters |  |  |  |
+| chapter dates | LINT | All 357 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=357 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | Unable to find the script |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

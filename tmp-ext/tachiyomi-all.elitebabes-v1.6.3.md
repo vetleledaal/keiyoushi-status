@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-all.elitebabes-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 24
 - Lint: 2
-- Warnings: 0
+- Warnings: 1
 - Skipped: 8
 - Failed: 2
 - Retry disposition: REVIEW
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: masonry
 - Source ID: 6842598531101194683
 - Source name: Elite Babes
 - Source language: all
@@ -25,7 +26,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 93 | Teen Porn Pics (`.../teen`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 5 | Roxy Shaw in Salon Siren from Playboy (`.../playboy-roxy-shaw-in-salon-siren-122212`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 19 | Alisha in A Weekend with Alisha 2 from Girlfolio (`.../girlfolio-alisha-in-a-weekend-with-alisha-2-122416`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Teen Porn Pics (`.../teen`) |  | <1s |
@@ -43,16 +44,16 @@
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 93 entries |  |  |  |
-| latest listing | PASS | 5 entries |  |  |  |
+| latest listing | PASS | 19 entries |  |  |  |
 | search listing | SKIP | HTTP error 403 |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 98/98 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 98/98 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 112/112 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 112/112 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://cdn.elitebabes.com/.../37624_masonry_1200.jpg` (image/jpeg, 64918 bytes, 1200x680) |  |  |  |
+| thumbnail | PASS | `https://cdn.elitebabes.com/.../1822674_masonry_1200.jpg` (image/jpeg, 317751 bytes, 1200x1800) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../teen` |  |  |  |
 | details thumbnail URL | PASS | null |  |  |  |
 | details author | PASS | Trending |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | FAIL | Page list is empty (0 pages) | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://www.elitebabes.com/.../1` to `https://www.elitebabes.com/.../newest` (1 redirects) |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

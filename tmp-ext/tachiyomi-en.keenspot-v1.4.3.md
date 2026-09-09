@@ -2,14 +2,14 @@
 
 - Extension: tachiyomi-en.keenspot-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 24
 - Lint: 3
 - Warnings: 0
 - Skipped: 8
-- Failed: 1
-- Retry disposition: REVIEW
+- Failed: 2
+- Retry disposition: RETRY_NOW
 
 ## Runtime Evidence
 
@@ -30,7 +30,7 @@
 | search | `fetchSearchManga(1, query, getFilterList())` | error | 0 |  | java.lang.Exception: Search functionality is not available. | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | TwoKinds (1 page per chapter) (`.../1`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 1307 | Page 1 (`.../1-1`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 1 |  |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 1 |  |  | 10s+ |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://cdn.twokinds.keenspot.com/.../20031022.jpg` (image/jpeg, 323828 bytes, 825x1100) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | FAIL | First page URL `https://cdn.twokinds.keenspot.com/.../20031022.jpg` could not be downloaded: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 30000 ms | RETRY_NOW | TIMEOUT |  |

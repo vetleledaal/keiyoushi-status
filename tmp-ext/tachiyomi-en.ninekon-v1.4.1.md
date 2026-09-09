@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.ninekon-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -25,10 +25,10 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 70 | Half Succubus Wo Hirotta (`.../153809633634de20543e3dcc748e44b1`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 70 | One Punch-Man - One-Hurricane (Doujinshi)frame (`.../d77ff008a30b84d314c1b6d842e36a0c`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 70 | Home Centre Sales Clerk’s Life in Another World ~with the titles - “DIY Master”, “Green Master” and “Pet Master”~ (`.../d850e14d13906074084d3c573a42c2f9`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 70 | A World of Stigma (`.../6be7ffea2db872fb93026b404d1a4cf0`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 70 | Only My Vaccine Can Save the World From Zombie Apocalypse (`.../ad933491c60d465a74492625f7f90928`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 70 | Newman (`.../ebee5c2a5ac53fae960ef4c8c1024080`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Half Succubus Wo Hirotta (`.../153809633634de20543e3dcc748e44b1`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Half Succubus Wo Hirotta (`.../153809633634de20543e3dcc748e44b1`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Half Succubus Wo Hirotta (`.../153809633634de20543e3dcc748e44b1`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 339 | Chapter 1 (`.../pages`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | 1-10s |
 
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://media1.ninekon.com/.../00001-62263.jpg` (image/jpeg, 492416 bytes, 2892x4096) |  |  |  |

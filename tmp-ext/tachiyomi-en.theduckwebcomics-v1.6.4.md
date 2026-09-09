@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.theduckwebcomics-v1.6.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 23
 - Lint: 1
-- Warnings: 1
+- Warnings: 2
 - Skipped: 10
 - Failed: 1
 - Retry disposition: REVIEW
@@ -23,10 +23,10 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | Familiar (`.../Familiar`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 25 | Exposure (`.../Exposure`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 25 | Familiar (`.../Familiar`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 25 | Kuro Shouri (`.../Kuro_Shouri`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | success | 25 | Abejitas (`.../Abejitas`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 10 | Secrets of the ... (`.../Secrets_of_the_Dark_Temple_anthology`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 11 | Echoes (`.../Echoes`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 25 | Actrasier (`.../Actrasier`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Familiar (`.../Familiar`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | error | 0 |  | java.lang.IllegalStateException: this comic is only viewable to 18+ please login to view | 1-10s |
@@ -49,9 +49,9 @@
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 110/110 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 110/110 manga have thumbnail URLs |  |  |  |
-| duplicate thumbnail URLs | UNUSUAL | Thumbnail URLs used by different manga URLs: `https://www.theduckwebcomics.com/.../avatar-generic-comic-A.png` -> 5 manga URLs (examples: `.../Familiar`, `.../Banana_Cream_Cake`, `.../Hentai_Action_Theater`), `https://www.theduckwebcomics.com/.../avatar-generic-comic.png` -> 6 manga URLs (examples: `.../Captura_Magaro`, `.../Finetas`, `.../For_The_Win`) |  |  |  |
+| manga title and URL | PASS | 111/111 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 111/111 manga have thumbnail URLs |  |  |  |
+| duplicate thumbnail URLs | UNUSUAL | Thumbnail URLs used by different manga URLs: `https://www.theduckwebcomics.com/.../avatar-generic-comic-A.png` -> 4 manga URLs (examples: `.../Familiar`, `.../Hentai_Action_Theater`, `.../Familiar_Deutschsprachige_Edition`), `https://www.theduckwebcomics.com/.../avatar-generic-comic.png` -> 6 manga URLs (examples: `.../Captura_Magaro`, `.../Finetas`, `.../For_The_Win`) |  |  |  |
 | thumbnail | PASS | `https://www.theduckwebcomics.com/.../avatar-generic-comic-A.png` (image/png, 1429 bytes, 105x160) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../Familiar` |  |  |  |
 | details thumbnail URL | PASS | `https://www.theduckwebcomics.com/.../avatar-generic-comic-A.png` |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://www.theduckwebcomics.com/.../Familiar` to `https://www.theduckwebcomics.com/.../age` (1 redirects); popular: `https://www.theduckwebcomics.com/.../search <redacted query values: search, page, and last_update>` to `https://www.theduckwebcomics.com/.../search <redacted query values: search, page, and last_update>` (1 redirects) |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

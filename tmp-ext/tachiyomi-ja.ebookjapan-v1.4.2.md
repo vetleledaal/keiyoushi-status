@@ -2,14 +2,14 @@
 
 - Extension: tachiyomi-ja.ebookjapan-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 34
-- Lint: 0
-- Warnings: 1
-- Skipped: 0
-- Failed: 1
-- Retry disposition: DO_NOT_RETRY
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 28
+- Lint: 1
+- Warnings: 2
+- Skipped: 4
+- Failed: 2
+- Retry disposition: REVIEW
 
 ## Runtime Evidence
 
@@ -19,18 +19,18 @@
 - Source ID: 124967435702149192
 - Source name: eBookJapan
 - Source language: ja
-- Selected manga input: popular offset 0: 軍人婿さんと大根嫁さん (`.../812300`)
+- Selected manga input: latest offset 0: ヤングジャンプ (`.../449502`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 50 | 軍人婿さんと大根嫁さん (`.../812300`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 50 | 追放悪役令嬢の旦那様 (`.../622632`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 50 | 女の園の星 (`.../595634`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 50 | クラス召喚に巻き込まれた教師、外れスキルで機械少女を修理する (`.../689277`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 50 | ヤングジャンプ (`.../449502`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 50 | Weekly Capsule ENTAME (`.../992307`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 軍人婿さんと大根嫁さん (`.../812300`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | 軍人婿さんと大根嫁さん (`.../812300`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 10 | 軍人婿さんと大根嫁さん　１巻 (`.../B00164871771`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 127 |  |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 50 | 捨てられた王女の秘密の寝室　【単話版】 (`.../866168`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 50 | キングダム (`.../132898`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | ヤングジャンプ (`.../449502`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 12 | 🔒 ヤングジャンプ 2026 No.41 (`.../B00167053123`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -41,32 +41,33 @@
 | search operation | PASS |  |  |  |  |
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
-| pages operation | PASS |  |  |  |  |
+| pages operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | REVIEW | INSUFFICIENT_EVIDENCE |  |
 | popular listing | PASS | 50 entries |  |  |  |
 | latest listing | PASS | 50 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=軍人婿さんと大根嫁さん, URL=`812300` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 1: title=ヤングジャンプ, URL=`449502` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
-| popular pagination | UNUSUAL | Overlapping manga: title=軍人婿さんと大根嫁さん, URL=`812300` at page 1 offsets 0, 29, 31, 44, 45, 47, 48 and page 2 offset 8, title=ブチ切れ令嬢は報復を誓いました。, URL=`745095` at page 1 offset 1 and page 2 offset 44, title=没落伯爵令嬢は家族を養いたい@COMIC, URL=`809504` at page 1 offset 2 and page 2 offset 49, title=契約婚した相手が鬼宰相でしたが、この度宰相室専任補佐官に任命された地味文官（変装中）は私です。, URL=`897693` at page 1 offsets 6, 9, 10 and page 2 offset 41, title=悪役令嬢になんかなりません。私は『普通』の公爵令嬢です！　～New Route！～, URL=`894039` at page 1 offset 11 and page 2 offset 35, title=私を好きすぎる勇者様を利用して、今世こそ長生きするつもりだったのに（多分、また失敗した）【単行本】, URL=`709762` at page 1 offset 16 and page 2 offset 31, title=捕虜英雄～捨て駒にされた剣奴は敵国で成り上がる～, URL=`937915` at page 1 offset 24 and page 2 offset 13, title=S級ギルドを離脱した刀鍛冶の自由な辺境スローライフ～ブラックギルドから解放されて気ままに鍛冶してたら、伝説の魔刀が生まれていました～, URL=`916478` at page 1 offset 25 and page 2 offset 4, title=断罪された負け組令嬢ですが、時間を戻せるようになったので今度こそ幸せになります, URL=`873746` at page 1 offset 34 and page 2 offset 28, title=地味薬師令嬢はもう契約更新いたしません。　ざまぁ？　没落？　私には関係ないことです, URL=`938158` at page 1 offset 41 and page 2 offset 7 |  |  |  |
-| latest pagination | PASS |  |  |  |  |
-| listing duplicates | FAIL | Popular page 1 repeats 16 manga entries; Popular page 2 repeats 1 manga entry: title=婚約破棄された無表情令嬢が幸せになるまで～勤務先の天然たらし騎士団長様がとろっとろに甘やかして溺愛してくるのですが！？～, URL=`885815`; Latest page 1 repeats 6 manga entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
-| manga title and URL | PASS | 201/201 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 201/201 manga have thumbnail URLs |  |  |  |
+| popular pagination | UNUSUAL | Overlapping manga: title=女の園の星, URL=`595634` at page 1 offset 0 and page 2 offset 40, title=あなたのお城の小人さん　～御飯下さい、働きますっ～（コミック）, URL=`854921` at page 1 offsets 1, 15, 16, 18, 23 and page 2 offset 27, title=ドローイング　最強漫画家はお絵描きスキルで異世界無双する！, URL=`681532` at page 1 offset 3 and page 2 offsets 7, 10, 15, 17, 19, 28, 33, 44, 47, title=悪役令嬢たちは揺るがない, URL=`877211` at page 1 offsets 6, 30 and page 2 offset 2, title=暁の魔女レイシーは自由に生きたい（ガルドコミックス）, URL=`863121` at page 1 offset 10 and page 2 offset 41, title=ウィズレイン王国物語 　～竜が花嫁～（ガルドコミックス）, URL=`904490` at page 1 offset 12 and page 2 offset 13, title=傭兵団の料理番, URL=`844534` at page 1 offset 13 and page 2 offsets 8, 23, 25, title=貧乏騎士に嫁入りしたはずが!? 野人令嬢は皇太子妃になっても竜を狩りたい（コミック）, URL=`860843` at page 1 offset 20 and page 2 offset 1, title=没落伯爵令嬢は家族を養いたい@COMIC, URL=`809504` at page 1 offset 27 and page 2 offset 5, title=リピート・ヴァイス～悪役貴族は死にたくないので四天王になるのをやめました～, URL=`920320` at page 1 offset 33 and page 2 offset 9, title=私の心はおじさんである（コミック）, URL=`854738` at page 1 offset 36 and page 2 offsets 22, 29 |  |  |  |
+| latest pagination | UNUSUAL | Overlapping manga: title=捨てられた王女の秘密の寝室　【単話版】, URL=`866168` at page 1 offset 49 and page 2 offsets 0, 1 |  |  |  |
+| listing duplicates | FAIL | Popular page 1 repeats 11 manga entries; Popular page 2 repeats 15 manga entries; Latest page 1 repeats 3 manga entries; Latest page 2 repeats 1 manga entry: title=捨てられた王女の秘密の寝室　【単話版】, URL=`866168` | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| manga title and URL | PASS | 250/250 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 250/250 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://cache2-ebookjapan.akamaized.net/.../Z2100527877061.jpg <redacted query values: 1788165599000>` (image/jpeg, 358122 bytes, 842x1200) |  |  |  |
-| details identity | PASS | Details preserved selected URL `812300` |  |  |  |
-| details thumbnail URL | PASS | `https://cache2-ebookjapan.akamaized.net/.../Z2100527877061.jpg <redacted query values: 1788165599000>` |  |  |  |
-| details author | PASS | コマkoma |  |  |  |
+| thumbnail | PASS | `https://cache2-ebookjapan.akamaized.net/.../X3100532888961.jpg <redacted query values: 1788943925000>` (image/jpeg, 617826 bytes, 850x1200) |  |  |  |
+| details identity | PASS | Details preserved selected URL `449502` |  |  |  |
+| details thumbnail URL | PASS | `https://cache2-ebookjapan.akamaized.net/.../X3100532888961.jpg <redacted query values: 1788943925000>` |  |  |  |
+| details author | PASS | ヤングジャンプ編集部 |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | 恋愛, ラブコメ, 日常, 時代物, 夫婦 |  |  |  |
+| details genres | LINT | Genres is empty; use null when unknown |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | 【電子特典5Pコミック付】ある日、農家の娘・花の自宅を訪ねてきた軍服姿の青年・誉。彼は今日が祝言の日だと聞いてやって来たという…。SNS・同人誌でも話題沸騰、そちらに未収録のお話も多数掲載＆全ページカラー掲載！<br><br>Publisher: 芳文社 |  |  |  |
+| details description | PASS | 【本号のデジタル版には特別付録「『ダイヤモンドの功罪』指導陣フルネーム＆ダイヤモンドの思い出ステッカー」は収録されておりません。あらかじめご了承ください。】※デジタル版ヤングジャンプは、紙版の同号より未掲載のコンテンツがございます。試し読みファイルのデジタル版目次や注意書きをご確認の上ご購入ください。／「ヤングジャンプ 2026 No.41」、紙と同時に配信！／【表紙＆巻頭グラビア】姫野ひなの（#Mooove!）／【次世代ヒロイン発掘企画!! YJブルーム】橋本ゆめあ／【新連載＆巻頭カラー】『サラマンダ』（中山敦支）／【センターカラー】『BUNGO-unreal-』（二宮裕次）、『4軍くん（仮）』（原作：森高夕次　漫画：末広光）／【センターグラビア】沖玲萌（α＋）／【巻末グラビア】宮崎想乃（※「崎」は「たつさき」が正式表記）／ほか、18作品を掲載！<br><br>Publisher: 集英社 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 10 chapters |  |  |  |
-| chapter dates | PASS | 10 positive upload dates |  |  |  |
+| chapters | PASS | 12 chapters |  |  |  |
+| chapter dates | PASS | 12 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
-| page indices | PASS |  |  |  |  |
-| page URLs | PASS | 127 HTTP page URLs |  |  |  |
-| duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://prod-contents-br-page.akamaized.net/.../e6305f26b817af2d699109d4bdec6f74aa59a210837e85b9fbe500be05cfb2de.webp` (image/webp (encoding: lossy), 1227944 bytes, 1350x1920) |  |  |  |
+| page indices | SKIP | No pages to check |  |  |  |
+| page URLs | SKIP | HTTP error 404 |  |  |  |
+| duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | SKIP | No pages to load |  |  |  |

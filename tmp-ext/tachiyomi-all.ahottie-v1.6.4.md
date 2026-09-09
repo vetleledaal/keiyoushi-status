@@ -2,14 +2,14 @@
 
 - Extension: tachiyomi-all.ahottie-v1.6.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 0
-- Lint: 0
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 29
+- Lint: 1
 - Warnings: 0
-- Skipped: 35
-- Failed: 1
-- Retry disposition: RETRY_NOW
+- Skipped: 5
+- Failed: 2
+- Retry disposition: DO_NOT_RETRY
 
 ## Runtime Evidence
 
@@ -19,53 +19,55 @@
 - Source ID: 6289731484943315811
 - Source name: AHottie
 - Source language: all
+- Selected manga input: popular offset 0: Emika Shirakami 白上咲花, 写真集 「Blooming」 Set.03 (`.../f660dcb77e09c286aa5f5eef73bdb65b`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 500 | 1-10s |
-| popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
+| popular | `getPopularManga(1)` | success | 48 | Emika Shirakami 白上咲花, 写真集 「Blooming」 Set.03 (`.../f660dcb77e09c286aa5f5eef73bdb65b`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 48 | Rio Kureha 紅羽りお, Weekly SPA! 2026.03.10 (週刊SPA! 2026年3月10日号) (`.../31ea79cbc0fd2dc8de31f09d529f1d83`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | skipped | 0 |  |  | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | skipped | 0 |  |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | skipped | 0 |  |  | <1s |
-| pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Emika Shirakami 白上咲花, 写真集 「Blooming」 Set.03 (`.../f660dcb77e09c286aa5f5eef73bdb65b`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Emika Shirakami 白上咲花, 写真集 「Blooming」 Set.03 (`.../f660dcb77e09c286aa5f5eef73bdb65b`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | GALLERY (`.../f660dcb77e09c286aa5f5eef73bdb65b`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 30 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
-| popular operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 500 | RETRY_NOW | HTTP_SERVER_ERROR |  |
-| popular_next operation | SKIP | hasNextPage = false |  |  |  |
+| popular operation | PASS |  |  |  |  |
+| popular_next operation | PASS |  |  |  |  |
 | latest operation | SKIP | supportsLatest = false |  |  |  |
 | latest_next operation | SKIP | supportsLatest = false |  |  |  |
-| search operation | SKIP | No manga was returned by popular or latest |  |  |  |
-| details operation | SKIP | No manga was returned by popular or latest |  |  |  |
-| chapters operation | SKIP | No manga was returned by popular or latest |  |  |  |
-| pages operation | SKIP | No usable chapter was available |  |  |  |
-| popular listing | SKIP | HTTP error 500 |  |  |  |
+| search operation | PASS |  |  |  |  |
+| details operation | PASS |  |  |  |  |
+| chapters operation | PASS |  |  |  |  |
+| pages operation | PASS |  |  |  |  |
+| popular listing | PASS | 48 entries |  |  |  |
 | latest listing | SKIP | supportsLatest = false |  |  |  |
-| search listing | SKIP | No manga was returned by popular or latest |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=Emika Shirakami 白上咲花, 写真集 「Blooming」 Set.03, URL=`.../f660dcb77e09c286aa5f5eef73bdb65b` |  |  |  |
 | latest differs from popular | SKIP | supportsLatest = false |  |  |  |
-| popular pagination | SKIP | HTTP error 500 |  |  |  |
+| popular pagination | PASS |  |  |  |  |
 | latest pagination | SKIP | supportsLatest = false |  |  |  |
-| listing duplicates | SKIP | Fewer than 2 manga to check |  |  |  |
-| manga title and URL | SKIP | No manga to check |  |  |  |
-| thumbnail URLs | SKIP | No manga to check |  |  |  |
-| duplicate thumbnail URLs | SKIP | No manga to check |  |  |  |
-| thumbnail | SKIP | No manga to check |  |  |  |
-| details identity | SKIP | No selected manga URL to compare |  |  |  |
-| details thumbnail URL | SKIP | No details manga to check |  |  |  |
-| details author | SKIP | No details manga to check |  |  |  |
-| details artist | SKIP | No details manga to check |  |  |  |
-| details genres | SKIP | No details manga to check |  |  |  |
-| details status | SKIP | No details manga to check |  |  |  |
-| details description | SKIP | No details manga to check |  |  |  |
-| metadata trimming | SKIP | No details metadata to check |  |  |  |
-| chapters | SKIP | Chapters did not run successfully |  |  |  |
-| chapter dates | SKIP | No chapters to check |  |  |  |
-| chapter titles | SKIP | No chapters to check |  |  |  |
-| chapter URLs | SKIP | No chapters to check |  |  |  |
-| duplicate chapter URLs | SKIP | No chapters to check |  |  |  |
-| page indices | SKIP | No pages to check |  |  |  |
-| page URLs | SKIP | No usable chapter was available |  |  |  |
-| duplicate page URLs | SKIP | No pages to check |  |  |  |
-| page load | SKIP | No pages to load |  |  |  |
+| listing duplicates | PASS |  |  |  |  |
+| manga title and URL | PASS | 97/97 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 97/97 manga have thumbnail URLs |  |  |  |
+| duplicate thumbnail URLs | PASS |  |  |  |  |
+| thumbnail | FAIL | `https://images2.imgbox.com/.../gjf590ov_o.jpg` (image/jpeg, 8091 bytes, 240x240); known placeholder: imgbox: Thumbnail Temporarily Unavailable | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| details identity | PASS | Details preserved selected URL `.../f660dcb77e09c286aa5f5eef73bdb65b` |  |  |  |
+| details thumbnail URL | PASS | null |  |  |  |
+| details author | PASS | null |  |  |  |
+| details artist | PASS | null |  |  |  |
+| details genres | PASS | Emika Shirakami 白上咲花, ヌード写真集 |  |  |  |
+| details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
+| details description | PASS | null |  |  |  |
+| metadata trimming | PASS |  |  |  |  |
+| chapters | PASS | 1 chapters |  |  |  |
+| chapter dates | PASS | 1 positive upload dates |  |  |  |
+| chapter titles | PASS |  |  |  |  |
+| chapter URLs | PASS |  |  |  |  |
+| duplicate chapter URLs | PASS |  |  |  |  |
+| page indices | PASS |  |  |  |  |
+| page URLs | PASS | 30 HTTP page URLs |  |  |  |
+| duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | FAIL | `https://images2.imgbox.com/.../iBqbQLvz_o.jpg` (image/jpeg, 8091 bytes, 240x240); known placeholder: imgbox: Thumbnail Temporarily Unavailable | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |

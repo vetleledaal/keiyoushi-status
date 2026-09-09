@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.arenascans-v1.4.32
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -16,21 +16,22 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 8861274191478178487
 - Source name: Arena Scans
 - Source language: en
-- Selected manga input: popular offset 0: How to Get My Husband on My Side (`.../how-to-get-my-husband-on-my-side`)
+- Selected manga input: latest offset 0: Nano Machine (`.../nano-machine`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | How to Get My Husband on My Side (`.../how-to-get-my-husband-on-my-side`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 20 | Return of the First Patriarch: The Strongest Reincarnates into His Descendant 1000 Years Later (`.../return-of-the-first-patriarch-the-strongest-reincarnates-into-his-descendant-1000-years-later`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | Time Turned Back, So I’ll Choose a Different Life (`.../time-turned-back-so-i-ll-choose-a-different-life`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | To the Witch Who Forgot the Birds (`.../to-the-witch-who-forgot-the-birds`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 20 | As a Reincarnated Villainess and a Single Mother, I’ve Secured the Love Route! (`.../as-a-reincarnated-villainess-and-a-single-mother-ive-secured-the-love-route`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | How to Get My Husband on My Side (`.../how-to-get-my-husband-on-my-side`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 137 | Chapter 1 (`.../how-to-get-my-husband-on-my-side-1`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 69 |  |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | Nano Machine (`.../nano-machine`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | That’s Not What My Will Said (`.../thats-not-what-my-will-said`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 2 | Glitch Utopia (`.../glitch-utopia`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Nano Machine (`.../nano-machine`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 324 | Chapter 1 (`.../nano-machine-1`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 26 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -44,29 +45,30 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 20 entries |  |  |  |
 | latest listing | PASS | 20 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 2: title=How to Get My Husband on My Side, URL=`.../how-to-get-my-husband-on-my-side` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 1: title=Nano Machine, URL=`.../nano-machine` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 100/100 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 100/100 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 82/82 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 82/82 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://arenascan.com/.../fdc8a2c6-42a5-4e2f-9243-4c34f6ff351b.jpg` (image/jpeg, 177180 bytes, 720x1030) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../how-to-get-my-husband-on-my-side` |  |  |  |
-| details thumbnail URL | PASS | `https://arenascan.com/.../fdc8a2c6-42a5-4e2f-9243-4c34f6ff351b.jpg` |  |  |  |
+| thumbnail | PASS | `https://arenascan.com/.../32b4b72c-620c-46a7-8f94-a0f843fd82a4.jpg` (image/jpeg, 291840 bytes, 720x1020) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../nano-machine` |  |  |  |
+| details thumbnail URL | PASS | `https://arenascan.com/.../32b4b72c-620c-46a7-8f94-a0f843fd82a4.jpg` |  |  |  |
 | details author | PASS | null |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | Drama, Fantasy, Magic, Manhwa, Manhwa hot, Psychological, Romance, Webtoons, Manhwa |  |  |  |
+| details genres | PASS | Action, Adventure, Fantasy, Manhwa, Martial arts, Webtoons, Manhwa |  |  |  |
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
-| details description | PASS | Read manhwa How to Get My Husband on My Side / How to Make My Husband on My Side / How to Win My Husband Over / 남편을 내 편으로 만드는 방법 I became ‘Rudbeckia,’ a supporting character in a fantasy novel, a villainess who dies at the hands of her husband. The world’s most damned father has found me another partner for a political marriage. The problem is, that person is the husband who will kill me! First, I need to find a way to live. I need to appear as harmless as possible to the people of the North and protect my husband’s little sister whom I killed in the original novel. Wouldn’t I be able to save my life if I pretended to be in love with my husband? “I fell in love with you!” So please, spare me!<br><br>Alternative Names: How to Make My Husband on My Side / How to Win My Husband Over / 남편을 내 편으로 만드는 방법 |  |  |  |
+| details description | PASS | Read manhwa Nano Machine / Nano Mashin / 喇勞 魔神 / 奈米魔神 / 某天成为魔神 / 나노마신 After being held in disdain and having his life put in danger, an orphan from the Demonic Cult, Cheon Yeo-Woon, has an unexpected visit from his descendant from the future who inserts a nano machine into Cheon Yeo-Woon’s body, which drastically changes Cheon Yeo-Woon’s life after its activation. The story of Cheon Yeo-Woon’s journey of bypassing the Demonic Cult and rising to become the best martial artist has just begun.<br><br>Alternative Names: Nano Mashin / 喇勞 魔神 / 奈米魔神 / 某天成为魔神 / 나노마신 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 137 chapters |  |  |  |
-| chapter dates | PASS | 137 positive upload dates |  |  |  |
+| chapters | PASS | 324 chapters |  |  |  |
+| chapter dates | PASS | 324 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
-| page URLs | PASS | 69 HTTP page URLs |  |  |  |
+| page URLs | PASS | 26 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://cdn.arenascan.com/.../01.webp` (image/webp (encoding: lossy), 78846 bytes, 940x2000) |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://cdn.arenascan.com/.../001.jpg` (image/jpeg, 203197 bytes, 1238x800) |  |  |  |

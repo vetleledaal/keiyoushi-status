@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.coolmic-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -23,10 +23,10 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 20 | Reincarnated into Demon King Evelogia's World (`.../464`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | Caressing the Nipples of My Hibernating Bear (`.../614`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | Your Neighborhood Sex Mart (`.../9251`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | My Neighbors Are Unruly Alphas -The Fumbling Omega Doesn't Stand A Chance- (`.../9080`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 20 | Reincarnated into Demon King Evelogia's World (`.../464`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | [Uncensored] Caressing the Nipples of My Hibernating Bear (`.../3065`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | [Uncensored] The Unofficial Company Newsletter: Writing Sex Reviews of Female Employees (`.../9300`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | THE SUITSMAN (`.../9326`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 20 | Reincarnated into Demon King Evelogia's World (`.../464`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Reincarnated into Demon King Evelogia's World (`.../464`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 165 | Chapter 01 (`.../10783`) |  | 1-10s |
@@ -46,7 +46,7 @@
 | latest listing | PASS | 20 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Reincarnated into Demon King Evelogia's World, URL=`464` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
-| popular pagination | UNUSUAL | Overlapping manga: title=Caressing the Nipples of My Hibernating Bear, URL=`614` at page 1 offset 19 and page 2 offset 0 |  |  |  |
+| popular pagination | UNUSUAL | Overlapping manga: title=\[Uncensored\] Caressing the Nipples of My Hibernating Bear, URL=`3065` at page 1 offset 19 and page 2 offset 0 |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
 | manga title and URL | PASS | 100/100 listing manga have titles and relative URLs |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | LINT | Each page index is 1 less than its 0-based list position |  |  |  |
 | page URLs | PASS | 10 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://en-contents.coolmic.me/.../000010783-001.json <redacted query values: Expires, Signature, and Key-Pair-Id>` (image/jpeg, 63331 bytes, 690x747; server Content-Type: binary/octet-stream) |  |  |  |

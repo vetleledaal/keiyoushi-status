@@ -2,70 +2,73 @@
 
 - Extension: tachiyomi-tr.koreliscans-v1.4.51
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 0
-- Lint: 0
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
+- Lint: 1
 - Warnings: 0
-- Skipped: 34
-- Failed: 2
-- Retry disposition: REVIEW
+- Skipped: 0
+- Failed: 0
+- Retry disposition: NOT_APPLICABLE
 
 ## Runtime Evidence
 
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 1475942648540931708
 - Source name: Koreli Scans
 - Source language: tr
+- Selected manga input: latest offset 0: Mutlak Büyücü (`.../mutlak-buyucu`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | 1-10s |
-| popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
-| search | `fetchSearchManga(1, query, getFilterList())` | skipped | 0 |  |  | <1s |
-| details | `fetchMangaDetails(manga)` | skipped | 0 |  |  | <1s |
-| chapters | `fetchChapterList(manga)` | skipped | 0 |  |  | <1s |
-| pages | `fetchPageList(chapter)` | skipped | 0 |  |  | <1s |
+| popular | `fetchPopularManga(1)` | success | 10 | Lookism (`.../lookism`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 10 | Zirve Seviye Çaylak (`.../zirve-seviye-caylak`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 10 | Mutlak Büyücü (`.../mutlak-buyucu`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 10 | Köpek Köpeği Isırır (`.../kopek-kopegi-isirir`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Mutlak Büyücü (`.../mutlak-buyucu`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Mutlak Büyücü (`.../mutlak-buyucu`) |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 185 | Bölüm 1 (`.../mutlak-buyucu-bolum-1`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 14 |  |  | 10s+ |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
-| popular operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | REVIEW | INSUFFICIENT_EVIDENCE |  |
-| popular_next operation | SKIP | hasNextPage = false |  |  |  |
-| latest operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | REVIEW | INSUFFICIENT_EVIDENCE |  |
-| latest_next operation | SKIP | hasNextPage = false |  |  |  |
-| search operation | SKIP | No manga was returned by popular or latest |  |  |  |
-| details operation | SKIP | No manga was returned by popular or latest |  |  |  |
-| chapters operation | SKIP | No manga was returned by popular or latest |  |  |  |
-| pages operation | SKIP | No usable chapter was available |  |  |  |
-| popular listing | SKIP | HTTP error 403 |  |  |  |
-| latest listing | SKIP | HTTP error 403 |  |  |  |
-| search listing | SKIP | No manga was returned by popular or latest |  |  |  |
-| latest differs from popular | SKIP | Popular or latest has no manga to compare |  |  |  |
-| popular pagination | SKIP | HTTP error 403 |  |  |  |
-| latest pagination | SKIP | HTTP error 403 |  |  |  |
-| listing duplicates | SKIP | Fewer than 2 manga to check |  |  |  |
-| manga title and URL | SKIP | No manga to check |  |  |  |
-| thumbnail URLs | SKIP | No manga to check |  |  |  |
-| duplicate thumbnail URLs | SKIP | No manga to check |  |  |  |
-| thumbnail | SKIP | No manga to check |  |  |  |
-| details identity | SKIP | No selected manga URL to compare |  |  |  |
-| details thumbnail URL | SKIP | No details manga to check |  |  |  |
-| details author | SKIP | No details manga to check |  |  |  |
-| details artist | SKIP | No details manga to check |  |  |  |
-| details genres | SKIP | No details manga to check |  |  |  |
-| details status | SKIP | No details manga to check |  |  |  |
-| details description | SKIP | No details manga to check |  |  |  |
-| metadata trimming | SKIP | No details metadata to check |  |  |  |
-| chapters | SKIP | Chapters did not run successfully |  |  |  |
-| chapter dates | SKIP | No chapters to check |  |  |  |
-| chapter titles | SKIP | No chapters to check |  |  |  |
-| chapter URLs | SKIP | No chapters to check |  |  |  |
-| duplicate chapter URLs | SKIP | No chapters to check |  |  |  |
-| page indices | SKIP | No pages to check |  |  |  |
-| page URLs | SKIP | No usable chapter was available |  |  |  |
-| duplicate page URLs | SKIP | No pages to check |  |  |  |
-| page load | SKIP | No pages to load |  |  |  |
+| popular operation | PASS |  |  |  |  |
+| popular_next operation | PASS |  |  |  |  |
+| latest operation | PASS |  |  |  |  |
+| latest_next operation | PASS |  |  |  |  |
+| search operation | PASS |  |  |  |  |
+| details operation | PASS |  |  |  |  |
+| chapters operation | PASS |  |  |  |  |
+| pages operation | PASS |  |  |  |  |
+| popular listing | PASS | 10 entries |  |  |  |
+| latest listing | PASS | 10 entries |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=Mutlak Büyücü, URL=`.../mutlak-buyucu` |  |  |  |
+| latest differs from popular | PASS |  |  |  |  |
+| popular pagination | PASS |  |  |  |  |
+| latest pagination | PASS |  |  |  |  |
+| listing duplicates | PASS |  |  |  |  |
+| manga title and URL | PASS | 41/41 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 41/41 manga have thumbnail URLs |  |  |  |
+| duplicate thumbnail URLs | PASS |  |  |  |  |
+| thumbnail | PASS | `https://image.nabicix.com/.../Mutlak-Buyucu.webp` (image/webp (encoding: lossy), 28340 bytes, 432x618) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../mutlak-buyucu` |  |  |  |
+| details thumbnail URL | PASS | `https://image.nabicix.com/.../Mutlak-Buyucu.webp` |  |  |  |
+| details author | PASS | Kim Chiwoo |  |  |  |
+| details artist | PASS | Redice Studio |  |  |  |
+| details genres | PASS | Aksiyon, Doğaüstü, Fantastik, Macera, Manhwa, Shounen |  |  |  |
+| details status | PASS | ONGOING (1) |  |  |  |
+| details description | PASS | Doğumdan sonra bir köşeye bırakılan Shirone avam bir çift tarafından büyütüldü. Daha küçükken kavrama yeteneği elde etti ve okumayı öğrendi. Şehre indikten sonra çok merak ettiği büyünün nasıl yapılacağını gördü. Böylece Shirone bir büyücü olma isteği körüklendi. Ancak şehir tamamen hiyerarşiden dolayı yozlaşmış bir halde. Daha büyümeden dünyanın acı gerçeklerini burada öğrendi. Shirone acaba büyücü olabilecek mi?<br><br>Alternative Names: 무한의 마법사 , Infinite Mage |  |  |  |
+| metadata trimming | PASS |  |  |  |  |
+| chapters | PASS | 185 chapters |  |  |  |
+| chapter dates | LINT | All 185 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=185 |  |  |  |
+| chapter titles | PASS |  |  |  |  |
+| chapter URLs | PASS |  |  |  |  |
+| duplicate chapter URLs | PASS |  |  |  |  |
+| page indices | PASS |  |  |  |  |
+| page URLs | PASS | 14 HTTP page URLs |  |  |  |
+| duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://www.nabicix.com/.../001_01.webp` (image/webp (encoding: lossy), 752576 bytes, 760x16383) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.hachirumi-v1.4.7
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 30
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 31
 - Lint: 2
 - Warnings: 0
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: guya
 - Source ID: 593241987912872030
 - Source name: Hachirumi
 - Source language: en
@@ -30,7 +31,7 @@
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Earth Recording 0001 (`.../earth-recording-0001`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Earth Recording 0001 (`.../earth-recording-0001`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 4 | 1 - Oneshot (`.../1`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 62 |  |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 62 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +70,5 @@
 | page indices | LINT | Page indices are 1-indexed, but should be 0-indexed |  |  |  |
 | page URLs | PASS | 62 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://hachirumi.com/.../01.png <redacted query values: v2>` (image/png, 1110409 bytes, 1644x2400) |  |  |  |

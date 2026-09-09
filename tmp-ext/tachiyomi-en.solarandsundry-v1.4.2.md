@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.solarandsundry-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 26
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 27
 - Lint: 1
 - Warnings: 0
 - Skipped: 8
@@ -29,7 +29,7 @@
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Solar and Sundry (`.../page`) |  | <1s |
-| chapters | `fetchChapterList(manga)` | success | 10 | the moon of x-54 (`.../1`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 10 | the moon of x-54 (`.../1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://imagedelivery.net/.../public` (image/webp (container: extended), 309688 bytes, 1601x2561) |  |  |  |

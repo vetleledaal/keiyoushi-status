@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.astralscans-v1.4.39
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 26
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 27
 - Lint: 0
 - Warnings: 0
 - Skipped: 9
@@ -16,19 +16,20 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 829250309114015686
 - Source name: Astral Scans
 - Source language: id
-- Selected manga input: latest offset 0: If You Touch It, You Can See It (`.../if-you-touch-it-you-can-see-it`)
+- Selected manga input: popular offset 0: While You Were Letting Your Guard Down (`.../while-you-were-letting-your-guard-down`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 30 | While You Were Letting Your Guard Down (`.../while-you-were-letting-your-guard-down`) |  | 1-10s |
-| popular_next | `fetchPopularManga(2)` | success | 5 | One Hundred Nights (`.../one-hundred-nights`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | If You Touch It, You Can See It (`.../if-you-touch-it-you-can-see-it`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 5 | Pinocchio in the Closet (`.../pinocchio-in-the-closet`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | If You Touch It, You Can See It (`.../if-you-touch-it-you-can-see-it`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | If You Touch It, You Can See It (`.../if-you-touch-it-you-can-see-it`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 7 | One Hundred Nights (`.../one-hundred-nights`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 30 | Garden Flora (`.../garden-flora`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 7 | A Pushover From Potae Village (`.../a-pushover-from-potae-village`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | While You Were Letting Your Guard Down (`.../while-you-were-letting-your-guard-down`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | While You Were Letting Your Guard Down (`.../while-you-were-letting-your-guard-down`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 0 |  |  | 1-10s |
 | pages | `fetchPageList(chapter)` | skipped | 0 |  |  | <1s |
 
@@ -44,22 +45,22 @@
 | pages operation | SKIP | No usable chapter was available |  |  |  |
 | popular listing | PASS | 30 entries |  |  |  |
 | latest listing | PASS | 30 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=If You Touch It, You Can See It, URL=`.../if-you-touch-it-you-can-see-it` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=While You Were Letting Your Guard Down, URL=`.../while-you-were-letting-your-guard-down` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 71/71 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 71/71 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 75/75 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 75/75 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://i0.wp.com/.../poster-touch-alt.webp` (image/jpeg, 484419 bytes, 1676x2235) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../if-you-touch-it-you-can-see-it` |  |  |  |
-| details thumbnail URL | PASS | `https://i0.wp.com/.../poster-touch-alt.webp` |  |  |  |
-| details author | PASS | Nini (니니) |  |  |  |
-| details artist | PASS | Bunji |  |  |  |
-| details genres | PASS | Office worker, Yaoi, Manhwa |  |  |  |
-| details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | Jung In-woo** memiliki sebuah kemampuan unik: saat dia menyentuh seseorang, dia bisa melihat fantasi seks orang tersebut. Suatu hari, dia masuk ke tempat kerja baru dan bertemu dengan ketua timnya, Yoo Ha-jin. Ha-jin sangat populer berkat parasnya yang luar biasa menawan. Namun, dedikasinya yang gila kerja dan sifatnya yang ketus membuatnya terkesan dingin serta sulit didekati. Dia nyaris tidak pernah berbicara dengan siapa pun jika bukan menyangkut urusan pekerjaan. In-woo pun tidak memiliki pandangan yang baik tentang Ha-jin, mengingat pria itu selalu menatapnya seolah dia adalah seekor hama. Namun, di tengah-tengah acara makan malam perusahaan, tubuh mereka tidak sengaja bersentuhan, dan In-woo tanpa sadar melihat sekilas hasrat tersembunyi Ha-jin. Betapa terkejutnya In-woo saat mengetahui bahwa Ha-jin memiliki fetish degradasi yang kuat—dan ternyata pria itu adalah seorang gay. Dibuat tak menyangka oleh sisi lain Ha-jin yang berbanding terbalik dengan penampilan luarnya yang tajam dan dingin, In-woo kini mendapati dirinya mulai memikirkan pria itu terus-menerus…<br><br>Alternative Names: 만지면 보이는 |  |  |  |
+| thumbnail | PASS | `https://i0.wp.com/.../a4afb8958fbc0903ad1316998716dc3a15991e67_700_940_218439-2.jpeg` (image/jpeg, 73693 bytes, 600x805) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../while-you-were-letting-your-guard-down` |  |  |  |
+| details thumbnail URL | PASS | `https://i0.wp.com/.../a4afb8958fbc0903ad1316998716dc3a15991e67_700_940_218439-2.jpeg` |  |  |  |
+| details author | PASS | Yeonnu |  |  |  |
+| details artist | PASS | Yeonnu |  |  |  |
+| details genres | PASS | Comedy, Office worker, Yaoi, Manhwa |  |  |  |
+| details status | PASS | COMPLETED (2) |  |  |  |
+| details description | PASS | Haemin, seorang Beta yang menghindari Alpha akibat dampak dari hubungan yang sebelumnya, berubah menjadi seorang omega karena cinta satu malam dengan seorang alpha dominan, Sung Han. Mengikuti saran dari dokter, dia mencari-cari sang alpha dominan tersebut untuk diajak melakukan hubungan sex secara rutin. Dia pun mengajukan tawaran dan menutup matanya pada Sung Han yang kebetulan juga bekerja di departemen yang sama dengannya. Kedua orang itu melakukan sex seminggu sekali dan perasaan pun mulai timbul di antara mereka. Namun, ketua tim yang baru, bernama Jin Tae muncul dan ternyata dia adalah mantan pacar Haemin yang memutuskannya karena Haemin adalah seorang Beta?! Kehidupan Haemin yang mulanya mulus kini makin lama makin rumit.<br><br>Alternative Names: While You Were Caught Off Guard, 当你措手不及时, 당신이 방심한 사이 |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | FAIL | 0 chapters | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | chapter dates | SKIP | No chapters to check |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

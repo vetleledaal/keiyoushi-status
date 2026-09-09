@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-zh.cartoon18-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 2
 - Warnings: 2
 - Skipped: 0
@@ -24,7 +24,7 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 24 | 秘密教学  (`.../kweLM`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 24 | 迷走都市0-3(终) [小说改编]【国产真人漫画.../%E6%98%8E%E6%98%9FPS%E3%80%91 真人漫画 中文 (`.../9Dyml`) |  | <1s |
+| popular_next | `fetchPopularManga(2)` | success | 24 | 迷走都市0-3(终) [小说改编]【国产真人漫画.../%E6%98%8E%E6%98%9FPS%E3%80%91 真人漫画 中文 (`.../9Dyml`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 24 | [11_22] ALEX 剧情汉化漫画 AI绘图 CG 中文 假小子 巨乳 怀孕 (`.../V1G8K`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | success | 24 | [wiking汉化版][Hotsaurus]~fantasy CG集 巨乳 NTR 怀孕 假小子 vaginal 出产 中文 黑肉 肌肉 (`.../N3oPB`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 24 | [11_22] ALEX 剧情汉化漫画 AI绘图 CG 中文 假小子 巨乳 怀孕 (`.../V1G8K`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 58 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://img.cartoon18.com/.../28364166.avif <redacted query values: 1784398373>` (image/avif (format: avif), 153447 bytes, 1280x1536) |  |  |  |

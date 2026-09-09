@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.darthsdroids-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 27
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 28
 - Lint: 0
 - Warnings: 0
 - Skipped: 9
@@ -28,8 +28,8 @@
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | error | 0 |  | java.lang.UnsupportedOperationException | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Darths & Droids I. The Phantasmal Malevolence (`.../archive1.html`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 208 | Episode 1: The Saga Begins (`.../0001.html`) |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Darths & Droids I. The Phantasmal Malevolence (`.../archive1.html`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 208 | Episode 1: The Saga Begins (`.../0001.html`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://www.darthsanddroids.net/.../darths0001.jpg` (image/jpeg, 172277 bytes, 600x800) |  |  |  |

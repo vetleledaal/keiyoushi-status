@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.haremdekira-v1.4.55
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 2
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madaralegacy
 - Source ID: 1480472727871484054
 - Source name: Harem de Kira
 - Source language: es
@@ -24,10 +25,10 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 10 | La Villana más Malvada de la Historia (`.../villana-mas-malvada`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 10 | Estoy atrapada en un drama terrible (`.../estoy-atrapada-en-un-drama-terrible`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 10 | El juego de supervivencia de la villana (`.../el-juego-de-supervivencia-de-la-villana`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 10 | El Fuego que Tomaste de Mi (`.../el-fuego-que-tomaste-de-mi`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 10 | El juego de supervivencia de la villana (`.../el-juego-de-supervivencia-de-la-villana`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | success | 10 | Duquesa Fantasmal (`.../duquesa-fantasmal`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | La Villana más Malvada de la Historia (`.../villana-mas-malvada`) |  | 1-10s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | La Villana más Malvada de la Historia (`.../villana-mas-malvada`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | La Villana más Malvada de la Historia (`.../villana-mas-malvada`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 82 | Capitulo 1 (`.../capitulo-1`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 86 |  |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 86 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://kiraproject.lat/.../villanama_0.jpeg` (image/jpeg, 193983 bytes, 840x1220) |  |  |  |

@@ -2,35 +2,36 @@
 
 - Extension: tachiyomi-id.crotpedia-v1.6.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 33
-- Lint: 2
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 20
+- Lint: 6
 - Warnings: 1
-- Skipped: 0
-- Failed: 0
-- Retry disposition: NOT_APPLICABLE
+- Skipped: 9
+- Failed: 1
+- Retry disposition: DO_NOT_RETRY
 
 ## Runtime Evidence
 
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: zmanga
 - Source ID: 4023890583976163058
 - Source name: CrotPedia
 - Source language: id
-- Selected manga input: popular offset 0: Angelic Cousin (`.../angelic-cousin`)
+- Selected manga input: popular offset 0: Tachikiru Hodo ni Koishikute (`.../tachikiru-hodo-ni-koishikute`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 16 | Angelic Cousin (`.../angelic-cousin`) |  | <1s |
-| popular_next | `getPopularManga(2)` | success | 16 | Benkyou toka Shinakute (`.../benkyou-toka-shinakute`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 16 | Sei Tsutomu Chousa wa Totsuzen ni Aisuru Tsuma e no Namahame Chousa (`.../sei-tsutomu-chousa-wa-totsuzen-ni-aisuru-tsuma-e-no-namahame-chousa`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 16 | Tsuite, Neratte, Otoshite (`.../tsuite-neratte-otoshite`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Angelic Cousin (`.../angelic-cousin`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Angelic Cousin (`.../angelic-cousin`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Chapter 1 (`.../angelic-cousin-chapter-1-bahasa-indonesia`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 36 |  |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 16 | Tachikiru Hodo ni Koishikute (`.../tachikiru-hodo-ni-koishikute`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 16 | Moto Mahou Shoujo no Hikikomori Seikatsu (`.../moto-mahou-shoujo-no-hikikomori-seikatsu`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 16 | Kitto Hatsukoi (`.../kitto-hatsukoi`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 16 | Nagisanite (`.../nagisanite`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Tachikiru Hodo ni Koishikute (`.../tachikiru-hodo-ni-koishikute`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Tachikiru Hodo ni Koishikute (`.../tachikiru-hodo-ni-koishikute`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 0 |  |  | <1s |
+| pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -41,32 +42,33 @@
 | search operation | PASS |  |  |  |  |
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
-| pages operation | PASS |  |  |  |  |
+| pages operation | SKIP | No usable chapter was available |  |  |  |
 | popular listing | PASS | 16 entries |  |  |  |
 | latest listing | PASS | 16 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=Angelic Cousin, URL=`.../angelic-cousin` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=Tachikiru Hodo ni Koishikute, URL=`.../tachikiru-hodo-ni-koishikute` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
-| popular pagination | UNUSUAL | Overlapping manga: title=Benkyou toka Shinakute, URL=`.../benkyou-toka-shinakute` at page 1 offset 11 and page 2 offset 0 |  |  |  |
+| popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
 | manga title and URL | PASS | 65/65 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 65/65 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://i0.wp.com/.../Angelic-Cousin.jpg <redacted query values: resize>` (image/jpeg, 24000 bytes, 225x310) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../angelic-cousin` |  |  |  |
-| details thumbnail URL | PASS | `https://i0.wp.com/.../Angelic-Cousin.jpg <redacted query values: resize>` |  |  |  |
-| details author | PASS | Kakao |  |  |  |
+| thumbnail | PASS | `https://i0.wp.com/.../Tachikiru-Hodo-ni-Koishikute.jpg <redacted query values: resize>` (image/jpeg, 24580 bytes, 225x310) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../tachikiru-hodo-ni-koishikute` |  |  |  |
+| details thumbnail URL | LINT | Thumbnail URL is empty; use null when unknown |  |  |  |
+| details author | LINT | Author is empty; use null when unknown |  |  |  |
 | details artist | LINT | Artist is empty; use null when unknown |  |  |  |
-| details genres | PASS | Ahegao, Big Breast, Inseki, Nakadashi, Sole Female, Sole Male, Uncensored, Vanilla, Virginity, Doujinshi |  |  |  |
-| details status | PASS | COMPLETED (2) |  |  |  |
-| details description | PASS | Gadis perang pirang menyerang.<br><br>Alternative Name: エンジェリック・カズン |  |  |  |
+| details genres | LINT | Genres is empty; use null when unknown |  |  |  |
+| details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
+| details description | LINT | Description is empty; use null when unknown |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 1 chapters |  |  |  |
-| chapter dates | LINT | All 1 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1 |  |  |  |
-| chapter titles | PASS |  |  |  |  |
-| chapter URLs | PASS |  |  |  |  |
-| duplicate chapter URLs | PASS |  |  |  |  |
-| page indices | PASS |  |  |  |  |
-| page URLs | PASS | 36 HTTP page URLs |  |  |  |
-| duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://reader.eromanga.cfd/.../cf1a6036c68ab2585d78e7eb74134f5b.jpg` (image/jpeg, 213588 bytes, 1440x2034) |  |  |  |
+| chapters | FAIL | 0 chapters | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| chapter dates | SKIP | No chapters to check |  |  |  |
+| chapter titles | SKIP | No chapters to check |  |  |  |
+| chapter URLs | SKIP | No chapters to check |  |  |  |
+| duplicate chapter URLs | SKIP | No chapters to check |  |  |  |
+| page indices | SKIP | No pages to check |  |  |  |
+| page URLs | SKIP | No usable chapter was available |  |  |  |
+| duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://crotpedia.net/.../tachikiru-hodo-ni-koishikute` to `https://crotpedia.net/.../login` (2 redirects); popular: `https://crotpedia.net/.../tachikiru-hodo-ni-koishikute` to `https://crotpedia.net/.../login` (2 redirects) |  |  |  |
+| page load | SKIP | No pages to load |  |  |  |

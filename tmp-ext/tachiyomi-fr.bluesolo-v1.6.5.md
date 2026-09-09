@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-fr.bluesolo-v1.6.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 31
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 32
 - Lint: 1
 - Warnings: 0
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: pizzareader
 - Source ID: 2095949455655924623
 - Source name: Blue Solo
 - Source language: fr
@@ -25,7 +26,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 96 | Aishiteru Game wo Owarasetai (`.../aishiteru-game-wo-owarasetai`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 10 | Drama Queen (`.../drama-queen`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 10 | The Seven Deadly Sins: Four Knights of the Apocalypse (`.../the-seven-deadly-sins-four-knights-of-the-apocalyp`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Aishiteru Game wo Owarasetai (`.../aishiteru-game-wo-owarasetai`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Aishiteru Game wo Owarasetai (`.../aishiteru-game-wo-owarasetai`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 59 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://bluesolo.org/.../001.png <redacted query values: v>` (image/png, 3717348 bytes, 1445x2048) |  |  |  |

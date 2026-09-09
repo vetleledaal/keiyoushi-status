@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-fr.aralosbd-v1.4.6
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 0
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 1
 - Lint: 0
 - Warnings: 0
 - Skipped: 34
@@ -24,7 +24,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | error | 0 |  | kotlinx.serialization.json.JsonDecodingException: Unexpected JSON token at offset 115: Expected quotation mark '"', but had '1' instead at path: \$.mangas\[0\].id<br>JSON input: .....12","title":"GhostBlade","id":1,"read_count":0,"chapter_coun..... | <1s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | error | 0 |  | kotlinx.serialization.json.JsonDecodingException: Unexpected JSON token at offset 118: Expected quotation mark '"', but had '1' instead at path: \$.mangas\[0\].id<br>JSON input: .....","title":"Akuma No Uta","id":108,"read_count":0,"chapter_co..... | <1s |
+| latest | `fetchLatestUpdates(1)` | error | 0 |  | kotlinx.serialization.json.JsonDecodingException: Unexpected JSON token at offset 118: Expected quotation mark '"', but had '1' instead at path: \$.mangas\[0\].id<br>JSON input: .....","title":"Akuma No Uta","id":108,"read_count":0,"chapter_co..... | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | skipped | 0 |  |  | <1s |
 | details | `fetchMangaDetails(manga)` | skipped | 0 |  |  | <1s |
@@ -68,4 +68,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

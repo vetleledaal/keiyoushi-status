@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.diamondfansub-v1.6.56
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 36
 - Lint: 0
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 4357416108470845594
 - Source name: DiamondFansub
 - Source language: tr
@@ -23,12 +24,12 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | Patron Kurt ve Küçük Patates (`.../390`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 25 | Patron Kurt ve Küçük Patates (`.../390`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 25 | Po’nun Küçük Dünyası (`.../506`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 25 | Dük ve Sevgili Oğluyla Bir Aile Olmak (`.../16689`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 25 | Kuyrukluyıldızı Durdur! (`.../16535`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Patron Kurt ve Küçük Patates (`.../390`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Patron Kurt ve Küçük Patates (`.../390`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 25 | Dük ve Sevgili Oğluyla Bir Aile Olmak (`.../16689`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 25 | Kuyrukluyıldızı Durdur! (`.../16535`) |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Patron Kurt ve Küçük Patates (`.../390`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Patron Kurt ve Küçük Patates (`.../390`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 178 | Bölüm 0 - Bonus (`.../bolum-0`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 17 |  |  | <1s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 17 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://diamondfansub.com/.../3.jpg` (image/jpeg, 125299 bytes, 690x466) |  |  |  |

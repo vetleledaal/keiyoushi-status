@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.roliascan-v1.4.9
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 34
 - Lint: 1
-- Warnings: 0
+- Warnings: 1
 - Skipped: 0
 - Failed: 1
 - Retry disposition: DO_NOT_RETRY
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangataro
 - Source ID: 3390167717659783669
 - Source name: Rolia Scan
 - Source language: en
@@ -23,10 +24,10 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 23 | My Bias Gets on the Last Train (`.../%7B%22id%22:%227%22,%22slug%22:%22my-bias-gets-on-the-last-train%22%7D`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 21 | I Was Mistaken as a Monstrous Genius Actor (`.../%7B%22id%22:%2210560%22,%22slug%22:%22i-was-mistaken-as-a-monstrous-genius-actor%22%7D`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 120 | The Lord Who Levels Up by Devouring (`.../%7B%22id%22:%22313808%22,%22slug%22:%22the-lord-who-levels-up-by-devouring%22%7D`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 103 | Death March to the Parallel World Rhapsody (`.../%7B%22id%22:%22296402%22,%22slug%22:%22death-march-to-the-parallel-world-rhapsody%22%7D`) |  | 1-10s |
+| popular | `fetchPopularManga(1)` | success | 22 | My Bias Gets on the Last Train (`.../%7B%22id%22:%227%22,%22slug%22:%22my-bias-gets-on-the-last-train%22%7D`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 22 | The Knight Who Only Lives Today (`.../%7B%22id%22:%2211040%22,%22slug%22:%22the-knight-who-only-lives-today%22%7D`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 120 | Rooster Fighter (`.../%7B%22id%22:%22318645%22,%22slug%22:%22rooster-fighter%22%7D`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 110 | FFF-Class Trashero (`.../%7B%22id%22:%22302386%22,%22slug%22:%22fff-class-trashero%22%7D`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | My Bias Gets on the Last Train (`.../%7B%22id%22:%227%22,%22slug%22:%22my-bias-gets-on-the-last-train%22%7D`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | My Bias Gets on the Last Train (`.../%7B%22id%22:%227%22,%22slug%22:%22my-bias-gets-on-the-last-train%22%7D`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 92 | Chapter 1 (`.../ch1-9545`) |  | <1s |
@@ -42,15 +43,15 @@
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
-| popular listing | PASS | 23 entries |  |  |  |
+| popular listing | PASS | 22 entries |  |  |  |
 | latest listing | PASS | 120 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=My Bias Gets on the Last Train, URL=`{"id":"7","slug":"my-bias-gets-on-the-last-train"}` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
-| latest pagination | PASS |  |  |  |  |
-| listing duplicates | FAIL | Popular page 1 repeats 1 manga entry: title=The Extra’s Academy Survival Guide, URL=`{"id":"10990","slug":"the-extra-s-academy-survival-guide"}`; Popular page 2 repeats 8 manga entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
-| manga title and URL | PASS | 268/268 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 268/268 manga have thumbnail URLs |  |  |  |
+| latest pagination | UNUSUAL | Overlapping manga: title=FFF-Class Trashero, URL=`{"id":"302386","slug":"fff-class-trashero"}` at page 1 offset 117 and page 2 offset 0, title=Dungeon Reset, URL=`{"id":"302383","slug":"dungeon-reset"}` at page 1 offset 118 and page 2 offset 1, title=Solo Camping for Two, URL=`{"id":"301982","slug":"solo-camping-for-two"}` at page 1 offset 119 and page 2 offset 2 |  |  |  |
+| listing duplicates | FAIL | Popular page 1 repeats 1 manga entry: title=The Extra’s Academy Survival Guide, URL=`{"id":"10990","slug":"the-extra-s-academy-survival-guide"}`; Popular page 2 repeats 10 manga entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| manga title and URL | PASS | 275/275 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 275/275 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://roliascan.com/.../178671l.webp` (image/webp (encoding: lossy), 46758 bytes, 414x600) |  |  |  |
 | details identity | PASS | Details preserved selected URL `{"id":"7","slug":"my-bias-gets-on-the-last-train"}` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 38 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://mangataro.yachts/.../001.webp` (image/webp (encoding: lossy), 40274 bytes, 900x1360) |  |  |  |

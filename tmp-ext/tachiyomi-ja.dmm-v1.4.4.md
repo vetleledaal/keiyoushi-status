@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-ja.dmm-v1.4.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 2
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 32
 - Failed: 2
 - Retry disposition: DO_NOT_RETRY
@@ -68,4 +68,5 @@
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | No usable chapter was available |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | latest: `https://book.dmm.com/.../list <redacted query values: sort>` to `https://accounts.dmm.com/.../password <redacted query values: path>` (1 redirects); latest: `https://book.dmm.com/.../list <redacted query values: sort>` to `https://accounts.dmm.com/.../password <redacted query values: path>` (1 redirects) |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

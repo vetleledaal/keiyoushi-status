@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-all.hentaizap-v1.6.11
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 34
 - Lint: 2
-- Warnings: 0
+- Warnings: 1
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.a
+- Source theme: galleryadults
 - Source ID: 3055889891446984546
 - Source name: HentaiZap
 - Source language: en
@@ -25,8 +26,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | Aunt Hina (Bobtheneet) (`.../1333515`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 24 | [Artist] - Soraoraora (Uncensored) [HIATUS] (`.../1499023`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 24 | [Tremhunter] Subterran Exchange X-team program ( in progress) eng (`.../1635522`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | [KrasMazoff] SIGNALIS collection (`.../1635464`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 24 | [Succubisamus] Crusaders Secret Business-mess Part 2 (`.../1640099`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | [masoq095] Spidey in Trouble (`.../1639953`) |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 2 | Aunt Hina (Bobtheneet) (`.../1333515`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Aunt Hina (Bobtheneet) (`.../1333515`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Chapter (`.../1333515`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | LINT | Page indices are 1-indexed, but should be 0-indexed |  |  |  |
 | page URLs | PASS | 68 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://hentaizap.com/.../1` to `https://hentaizap.com/.../1` (1 redirects) |  |  |  |
 | page load | PASS | `https://m9.hentaizap.com/.../1.webp` (image/webp (encoding: lossy), 230070 bytes, 1280x1759) |  |  |  |

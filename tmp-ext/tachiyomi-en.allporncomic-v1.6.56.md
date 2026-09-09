@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.allporncomic-v1.6.56
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 34
 - Lint: 1
-- Warnings: 1
+- Warnings: 2
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 8547397037512613554
 - Source name: AllPornComic
 - Source language: en
@@ -25,11 +26,11 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | Trick Or Treat [Pegasus Smith] (`.../14455`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 24 | Twenteen Titans (Teen Titans) [Fred Perry] (`.../20665`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 24 | A Celebration Of Summer (Various) [Tracy Scops] (`.../44804`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | My Boner Academia (My Hero Academia) [Suavi-Cream] (`.../44774`) |  | <1s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 3 | Trick Or Treat [Pegasus Smith] (`.../14455`) |  | 10s+ |
+| latest | `getLatestUpdates(1)` | success | 24 | Undercover Betrayal [Mr.SweetCuckhold] (`.../38067`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | Gwen Tennyson (Ben 10) [KissClaw | Dddecadent] (`.../44795`) |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 3 | Trick Or Treat [Pegasus Smith] (`.../14455`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Trick Or Treat [Pegasus Smith] (`.../14455`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 16 | 0.1 . Tina Bonus Images - [Pegasus Smith] (`.../0-1-tina-bonus-images`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 16 | 0.1 . Tina Bonus Images - [Pegasus Smith] (`.../0-1-tina-bonus-images`) |  | 1-10s |
 | pages | `getPageList(chapter)` | success | 17 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 17 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://allporncomic.com/.../feed <redacted query values: post_type, s, and paged>` to `https://allporncomic.com/.../porncomic` (1 redirects) |  |  |  |
 | page load | PASS | `https://cdn.allporncomic.com/.../001.jpg` (image/jpeg, 432721 bytes, 1854x3000) |  |  |  |

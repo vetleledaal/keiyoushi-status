@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.artlapsa-v1.6.26
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7
 - Passed: 30
 - Lint: 2
-- Warnings: 0
+- Warnings: 1
 - Skipped: 4
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: keyoapp
 - Source ID: 734404203508686053
 - Source name: Art Lapsa
 - Source language: en
@@ -25,7 +26,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 12 | i was a slave warrior but-the dragon who saved me says i’m his fated mate (`.../b1877591-9bb8-4c0d-912b-8249063c5d62`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 862 | That Genius is Obsessed With His Fake Girlfriend (`.../bb730f89-8b12-4686-a170-0f4a6272be11`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 890 | I Don't Like Haruno-san at All (`.../4393c425-5692-4b9a-9062-d15cc523bd20`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | i was a slave warrior but-the dragon who saved me says i’m his fated mate (`.../b1877591-9bb8-4c0d-912b-8249063c5d62`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | i was a slave warrior but-the dragon who saved me says i’m his fated mate (`.../b1877591-9bb8-4c0d-912b-8249063c5d62`) |  | 1-10s |
@@ -43,14 +44,14 @@
 | chapters operation | PASS |  |  |  |  |
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 12 entries |  |  |  |
-| latest listing | PASS | 862 entries |  |  |  |
+| latest listing | PASS | 890 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=i was a slave warrior but-the dragon who saved me says i’m his fated mate, URL=`.../b1877591-9bb8-4c0d-912b-8249063c5d62` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 875/875 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 875/875 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 903/903 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 903/903 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
 | thumbnail | PASS | `https://artlapsa.com/.../300x450.webp <redacted query values: w>` (image/webp (encoding: lossy), 83886 bytes, 300x450) |  |  |  |
 | details identity | PASS | Details preserved selected URL `.../b1877591-9bb8-4c0d-912b-8249063c5d62` |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 51 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://artlapsa.com/.../latest` to `https://artlapsa.com/.../latest` (1 redirects) |  |  |  |
 | page load | PASS | `https://artlapsa.com/.../001.jpg` (image/jpeg, 1502361 bytes, 1352x1922) |  |  |  |

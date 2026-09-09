@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-vi.tusachxinhxinh-v1.6.4
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 32
 - Lint: 0
-- Warnings: 1
+- Warnings: 2
 - Skipped: 2
 - Failed: 1
 - Retry disposition: DO_NOT_RETRY
@@ -23,12 +23,12 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 20 | Kết Cục Của Nhân Vật Phản Diện Chỉ Có Thể Là Cái Chết (`.../ket-cuc-cua-nhan-vat-phan-dien-chi-co-the-la-cai-chet`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 20 | Kết Cục Của Nhân Vật Phản Diện Chỉ Có Thể Là Cái Chết (`.../ket-cuc-cua-nhan-vat-phan-dien-chi-co-the-la-cai-chet`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 32 | Cặp Đôi Không Chính Thức (`.../cap-doi-khong-chinh-thuc`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 20 | Sự Điều Trị Đặc Biệt Của Tinh Linh (`.../su-dieu-tri-dac-biet-cua-tinh-linh`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 32 | Cảnh Báo Sóng Thần (`.../canh-bao-song-than`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 20 | Tên Khốn Đẹp Trai (`.../ten-khon-dep-trai`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | Kết Cục Của Nhân Vật Phản Diện Chỉ Có Thể Là Cái Chết (`.../ket-cuc-cua-nhan-vat-phan-dien-chi-co-the-la-cai-chet`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Kết Cục Của Nhân Vật Phản Diện Chỉ Có Thể Là Cái Chết (`.../ket-cuc-cua-nhan-vat-phan-dien-chi-co-the-la-cai-chet`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Kết Cục Của Nhân Vật Phản Diện Chỉ Có Thể Là Cái Chết (`.../ket-cuc-cua-nhan-vat-phan-dien-chi-co-the-la-cai-chet`) |  | <1s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 215 | Chap 0 (`.../ket-cuc-cua-nhan-vat-phan-dien-chi-co-the-la-cai-chet-chap-0`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 10 |  |  | 1-10s |
 
@@ -47,8 +47,8 @@
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=Kết Cục Của Nhân Vật Phản Diện Chỉ Có Thể Là Cái Chết, URL=`.../ket-cuc-cua-nhan-vat-phan-dien-chi-co-the-la-cai-chet` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
-| latest pagination | PASS |  |  |  |  |
-| listing duplicates | FAIL | Latest page 1 repeats 2 manga entries: title=Tình Yêu Của Iseop, URL=`.../tinh-yeu-cua-iseop`, title=Quan Hệ Cộng Sinh Giữa Báo Đen Và Thỏ Trắng, URL=`.../quan-he-cong-sinh-giua-bao-den-va-tho-trang` | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| latest pagination | UNUSUAL | Overlapping manga: title=Tình Yêu Của Iseop, URL=`.../tinh-yeu-cua-iseop` at page 1 offset 21 and page 2 offset 14 |  |  |  |
+| listing duplicates | FAIL | Latest page 1 repeats 1 manga entry: title=Quan Hệ Cộng Sinh Giữa Báo Đen Và Thỏ Trắng, URL=`.../quan-he-cong-sinh-giua-bao-den-va-tho-trang` | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
 | manga title and URL | PASS | 73/73 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 73/73 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 10 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://tusachxinhxinh12.online/.../ChatGPT-Image-22_02_55-30-thg-4-2026.webp` (image/webp (container: extended), 130234 bytes, 1672x941) |  |  |  |

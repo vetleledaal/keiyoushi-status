@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-fr.mangacorporation-v1.6.6
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 30
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 31
 - Lint: 2
 - Warnings: 0
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: pizzareader
 - Source ID: 1528177119657303302
 - Source name: Manga-Corporation
 - Source language: fr
@@ -25,7 +26,7 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 19 | 45510 (`.../c-45510`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 10 | Stained in Crimson (`.../stained-in-crimson`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 10 | Shinobi Undercover (`.../shinobi-undercover`) |  | <1s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | 45510 (`.../c-45510`) |  | <1s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | 45510 (`.../c-45510`) |  | <1s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 9 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://manga-corporation.com/.../45510-1_page-0001.jpg <redacted query values: v>` (image/jpeg, 605906 bytes, 1240x1755) |  |  |  |

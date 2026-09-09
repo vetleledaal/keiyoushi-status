@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.guya-v1.4.25
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 30
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 31
 - Lint: 2
 - Warnings: 0
 - Skipped: 4
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: guya
 - Source ID: 4637971935551651734
 - Source name: Guya
 - Source language: en
@@ -30,7 +31,7 @@
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Renai Daikou (`.../Renai-Daikou`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Renai Daikou (`.../Renai-Daikou`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 2 | 1 - Coward (`.../1`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 46 |  |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 46 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -59,9 +60,7 @@
 | details artist | PASS | Nishizawa 5Miri |  |  |  |
 | details genres | PASS | null |  |  |  |
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
-| details description | PASS | Half-Japanese Half-Swedish Mari Maria Winter Nanase has everything in life. She was raised in a well-off family in Scandinavia and America, she is popular among the girls, and she has good looks. However, she is missing one thing: she can't talk to boys!
-<br>
-<br>After picking up a book on love in the library, she found a suspicious-looking ad on the back. The ad was for Love Agency, a service promising a "pro in love" to handle your love for you. When she scans it, an agent called "Kon-chan" pops out and promises to help her fall in love with her crush. However, her crush, Masaya Seki, isn't so innocent in his ways either and is also using this app to get with her. How with this pair of hopeless lovers turn out? |  |  |  |
+| details description | PASS | Half-Japanese Half-Swedish Mari Maria Winter Nanase has everything in life. She was raised in a well-off family in Scandinavia and America, she is popular among the girls, and she has good looks. However, she is missing one thing: she can't talk to boys!<br><br>After picking up a book on love in the library, she found a suspicious-looking ad on the back. The ad was for Love Agency, a service promising a "pro in love" to handle your love for you. When she scans it, an agent called "Kon-chan" pops out and promises to help her fall in love with her crush. However, her crush, Masaya Seki, isn't so innocent in his ways either and is also using this app to get with her. How with this pair of hopeless lovers turn out? |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | PASS | 2 chapters |  |  |  |
 | chapter dates | PASS | 2 positive upload dates |  |  |  |
@@ -71,4 +70,5 @@
 | page indices | LINT | Page indices are 1-indexed, but should be 0-indexed |  |  |  |
 | page URLs | PASS | 46 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://guya.cubari.moe/.../01.png <redacted query values: v2>` (image/png, 863351 bytes, 883x918) |  |  |  |

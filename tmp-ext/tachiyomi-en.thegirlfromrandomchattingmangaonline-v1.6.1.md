@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-en.thegirlfromrandomchattingmangaonline-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 28
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 8
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 62 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://thegirlfromrandomchatting.com/.../the-girl-from-random-chatting-chapter-1` to `https://thegirlfromrandomchatting.com/.../the-girl-from-random-chatting-chapter-1` (1 redirects); popular: `http://scans.granddwarf.com/.../001.webp` to `https://scans.granddwarf.com/.../001.webp` (1 redirects) |  |  |  |
 | page load | PASS | `http://scans.granddwarf.com/.../001.webp` (image/webp (encoding: lossy), 32522 bytes, 700x1158) |  |  |  |

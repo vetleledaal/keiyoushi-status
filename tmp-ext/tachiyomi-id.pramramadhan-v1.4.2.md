@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.pramramadhan-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 0
 - Warnings: 0
 - Skipped: 4
@@ -30,7 +30,7 @@
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Osananajimi omiru me ga kawatte shimatta (`.../osananajimi-omiru-me-ga-kawatte-shimatta`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Osananajimi omiru me ga kawatte shimatta (`.../osananajimi-omiru-me-ga-kawatte-shimatta`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 3 | Chapter 1 (`.../1.00`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 40 |  |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 40 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 40 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://01.pramramadhan.my.id/.../001.webp <redacted query values: v>` (image/webp (encoding: lossy), 208728 bytes, 1706x2560) |  |  |  |

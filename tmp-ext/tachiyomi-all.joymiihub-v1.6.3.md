@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-all.joymiihub-v1.6.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 29
 - Lint: 1
-- Warnings: 0
+- Warnings: 1
 - Skipped: 5
 - Failed: 1
 - Retry disposition: REVIEW
@@ -16,21 +16,22 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: masonry
 - Source ID: 8421979328901634475
 - Source name: Joymii Hub
 - Source language: all
-- Selected manga input: popular offset 0: Cute chick Gina G takes her partners manhood after oral sex (`.../cute-chick-gina-g-takes-her-partners-manhood-after-oral-sex-53247`)
+- Selected manga input: popular offset 0: What a Ride (`.../josephine-what-a-ride`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 20 | Cute chick Gina G takes her partners manhood after oral sex (`.../cute-chick-gina-g-takes-her-partners-manhood-after-oral-sex-53247`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 20 | What a Ride (`.../josephine-what-a-ride`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 20 | May Thai in Text Message from Joymii (`.../fetching-asian-babe-gets-her-pussy-eaten-before-she-vigorously-rides-her-loves-thick-85767`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 20 | May Thai in Text Message from Joymii (`.../fetching-asian-babe-gets-her-pussy-eaten-before-she-vigorously-rides-her-loves-thick-85767`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `getSearchManga(1, query, getFilterList())` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 403 | <1s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Cute chick Gina G takes her partners manhood after oral sex (`.../cute-chick-gina-g-takes-her-partners-manhood-after-oral-sex-53247`) |  | <1s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Gallery (`.../cute-chick-gina-g-takes-her-partners-manhood-after-oral-sex-53247`) |  | <1s |
-| pages | `getPageList(chapter)` | success | 15 |  |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | What a Ride (`.../josephine-what-a-ride`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 1 | Gallery (`.../josephine-what-a-ride`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 15 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -52,14 +53,14 @@
 | manga title and URL | PASS | 40/40 listing manga have titles and relative URLs |  |  |  |
 | thumbnail URLs | PASS | 40/40 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://cdn.joymiihub.com/.../3802_masonry_1200.jpg` (image/jpeg, 216595 bytes, 1200x1800) |  |  |  |
-| details identity | PASS | Details preserved selected URL `.../cute-chick-gina-g-takes-her-partners-manhood-after-oral-sex-53247` |  |  |  |
+| thumbnail | PASS | `https://cdn.joymiihub.com/.../2557_masonry_800.jpg` (image/jpeg, 294726 bytes, 800x1133) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../josephine-what-a-ride` |  |  |  |
 | details thumbnail URL | PASS | null |  |  |  |
-| details author | PASS | Gina G |  |  |  |
-| details artist | PASS | Gina G |  |  |  |
-| details genres | PASS | Blowjob, Cumshot, Sex, Hardcore, Oral |  |  |  |
+| details author | PASS | Josephine |  |  |  |
+| details artist | PASS | Josephine |  |  |  |
+| details genres | PASS | Hardcore |  |  |  |
 | details status | PASS | COMPLETED (2) |  |  |  |
-| details description | PASS | Cute chick Gina G takes her partners manhood after oral sex |  |  |  |
+| details description | PASS | JosephineHardcore |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
 | chapters | PASS | 1 chapters |  |  |  |
 | chapter dates | LINT | All 1 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1 |  |  |  |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 15 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://cdn.joymiihub.com/.../0002-01_1200.jpg` (image/jpeg, 189165 bytes, 1200x1800) |  |  |  |
+| redirects | UNUSUAL | popular: `https://www.joymiihub.com/.../1` to `https://www.joymiihub.com/.../newest` (1 redirects) |  |  |  |
+| page load | PASS | `https://cdn.joymiihub.com/.../josephine-what-a-ride-01.jpg` (image/jpeg, 219809 bytes, 1200x800) |  |  |  |

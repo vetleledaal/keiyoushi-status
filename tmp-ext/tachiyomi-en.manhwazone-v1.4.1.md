@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.manhwazone-v1.4.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 0
 - Warnings: 2
 - Skipped: 0
@@ -25,12 +25,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 24 | VR HERO (`.../vr-hero-on752`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 24 | Date or Die (`.../date-or-die-k3d9g`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 24 | Return of the Calamity-Class Death Knight (`.../return-of-the-calamity-class-death-knight-z7lvd`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 24 | Hardcore Leveling Warrior (`.../hardcore-leveling-warrior-z4e9r`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 24 | Conquering the Academy with Just a Sashimi Knife (`.../conquering-the-academy-with-just-a-sashimi-knife-9q833`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 24 | The Emperor's Puppy (`.../the-emperors-puppy-op0v2`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 23 | Hero of All Trades (`.../hero-of-all-trades-kjwn2`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | VR HERO (`.../vr-hero-on752`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 62 | Chapter 1 (`.../1wr4x7`) |  | <1s |
-| pages | `fetchPageList(chapter)` | success | 66 |  |  | 1-10s |
+| pages | `fetchPageList(chapter)` | success | 66 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 66 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://c2.manhwatop.com/.../c_0_1.jpg` (image/jpeg, 166997 bytes, 718x2039) |  |  |  |

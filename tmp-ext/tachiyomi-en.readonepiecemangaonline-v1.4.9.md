@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-en.readonepiecemangaonline-v1.4.9
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 23
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 24
 - Lint: 4
 - Warnings: 1
 - Skipped: 8
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangacatalog
 - Source ID: 1061544757733451419
 - Source name: Read One Piece Manga Online
 - Source language: en
@@ -28,9 +29,9 @@
 | latest | `fetchLatestUpdates(1)` | skipped | 0 |  |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | One Piece (`https://ww13.readonepiece.com/.../one-piece`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | One Piece (`https://ww13.readonepiece.com/.../one-piece`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 1207 | One Piece Chapter 1 (`https://ww13.readonepiece.com/.../one-piece-chapter-001`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 56 |  |  | 1-10s |
+| details | `fetchMangaDetails(manga)` | success | 1 | One Piece (`https://ww13.readonepiece.com/.../one-piece`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 1208 | One Piece Chapter 1 (`https://ww13.readonepiece.com/.../one-piece-chapter-001`) |  | <1s |
+| pages | `fetchPageList(chapter)` | success | 56 |  |  | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -61,12 +62,13 @@
 | details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
 | details description | PASS | Gol D. Roger, a man referred to as the “Pirate King,” is set to be executed by the World Government. But just before his demise, he confirms the existence of a great treasure, One Piece, located somewhere within the vast ocean known as the Grand Line. Announcing that One Piece can be claimed by anyone worthy enough to reach it, the Pirate King is executed and the Great Age of Pirates begins. Twenty-two years later, a young man by the name of Monkey D. Luffy is ready to embark on his own adventure, searching for One Piece and striving to become the new Pirate King. Armed with just a straw hat, a small boat, and an elastic body, he sets out on a fantastic journey to gather his own crew and a worthy ship that will take them across the Grand Line to claim the greatest status on the high seas. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 1207 chapters |  |  |  |
-| chapter dates | LINT | All 1207 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1207 |  |  |  |
+| chapters | PASS | 1208 chapters |  |  |  |
+| chapter dates | LINT | All 1208 chapters lack a usable source upload timestamp: 0 (not provided or parsing failed; host uses a default date)=1208 |  |  |  |
 | chapter titles | PASS |  |  |  |  |
-| chapter URLs | UNUSUAL | All 1207 chapter URLs are absolute |  |  |  |
+| chapter URLs | UNUSUAL | All 1208 chapter URLs are absolute |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 56 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn.readonepiece.com/.../2.jpeg` (image/jpeg, 166783 bytes, 1066x1600) |  |  |  |

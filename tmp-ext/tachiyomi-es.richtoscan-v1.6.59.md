@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-es.richtoscan-v1.6.59
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 34
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 35
 - Lint: 1
 - Warnings: 1
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.6
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: madara
 - Source ID: 1245067583654716116
 - Source name: RichtoScan
 - Source language: es
@@ -23,7 +24,7 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 25 | EL SUEÑO DE WOO HOO-YOUNG ROBANDO TALENTOS (`.../1922`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 25 | EL SUEÑO DE WOO HOO-YOUNG ROBANDO TALENTOS (`.../1922`) |  | <1s |
 | popular_next | `getPopularManga(2)` | success | 25 | vivir o morir (`.../3593`) |  | 1-10s |
 | latest | `getLatestUpdates(1)` | success | 25 | EN LO ALTO DE LA CLASE (`.../1969`) |  | 1-10s |
 | latest_next | `getLatestUpdates(2)` | success | 25 | Invocaciones fuera de control (`.../4034`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 47 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://r1.richtoon.top/.../0.1_1_11zon.webp` (image/webp (container: extended), 155990 bytes, 900x2187) |  |  |  |

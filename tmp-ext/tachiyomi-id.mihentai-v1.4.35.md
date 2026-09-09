@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-id.mihentai-v1.4.35
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 35
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7
+- Passed: 36
 - Lint: 1
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 3141331376595743728
 - Source name: Mihentai
 - Source language: id
@@ -25,10 +26,10 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 30 | Manbiki Mama to Tencho no Musuko (`.../manbiki-mama-to-tencho-no-musuko`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 30 | Pilihan Terbaik Bibi (`.../pilihan-terbaik-bibi`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 30 | Kyonyuu Yome – Istri Yang Bertubuh Seksi (`.../kyonyuu-yome-istri-yang-bertubuh-seksi`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 30 | Kyonyuu Yome – Istri Yang Bertubuh Seksi (`.../kyonyuu-yome-istri-yang-bertubuh-seksi`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | success | 30 | Kimottama Kaa-chan to Kenka Bakari no Neet no Ore ga Kaa-san ni Nakadashi shite kara Nakayoku natta Hanashi (`.../kimottama-kaa-chan-to-kenka-bakari-no-neet-no-ore-ga-kaa-san-ni-nakadashi-shite-kara-nakayoku-natta-hanashi`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Manbiki Mama to Tencho no Musuko (`.../manbiki-mama-to-tencho-no-musuko`) |  | 1-10s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Manbiki Mama to Tencho no Musuko (`.../manbiki-mama-to-tencho-no-musuko`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Manbiki Mama to Tencho no Musuko (`.../manbiki-mama-to-tencho-no-musuko`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Manbiki Mama to Tencho no Musuko (`.../manbiki-mama-to-tencho-no-musuko`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 3 | Chapter 3 (`.../manbiki-mama-to-tencho-no-musuko-3`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 42 |  |  | 1-10s |
 
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 42 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://i3.wp.com/.../01-35.webp` (image/webp (encoding: lossy), 415094 bytes, 1200x1600) |  |  |  |

@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ru.unicomics-v1.4.10
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 32
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 33
 - Lint: 3
 - Warnings: 1
 - Skipped: 0
@@ -27,7 +27,7 @@
 | popular_next | `fetchPopularManga(2)` | success | 20 | Конвергенция Титаны (`.../convergence-titans-2015-dc`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 20 | 100 Пуль (`.../100-bullets`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | success | 20 | Её Собственный Дар (`.../a-gift-of-her-own`) |  | 1-10s |
-| search | `fetchSearchManga(1, query, getFilterList())` | success | 9 | Танос: Финал Бесконечности (`.../thanos-the-infinity-finale`) |  | <1s |
+| search | `fetchSearchManga(1, query, getFilterList())` | success | 9 | Танос: Финал Бесконечности (`.../thanos-the-infinity-finale`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Танос: Конец Бесконечности (`.../thanos-the-infinity-ending-2019-marvel`) |  | 1-10s |
 | chapters | `fetchChapterList(manga)` | success | 1 | Танос: Конец Бесконечности (`.../thanos-the-infinity-ending-2019-marvel`) |  | <1s |
 | pages | `fetchPageList(chapter)` | success | 105 |  |  | 1-10s |
@@ -44,7 +44,7 @@
 | pages operation | PASS |  |  |  |  |
 | popular listing | PASS | 20 entries |  |  |  |
 | latest listing | PASS | 20 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 2: title=Танос: Конец Бесконечности, URL=`.../thanos-the-infinity-ending-2019-marvel` |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 3: title=Танос: Конец Бесконечности, URL=`.../thanos-the-infinity-ending-2019-marvel` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | PASS |  |  |  |  |
 | latest pagination | PASS |  |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 105 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://ii1.unicomics.ru/.../001.jpg` (image/jpeg, 988493 bytes, 1988x3056) |  |  |  |

@@ -2,10 +2,10 @@
 
 - Extension: tachiyomi-ar.dilar-v1.6.14
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
 - Passed: 29
-- Lint: 0
+- Lint: 1
 - Warnings: 0
 - Skipped: 6
 - Failed: 1
@@ -19,17 +19,17 @@
 - Source ID: 7634600808243438399
 - Source name: Dilar
 - Source language: ar
-- Selected manga input: latest offset 0: I Was Told to Die (`.../I%20Was%20Told%20to%20Die`)
+- Selected manga input: popular offset 0: I Failed to Abandon the Villain (`.../I%20Failed%20to%20Abandon%20the%20Villain`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 10 | I Failed to Abandon the Villain (`.../I%20Failed%20to%20Abandon%20the%20Villain`) |  | 1-10s |
+| popular | `getPopularManga(1)` | success | 10 | I Failed to Abandon the Villain (`.../I%20Failed%20to%20Abandon%20the%20Villain`) |  | <1s |
 | popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 24 | I Was Told to Die (`.../I%20Was%20Told%20to%20Die`) |  | <1s |
-| latest_next | `getLatestUpdates(2)` | success | 22 | The Vampire Lord's Greatest Wife (`.../The%20Vampire%20Lord's%20Greatest%20Wife`) |  | 1-10s |
-| search | `getSearchManga(1, query, getFilterList())` | success | 1 | I Was Told to Die (`.../I%20Was%20Told%20to%20Die`) |  | 1-10s |
-| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | I Was Told to Die (`.../I%20Was%20Told%20to%20Die`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 2 | 1 (`.../1`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 20 | The woman who lost 4 years and 6 months. (`.../The%20woman%20who%20lost%204%20years%20and%206%20months.`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 22 | I GOT MARRIED  (`.../I%20GOT%20MARRIED`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | I Failed to Abandon the Villain (`.../I%20Failed%20to%20Abandon%20the%20Villain`) |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | I Failed to Abandon the Villain (`.../I%20Failed%20to%20Abandon%20the%20Villain`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 119 | 36 (`.../36`) |  | <1s |
 | pages | `getPageList(chapter)` | error | 0 |  | java.lang.IllegalStateException: Unsupported encryption protocol version: 12 | <1s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -43,30 +43,31 @@
 | chapters operation | PASS |  |  |  |  |
 | pages operation | ERROR | java.lang.IllegalStateException: Unsupported encryption protocol version: 12 | REVIEW | INSUFFICIENT_EVIDENCE |  |
 | popular listing | PASS | 10 entries |  |  |  |
-| latest listing | PASS | 24 entries |  |  |  |
-| search listing | PASS | Matched selected manga by URL at result offset 0: title=I Was Told to Die, URL=`8581/I Was Told to Die` |  |  |  |
+| latest listing | PASS | 20 entries |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=I Failed to Abandon the Villain, URL=`3266/I Failed to Abandon the Villain` |  |  |  |
 | latest differs from popular | PASS |  |  |  |  |
 | popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
 | latest pagination | PASS |  |  |  |  |
 | listing duplicates | PASS |  |  |  |  |
-| manga title and URL | PASS | 57/57 listing manga have titles and relative URLs |  |  |  |
-| thumbnail URLs | PASS | 57/57 manga have thumbnail URLs |  |  |  |
+| manga title and URL | PASS | 53/53 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 53/53 manga have thumbnail URLs |  |  |  |
 | duplicate thumbnail URLs | PASS |  |  |  |  |
-| thumbnail | PASS | `https://dilar.tube/.../large_529da27f-4a9f-4957-975a-ee9b0b35b1a1.webp` (image/webp (encoding: lossy), 163196 bytes, 450x644) |  |  |  |
-| details identity | PASS | Details preserved selected URL `8581/I Was Told to Die` |  |  |  |
-| details thumbnail URL | PASS | `https://dilar.tube/.../large_529da27f-4a9f-4957-975a-ee9b0b35b1a1.webp` |  |  |  |
-| details author | PASS | Baggwili |  |  |  |
-| details artist | PASS | Ant Studio |  |  |  |
-| details genres | PASS | سحر, رومانسي, دراما, شوجو, مانهوا, فانتازيا, تاريخي, عائلي |  |  |  |
+| thumbnail | PASS | `https://dilar.tube/.../large_cover-380153c0e3dd1d30b5b55200aae1275f.webp` (image/webp (encoding: lossy), 351974 bytes, 1200x1712) |  |  |  |
+| details identity | PASS | Details preserved selected URL `3266/I Failed to Abandon the Villain` |  |  |  |
+| details thumbnail URL | PASS | `https://dilar.tube/.../large_cover-380153c0e3dd1d30b5b55200aae1275f.webp` |  |  |  |
+| details author | PASS | Ja Eunhyang |  |  |  |
+| details artist | PASS | Todac S |  |  |  |
+| details genres | PASS | رومانسي, دراما, مانهوا, فانتازيا, تاريخي, جوسي, سحر, نفسي |  |  |  |
 | details status | PASS | ONGOING (1) |  |  |  |
-| details description | PASS | من الزملاء الذين كنت معهم لمدة 10 سنوات. "أنا آسفة، رين. موتي من أجل العالم بدلاً من ذلك." هكذا تمامًا، عندما بدا الأمر وكأنه انتهى. "... هاه؟" فتحت رين عينيها مرة أخرى. "أنت فتاة غبية وحتى جاحدة! يبدو من الواضح أنني سأستخدم من قبل رجل آخر، لا يعرف النعمة التي جلبتني إلى قلعتي!" بعد 30 عامًا، أصبحت طفلة غير شرعية لعائلة توسلينا العظيمة،  * "أنت أفضل موهبة. سيكون من العار تركك تتعفنين هنا. ألن تأتي معي؟" نظرت رين إلى الرجل الذي مد يدها إليها. إنها واحدة من الأبطال الأربعة الذين يشيد بهم العالم. رجل خان زميلتها السابقة رين، يريد تبنيها لأنها تشبه مهاراته في السيف الميت الآن. هل أنت مجنونة؟ هل هذا متجر تبني لك؟ |  |  |  |
-| metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 2 chapters |  |  |  |
-| chapter dates | PASS | 2 positive upload dates |  |  |  |
+| details description | PASS |  ذات يوم ، أعطاها والدها ولداً. قال إنه أنقذه من ساحة المعركة بسبب مظهره الجميل. "لديه ختم محفور على قلبه. طالما لديك هذه الخرزة ، فلن يكون قادرًا على عصيانك. لذلك يمكنك أن تأمره بفعل أي شيء ". "اجلس." بدا الصبي قاتما إلى حد ما بعد سماع ما أمرت به. "آه ، هل كنت أعامله كثيرًا مثل الكلب؟" وبينما كان والدها يضغط على الخرزة ، جثا الصبي عند قدميها. "سيد" ومضت عيناه الحمراوان ، وأضاءت نظرته المخيفة وهو يبتسم بجنون. كان أحلك أحلك. الساحر الكبير المستقبلي والرئيس الأخير لهذا العالم. "حسنًا ، كل ما تبقى الآن ، يا معلمة." وبعد ذلك ، في سن الثانية والعشرين ، استيقظ بصفته سيد البرج السحري وانتقم بقتل منزلها بالكامل. "هل تريد أن تعيش؟ ثم اجلس يا معلمة. "التفتت إليها العيون الحمراء المخيفة. 'لماذا هو مثل هذا بالنسبة لي ؟! حاولت جهدي أن أعامله بشكل صحيح! "<br><br><br> |  |  |  |
+| metadata trimming | LINT | Untrimmed fields: description |  |  |  |
+| chapters | PASS | 119 chapters |  |  |  |
+| chapter dates | PASS | 119 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | SKIP | No pages to check |  |  |  |
 | page URLs | SKIP | Unsupported encryption protocol version: 12 |  |  |  |
 | duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | SKIP | No pages to load |  |  |  |

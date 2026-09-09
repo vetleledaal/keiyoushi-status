@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-pt.egotoons-v1.6.9
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -24,12 +24,12 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `getPopularManga(1)` | success | 24 | O Retorno do Demônio de Sangue (`.../12509`) |  | 1-10s |
-| popular_next | `getPopularManga(2)` | success | 24 | Tornando-me um Funcionário Lendário (`.../12625`) |  | 1-10s |
-| latest | `getLatestUpdates(1)` | success | 24 | Simulação de Namoro Fantasma (`.../282`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | Vivendo Como Um Jardineiro Num Mundo de Caçadores (`.../430`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 24 | Como uma Chama Gélida (`.../12578`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 24 | O Espadachim Gênio da Seita do Monte Hua (`.../92`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | Roteiro Quebrado (`.../11287`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 1 | O Retorno do Demônio de Sangue (`.../12509`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | O Retorno do Demônio de Sangue (`.../12509`) |  | 1-10s |
-| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 62 | Capítulo 1 (`.../1`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 64 | Capítulo 1 (`.../1`) |  | <1s |
 | pages | `getPageList(chapter)` | success | 15 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +61,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | \[Do mesmo autor que trouxe {The Heavenly Demon Can't Live a Normal Life}! Kang San é um petroleiro do 1% inferior, sem talento, habilidades ou destreza. A desgraça o persegue até que um dia um mensageiro divino aparece diante dele. “Você foi o Demônio de Sangue em sua vida passada.” Para expiar os pecados de sua vida passada, ele deve passar por duras provações. Mas, em troca, ele receberá imensas recompensas? “Tudo bem. Farei o que for preciso.” Será que um fraco tanque de nível F encharcado de sangue pode mudar seu destino? |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 62 chapters |  |  |  |
-| chapter dates | PASS | 62 positive upload dates |  |  |  |
+| chapters | PASS | 64 chapters |  |  |  |
+| chapter dates | PASS | 64 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 15 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://api.egotoons.com/.../0` (image/webp (encoding: lossy), 1339140 bytes, 800x15000) |  |  |  |

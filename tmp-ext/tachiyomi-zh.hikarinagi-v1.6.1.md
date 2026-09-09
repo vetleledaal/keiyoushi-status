@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-zh.hikarinagi-v1.6.1
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T18:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -23,10 +23,10 @@
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `getPopularManga(1)` | success | 24 | 链锯人 (`.../228`) |  | <1s |
+| popular | `getPopularManga(1)` | success | 24 | 链锯人 (`.../228`) |  | 1-10s |
 | popular_next | `getPopularManga(2)` | success | 24 | 金牌得主 (`.../26`) |  | <1s |
-| latest | `getLatestUpdates(1)` | success | 24 | 上伊那牡丹，醉姿如百合 (`.../1121`) |  | 1-10s |
-| latest_next | `getLatestUpdates(2)` | success | 24 | 辣妹与辣妹的百合 (`.../3373`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 24 | 怪談少年 妖ノ巻 (`.../101819`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | 我×她 (`.../92540`) |  | 1-10s |
 | search | `getSearchManga(1, query, getFilterList())` | success | 2 | 链锯人 第二部 (`.../6275`) |  | 1-10s |
 | details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | 链锯人 (`.../228`) |  | 1-10s |
 | chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 246 | 第01话 (`.../7892`) |  | <1s |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 190 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://hikarinagi-mangas.bdbc670a06597b7c8f006b124082955a.r2.cloudflarestorage.com/.../001e2627e52c80882f2c666c6ec650d194e250f7983c1a9b912ad3697da3c234.webp <redacted query values: X-Amz-Algorithm, X-Amz-Content-Sha256, X-Amz-Credential, X-Amz-Date, X-Amz-Expires, X-Amz-Signature, X-Amz-SignedHeaders, x-amz-checksum-mode, and x-id>` (image/webp (encoding: lossy), 216990 bytes, 980x1471) |  |  |  |

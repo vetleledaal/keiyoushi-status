@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-ja.nicovideoseiga-v1.4.9
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 27
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 28
 - Lint: 1
 - Warnings: 1
 - Skipped: 6
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 9 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://drm.cdn.nicomanga.jp/.../7666512p.webp <redacted query values: 1565699880>` (image/webp (container: extended), 86928 bytes, 650x935; server Content-Type: application/octet-stream) |  |  |  |

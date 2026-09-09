@@ -2,20 +2,21 @@
 
 - Extension: tachiyomi-ja.comicfesta-v1.4.3
 - Input artifact: JAR
-- Generated at: 2026-09-02T15:00:00Z
-- Commit: 81336186c4ddb47e2a35eeb9ae58ceb10e8dc995
-- Passed: 34
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 30
 - Lint: 1
 - Warnings: 1
-- Skipped: 0
-- Failed: 0
-- Retry disposition: NOT_APPLICABLE
+- Skipped: 4
+- Failed: 1
+- Retry disposition: REVIEW
 
 ## Runtime Evidence
 
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: clipstudioreader
 - Source ID: 8029218690220992872
 - Source name: Comic Festa
 - Source language: ja
@@ -25,12 +26,12 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 50 | 女余りの世界で、S級魔法少女達に種をまく【フルカラー】 (`.../252130`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | success | 50 | 姫さま、最後の夜にくちづけを（単話版） (`.../252746`) |  | 1-10s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | 女たちの事件簿Vol.63～嫌いな嫁vs邪魔な姑～ (`.../254645`) |  | 1-10s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | でかつよ彼氏の本気性交 妄想以上の執着ピストンでイキ狂わされてます（単話版） (`.../253601`) |  | 1-10s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | はちみつにあまがみ (`.../254955`) |  | 1-10s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | 幻結 (`.../254626`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | 女余りの世界で、S級魔法少女達に種をまく【フルカラー】 (`.../252130`) |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | 女余りの世界で、S級魔法少女達に種をまく【フルカラー】 (`.../252130`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 6 | 女余りの世界で、S級魔法少女達に種をまく【フルカラー】1巻 (`.../trial_download`) |  | 1-10s |
-| pages | `fetchPageList(chapter)` | success | 36 |  |  | 1-10s |
+| chapters | `fetchChapterList(manga)` | success | 6 | 🔒 女余りの世界で、S級魔法少女達に種をまく【フルカラー】1巻 (`.../download`) |  | 1-10s |
+| pages | `fetchPageList(chapter)` | error | 0 |  | java.io.IOException: Log in via WebView and purchase this product to read. | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
 | --- | --- | --- | --- | --- | --- |
@@ -41,7 +42,7 @@
 | search operation | PASS |  |  |  |  |
 | details operation | PASS |  |  |  |  |
 | chapters operation | PASS |  |  |  |  |
-| pages operation | PASS |  |  |  |  |
+| pages operation | ERROR | java.io.IOException: Log in via WebView and purchase this product to read. | REVIEW | INSUFFICIENT_EVIDENCE |  |
 | popular listing | PASS | 50 entries |  |  |  |
 | latest listing | PASS | 20 entries |  |  |  |
 | search listing | PASS | Matched selected manga by URL at result offset 0: title=女余りの世界で、S級魔法少女達に種をまく【フルカラー】, URL=`252130` |  |  |  |
@@ -66,7 +67,8 @@
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
-| page indices | PASS |  |  |  |  |
-| page URLs | PASS | 36 HTTP page URLs |  |  |  |
-| duplicate page URLs | PASS |  |  |  |  |
-| page load | PASS | `https://comic-viewer.iowl.jp/.../diazepam_hybrid.php <redacted query values: mode, file, reqtype, and param>` (image/jpeg, 318439 bytes, 850x1200) |  |  |  |
+| page indices | SKIP | No pages to check |  |  |  |
+| page URLs | SKIP | Log in via WebView and purchase this product to read. |  |  |  |
+| duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | SKIP | No pages to load |  |  |  |

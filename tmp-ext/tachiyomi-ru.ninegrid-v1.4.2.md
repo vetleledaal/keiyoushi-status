@@ -2,11 +2,11 @@
 
 - Extension: tachiyomi-ru.ninegrid-v1.4.2
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
 - Passed: 36
 - Lint: 0
-- Warnings: 0
+- Warnings: 1
 - Skipped: 0
 - Failed: 0
 - Retry disposition: NOT_APPLICABLE
@@ -25,8 +25,8 @@
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | Crossed (`.../8728`) |  | <1s |
 | popular_next | `fetchPopularManga(2)` | success | 20 | Venom (`.../2795`) |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 20 | Flash (`.../1791`) |  | <1s |
-| latest_next | `fetchLatestUpdates(2)` | success | 20 | Savage Red Sonja: Queen of the Frozen Wastes (`.../5601`) |  | <1s |
+| latest | `fetchLatestUpdates(1)` | success | 20 | The Batman and Robin Adventures (`.../17243`) |  | <1s |
+| latest_next | `fetchLatestUpdates(2)` | success | 20 | Vampirella: Blood Lust (`.../7615`) |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 16 | Crossed (`.../8728`) |  | <1s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Crossed (`.../8728`) |  | <1s |
 | chapters | `fetchChapterList(manga)` | success | 10 | #0 (`.../pages`) |  | <1s |
@@ -57,7 +57,7 @@
 | details thumbnail URL | PASS | `https://9grid.cc/.../thumbnail` |  |  |  |
 | details author | PASS | Avatar Press |  |  |  |
 | details artist | PASS | null |  |  |  |
-| details genres | PASS | Adult, Horror, Thriller |  |  |  |
+| details genres | PASS | Horror, Adult, Thriller |  |  |  |
 | details status | PASS | COMPLETED (2) |  |  |  |
 | details description | PASS | Стэн выживает в мире, где загадочная инфекция превратила людей в безумных убийц с крестообразными шрамами на лицах. Он присоединяется к группе уцелевших под руководством Синди, которая пытается защитить своего ребёнка. Выжившие пересекают опустевшую Америку, зная, что смерть поджидает за каждым углом.<br><br>Это экстремальный хоррор без надежды на спасение — как «Ходячие мертвецы», но в разы жестче и мрачнее. Эннис создаёт удушающую атмосферу безысходности, где человечность исчезает под давлением выживания. Читается как кошмар наяву с беспощадной честностью о том, на что способны люди в критической ситуации. |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
@@ -69,4 +69,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 16 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | UNUSUAL | popular: `https://9grid.cc/.../thumbnail` to `https://cdn.9grid.cc/.../129138.webp` (1 redirects) |  |  |  |
 | page load | PASS | `https://cdn.9grid.cc/.../1778321157353_page_001.webp` (image/webp (container: extended), 618218 bytes, 2560x1992) |  |  |  |

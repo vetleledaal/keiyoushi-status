@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.eskimangalar-v1.4.5
 - Input artifact: JAR
-- Generated at: 2026-09-02T13:00:00Z
-- Commit: 8d1dc64be4c145b933270346bff95970a4b63d56
-- Passed: 36
+- Generated at: 2026-09-09T17:00:00Z
+- Commit: 44be8e7da1b81ac2ecf84d1b7af301d7d4e1790f
+- Passed: 37
 - Lint: 0
 - Warnings: 0
 - Skipped: 0
@@ -16,6 +16,7 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: uzaymanga
 - Source ID: 455290087526139932
 - Source name: Eski Mangalar
 - Source language: tr
@@ -24,12 +25,12 @@
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
 | popular | `fetchPopularManga(1)` | success | 20 | Geçmişten Gelen Oyuncu (`.../gecmisten-gelen-oyuncu`) |  | <1s |
-| popular_next | `fetchPopularManga(2)` | success | 20 | Ben Gerçekten Kötü Biri Değilim (`.../ben-gercekten-kotu-biri-degilim`) |  | 1-10s |
+| popular_next | `fetchPopularManga(2)` | success | 20 | Dahi Avcının Dönüşü (`.../dahi-avcinin-donusu`) |  | 1-10s |
 | latest | `fetchLatestUpdates(1)` | success | 20 | Hileli Gücüm Var Ama Tarikatın En Zayıfıyım?! (`.../hileli-gucum-var-ama-tarikatin-en-zayifiyim`) |  | <1s |
 | latest_next | `fetchLatestUpdates(2)` | success | 20 | Ölmeye Çalıştıkça Güçlenen Adam (`.../olmeye-calistikca-guclenen-adam`) |  | 1-10s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 1 | Hileli Gücüm Var Ama Tarikatın En Zayıfıyım?! (`.../hileli-gucum-var-ama-tarikatin-en-zayifiyim`) |  | <1s |
-| details | `fetchMangaDetails(manga)` | success | 1 | Hileli Gücüm Var Ama Tarikatın En Zayıfıyım?! (`.../hileli-gucum-var-ama-tarikatin-en-zayifiyim`) |  | 1-10s |
-| chapters | `fetchChapterList(manga)` | success | 3 | Bölüm 1 (`.../1-bolum-oku`) |  | <1s |
+| details | `fetchMangaDetails(manga)` | success | 1 | Hileli Gücüm Var Ama Tarikatın En Zayıfıyım?! (`.../hileli-gucum-var-ama-tarikatin-en-zayifiyim`) |  | <1s |
+| chapters | `fetchChapterList(manga)` | success | 4 | Bölüm 1 (`.../1-bolum-oku`) |  | 1-10s |
 | pages | `fetchPageList(chapter)` | success | 1 |  |  | 1-10s |
 
 | Check | Result | Details | Retry disposition | Retry reason | Retry condition |
@@ -61,12 +62,13 @@
 | details status | PASS | ONGOING (1) |  |  |  |
 | details description | PASS | <p>Tarikattaki kıdemli ve küçük kardeşlerimin hepsi, geçmiş yaşamlarında dünyayı sarsmış kudretli kişilermiş. Ben ise yan şehirlerden birinde yaşayan sıradan biriyken, ustam tarafından kandırılıp buraya getirilen ve herkese bakıcılık yapmak zorunda kalan zavallının tekiyim!<.../p%3E%3Cp%3ENeyse ki bu tarikatın sağladığı güçlendirmeler oldukça fazla. Üstelik şans eseri <strong>Yakınlık Değeri Ansiklopedi Sistemi<.../strong%3Eni uyandırdım!<.../p%3E%3Cp%3EG%C3%BC%C3%A7l%C3%BC kişilerin kayıtlarını topla, yakınlık puanı kazan ve onların yeteneklerini kullan! Böyle bir sistemle güçlenmek gerçekten inanılmaz!<.../p%3E |  |  |  |
 | metadata trimming | PASS |  |  |  |  |
-| chapters | PASS | 3 chapters |  |  |  |
-| chapter dates | PASS | 3 positive upload dates |  |  |  |
+| chapters | PASS | 4 chapters |  |  |  |
+| chapter dates | PASS | 4 positive upload dates |  |  |  |
 | chapter titles | PASS |  |  |  |  |
 | chapter URLs | PASS |  |  |  |  |
 | duplicate chapter URLs | PASS |  |  |  |  |
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 1 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://cdn-es.efsaneler2.can.re/.../1__szlqbc.avif` (image/avif (format: avif), 22823 bytes, 1024x1536) |  |  |  |

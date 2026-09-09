@@ -2,9 +2,9 @@
 
 - Extension: tachiyomi-tr.nirvanamanga-v1.4.32
 - Input artifact: JAR
-- Generated at: 2026-09-02T16:00:00Z
-- Commit: a33777f817110b49128392e320d515273dd94353
-- Passed: 30
+- Generated at: 2026-09-09T19:00:00Z
+- Commit: 631f55126bc39db8917c5b02dcc9d2135849c1b7+dirty
+- Passed: 31
 - Lint: 0
 - Warnings: 1
 - Skipped: 4
@@ -16,16 +16,17 @@
 - Extension library: 1.4
 - Entry point: keiyoushi.source.Generated
 - Source implementation: keiyoushi.source.Generated
+- Source theme: mangathemesia
 - Source ID: 2783611133798677654
 - Source name: Nirvana Manga
 - Source language: tr
-- Selected manga input: popular offset 0: Operation: True Love (`.../operation-true-love`)
+- Selected manga input: latest offset 0: Operation: True Love (`.../operation-true-love`)
 
 | Operation | Method | Result | Entries | Selected manga | Exception | Duration |
 | --- | --- | --- | ---: | --- | --- | ---: |
-| popular | `fetchPopularManga(1)` | success | 26 | Operation: True Love (`.../operation-true-love`) |  | 10s+ |
+| popular | `fetchPopularManga(1)` | success | 26 | Operation: True Love (`.../operation-true-love`) |  | 1-10s |
 | popular_next | `fetchPopularManga(2)` | skipped | 0 |  |  | <1s |
-| latest | `fetchLatestUpdates(1)` | success | 26 | Operation: True Love (`.../operation-true-love`) |  | 10s+ |
+| latest | `fetchLatestUpdates(1)` | success | 26 | Operation: True Love (`.../operation-true-love`) |  | 1-10s |
 | latest_next | `fetchLatestUpdates(2)` | skipped | 0 |  |  | <1s |
 | search | `fetchSearchManga(1, query, getFilterList())` | success | 0 |  |  | 1-10s |
 | details | `fetchMangaDetails(manga)` | success | 1 | Operation: True Love (`.../operation-true-love`) |  | 1-10s |
@@ -69,4 +70,5 @@
 | page indices | PASS |  |  |  |  |
 | page URLs | PASS | 6 HTTP page URLs |  |  |  |
 | duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
 | page load | PASS | `https://nirvanamanga.com/.../1-11.jpg` (image/jpeg, 117035 bytes, 647x397) |  |  |  |
