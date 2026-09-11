@@ -1,13 +1,13 @@
 # Bug Issue → Extension Map
 
-Matched: 194 of 197 open bug issues\
-Timestamp: `2026-09-10T12:26:53+00:00`
+Matched: 191 of 194 open bug issues\
+Timestamp: `2026-09-11T04:55:23+00:00`
 
 
 ## Exact match
 
 
-Count: 149
+Count: 146
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
@@ -15,11 +15,8 @@ Count: 149
 | [#18964](https://github.com/keiyoushi/extensions-source/issues/18964) Zinmanga.net covers not loading/no chapters found | Zinmanga.net | 🔀 | Zinmanga.net `100%` | [https://zinmanga.net](https://zinmanga.net) |
 | [#18952](https://github.com/keiyoushi/extensions-source/issues/18952) link change | Holotoon | 🚧 | Holotoon `100%` | [https://01.holotoon.site](https://01.holotoon.site) |
 | [#18942](https://github.com/keiyoushi/extensions-source/issues/18942) SoulScans: The search feature is not working properly | Soul Scans | ✅ | Soul Scans `100%` | [https://v1.soulscans.org](https://v1.soulscans.org) |
-| [#18938](https://github.com/keiyoushi/extensions-source/issues/18938) EternalMangas doesn't search for the chapters of the novels properly | EternalMangas | 🚧 | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
 | [#18931](https://github.com/keiyoushi/extensions-source/issues/18931) Komikstation duplicate image | Komik Station | 🚧 | Komik Station `100%` | [https://komikstation.org](https://komikstation.org) |
 | [#18929](https://github.com/keiyoushi/extensions-source/issues/18929) [InkStory] Titles redirecting to 18+ sister domain (puremanga) fail to load | InkStory | ✅ | InkStory `url` | [https://inkstory.net](https://inkstory.net) |
-| [#18917](https://github.com/keiyoushi/extensions-source/issues/18917) IkigaiMangas Error 403 | Ikigai Mangas | 🚧 | Ikigai Mangas `100%` | [https://visorikigai.gettocaboca.com](https://visorikigai.gettocaboca.com) |
-| [#18914](https://github.com/keiyoushi/extensions-source/issues/18914) ​[Ikiru] HTTP 400 error on loading source | Ikiru | 🚧 | Ikiru `100%` | [https://08.ikiru.wtf](https://08.ikiru.wtf) |
 | [#18911](https://github.com/keiyoushi/extensions-source/issues/18911) XXX Yaoi: Internal Server Error (NullPointerException) | XXX Yaoi | 🛑 | XXX Yaoi `100%` | [https://3xyaoi.com](https://3xyaoi.com) |
 | [#18856](https://github.com/keiyoushi/extensions-source/issues/18856) [Temple Scan ] Chapters 404 | Temple Scan | ✅ | Temple Scan `100%` | [https://aedexnox.akan01.com](https://aedexnox.akan01.com) |
 | [#18836](https://github.com/keiyoushi/extensions-source/issues/18836) XCOMIC: `No results found` on Latest page | XCOMIC | ✅ | XCOMIC `100%` | [https://comik.to](https://comik.to) |
@@ -67,7 +64,7 @@ Count: 149
 | [#17822](https://github.com/keiyoushi/extensions-source/issues/17822) CrotPedia (ID): Move genre filter from using generic ZManga fallback list | CrotPedia | 🚧 | CrotPedia `url` | [https://crotpedia.net](https://crotpedia.net) |
 | [#17781](https://github.com/keiyoushi/extensions-source/issues/17781) Mangolibreria Error  | MangoLibreria | ❌ | MangoLibreria `100%` | [https://mangolibreria.com](https://mangolibreria.com) |
 | [#17764](https://github.com/keiyoushi/extensions-source/issues/17764) EternalMangas No actualiza | EternalMangas | 🚧 | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
-| [#17758](https://github.com/keiyoushi/extensions-source/issues/17758) MangaYi: `Unexpected JSON token` error in Browse/Search | MangaYi | ❌ | MangaYi `100%` | [https://mangayi.com](https://mangayi.com) |
+| [#17758](https://github.com/keiyoushi/extensions-source/issues/17758) MangaYi: `Unexpected JSON token` error in Browse/Search | MangaYi | ✅ | MangaYi `100%` | [https://mangayi.com](https://mangayi.com) |
 | [#17752](https://github.com/keiyoushi/extensions-source/issues/17752) Hentai4Free: `No chapters found`, `HTTP 400` error (Switch to homepage results for Browse, require text for filter search) | Hentai4Free | 🚧 | Hentai4Free `100%` | [https://hentai4free.net](https://hentai4free.net) |
 | [#17722](https://github.com/keiyoushi/extensions-source/issues/17722) Falco Scan: `HTTP 503`, `No pages found` error | Falco Scan | ✅ | Falco Scan `url` | [https://falcoscan.net](https://falcoscan.net) |
 | [#17713](https://github.com/keiyoushi/extensions-source/issues/17713) RNCALATION error | Rncalation | ✅ | Rncalation `100%` | [https://rncalation.online](https://rncalation.online) |
@@ -168,9 +165,9 @@ Count: 23
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#18999](https://github.com/keiyoushi/extensions-source/issues/18999) Manhwa chapters fail to open in BlankScan — with "Unexpected JSON token" error | The blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
 | [#18957](https://github.com/keiyoushi/extensions-source/issues/18957) [Bug] Nexus Scanlation - Images scrambled in reader, works fine in WebView | Nexus Scanlation | 🚧 | NexusScanlation `97%` | [https://nexusscanlation.com](https://nexusscanlation.com) |
 | [#18943](https://github.com/keiyoushi/extensions-source/issues/18943) Ikigai mangas sale con Cloudflare y la página no tiene | Ikigai mangas | 🚧 | Ikigai Mangas `100%` | [https://visorikigai.gettocaboca.com](https://visorikigai.gettocaboca.com) |
-| [#18916](https://github.com/keiyoushi/extensions-source/issues/18916) No yuri on air está sem funcionar por favor alguém da uma olhada e resolve isso | Nada | 🚧 | Yuri on Air `title 100%` | [https://yurionair.top](https://yurionair.top) |
 | [#18894](https://github.com/keiyoushi/extensions-source/issues/18894) 肉漫屋 / Roumanwu: `Attempt to invoke virtual method` error | Roumanwu | ✅ | 肉漫屋 `100%` | [https://rouman5.com](https://rouman5.com) |
 | [#18852](https://github.com/keiyoushi/extensions-source/issues/18852) Categories filters doesnt work on IMHentai | all.imhentai | 🚧 | IMHentai `100%` | [https://imhentai.xxx](https://imhentai.xxx) |
 | [#18842](https://github.com/keiyoushi/extensions-source/issues/18842) Alphabet and tags missing on asmhentai | All.asmhentai. | ✅ | AsmHentai `100%` | [https://asmhentai.com](https://asmhentai.com) |
