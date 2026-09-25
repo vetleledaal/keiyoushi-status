@@ -1,16 +1,18 @@
 # Bug Issue → Extension Map
 
-Matched: 176 of 181 open bug issues\
-Timestamp: `2026-09-24T12:58:11+00:00`
+Matched: 179 of 184 open bug issues\
+Timestamp: `2026-09-25T05:11:47+00:00`
 
 
 ## Exact match
 
 
-Count: 142
+Count: 144
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19341](https://github.com/keiyoushi/extensions-source/issues/19341) jcomic souce has a exception | JComic | ✅ | JComic `100%` | [https://jcomic.net](https://jcomic.net) |
+| [#19324](https://github.com/keiyoushi/extensions-source/issues/19324) Senkuro not fetching new chapters | Senkuro | ⚠️ | Senkuro `url` | [https://senkuro.me](https://senkuro.me) |
 | [#19296](https://github.com/keiyoushi/extensions-source/issues/19296) LeerCapitulo: HTTP 404 error | LeerCapitulo | ✅ | LeerCapitulo `100%` | [https://www.leercapitulo.co](https://www.leercapitulo.co) |
 | [#19247](https://github.com/keiyoushi/extensions-source/issues/19247) Scythe Scans: Missing newer chapters | Scythe Scans | 🚧 | Scythe Scans `100%` | [https://scythescans.com](https://scythescans.com) |
 | [#19245](https://github.com/keiyoushi/extensions-source/issues/19245) Niceoppai: `No results found` error | Niceoppai | ✅ | Niceoppai `100%` | [https://www.niceoppai.net](https://www.niceoppai.net) |
@@ -157,10 +159,11 @@ Count: 142
 ## Single match
 
 
-Count: 19
+Count: 20
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19331](https://github.com/keiyoushi/extensions-source/issues/19331) Ikigaimangas Cover art  bug | Ikigaimanga | 🚧 | Ikigai Mangas `92%` | [https://visorikigai.gettocaboca.com](https://visorikigai.gettocaboca.com) |
 | [#19259](https://github.com/keiyoushi/extensions-source/issues/19259) Error with Leercapitulo extension | Leercapitulo | ✅ | LeerCapitulo `100%` | [https://www.leercapitulo.co](https://www.leercapitulo.co) |
 | [#19143](https://github.com/keiyoushi/extensions-source/issues/19143) Url change report(manhwaz) | Manhwaz | ❌ | ManhwaZ `100%` | [https://manhwaz.com](https://manhwaz.com) |
 | [#19074](https://github.com/keiyoushi/extensions-source/issues/19074) Submanhwa: `HTTP 403` error on chapter images | submanhwa | 🚧 | Submanhwa `100%` | [https://submanhwa.com](https://submanhwa.com) |
@@ -197,7 +200,7 @@ Count: 15
 | ↳ [#18609] |  | ❌ | Komga (2) `title 100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
 | ↳ [#18609] |  | ❌ | Komga (3) `title 100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
 | [#18008](https://github.com/keiyoushi/extensions-source/issues/18008) Problem while migrating | MangaK | ✅ | MangaK `100%` | [https://mangak.io](https://mangak.io) |
-| ↳ [#18008] |  | 🚧 | Mangack `92%` | [https://mangack.com](https://mangack.com) |
+| ↳ [#18008] |  | ✅ | Mangack `92%` | [https://mangack.com](https://mangack.com) |
 | ↳ [#18008] |  | ❌ | MangaKa `92%` | [https://mangaka.cc](https://mangaka.cc) |
 | [#17622](https://github.com/keiyoushi/extensions-source/issues/17622) Allporncomics | AllPornComics.co | 🛑 | AllPornComics.co `100%` | [https://allporncomics.co](https://allporncomics.co) |
 | ↳ [#17622] |  | 🚧 | AllPornComic `title 96%` | [https://allporncomic.com](https://allporncomic.com) |
@@ -205,14 +208,14 @@ Count: 15
 | [#17434](https://github.com/keiyoushi/extensions-source/issues/17434) 늑대닷컴 / Wolf.com: `IndexOutOfBoundsException` error, switch baseUrl to `wftoon220.com` OR redesign to work with `wfwf422.com` | Wolf | ✅ | 늑대닷컴 - 만화책 `title 100%` | [https://wfwf414.com](https://wfwf414.com) |
 | ↳ [#17434] |  | ✅ | 늑대닷컴 - 웹툰 `title 100%` | [https://wfwf414.com](https://wfwf414.com) |
 | ↳ [#17434] |  | ✅ | 늑대닷컴 - 포토툰 `title 100%` | [https://wfwf414.com](https://wfwf414.com) |
-| [#17374](https://github.com/keiyoushi/extensions-source/issues/17374) [FR] Scan-Manga: Broken extension due to hardcoded invalid subdomain | Scan-Manga | ⚠️ | Scan-Manga `100%` | [https://m.scan-manga.com](https://m.scan-manga.com) |
+| [#17374](https://github.com/keiyoushi/extensions-source/issues/17374) [FR] Scan-Manga: Broken extension due to hardcoded invalid subdomain | Scan-Manga | 🚧 | Scan-Manga `100%` | [https://m.scan-manga.com](https://m.scan-manga.com) |
 | ↳ [#17374] |  | 🚧 | Manga Can `95%` | [https://mangacanblog.com](https://mangacanblog.com) |
 | [#13566](https://github.com/keiyoushi/extensions-source/issues/13566) GigaViewer theme sources not showing downloads | Comic Days 1.4.9, Sunday Web Every | ✅ | Comic Days `100%` | [https://comic-days.com](https://comic-days.com) |
 | ↳ [#13566] |  | ✅ | Sunday Web Every `100%` | [https://www.sunday-webry.com](https://www.sunday-webry.com) |
 | [#13099](https://github.com/keiyoushi/extensions-source/issues/13099) Mangadex - Use Alternative Titles setting does not keep the alternative titles past the search result | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
 | ↳ [#13099] |  | ✅ | MangaDE `93%` | [https://mangade.io](https://mangade.io) |
 | [#11929](https://github.com/keiyoushi/extensions-source/issues/11929) GocTruyenTranhVui:  Token/ account gets frequently banned | Goc Truyen Tranh Vui | 🚧 | Goc Truyen Tranh Vui `100%` | [https://goctruyentranhvui41.com](https://goctruyentranhvui41.com) |
-| ↳ [#11929] |  | ⚠️ | GocTruyenTranh `title 90%` | [https://goctruyentranh.com](https://goctruyentranh.com) |
+| ↳ [#11929] |  | ✅ | GocTruyenTranh `title 90%` | [https://goctruyentranh.com](https://goctruyentranh.com) |
 | [#10737](https://github.com/keiyoushi/extensions-source/issues/10737) Arabs Hentai : Change the chapter display format | هنتاي العرب | 🛑 | هنتاي العرب `url` | [https://arabshentai.com](https://arabshentai.com) |
 | ↳ [#10737] |  | 🔀 | هنتاي العرب - نت `100%` | [https://arabhentai.net](https://arabhentai.net) |
 | [#9649](https://github.com/keiyoushi/extensions-source/issues/9649) MangaDex getting alt. English titles ONLY | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
