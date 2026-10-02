@@ -1,21 +1,20 @@
 # Bug Issue → Extension Map
 
-Matched: 117 of 118 open bug issues\
-Timestamp: `2026-10-01T14:48:45+00:00`
+Matched: 117 of 119 open bug issues\
+Timestamp: `2026-10-02T05:59:04+00:00`
 
 
 ## Exact match
 
 
-Count: 90
+Count: 89
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19571](https://github.com/keiyoushi/extensions-source/issues/19571) VoraToon New Domain Again after servers down | VoraToon | 🔀 | VoraToon `100%` | [https://v4.voratoon.com](https://v4.voratoon.com) |
 | [#19549](https://github.com/keiyoushi/extensions-source/issues/19549) Temple Scan still displays error: IllegalStateException: Could not determine the site's RSC field-key salt | Temple Scan | ✅ | Temple Scan `100%` | [https://aedexnox.akan01.com](https://aedexnox.akan01.com) |
-| [#19542](https://github.com/keiyoushi/extensions-source/issues/19542) Elf Toon can't browse titles | Elf Toon | 🔀 | Elf Toon `100%` | [https://elftoon.com](https://elftoon.com) |
 | [#19530](https://github.com/keiyoushi/extensions-source/issues/19530) Sushiscan.fr http error 504 | Sushiscan.fr | ✅ | Sushiscan.fr `100%` | [https://sushiscan.fr](https://sushiscan.fr) |
 | [#19508](https://github.com/keiyoushi/extensions-source/issues/19508) Lunar Manga sends only spam card instead of chapters | Lunar Manga | 🚧 | Lunar Manga `100%` | [https://lunarx.to](https://lunarx.to) |
-| [#19482](https://github.com/keiyoushi/extensions-source/issues/19482) Hot Comics - Error 403 | HotComics | 🔀 | HotComics `100%` | [https://hotcomics.me](https://hotcomics.me) |
 | [#19446](https://github.com/keiyoushi/extensions-source/issues/19446) Comikey - Chapters fail to load with HTTP 400 due to malformed image URL | Comikey | ✅ | Comikey `100%` | [https://comikey.com](https://comikey.com) |
 | [#19357](https://github.com/keiyoushi/extensions-source/issues/19357) Shademanga does not display works marked [+18] | Shadow Manga | 🚧 | Shadow Manga `100%` | [https://shademanga.com](https://shademanga.com) |
 | [#19342](https://github.com/keiyoushi/extensions-source/issues/19342) Dilar extension redirects all manga to One Piece | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
@@ -109,7 +108,7 @@ Count: 14
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#19550](https://github.com/keiyoushi/extensions-source/issues/19550) Ego toons No Pages found | Ego toons | ✅ | Ego Toons `100%` | [https://egotoons.com](https://egotoons.com) |
+| [#19576](https://github.com/keiyoushi/extensions-source/issues/19576) VoraToon: HTTP 403 error / check website in WebView | Voratoon | 🔀 | VoraToon `100%` | [https://v4.voratoon.com](https://v4.voratoon.com) |
 | [#19259](https://github.com/keiyoushi/extensions-source/issues/19259) Error with Leercapitulo extension | Leercapitulo | ✅ | LeerCapitulo `100%` | [https://www.leercapitulo.co](https://www.leercapitulo.co) |
 | [#19143](https://github.com/keiyoushi/extensions-source/issues/19143) Url change report(manhwaz) | Manhwaz | ❌ | ManhwaZ `100%` | [https://manhwaz.com](https://manhwaz.com) |
 | [#19036](https://github.com/keiyoushi/extensions-source/issues/19036) Manwa 1.4.14 needs to be updated please | Manwa | 🚧 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
@@ -127,18 +126,21 @@ Count: 14
 ## Multiple matches
 
 
-Count: 13
+Count: 14
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#19552](https://github.com/keiyoushi/extensions-source/issues/19552) doesn't load a chapter | Mangahub | ✅ | Mangahub `100%` | [https://mangahub.ru](https://mangahub.ru) |
+| [#19573](https://github.com/keiyoushi/extensions-source/issues/19573) HTTP 404 / newer chapters missing | Webtoon | ✅ | Naver Webtoon `100%` | [https://comic.naver.com](https://comic.naver.com) |
+| ↳ [#19573] |  | ✅ | Naver Webtoon Best Challenge `100%` | [https://comic.naver.com](https://comic.naver.com) |
+| ↳ [#19573] |  | ✅ | Naver Webtoon Challenge `100%` | [https://comic.naver.com](https://comic.naver.com) |
+| [#19552](https://github.com/keiyoushi/extensions-source/issues/19552) MangaHub doesn't load a chapter | Mangahub | ✅ | Mangahub `100%` | [https://mangahub.ru](https://mangahub.ru) |
 | ↳ [#19552] |  | 🔀 | MangaHub `100%` | [https://www.mangaxhentai.com](https://www.mangaxhentai.com) |
 | [#19510](https://github.com/keiyoushi/extensions-source/issues/19510) mangadex extension throws "handshake failed" in Mihon Nightly r7916 and above | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
 | ↳ [#19510] |  | ✅ | MangaDE `93%` | [https://mangade.io](https://mangade.io) |
 | [#19190](https://github.com/keiyoushi/extensions-source/issues/19190) KuroMangas: `Sessão recusada pelo site`/`CSRF token mismatch` error | Kuromanga | 🚧 | KuroMangas `100%` | [https://kuromangas.com](https://kuromangas.com) |
 | ↳ [#19190] |  | ✅ | Kuro Manga `95%` | [https://kuromanga.id](https://kuromanga.id) |
 | ↳ [#19190] |  | 🚧 | Kuroi Manga `90%` | [https://kuroimanga.site](https://kuroimanga.site) |
-| [#18672](https://github.com/keiyoushi/extensions-source/issues/18672) Rimu Scans: `Failed to initialize decoder`/chapter pages doesn't load with Premium chapters | 1.4.35 rimu scan | 🛑 | Rimu Scans `title 100%` | [https://rimuscan.fr](https://rimuscan.fr) |
+| [#18672](https://github.com/keiyoushi/extensions-source/issues/18672) Rimu Scans: `Failed to initialize decoder`/chapter pages doesn't load with Premium chapters | 1.4.35 rimu scan | 🔀 | Rimu Scans `title 100%` | [https://rimuscan.fr](https://rimuscan.fr) |
 | ↳ [#18672] |  | ✅ | Grim Scans `title 90%` | [https://grimscans.com](https://grimscans.com) |
 | [#18609](https://github.com/keiyoushi/extensions-source/issues/18609) Komga: Permissions/settings leak with multiple server instances | Komga: Permissions/settings leak with multiple server instances | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
 | ↳ [#18609] |  | ❌ | Komga (2) `title 100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
@@ -165,8 +167,9 @@ Count: 13
 ## No match
 
 
-Count: 1
+Count: 2
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19575](https://github.com/keiyoushi/extensions-source/issues/19575) Orphaned Sourve | Novelcrow | | | |
 | [#19311](https://github.com/keiyoushi/extensions-source/issues/19311) NyxScans Novels in Series List | NyxScans Novels in Series List | | | |
