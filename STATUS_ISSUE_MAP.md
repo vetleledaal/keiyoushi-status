@@ -1,17 +1,22 @@
 # Bug Issue → Extension Map
 
-Matched: 117 of 119 open bug issues\
-Timestamp: `2026-10-02T05:59:04+00:00`
+Matched: 123 of 125 open bug issues\
+Timestamp: `2026-10-03T09:26:30+00:00`
 
 
 ## Exact match
 
 
-Count: 89
+Count: 94
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#19571](https://github.com/keiyoushi/extensions-source/issues/19571) VoraToon New Domain Again after servers down | VoraToon | 🔀 | VoraToon `100%` | [https://v4.voratoon.com](https://v4.voratoon.com) |
+| [#19621](https://github.com/keiyoushi/extensions-source/issues/19621) Comix | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
+| [#19608](https://github.com/keiyoushi/extensions-source/issues/19608) Bakai: `No pages found`  error when opening chapters | Bakai | ⚠️ | Bakai `100%` | [https://bakai.org](https://bakai.org) |
+| [#19606](https://github.com/keiyoushi/extensions-source/issues/19606) MeTruyen18: domain moved to metruyen18.sbs (site rebuilt, or new source) | MeTruyen18 | 🔀 | MeTruyen18 `100%` | [https://metruyen18.pro](https://metruyen18.pro) |
+| [#19599](https://github.com/keiyoushi/extensions-source/issues/19599) Fenix Project: Site changed from WordPress/Madara to Phoenix LiveView (needs rewrite) | Fenix Project | 🔀 | Fenix Project `url` | [https://fenixproject.site](https://fenixproject.site) |
+| [#19595](https://github.com/keiyoushi/extensions-source/issues/19595) [TR] Gölge Bahçesi - Invalid URL scheme error | Gölge Bahçesi | ✅ | Gölge Bahçesi `100%` | [https://golgebahcesi.com](https://golgebahcesi.com) |
+| [#19571](https://github.com/keiyoushi/extensions-source/issues/19571) VoraToon New Domain Again after servers down | VoraToon | ✅ | VoraToon `url` | [https://v5.voratoon.com](https://v5.voratoon.com) |
 | [#19549](https://github.com/keiyoushi/extensions-source/issues/19549) Temple Scan still displays error: IllegalStateException: Could not determine the site's RSC field-key salt | Temple Scan | ✅ | Temple Scan `100%` | [https://aedexnox.akan01.com](https://aedexnox.akan01.com) |
 | [#19530](https://github.com/keiyoushi/extensions-source/issues/19530) Sushiscan.fr http error 504 | Sushiscan.fr | ✅ | Sushiscan.fr `100%` | [https://sushiscan.fr](https://sushiscan.fr) |
 | [#19508](https://github.com/keiyoushi/extensions-source/issues/19508) Lunar Manga sends only spam card instead of chapters | Lunar Manga | 🚧 | Lunar Manga `100%` | [https://lunarx.to](https://lunarx.to) |
@@ -59,7 +64,7 @@ Count: 89
 | [#16777](https://github.com/keiyoushi/extensions-source/issues/16777) Erro 523 Scan Fleur blanche | Fleur Blanche | ✅ | Fleur Blanche `100%` | [https://fbsquadx.com](https://fbsquadx.com) |
 | [#16674](https://github.com/keiyoushi/extensions-source/issues/16674) Webtoon extension error | Webtoons.com | ✅ | Webtoons.com `100%` | [https://www.webtoons.com](https://www.webtoons.com) |
 | [#16612](https://github.com/keiyoushi/extensions-source/issues/16612) LectorManga.lat: Website redesign, new website URL (`lectormangaas.com`) | LectorManga.lat | ✅ | LectorManga.lat `url` | [https://lector-mangas.lat](https://lector-mangas.lat) |
-| [#16551](https://github.com/keiyoushi/extensions-source/issues/16551) Manga168: No chapters found | Manga168 | 🚧 | Manga168 `100%` | [https://manga1688.com](https://manga1688.com) |
+| [#16551](https://github.com/keiyoushi/extensions-source/issues/16551) Manga168: No chapters found | Manga168 | ❌ | Manga168 `100%` | [https://manga1688.com](https://manga1688.com) |
 | [#16404](https://github.com/keiyoushi/extensions-source/issues/16404) [Bug] Bbato (en) v1.4.1 — pageList returns empty for valid chapters | Bbato | ✅ | Bbato `100%` | [https://bato1.com](https://bato1.com) |
 | [#16217](https://github.com/keiyoushi/extensions-source/issues/16217) Flower manga doesn't show recent releases and the search returns empty. | FlowerManga.net | 🚧 | FlowerManga.net `100%` | [https://flowermangas.net](https://flowermangas.net) |
 | [#16145](https://github.com/keiyoushi/extensions-source/issues/16145) Images do not load in COOMER and KEMONO | Coomer | ✅ | Coomer `100%` | [https://coomer.st](https://coomer.st) |
@@ -104,11 +109,14 @@ Count: 89
 ## Single match
 
 
-Count: 14
+Count: 17
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#19576](https://github.com/keiyoushi/extensions-source/issues/19576) VoraToon: HTTP 403 error / check website in WebView | Voratoon | 🔀 | VoraToon `100%` | [https://v4.voratoon.com](https://v4.voratoon.com) |
+| [#19597](https://github.com/keiyoushi/extensions-source/issues/19597) The chapter does not exist and never works. | Mangatek | 🛑 | MangaTek `100%` | [https://mangatek.com](https://mangatek.com) |
+| [#19594](https://github.com/keiyoushi/extensions-source/issues/19594) Damconuong: api not found | Damconuong | 🔀 | DamCoNuong `100%` | [https://damconuong.name](https://damconuong.name) |
+| [#19593](https://github.com/keiyoushi/extensions-source/issues/19593) [eBookRenta] Not possible to read/download purchased chapters in app, possible only in WebView. Error: "Log in via WebView and purchase this chapter to read" | eBookRenta | ✅ | EbookRenta `100%` | [https://www.ebookrenta.com](https://www.ebookrenta.com) |
+| [#19576](https://github.com/keiyoushi/extensions-source/issues/19576) VoraToon: HTTP 403 error / check website in WebView | Voratoon | ✅ | VoraToon `100%` | [https://v5.voratoon.com](https://v5.voratoon.com) |
 | [#19259](https://github.com/keiyoushi/extensions-source/issues/19259) Error with Leercapitulo extension | Leercapitulo | ✅ | LeerCapitulo `100%` | [https://www.leercapitulo.co](https://www.leercapitulo.co) |
 | [#19143](https://github.com/keiyoushi/extensions-source/issues/19143) Url change report(manhwaz) | Manhwaz | ❌ | ManhwaZ `100%` | [https://manhwaz.com](https://manhwaz.com) |
 | [#19036](https://github.com/keiyoushi/extensions-source/issues/19036) Manwa 1.4.14 needs to be updated please | Manwa | 🚧 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
@@ -126,21 +134,16 @@ Count: 14
 ## Multiple matches
 
 
-Count: 14
+Count: 12
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#19573](https://github.com/keiyoushi/extensions-source/issues/19573) HTTP 404 / newer chapters missing | Webtoon | ✅ | Naver Webtoon `100%` | [https://comic.naver.com](https://comic.naver.com) |
-| ↳ [#19573] |  | ✅ | Naver Webtoon Best Challenge `100%` | [https://comic.naver.com](https://comic.naver.com) |
-| ↳ [#19573] |  | ✅ | Naver Webtoon Challenge `100%` | [https://comic.naver.com](https://comic.naver.com) |
-| [#19552](https://github.com/keiyoushi/extensions-source/issues/19552) MangaHub doesn't load a chapter | Mangahub | ✅ | Mangahub `100%` | [https://mangahub.ru](https://mangahub.ru) |
-| ↳ [#19552] |  | 🔀 | MangaHub `100%` | [https://www.mangaxhentai.com](https://www.mangaxhentai.com) |
 | [#19510](https://github.com/keiyoushi/extensions-source/issues/19510) mangadex extension throws "handshake failed" in Mihon Nightly r7916 and above | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
 | ↳ [#19510] |  | ✅ | MangaDE `93%` | [https://mangade.io](https://mangade.io) |
 | [#19190](https://github.com/keiyoushi/extensions-source/issues/19190) KuroMangas: `Sessão recusada pelo site`/`CSRF token mismatch` error | Kuromanga | 🚧 | KuroMangas `100%` | [https://kuromangas.com](https://kuromangas.com) |
 | ↳ [#19190] |  | ✅ | Kuro Manga `95%` | [https://kuromanga.id](https://kuromanga.id) |
 | ↳ [#19190] |  | 🚧 | Kuroi Manga `90%` | [https://kuroimanga.site](https://kuroimanga.site) |
-| [#18672](https://github.com/keiyoushi/extensions-source/issues/18672) Rimu Scans: `Failed to initialize decoder`/chapter pages doesn't load with Premium chapters | 1.4.35 rimu scan | 🔀 | Rimu Scans `title 100%` | [https://rimuscan.fr](https://rimuscan.fr) |
+| [#18672](https://github.com/keiyoushi/extensions-source/issues/18672) Rimu Scans: `Failed to initialize decoder`/chapter pages doesn't load with Premium chapters | 1.4.35 rimu scan | 🛑 | Rimu Scans `title 100%` | [https://rimuscan.fr](https://rimuscan.fr) |
 | ↳ [#18672] |  | ✅ | Grim Scans `title 90%` | [https://grimscans.com](https://grimscans.com) |
 | [#18609](https://github.com/keiyoushi/extensions-source/issues/18609) Komga: Permissions/settings leak with multiple server instances | Komga: Permissions/settings leak with multiple server instances | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
 | ↳ [#18609] |  | ❌ | Komga (2) `title 100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
@@ -171,5 +174,5 @@ Count: 2
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#19575](https://github.com/keiyoushi/extensions-source/issues/19575) Orphaned Sourve | Novelcrow | | | |
+| [#19575](https://github.com/keiyoushi/extensions-source/issues/19575) Source request (EN): NovelCrow (orphaned/previously down) | Novelcrow | | | |
 | [#19311](https://github.com/keiyoushi/extensions-source/issues/19311) NyxScans Novels in Series List | NyxScans Novels in Series List | | | |
