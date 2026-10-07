@@ -1,16 +1,20 @@
 # Bug Issue → Extension Map
 
-Matched: 111 of 113 open bug issues\
-Timestamp: `2026-10-06T10:24:06+00:00`
+Matched: 115 of 118 open bug issues\
+Timestamp: `2026-10-07T03:05:55+00:00`
 
 
 ## Exact match
 
 
-Count: 84
+Count: 88
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19710](https://github.com/keiyoushi/extensions-source/issues/19710) Luna Toons Issue | Luna Toons | 🔀 | Luna Toons `100%` | [https://lunatoons.org](https://lunatoons.org) |
+| [#19704](https://github.com/keiyoushi/extensions-source/issues/19704) MangaLib (RU): NullPointerException on Popular/Latest, no titles load | MangaLib | ⚠️ | MangaLib `100%` | [https://mangalib.me](https://mangalib.me) |
+| [#19701](https://github.com/keiyoushi/extensions-source/issues/19701) No results appear in the recent section submanhwa | Submanhwa | 🚧 | Submanhwa `100%` | [https://submanhwa.com](https://submanhwa.com) |
+| [#19698](https://github.com/keiyoushi/extensions-source/issues/19698) Dilar: Unsupported encryption protocol version: 14 | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
 | [#19690](https://github.com/keiyoushi/extensions-source/issues/19690) Ikiru change domain | Ikiru | 🔀 | Ikiru `100%` | [https://08.ikiru.wtf](https://08.ikiru.wtf) |
 | [#19681](https://github.com/keiyoushi/extensions-source/issues/19681) Extension "ManhwaWeb": 404 Error | ManhwaWeb | ✅ | ManhwaWeb `url` | [https://manhwaweb.com](https://manhwaweb.com) |
 | [#19671](https://github.com/keiyoushi/extensions-source/issues/19671) Unsupported Reader Signer Build | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
@@ -33,7 +37,7 @@ Count: 84
 | [#18630](https://github.com/keiyoushi/extensions-source/issues/18630) Paradoxscans gives error in the image after the second page does not open | Paradox Scans | ✅ | Paradox Scans `100%` | [https://paradoxscans.com](https://paradoxscans.com) |
 | [#18343](https://github.com/keiyoushi/extensions-source/issues/18343) Magus Manga: Undetected downloaded chapter & title | Magus Manga | 🚧 | Magus Manga `100%` | [https://magustoon.org](https://magustoon.org) |
 | [#18220](https://github.com/keiyoushi/extensions-source/issues/18220) Ikigai Mangas: Search returns no results | Ikigai Mangas | 🚧 | Ikigai Mangas `100%` | [https://visorikigai.gettocaboca.com](https://visorikigai.gettocaboca.com) |
-| [#18183](https://github.com/keiyoushi/extensions-source/issues/18183) Vercomicsporno (VCP) broken | VCP | 🚧 | VCP `100%` | [https://vercomicsporno.com](https://vercomicsporno.com) |
+| [#18183](https://github.com/keiyoushi/extensions-source/issues/18183) Vercomicsporno (VCP) broken | VCP | ❌ | VCP `100%` | [https://vercomicsporno.com](https://vercomicsporno.com) |
 | [#18153](https://github.com/keiyoushi/extensions-source/issues/18153) Athrea Scans: Paid chapters has incomplete pages, paid chapters isn't toggleable without logging in | Athrea Scans | 🚧 | Athrea Scans `100%` | [https://athreascans.com](https://athreascans.com) |
 | [#18082](https://github.com/keiyoushi/extensions-source/issues/18082) GölgeBahçesi Bug | Gölge Bahçesi | ✅ | Gölge Bahçesi `100%` | [https://golgebahcesi.com](https://golgebahcesi.com) |
 | [#18022](https://github.com/keiyoushi/extensions-source/issues/18022) ONF MANGAS failure | ONF MANGAS | ✅ | ONF MANGAS `100%` | [https://onfmangas.com](https://onfmangas.com) |
@@ -157,9 +161,10 @@ Count: 11
 ## No match
 
 
-Count: 2
+Count: 3
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19713](https://github.com/keiyoushi/extensions-source/issues/19713) 绅士漫画拉取图片报错403 | 绅士漫画 | | | |
 | [#19676](https://github.com/keiyoushi/extensions-source/issues/19676) Incomplete list in some works orckumangas | Orckumangas | | | |
 | [#19311](https://github.com/keiyoushi/extensions-source/issues/19311) NyxScans Novels in Series List | NyxScans Novels in Series List | | | |
