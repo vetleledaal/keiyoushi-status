@@ -1,19 +1,21 @@
 # Bug Issue → Extension Map
 
-Matched: 115 of 117 open bug issues\
-Timestamp: `2026-10-08T14:59:56+00:00`
+Matched: 119 of 121 open bug issues\
+Timestamp: `2026-10-09T06:22:20+00:00`
 
 
 ## Exact match
 
 
-Count: 90
+Count: 92
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19756](https://github.com/keiyoushi/extensions-source/issues/19756) Milftoon extension shows "No results found" | Milftoon | 🚧 | Milftoon `100%` | [https://milftoon.xxx](https://milftoon.xxx) |
+| [#19754](https://github.com/keiyoushi/extensions-source/issues/19754) Lmtos: Use search filters for Popular, browse/search results are incorrect + only loads first page | Lmtos | 🚧 | Lmtos `100%` | [https://lmtos.net](https://lmtos.net) |
 | [#19746](https://github.com/keiyoushi/extensions-source/issues/19746) Comix 1.6.42 "Field baseUrl is required" error preventing chapters from loading | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
 | [#19744](https://github.com/keiyoushi/extensions-source/issues/19744) RavenManga | RavenManga | ✅ | RavenManga `100%` | [https://raventard.xyz](https://raventard.xyz) |
-| [#19742](https://github.com/keiyoushi/extensions-source/issues/19742) Temple Scan 403 forbidden when tried to accessed | Temple Scan | ✅ | Temple Scan `100%` | [https://aedexnox.akan01.com](https://aedexnox.akan01.com) |
+| [#19742](https://github.com/keiyoushi/extensions-source/issues/19742) Temple Scan: `HTTP 403` error | Temple Scan | ✅ | Temple Scan `100%` | [https://aedexnox.akan01.com](https://aedexnox.akan01.com) |
 | [#19733](https://github.com/keiyoushi/extensions-source/issues/19733) Paradise scans show 404 in app but load normally in webview | Paradise Scans | ✅ | Paradise Scans `100%` | [https://paradisescans.com](https://paradisescans.com) |
 | [#19721](https://github.com/keiyoushi/extensions-source/issues/19721) Emperor Scan no carga (cambio de dominio) | Emperor Scan | 🔀 | Emperor Scan `100%` | [https://imperiomanhua.com](https://imperiomanhua.com) |
 | [#19719](https://github.com/keiyoushi/extensions-source/issues/19719) Reader signer bindings not found - The Blank | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
@@ -105,10 +107,12 @@ Count: 90
 ## Single match
 
 
-Count: 14
+Count: 16
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19766](https://github.com/keiyoushi/extensions-source/issues/19766) Mantrazscan domain change url | Mantraz scan 1.6. | ✅ | Mantraz Scan `100%` | [https://mantrazscan.co](https://mantrazscan.co) |
+| [#19757](https://github.com/keiyoushi/extensions-source/issues/19757) Taurus Fansub: `Expected URL scheme` error when paid chapters is shown | TaurusFansub | ✅ | Taurus Fansub `title 100%` | [https://lectortaurus.com](https://lectortaurus.com) |
 | [#19735](https://github.com/keiyoushi/extensions-source/issues/19735) Kodoku Studio has url and site structure changed. | kodokustudio | 🔀 | Kodoku Studio `100%` | [https://kodokustudio.com](https://kodokustudio.com) |
 | [#19678](https://github.com/keiyoushi/extensions-source/issues/19678) Emperor scan doesn't show the caps | Emperor scan | 🔀 | Emperor Scan `100%` | [https://imperiomanhua.com](https://imperiomanhua.com) |
 | [#19597](https://github.com/keiyoushi/extensions-source/issues/19597) The chapter does not exist and never works. | Mangatek | 🛑 | MangaTek `100%` | [https://mangatek.com](https://mangatek.com) |
