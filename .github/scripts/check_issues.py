@@ -6,7 +6,7 @@
 #   "aiohttp[speedups]",
 #   "anyio",
 #   "beautifulsoup4[lxml]",
-#   "dnspython[doh,idna]",
+#   "dnspython[doh,idna]>=2.9.0",
 #   "publicsuffixlist",
 #   "pygithub",
 #   "tabulate",

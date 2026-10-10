@@ -25,7 +25,7 @@ import dns.exception
 import dns.message
 import dns.nameserver
 import dns.rdatatype
-import httpx
+import httpx2
 import ua_generator
 from aia import AIASession
 from aiohttp.abc import AbstractResolver, ResolveResult
@@ -35,7 +35,7 @@ from tabulate import tabulate  # type: ignore[import-untyped]
 from yarl import URL
 
 log = logging.getLogger(__name__)
-logging.getLogger("httpx").setLevel(logging.WARNING)  # silence per-request DoH logs
+logging.getLogger("httpx2").setLevel(logging.WARNING)  # silence per-request DoH logs
 psl = PublicSuffixList()
 
 TIMEOUT_SECONDS = 5 * 60
@@ -134,7 +134,7 @@ def _weighted_sample_without_replacement(
 class _PersistentDoHNameserver(dns.nameserver.DoHNameserver):
     """DoHNameserver that reuses one httpx.AsyncClient instead of opening a new TLS connection per query."""
 
-    def __init__(self, url: str, client: httpx.AsyncClient) -> None:
+    def __init__(self, url: str, client: httpx2.AsyncClient) -> None:
         super().__init__(url)
         self._client = client
 
@@ -170,10 +170,10 @@ class DNSPythonResolver(AbstractResolver):
         self._rng = random.Random()
         self._scores = {ns: _NameserverScore() for ns in nameservers}
         self._fallback_scores = {ns: _NameserverScore() for ns in fallback_nameservers}
-        self._clients: dict[str, httpx.AsyncClient] = {}
+        self._clients: dict[str, httpx2.AsyncClient] = {}
         self._resolvers: dict[str, dns.asyncresolver.Resolver] = {}
         for ns in [*nameservers, *fallback_nameservers]:
-            client = httpx.AsyncClient(http2=True)
+            client = httpx2.AsyncClient(http2=True)
             self._clients[ns] = client
             resolver = dns.asyncresolver.Resolver(configure=False)
             resolver.nameservers = [_PersistentDoHNameserver(ns, client)]

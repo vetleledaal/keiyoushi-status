@@ -7,7 +7,7 @@
 #   "anyio",
 #   "beautifulsoup4[lxml]",
 #   "betterproto==2.0.0b7",
-#   "dnspython[doh,idna]",
+#   "dnspython[doh,idna]>=2.9.0",
 #   "publicsuffixlist",
 #   "tabulate",
 #   "ua-generator",
