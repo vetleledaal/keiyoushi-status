@@ -1,27 +1,27 @@
 # Bug Issue → Extension Map
 
-Matched: 126 of 130 open bug issues\
-Timestamp: `2026-10-10T10:04:04+00:00`
+Matched: 121 of 125 open bug issues\
+Timestamp: `2026-10-10T23:26:35+00:00`
 
 
 ## Exact match
 
 
-Count: 95
+Count: 94
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#19798](https://github.com/keiyoushi/extensions-source/issues/19798) ⁠Source shows Unsupported encryption protocol version: 15 error⁠ | Dilar | 🚧 | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
+| [#19823](https://github.com/keiyoushi/extensions-source/issues/19823) Temple Scan: HTTP 403 error | Temple Scan | ✅ | Temple Scan `100%` | [https://aedexnox.akan01.com](https://aedexnox.akan01.com) |
+| [#19810](https://github.com/keiyoushi/extensions-source/issues/19810) Kiryuu : No Pages Found | Kiryuu | 🚧 | Kiryuu `100%` | [https://v7.kiryuu.to](https://v7.kiryuu.to) |
+| [#19806](https://github.com/keiyoushi/extensions-source/issues/19806) SeiManga (RU) 1.4.37 — Only the first page loads, remaining pages throw IllegalArgumentException | SeiManga | ✅ | SeiManga `100%` | [https://1.seimanga.me](https://1.seimanga.me) |
+| [#19805](https://github.com/keiyoushi/extensions-source/issues/19805) Extensão Argos Comics pt-br erro HTTP 404 | Argos Comics | ✅ | Argos Comics `100%` | [https://aniargos.com](https://aniargos.com) |
+| [#19802](https://github.com/keiyoushi/extensions-source/issues/19802) Sacachispa Scans Titles Chapters Not Loading | SACACHISPA | ✅ | SACACHISPA `100%` | [https://sacachispa.site](https://sacachispa.site) |
 | [#19797](https://github.com/keiyoushi/extensions-source/issues/19797) Traducciones Moonlight error 403 at open mangas | Traducciones Moonlight | ✅ | Traducciones Moonlight `100%` | [https://traduccionesmoonlight.com](https://traduccionesmoonlight.com) |
 | [#19793](https://github.com/keiyoushi/extensions-source/issues/19793) 4KHD: Invalid image data when loading full-size images | 4KHD | ✅ | 4KHD `100%` | [https://www.4khd.com](https://www.4khd.com) |
-| [#19790](https://github.com/keiyoushi/extensions-source/issues/19790) Could not find environment bundle | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
-| [#19777](https://github.com/keiyoushi/extensions-source/issues/19777) HTTP 521 error Damconuong | DamCoNuong | ✅ | DamCoNuong `100%` | [https://damconuong.pet](https://damconuong.pet) |
 | [#19774](https://github.com/keiyoushi/extensions-source/issues/19774) Ikiru: HTTP 404, check website in WebView | Ikiru | 🔀 | Ikiru `100%` | [https://08.ikiru.wtf](https://08.ikiru.wtf) |
 | [#19771](https://github.com/keiyoushi/extensions-source/issues/19771) Cbhentai: reader element not found | CBHentai | 🚧 | CBHentai `100%` | [https://2tencb.pro](https://2tencb.pro) |
 | [#19756](https://github.com/keiyoushi/extensions-source/issues/19756) Milftoon extension shows "No results found" | Milftoon | 🚧 | Milftoon `100%` | [https://milftoon.xxx](https://milftoon.xxx) |
 | [#19744](https://github.com/keiyoushi/extensions-source/issues/19744) RavenManga | RavenManga | ✅ | RavenManga `100%` | [https://raventard.xyz](https://raventard.xyz) |
-| [#19742](https://github.com/keiyoushi/extensions-source/issues/19742) Temple Scan: `HTTP 403` error | Temple Scan | ✅ | Temple Scan `100%` | [https://aedexnox.akan01.com](https://aedexnox.akan01.com) |
-| [#19733](https://github.com/keiyoushi/extensions-source/issues/19733) Paradise scans show 404 in app but load normally in webview | Paradise Scans | ✅ | Paradise Scans `100%` | [https://paradisescans.com](https://paradisescans.com) |
 | [#19721](https://github.com/keiyoushi/extensions-source/issues/19721) Emperor Scan no carga (cambio de dominio) | Emperor Scan | 🔀 | Emperor Scan `100%` | [https://imperiomanhua.com](https://imperiomanhua.com) |
 | [#19719](https://github.com/keiyoushi/extensions-source/issues/19719) Reader signer bindings not found - The Blank | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
 | [#19710](https://github.com/keiyoushi/extensions-source/issues/19710) Luna Toons Issue | Luna Toons | 🔀 | Luna Toons `100%` | [https://lunatoons.org](https://lunatoons.org) |
@@ -77,7 +77,6 @@ Count: 95
 | [#15647](https://github.com/keiyoushi/extensions-source/issues/15647) Asura Scans: Unable to view locked chapters with Premium account signed in on WebView | Asura Scans | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
 | [#15641](https://github.com/keiyoushi/extensions-source/issues/15641) Holotoon: New website URL (`v2.holotoon.site`) | Holotoon | 🚧 | Holotoon `100%` | [https://holodek.run](https://holodek.run) |
 | [#15301](https://github.com/keiyoushi/extensions-source/issues/15301) Problem merlinscans from Chapter's section | Merlin Scans | 🛑 | Merlin Scans `100%` | [https://merlintoon.com](https://merlintoon.com) |
-| [#15286](https://github.com/keiyoushi/extensions-source/issues/15286) Stray Fansub: Url and theme changed | Stray Fansub | ✅ | Stray Fansub `100%` | [https://strayfansub.net](https://strayfansub.net) |
 | [#14354](https://github.com/keiyoushi/extensions-source/issues/14354) 巴卡漫画无法通过人机验证 | 巴卡漫画 | 🚧 | 巴卡漫画 `100%` | [https://bakamh.com](https://bakamh.com) |
 | [#13587](https://github.com/keiyoushi/extensions-source/issues/13587) Manhwa-raw: `HTTP 503` error | Manhwa-raw | 🚧 | Manhwa-raw `100%` | [https://manhwa-raw.com](https://manhwa-raw.com) |
 | [#13149](https://github.com/keiyoushi/extensions-source/issues/13149) Manhuaren (漫画人): WebView only displays API responses | 漫画人 | ✅ | 漫画人 `100%` | [http://mangaapi.manhuaren.com](http://mangaapi.manhuaren.com) |
@@ -110,15 +109,13 @@ Count: 95
 ## Single match
 
 
-Count: 20
+Count: 17
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
 | [#19801](https://github.com/keiyoushi/extensions-source/issues/19801) ManhwaWeb MissingFieldException on new entries | Manhwaweb | ✅ | ManhwaWeb `100%` | [https://manhwaweb.com](https://manhwaweb.com) |
-| [#19786](https://github.com/keiyoushi/extensions-source/issues/19786) ((ArabToon)) Domain update and layout changes | ArabToons | 🚧 | عرب تونز `url` | [https://arabtoons.net](https://arabtoons.net) |
 | [#19775](https://github.com/keiyoushi/extensions-source/issues/19775) Error displaying chapters on catharsisworld | Catharsis world | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
 | [#19769](https://github.com/keiyoushi/extensions-source/issues/19769) Managakalot.fun gives encryption unavailable error on new chapters | mangakalot.fun | 🚧 | Mangakakalot.fun `93%` | [https://mangakakalot.fun](https://mangakakalot.fun) |
-| [#19766](https://github.com/keiyoushi/extensions-source/issues/19766) Mantrazscan domain change url | Mantraz scan 1.6. | ✅ | Mantraz Scan `100%` | [https://mantrazscan.co](https://mantrazscan.co) |
 | [#19757](https://github.com/keiyoushi/extensions-source/issues/19757) Taurus Fansub: `Expected URL scheme` error when paid chapters is shown | TaurusFansub | ✅ | Taurus Fansub `title 100%` | [https://lectortaurus.com](https://lectortaurus.com) |
 | [#19735](https://github.com/keiyoushi/extensions-source/issues/19735) Kodoku Studio has url and site structure changed. | kodokustudio | 🔀 | Kodoku Studio `100%` | [https://kodokustudio.com](https://kodokustudio.com) |
 | [#19678](https://github.com/keiyoushi/extensions-source/issues/19678) Emperor scan doesn't show the caps | Emperor scan | 🔀 | Emperor Scan `100%` | [https://imperiomanhua.com](https://imperiomanhua.com) |
@@ -132,18 +129,15 @@ Count: 20
 | [#18441](https://github.com/keiyoushi/extensions-source/issues/18441) RawBaka: `HTTP 400` error | Rawbaka | 🔀 | RawBaka `100%` | [https://rawbaka.com](https://rawbaka.com) |
 | [#18413](https://github.com/keiyoushi/extensions-source/issues/18413) Manwa new URL | manwa | 🚧 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
 | [#18362](https://github.com/keiyoushi/extensions-source/issues/18362) Comichubfree not loading properly | Comichubfree | 🚧 | ComicHubFree `100%` | [https://comichubfree.com](https://comichubfree.com) |
-| [#16497](https://github.com/keiyoushi/extensions-source/issues/16497) Manhwa Scan: New website URL(mantrazscan.co)  | Manhwa Scan | ✅ | Mantraz Scan `url` | [https://mantrazscan.co](https://mantrazscan.co) |
 | [#15751](https://github.com/keiyoushi/extensions-source/issues/15751) Tempest Scans (Turkish) New URL | Tempest Scans | 🚧 | JuraTempest `url` | [https://juratempe.st](https://juratempe.st) |
 
 ## Multiple matches
 
 
-Count: 11
+Count: 10
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#19785](https://github.com/keiyoushi/extensions-source/issues/19785) Some images fail to load but work fine in webview. | Comix | 🚧 | Comix `url` | [https://comix.to](https://comix.to) |
-| ↳ [#19785] |  | 🚧 | GEDE Comix `100%` | [https://gedecomix.com](https://gedecomix.com) |
 | [#19736](https://github.com/keiyoushi/extensions-source/issues/19736) Soft Epsilon Scan : Reader signer bingings not found | Soft Epsilon Scan ver: | 🛑 | Epsilon Scan `100%` | [https://epsilonscan.to](https://epsilonscan.to) |
 | ↳ [#19736] |  | 🛑 | Soft Epsilon Scan `100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
 | [#19190](https://github.com/keiyoushi/extensions-source/issues/19190) KuroMangas: `Sessão recusada pelo site`/`CSRF token mismatch` error | Kuromanga | 🚧 | KuroMangas `100%` | [https://kuromangas.com](https://kuromangas.com) |
