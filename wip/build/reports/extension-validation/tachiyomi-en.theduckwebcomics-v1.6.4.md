@@ -1,0 +1,73 @@
+# Extension Validation Report
+
+- Extension: tachiyomi-en.theduckwebcomics-v1.6.4
+- Input artifact: JAR
+- Generated at: 2026-10-11T12:00:00Z
+- Commit: 03889d89f590075d3f02c0584b82a2f56c358d37
+- Passed: 21
+- Lint: 1
+- Warnings: 2
+- Skipped: 12
+- Failed: 1
+- Retry disposition: REVIEW
+
+## Runtime Evidence
+
+- Extension library: 1.6
+- Entry point: keiyoushi.source.Generated
+- Source implementation: keiyoushi.source.Generated
+- Source ID: 5361143498571709507
+- Source name: The Duck Webcomics
+- Source language: en
+- Selected manga input: popular offset 0: Familiar (`.../Familiar`)
+
+| Operation | Method | Result | Entries | Selected manga | Exception | Duration |
+| --- | --- | --- | ---: | --- | --- | ---: |
+| popular | `getPopularManga(1)` | success | 25 | Familiar (`.../Familiar`) |  | <1s |
+| popular_next | `getPopularManga(2)` | success | 25 | Hentai Action Theater (`.../Hentai_Action_Theater`) |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 22 | The Railroad of ... (`.../The_Railroad_of_the_Wallachian_Library`) |  | <1s |
+| latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 25 | Actrasier (`.../Actrasier`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Familiar (`.../Familiar`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | error | 0 |  | java.lang.IllegalStateException: this comic is only viewable to 18+ please login to view | 1-10s |
+| pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
+
+| Check | Result | Details | Retry disposition | Retry reason | Retry condition |
+| --- | --- | --- | --- | --- | --- |
+| popular operation | PASS |  |  |  |  |
+| popular_next operation | PASS |  |  |  |  |
+| latest operation | PASS |  |  |  |  |
+| latest_next operation | SKIP | hasNextPage = false |  |  |  |
+| search operation | PASS |  |  |  |  |
+| details operation | PASS |  |  |  |  |
+| chapters operation | ERROR | java.lang.IllegalStateException: this comic is only viewable to 18+ please login to view | REVIEW | INSUFFICIENT_EVIDENCE |  |
+| pages operation | SKIP | No usable chapter was available |  |  |  |
+| popular listing | PASS | 25 entries |  |  |  |
+| latest listing | PASS | 22 entries |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 12: title=Familiar, URL=`.../Familiar` |  |  |  |
+| latest differs from popular | PASS |  |  |  |  |
+| popular pagination | PASS |  |  |  |  |
+| latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
+| listing duplicates | PASS |  |  |  |  |
+| manga title and URL | PASS | 97/97 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 97/97 manga have thumbnail URLs |  |  |  |
+| duplicate thumbnail URLs | UNUSUAL | Thumbnail URLs used by different manga URLs: `https://www.theduckwebcomics.com/.../avatar-generic-comic-A.png` -> 7 manga URLs (examples: `.../Familiar`, `.../Banana_Cream_Cake`, `.../Cob_and_swan_`), `https://www.theduckwebcomics.com/.../avatar-generic-comic.png` -> 6 manga URLs (examples: `.../Captura_Magaro`, `.../Finetas`, `.../For_The_Win`) |  |  |  |
+| thumbnail | PASS | `https://www.theduckwebcomics.com/.../avatar-generic-comic-A.png` (image/png, 1429 bytes, 105x160) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../Familiar` |  |  |  |
+| details thumbnail URL | PASS | `https://www.theduckwebcomics.com/.../avatar-generic-comic-A.png` |  |  |  |
+| details author | PASS | soushiyo |  |  |  |
+| details artist | PASS | soushiyo |  |  |  |
+| details genres | PASS | Adult |  |  |  |
+| details status | LINT | UNKNOWN (0); use a concrete status when known |  |  |  |
+| details description | PASS | When career-driven editor Diana Vallejo accidentally summons a familiar whose specialty is soft domination, her life takes a turn for the better – but for how long? Familiar is a modern-day, slice-of-life romcomic about magick, work/life balance, BDSM, and relationships. It is kinky, queer, and sex-positive. It is also erotic, sexually explicit, and written for adult audiences only. |  |  |  |
+| metadata trimming | PASS |  |  |  |  |
+| chapters | SKIP | Chapters did not run successfully |  |  |  |
+| chapter dates | SKIP | No chapters to check |  |  |  |
+| chapter titles | SKIP | No chapters to check |  |  |  |
+| chapter URLs | SKIP | No chapters to check |  |  |  |
+| duplicate chapter URLs | SKIP | No chapters to check |  |  |  |
+| page indices | SKIP | No pages to check |  |  |  |
+| page URLs | SKIP | No usable chapter was available |  |  |  |
+| duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://www.theduckwebcomics.com/.../Familiar` to `https://www.theduckwebcomics.com/.../age` (1 redirects); popular: `https://www.theduckwebcomics.com/.../search <redacted query values: search, page, and last_update>` to `https://www.theduckwebcomics.com/.../search <redacted query values: search, page, and last_update>` (1 redirects) |  |  |  |
+| page load | SKIP | No pages to load |  |  |  |

@@ -1,0 +1,73 @@
+# Extension Validation Report
+
+- Extension: tachiyomi-ar.mangahub-v1.6.16
+- Input artifact: JAR
+- Generated at: 2026-10-11T12:00:00Z
+- Commit: 30e9bf12769926b1fd7fafc4247779e7a44f2fbf+dirty
+- Passed: 0
+- Lint: 0
+- Warnings: 1
+- Skipped: 35
+- Failed: 1
+- Retry disposition: REVIEW
+
+## Runtime Evidence
+
+- Extension library: 1.6
+- Entry point: keiyoushi.source.Generated
+- Source implementation: keiyoushi.source.Generated
+- Source theme: zeistmanga
+- Source ID: 9160891278578525988
+- Source name: MangaHub
+- Source language: ar
+
+| Operation | Method | Result | Entries | Selected manga | Exception | Duration |
+| --- | --- | --- | ---: | --- | --- | ---: |
+| popular | `getPopularManga(1)` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | <1s |
+| popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
+| latest | `getLatestUpdates(1)` | skipped | 0 |  |  | <1s |
+| latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | skipped | 0 |  |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | skipped | 0 |  |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | skipped | 0 |  |  | <1s |
+| pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
+
+| Check | Result | Details | Retry disposition | Retry reason | Retry condition |
+| --- | --- | --- | --- | --- | --- |
+| popular operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | REVIEW | INSUFFICIENT_EVIDENCE |  |
+| popular_next operation | SKIP | hasNextPage = false |  |  |  |
+| latest operation | SKIP | supportsLatest = false |  |  |  |
+| latest_next operation | SKIP | supportsLatest = false |  |  |  |
+| search operation | SKIP | No manga was returned by popular or latest |  |  |  |
+| details operation | SKIP | No manga was returned by popular or latest |  |  |  |
+| chapters operation | SKIP | No manga was returned by popular or latest |  |  |  |
+| pages operation | SKIP | No usable chapter was available |  |  |  |
+| popular listing | SKIP | HTTP error 404 |  |  |  |
+| latest listing | SKIP | supportsLatest = false |  |  |  |
+| search listing | SKIP | No manga was returned by popular or latest |  |  |  |
+| latest differs from popular | SKIP | supportsLatest = false |  |  |  |
+| popular pagination | SKIP | HTTP error 404 |  |  |  |
+| latest pagination | SKIP | supportsLatest = false |  |  |  |
+| listing duplicates | SKIP | Fewer than 2 manga to check |  |  |  |
+| manga title and URL | SKIP | No manga to check |  |  |  |
+| thumbnail URLs | SKIP | No manga to check |  |  |  |
+| duplicate thumbnail URLs | SKIP | No manga to check |  |  |  |
+| thumbnail | SKIP | No manga to check |  |  |  |
+| details identity | SKIP | No selected manga URL to compare |  |  |  |
+| details thumbnail URL | SKIP | No details manga to check |  |  |  |
+| details author | SKIP | No details manga to check |  |  |  |
+| details artist | SKIP | No details manga to check |  |  |  |
+| details genres | SKIP | No details manga to check |  |  |  |
+| details status | SKIP | No details manga to check |  |  |  |
+| details description | SKIP | No details manga to check |  |  |  |
+| metadata trimming | SKIP | No details metadata to check |  |  |  |
+| chapters | SKIP | Chapters did not run successfully |  |  |  |
+| chapter dates | SKIP | No chapters to check |  |  |  |
+| chapter titles | SKIP | No chapters to check |  |  |  |
+| chapter URLs | SKIP | No chapters to check |  |  |  |
+| duplicate chapter URLs | SKIP | No chapters to check |  |  |  |
+| page indices | SKIP | No pages to check |  |  |  |
+| page URLs | SKIP | No usable chapter was available |  |  |  |
+| duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://www.mangaxhentai.com/.../Series <redacted query values: alt, orderby, max-results, and start-index>` to `https://mangaxhentai.com/.../Series <redacted query values: alt, orderby, max-results, and start-index>` (1 redirects) |  |  |  |
+| page load | SKIP | No pages to load |  |  |  |

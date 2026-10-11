@@ -1,0 +1,73 @@
+# Extension Validation Report
+
+- Extension: tachiyomi-ar.arabmanhwa-v1.6.56
+- Input artifact: JAR
+- Generated at: 2026-10-11T12:00:00Z
+- Commit: 30e9bf12769926b1fd7fafc4247779e7a44f2fbf+dirty
+- Passed: 2
+- Lint: 0
+- Warnings: 1
+- Skipped: 32
+- Failed: 2
+- Retry disposition: DO_NOT_RETRY
+
+## Runtime Evidence
+
+- Extension library: 1.6
+- Entry point: keiyoushi.source.Generated
+- Source implementation: keiyoushi.source.Generated
+- Source theme: madara
+- Source ID: 5823096631874106406
+- Source name: ArabManhwa
+- Source language: ar
+
+| Operation | Method | Result | Entries | Selected manga | Exception | Duration |
+| --- | --- | --- | ---: | --- | --- | ---: |
+| popular | `getPopularManga(1)` | success | 0 |  |  | <1s |
+| popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 0 |  |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | skipped | 0 |  |  | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | skipped | 0 |  |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | skipped | 0 |  |  | <1s |
+| pages | `getPageList(chapter)` | skipped | 0 |  |  | <1s |
+
+| Check | Result | Details | Retry disposition | Retry reason | Retry condition |
+| --- | --- | --- | --- | --- | --- |
+| popular operation | PASS |  |  |  |  |
+| popular_next operation | SKIP | hasNextPage = false |  |  |  |
+| latest operation | PASS |  |  |  |  |
+| latest_next operation | SKIP | hasNextPage = false |  |  |  |
+| search operation | SKIP | No manga was returned by popular or latest |  |  |  |
+| details operation | SKIP | No manga was returned by popular or latest |  |  |  |
+| chapters operation | SKIP | No manga was returned by popular or latest |  |  |  |
+| pages operation | SKIP | No usable chapter was available |  |  |  |
+| popular listing | FAIL | 0 entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| latest listing | FAIL | 0 entries | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| search listing | SKIP | No manga was returned by popular or latest |  |  |  |
+| latest differs from popular | SKIP | Popular or latest has no manga to compare |  |  |  |
+| popular pagination | SKIP | Page 1 has no manga to check |  |  |  |
+| latest pagination | SKIP | Page 1 has no manga to check |  |  |  |
+| listing duplicates | SKIP | Fewer than 2 manga to check |  |  |  |
+| manga title and URL | SKIP | No manga to check |  |  |  |
+| thumbnail URLs | SKIP | No manga to check |  |  |  |
+| duplicate thumbnail URLs | SKIP | No manga to check |  |  |  |
+| thumbnail | SKIP | No manga to check |  |  |  |
+| details identity | SKIP | No selected manga URL to compare |  |  |  |
+| details thumbnail URL | SKIP | No details manga to check |  |  |  |
+| details author | SKIP | No details manga to check |  |  |  |
+| details artist | SKIP | No details manga to check |  |  |  |
+| details genres | SKIP | No details manga to check |  |  |  |
+| details status | SKIP | No details manga to check |  |  |  |
+| details description | SKIP | No details manga to check |  |  |  |
+| metadata trimming | SKIP | No details metadata to check |  |  |  |
+| chapters | SKIP | Chapters did not run successfully |  |  |  |
+| chapter dates | SKIP | No chapters to check |  |  |  |
+| chapter titles | SKIP | No chapters to check |  |  |  |
+| chapter URLs | SKIP | No chapters to check |  |  |  |
+| duplicate chapter URLs | SKIP | No chapters to check |  |  |  |
+| page indices | SKIP | No pages to check |  |  |  |
+| page URLs | SKIP | No usable chapter was available |  |  |  |
+| duplicate page URLs | SKIP | No pages to check |  |  |  |
+| redirects | UNUSUAL | popular: `https://arabmanhwa.com/.../manga <redacted query values: m_orderby>` to `https://arabmanhwa.com/.../manga <redacted query values: sort>` (1 redirects); popular: `https://arabmanhwa.com/.../manga <redacted query values: m_orderby>` to `https://arabmanhwa.com/.../manga` (1 redirects) |  |  |  |
+| page load | SKIP | No pages to load |  |  |  |

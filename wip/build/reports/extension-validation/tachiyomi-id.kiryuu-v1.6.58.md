@@ -1,0 +1,74 @@
+# Extension Validation Report
+
+- Extension: tachiyomi-id.kiryuu-v1.6.58
+- Input artifact: JAR
+- Generated at: 2026-10-11T12:00:00Z
+- Commit: 03889d89f590075d3f02c0584b82a2f56c358d37
+- Passed: 37
+- Lint: 0
+- Warnings: 0
+- Skipped: 0
+- Failed: 0
+- Retry disposition: NOT_APPLICABLE
+
+## Runtime Evidence
+
+- Extension library: 1.6
+- Entry point: keiyoushi.source.Generated
+- Source implementation: keiyoushi.source.Generated
+- Source theme: natsuid
+- Source ID: 3639673976007021338
+- Source name: Kiryuu
+- Source language: id
+- Selected manga input: popular offset 0: Martial Peak (`.../%7B%22id%22:233,%22slug%22:%22martial-peak%22%7D`)
+
+| Operation | Method | Result | Entries | Selected manga | Exception | Duration |
+| --- | --- | --- | ---: | --- | --- | ---: |
+| popular | `getPopularManga(1)` | success | 24 | Martial Peak (`.../%7B%22id%22:233,%22slug%22:%22martial-peak%22%7D`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | success | 24 | Player Who Returned 10,000 Years Later (`.../%7B%22id%22:383309,%22slug%22:%22player-who-returned-10000-years-later%22%7D`) |  | 1-10s |
+| latest | `getLatestUpdates(1)` | success | 24 | King Account At The Start (`.../%7B%22id%22:111973,%22slug%22:%22king-account-at-the-start%22%7D`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | success | 24 | Kuzulesse Oblige – 18-kin Game Sekai no Kuzu Akuyaku ni Tensei Shiteshimatta Ore wa, Gensaku Chishiki no Chikara de Doushite mo Mob Jinsei wo Tsukami Toritai (`.../%7B%22id%22:769465,%22slug%22:%22kuzulesse-oblige-18-kin-game-sekai-no-kuzu-akuyaku-ni-tensei-shiteshimatta-ore-wa-gensaku-chishiki-no-chikara-de-doushite-mo-mob-jinsei-wo-tsukami-toritai%22%7D`) |  | 1-10s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 1 | Martial Peak (`.../%7B%22id%22:233,%22slug%22:%22martial-peak%22%7D`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Martial Peak (`.../%7B%22id%22:233,%22slug%22:%22martial-peak%22%7D`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 3870 | Chapter 1 (`.../chapter-1.147609`) |  | 1-10s |
+| pages | `getPageList(chapter)` | success | 18 |  |  | 1-10s |
+
+| Check | Result | Details | Retry disposition | Retry reason | Retry condition |
+| --- | --- | --- | --- | --- | --- |
+| popular operation | PASS |  |  |  |  |
+| popular_next operation | PASS |  |  |  |  |
+| latest operation | PASS |  |  |  |  |
+| latest_next operation | PASS |  |  |  |  |
+| search operation | PASS |  |  |  |  |
+| details operation | PASS |  |  |  |  |
+| chapters operation | PASS |  |  |  |  |
+| pages operation | PASS |  |  |  |  |
+| popular listing | PASS | 24 entries |  |  |  |
+| latest listing | PASS | 24 entries |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=Martial Peak, URL=`{"id":233,"slug":"martial-peak"}` |  |  |  |
+| latest differs from popular | PASS |  |  |  |  |
+| popular pagination | PASS |  |  |  |  |
+| latest pagination | PASS |  |  |  |  |
+| listing duplicates | PASS |  |  |  |  |
+| manga title and URL | PASS | 97/97 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 97/97 manga have thumbnail URLs |  |  |  |
+| duplicate thumbnail URLs | PASS |  |  |  |  |
+| thumbnail | PASS | `https://v7.kiryuu.to/.../Martial-Peak.jpg` (image/jpeg, 90617 bytes, 420x560) |  |  |  |
+| details identity | PASS | Details preserved selected URL `{"id":233,"slug":"martial-peak"}` |  |  |  |
+| details thumbnail URL | PASS | `https://v7.kiryuu.to/.../Martial-Peak.jpg` |  |  |  |
+| details author | PASS | Momo (III) |  |  |  |
+| details artist | PASS | Pikapi |  |  |  |
+| details genres | PASS | Action, Adventure, Comedy, Fantasy, Harem, Historical, Martial Arts, Romance, Sci-fi, Shounen, Supernatural, Manhua |  |  |  |
+| details status | PASS | ONGOING (1) |  |  |  |
+| details description | PASS | Perjalanan ke puncak bela diri adalah yang sepi, soliter dan panjang. Dalam menghadapi kesulitan, Anda harus bertahan dan tetap pantang menyerah. Hanya dengan begitu Anda dapat menerobos dan dan melanjutkan perjalanan Anda untuk menjadi yang terkuat. Sky Tower menguji murid-muridnya dengan cara yang paling keras untuk mempersiapkan mereka untuk perjalanan ini. Suatu hari penyapu rendahan Yang Kai berhasil mendapatkan sebuah buku hitam, menempatkannya di jalan menuju puncak dunia persilatan<br><br>Alternative Names:<br>- Võ Luyện Đỉnh Phong<br>- Wu Lian Dian Feng<br>- Wu Lian Dianfeng<br>- Wǔ Liàn Diān Fēng<br>- Wǔ Liàn Diānfēng<br>- Вершина боевых искусств<br>- Пик боевых искусств<br>- ذروة الفنون القتالية<br>- مارشال بيك<br>- 武炼巅峰<br>- 武煉巔峰<br>- 무련전봉 |  |  |  |
+| metadata trimming | PASS |  |  |  |  |
+| chapters | PASS | 3870 chapters |  |  |  |
+| chapter dates | PASS | 3870 positive upload dates |  |  |  |
+| chapter titles | PASS |  |  |  |  |
+| chapter URLs | PASS |  |  |  |  |
+| duplicate chapter URLs | PASS |  |  |  |  |
+| page indices | PASS |  |  |  |  |
+| page URLs | PASS | 18 HTTP page URLs |  |  |  |
+| duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://yuucdn.com/.../1-647a126102777.jpg` (image/jpeg, 215249 bytes, 800x1200) |  |  |  |

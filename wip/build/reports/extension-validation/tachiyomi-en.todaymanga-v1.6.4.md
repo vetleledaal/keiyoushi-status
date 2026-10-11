@@ -1,0 +1,73 @@
+# Extension Validation Report
+
+- Extension: tachiyomi-en.todaymanga-v1.6.4
+- Input artifact: JAR
+- Generated at: 2026-10-11T12:00:00Z
+- Commit: 03889d89f590075d3f02c0584b82a2f56c358d37
+- Passed: 32
+- Lint: 0
+- Warnings: 0
+- Skipped: 4
+- Failed: 1
+- Retry disposition: DO_NOT_RETRY
+
+## Runtime Evidence
+
+- Extension library: 1.6
+- Entry point: keiyoushi.source.Generated
+- Source implementation: keiyoushi.source.Generated
+- Source ID: 1147556681248758139
+- Source name: TodayManga
+- Source language: en
+- Selected manga input: popular offset 0: Boku no Hero Academia (`.../boku-no-hero-academia`)
+
+| Operation | Method | Result | Entries | Selected manga | Exception | Duration |
+| --- | --- | --- | ---: | --- | --- | ---: |
+| popular | `getPopularManga(1)` | success | 18 | Boku no Hero Academia (`.../boku-no-hero-academia`) |  | 1-10s |
+| popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 18 | Cheating Men Must Die (`.../cheating-men-must-die`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | success | 5 | Boku no Hero Academia (`.../boku-no-hero-academia`) |  | 1-10s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | Boku no Hero Academia (`.../boku-no-hero-academia`) |  | 1-10s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 466 | Ch.000 (`.../ch-000`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 47 |  |  | 1-10s |
+
+| Check | Result | Details | Retry disposition | Retry reason | Retry condition |
+| --- | --- | --- | --- | --- | --- |
+| popular operation | PASS |  |  |  |  |
+| popular_next operation | SKIP | hasNextPage = false |  |  |  |
+| latest operation | PASS |  |  |  |  |
+| latest_next operation | SKIP | hasNextPage = false |  |  |  |
+| search operation | PASS |  |  |  |  |
+| details operation | PASS |  |  |  |  |
+| chapters operation | PASS |  |  |  |  |
+| pages operation | PASS |  |  |  |  |
+| popular listing | PASS | 18 entries |  |  |  |
+| latest listing | PASS | 18 entries |  |  |  |
+| search listing | PASS | Matched selected manga by URL at result offset 0: title=Boku no Hero Academia, URL=`.../boku-no-hero-academia` |  |  |  |
+| latest differs from popular | PASS |  |  |  |  |
+| popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
+| latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
+| listing duplicates | PASS |  |  |  |  |
+| manga title and URL | PASS | 41/41 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 41/41 manga have thumbnail URLs |  |  |  |
+| duplicate thumbnail URLs | PASS |  |  |  |  |
+| thumbnail | PASS | `https://cdn.todaymanga.com/.../03050a41-be4f-4eb7-9ac2-c6a5c753f063.webp` (image/webp (encoding: lossy), 12660 bytes, 200x314) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../boku-no-hero-academia` |  |  |  |
+| details thumbnail URL | PASS | `https://cdn.todaymanga.com/.../03050a41-be4f-4eb7-9ac2-c6a5c753f063.webp` |  |  |  |
+| details author | PASS | Horikoshi Kouhei |  |  |  |
+| details artist | PASS | null |  |  |  |
+| details genres | PASS | Action, Comedy, Drama, Fantasy, School Life, Sci Fi |  |  |  |
+| details status | PASS | ONGOING (1) |  |  |  |
+| details description | PASS | What would the world be like if 80 percent of the population manifested superpowers called “Quirks” at age four? Heroes and villains would be battling it out everywhere! Being a hero would mean learning to use your power, but where would you go to study? The Hero Academy of course! But what would you do if you were one of the 20 percent who were born Quirkless?<br><br>Middle school student Izuku Midoriya wants to be a hero more than anything, but he hasn’t got an ounce of power in him. With no chance of ever getting into the prestigious U.A. High School for budding heroes, his life is looking more and more like a dead end. Then an encounter with All Might, the greatest hero of them all, gives him a chance to change his destiny…<br><br>(Source: Viz Media) |  |  |  |
+| metadata trimming | PASS |  |  |  |  |
+| chapters | PASS | 466 chapters |  |  |  |
+| chapter dates | PASS | 466 positive upload dates |  |  |  |
+| chapter titles | PASS |  |  |  |  |
+| chapter URLs | PASS |  |  |  |  |
+| duplicate chapter URLs | FAIL | Duplicate chapter URLs: `.../ch-367` at offsets 65, 71, `.../ch-366` at offsets 66, 72, `.../ch-231` at offsets 68, 207, `.../ch-160` at offsets 69, 282, `.../ch-152-5` at offsets 70, 290 | DO_NOT_RETRY | DETERMINISTIC_FAILURE |  |
+| page indices | PASS |  |  |  |  |
+| page URLs | PASS | 47 HTTP page URLs |  |  |  |
+| duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://i1.todaymanga.com/.../0.jpg` (image/jpeg, 215148 bytes, 825x1400) |  |  |  |

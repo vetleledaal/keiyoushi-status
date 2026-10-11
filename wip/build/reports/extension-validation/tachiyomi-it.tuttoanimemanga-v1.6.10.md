@@ -1,0 +1,74 @@
+# Extension Validation Report
+
+- Extension: tachiyomi-it.tuttoanimemanga-v1.6.10
+- Input artifact: JAR
+- Generated at: 2026-10-11T12:00:00Z
+- Commit: 03889d89f590075d3f02c0584b82a2f56c358d37
+- Passed: 31
+- Lint: 0
+- Warnings: 0
+- Skipped: 5
+- Failed: 1
+- Retry disposition: REVIEW
+
+## Runtime Evidence
+
+- Extension library: 1.6
+- Entry point: keiyoushi.source.Generated
+- Source implementation: keiyoushi.source.Generated
+- Source theme: pizzareader
+- Source ID: 2102507871480604746
+- Source name: TuttoAnimeManga
+- Source language: it
+- Selected manga input: popular offset 0: 1/2 Principe (`.../12_principe`)
+
+| Operation | Method | Result | Entries | Selected manga | Exception | Duration |
+| --- | --- | --- | ---: | --- | --- | ---: |
+| popular | `getPopularManga(1)` | success | 118 | 1/2 Principe (`.../12_principe`) |  | <1s |
+| popular_next | `getPopularManga(2)` | skipped | 0 |  |  | <1s |
+| latest | `getLatestUpdates(1)` | success | 10 | A Questionnaire on the Mouth (`.../a-questionnaire-on-the-mouth`) |  | 1-10s |
+| latest_next | `getLatestUpdates(2)` | skipped | 0 |  |  | <1s |
+| search | `getSearchManga(1, query, getFilterList())` | error | 0 |  | eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | <1s |
+| details | `getMangaUpdate(manga, emptyList(), true, false)` | success | 1 | 1/2 Principe (`.../12_principe`) |  | <1s |
+| chapters | `reuse details chapters or getMangaUpdate(manga, emptyList(), false, true)` | success | 81 | Sidestory (`.../it`) |  | <1s |
+| pages | `getPageList(chapter)` | success | 31 |  |  | <1s |
+
+| Check | Result | Details | Retry disposition | Retry reason | Retry condition |
+| --- | --- | --- | --- | --- | --- |
+| popular operation | PASS |  |  |  |  |
+| popular_next operation | SKIP | hasNextPage = false |  |  |  |
+| latest operation | PASS |  |  |  |  |
+| latest_next operation | SKIP | hasNextPage = false |  |  |  |
+| search operation | ERROR | eu.kanade.tachiyomi.network.HttpException: HTTP error 404 | REVIEW | INSUFFICIENT_EVIDENCE |  |
+| details operation | PASS |  |  |  |  |
+| chapters operation | PASS |  |  |  |  |
+| pages operation | PASS |  |  |  |  |
+| popular listing | PASS | 118 entries |  |  |  |
+| latest listing | PASS | 10 entries |  |  |  |
+| search listing | SKIP | HTTP error 404 |  |  |  |
+| latest differs from popular | PASS |  |  |  |  |
+| popular pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
+| latest pagination | SKIP | Page 1 does not advertise a next page |  |  |  |
+| listing duplicates | PASS |  |  |  |  |
+| manga title and URL | PASS | 128/128 listing manga have titles and relative URLs |  |  |  |
+| thumbnail URLs | PASS | 128/128 manga have thumbnail URLs |  |  |  |
+| duplicate thumbnail URLs | PASS |  |  |  |  |
+| thumbnail | PASS | `https://tuttoanimemanga.net/.../b70893df-7efe-49fb-934d-08c9fbbe5ade.jpg <redacted query values: v>` (image/jpeg, 550919 bytes, 1269x1800) |  |  |  |
+| details identity | PASS | Details preserved selected URL `.../12_principe` |  |  |  |
+| details thumbnail URL | PASS | `https://tuttoanimemanga.net/.../b70893df-7efe-49fb-934d-08c9fbbe5ade.jpg <redacted query values: v>` |  |  |  |
+| details author | PASS | Yu Wo |  |  |  |
+| details artist | PASS | Choi Hong Chong |  |  |  |
+| details genres | PASS | Action, Adventure, Comedy, Fantasy, Romance, Sci-Fi |  |  |  |
+| details status | PASS | COMPLETED (2) |  |  |  |
+| details description | PASS | Corre l'anno 2100 d.C. sulla Terra. Gli umani hanno inventato un gioco di ruolo virtuale che raggiunge una percentuale di realismo del 99%, rendendo l'esperienza quasi identica alla vita reale. Feng Lan, a causa di una scommessa con il fratello, decide di vincere il gioco senza usufruire dei benefici che vengono dati a tutte le ragazze. Per questo, diventa il primo "travestito" del gioco di ruolo "Second Life". Ma da ragazzo, Feng Lan è tanto bella da venir costantemente assalita dalle altre giocatrici che cercano di farla diventare il loro ragazzo. |  |  |  |
+| metadata trimming | PASS |  |  |  |  |
+| chapters | PASS | 81 chapters |  |  |  |
+| chapter dates | PASS | 81 positive upload dates |  |  |  |
+| chapter titles | PASS |  |  |  |  |
+| chapter URLs | PASS |  |  |  |  |
+| duplicate chapter URLs | PASS |  |  |  |  |
+| page indices | PASS |  |  |  |  |
+| page URLs | PASS | 31 HTTP page URLs |  |  |  |
+| duplicate page URLs | PASS |  |  |  |  |
+| redirects | PASS | No redirects followed |  |  |  |
+| page load | PASS | `https://tuttoanimemanga.net/.../01.jpg <redacted query values: v>` (image/jpeg, 203944 bytes, 796x1200) |  |  |  |
