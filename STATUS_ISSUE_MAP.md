@@ -1,16 +1,20 @@
 # Bug Issue → Extension Map
 
-Matched: 121 of 125 open bug issues\
-Timestamp: `2026-10-10T23:42:45+00:00`
+Matched: 126 of 130 open bug issues\
+Timestamp: `2026-10-11T09:24:55+00:00`
 
 
 ## Exact match
 
 
-Count: 94
+Count: 98
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19839](https://github.com/keiyoushi/extensions-source/issues/19839) Manga Ball: TLS parsing error / connection reset without VPN | Manga Ball | 🚧 | Manga Ball `url` | [https://mangaball.com](https://mangaball.com) |
+| [#19832](https://github.com/keiyoushi/extensions-source/issues/19832) The updates aren't showing up. | DragonTranslation.org | ✅ | DragonTranslation.org `100%` | [https://dragontranslation.org](https://dragontranslation.org) |
+| [#19830](https://github.com/keiyoushi/extensions-source/issues/19830) Comix: `Could not find manga API` error | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
+| [#19829](https://github.com/keiyoushi/extensions-source/issues/19829) Error 400 al listar las series de la extension | Temple Scan | 🔀 | Temple Scan `100%` | [https://aedexnox.akan01.com](https://aedexnox.akan01.com) |
 | [#19823](https://github.com/keiyoushi/extensions-source/issues/19823) Temple Scan: HTTP 403 error | Temple Scan | 🔀 | Temple Scan `100%` | [https://aedexnox.akan01.com](https://aedexnox.akan01.com) |
 | [#19810](https://github.com/keiyoushi/extensions-source/issues/19810) Kiryuu : No Pages Found | Kiryuu | 🚧 | Kiryuu `100%` | [https://v7.kiryuu.to](https://v7.kiryuu.to) |
 | [#19806](https://github.com/keiyoushi/extensions-source/issues/19806) SeiManga (RU) 1.4.37 — Only the first page loads, remaining pages throw IllegalArgumentException | SeiManga | ✅ | SeiManga `100%` | [https://1.seimanga.me](https://1.seimanga.me) |
@@ -71,7 +75,7 @@ Count: 94
 | [#16612](https://github.com/keiyoushi/extensions-source/issues/16612) LectorManga.lat: Website redesign, new website URL (`lectormangaas.com`) | LectorManga.lat | ✅ | LectorManga.lat `url` | [https://lector-mangas.lat](https://lector-mangas.lat) |
 | [#16404](https://github.com/keiyoushi/extensions-source/issues/16404) [Bug] Bbato (en) v1.4.1 — pageList returns empty for valid chapters | Bbato | ✅ | Bbato `100%` | [https://bato1.com](https://bato1.com) |
 | [#16217](https://github.com/keiyoushi/extensions-source/issues/16217) Flower manga doesn't show recent releases and the search returns empty. | FlowerManga.net | 🚧 | FlowerManga.net `100%` | [https://flowermangas.net](https://flowermangas.net) |
-| [#16145](https://github.com/keiyoushi/extensions-source/issues/16145) Images do not load in COOMER and KEMONO | Coomer | ⚠️ | Coomer `100%` | [https://coomer.st](https://coomer.st) |
+| [#16145](https://github.com/keiyoushi/extensions-source/issues/16145) Images do not load in COOMER and KEMONO | Coomer | ✅ | Coomer `100%` | [https://coomer.st](https://coomer.st) |
 | [#16048](https://github.com/keiyoushi/extensions-source/issues/16048) Holotoon 404 not found on Mihon but still accessible from Webview | Holotoon | 🚧 | Holotoon `100%` | [https://holodek.run](https://holodek.run) |
 | [#15858](https://github.com/keiyoushi/extensions-source/issues/15858) LinkManga: `Failed to bypass Cloudflare` error | LinkManga | 🚧 | LinkManga `100%` | [https://linkmanga.com](https://linkmanga.com) |
 | [#15647](https://github.com/keiyoushi/extensions-source/issues/15647) Asura Scans: Unable to view locked chapters with Premium account signed in on WebView | Asura Scans | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
@@ -109,10 +113,11 @@ Count: 94
 ## Single match
 
 
-Count: 17
+Count: 18
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19845](https://github.com/keiyoushi/extensions-source/issues/19845) Nuviatoon | Nuvia toon | ⚠️ | Nuvia Toon `100%` | [https://nuviatoon.com](https://nuviatoon.com) |
 | [#19801](https://github.com/keiyoushi/extensions-source/issues/19801) ManhwaWeb MissingFieldException on new entries | Manhwaweb | ✅ | ManhwaWeb `100%` | [https://manhwaweb.com](https://manhwaweb.com) |
 | [#19775](https://github.com/keiyoushi/extensions-source/issues/19775) Error displaying chapters on catharsisworld | Catharsis world | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
 | [#19769](https://github.com/keiyoushi/extensions-source/issues/19769) Managakalot.fun gives encryption unavailable error on new chapters | mangakalot.fun | 🚧 | Mangakakalot.fun `93%` | [https://mangakakalot.fun](https://mangakakalot.fun) |
@@ -169,7 +174,7 @@ Count: 4
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19842](https://github.com/keiyoushi/extensions-source/issues/19842) Dua Leo Truyen - Images Not Showing | Dua Leo Truyen | | | |
 | [#19783](https://github.com/keiyoushi/extensions-source/issues/19783) Cambio de url | Templescanesp | | | |
-| [#19778](https://github.com/keiyoushi/extensions-source/issues/19778) data fetching problem | 1.6.56 arab toons | | | |
 | [#19713](https://github.com/keiyoushi/extensions-source/issues/19713) 绅士漫画拉取图片报错403 | 绅士漫画 | | | |
 | [#19311](https://github.com/keiyoushi/extensions-source/issues/19311) NyxScans Novels in Series List | NyxScans Novels in Series List | | | |
