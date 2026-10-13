@@ -1,30 +1,27 @@
 # Bug Issue → Extension Map
 
-Matched: 111 of 115 open bug issues\
-Timestamp: `2026-10-12T15:58:58+00:00`
+Matched: 108 of 111 open bug issues\
+Timestamp: `2026-10-13T10:43:57+00:00`
 
 
 ## Exact match
 
 
-Count: 85
+Count: 81
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19915](https://github.com/keiyoushi/extensions-source/issues/19915) Soft Epsilon Scan bug | Soft Epsilon Scan | 🛑 | Soft Epsilon Scan `100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
+| [#19907](https://github.com/keiyoushi/extensions-source/issues/19907) Chapters update failure | LectorXD | ✅ | LectorXD `100%` | [https://lectorxd.com](https://lectorxd.com) |
+| [#19904](https://github.com/keiyoushi/extensions-source/issues/19904) Comix chapter upload date drifts | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
 | [#19876](https://github.com/keiyoushi/extensions-source/issues/19876) Sana Scans Unable to access Paid chapters | Sana Scans | ✅ | Sana Scans `100%` | [https://sanascans.com](https://sanascans.com) |
-| [#19863](https://github.com/keiyoushi/extensions-source/issues/19863) The Blank: `Reader chunk not found` error | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
 | [#19854](https://github.com/keiyoushi/extensions-source/issues/19854) Good Toon URL Change & Bug | GoodToon | 🔀 | GoodToon `100%` | [https://www.goodtoon005.com](https://www.goodtoon005.com) |
-| [#19839](https://github.com/keiyoushi/extensions-source/issues/19839) Manga Ball: TLS parsing error / connection reset without VPN | Manga Ball | 🚧 | Manga Ball `url` | [https://mangaball.com](https://mangaball.com) |
 | [#19832](https://github.com/keiyoushi/extensions-source/issues/19832) The updates aren't showing up. | DragonTranslation.org | ✅ | DragonTranslation.org `100%` | [https://dragontranslation.org](https://dragontranslation.org) |
 | [#19810](https://github.com/keiyoushi/extensions-source/issues/19810) Kiryuu : No Pages Found | Kiryuu | 🚧 | Kiryuu `100%` | [https://v7.kiryuu.to](https://v7.kiryuu.to) |
-| [#19806](https://github.com/keiyoushi/extensions-source/issues/19806) SeiManga (RU) 1.4.37 — Only the first page loads, remaining pages throw IllegalArgumentException | SeiManga | ✅ | SeiManga `100%` | [https://1.seimanga.me](https://1.seimanga.me) |
-| [#19802](https://github.com/keiyoushi/extensions-source/issues/19802) Sacachispa Scans Titles Chapters Not Loading | SACACHISPA | ✅ | SACACHISPA `100%` | [https://sacachispa.site](https://sacachispa.site) |
 | [#19797](https://github.com/keiyoushi/extensions-source/issues/19797) Traducciones Moonlight error 403 at open mangas | Traducciones Moonlight | ✅ | Traducciones Moonlight `100%` | [https://traduccionesmoonlight.com](https://traduccionesmoonlight.com) |
-| [#19774](https://github.com/keiyoushi/extensions-source/issues/19774) Ikiru: HTTP 404, check website in WebView | Ikiru | 🚧 | Ikiru `100%` | [https://09.ikiru.wtf](https://09.ikiru.wtf) |
 | [#19756](https://github.com/keiyoushi/extensions-source/issues/19756) Milftoon extension shows "No results found" | Milftoon | 🚧 | Milftoon `100%` | [https://milftoon.xxx](https://milftoon.xxx) |
 | [#19744](https://github.com/keiyoushi/extensions-source/issues/19744) RavenManga | RavenManga | ✅ | RavenManga `100%` | [https://raventard.xyz](https://raventard.xyz) |
 | [#19704](https://github.com/keiyoushi/extensions-source/issues/19704) MangaLib (RU): NullPointerException on Popular/Latest, no titles load | MangaLib | ⚠️ | MangaLib `100%` | [https://mangalib.me](https://mangalib.me) |
-| [#19690](https://github.com/keiyoushi/extensions-source/issues/19690) Ikiru change domain | Ikiru | 🚧 | Ikiru `url` | [https://09.ikiru.wtf](https://09.ikiru.wtf) |
 | [#19681](https://github.com/keiyoushi/extensions-source/issues/19681) Extension "ManhwaWeb": 404 Error | ManhwaWeb | ✅ | ManhwaWeb `url` | [https://manhwaweb.com](https://manhwaweb.com) |
 | [#19656](https://github.com/keiyoushi/extensions-source/issues/19656) GoodToon Mass Migration Bug | GoodToon | 🔀 | GoodToon `100%` | [https://www.goodtoon005.com](https://www.goodtoon005.com) |
 | [#19606](https://github.com/keiyoushi/extensions-source/issues/19606) MeTruyen18: domain moved to metruyen18.sbs (site rebuilt, or new source) | MeTruyen18 | ✅ | MeTruyen18 `100%` | [https://damconuong.pet](https://damconuong.pet) |
@@ -88,7 +85,6 @@ Count: 85
 | [#9619](https://github.com/keiyoushi/extensions-source/issues/9619) TonizuToon: Some of the series were hidden. | TonizuToon | ✅ | TonizuToon `100%` | [https://tonizu.top](https://tonizu.top) |
 | [#9389](https://github.com/keiyoushi/extensions-source/issues/9389) Jinman Tiantang: Some series is only available on their app | 禁漫天堂 | 🚧 | 禁漫天堂 `100%` | [https://18comic.vip](https://18comic.vip) |
 | [#9257](https://github.com/keiyoushi/extensions-source/issues/9257) SchaleNetwork: `NetworkOnMainThreadException` crash | SchaleNetwork | ✅ | SchaleNetwork `100%` | [https://niyaniya.moe](https://niyaniya.moe) |
-| [#8878](https://github.com/keiyoushi/extensions-source/issues/8878) Hattori Manga Epsode url error | Hattori Manga | 🚧 | Hattori Manga `100%` | [https://hattorimanga.net](https://hattorimanga.net) |
 | [#8819](https://github.com/keiyoushi/extensions-source/issues/8819) Vomic is up again, but fix is require | vomic | ✅ | vomic `100%` | [https://www.vomicmh.com](https://www.vomicmh.com) |
 | [#8386](https://github.com/keiyoushi/extensions-source/issues/8386) Unable to view chapters unlocked in WebView | Tappytoon | ✅ | Tappytoon `100%` | [https://www.tappytoon.com/de](https://www.tappytoon.com/de) |
 | [#6594](https://github.com/keiyoushi/extensions-source/issues/6594) wnacg Browsing some galleries crashes the extension and TachiyomiSY | 紳士漫畫 | 🔀 | 紳士漫畫 `100%` | [https://www.wn07.cfd](https://www.wn07.cfd) |
@@ -100,10 +96,11 @@ Count: 85
 ## Single match
 
 
-Count: 17
+Count: 18
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19910](https://github.com/keiyoushi/extensions-source/issues/19910) Siyah Melek: domain changed | Siyah Melek 1.4.xx | 🔀 | Siyah Melek `100%` | [https://siyahmelek.live](https://siyahmelek.live) |
 | [#19882](https://github.com/keiyoushi/extensions-source/issues/19882) M1 manhwa list | id.manhwalistid | ❌ | Manhwa List `title 100%` | [https://manhwalist.asia](https://manhwalist.asia) |
 | [#19845](https://github.com/keiyoushi/extensions-source/issues/19845) Nuviatoon | Nuvia toon | ⚠️ | Nuvia Toon `100%` | [https://nuviatoon.com](https://nuviatoon.com) |
 | [#19801](https://github.com/keiyoushi/extensions-source/issues/19801) ManhwaWeb MissingFieldException on new entries | Manhwaweb | ✅ | ManhwaWeb `100%` | [https://manhwaweb.com](https://manhwaweb.com) |
@@ -154,11 +151,10 @@ Count: 9
 ## No match
 
 
-Count: 4
+Count: 3
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#19884](https://github.com/keiyoushi/extensions-source/issues/19884) MangaBall duplicates manhwa with similar names. | MangaBall duplicates manhwa with similar names. | | | |
 | [#19783](https://github.com/keiyoushi/extensions-source/issues/19783) Cambio de url | Templescanesp | | | |
 | [#19713](https://github.com/keiyoushi/extensions-source/issues/19713) 绅士漫画拉取图片报错403 | 绅士漫画 | | | |
 | [#19311](https://github.com/keiyoushi/extensions-source/issues/19311) NyxScans Novels in Series List | NyxScans Novels in Series List | | | |
