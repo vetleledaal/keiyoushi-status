@@ -1,16 +1,21 @@
 # Bug Issue → Extension Map
 
-Matched: 108 of 111 open bug issues\
-Timestamp: `2026-10-13T10:43:57+00:00`
+Matched: 113 of 116 open bug issues\
+Timestamp: `2026-10-14T02:31:05+00:00`
 
 
 ## Exact match
 
 
-Count: 81
+Count: 86
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#19956](https://github.com/keiyoushi/extensions-source/issues/19956) ManhwaWeb extension stopped working | ManhwaWeb | ✅ | ManhwaWeb `100%` | [https://manhwaweb.com](https://manhwaweb.com) |
+| [#19936](https://github.com/keiyoushi/extensions-source/issues/19936) URL change for Kagane | Kagane | ❌ | Kagane `100%` | [https://kagane.to](https://kagane.to) |
+| [#19935](https://github.com/keiyoushi/extensions-source/issues/19935) Frequent 403 error when reading or downloading chapters | Lura Toon | ⚠️ | Lura Toon `100%` | [https://luratoons.net](https://luratoons.net) |
+| [#19923](https://github.com/keiyoushi/extensions-source/issues/19923) BlankScan extension reader fails to load chapters in Mihon | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
+| [#19920](https://github.com/keiyoushi/extensions-source/issues/19920) Temple Scan 403 forbidden when viewing chapter on Mihon | Temple Scan | 🚧 | Temple Scan `100%` | [https://templetoons.com](https://templetoons.com) |
 | [#19915](https://github.com/keiyoushi/extensions-source/issues/19915) Soft Epsilon Scan bug | Soft Epsilon Scan | 🛑 | Soft Epsilon Scan `100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
 | [#19907](https://github.com/keiyoushi/extensions-source/issues/19907) Chapters update failure | LectorXD | ✅ | LectorXD `100%` | [https://lectorxd.com](https://lectorxd.com) |
 | [#19904](https://github.com/keiyoushi/extensions-source/issues/19904) Comix chapter upload date drifts | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
