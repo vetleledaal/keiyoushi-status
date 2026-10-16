@@ -1,21 +1,20 @@
 # Bug Issue → Extension Map
 
-Matched: 117 of 119 open bug issues\
-Timestamp: `2026-10-15T12:56:00+00:00`
+Matched: 113 of 116 open bug issues\
+Timestamp: `2026-10-16T04:49:52+00:00`
 
 
 ## Exact match
 
 
-Count: 90
+Count: 87
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20046](https://github.com/keiyoushi/extensions-source/issues/20046) Could not display chapter page correctly | Lunar Manga | 🚧 | Lunar Manga `100%` | [https://lunarx.to](https://lunarx.to) |
+| [#20044](https://github.com/keiyoushi/extensions-source/issues/20044) InkStory: java.security.cert.CertPathValida | InkStory | ✅ | InkStory `100%` | [https://inkstory.net](https://inkstory.net) |
+| [#20043](https://github.com/keiyoushi/extensions-source/issues/20043) comix blocks with 502 error | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
 | [#20010](https://github.com/keiyoushi/extensions-source/issues/20010) Comix fetching manga fot first time | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
-| [#20007](https://github.com/keiyoushi/extensions-source/issues/20007) Elf Toon - No pages found error | Elf Toon | ✅ | Elf Toon `100%` | [https://elftoon.net](https://elftoon.net) |
-| [#20006](https://github.com/keiyoushi/extensions-source/issues/20006) Drake Scans - No pages found error | Drake Scans | ✅ | Drake Scans `100%` | [https://drakecomic.net](https://drakecomic.net) |
-| [#20005](https://github.com/keiyoushi/extensions-source/issues/20005) Toonkotsu : Chapter missing | Toonkotsu | 🚧 | Toonkotsu `100%` | [https://toonkotsu.com](https://toonkotsu.com) |
-| [#20002](https://github.com/keiyoushi/extensions-source/issues/20002) Valir scans Pages not found error | Valir Scans | ✅ | Valir Scans `100%` | [https://valirscans.org](https://valirscans.org) |
 | [#20000](https://github.com/keiyoushi/extensions-source/issues/20000) ManhwaWeb: `HTTP 404` error with chapters | ManhwaWeb | ✅ | ManhwaWeb `100%` | [https://manhwaweb.com](https://manhwaweb.com) |
 | [#19998](https://github.com/keiyoushi/extensions-source/issues/19998) Asmodeus scan error 404 + illegal state exception | Asmodeus Scans | ✅ | Asmodeus Scans `100%` | [https://asmotoon.com](https://asmotoon.com) |
 | [#19997](https://github.com/keiyoushi/extensions-source/issues/19997) los nuevos capítulos no cargan en Eternalmangas | EternalMangas | 🚧 | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
@@ -72,7 +71,6 @@ Count: 90
 | [#16612](https://github.com/keiyoushi/extensions-source/issues/16612) LectorManga.lat: Website redesign, new website URL (`lectormangaas.com`) | LectorManga.lat | ✅ | LectorManga.lat `url` | [https://lector-mangas.lat](https://lector-mangas.lat) |
 | [#16404](https://github.com/keiyoushi/extensions-source/issues/16404) [Bug] Bbato (en) v1.4.1 — pageList returns empty for valid chapters | Bbato | ✅ | Bbato `100%` | [https://bato1.com](https://bato1.com) |
 | [#16217](https://github.com/keiyoushi/extensions-source/issues/16217) Flower manga doesn't show recent releases and the search returns empty. | FlowerManga.net | 🚧 | FlowerManga.net `100%` | [https://flowermangas.net](https://flowermangas.net) |
-| [#16145](https://github.com/keiyoushi/extensions-source/issues/16145) Images do not load in COOMER and KEMONO | Coomer | ✅ | Coomer `100%` | [https://coomer.st](https://coomer.st) |
 | [#16048](https://github.com/keiyoushi/extensions-source/issues/16048) Holotoon 404 not found on Mihon but still accessible from Webview | Holotoon | 🚧 | Holotoon `100%` | [https://holodek.run](https://holodek.run) |
 | [#15858](https://github.com/keiyoushi/extensions-source/issues/15858) LinkManga: `Failed to bypass Cloudflare` error | LinkManga | 🚧 | LinkManga `100%` | [https://linkmanga.com](https://linkmanga.com) |
 | [#15647](https://github.com/keiyoushi/extensions-source/issues/15647) Asura Scans: Unable to view locked chapters with Premium account signed in on WebView | Asura Scans | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
@@ -100,16 +98,14 @@ Count: 90
 | [#5195](https://github.com/keiyoushi/extensions-source/issues/5195) Pixiv users url changed | Pixiv | 🚧 | Pixiv `url` | [https://www.pixiv.net](https://www.pixiv.net) |
 | [#4882](https://github.com/keiyoushi/extensions-source/issues/4882) Komga: search containing ":" character will not return any results  | Komga | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
 | [#2131](https://github.com/keiyoushi/extensions-source/issues/2131) xkcd: support Unicode for hover text "panel" | xkcd | ✅ | xkcd `100%` | [https://es.xkcd.com](https://es.xkcd.com) |
-| [#2010](https://github.com/keiyoushi/extensions-source/issues/2010) Hiveworks: `This comic has an unsupported chapter list` error (filter out or add support) | Hiveworks Comics | ✅ | Hiveworks Comics `100%` | [https://hiveworkscomics.com](https://hiveworkscomics.com) |
 
 ## Single match
 
 
-Count: 18
+Count: 17
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20003](https://github.com/keiyoushi/extensions-source/issues/20003) Kayn scans error no pages found | Kayn scans | ✅ | Kayn Scans `100%` | [https://kaynscans.com](https://kaynscans.com) |
 | [#20001](https://github.com/keiyoushi/extensions-source/issues/20001) Manga TV: `Invalid URL host` error with chapter images | Manga TV | 🚧 | Manga  TV `100%` | [https://mangatv.net](https://mangatv.net) |
 | [#19982](https://github.com/keiyoushi/extensions-source/issues/19982) MangaTek website problem | mangatek | 🛑 | MangaTek `100%` | [https://mangatek.com](https://mangatek.com) |
 | [#19783](https://github.com/keiyoushi/extensions-source/issues/19783) Temple Scan (ES): New website URL (`aedexnox.syakaihoken-web.com`) | Templescanesp | 🚧 | Temple Scan `title 100%` | [https://templetoons.com](https://templetoons.com) |
@@ -158,9 +154,10 @@ Count: 9
 ## No match
 
 
-Count: 2
+Count: 3
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20033](https://github.com/keiyoushi/extensions-source/issues/20033) (OrckuMangas) NullPointerException on entry | OrckuMangas | | | |
 | [#19713](https://github.com/keiyoushi/extensions-source/issues/19713) 绅士漫画拉取图片报错403 | 绅士漫画 | | | |
 | [#19311](https://github.com/keiyoushi/extensions-source/issues/19311) NyxScans Novels in Series List | NyxScans Novels in Series List | | | |
