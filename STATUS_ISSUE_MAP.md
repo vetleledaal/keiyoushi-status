@@ -1,25 +1,25 @@
 # Bug Issue → Extension Map
 
-Matched: 99 of 103 open bug issues\
-Timestamp: `2026-10-19T13:52:53+00:00`
+Matched: 98 of 102 open bug issues\
+Timestamp: `2026-10-20T08:40:41+00:00`
 
 
 ## Exact match
 
 
-Count: 77
+Count: 75
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20186](https://github.com/keiyoushi/extensions-source/issues/20186) Webnex Error 403 | Webnex | 🚧 | Webnex `100%` | [https://webnex.cc](https://webnex.cc) |
+| [#20183](https://github.com/keiyoushi/extensions-source/issues/20183) library of ohara 403 error | The Library of Ohara | ⚠️ | The Library of Ohara `100%` | [https://thelibraryofohara.com](https://thelibraryofohara.com) |
+| [#20179](https://github.com/keiyoushi/extensions-source/issues/20179) The Blank chapter streaming, and downloading, both fail. | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
+| [#20178](https://github.com/keiyoushi/extensions-source/issues/20178) CapibaraScan issue | CapibaraTraductor | ✅ | CapibaraTraductor `100%` | [https://capibaratraductor.com](https://capibaratraductor.com) |
+| [#20172](https://github.com/keiyoushi/extensions-source/issues/20172) Http error 403 | Toonz | ✅ | Toonz `100%` | [https://toonz.to](https://toonz.to) |
 | [#20166](https://github.com/keiyoushi/extensions-source/issues/20166) Comix: could not find the site's chapter API | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
-| [#20157](https://github.com/keiyoushi/extensions-source/issues/20157) Komga unable to track items | Komga | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
-| [#20147](https://github.com/keiyoushi/extensions-source/issues/20147) Nivera Fansub: URL Changed | Nivera Fansub | ✅ | Nivera Fansub `url` | [https://niverafansub.dev](https://niverafansub.dev) |
-| [#20105](https://github.com/keiyoushi/extensions-source/issues/20105) Comic Asura error 429 | Comic Asura | ✅ | Comic Asura `100%` | [https://comicasura.net](https://comicasura.net) |
 | [#20074](https://github.com/keiyoushi/extensions-source/issues/20074) MangaLib and HentaiLib fail to load data in Suwayomi Server due to JSON decoding error | MangaLib | ⚠️ | MangaLib `100%` | [https://mangalib.me](https://mangalib.me) |
 | [#20059](https://github.com/keiyoushi/extensions-source/issues/20059) Extensão "lycan Toons pt-br" erro HTTP 403 | Lycan Toons | 🛑 | Lycan Toons `100%` | [https://lycantoons.com](https://lycantoons.com) |
-| [#20000](https://github.com/keiyoushi/extensions-source/issues/20000) ManhwaWeb: `HTTP 404` error with chapters | ManhwaWeb | ✅ | ManhwaWeb `100%` | [https://manhwaweb.com](https://manhwaweb.com) |
 | [#19997](https://github.com/keiyoushi/extensions-source/issues/19997) los nuevos capítulos no cargan en Eternalmangas | EternalMangas | 🚧 | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
-| [#19955](https://github.com/keiyoushi/extensions-source/issues/19955) Sunset Manga: moved to sunsetscans.com.tr and off Madara | Sunset Manga | 🔀 | Sunset Manga `100%` | [https://sunsetmanga.com](https://sunsetmanga.com) |
 | [#19953](https://github.com/keiyoushi/extensions-source/issues/19953) Mahouirexnohentaikarte: site isnt WordPress anymore, lists 404 | Mahouirexnohentaikarte | ✅ | Mahouirexnohentaikarte `100%` | [https://mahouirexnohentaikarte.com](https://mahouirexnohentaikarte.com) |
 | [#19951](https://github.com/keiyoushi/extensions-source/issues/19951) ArabManhwa: site isnt Madara anymore, no titles load | ArabManhwa | ✅ | ArabManhwa `100%` | [https://arabmanhwa.com](https://arabmanhwa.com) |
 | [#19935](https://github.com/keiyoushi/extensions-source/issues/19935) Frequent 403 error when reading or downloading chapters | Lura Toon | ⚠️ | Lura Toon `100%` | [https://luratoons.net](https://luratoons.net) |
@@ -27,7 +27,6 @@ Count: 77
 | [#19876](https://github.com/keiyoushi/extensions-source/issues/19876) Sana Scans Unable to access Paid chapters | Sana Scans | ✅ | Sana Scans `100%` | [https://sanascans.com](https://sanascans.com) |
 | [#19832](https://github.com/keiyoushi/extensions-source/issues/19832) DragonTranslation.org: updates aren't showing up | DragonTranslation.org | ✅ | DragonTranslation.org `100%` | [https://dragontranslation.org](https://dragontranslation.org) |
 | [#19810](https://github.com/keiyoushi/extensions-source/issues/19810) Kiryuu : No Pages Found | Kiryuu | 🚧 | Kiryuu `100%` | [https://v7.kiryuu.to](https://v7.kiryuu.to) |
-| [#19756](https://github.com/keiyoushi/extensions-source/issues/19756) Milftoon extension shows "No results found" | Milftoon | 🚧 | Milftoon `100%` | [https://milftoon.xxx](https://milftoon.xxx) |
 | [#19744](https://github.com/keiyoushi/extensions-source/issues/19744) RavenManga | RavenManga | ✅ | RavenManga `100%` | [https://raventard.xyz](https://raventard.xyz) |
 | [#19656](https://github.com/keiyoushi/extensions-source/issues/19656) GoodToon Mass Migration Bug | GoodToon | 🚧 | GoodToon `100%` | [https://www.goodtoon007.com](https://www.goodtoon007.com) |
 | [#19530](https://github.com/keiyoushi/extensions-source/issues/19530) Sushiscan.fr http error 504 | Sushiscan.fr | ✅ | Sushiscan.fr `100%` | [https://sushiscan.fr](https://sushiscan.fr) |
@@ -36,7 +35,7 @@ Count: 77
 | [#19102](https://github.com/keiyoushi/extensions-source/issues/19102) NovelCool not showing all pages | NovelCool | ✅ | NovelCool `100%` | [https://de.novelcool.com](https://de.novelcool.com) |
 | [#18798](https://github.com/keiyoushi/extensions-source/issues/18798) Topmanhua.fan unable to scrape the comic pages. | TopManhua.fan | ✅ | TopManhua.fan `100%` | [https://www.topmanhua.fan](https://www.topmanhua.fan) |
 | [#18790](https://github.com/keiyoushi/extensions-source/issues/18790) Mangas.in: Search bar broken due to dual search bars on website (MissingFieldException) | Mangas.in | 🚧 | Mangas.in `100%` | [https://m440.in](https://m440.in) |
-| [#18677](https://github.com/keiyoushi/extensions-source/issues/18677) Traducciones Moonlight: No Pages Found | Traducciones Moonlight | ⚠️ | Traducciones Moonlight `100%` | [https://traduccionesmoonlight.com](https://traduccionesmoonlight.com) |
+| [#18677](https://github.com/keiyoushi/extensions-source/issues/18677) Traducciones Moonlight: No Pages Found | Traducciones Moonlight | ✅ | Traducciones Moonlight `100%` | [https://traduccionesmoonlight.com](https://traduccionesmoonlight.com) |
 | [#18630](https://github.com/keiyoushi/extensions-source/issues/18630) Paradoxscans gives error in the image after the second page does not open | Paradox Scans | ✅ | Paradox Scans `100%` | [https://paradoxscans.com](https://paradoxscans.com) |
 | [#18343](https://github.com/keiyoushi/extensions-source/issues/18343) Magus Manga: Undetected downloaded chapter & title | Magus Manga | 🚧 | Magus Manga `100%` | [https://magustoon.org](https://magustoon.org) |
 | [#18183](https://github.com/keiyoushi/extensions-source/issues/18183) Vercomicsporno (VCP) broken | VCP | 🚧 | VCP `100%` | [https://vercomicsporno.com](https://vercomicsporno.com) |
@@ -78,7 +77,6 @@ Count: 77
 | [#11176](https://github.com/keiyoushi/extensions-source/issues/11176) MangaTuk: Chapter images are all the same image | MangaTuk | ✅ | MangaTuk `100%` | [https://mangatuk.com](https://mangatuk.com) |
 | [#10910](https://github.com/keiyoushi/extensions-source/issues/10910) 如漫画 / Rumanhua: `timeout` error, source is down | 如漫画 | ❌ | 如漫画 `100%` | [https://m.rumanhua2.com](https://m.rumanhua2.com) |
 | [#10693](https://github.com/keiyoushi/extensions-source/issues/10693) 再漫画有些漫画出现Bad position的错误代码 | 再漫画 | ✅ | 再漫画 `100%` | [https://manhua.zaimanhua.com](https://manhua.zaimanhua.com) |
-| [#10099](https://github.com/keiyoushi/extensions-source/issues/10099) Bug - VMP (NSFW) - No comics scrolling, no search and no tags | VMP | 🚧 | VMP `100%` | [https://vermangasporno.com](https://vermangasporno.com) |
 | [#9946](https://github.com/keiyoushi/extensions-source/issues/9946) WNACG cover and picsare loading failed | 紳士漫畫 | 🔀 | 紳士漫畫 `100%` | [https://www.wn07.cfd](https://www.wn07.cfd) |
 | [#9619](https://github.com/keiyoushi/extensions-source/issues/9619) TonizuToon: Some of the series were hidden. | TonizuToon | ✅ | TonizuToon `100%` | [https://tonizu.top](https://tonizu.top) |
 | [#9389](https://github.com/keiyoushi/extensions-source/issues/9389) Jinman Tiantang: Some series is only available on their app | 禁漫天堂 | 🚧 | 禁漫天堂 `100%` | [https://18comic.vip](https://18comic.vip) |
@@ -92,10 +90,12 @@ Count: 77
 ## Single match
 
 
-Count: 11
+Count: 13
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20182](https://github.com/keiyoushi/extensions-source/issues/20182) ONF MANGAS  HTTP  404 ERROR | Onfmangas | ✅ | ONF MANGAS `url title 100%` | [https://onfmangas.com](https://onfmangas.com) |
+| [#20170](https://github.com/keiyoushi/extensions-source/issues/20170) soft Epsilon Scan "opening the chapter in WebView" | soft Epsilon Scan | 🛑 | Soft Epsilon Scan `100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
 | [#20142](https://github.com/keiyoushi/extensions-source/issues/20142) problem mangatek | mangatek | 🛑 | MangaTek `100%` | [https://mangatek.com](https://mangatek.com) |
 | [#19982](https://github.com/keiyoushi/extensions-source/issues/19982) MangaTek website problem | mangatek | 🛑 | MangaTek `100%` | [https://mangatek.com](https://mangatek.com) |
 | [#19769](https://github.com/keiyoushi/extensions-source/issues/19769) Managakalot.fun gives encryption unavailable error on new chapters | mangakalot.fun | 🚧 | Mangakakalot.fun `93%` | [https://mangakakalot.fun](https://mangakakalot.fun) |
@@ -111,14 +111,12 @@ Count: 11
 ## Multiple matches
 
 
-Count: 11
+Count: 10
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20146](https://github.com/keiyoushi/extensions-source/issues/20146) TrManga: No results found error | Tr Manga | ✅ | TrManga `title 100%` | [https://trmanga.com](https://trmanga.com) |
-| ↳ [#20146] |  | ✅ | NTR-Manga `94%` | [https://www.ntr-manga.net](https://www.ntr-manga.net) |
-| [#20145](https://github.com/keiyoushi/extensions-source/issues/20145) VCP/VMP  http error  404 | VCPVMP | 🚧 | VCP `title 100%` | [https://vercomicsporno.com](https://vercomicsporno.com) |
-| ↳ [#20145] |  | 🚧 | VMP `title 100%` | [https://vermangasporno.com](https://vermangasporno.com) |
+| [#20174](https://github.com/keiyoushi/extensions-source/issues/20174) issue with komiku's app | komiku | ✅ | Komiku `100%` | [https://komiku.org](https://komiku.org) |
+| ↳ [#20174] |  | 🚧 | Komikmu `92%` | [https://komikmu.top](https://komikmu.top) |
 | [#19992](https://github.com/keiyoushi/extensions-source/issues/19992) [ManhuaTop, Top Manhua] `Http 404`, check website in webview | ManhuaTop 1.6.56 - Top Manhua | ✅ | Top Manhua `100%` | [https://mangatop.org](https://mangatop.org) |
 | ↳ [#19992] |  | 🚧 | ManhuaTop `100%` | [https://manhuatop.org](https://manhuatop.org) |
 | [#18672](https://github.com/keiyoushi/extensions-source/issues/18672) Rimu Scans: `Failed to initialize decoder`/chapter pages doesn't load with Premium chapters | 1.4.35 rimu scan | 🛑 | Rimu Scans `title 100%` | [https://rimuscan.fr](https://rimuscan.fr) |
