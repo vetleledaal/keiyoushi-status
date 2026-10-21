@@ -1,20 +1,21 @@
 # Bug Issue → Extension Map
 
-Matched: 98 of 102 open bug issues\
-Timestamp: `2026-10-20T08:40:41+00:00`
+Matched: 102 of 106 open bug issues\
+Timestamp: `2026-10-21T02:22:10+00:00`
 
 
 ## Exact match
 
 
-Count: 75
+Count: 76
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20197](https://github.com/keiyoushi/extensions-source/issues/20197) Bug al momento de leer | Catharsis World | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
 | [#20186](https://github.com/keiyoushi/extensions-source/issues/20186) Webnex Error 403 | Webnex | 🚧 | Webnex `100%` | [https://webnex.cc](https://webnex.cc) |
 | [#20183](https://github.com/keiyoushi/extensions-source/issues/20183) library of ohara 403 error | The Library of Ohara | ⚠️ | The Library of Ohara `100%` | [https://thelibraryofohara.com](https://thelibraryofohara.com) |
 | [#20179](https://github.com/keiyoushi/extensions-source/issues/20179) The Blank chapter streaming, and downloading, both fail. | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
-| [#20178](https://github.com/keiyoushi/extensions-source/issues/20178) CapibaraScan issue | CapibaraTraductor | ✅ | CapibaraTraductor `100%` | [https://capibaratraductor.com](https://capibaratraductor.com) |
+| [#20178](https://github.com/keiyoushi/extensions-source/issues/20178) CapibaraTraductor issue | CapibaraTraductor | ✅ | CapibaraTraductor `100%` | [https://capibaratraductor.com](https://capibaratraductor.com) |
 | [#20172](https://github.com/keiyoushi/extensions-source/issues/20172) Http error 403 | Toonz | ✅ | Toonz `100%` | [https://toonz.to](https://toonz.to) |
 | [#20166](https://github.com/keiyoushi/extensions-source/issues/20166) Comix: could not find the site's chapter API | Comix | 🚧 | Comix `100%` | [https://comix.to](https://comix.to) |
 | [#20074](https://github.com/keiyoushi/extensions-source/issues/20074) MangaLib and HentaiLib fail to load data in Suwayomi Server due to JSON decoding error | MangaLib | ⚠️ | MangaLib `100%` | [https://mangalib.me](https://mangalib.me) |
@@ -90,10 +91,13 @@ Count: 75
 ## Single match
 
 
-Count: 13
+Count: 16
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20203](https://github.com/keiyoushi/extensions-source/issues/20203) issue with komix | komix | ✅ | Komix `100%` | [https://komix.to](https://komix.to) |
+| [#20200](https://github.com/keiyoushi/extensions-source/issues/20200) Yuri On Air isn't working | Yuri On Air | 🚧 | Yuri on Air `100%` | [https://yurionair.top](https://yurionair.top) |
+| [#20188](https://github.com/keiyoushi/extensions-source/issues/20188) Can't open chapters in 8muses.com | 8muses | 🚧 | 8Muses `100%` | [https://comics.8muses.com](https://comics.8muses.com) |
 | [#20182](https://github.com/keiyoushi/extensions-source/issues/20182) ONF MANGAS  HTTP  404 ERROR | Onfmangas | ✅ | ONF MANGAS `url title 100%` | [https://onfmangas.com](https://onfmangas.com) |
 | [#20170](https://github.com/keiyoushi/extensions-source/issues/20170) soft Epsilon Scan "opening the chapter in WebView" | soft Epsilon Scan | 🛑 | Soft Epsilon Scan `100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
 | [#20142](https://github.com/keiyoushi/extensions-source/issues/20142) problem mangatek | mangatek | 🛑 | MangaTek `100%` | [https://mangatek.com](https://mangatek.com) |
