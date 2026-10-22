@@ -1,26 +1,27 @@
 # Bug Issue → Extension Map
 
-Matched: 107 of 111 open bug issues\
-Timestamp: `2026-10-21T19:57:48+00:00`
+Matched: 109 of 113 open bug issues\
+Timestamp: `2026-10-22T13:14:30+00:00`
 
 
 ## Exact match
 
 
-Count: 79
+Count: 80
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20256](https://github.com/keiyoushi/extensions-source/issues/20256) VoraToon (ID): Error MissingFieldException | VoraToon | 🛑 | VoraToon `100%` | [https://v8.voratoon.com](https://v8.voratoon.com) |
+| [#20254](https://github.com/keiyoushi/extensions-source/issues/20254) New Chapters Not Being Pulled and Chapter List Error After Latest Update | Comix | ✅ | Comix `100%` | [https://comix.to](https://comix.to) |
+| [#20252](https://github.com/keiyoushi/extensions-source/issues/20252) WestManga (ID): HTTP Error 403 | West Manga | 🚧 | West Manga `100%` | [https://v1.westmanga.my](https://v1.westmanga.my) |
+| [#20250](https://github.com/keiyoushi/extensions-source/issues/20250) Bug in the date of the entire catalog  | LectorXD | ✅ | LectorXD `100%` | [https://lectorxd.com](https://lectorxd.com) |
+| [#20246](https://github.com/keiyoushi/extensions-source/issues/20246) Error HTTP 522 en EternalMangas | EternalMangas | ✅ | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
 | [#20224](https://github.com/keiyoushi/extensions-source/issues/20224) "Dark Science" extension broken compeletly | Dark Science | ✅ | Dark Science `100%` | [https://dresdencodak.com](https://dresdencodak.com) |
 | [#20214](https://github.com/keiyoushi/extensions-source/issues/20214) [ES] CapibaraTraductor: HTTP error 500 when opening chapters | CapibaraTraductor | ✅ | CapibaraTraductor `100%` | [https://capibaratraductor.com](https://capibaratraductor.com) |
 | [#20210](https://github.com/keiyoushi/extensions-source/issues/20210) MangaDot : Hitatus label show as Unknown | MangaDot | 🚧 | MangaDot `100%` | [https://mangadot.net](https://mangadot.net) |
 | [#20197](https://github.com/keiyoushi/extensions-source/issues/20197) Bug al momento de leer | Catharsis World | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
-| [#20186](https://github.com/keiyoushi/extensions-source/issues/20186) Webnex Error 403 | Webnex | ⚠️ | Webnex `100%` | [https://webnex.cc](https://webnex.cc) |
-| [#20183](https://github.com/keiyoushi/extensions-source/issues/20183) library of ohara 403 error | The Library of Ohara | ✅ | The Library of Ohara `100%` | [https://thelibraryofohara.com](https://thelibraryofohara.com) |
-| [#20179](https://github.com/keiyoushi/extensions-source/issues/20179) The Blank chapter streaming, and downloading, both fail. | The Blank | 🔀 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
+| [#20179](https://github.com/keiyoushi/extensions-source/issues/20179) The Blank chapter streaming, and downloading, both fail. | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
 | [#20178](https://github.com/keiyoushi/extensions-source/issues/20178) CapibaraTraductor issue | CapibaraTraductor | ✅ | CapibaraTraductor `100%` | [https://capibaratraductor.com](https://capibaratraductor.com) |
-| [#20172](https://github.com/keiyoushi/extensions-source/issues/20172) Http error 403 | Toonz | ✅ | Toonz `100%` | [https://toonz.to](https://toonz.to) |
-| [#20166](https://github.com/keiyoushi/extensions-source/issues/20166) Comix: could not find the site's chapter API | Comix | ✅ | Comix `100%` | [https://comix.to](https://comix.to) |
 | [#20074](https://github.com/keiyoushi/extensions-source/issues/20074) MangaLib and HentaiLib fail to load data in Suwayomi Server due to JSON decoding error | MangaLib | ⚠️ | MangaLib `100%` | [https://mangalib.me](https://mangalib.me) |
 | [#20059](https://github.com/keiyoushi/extensions-source/issues/20059) Extensão "lycan Toons pt-br" erro HTTP 403 | Lycan Toons | ✅ | Lycan Toons `100%` | [https://lycantoons.com](https://lycantoons.com) |
 | [#19997](https://github.com/keiyoushi/extensions-source/issues/19997) los nuevos capítulos no cargan en Eternalmangas | EternalMangas | ✅ | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
@@ -94,24 +95,25 @@ Count: 79
 ## Single match
 
 
-Count: 18
+Count: 19
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20218](https://github.com/keiyoushi/extensions-source/issues/20218) Saymanhwa URL change | Saymanhwa | ⚠️ | SayManhwa `100%` | [https://saymanhwa.com](https://saymanhwa.com) |
-| [#20209](https://github.com/keiyoushi/extensions-source/issues/20209) Webnex: Blocked 3rd Party message | Webnex: Blocked 3rd Party message | ⚠️ | Webnex `100%` | [https://webnex.cc](https://webnex.cc) |
-| [#20203](https://github.com/keiyoushi/extensions-source/issues/20203) issue with komix | komix | ✅ | Komix `100%` | [https://komix.to](https://komix.to) |
+| [#20258](https://github.com/keiyoushi/extensions-source/issues/20258) Hfox NXDomain | Hentaifox latest | ✅ | HentaiFox `100%` | [https://hentaifox.com](https://hentaifox.com) |
+| [#20257](https://github.com/keiyoushi/extensions-source/issues/20257) The Voraton URL has been changed | Voratoon | 🛑 | VoraToon `100%` | [https://v8.voratoon.com](https://v8.voratoon.com) |
+| [#20248](https://github.com/keiyoushi/extensions-source/issues/20248) Crash after setting up specific filters using MangaDot extension | Mangadot | 🚧 | MangaDot `100%` | [https://mangadot.net](https://mangadot.net) |
+| [#20230](https://github.com/keiyoushi/extensions-source/issues/20230) Chapter Not Showing Issue | Koreliscans | ✅ | Koreli Scans `96%` | [https://www.nabicix.com](https://www.nabicix.com) |
+| [#20218](https://github.com/keiyoushi/extensions-source/issues/20218) Saymanhwa URL change | Saymanhwa | ❌ | SayManhwa `100%` | [https://saymanhwa.com](https://saymanhwa.com) |
+| [#20209](https://github.com/keiyoushi/extensions-source/issues/20209) Webnex: Blocked 3rd Party message | Webnex: Blocked 3rd Party message | ✅ | Webnex `100%` | [https://webnex.cc](https://webnex.cc) |
 | [#20200](https://github.com/keiyoushi/extensions-source/issues/20200) Yuri On Air isn't working | Yuri On Air | ✅ | Yuri on Air `100%` | [https://yurionair.top](https://yurionair.top) |
-| [#20188](https://github.com/keiyoushi/extensions-source/issues/20188) Can't open chapters in 8muses.com | 8muses | ✅ | 8Muses `100%` | [https://comics.8muses.com](https://comics.8muses.com) |
 | [#20182](https://github.com/keiyoushi/extensions-source/issues/20182) ONF MANGAS  HTTP  404 ERROR | Onfmangas | ✅ | ONF MANGAS `url title 100%` | [https://onfmangas.com](https://onfmangas.com) |
-| [#20170](https://github.com/keiyoushi/extensions-source/issues/20170) soft Epsilon Scan "opening the chapter in WebView" | soft Epsilon Scan | 🔀 | Soft Epsilon Scan `100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
+| [#20170](https://github.com/keiyoushi/extensions-source/issues/20170) soft Epsilon Scan "opening the chapter in WebView" | soft Epsilon Scan | 🛑 | Soft Epsilon Scan `100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
 | [#20142](https://github.com/keiyoushi/extensions-source/issues/20142) problem mangatek | mangatek | 🛑 | MangaTek `100%` | [https://mangatek.com](https://mangatek.com) |
 | [#19982](https://github.com/keiyoushi/extensions-source/issues/19982) MangaTek website problem | mangatek | 🛑 | MangaTek `100%` | [https://mangatek.com](https://mangatek.com) |
 | [#19769](https://github.com/keiyoushi/extensions-source/issues/19769) Managakalot.fun gives encryption unavailable error on new chapters | mangakalot.fun | ✅ | Mangakakalot.fun `93%` | [https://mangakakalot.fun](https://mangakakalot.fun) |
 | [#19597](https://github.com/keiyoushi/extensions-source/issues/19597) The chapter does not exist and never works. | Mangatek | 🛑 | MangaTek `100%` | [https://mangatek.com](https://mangatek.com) |
 | [#19036](https://github.com/keiyoushi/extensions-source/issues/19036) Manwa 1.4.14 needs to be updated please | Manwa | 🔀 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
 | [#18837](https://github.com/keiyoushi/extensions-source/issues/18837) 读漫屋网址已经改变 | dumanwu | ❌ | 读漫屋 `100%` | [https://m.dumanwu1.com](https://m.dumanwu1.com) |
-| [#18739](https://github.com/keiyoushi/extensions-source/issues/18739) Hiperdex some titles missing chapters | Hiperdex some titles missing chapters | ✅ | Hiperdex `100%` | [https://hiperdex.tv](https://hiperdex.tv) |
 | [#18441](https://github.com/keiyoushi/extensions-source/issues/18441) RawBaka: `HTTP 400` error | Rawbaka | 🔀 | RawBaka `100%` | [https://rawbaka.com](https://rawbaka.com) |
 | [#18413](https://github.com/keiyoushi/extensions-source/issues/18413) Manwa new URL | manwa | 🔀 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
 | [#18362](https://github.com/keiyoushi/extensions-source/issues/18362) Comichubfree not loading properly | Comichubfree | 🚧 | ComicHubFree `100%` | [https://comichubfree.com](https://comichubfree.com) |
@@ -134,7 +136,7 @@ Count: 10
 | ↳ [#18008] |  | ✅ | Mangack `92%` | [https://mangack.com](https://mangack.com) |
 | [#17622](https://github.com/keiyoushi/extensions-source/issues/17622) Allporncomics | AllPornComics.co | ✅ | AllPornComics.co `100%` | [https://allporncomics.co](https://allporncomics.co) |
 | ↳ [#17622] |  | ✅ | AllPornComic `title 96%` | [https://allporncomic.com](https://allporncomic.com) |
-| ↳ [#17622] |  | ✅ | AllPornComic.io `90%` | [https://allporncomic.io](https://allporncomic.io) |
+| ↳ [#17622] |  | ⚠️ | AllPornComic.io `90%` | [https://allporncomic.io](https://allporncomic.io) |
 | [#13566](https://github.com/keiyoushi/extensions-source/issues/13566) GigaViewer theme sources not showing downloads | Comic Days 1.4.9, Sunday Web Every | ✅ | Comic Days `100%` | [https://comic-days.com](https://comic-days.com) |
 | ↳ [#13566] |  | ✅ | Sunday Web Every `100%` | [https://www.sunday-webry.com](https://www.sunday-webry.com) |
 | [#13099](https://github.com/keiyoushi/extensions-source/issues/13099) Mangadex - Use Alternative Titles setting does not keep the alternative titles past the search result | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
