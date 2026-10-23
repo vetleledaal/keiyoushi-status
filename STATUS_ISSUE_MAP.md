@@ -1,17 +1,43 @@
 # Bug Issue → Extension Map
 
-Matched: 109 of 113 open bug issues\
-Timestamp: `2026-10-22T13:14:30+00:00`
+Matched: 142 of 145 open bug issues\
+Timestamp: `2026-10-23T05:06:58+00:00`
 
 
 ## Exact match
 
 
-Count: 80
+Count: 105
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20256](https://github.com/keiyoushi/extensions-source/issues/20256) VoraToon (ID): Error MissingFieldException | VoraToon | 🛑 | VoraToon `100%` | [https://v8.voratoon.com](https://v8.voratoon.com) |
+| [#20304](https://github.com/keiyoushi/extensions-source/issues/20304) MangaYY: `Attempt to invoke virtual method`, `No results found` error | MangaYY | 🔀 | MangaYY `100%` | [https://mangayy.org](https://mangayy.org) |
+| [#20302](https://github.com/keiyoushi/extensions-source/issues/20302) UmeTruyen: moved to umetruyen.com, new site isnt ManhwaZ | UmeTruyen | ❌ | UmeTruyen `url` | [https://umetruyenz.org](https://umetruyenz.org) |
+| [#20301](https://github.com/keiyoushi/extensions-source/issues/20301) LeesinComic: site rebuilt as a React app, browse is empty | LeesinComic | ✅ | LeesinComic `url` | [https://leesincomic.com](https://leesincomic.com) |
+| [#20296](https://github.com/keiyoushi/extensions-source/issues/20296) Manga Bahçesi: site redesign, browse is empty | Manga Bahçesi | ✅ | Manga Bahçesi `url` | [https://mangabahcesi.com](https://mangabahcesi.com) |
+| [#20295](https://github.com/keiyoushi/extensions-source/issues/20295) Makimaaaaa: /manga/ listing 404s | Makimaaaaa | ✅ | Makimaaaaa `url` | [https://makimaaaaa.com](https://makimaaaaa.com) |
+| [#20294](https://github.com/keiyoushi/extensions-source/issues/20294) Yomu Comics: browse fails, API returns 502 | Yomu Comics | ✅ | Yomu Comics `url` | [https://yomu.com.br](https://yomu.com.br) |
+| [#20293](https://github.com/keiyoushi/extensions-source/issues/20293) OneReader: everything fails, API returns 503 | OneReader | ✅ | OneReader `url` | [https://onereader.net](https://onereader.net) |
+| [#20292](https://github.com/keiyoushi/extensions-source/issues/20292) BRScans: browse fails, API returns 500 | BRScans | ✅ | BRScans `url` | [https://brscans.vercel.app](https://brscans.vercel.app) |
+| [#20291](https://github.com/keiyoushi/extensions-source/issues/20291) Azuretoons: browse fails, API returns 502 | Azuretoons | ✅ | Azuretoons `url` | [https://azuretoons.com](https://azuretoons.com) |
+| [#20290](https://github.com/keiyoushi/extensions-source/issues/20290) AcervoEremita: page images 502 | AcervoEremita | ✅ | AcervoEremita `url` | [https://acervoeremita.com](https://acervoeremita.com) |
+| [#20288](https://github.com/keiyoushi/extensions-source/issues/20288) Sugo Comics: browse is empty, site is in maintenance | Sugo Comics | ✅ | Sugo Comics `url` | [https://nadeshiko-shoten.jp](https://nadeshiko-shoten.jp) |
+| [#20287](https://github.com/keiyoushi/extensions-source/issues/20287) Ulas Comic: site is on a break page, browse is empty | Ulas Comic | 🔀 | Ulas Comic `url` | [https://www.ulascomic01.xyz](https://www.ulascomic01.xyz) |
+| [#20286](https://github.com/keiyoushi/extensions-source/issues/20286) Tooncubus: chapters dont open, reader domain is gone | Tooncubus | ✅ | Tooncubus `url` | [https://www.tooncubus.top](https://www.tooncubus.top) |
+| [#20284](https://github.com/keiyoushi/extensions-source/issues/20284) IsekaiKomik: page images 522 | IsekaiKomik | ✅ | IsekaiKomik `url` | [https://ch1.isekaikomik.site](https://ch1.isekaikomik.site) |
+| [#20283](https://github.com/keiyoushi/extensions-source/issues/20283) Manhwa Indo: new theme, browse is empty | Manhwa Indo | ✅ | Manhwa Indo `url` | [https://www.manhwaindo.my](https://www.manhwaindo.my) |
+| [#20282](https://github.com/keiyoushi/extensions-source/issues/20282) LianScans: pages are imgbox placeholder images | LianScans | ✅ | LianScans `url` | [https://www.lianscans.com](https://www.lianscans.com) |
+| [#20281](https://github.com/keiyoushi/extensions-source/issues/20281) SkyMangas: site rebuilt, browse is empty | SkyMangas | ✅ | SkyMangas `url` | [https://skymangas.com](https://skymangas.com) |
+| [#20280](https://github.com/keiyoushi/extensions-source/issues/20280) Manga Mukai: site rebuilt, browse is empty | Manga Mukai | ✅ | Manga Mukai `url` | [https://mangamukai.com](https://mangamukai.com) |
+| [#20277](https://github.com/keiyoushi/extensions-source/issues/20277) TopManhua.net: page images 526 | TopManhua.net | ✅ | TopManhua.net `url` | [https://topmanhua.net](https://topmanhua.net) |
+| [#20276](https://github.com/keiyoushi/extensions-source/issues/20276) ScansGG: page images fail to load | ScansGG | ✅ | ScansGG `url` | [https://scans.gg](https://scans.gg) |
+| [#20275](https://github.com/keiyoushi/extensions-source/issues/20275) Razure: site isnt MangaThemesia anymore, browse is empty | Razure | ✅ | Razure `url` | [https://razure.org](https://razure.org) |
+| [#20273](https://github.com/keiyoushi/extensions-source/issues/20273) NexComic: site isnt MangaThemesia anymore, lists 404 | NexComic | ✅ | NexComic `url` | [https://nexcomic.com](https://nexcomic.com) |
+| [#20270](https://github.com/keiyoushi/extensions-source/issues/20270) Manga-Bay: chapters dont open | Manga-Bay | 🚧 | Manga-Bay `url` | [https://manga-bay.biz](https://manga-bay.biz) |
+| [#20269](https://github.com/keiyoushi/extensions-source/issues/20269) Yona Bar: page images dont load | Yona Bar | ✅ | Yona Bar `url` | [https://yonaber.com](https://yonaber.com) |
+| [#20268](https://github.com/keiyoushi/extensions-source/issues/20268) Orca Manga: series show 0 chapters | Orca Manga | ✅ | Orca Manga `url` | [https://infinity896.blogspot.com](https://infinity896.blogspot.com) |
+| [#20267](https://github.com/keiyoushi/extensions-source/issues/20267) AHottie: pages are imgbox placeholder images | AHottie | ✅ | AHottie `url` | [https://ahottie.top](https://ahottie.top) |
+| [#20256](https://github.com/keiyoushi/extensions-source/issues/20256) VoraToon: `MissingFieldException` error | VoraToon | 🛑 | VoraToon `100%` | [https://v8.voratoon.com](https://v8.voratoon.com) |
 | [#20254](https://github.com/keiyoushi/extensions-source/issues/20254) New Chapters Not Being Pulled and Chapter List Error After Latest Update | Comix | ✅ | Comix `100%` | [https://comix.to](https://comix.to) |
 | [#20252](https://github.com/keiyoushi/extensions-source/issues/20252) WestManga (ID): HTTP Error 403 | West Manga | 🚧 | West Manga `100%` | [https://v1.westmanga.my](https://v1.westmanga.my) |
 | [#20250](https://github.com/keiyoushi/extensions-source/issues/20250) Bug in the date of the entire catalog  | LectorXD | ✅ | LectorXD `100%` | [https://lectorxd.com](https://lectorxd.com) |
@@ -70,7 +96,6 @@ Count: 80
 | [#16048](https://github.com/keiyoushi/extensions-source/issues/16048) Holotoon 404 not found on Mihon but still accessible from Webview | Holotoon | ✅ | Holotoon `100%` | [https://holodek.run](https://holodek.run) |
 | [#15858](https://github.com/keiyoushi/extensions-source/issues/15858) LinkManga: `Failed to bypass Cloudflare` error | LinkManga | ✅ | LinkManga `100%` | [https://linkmanga.com](https://linkmanga.com) |
 | [#15647](https://github.com/keiyoushi/extensions-source/issues/15647) Asura Scans: Unable to view locked chapters with Premium account signed in on WebView | Asura Scans | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
-| [#15641](https://github.com/keiyoushi/extensions-source/issues/15641) Holotoon: New website URL (`v2.holotoon.site`) | Holotoon | ✅ | Holotoon `100%` | [https://holodek.run](https://holodek.run) |
 | [#15301](https://github.com/keiyoushi/extensions-source/issues/15301) Problem merlinscans from Chapter's section | Merlin Scans | 🛑 | Merlin Scans `100%` | [https://merlintoon.com](https://merlintoon.com) |
 | [#14354](https://github.com/keiyoushi/extensions-source/issues/14354) 巴卡漫画无法通过人机验证 | 巴卡漫画 | 🚧 | 巴卡漫画 `100%` | [https://bakamh.com](https://bakamh.com) |
 | [#12573](https://github.com/keiyoushi/extensions-source/issues/12573) Tapas: Download Naming Scheme Changed | Tapas | ✅ | Tapas `100%` | [https://tapas.io](https://tapas.io) |
@@ -95,16 +120,18 @@ Count: 80
 ## Single match
 
 
-Count: 19
+Count: 21
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20298](https://github.com/keiyoushi/extensions-source/issues/20298) Nemesis Scans: site isnt MangaThemesia anymore, lists 404 | Nemesis scans | ✅ | Nemesisscans `url` | [https://nemesisscans.com](https://nemesisscans.com) |
+| [#20278](https://github.com/keiyoushi/extensions-source/issues/20278) Voyce.Me: graphql.voyce.me doesnt resolve anymore | Voyce.Me | ✅ | VoyceMe `url` | [https://www.voyce.me](https://www.voyce.me) |
 | [#20258](https://github.com/keiyoushi/extensions-source/issues/20258) Hfox NXDomain | Hentaifox latest | ✅ | HentaiFox `100%` | [https://hentaifox.com](https://hentaifox.com) |
-| [#20257](https://github.com/keiyoushi/extensions-source/issues/20257) The Voraton URL has been changed | Voratoon | 🛑 | VoraToon `100%` | [https://v8.voratoon.com](https://v8.voratoon.com) |
+| [#20257](https://github.com/keiyoushi/extensions-source/issues/20257) Voratoon: New website URL (`v10.voratoon.com`) | Voratoon | 🛑 | VoraToon `100%` | [https://v8.voratoon.com](https://v8.voratoon.com) |
 | [#20248](https://github.com/keiyoushi/extensions-source/issues/20248) Crash after setting up specific filters using MangaDot extension | Mangadot | 🚧 | MangaDot `100%` | [https://mangadot.net](https://mangadot.net) |
 | [#20230](https://github.com/keiyoushi/extensions-source/issues/20230) Chapter Not Showing Issue | Koreliscans | ✅ | Koreli Scans `96%` | [https://www.nabicix.com](https://www.nabicix.com) |
-| [#20218](https://github.com/keiyoushi/extensions-source/issues/20218) Saymanhwa URL change | Saymanhwa | ❌ | SayManhwa `100%` | [https://saymanhwa.com](https://saymanhwa.com) |
-| [#20209](https://github.com/keiyoushi/extensions-source/issues/20209) Webnex: Blocked 3rd Party message | Webnex: Blocked 3rd Party message | ✅ | Webnex `100%` | [https://webnex.cc](https://webnex.cc) |
+| [#20218](https://github.com/keiyoushi/extensions-source/issues/20218) SayManhwa: New website URL (`saymanhwa.net`) | Saymanhwa | ❌ | SayManhwa `100%` | [https://saymanhwa.com](https://saymanhwa.com) |
+| [#20209](https://github.com/keiyoushi/extensions-source/issues/20209) Webnex: Blocked 3rd Party message | Webnex: Blocked 3rd Party message | 🚧 | Webnex `100%` | [https://webnex.cc](https://webnex.cc) |
 | [#20200](https://github.com/keiyoushi/extensions-source/issues/20200) Yuri On Air isn't working | Yuri On Air | ✅ | Yuri on Air `100%` | [https://yurionair.top](https://yurionair.top) |
 | [#20182](https://github.com/keiyoushi/extensions-source/issues/20182) ONF MANGAS  HTTP  404 ERROR | Onfmangas | ✅ | ONF MANGAS `url title 100%` | [https://onfmangas.com](https://onfmangas.com) |
 | [#20170](https://github.com/keiyoushi/extensions-source/issues/20170) soft Epsilon Scan "opening the chapter in WebView" | soft Epsilon Scan | 🛑 | Soft Epsilon Scan `100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
@@ -122,10 +149,22 @@ Count: 19
 ## Multiple matches
 
 
-Count: 10
+Count: 16
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20310](https://github.com/keiyoushi/extensions-source/issues/20310) Mangakakalot: Change mirror URL (`mangakakalot.gg` -> `kakamanga.com`) | Mangakakalot | 🔀 | Mangakakalot `url` | [https://www.mangakakalot.gg](https://www.mangakakalot.gg) |
+| ↳ [#20310] |  | ✅ | Mangakakalot.fun `100%` | [https://mangakakalot.fun](https://mangakakalot.fun) |
+| [#20300](https://github.com/keiyoushi/extensions-source/issues/20300) CuuTruyen (unoriginal): search fails | CuuTruyen | ✅ | CuuTruyen (unoriginal) `url` | [https://cuutruyen.moe](https://cuutruyen.moe) |
+| ↳ [#20300] |  | ✅ | CuuTruyen `100%` | [https://cuutruyen.net](https://cuutruyen.net) |
+| [#20289](https://github.com/keiyoushi/extensions-source/issues/20289) Young Jump+: search fails | Young Jump+ | ✅ | Young Jump+ `url` | [https://ynjn.jp](https://ynjn.jp) |
+| ↳ [#20289] |  | ✅ | Tonari no Young Jump `100%` | [https://tonarinoyj.jp](https://tonarinoyj.jp) |
+| [#20285](https://github.com/keiyoushi/extensions-source/issues/20285) Omicaso: site rebuilt, lists 404 | Omicaso | ✅ | Omicaso `url` | [https://omicaso.org](https://omicaso.org) |
+| ↳ [#20285] |  | ✅ | Comicaso `93%` | [https://v3.comicaso.pro](https://v3.comicaso.pro) |
+| [#20272](https://github.com/keiyoushi/extensions-source/issues/20272) MangaLix: catalog isnt in the main js bundle anymore | MangaLix | ✅ | MangaLix `url` | [https://mangalix.com](https://mangalix.com) |
+| ↳ [#20272] |  | ✅ | MangaFlix `94%` | [https://mangaflix.net](https://mangaflix.net) |
+| [#20271](https://github.com/keiyoushi/extensions-source/issues/20271) MangaHere.onl: search fails for every query | MangaHere.onl | ✅ | MangaHere.onl `url` | [https://mangahere.onl](https://mangahere.onl) |
+| ↳ [#20271] |  | ✅ | Mangahere `100%` | [https://www.mangahere.cc](https://www.mangahere.cc) |
 | [#20174](https://github.com/keiyoushi/extensions-source/issues/20174) issue with komiku's app | komiku | ✅ | Komiku `100%` | [https://komiku.org](https://komiku.org) |
 | ↳ [#20174] |  | ✅ | Komikmu `92%` | [https://komikmu.top](https://komikmu.top) |
 | [#19992](https://github.com/keiyoushi/extensions-source/issues/19992) [ManhuaTop, Top Manhua] `Http 404`, check website in webview | ManhuaTop 1.6.56 - Top Manhua | ✅ | ManhuaTop `100%` | [https://manhuatop.org](https://manhuatop.org) |
@@ -136,7 +175,7 @@ Count: 10
 | ↳ [#18008] |  | ✅ | Mangack `92%` | [https://mangack.com](https://mangack.com) |
 | [#17622](https://github.com/keiyoushi/extensions-source/issues/17622) Allporncomics | AllPornComics.co | ✅ | AllPornComics.co `100%` | [https://allporncomics.co](https://allporncomics.co) |
 | ↳ [#17622] |  | ✅ | AllPornComic `title 96%` | [https://allporncomic.com](https://allporncomic.com) |
-| ↳ [#17622] |  | ⚠️ | AllPornComic.io `90%` | [https://allporncomic.io](https://allporncomic.io) |
+| ↳ [#17622] |  | ✅ | AllPornComic.io `90%` | [https://allporncomic.io](https://allporncomic.io) |
 | [#13566](https://github.com/keiyoushi/extensions-source/issues/13566) GigaViewer theme sources not showing downloads | Comic Days 1.4.9, Sunday Web Every | ✅ | Comic Days `100%` | [https://comic-days.com](https://comic-days.com) |
 | ↳ [#13566] |  | ✅ | Sunday Web Every `100%` | [https://www.sunday-webry.com](https://www.sunday-webry.com) |
 | [#13099](https://github.com/keiyoushi/extensions-source/issues/13099) Mangadex - Use Alternative Titles setting does not keep the alternative titles past the search result | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
@@ -151,11 +190,10 @@ Count: 10
 ## No match
 
 
-Count: 4
+Count: 3
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
 | [#20106](https://github.com/keiyoushi/extensions-source/issues/20106) 9hentai: connection closed | 9hentai | | | |
 | [#19713](https://github.com/keiyoushi/extensions-source/issues/19713) 绅士漫画拉取图片报错403 | 绅士漫画 | | | |
-| [#19606](https://github.com/keiyoushi/extensions-source/issues/19606) MeTruyen18: domain moved to metruyen18.sbs (site rebuilt, or new source) | MeTruyen18 | | | |
 | [#19311](https://github.com/keiyoushi/extensions-source/issues/19311) NyxScans Novels in Series List | NyxScans Novels in Series List | | | |
