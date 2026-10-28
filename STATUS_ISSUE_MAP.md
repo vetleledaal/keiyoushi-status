@@ -1,16 +1,20 @@
 # Bug Issue → Extension Map
 
-Matched: 107 of 110 open bug issues\
-Timestamp: `2026-10-27T09:05:15+00:00`
+Matched: 111 of 114 open bug issues\
+Timestamp: `2026-10-28T02:52:42+00:00`
 
 
 ## Exact match
 
 
-Count: 80
+Count: 84
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20478](https://github.com/keiyoushi/extensions-source/issues/20478) Manga romance error 403 | Manga Romance | ⚠️ | Manga Romance `100%` | [https://mangaromance19.com](https://mangaromance19.com) |
+| [#20476](https://github.com/keiyoushi/extensions-source/issues/20476) Ikigai manga search engine error | Ikigai Mangas | ✅ | Ikigai Mangas `100%` | [https://visorikigai.gettocaboca.com](https://visorikigai.gettocaboca.com) |
+| [#20475](https://github.com/keiyoushi/extensions-source/issues/20475) Celestial Moon: No results found | Celestial Moon | 🔀 | Celestial Moon `100%` | [https://celestialmoonscan.es](https://celestialmoonscan.es) |
+| [#20471](https://github.com/keiyoushi/extensions-source/issues/20471) ProComic : Not all pages are shown | ProComic | ✅ | ProComic `100%` | [https://procomic.pro](https://procomic.pro) |
 | [#20467](https://github.com/keiyoushi/extensions-source/issues/20467) Temple Scan: HTTP 403 on all images | Temple Scan | ✅ | Temple Scan `100%` | [https://aedexnox.syakaihoken-web.com](https://aedexnox.syakaihoken-web.com) |
 | [#20464](https://github.com/keiyoushi/extensions-source/issues/20464) No pages found | Mgread.io | ✅ | Mgread.io `100%` | [https://mgread.io](https://mgread.io) |
 | [#20459](https://github.com/keiyoushi/extensions-source/issues/20459) Mikrokosmos Fansub: Url and theme changed | Mikrokosmos Fansub | ✅ | Mikrokosmos Fansub `100%` | [https://mikrokosmosfb.blogspot.com](https://mikrokosmosfb.blogspot.com) |
@@ -24,7 +28,7 @@ Count: 80
 | [#20291](https://github.com/keiyoushi/extensions-source/issues/20291) Azuretoons: browse fails, API returns 502 | Azuretoons | ✅ | Azuretoons `url` | [https://azuretoons.com](https://azuretoons.com) |
 | [#20290](https://github.com/keiyoushi/extensions-source/issues/20290) AcervoEremita: page images 502 | AcervoEremita | ✅ | AcervoEremita `url` | [https://acervoeremita.com](https://acervoeremita.com) |
 | [#20288](https://github.com/keiyoushi/extensions-source/issues/20288) Sugo Comics: browse is empty, site is in maintenance | Sugo Comics | ✅ | Sugo Comics `url` | [https://nadeshiko-shoten.jp](https://nadeshiko-shoten.jp) |
-| [#20287](https://github.com/keiyoushi/extensions-source/issues/20287) Ulas Comic: site is on a break page, browse is empty | Ulas Comic | ✅ | Ulas Comic `url` | [https://www.ulascomic01.xyz](https://www.ulascomic01.xyz) |
+| [#20287](https://github.com/keiyoushi/extensions-source/issues/20287) Ulas Comic: site is on a break page, browse is empty | Ulas Comic | 🔀 | Ulas Comic `url` | [https://www.ulascomic01.xyz](https://www.ulascomic01.xyz) |
 | [#20286](https://github.com/keiyoushi/extensions-source/issues/20286) Tooncubus: chapters dont open, reader domain is gone | Tooncubus | ✅ | Tooncubus `url` | [https://www.tooncubus.top](https://www.tooncubus.top) |
 | [#20284](https://github.com/keiyoushi/extensions-source/issues/20284) IsekaiKomik: page images 522 | IsekaiKomik | ✅ | IsekaiKomik `url` | [https://ch1.isekaikomik.site](https://ch1.isekaikomik.site) |
 | [#20282](https://github.com/keiyoushi/extensions-source/issues/20282) LianScans: pages are imgbox placeholder images | LianScans | ✅ | LianScans `url` | [https://www.lianscans.com](https://www.lianscans.com) |
@@ -33,7 +37,7 @@ Count: 80
 | [#20277](https://github.com/keiyoushi/extensions-source/issues/20277) TopManhua.net: page images 526 | TopManhua.net | ✅ | TopManhua.net `url` | [https://topmanhua.net](https://topmanhua.net) |
 | [#20276](https://github.com/keiyoushi/extensions-source/issues/20276) ScansGG: page images fail to load | ScansGG | ✅ | ScansGG `url` | [https://scans.gg](https://scans.gg) |
 | [#20269](https://github.com/keiyoushi/extensions-source/issues/20269) Yona Bar: page images dont load | Yona Bar | ✅ | Yona Bar `url` | [https://yonaber.com](https://yonaber.com) |
-| [#20268](https://github.com/keiyoushi/extensions-source/issues/20268) Orca Manga: series show 0 chapters | Orca Manga | ✅ | Orca Manga `url` | [https://infinity896.blogspot.com](https://infinity896.blogspot.com) |
+| [#20268](https://github.com/keiyoushi/extensions-source/issues/20268) Orca Manga: series show 0 chapters | Orca Manga | 🔀 | Orca Manga `url` | [https://infinity896.blogspot.com](https://infinity896.blogspot.com) |
 | [#20267](https://github.com/keiyoushi/extensions-source/issues/20267) AHottie: pages are imgbox placeholder images | AHottie | ✅ | AHottie `url` | [https://ahottie.top](https://ahottie.top) |
 | [#20246](https://github.com/keiyoushi/extensions-source/issues/20246) Error HTTP 522 en EternalMangas | EternalMangas | ✅ | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
 | [#20197](https://github.com/keiyoushi/extensions-source/issues/20197) Error 403 y fallos al cargar manhwas R-18 con la cuenta activa | Catharsis World | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
