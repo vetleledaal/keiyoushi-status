@@ -1,18 +1,21 @@
 # Bug Issue → Extension Map
 
-Matched: 101 of 104 open bug issues\
-Timestamp: `2026-10-29T14:43:26+00:00`
+Matched: 104 of 108 open bug issues\
+Timestamp: `2026-10-30T06:06:05+00:00`
 
 
 ## Exact match
 
 
-Count: 74
+Count: 77
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20527](https://github.com/keiyoushi/extensions-source/issues/20527) Kagane HTTP error 404/405 | Kagane | ✅ | Kagane `100%` | [https://kagane.moe](https://kagane.moe) |
+| [#20522](https://github.com/keiyoushi/extensions-source/issues/20522) Dilar 1.6.19: HTTP 403 and content loading failure | Dilar | ✅ | Dilar `100%` | [https://dilar.tube](https://dilar.tube) |
+| [#20520](https://github.com/keiyoushi/extensions-source/issues/20520) DragonTranslation.org I redesigned their website and the extension broke | DragonTranslation.org | ✅ | DragonTranslation.org `100%` | [https://dragontranslation.org](https://dragontranslation.org) |
 | [#20507](https://github.com/keiyoushi/extensions-source/issues/20507) Change the URL of the Hentai teca extension. | Hentai Teca | ✅ | Hentai Teca `100%` | [https://hentaiteca.online](https://hentaiteca.online) |
-| [#20505](https://github.com/keiyoushi/extensions-source/issues/20505) Kagane.si is unsafe | Kagane | ✅ | Kagane `100%` | [https://kagane.cx](https://kagane.cx) |
+| [#20505](https://github.com/keiyoushi/extensions-source/issues/20505) Kagane.si is unsafe | Kagane | ✅ | Kagane `100%` | [https://kagane.moe](https://kagane.moe) |
 | [#20501](https://github.com/keiyoushi/extensions-source/issues/20501) CapibaraTraductor No se encontraron páginas | CapibaraTraductor | ✅ | CapibaraTraductor `100%` | [https://capibaratraductor.com](https://capibaratraductor.com) |
 | [#20494](https://github.com/keiyoushi/extensions-source/issues/20494) MangaDot Series Description | MangaDot | 🚧 | MangaDot `100%` | [https://mangadot.net](https://mangadot.net) |
 | [#20487](https://github.com/keiyoushi/extensions-source/issues/20487) Despair Manga - nothing found | Despair Manga | 🚧 | Despair Manga `100%` | [https://despair-world.com](https://despair-world.com) |
@@ -145,10 +148,11 @@ Count: 12
 ## No match
 
 
-Count: 3
+Count: 4
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20523](https://github.com/keiyoushi/extensions-source/issues/20523) MangaLek: no chapters found | MangaLek | | | |
 | [#20516](https://github.com/keiyoushi/extensions-source/issues/20516) The option to filter Korean anime related content in wnacg shows a request failure: http 404 | wnacg | | | |
 | [#20106](https://github.com/keiyoushi/extensions-source/issues/20106) 9hentai: connection closed | 9hentai | | | |
 | [#19713](https://github.com/keiyoushi/extensions-source/issues/19713) 绅士漫画拉取图片报错403 | 绅士漫画 | | | |
