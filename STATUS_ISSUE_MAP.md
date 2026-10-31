@@ -1,25 +1,23 @@
 # Bug Issue → Extension Map
 
-Matched: 86 of 90 open bug issues\
-Timestamp: `2026-10-30T17:53:54+00:00`
+Matched: 84 of 86 open bug issues\
+Timestamp: `2026-10-31T09:58:34+00:00`
 
 
 ## Exact match
 
 
-Count: 61
+Count: 59
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20545](https://github.com/keiyoushi/extensions-source/issues/20545) It doesn't open the chapters. | XXX Yaoi | 🚧 | XXX Yaoi `100%` | [https://3xyaoi.com](https://3xyaoi.com) |
+| [#20562](https://github.com/keiyoushi/extensions-source/issues/20562) Sacachispa JSONDecodingException error | SACACHISPA | ✅ | SACACHISPA `100%` | [https://sacachispa.site](https://sacachispa.site) |
+| [#20561](https://github.com/keiyoushi/extensions-source/issues/20561) Luscious: `HTTP 400` when opening entries | Luscious | 🚧 | Luscious `100%` | [https://members.luscious.net](https://members.luscious.net) |
 | [#20536](https://github.com/keiyoushi/extensions-source/issues/20536) (TH) Nekopost, HTTP 404 error | Nekopost | ✅ | Nekopost `100%` | [https://www.nekopost.net](https://www.nekopost.net) |
 | [#20507](https://github.com/keiyoushi/extensions-source/issues/20507) Change the URL of the Hentai teca extension. | Hentai Teca | ✅ | Hentai Teca `100%` | [https://hentaiteca.online](https://hentaiteca.online) |
-| [#20471](https://github.com/keiyoushi/extensions-source/issues/20471) ProComic : Not all pages are shown | ProComic | ✅ | ProComic `100%` | [https://procomic.pro](https://procomic.pro) |
 | [#20295](https://github.com/keiyoushi/extensions-source/issues/20295) Makimaaaaa: /manga/ listing 404s | Makimaaaaa | ✅ | Makimaaaaa `url` | [https://makimaaaaa.com](https://makimaaaaa.com) |
 | [#20293](https://github.com/keiyoushi/extensions-source/issues/20293) OneReader: everything fails, API returns 503 | OneReader | ✅ | OneReader `url` | [https://onereader.net](https://onereader.net) |
 | [#20291](https://github.com/keiyoushi/extensions-source/issues/20291) Azuretoons: browse fails, API returns 502 | Azuretoons | ✅ | Azuretoons `url` | [https://azuretoons.com](https://azuretoons.com) |
-| [#20288](https://github.com/keiyoushi/extensions-source/issues/20288) Sugo Comics: Viewer error: 2005view mode error | Sugo Comics | ✅ | Sugo Comics `url` | [https://nadeshiko-shoten.jp](https://nadeshiko-shoten.jp) |
-| [#20246](https://github.com/keiyoushi/extensions-source/issues/20246) Error HTTP 522 en EternalMangas | EternalMangas | ✅ | EternalMangas `100%` | [https://eternalmangas.org](https://eternalmangas.org) |
 | [#20197](https://github.com/keiyoushi/extensions-source/issues/20197) Error 403 y fallos al cargar manhwas R-18 con la cuenta activa | Catharsis World | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
 | [#20179](https://github.com/keiyoushi/extensions-source/issues/20179) The Blank chapter streaming, and downloading, both fail. | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
 | [#20074](https://github.com/keiyoushi/extensions-source/issues/20074) MangaLib and HentaiLib fail to load data in Suwayomi Server due to JSON decoding error | MangaLib | ⚠️ | MangaLib `100%` | [https://mangalib.me](https://mangalib.me) |
@@ -80,10 +78,10 @@ Count: 15
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20546](https://github.com/keiyoushi/extensions-source/issues/20546) Webnex: HTTP Error 403 | Webnex: HTTP Error 403 | 🚧 | Webnex `100%` | [https://webnex.cc](https://webnex.cc) |
-| [#20544](https://github.com/keiyoushi/extensions-source/issues/20544) ​MangaTek - Expected JsonPrimitive json parsing error | Mangatek | 🛑 | MangaTek `100%` | [https://mangatek.com](https://mangatek.com) |
-| [#20535](https://github.com/keiyoushi/extensions-source/issues/20535) Toonly keep refresh the chapter list | Toonily latest | ✅ | Toonily `100%` | [https://toonily.com](https://toonily.com) |
-| [#20401](https://github.com/keiyoushi/extensions-source/issues/20401) LikeManga: timeout issue | Likemanga | 🚧 | LikeManga `100%` | [https://likemanga.ink](https://likemanga.ink) |
+| [#20567](https://github.com/keiyoushi/extensions-source/issues/20567) Temple Scan no page found | eu.kanade.tachiyomi.extension.en.templescan | ✅ | Temple Scan `title 100%` | [https://aedexnox.syakaihoken-web.com](https://aedexnox.syakaihoken-web.com) |
+| [#20560](https://github.com/keiyoushi/extensions-source/issues/20560) MHScans Http 404 error | Mhscans | ✅ | MHScans `100%` | [https://mhscans.com](https://mhscans.com) |
+| [#20549](https://github.com/keiyoushi/extensions-source/issues/20549) manwa | manwa | 🔀 | 漫蛙 `100%` | [https://manwa.me](https://manwa.me) |
+| [#20401](https://github.com/keiyoushi/extensions-source/issues/20401) LikeManga: timeout issue | Likemanga | ✅ | LikeManga `100%` | [https://likemanga.ink](https://likemanga.ink) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 | [#20321](https://github.com/keiyoushi/extensions-source/issues/20321) Cannot access voratoon | Voratoon | ✅ | VoraToon `100%` | [https://voratoon.co](https://voratoon.co) |
 | [#20182](https://github.com/keiyoushi/extensions-source/issues/20182) ONF MANGAS  HTTP  404 ERROR | Onfmangas | ✅ | ONF MANGAS `url title 100%` | [https://onfmangas.com](https://onfmangas.com) |
@@ -128,11 +126,9 @@ Count: 10
 ## No match
 
 
-Count: 4
+Count: 2
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20543](https://github.com/keiyoushi/extensions-source/issues/20543) [WNACG] Add webview login to access Korean comics (404 for guests) | wnacg | | | |
-| [#20538](https://github.com/keiyoushi/extensions-source/issues/20538) bakamh cannot be viewed | bakamh cannot be viewed | | | |
 | [#20106](https://github.com/keiyoushi/extensions-source/issues/20106) 9hentai: connection closed | 9hentai | | | |
 | [#19713](https://github.com/keiyoushi/extensions-source/issues/19713) 绅士漫画拉取图片报错403 | 绅士漫画 | | | |
