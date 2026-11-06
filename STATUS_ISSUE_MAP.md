@@ -1,20 +1,19 @@
 # Bug Issue → Extension Map
 
-Matched: 70 of 73 open bug issues\
-Timestamp: `2026-11-05T15:53:46+00:00`
+Matched: 71 of 74 open bug issues\
+Timestamp: `2026-11-06T07:06:20+00:00`
 
 
 ## Exact match
 
 
-Count: 51
+Count: 50
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20753](https://github.com/keiyoushi/extensions-source/issues/20753) Luscious: HTTP 400 on images when "merge chapter" is enabled | Luscious | 🚧 | Luscious `100%` | [https://members.luscious.net](https://members.luscious.net) |
 | [#20736](https://github.com/keiyoushi/extensions-source/issues/20736) Unable to Access Webcomics & Fix Its Paid Chapters | Webcomics | ✅ | Webcomics `100%` | [https://webcomicsapp.com](https://webcomicsapp.com) |
-| [#20732](https://github.com/keiyoushi/extensions-source/issues/20732) Fleur Blanche URL change | Fleur Blanche | ❌ | Fleur Blanche `100%` | [https://fbsquadx.com](https://fbsquadx.com) |
 | [#20702](https://github.com/keiyoushi/extensions-source/issues/20702) Athrea Scans: Manga status with paid chapters hidden | Athrea Scans | ✅ | Athrea Scans `100%` | [https://athreascans.com](https://athreascans.com) |
-| [#20698](https://github.com/keiyoushi/extensions-source/issues/20698) Niadd does not extract the chapters | Niadd | ✅ | Niadd `100%` | [https://br.niadd.com](https://br.niadd.com) |
 | [#20697](https://github.com/keiyoushi/extensions-source/issues/20697) Emperor Scan does not extract the chapters | Emperor Scan | ✅ | Emperor Scan `100%` | [https://imperiomanhwa.com](https://imperiomanhwa.com) |
 | [#20295](https://github.com/keiyoushi/extensions-source/issues/20295) Makimaaaaa: /manga/ listing 404s | Makimaaaaa | ✅ | Makimaaaaa `url` | [https://makimaaaaa.com](https://makimaaaaa.com) |
 | [#20291](https://github.com/keiyoushi/extensions-source/issues/20291) Azuretoons: browse fails, API returns 502 | Azuretoons | ✅ | Azuretoons `url` | [https://azuretoons.com](https://azuretoons.com) |
@@ -52,7 +51,7 @@ Count: 51
 | [#12561](https://github.com/keiyoushi/extensions-source/issues/12561) Tapas: Removed but Unlocked series don't show up in search anymore | Tapas | ✅ | Tapas `100%` | [https://tapas.io](https://tapas.io) |
 | [#11751](https://github.com/keiyoushi/extensions-source/issues/11751) Zazhimi 杂志迷: broken thumbnail on search + not being able to search Japanese characters | 杂志迷 | ✅ | 杂志迷 `100%` | [https://www.zazhimi.net](https://www.zazhimi.net) |
 | [#11330](https://github.com/keiyoushi/extensions-source/issues/11330) Rawkuma: new version (1.4.35) downloaded chapter icons disappear randomly | Rawkuma | ✅ | Rawkuma `100%` | [https://rawkuma.net](https://rawkuma.net) |
-| [#11176](https://github.com/keiyoushi/extensions-source/issues/11176) MangaTuk: Chapter images are all the same image | MangaTuk | ⚠️ | MangaTuk `100%` | [https://mangatuk.com](https://mangatuk.com) |
+| [#11176](https://github.com/keiyoushi/extensions-source/issues/11176) MangaTuk: Chapter images are all the same image | MangaTuk | ✅ | MangaTuk `100%` | [https://mangatuk.com](https://mangatuk.com) |
 | [#10910](https://github.com/keiyoushi/extensions-source/issues/10910) 如漫画 / Rumanhua: `timeout` error, source is down | 如漫画 | ❌ | 如漫画 `100%` | [https://m.rumanhua2.com](https://m.rumanhua2.com) |
 | [#10693](https://github.com/keiyoushi/extensions-source/issues/10693) 再漫画有些漫画出现Bad position的错误代码 | 再漫画 | ✅ | 再漫画 `100%` | [https://manhua.zaimanhua.com](https://manhua.zaimanhua.com) |
 | [#9946](https://github.com/keiyoushi/extensions-source/issues/9946) WNACG cover and picsare loading failed | 紳士漫畫 | ✅ | 紳士漫畫 `100%` | [https://www.wnacg.buzz](https://www.wnacg.buzz) |
@@ -66,10 +65,11 @@ Count: 51
 ## Single match
 
 
-Count: 10
+Count: 11
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20760](https://github.com/keiyoushi/extensions-source/issues/20760) 8muses extension not loading any content | 8muses | ✅ | 8Muses `100%` | [https://comics.8muses.com](https://comics.8muses.com) |
 | [#20717](https://github.com/keiyoushi/extensions-source/issues/20717) ParadoxScans HTTP error 403 | ParadoxScans | ✅ | Paradox Scans `96%` | [https://paradoxscans.com](https://paradoxscans.com) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 | [#20321](https://github.com/keiyoushi/extensions-source/issues/20321) Cannot access voratoon | Voratoon | ✅ | VoraToon `100%` | [https://voratoon.co](https://voratoon.co) |
@@ -84,10 +84,12 @@ Count: 10
 ## Multiple matches
 
 
-Count: 9
+Count: 10
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20754](https://github.com/keiyoushi/extensions-source/issues/20754) MangaLib / HentaiLib: Download server selection ignored & Search broken | MangaLib 1.6.2, HentaiLib | ⚠️ | MangaLib `100%` | [https://mangalib.me](https://mangalib.me) |
+| ↳ [#20754] |  | ✅ | HentaiLib `100%` | [https://hentailib.me](https://hentailib.me) |
 | [#20457](https://github.com/keiyoushi/extensions-source/issues/20457) Bookwalker: Extension Not Showing All Manga in Search | Bookwalker | ✅ | BookWalker `url` | [https://bookwalker.com](https://bookwalker.com) |
 | ↳ [#20457] |  | ✅ | BookWalker Japan `100%` | [https://bookwalker.jp](https://bookwalker.jp) |
 | [#20174](https://github.com/keiyoushi/extensions-source/issues/20174) issue with komiku's app | komiku | ✅ | Komiku `100%` | [https://komiku.org](https://komiku.org) |
