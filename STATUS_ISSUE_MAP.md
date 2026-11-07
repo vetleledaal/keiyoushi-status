@@ -1,20 +1,17 @@
 # Bug Issue → Extension Map
 
-Matched: 71 of 74 open bug issues\
-Timestamp: `2026-11-06T07:06:20+00:00`
+Matched: 68 of 71 open bug issues\
+Timestamp: `2026-11-07T10:40:09+00:00`
 
 
 ## Exact match
 
 
-Count: 50
+Count: 46
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20753](https://github.com/keiyoushi/extensions-source/issues/20753) Luscious: HTTP 400 on images when "merge chapter" is enabled | Luscious | 🚧 | Luscious `100%` | [https://members.luscious.net](https://members.luscious.net) |
-| [#20736](https://github.com/keiyoushi/extensions-source/issues/20736) Unable to Access Webcomics & Fix Its Paid Chapters | Webcomics | ✅ | Webcomics `100%` | [https://webcomicsapp.com](https://webcomicsapp.com) |
-| [#20702](https://github.com/keiyoushi/extensions-source/issues/20702) Athrea Scans: Manga status with paid chapters hidden | Athrea Scans | ✅ | Athrea Scans `100%` | [https://athreascans.com](https://athreascans.com) |
-| [#20697](https://github.com/keiyoushi/extensions-source/issues/20697) Emperor Scan does not extract the chapters | Emperor Scan | ✅ | Emperor Scan `100%` | [https://imperiomanhwa.com](https://imperiomanhwa.com) |
+| [#20809](https://github.com/keiyoushi/extensions-source/issues/20809) Speed Manga error403 | Speed Manga | 🔀 | Speed Manga `100%` | [https://speed-manga.net](https://speed-manga.net) |
 | [#20295](https://github.com/keiyoushi/extensions-source/issues/20295) Makimaaaaa: /manga/ listing 404s | Makimaaaaa | ✅ | Makimaaaaa `url` | [https://makimaaaaa.com](https://makimaaaaa.com) |
 | [#20291](https://github.com/keiyoushi/extensions-source/issues/20291) Azuretoons: browse fails, API returns 502 | Azuretoons | ✅ | Azuretoons `url` | [https://azuretoons.com](https://azuretoons.com) |
 | [#20179](https://github.com/keiyoushi/extensions-source/issues/20179) The Blank chapter streaming, and downloading, both fail. | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
@@ -58,17 +55,17 @@ Count: 50
 | [#9619](https://github.com/keiyoushi/extensions-source/issues/9619) TonizuToon: Some of the series were hidden. | TonizuToon | ✅ | TonizuToon `100%` | [https://tonizu.top](https://tonizu.top) |
 | [#9257](https://github.com/keiyoushi/extensions-source/issues/9257) SchaleNetwork: `NetworkOnMainThreadException` crash | SchaleNetwork | ✅ | SchaleNetwork `100%` | [https://niyaniya.moe](https://niyaniya.moe) |
 | [#8386](https://github.com/keiyoushi/extensions-source/issues/8386) Unable to view chapters unlocked in WebView | Tappytoon | ✅ | Tappytoon `100%` | [https://www.tappytoon.com/de](https://www.tappytoon.com/de) |
-| [#6594](https://github.com/keiyoushi/extensions-source/issues/6594) wnacg Browsing some galleries crashes the extension and TachiyomiSY | 紳士漫畫 | ✅ | 紳士漫畫 `100%` | [https://www.wnacg.buzz](https://www.wnacg.buzz) |
 | [#4882](https://github.com/keiyoushi/extensions-source/issues/4882) Komga: search containing ":" character will not return any results  | Komga | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
 | [#2131](https://github.com/keiyoushi/extensions-source/issues/2131) xkcd: support Unicode for hover text "panel" | xkcd | ✅ | xkcd `100%` | [https://es.xkcd.com](https://es.xkcd.com) |
 
 ## Single match
 
 
-Count: 11
+Count: 12
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20807](https://github.com/keiyoushi/extensions-source/issues/20807) Onf mangas not  working chapter  | Onf mangas | ✅ | ONF MANGAS `100%` | [https://onfmangas.com](https://onfmangas.com) |
 | [#20760](https://github.com/keiyoushi/extensions-source/issues/20760) 8muses extension not loading any content | 8muses | ✅ | 8Muses `100%` | [https://comics.8muses.com](https://comics.8muses.com) |
 | [#20717](https://github.com/keiyoushi/extensions-source/issues/20717) ParadoxScans HTTP error 403 | ParadoxScans | ✅ | Paradox Scans `96%` | [https://paradoxscans.com](https://paradoxscans.com) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
