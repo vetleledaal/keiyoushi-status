@@ -1,18 +1,21 @@
 # Bug Issue → Extension Map
 
-Matched: 40 of 40 open bug issues\
-Timestamp: `2026-11-08T09:36:36+00:00`
+Matched: 47 of 48 open bug issues\
+Timestamp: `2026-11-09T16:50:23+00:00`
 
 
 ## Exact match
 
 
-Count: 28
+Count: 31
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20841](https://github.com/keiyoushi/extensions-source/issues/20841) InfinityScans 404 for chapter | InfinityScans | ✅ | InfinityScans `100%` | [https://infinityscans.org](https://infinityscans.org) |
-| [#20295](https://github.com/keiyoushi/extensions-source/issues/20295) Makimaaaaa: /manga/ listing 404s | Makimaaaaa | ⚠️ | Makimaaaaa `url` | [https://makimaaaaa.com](https://makimaaaaa.com) |
+| [#20893](https://github.com/keiyoushi/extensions-source/issues/20893) MangaDot: <blank> scanlator entry appears on some entries | MangaDot | 🚧 | MangaDot `url` | [https://mangadot.net](https://mangadot.net) |
+| [#20877](https://github.com/keiyoushi/extensions-source/issues/20877) Bakaloli: extension blocked | Bakaloli | 🚧 | Bakaloli `100%` | [https://bakaloli.eu](https://bakaloli.eu) |
+| [#20873](https://github.com/keiyoushi/extensions-source/issues/20873) VoraToon HTTP error 500 | VoraToon | 🚧 | VoraToon `url` | [https://voratoon.co](https://voratoon.co) |
+| [#20866](https://github.com/keiyoushi/extensions-source/issues/20866) Error read chapter Kumanga | Kumanga | ✅ | Kumanga `100%` | [https://www.kumanga.com](https://www.kumanga.com) |
+| [#20295](https://github.com/keiyoushi/extensions-source/issues/20295) Makimaaaaa: /manga/ listing 404s | Makimaaaaa | ✅ | Makimaaaaa `url` | [https://makimaaaaa.com](https://makimaaaaa.com) |
 | [#20291](https://github.com/keiyoushi/extensions-source/issues/20291) Azuretoons: browse fails, API returns 502 | Azuretoons | ✅ | Azuretoons `url` | [https://azuretoons.com](https://azuretoons.com) |
 | [#20179](https://github.com/keiyoushi/extensions-source/issues/20179) The Blank chapter streaming, and downloading, both fail. | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
 | [#20074](https://github.com/keiyoushi/extensions-source/issues/20074) MangaLib and HentaiLib fail to load data in Suwayomi Server due to JSON decoding error | MangaLib | ⚠️ | MangaLib `100%` | [https://mangalib.me](https://mangalib.me) |
@@ -21,7 +24,7 @@ Count: 28
 | [#19530](https://github.com/keiyoushi/extensions-source/issues/19530) Sushiscan.fr http error 504 | Sushiscan.fr | ✅ | Sushiscan.fr `100%` | [https://sushiscan.fr](https://sushiscan.fr) |
 | [#19112](https://github.com/keiyoushi/extensions-source/issues/19112) [RavenManga] Old Episodes Not Working | RavenManga | ✅ | RavenManga `100%` | [https://raventard.xyz](https://raventard.xyz) |
 | [#18153](https://github.com/keiyoushi/extensions-source/issues/18153) Athrea Scans: Paid chapters has incomplete pages, paid chapters isn't toggleable without logging in | Athrea Scans | ✅ | Athrea Scans `100%` | [https://athreascans.com](https://athreascans.com) |
-| [#18082](https://github.com/keiyoushi/extensions-source/issues/18082) GölgeBahçesi Bug | Gölge Bahçesi | 🛑 | Gölge Bahçesi `100%` | [https://golgebahcesi.com](https://golgebahcesi.com) |
+| [#18082](https://github.com/keiyoushi/extensions-source/issues/18082) GölgeBahçesi Bug | Gölge Bahçesi | ✅ | Gölge Bahçesi `100%` | [https://golgebahcesi.com](https://golgebahcesi.com) |
 | [#17970](https://github.com/keiyoushi/extensions-source/issues/17970) You can't view the chapters of this manga. | CapibaraTraductor | ✅ | CapibaraTraductor `100%` | [https://capibaratraductor.com](https://capibaratraductor.com) |
 | [#17906](https://github.com/keiyoushi/extensions-source/issues/17906) Error 401 in Bladetoons | Bladetoons | ⚠️ | Bladetoons `100%` | [https://bladetoons.com](https://bladetoons.com) |
 | [#17758](https://github.com/keiyoushi/extensions-source/issues/17758) MangaYi: `Unexpected JSON token` error in Browse/Search | MangaYi | ✅ | MangaYi `100%` | [https://mangayi.com](https://mangayi.com) |
@@ -43,23 +46,28 @@ Count: 28
 ## Single match
 
 
-Count: 5
+Count: 8
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20900](https://github.com/keiyoushi/extensions-source/issues/20900) AllManga 1.6.32 - Timed Out Waiting For Webview After 20s | AllManga 1.6.32 - Timed Out Waiting For Webview After 20s | ✅ | AllManga `100%` | [https://mkissa.to](https://mkissa.to) |
+| [#20897](https://github.com/keiyoushi/extensions-source/issues/20897) fix onisaga | onisaga | 🚧 | OniSaga `100%` | [https://onisaga.com](https://onisaga.com) |
+| [#20883](https://github.com/keiyoushi/extensions-source/issues/20883) Mangaromance  HTPP error 404 | Mangaromance  1. | ⚠️ | Manga Romance `96%` | [https://mangaromance19.com](https://mangaromance19.com) |
+| [#20879](https://github.com/keiyoushi/extensions-source/issues/20879) Madokami ext have become way to slow | Madokami ext have become way to slow | ⚠️ | Madokami `100%` | [https://manga.madokami.al](https://manga.madokami.al) |
 | [#20856](https://github.com/keiyoushi/extensions-source/issues/20856) Wrong url used to open Webview in StreameX | StreameX Unoriginal | ✅ | StreameX (unoriginal) `100%` | [https://www.streamex.hn](https://www.streamex.hn) |
-| [#20717](https://github.com/keiyoushi/extensions-source/issues/20717) ParadoxScans HTTP error 403 | ParadoxScans | ✅ | Paradox Scans `96%` | [https://paradoxscans.com](https://paradoxscans.com) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 | [#20170](https://github.com/keiyoushi/extensions-source/issues/20170) soft Epsilon Scan "opening the chapter in WebView" | soft Epsilon Scan | 🛑 | Soft Epsilon Scan `100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
-| [#19769](https://github.com/keiyoushi/extensions-source/issues/19769) Managakalot.fun gives encryption unavailable error on new chapters | mangakalot.fun | ⚠️ | Mangakakalot.fun `93%` | [https://mangakakalot.fun](https://mangakakalot.fun) |
+| [#19769](https://github.com/keiyoushi/extensions-source/issues/19769) Managakalot.fun gives encryption unavailable error on new chapters | mangakalot.fun | ✅ | Mangakakalot.fun `93%` | [https://mangakakalot.fun](https://mangakakalot.fun) |
 
 ## Multiple matches
 
 
-Count: 7
+Count: 8
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20867](https://github.com/keiyoushi/extensions-source/issues/20867) MangaHub: HTTP 403 error | Mangahub | ✅ | MangaHub `100%` | [https://mangahub.io](https://mangahub.io) |
+| ↳ [#20867] |  | ✅ | Mangahub `100%` | [https://mangahub.ru](https://mangahub.ru) |
 | [#20457](https://github.com/keiyoushi/extensions-source/issues/20457) Bookwalker: Extension Not Showing All Manga in Search | Bookwalker | ✅ | BookWalker `url` | [https://bookwalker.com](https://bookwalker.com) |
 | ↳ [#20457] |  | ✅ | BookWalker Japan `100%` | [https://bookwalker.jp](https://bookwalker.jp) |
 | [#18672](https://github.com/keiyoushi/extensions-source/issues/18672) Rimu Scans: `Failed to initialize decoder`/chapter pages doesn't load with Premium chapters | 1.4.35 rimu scan | 🛑 | Rimu Scans `title 100%` | [https://rimuscan.fr](https://rimuscan.fr) |
@@ -79,7 +87,8 @@ Count: 7
 ## No match
 
 
-Count: 0
+Count: 1
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20857](https://github.com/keiyoushi/extensions-source/issues/20857) Keiyoushi: HTTP 504, unable to view, download, or update extensions | Keiyoushi extensions repo | | | |
