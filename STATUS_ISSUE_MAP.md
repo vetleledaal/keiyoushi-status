@@ -1,16 +1,18 @@
 # Bug Issue → Extension Map
 
-Matched: 41 of 42 open bug issues\
-Timestamp: `2026-11-10T11:20:26+00:00`
+Matched: 43 of 45 open bug issues\
+Timestamp: `2026-11-11T03:34:32+00:00`
 
 
 ## Exact match
 
 
-Count: 28
+Count: 30
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20955](https://github.com/keiyoushi/extensions-source/issues/20955) HenChan: Domain has changed | HenChan | ❌ | HenChan `100%` | [https://xxl.hentaichan.live](https://xxl.hentaichan.live) |
+| [#20954](https://github.com/keiyoushi/extensions-source/issues/20954) ManhwaOnline: Design change/ No results. | ManhwaOnline | ✅ | ManhwaOnline `100%` | [https://manhwaonline.org](https://manhwaonline.org) |
 | [#20877](https://github.com/keiyoushi/extensions-source/issues/20877) Bakaloli: extension blocked | Bakaloli | 🚧 | Bakaloli `100%` | [https://bakaloli.eu](https://bakaloli.eu) |
 | [#20866](https://github.com/keiyoushi/extensions-source/issues/20866) Error read chapter Kumanga | Kumanga | ✅ | Kumanga `100%` | [https://www.kumanga.com](https://www.kumanga.com) |
 | [#20295](https://github.com/keiyoushi/extensions-source/issues/20295) Makimaaaaa: /manga/ listing 404s | Makimaaaaa | ✅ | Makimaaaaa `url` | [https://makimaaaaa.com](https://makimaaaaa.com) |
@@ -36,7 +38,7 @@ Count: 28
 | [#12573](https://github.com/keiyoushi/extensions-source/issues/12573) Tapas: Download Naming Scheme Changed | Tapas | ✅ | Tapas `100%` | [https://tapas.io](https://tapas.io) |
 | [#12561](https://github.com/keiyoushi/extensions-source/issues/12561) Tapas: Removed but Unlocked series don't show up in search anymore | Tapas | ✅ | Tapas `100%` | [https://tapas.io](https://tapas.io) |
 | [#11751](https://github.com/keiyoushi/extensions-source/issues/11751) Zazhimi 杂志迷: broken thumbnail on search + not being able to search Japanese characters | 杂志迷 | ✅ | 杂志迷 `100%` | [https://www.zazhimi.net](https://www.zazhimi.net) |
-| [#9619](https://github.com/keiyoushi/extensions-source/issues/9619) TonizuToon: Some of the series were hidden. | TonizuToon | ⚠️ | TonizuToon `100%` | [https://tonizu.top](https://tonizu.top) |
+| [#9619](https://github.com/keiyoushi/extensions-source/issues/9619) TonizuToon: Some of the series were hidden. | TonizuToon | ✅ | TonizuToon `100%` | [https://tonizu.top](https://tonizu.top) |
 | [#8386](https://github.com/keiyoushi/extensions-source/issues/8386) Unable to view chapters unlocked in WebView | Tappytoon | ✅ | Tappytoon `100%` | [https://www.tappytoon.com/de](https://www.tappytoon.com/de) |
 | [#4882](https://github.com/keiyoushi/extensions-source/issues/4882) Komga: search containing ":" character will not return any results  | Komga | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
 
@@ -48,7 +50,7 @@ Count: 7
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
 | [#20943](https://github.com/keiyoushi/extensions-source/issues/20943) 10 ikiru wtf | id.mangatale | 🔀 | Ikiru `title 100%` | [https://09.ikiru.wtf](https://09.ikiru.wtf) |
-| [#20940](https://github.com/keiyoushi/extensions-source/issues/20940) Voratoon HTTP 404 | Keiyoushi | 🚧 | VoraToon `title 100%` | [https://voratoon.co](https://voratoon.co) |
+| [#20940](https://github.com/keiyoushi/extensions-source/issues/20940) Voratoon HTTP 404 | Voratoon | 🚧 | VoraToon `100%` | [https://voratoon.co](https://voratoon.co) |
 | [#20897](https://github.com/keiyoushi/extensions-source/issues/20897) fix onisaga | onisaga | 🚧 | OniSaga `100%` | [https://onisaga.com](https://onisaga.com) |
 | [#20883](https://github.com/keiyoushi/extensions-source/issues/20883) Mangaromance  HTPP error 404 | Mangaromance  1. | ⚠️ | Manga Romance `96%` | [https://mangaromance19.com](https://mangaromance19.com) |
 | [#20879](https://github.com/keiyoushi/extensions-source/issues/20879) Madokami ext have become way to slow | Madokami ext have become way to slow | ⚠️ | Madokami `100%` | [https://manga.madokami.al](https://manga.madokami.al) |
@@ -79,8 +81,9 @@ Count: 6
 ## No match
 
 
-Count: 1
+Count: 2
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#20960](https://github.com/keiyoushi/extensions-source/issues/20960) Kill Six Billion Demons: Some chapters unable to be downloaded | Kill Six Billion Demons | | | |
 | [#20857](https://github.com/keiyoushi/extensions-source/issues/20857) Keiyoushi: HTTP 504, unable to view, download, or update extensions | Keiyoushi extensions repo | | | |
