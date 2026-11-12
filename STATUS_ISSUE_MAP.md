@@ -1,17 +1,22 @@
 # Bug Issue → Extension Map
 
-Matched: 43 of 45 open bug issues\
-Timestamp: `2026-11-11T03:34:32+00:00`
+Matched: 44 of 45 open bug issues\
+Timestamp: `2026-11-12T16:18:17+00:00`
 
 
 ## Exact match
 
 
-Count: 30
+Count: 35
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20955](https://github.com/keiyoushi/extensions-source/issues/20955) HenChan: Domain has changed | HenChan | ❌ | HenChan `100%` | [https://xxl.hentaichan.live](https://xxl.hentaichan.live) |
+| [#20992](https://github.com/keiyoushi/extensions-source/issues/20992) Rinko Comics Free Chapters Locked or Unavailable | Rinko Comics | ✅ | Rinko Comics `100%` | [https://rinkocomics.com](https://rinkocomics.com) |
+| [#20988](https://github.com/keiyoushi/extensions-source/issues/20988) EZmanga's release dates aren't being read correctly | EZmanga | ✅ | EZmanga `100%` | [https://ezmanga.org](https://ezmanga.org) |
+| [#20987](https://github.com/keiyoushi/extensions-source/issues/20987) Doujindesu error HTTP 403 show invalid signatur while load chapter | Doujindesu | ✅ | Doujindesu `100%` | [https://doujin.desu.xxx](https://doujin.desu.xxx) |
+| [#20986](https://github.com/keiyoushi/extensions-source/issues/20986) Mist Scans has changed URL | Mist Scans | ⚠️ | Mist Scans `url` | [https://mistscans.com](https://mistscans.com) |
+| [#20982](https://github.com/keiyoushi/extensions-source/issues/20982) Error 404 in ( Catharsis world ) | Catharsis World | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
+| [#20955](https://github.com/keiyoushi/extensions-source/issues/20955) HenChan: Domain has changed | HenChan | ✅ | HenChan `100%` | [https://xxl.hentaichan.live](https://xxl.hentaichan.live) |
 | [#20954](https://github.com/keiyoushi/extensions-source/issues/20954) ManhwaOnline: Design change/ No results. | ManhwaOnline | ✅ | ManhwaOnline `100%` | [https://manhwaonline.org](https://manhwaonline.org) |
 | [#20877](https://github.com/keiyoushi/extensions-source/issues/20877) Bakaloli: extension blocked | Bakaloli | 🚧 | Bakaloli `100%` | [https://bakaloli.eu](https://bakaloli.eu) |
 | [#20866](https://github.com/keiyoushi/extensions-source/issues/20866) Error read chapter Kumanga | Kumanga | ✅ | Kumanga `100%` | [https://www.kumanga.com](https://www.kumanga.com) |
@@ -33,7 +38,7 @@ Count: 30
 | [#17094](https://github.com/keiyoushi/extensions-source/issues/17094) I've encountered several errors in Manga Crab | Manga Crab | ✅ | Manga Crab `100%` | [https://es.mangacrab.org](https://es.mangacrab.org) |
 | [#15858](https://github.com/keiyoushi/extensions-source/issues/15858) LinkManga: `Failed to bypass Cloudflare` error | LinkManga | ✅ | LinkManga `100%` | [https://linkmanga.com](https://linkmanga.com) |
 | [#15647](https://github.com/keiyoushi/extensions-source/issues/15647) Asura Scans: Unable to view locked chapters with Premium account signed in on WebView | Asura Scans | ✅ | Asura Scans `100%` | [https://asurascans.com](https://asurascans.com) |
-| [#15301](https://github.com/keiyoushi/extensions-source/issues/15301) Problem merlinscans from Chapter's section | Merlin Scans | ✅ | Merlin Scans `100%` | [https://merlintoon.com](https://merlintoon.com) |
+| [#15301](https://github.com/keiyoushi/extensions-source/issues/15301) Problem merlinscans from Chapter's section | Merlin Scans | 🔀 | Merlin Scans `100%` | [https://merlintoon.com](https://merlintoon.com) |
 | [#14354](https://github.com/keiyoushi/extensions-source/issues/14354) 巴卡漫画无法通过人机验证 | 巴卡漫画 | 🚧 | 巴卡漫画 `100%` | [https://bakamh.com](https://bakamh.com) |
 | [#12573](https://github.com/keiyoushi/extensions-source/issues/12573) Tapas: Download Naming Scheme Changed | Tapas | ✅ | Tapas `100%` | [https://tapas.io](https://tapas.io) |
 | [#12561](https://github.com/keiyoushi/extensions-source/issues/12561) Tapas: Removed but Unlocked series don't show up in search anymore | Tapas | ✅ | Tapas `100%` | [https://tapas.io](https://tapas.io) |
@@ -45,15 +50,11 @@ Count: 30
 ## Single match
 
 
-Count: 7
+Count: 3
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20943](https://github.com/keiyoushi/extensions-source/issues/20943) 10 ikiru wtf | id.mangatale | 🔀 | Ikiru `title 100%` | [https://09.ikiru.wtf](https://09.ikiru.wtf) |
-| [#20940](https://github.com/keiyoushi/extensions-source/issues/20940) Voratoon HTTP 404 | Voratoon | 🚧 | VoraToon `100%` | [https://voratoon.co](https://voratoon.co) |
-| [#20897](https://github.com/keiyoushi/extensions-source/issues/20897) fix onisaga | onisaga | 🚧 | OniSaga `100%` | [https://onisaga.com](https://onisaga.com) |
-| [#20883](https://github.com/keiyoushi/extensions-source/issues/20883) Mangaromance  HTPP error 404 | Mangaromance  1. | ⚠️ | Manga Romance `96%` | [https://mangaromance19.com](https://mangaromance19.com) |
-| [#20879](https://github.com/keiyoushi/extensions-source/issues/20879) Madokami ext have become way to slow | Madokami ext have become way to slow | ⚠️ | Madokami `100%` | [https://manga.madokami.al](https://manga.madokami.al) |
+| [#20967](https://github.com/keiyoushi/extensions-source/issues/20967) Temple Scan en Español – New Website URL Update | Temple scan | ✅ | Temple Scan `100%` | [https://templetoons.com](https://templetoons.com) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 | [#20170](https://github.com/keiyoushi/extensions-source/issues/20170) soft Epsilon Scan "opening the chapter in WebView" | soft Epsilon Scan | 🛑 | Soft Epsilon Scan `100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
 
@@ -67,7 +68,7 @@ Count: 6
 | [#20457](https://github.com/keiyoushi/extensions-source/issues/20457) Bookwalker: Extension Not Showing All Manga in Search | Bookwalker | ✅ | BookWalker `url` | [https://bookwalker.com](https://bookwalker.com) |
 | ↳ [#20457] |  | ✅ | BookWalker Japan `100%` | [https://bookwalker.jp](https://bookwalker.jp) |
 | [#18672](https://github.com/keiyoushi/extensions-source/issues/18672) Rimu Scans: `Failed to initialize decoder`/chapter pages doesn't load with Premium chapters | 1.4.35 rimu scan | 🛑 | Rimu Scans `title 100%` | [https://rimuscan.fr](https://rimuscan.fr) |
-| ↳ [#18672] |  | ✅ | Grim Scans `title 90%` | [https://grimscans.com](https://grimscans.com) |
+| ↳ [#18672] |  | ⚠️ | Grim Scans `title 90%` | [https://grimscans.com](https://grimscans.com) |
 | [#18008](https://github.com/keiyoushi/extensions-source/issues/18008) Problem while migrating | MangaK | ✅ | MangaK `100%` | [https://mangak.io](https://mangak.io) |
 | ↳ [#18008] |  | ✅ | Mangack `92%` | [https://mangack.com](https://mangack.com) |
 | [#17622](https://github.com/keiyoushi/extensions-source/issues/17622) Allporncomics | AllPornComics.co | ✅ | AllPornComics.co `100%` | [https://allporncomics.co](https://allporncomics.co) |
@@ -81,9 +82,8 @@ Count: 6
 ## No match
 
 
-Count: 2
+Count: 1
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20960](https://github.com/keiyoushi/extensions-source/issues/20960) Kill Six Billion Demons: Some chapters unable to be downloaded | Kill Six Billion Demons | | | |
 | [#20857](https://github.com/keiyoushi/extensions-source/issues/20857) Keiyoushi: HTTP 504, unable to view, download, or update extensions | Keiyoushi extensions repo | | | |
