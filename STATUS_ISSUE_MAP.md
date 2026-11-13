@@ -1,28 +1,25 @@
 # Bug Issue → Extension Map
 
-Matched: 44 of 45 open bug issues\
-Timestamp: `2026-11-12T16:18:17+00:00`
+Matched: 41 of 42 open bug issues\
+Timestamp: `2026-11-13T07:03:32+00:00`
 
 
 ## Exact match
 
 
-Count: 35
+Count: 32
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#21021](https://github.com/keiyoushi/extensions-source/issues/21021) OlympusScanlation Error HTTP 500 | Olympus Scanlation | ✅ | Olympus Scanlation `100%` | [https://olympusxyz.com](https://olympusxyz.com) |
+| [#21018](https://github.com/keiyoushi/extensions-source/issues/21018) Kagane existing library titles missing from search and not receiving new chapters | Kagane | 🚧 | Kagane `100%` | [https://kagane.moe](https://kagane.moe) |
 | [#20992](https://github.com/keiyoushi/extensions-source/issues/20992) Rinko Comics Free Chapters Locked or Unavailable | Rinko Comics | ✅ | Rinko Comics `100%` | [https://rinkocomics.com](https://rinkocomics.com) |
-| [#20988](https://github.com/keiyoushi/extensions-source/issues/20988) EZmanga's release dates aren't being read correctly | EZmanga | ✅ | EZmanga `100%` | [https://ezmanga.org](https://ezmanga.org) |
-| [#20987](https://github.com/keiyoushi/extensions-source/issues/20987) Doujindesu error HTTP 403 show invalid signatur while load chapter | Doujindesu | ✅ | Doujindesu `100%` | [https://doujin.desu.xxx](https://doujin.desu.xxx) |
 | [#20986](https://github.com/keiyoushi/extensions-source/issues/20986) Mist Scans has changed URL | Mist Scans | ⚠️ | Mist Scans `url` | [https://mistscans.com](https://mistscans.com) |
-| [#20982](https://github.com/keiyoushi/extensions-source/issues/20982) Error 404 in ( Catharsis world ) | Catharsis World | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
-| [#20955](https://github.com/keiyoushi/extensions-source/issues/20955) HenChan: Domain has changed | HenChan | ✅ | HenChan `100%` | [https://xxl.hentaichan.live](https://xxl.hentaichan.live) |
+| [#20955](https://github.com/keiyoushi/extensions-source/issues/20955) HenChan: Domain has changed | HenChan | ⚠️ | HenChan `100%` | [https://xxl.hentaichan.live](https://xxl.hentaichan.live) |
 | [#20954](https://github.com/keiyoushi/extensions-source/issues/20954) ManhwaOnline: Design change/ No results. | ManhwaOnline | ✅ | ManhwaOnline `100%` | [https://manhwaonline.org](https://manhwaonline.org) |
 | [#20877](https://github.com/keiyoushi/extensions-source/issues/20877) Bakaloli: extension blocked | Bakaloli | 🚧 | Bakaloli `100%` | [https://bakaloli.eu](https://bakaloli.eu) |
-| [#20866](https://github.com/keiyoushi/extensions-source/issues/20866) Error read chapter Kumanga | Kumanga | ✅ | Kumanga `100%` | [https://www.kumanga.com](https://www.kumanga.com) |
 | [#20295](https://github.com/keiyoushi/extensions-source/issues/20295) Makimaaaaa: /manga/ listing 404s | Makimaaaaa | ✅ | Makimaaaaa `url` | [https://makimaaaaa.com](https://makimaaaaa.com) |
 | [#20291](https://github.com/keiyoushi/extensions-source/issues/20291) Azuretoons: browse fails, API returns 502 | Azuretoons | ✅ | Azuretoons `url` | [https://azuretoons.com](https://azuretoons.com) |
-| [#20179](https://github.com/keiyoushi/extensions-source/issues/20179) The Blank chapter streaming, and downloading, both fail. | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
 | [#20074](https://github.com/keiyoushi/extensions-source/issues/20074) MangaLib and HentaiLib fail to load data in Suwayomi Server due to JSON decoding error | MangaLib | ⚠️ | MangaLib `100%` | [https://mangalib.me](https://mangalib.me) |
 | [#19935](https://github.com/keiyoushi/extensions-source/issues/19935) Frequent 403 error when reading or downloading chapters | Lura Toon | ⚠️ | Lura Toon `100%` | [https://luratoons.net](https://luratoons.net) |
 | [#19876](https://github.com/keiyoushi/extensions-source/issues/19876) Sana Scans Unable to access Paid chapters | Sana Scans | ✅ | Sana Scans `100%` | [https://sanascans.com](https://sanascans.com) |
@@ -54,9 +51,9 @@ Count: 3
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20967](https://github.com/keiyoushi/extensions-source/issues/20967) Temple Scan en Español – New Website URL Update | Temple scan | ✅ | Temple Scan `100%` | [https://templetoons.com](https://templetoons.com) |
+| [#21020](https://github.com/keiyoushi/extensions-source/issues/21020) voratoon no pages found | Voratoon | 🚧 | VoraToon `100%` | [https://voratoon.co](https://voratoon.co) |
+| [#21002](https://github.com/keiyoushi/extensions-source/issues/21002) Problemas com a extensão | Xxxyaoi | 🚧 | XXX Yaoi `93%` | [https://3xyaoi.com](https://3xyaoi.com) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
-| [#20170](https://github.com/keiyoushi/extensions-source/issues/20170) soft Epsilon Scan "opening the chapter in WebView" | soft Epsilon Scan | 🛑 | Soft Epsilon Scan `100%` | [https://epsilonsoft.to](https://epsilonsoft.to) |
 
 ## Multiple matches
 
