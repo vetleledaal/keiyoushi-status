@@ -1,7 +1,7 @@
 # Bug Issue → Extension Map
 
-Matched: 40 of 42 open bug issues\
-Timestamp: `2026-11-18T02:02:15+00:00`
+Matched: 41 of 43 open bug issues\
+Timestamp: `2026-11-18T05:00:10+00:00`
 
 
 ## Exact match
@@ -44,7 +44,7 @@ Count: 29
 ## Single match
 
 
-Count: 5
+Count: 6
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
@@ -52,6 +52,7 @@ Count: 5
 | [#21155](https://github.com/keiyoushi/extensions-source/issues/21155) Reimanga cant find page on every chapter | Reimanga | ✅ | ReiManga `100%` | [https://reimanga.net](https://reimanga.net) |
 | [#21135](https://github.com/keiyoushi/extensions-source/issues/21135) Siikomik not found but in webview normal | id.siimanga | 🔀 | Siikomik `title 100%` | [https://siikomik.id](https://siikomik.id) |
 | [#21131](https://github.com/keiyoushi/extensions-source/issues/21131) Luscious.net | Luscious.net | 🚧 | Luscious `100%` | [https://members.luscious.net](https://members.luscious.net) |
+| [#21113](https://github.com/keiyoushi/extensions-source/issues/21113) XXX Yaoi: `Failed to bypass Cloudflare`, `HTTP 403` error | Xxxyaoi | 🚧 | XXX Yaoi `100%` | [https://3xyaoi.com](https://3xyaoi.com) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 
 ## Multiple matches
