@@ -244,6 +244,7 @@ class Status(StrEnum):
     WARNING = "⚠️"
     CF_BLOCK = "🛑"
     CF_IUAM = "🚧"
+    GOOGLE_BLOCK = "🚫"
     REDIRECT = "🔀"
     PARKED = "🅿️"
     NOT_FOUND = "🔍"
@@ -255,6 +256,7 @@ REPORT_SECTIONS: list[tuple[str, Status]] = [
     ("Redirects", Status.REDIRECT),
     ("Cloudflare IUAM", Status.CF_IUAM),
     ("Cloudflare Blocked", Status.CF_BLOCK),
+    ("Google Blocked", Status.GOOGLE_BLOCK),
     ("Placeholder", Status.PLACEHOLDER),
     ("Parked Domains", Status.PARKED),
     ("Warnings", Status.WARNING),
@@ -377,6 +379,11 @@ def check_parked_redirect(redirected_url: URL) -> list[str]:
     return signals
 
 
+def is_google_block_redirect(redirected_url: URL) -> bool:
+    host = redirected_url.host or ""
+    return (host == "google.com" or host.endswith(".google.com")) and redirected_url.path == "/sorry/index"
+
+
 def check_parked_content(title: str, html: str) -> list[str]:
     signals: list[str] = []
     if title in PARKED_TITLES:
@@ -448,6 +455,8 @@ async def check_url_generic(
         redirected = not str(resp.url).startswith(url)
         if redirected:
             infos.append(f"Redirected: {resp.url}")
+            if is_google_block_redirect(resp.url):
+                return result(Status.GOOGLE_BLOCK)
             parked_signals.extend(check_parked_redirect(resp.url))
 
         title = soup.title.string.strip() if soup.title and soup.title.string else ""
