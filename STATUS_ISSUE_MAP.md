@@ -1,20 +1,22 @@
 # Bug Issue → Extension Map
 
-Matched: 37 of 38 open bug issues\
-Timestamp: `2026-11-17T11:59:30+00:00`
+Matched: 40 of 42 open bug issues\
+Timestamp: `2026-11-18T02:02:15+00:00`
 
 
 ## Exact match
 
 
-Count: 27
+Count: 29
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#21163](https://github.com/keiyoushi/extensions-source/issues/21163) Mudança de domínio na fleur scan | Fleur Blanche | ❌ | Fleur Blanche `100%` | [https://fbsscan.com](https://fbsscan.com) |
+| [#21159](https://github.com/keiyoushi/extensions-source/issues/21159) Kaguya NullPointException issue | Kaguya | 🛑 | Kaguya `100%` | [https://02.kaguya.pro](https://02.kaguya.pro) |
+| [#21140](https://github.com/keiyoushi/extensions-source/issues/21140) Comix can't load chapter list | Comix | ✅ | Comix `100%` | [https://comix.to](https://comix.to) |
 | [#21130](https://github.com/keiyoushi/extensions-source/issues/21130) [Lunar Manga] 1.6.8 shows "Read at LunarAnime.ru" decoy images instead of chapter pages (no error)  #21042 | Lunar Manga | ✅ | Lunar Manga `100%` | [https://lunarx.to](https://lunarx.to) |
 | [#21096](https://github.com/keiyoushi/extensions-source/issues/21096) Kaguya change domain | Kaguya | 🛑 | Kaguya `100%` | [https://02.kaguya.pro](https://02.kaguya.pro) |
-| [#21081](https://github.com/keiyoushi/extensions-source/issues/21081) Unable to read comics from Cocomic in Mihon | Cocomic | ✅ | Cocomic `100%` | [https://cocomic.co](https://cocomic.co) |
-| [#21030](https://github.com/keiyoushi/extensions-source/issues/21030) "Method void" Aedex | Aedex | ✅ | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
+| [#21030](https://github.com/keiyoushi/extensions-source/issues/21030) Aedex: `Expected URL scheme` error | Aedex | ✅ | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
 | [#21028](https://github.com/keiyoushi/extensions-source/issues/21028) The Blank issue | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
 | [#21023](https://github.com/keiyoushi/extensions-source/issues/21023) Catharsis World won't let you read the story. | Catharsis World | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
 | [#20955](https://github.com/keiyoushi/extensions-source/issues/20955) HenChan: Domain has changed | HenChan | ⚠️ | HenChan `100%` | [https://xxl.hentaichan.live](https://xxl.hentaichan.live) |
@@ -42,23 +44,23 @@ Count: 27
 ## Single match
 
 
-Count: 3
+Count: 5
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#21162](https://github.com/keiyoushi/extensions-source/issues/21162) domain change, domain update | Luvya | 🔀 | Luvyaa `91%` | [https://v5.luvyaa.co](https://v5.luvyaa.co) |
+| [#21155](https://github.com/keiyoushi/extensions-source/issues/21155) Reimanga cant find page on every chapter | Reimanga | ✅ | ReiManga `100%` | [https://reimanga.net](https://reimanga.net) |
+| [#21135](https://github.com/keiyoushi/extensions-source/issues/21135) Siikomik not found but in webview normal | id.siimanga | 🔀 | Siikomik `title 100%` | [https://siikomik.id](https://siikomik.id) |
 | [#21131](https://github.com/keiyoushi/extensions-source/issues/21131) Luscious.net | Luscious.net | 🚧 | Luscious `100%` | [https://members.luscious.net](https://members.luscious.net) |
-| [#21113](https://github.com/keiyoushi/extensions-source/issues/21113) Problema com a extensão | Xxxyaoi | 🚧 | XXX Yaoi `93%` | [https://3xyaoi.com](https://3xyaoi.com) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 
 ## Multiple matches
 
 
-Count: 7
+Count: 6
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21133](https://github.com/keiyoushi/extensions-source/issues/21133) MangaSwat – Some manga chapters still show anti-piracy warning images on the first 3–5 pages after update 1.6.63 | MangaSwat – | ✅ | MangaSwat `100%` | [https://meshmanga.com](https://meshmanga.com) |
-| ↳ [#21133] |  | ✅ | Manga-5 `title 100%` | [https://manga-5.com](https://manga-5.com) |
 | [#20457](https://github.com/keiyoushi/extensions-source/issues/20457) Bookwalker: Extension Not Showing All Manga in Search | Bookwalker | ✅ | BookWalker `url` | [https://bookwalker.com](https://bookwalker.com) |
 | ↳ [#20457] |  | ✅ | BookWalker Japan `100%` | [https://bookwalker.jp](https://bookwalker.jp) |
 | ↳ [#20457] |  | ✅ | BookWalker Taiwan `100%` | [https://www.bookwalker.com.tw](https://www.bookwalker.com.tw) |
@@ -78,8 +80,9 @@ Count: 7
 ## No match
 
 
-Count: 1
+Count: 2
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#21151](https://github.com/keiyoushi/extensions-source/issues/21151) Pro comic | Pro comic | | | |
 | [#20857](https://github.com/keiyoushi/extensions-source/issues/20857) Keiyoushi: HTTP 504, unable to view, download, or update extensions | Keiyoushi extensions repo | | | |
