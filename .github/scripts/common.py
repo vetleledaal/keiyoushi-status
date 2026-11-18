@@ -290,6 +290,8 @@ PARKED_TITLES = [
 ]
 
 PARKED_BODIES = [
+    """lander.parity.domains""",
+    """Domain registration has expired.""",
     '''"/lander"''',
     '''"domainPrice"''',
     '''"domainRegistrant"''',
