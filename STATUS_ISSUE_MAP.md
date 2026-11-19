@@ -1,25 +1,28 @@
 # Bug Issue → Extension Map
 
-Matched: 41 of 43 open bug issues\
-Timestamp: `2026-11-18T05:00:10+00:00`
+Matched: 42 of 43 open bug issues\
+Timestamp: `2026-11-19T16:52:18+00:00`
 
 
 ## Exact match
 
 
-Count: 29
+Count: 32
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21163](https://github.com/keiyoushi/extensions-source/issues/21163) Mudança de domínio na fleur scan | Fleur Blanche | ❌ | Fleur Blanche `100%` | [https://fbsscan.com](https://fbsscan.com) |
-| [#21159](https://github.com/keiyoushi/extensions-source/issues/21159) Kaguya NullPointException issue | Kaguya | 🛑 | Kaguya `100%` | [https://02.kaguya.pro](https://02.kaguya.pro) |
-| [#21140](https://github.com/keiyoushi/extensions-source/issues/21140) Comix can't load chapter list | Comix | ✅ | Comix `100%` | [https://comix.to](https://comix.to) |
-| [#21130](https://github.com/keiyoushi/extensions-source/issues/21130) [Lunar Manga] 1.6.8 shows "Read at LunarAnime.ru" decoy images instead of chapter pages (no error)  #21042 | Lunar Manga | ✅ | Lunar Manga `100%` | [https://lunarx.to](https://lunarx.to) |
-| [#21096](https://github.com/keiyoushi/extensions-source/issues/21096) Kaguya change domain | Kaguya | 🛑 | Kaguya `100%` | [https://02.kaguya.pro](https://02.kaguya.pro) |
-| [#21030](https://github.com/keiyoushi/extensions-source/issues/21030) Aedex: `Expected URL scheme` error | Aedex | ✅ | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
+| [#21234](https://github.com/keiyoushi/extensions-source/issues/21234) Komga: Unable to track reading progress when using API key for authentication | Komga | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
+| [#21233](https://github.com/keiyoushi/extensions-source/issues/21233) Error when accessing chapters | Cerise Scan | ✅ | Cerise Scan `100%` | [https://loverstoon.net](https://loverstoon.net) |
+| [#21225](https://github.com/keiyoushi/extensions-source/issues/21225) Lavinia Fansub: Url Changed | Lavinia Fansub | 🔀 | Lavinia Fansub `100%` | [https://laviniafansub.shop](https://laviniafansub.shop) |
+| [#21224](https://github.com/keiyoushi/extensions-source/issues/21224) Manhuarm | Manhuarm | 🚧 | Manhuarm `100%` | [https://manhuarmtl.com](https://manhuarmtl.com) |
+| [#21218](https://github.com/keiyoushi/extensions-source/issues/21218) Kumanga: `No page list` error | Kumanga | ✅ | Kumanga `100%` | [https://www.kumanga.com](https://www.kumanga.com) |
+| [#21215](https://github.com/keiyoushi/extensions-source/issues/21215) (Mangabox) Mangakakalot: Website redesign, update mirror URL (`katamanga.com`) | Mangakakalot | ✅ | Mangakakalot `100%` | [https://www.mangakakalove.com](https://www.mangakakalove.com) |
+| [#21206](https://github.com/keiyoushi/extensions-source/issues/21206) Komiwa: Chapter images shows website ad | Komiwa | ✅ | Komiwa `100%` | [https://www.komiwa.net](https://www.komiwa.net) |
+| [#21175](https://github.com/keiyoushi/extensions-source/issues/21175) (Mangabox) Manganato: Website redesign, update mirror URL (`natumanga.com`) | Manganato | ✅ | Manganato `100%` | [https://www.manganato.gg](https://www.manganato.gg) |
+| [#21030](https://github.com/keiyoushi/extensions-source/issues/21030) Aedex: `Expected URL scheme` error | Aedex | 🛑 | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
 | [#21028](https://github.com/keiyoushi/extensions-source/issues/21028) The Blank issue | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
-| [#21023](https://github.com/keiyoushi/extensions-source/issues/21023) Catharsis World won't let you read the story. | Catharsis World | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
-| [#20955](https://github.com/keiyoushi/extensions-source/issues/20955) HenChan: Domain has changed | HenChan | ⚠️ | HenChan `100%` | [https://xxl.hentaichan.live](https://xxl.hentaichan.live) |
+| [#21023](https://github.com/keiyoushi/extensions-source/issues/21023) Catharsis World: `The site's reader changed` error | Catharsis World | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
+| [#20955](https://github.com/keiyoushi/extensions-source/issues/20955) HenChan: Domain has changed | HenChan | ✅ | HenChan `100%` | [https://xxl.hentaichan.live](https://xxl.hentaichan.live) |
 | [#20877](https://github.com/keiyoushi/extensions-source/issues/20877) Bakaloli: extension blocked | Bakaloli | 🚧 | Bakaloli `100%` | [https://bakaloli.eu](https://bakaloli.eu) |
 | [#20295](https://github.com/keiyoushi/extensions-source/issues/20295) Makimaaaaa: /manga/ listing 404s | Makimaaaaa | ✅ | Makimaaaaa `url` | [https://makimaaaaa.com](https://makimaaaaa.com) |
 | [#20291](https://github.com/keiyoushi/extensions-source/issues/20291) Azuretoons: browse fails, API returns 502 | Azuretoons | ✅ | Azuretoons `url` | [https://azuretoons.com](https://azuretoons.com) |
@@ -44,14 +47,12 @@ Count: 29
 ## Single match
 
 
-Count: 6
+Count: 4
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21162](https://github.com/keiyoushi/extensions-source/issues/21162) domain change, domain update | Luvya | 🔀 | Luvyaa `91%` | [https://v5.luvyaa.co](https://v5.luvyaa.co) |
-| [#21155](https://github.com/keiyoushi/extensions-source/issues/21155) Reimanga cant find page on every chapter | Reimanga | ✅ | ReiManga `100%` | [https://reimanga.net](https://reimanga.net) |
-| [#21135](https://github.com/keiyoushi/extensions-source/issues/21135) Siikomik not found but in webview normal | id.siimanga | 🔀 | Siikomik `title 100%` | [https://siikomik.id](https://siikomik.id) |
-| [#21131](https://github.com/keiyoushi/extensions-source/issues/21131) Luscious.net | Luscious.net | 🚧 | Luscious `100%` | [https://members.luscious.net](https://members.luscious.net) |
+| [#21230](https://github.com/keiyoushi/extensions-source/issues/21230) WebtoonLib: No pages found when opening any chapter | WebtoonLib 1.6.1  Source ID: eu.kanade.tachiyomi.extensions.en.webtoonlib  Repository: Keiyoushi | 🛑 | WebtoonLib `100%` | [https://webtoonlib.to](https://webtoonlib.to) |
+| [#21174](https://github.com/keiyoushi/extensions-source/issues/21174) Shinigami: New website backend & URL (`s1.shinigami.mx`) | Shinigami: New website backend & URL (`s1.shinigami.mx`) | 🔀 | Shinigami `100%` | [https://11.shinigami.asia](https://11.shinigami.asia) |
 | [#21113](https://github.com/keiyoushi/extensions-source/issues/21113) XXX Yaoi: `Failed to bypass Cloudflare`, `HTTP 403` error | Xxxyaoi | 🚧 | XXX Yaoi `100%` | [https://3xyaoi.com](https://3xyaoi.com) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 
@@ -81,9 +82,8 @@ Count: 6
 ## No match
 
 
-Count: 2
+Count: 1
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21151](https://github.com/keiyoushi/extensions-source/issues/21151) Pro comic | Pro comic | | | |
 | [#20857](https://github.com/keiyoushi/extensions-source/issues/20857) Keiyoushi: HTTP 504, unable to view, download, or update extensions | Keiyoushi extensions repo | | | |
