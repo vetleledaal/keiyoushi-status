@@ -1,31 +1,26 @@
 # Bug Issue → Extension Map
 
-Matched: 37 of 38 open bug issues\
-Timestamp: `2026-11-20T07:36:46+00:00`
+Matched: 33 of 34 open bug issues\
+Timestamp: `2026-11-21T11:40:47+00:00`
 
 
 ## Exact match
 
 
-Count: 29
+Count: 24
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21261](https://github.com/keiyoushi/extensions-source/issues/21261) Error al abrir capítulos del catálogo de Aedex | Aedex | 🛑 | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
-| [#21260](https://github.com/keiyoushi/extensions-source/issues/21260) Aqua Manga Extension Unknown Error | Aqua Manga | 🚧 | Aqua Manga `100%` | [https://aquareader.org](https://aquareader.org) |
-| [#21259](https://github.com/keiyoushi/extensions-source/issues/21259) Lunar Manga 1.6.9 cannot open the chapter issue | Lunar Manga | ✅ | Lunar Manga `100%` | [https://lunarx.to](https://lunarx.to) |
+| [#21284](https://github.com/keiyoushi/extensions-source/issues/21284) Mangaworld extension not working | Mangaworld | 🔀 | Mangaworld `100%` | [https://www.mangaworld.mx](https://www.mangaworld.mx) |
 | [#21234](https://github.com/keiyoushi/extensions-source/issues/21234) Komga: Unable to track reading progress when using API key for authentication | Komga | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
 | [#21233](https://github.com/keiyoushi/extensions-source/issues/21233) Error when accessing chapters | Cerise Scan | ✅ | Cerise Scan `100%` | [https://loverstoon.net](https://loverstoon.net) |
-| [#21215](https://github.com/keiyoushi/extensions-source/issues/21215) (Mangabox) Mangakakalot: Website redesign, update mirror URL (`katamanga.com`) | Mangakakalot | ✅ | Mangakakalot `100%` | [https://www.mangakakalove.com](https://www.mangakakalove.com) |
-| [#21175](https://github.com/keiyoushi/extensions-source/issues/21175) (Mangabox) Manganato: Website redesign, update mirror URL (`natumanga.com`) | Manganato | ✅ | Manganato `100%` | [https://www.manganato.gg](https://www.manganato.gg) |
 | [#21028](https://github.com/keiyoushi/extensions-source/issues/21028) The Blank issue | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
 | [#21023](https://github.com/keiyoushi/extensions-source/issues/21023) Catharsis World: `The site's reader changed` error | Catharsis World | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
 | [#20877](https://github.com/keiyoushi/extensions-source/issues/20877) Bakaloli: extension blocked | Bakaloli | 🚧 | Bakaloli `100%` | [https://bakaloli.eu](https://bakaloli.eu) |
 | [#20295](https://github.com/keiyoushi/extensions-source/issues/20295) Makimaaaaa: /manga/ listing 404s | Makimaaaaa | ✅ | Makimaaaaa `url` | [https://makimaaaaa.com](https://makimaaaaa.com) |
 | [#20291](https://github.com/keiyoushi/extensions-source/issues/20291) Azuretoons: browse fails, API returns 502 | Azuretoons | ✅ | Azuretoons `url` | [https://azuretoons.com](https://azuretoons.com) |
-| [#19935](https://github.com/keiyoushi/extensions-source/issues/19935) Frequent 403 error when reading or downloading chapters | Lura Toon | ⚠️ | Lura Toon `100%` | [https://luratoons.net](https://luratoons.net) |
 | [#19876](https://github.com/keiyoushi/extensions-source/issues/19876) Sana Scans Unable to access Paid chapters | Sana Scans | ✅ | Sana Scans `100%` | [https://sanascans.com](https://sanascans.com) |
-| [#19530](https://github.com/keiyoushi/extensions-source/issues/19530) Sushiscan.fr http error 504 | Sushiscan.fr | ✅ | Sushiscan.fr `100%` | [https://sushiscan.fr](https://sushiscan.fr) |
+| [#19530](https://github.com/keiyoushi/extensions-source/issues/19530) Sushiscan.fr http error 504 | Sushiscan.fr | ❌ | Sushiscan.fr `100%` | [https://sushiscan.fr](https://sushiscan.fr) |
 | [#19112](https://github.com/keiyoushi/extensions-source/issues/19112) [RavenManga] Old Episodes Not Working | RavenManga | ✅ | RavenManga `100%` | [https://raventard.xyz](https://raventard.xyz) |
 | [#18153](https://github.com/keiyoushi/extensions-source/issues/18153) Athrea Scans: Paid chapters has incomplete pages, paid chapters isn't toggleable without logging in | Athrea Scans | ✅ | Athrea Scans `100%` | [https://athreascans.com](https://athreascans.com) |
 | [#18082](https://github.com/keiyoushi/extensions-source/issues/18082) GölgeBahçesi Bug | Gölge Bahçesi | ✅ | Gölge Bahçesi `100%` | [https://golgebahcesi.com](https://golgebahcesi.com) |
@@ -44,10 +39,11 @@ Count: 29
 ## Single match
 
 
-Count: 2
+Count: 3
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#21288](https://github.com/keiyoushi/extensions-source/issues/21288) The website address has changed. | Okutoon | 🔀 | OkuToon `100%` | [https://okutoon.com](https://okutoon.com) |
 | [#21113](https://github.com/keiyoushi/extensions-source/issues/21113) XXX Yaoi: `Failed to bypass Cloudflare`, `HTTP 403` error | Xxxyaoi | 🚧 | XXX Yaoi `100%` | [https://3xyaoi.com](https://3xyaoi.com) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 
@@ -72,7 +68,7 @@ Count: 6
 | [#13566](https://github.com/keiyoushi/extensions-source/issues/13566) GigaViewer theme sources not showing downloads | Comic Days 1.4.9, Sunday Web Every | ✅ | Comic Days `100%` | [https://comic-days.com](https://comic-days.com) |
 | ↳ [#13566] |  | ✅ | Sunday Web Every `100%` | [https://www.sunday-webry.com](https://www.sunday-webry.com) |
 | [#9274](https://github.com/keiyoushi/extensions-source/issues/9274) Magadex - Filter for "has available chapters" does not work | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
-| ↳ [#9274] |  | ✅ | MangaDE `93%` | [https://mangade.io](https://mangade.io) |
+| ↳ [#9274] |  | ❌ | MangaDE `93%` | [https://mangade.io](https://mangade.io) |
 
 ## No match
 
