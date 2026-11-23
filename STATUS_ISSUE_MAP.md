@@ -1,23 +1,20 @@
 # Bug Issue → Extension Map
 
-Matched: 44 of 45 open bug issues\
-Timestamp: `2026-11-22T10:27:20+00:00`
+Matched: 35 of 35 open bug issues\
+Timestamp: `2026-11-23T18:42:23+00:00`
 
 
 ## Exact match
 
 
-Count: 29
+Count: 26
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21317](https://github.com/keiyoushi/extensions-source/issues/21317) Sushi-Scan: Wrong chapter dates | Sushi-Scan | ✅ | Sushi-Scan `100%` | [https://sushiscan.net](https://sushiscan.net) |
-| [#21308](https://github.com/keiyoushi/extensions-source/issues/21308) Kumanga: `No pages list` error on chapters | Kumanga | ✅ | Kumanga `100%` | [https://www.kumanga.com](https://www.kumanga.com) |
-| [#21307](https://github.com/keiyoushi/extensions-source/issues/21307) Komiwa: `Attempt to invoke virtual method` error | Komiwa | ✅ | Komiwa `100%` | [https://www.komiwa.net](https://www.komiwa.net) |
-| [#21295](https://github.com/keiyoushi/extensions-source/issues/21295) West Manga: `HTTP 429` error, increase rate-limit | West Manga | ✅ | West Manga `100%` | [https://v1.westmanga.my](https://v1.westmanga.my) |
-| [#21294](https://github.com/keiyoushi/extensions-source/issues/21294) Bbato: Wrong covers on entries | Bbato | 🔀 | Bbato `100%` | [https://bato1.com](https://bato1.com) |
-| [#21293](https://github.com/keiyoushi/extensions-source/issues/21293) Mangaworld: New website URL (`www.mangaworld.me`) | Mangaworld | 🔀 | Mangaworld `url` | [https://www.mangaworld.mx](https://www.mangaworld.mx) |
-| [#21284](https://github.com/keiyoushi/extensions-source/issues/21284) Mangaworld: `No results found` error | Mangaworld | 🔀 | Mangaworld `100%` | [https://www.mangaworld.mx](https://www.mangaworld.mx) |
+| [#21371](https://github.com/keiyoushi/extensions-source/issues/21371) [Manga Starz] Manga pages redirect to homepage and latest chapters are missing | Manga Starz | ✅ | Manga Starz `url` | [https://starzmanga.net](https://starzmanga.net) |
+| [#21367](https://github.com/keiyoushi/extensions-source/issues/21367) 3xyaoi: Problem accessing extension | XXX Yaoi | 🚧 | XXX Yaoi `100%` | [https://3xyaoi.com](https://3xyaoi.com) |
+| [#21366](https://github.com/keiyoushi/extensions-source/issues/21366) Luscious Merged Chapters | Luscious | 🚧 | Luscious `100%` | [https://members.luscious.net](https://members.luscious.net) |
+| [#21356](https://github.com/keiyoushi/extensions-source/issues/21356) NO SE PUEDE INICIAR SESION | Aedex | 🛑 | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
 | [#21234](https://github.com/keiyoushi/extensions-source/issues/21234) Komga: Unable to track reading progress when using API key for authentication | Komga | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
 | [#21233](https://github.com/keiyoushi/extensions-source/issues/21233) Cerise Scan: `HTTP 404` error with chapters | Cerise Scan | ✅ | Cerise Scan `100%` | [https://loverstoon.net](https://loverstoon.net) |
 | [#21028](https://github.com/keiyoushi/extensions-source/issues/21028) The Blank issue | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
@@ -44,29 +41,22 @@ Count: 29
 ## Single match
 
 
-Count: 7
+Count: 2
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21332](https://github.com/keiyoushi/extensions-source/issues/21332) Rawbaka no pages found | Rawbaka | ✅ | RawBaka `100%` | [https://rawbaka.site](https://rawbaka.site) |
-| [#21298](https://github.com/keiyoushi/extensions-source/issues/21298) Aedex: `Reader seed not found` error | Aedex: `Reader seed not found` error | 🛑 | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
-| [#21297](https://github.com/keiyoushi/extensions-source/issues/21297) CGBUM: `IllegalStateException`, `UnknownFormatException` error with chapter images | CGBUM: `IllegalStateException`, `UnknownFormatException` error with chapter images | ✅ | CGBUM `100%` | [https://cgbum.com](https://cgbum.com) |
-| [#21288](https://github.com/keiyoushi/extensions-source/issues/21288) Okutoon: New website URL (`okutoon.net`) | Okutoon | 🔀 | OkuToon `100%` | [https://okutoon.com](https://okutoon.com) |
-| [#21113](https://github.com/keiyoushi/extensions-source/issues/21113) XXX Yaoi: `Failed to bypass Cloudflare`, `HTTP 403` error | Xxxyaoi | 🚧 | XXX Yaoi `100%` | [https://3xyaoi.com](https://3xyaoi.com) |
-| [#20869](https://github.com/keiyoushi/extensions-source/issues/20869) Niadd (FR): `The site has no reader for this language` error with chapter | Niadd Mixte | ✅ | Niadd `100%` | [https://br.niadd.com](https://br.niadd.com) |
+| [#21382](https://github.com/keiyoushi/extensions-source/issues/21382) Blitz toons `Illegalargumentexception` error | Blitz toons | ✅ | Blitz Toons `100%` | [https://blitztoons.com](https://blitztoons.com) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 
 ## Multiple matches
 
 
-Count: 8
+Count: 7
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21313](https://github.com/keiyoushi/extensions-source/issues/21313) Rinko Comics: `No results found` when browsing extension | Rinko Comics | ✅ | Rinko Comics `100%` | [https://rinkocomics.com](https://rinkocomics.com) |
-| ↳ [#21313] |  | ✅ | Ninko Comics `92%` | [https://ninkocomics.com](https://ninkocomics.com) |
-| [#21304](https://github.com/keiyoushi/extensions-source/issues/21304) Comicaso: `HTTP 404` error, new website URL (`comicaso.site`) | Comicaso | ✅ | Comicaso `100%` | [https://v3.comicaso.pro](https://v3.comicaso.pro) |
-| ↳ [#21304] |  | ✅ | Omicaso `93%` | [https://omicaso.org](https://omicaso.org) |
+| [#21370](https://github.com/keiyoushi/extensions-source/issues/21370) Ninko Comics - No Pages Found | Ninko Comics | ✅ | Ninko Comics `100%` | [https://ninkocomics.com](https://ninkocomics.com) |
+| ↳ [#21370] |  | ✅ | Rinko Comics `92%` | [https://rinkocomics.com](https://rinkocomics.com) |
 | [#20457](https://github.com/keiyoushi/extensions-source/issues/20457) Bookwalker: Extension Not Showing All Manga in Search | Bookwalker | ✅ | BookWalker `url` | [https://bookwalker.com](https://bookwalker.com) |
 | ↳ [#20457] |  | ✅ | BookWalker Japan `100%` | [https://bookwalker.jp](https://bookwalker.jp) |
 | ↳ [#20457] |  | ✅ | BookWalker Taiwan `100%` | [https://www.bookwalker.com.tw](https://www.bookwalker.com.tw) |
@@ -81,13 +71,12 @@ Count: 8
 | [#13566](https://github.com/keiyoushi/extensions-source/issues/13566) GigaViewer theme sources not showing downloads | Comic Days 1.4.9, Sunday Web Every | ✅ | Comic Days `100%` | [https://comic-days.com](https://comic-days.com) |
 | ↳ [#13566] |  | ✅ | Sunday Web Every `100%` | [https://www.sunday-webry.com](https://www.sunday-webry.com) |
 | [#9274](https://github.com/keiyoushi/extensions-source/issues/9274) Magadex - Filter for "has available chapters" does not work | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
-| ↳ [#9274] |  | ❌ | MangaDE `93%` | [https://mangade.io](https://mangade.io) |
+| ↳ [#9274] |  | ✅ | MangaDE `93%` | [https://mangade.io](https://mangade.io) |
 
 ## No match
 
 
-Count: 1
+Count: 0
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#20857](https://github.com/keiyoushi/extensions-source/issues/20857) Keiyoushi: HTTP 504, unable to view, download, or update extensions | Keiyoushi extensions repo | | | |
