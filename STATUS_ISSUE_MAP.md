@@ -1,27 +1,24 @@
 # Bug Issue → Extension Map
 
-Matched: 35 of 35 open bug issues\
-Timestamp: `2026-11-23T18:42:23+00:00`
+Matched: 32 of 32 open bug issues\
+Timestamp: `2026-11-24T13:48:34+00:00`
 
 
 ## Exact match
 
 
-Count: 26
+Count: 23
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#21402](https://github.com/keiyoushi/extensions-source/issues/21402) Komiwa  NullPointException error | Komiwa | ✅ | Komiwa `100%` | [https://www.komiwa.net](https://www.komiwa.net) |
+| [#21392](https://github.com/keiyoushi/extensions-source/issues/21392) Aedex: The content in the image appears jumbled | Aedex | 🛑 | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
 | [#21371](https://github.com/keiyoushi/extensions-source/issues/21371) [Manga Starz] Manga pages redirect to homepage and latest chapters are missing | Manga Starz | ✅ | Manga Starz `url` | [https://starzmanga.net](https://starzmanga.net) |
-| [#21367](https://github.com/keiyoushi/extensions-source/issues/21367) 3xyaoi: Problem accessing extension | XXX Yaoi | 🚧 | XXX Yaoi `100%` | [https://3xyaoi.com](https://3xyaoi.com) |
-| [#21366](https://github.com/keiyoushi/extensions-source/issues/21366) Luscious Merged Chapters | Luscious | 🚧 | Luscious `100%` | [https://members.luscious.net](https://members.luscious.net) |
 | [#21356](https://github.com/keiyoushi/extensions-source/issues/21356) NO SE PUEDE INICIAR SESION | Aedex | 🛑 | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
 | [#21234](https://github.com/keiyoushi/extensions-source/issues/21234) Komga: Unable to track reading progress when using API key for authentication | Komga | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
 | [#21233](https://github.com/keiyoushi/extensions-source/issues/21233) Cerise Scan: `HTTP 404` error with chapters | Cerise Scan | ✅ | Cerise Scan `100%` | [https://loverstoon.net](https://loverstoon.net) |
 | [#21028](https://github.com/keiyoushi/extensions-source/issues/21028) The Blank issue | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
-| [#21023](https://github.com/keiyoushi/extensions-source/issues/21023) Catharsis World: `The site's reader changed` error | Catharsis World | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
 | [#20877](https://github.com/keiyoushi/extensions-source/issues/20877) Bakaloli: `HTTP 403` error, `You have been blocked` WebView page | Bakaloli | 🚧 | Bakaloli `100%` | [https://bakaloli.eu](https://bakaloli.eu) |
-| [#20295](https://github.com/keiyoushi/extensions-source/issues/20295) Makimaaaaa: /manga/ listing 404s | Makimaaaaa | 🅿️ | Makimaaaaa `url` | [https://makimaaaaa.com](https://makimaaaaa.com) |
-| [#20291](https://github.com/keiyoushi/extensions-source/issues/20291) Azuretoons: browse fails, API returns 502 | Azuretoons | ✅ | Azuretoons `url` | [https://azuretoons.com](https://azuretoons.com) |
 | [#19876](https://github.com/keiyoushi/extensions-source/issues/19876) Sana Scans Unable to access Paid chapters | Sana Scans | ✅ | Sana Scans `100%` | [https://sanascans.com](https://sanascans.com) |
 | [#19112](https://github.com/keiyoushi/extensions-source/issues/19112) [RavenManga] Old Episodes Not Working | RavenManga | ✅ | RavenManga `100%` | [https://raventard.xyz](https://raventard.xyz) |
 | [#18153](https://github.com/keiyoushi/extensions-source/issues/18153) Athrea Scans: Paid chapters has incomplete pages, paid chapters isn't toggleable without logging in | Athrea Scans | ✅ | Athrea Scans `100%` | [https://athreascans.com](https://athreascans.com) |
@@ -45,7 +42,7 @@ Count: 2
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21382](https://github.com/keiyoushi/extensions-source/issues/21382) Blitz toons `Illegalargumentexception` error | Blitz toons | ✅ | Blitz Toons `100%` | [https://blitztoons.com](https://blitztoons.com) |
+| [#21405](https://github.com/keiyoushi/extensions-source/issues/21405) hotcomics is not working | Hotcomics | 🚧 | HotComics `100%` | [https://hotcomics.io](https://hotcomics.io) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 
 ## Multiple matches
@@ -55,8 +52,8 @@ Count: 7
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21370](https://github.com/keiyoushi/extensions-source/issues/21370) Ninko Comics - No Pages Found | Ninko Comics | ✅ | Ninko Comics `100%` | [https://ninkocomics.com](https://ninkocomics.com) |
-| ↳ [#21370] |  | ✅ | Rinko Comics `92%` | [https://rinkocomics.com](https://rinkocomics.com) |
+| [#21401](https://github.com/keiyoushi/extensions-source/issues/21401) Comicaso chapter not available Issue | Comicaso | ✅ | Comicaso `100%` | [https://comicaso.site](https://comicaso.site) |
+| ↳ [#21401] |  | ✅ | Omicaso `93%` | [https://omicaso.org](https://omicaso.org) |
 | [#20457](https://github.com/keiyoushi/extensions-source/issues/20457) Bookwalker: Extension Not Showing All Manga in Search | Bookwalker | ✅ | BookWalker `url` | [https://bookwalker.com](https://bookwalker.com) |
 | ↳ [#20457] |  | ✅ | BookWalker Japan `100%` | [https://bookwalker.jp](https://bookwalker.jp) |
 | ↳ [#20457] |  | ✅ | BookWalker Taiwan `100%` | [https://www.bookwalker.com.tw](https://www.bookwalker.com.tw) |
