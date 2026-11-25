@@ -1,20 +1,21 @@
 # Bug Issue → Extension Map
 
-Matched: 32 of 32 open bug issues\
-Timestamp: `2026-11-24T13:48:34+00:00`
+Matched: 32 of 33 open bug issues\
+Timestamp: `2026-11-25T05:56:15+00:00`
 
 
 ## Exact match
 
 
-Count: 23
+Count: 24
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21402](https://github.com/keiyoushi/extensions-source/issues/21402) Komiwa  NullPointException error | Komiwa | ✅ | Komiwa `100%` | [https://www.komiwa.net](https://www.komiwa.net) |
-| [#21392](https://github.com/keiyoushi/extensions-source/issues/21392) Aedex: The content in the image appears jumbled | Aedex | 🛑 | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
+| [#21429](https://github.com/keiyoushi/extensions-source/issues/21429) Manganato 403 and 404 error | Manganato | ✅ | Manganato `100%` | [https://www.manganato.gg](https://www.manganato.gg) |
+| [#21408](https://github.com/keiyoushi/extensions-source/issues/21408) Ikiru new url | Ikiru | ✅ | Ikiru `100%` | [https://11.ikiru.wtf](https://11.ikiru.wtf) |
+| [#21392](https://github.com/keiyoushi/extensions-source/issues/21392) Aedex: The content in the image appears jumbled | Aedex | ✅ | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
 | [#21371](https://github.com/keiyoushi/extensions-source/issues/21371) [Manga Starz] Manga pages redirect to homepage and latest chapters are missing | Manga Starz | ✅ | Manga Starz `url` | [https://starzmanga.net](https://starzmanga.net) |
-| [#21356](https://github.com/keiyoushi/extensions-source/issues/21356) NO SE PUEDE INICIAR SESION | Aedex | 🛑 | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
+| [#21356](https://github.com/keiyoushi/extensions-source/issues/21356) NO SE PUEDE INICIAR SESION | Aedex | ✅ | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
 | [#21234](https://github.com/keiyoushi/extensions-source/issues/21234) Komga: Unable to track reading progress when using API key for authentication | Komga | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
 | [#21233](https://github.com/keiyoushi/extensions-source/issues/21233) Cerise Scan: `HTTP 404` error with chapters | Cerise Scan | ✅ | Cerise Scan `100%` | [https://loverstoon.net](https://loverstoon.net) |
 | [#21028](https://github.com/keiyoushi/extensions-source/issues/21028) The Blank issue | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
@@ -38,11 +39,10 @@ Count: 23
 ## Single match
 
 
-Count: 2
+Count: 1
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21405](https://github.com/keiyoushi/extensions-source/issues/21405) hotcomics is not working | Hotcomics | 🚧 | HotComics `100%` | [https://hotcomics.io](https://hotcomics.io) |
 | [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 
 ## Multiple matches
@@ -58,7 +58,7 @@ Count: 7
 | ↳ [#20457] |  | ✅ | BookWalker Japan `100%` | [https://bookwalker.jp](https://bookwalker.jp) |
 | ↳ [#20457] |  | ✅ | BookWalker Taiwan `100%` | [https://www.bookwalker.com.tw](https://www.bookwalker.com.tw) |
 | [#18672](https://github.com/keiyoushi/extensions-source/issues/18672) Rimu Scans: `Failed to initialize decoder`/chapter pages doesn't load with Premium chapters | 1.4.35 rimu scan | 🛑 | Rimu Scans `title 100%` | [https://rimuscan.fr](https://rimuscan.fr) |
-| ↳ [#18672] |  | ❌ | Grim Scans `title 90%` | [https://grimscans.com](https://grimscans.com) |
+| ↳ [#18672] |  | ⚠️ | Grim Scans `title 90%` | [https://grimscans.com](https://grimscans.com) |
 | [#18008](https://github.com/keiyoushi/extensions-source/issues/18008) Problem while migrating | MangaK | ✅ | MangaK `100%` | [https://mangak.io](https://mangak.io) |
 | ↳ [#18008] |  | ✅ | Mangack `92%` | [https://mangack.com](https://mangack.com) |
 | ↳ [#18008] |  | ✅ | MangaKo `92%` | [https://mangako.xyz](https://mangako.xyz) |
@@ -73,7 +73,8 @@ Count: 7
 ## No match
 
 
-Count: 0
+Count: 1
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#21425](https://github.com/keiyoushi/extensions-source/issues/21425) Onma site URL changed | Onma | | | |
