@@ -1,7 +1,7 @@
 # Bug Issue → Extension Map
 
-Matched: 32 of 33 open bug issues\
-Timestamp: `2026-11-25T05:56:15+00:00`
+Matched: 32 of 32 open bug issues\
+Timestamp: `2026-11-26T17:56:10+00:00`
 
 
 ## Exact match
@@ -11,11 +11,11 @@ Count: 24
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21429](https://github.com/keiyoushi/extensions-source/issues/21429) Manganato 403 and 404 error | Manganato | ✅ | Manganato `100%` | [https://www.manganato.gg](https://www.manganato.gg) |
-| [#21408](https://github.com/keiyoushi/extensions-source/issues/21408) Ikiru new url | Ikiru | ✅ | Ikiru `100%` | [https://11.ikiru.wtf](https://11.ikiru.wtf) |
-| [#21392](https://github.com/keiyoushi/extensions-source/issues/21392) Aedex: The content in the image appears jumbled | Aedex | ✅ | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
+| [#21462](https://github.com/keiyoushi/extensions-source/issues/21462) ​InkStory: HTTP 403 error (Anubis anti-bot protection) | InkStory | ⚠️ | InkStory `100%` | [https://inkstory.net](https://inkstory.net) |
+| [#21455](https://github.com/keiyoushi/extensions-source/issues/21455) LeerMangaEsp, Error In the list of chapters | LeerMangaEsp | ✅ | LeerMangaEsp `100%` | [https://mangalect.org](https://mangalect.org) |
+| [#21392](https://github.com/keiyoushi/extensions-source/issues/21392) Aedex: The content in the image appears jumbled | Aedex | 🛑 | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
 | [#21371](https://github.com/keiyoushi/extensions-source/issues/21371) [Manga Starz] Manga pages redirect to homepage and latest chapters are missing | Manga Starz | ✅ | Manga Starz `url` | [https://starzmanga.net](https://starzmanga.net) |
-| [#21356](https://github.com/keiyoushi/extensions-source/issues/21356) NO SE PUEDE INICIAR SESION | Aedex | ✅ | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
+| [#21356](https://github.com/keiyoushi/extensions-source/issues/21356) NO SE PUEDE INICIAR SESION | Aedex | 🛑 | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
 | [#21234](https://github.com/keiyoushi/extensions-source/issues/21234) Komga: Unable to track reading progress when using API key for authentication | Komga | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
 | [#21233](https://github.com/keiyoushi/extensions-source/issues/21233) Cerise Scan: `HTTP 404` error with chapters | Cerise Scan | ✅ | Cerise Scan `100%` | [https://loverstoon.net](https://loverstoon.net) |
 | [#21028](https://github.com/keiyoushi/extensions-source/issues/21028) The Blank issue | The Blank | 🛑 | The Blank `100%` | [https://theblank.net](https://theblank.net) |
@@ -52,6 +52,8 @@ Count: 7
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#21470](https://github.com/keiyoushi/extensions-source/issues/21470) URL change LuxManga | LuxManga | 🔀 | LuxManga `100%` | [https://luxmanga.net](https://luxmanga.net) |
+| ↳ [#21470] |  | ✅ | LXManga `93%` | [https://lxmanga.top](https://lxmanga.top) |
 | [#21401](https://github.com/keiyoushi/extensions-source/issues/21401) Comicaso chapter not available Issue | Comicaso | ✅ | Comicaso `100%` | [https://comicaso.site](https://comicaso.site) |
 | ↳ [#21401] |  | ✅ | Omicaso `93%` | [https://omicaso.org](https://omicaso.org) |
 | [#20457](https://github.com/keiyoushi/extensions-source/issues/20457) Bookwalker: Extension Not Showing All Manga in Search | Bookwalker | ✅ | BookWalker `url` | [https://bookwalker.com](https://bookwalker.com) |
@@ -67,14 +69,11 @@ Count: 7
 | ↳ [#17622] |  | ✅ | AllPornComic.io `90%` | [https://allporncomic.io](https://allporncomic.io) |
 | [#13566](https://github.com/keiyoushi/extensions-source/issues/13566) GigaViewer theme sources not showing downloads | Comic Days 1.4.9, Sunday Web Every | ✅ | Comic Days `100%` | [https://comic-days.com](https://comic-days.com) |
 | ↳ [#13566] |  | ✅ | Sunday Web Every `100%` | [https://www.sunday-webry.com](https://www.sunday-webry.com) |
-| [#9274](https://github.com/keiyoushi/extensions-source/issues/9274) Magadex - Filter for "has available chapters" does not work | MangaDex | ✅ | MangaDex `100%` | [https://mangadex.org](https://mangadex.org) |
-| ↳ [#9274] |  | ✅ | MangaDE `93%` | [https://mangade.io](https://mangade.io) |
 
 ## No match
 
 
-Count: 1
+Count: 0
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21425](https://github.com/keiyoushi/extensions-source/issues/21425) Onma site URL changed | Onma | | | |
