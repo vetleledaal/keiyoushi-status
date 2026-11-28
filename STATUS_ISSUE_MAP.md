@@ -1,20 +1,19 @@
 # Bug Issue → Extension Map
 
-Matched: 32 of 32 open bug issues\
-Timestamp: `2026-11-27T08:52:49+00:00`
+Matched: 31 of 31 open bug issues\
+Timestamp: `2026-11-28T12:12:20+00:00`
 
 
 ## Exact match
 
 
-Count: 25
+Count: 24
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21492](https://github.com/keiyoushi/extensions-source/issues/21492) Siren Scans: Not Found issue for every Manhwa | Siren Scans | 🔀 | Siren Scans `100%` | [https://sirenscans.com](https://sirenscans.com) |
+| [#21503](https://github.com/keiyoushi/extensions-source/issues/21503) Catharsis World No results were found | Catharsis World | ✅ | Catharsis World `100%` | [https://newcatharsis.dig-it.info](https://newcatharsis.dig-it.info) |
 | [#21490](https://github.com/keiyoushi/extensions-source/issues/21490) MadaraDex broken | MadaraDex | ✅ | MadaraDex `100%` | [https://madaradex.org](https://madaradex.org) |
 | [#21455](https://github.com/keiyoushi/extensions-source/issues/21455) LeerMangaEsp, Error In the list of chapters | LeerMangaEsp | ✅ | LeerMangaEsp `100%` | [https://mangalect.org](https://mangalect.org) |
-| [#21392](https://github.com/keiyoushi/extensions-source/issues/21392) Aedex: The content in the image appears jumbled | Aedex | 🛑 | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
 | [#21371](https://github.com/keiyoushi/extensions-source/issues/21371) [Manga Starz] Manga pages redirect to homepage and latest chapters are missing | Manga Starz | ✅ | Manga Starz `url` | [https://starzmanga.net](https://starzmanga.net) |
 | [#21356](https://github.com/keiyoushi/extensions-source/issues/21356) NO SE PUEDE INICIAR SESION | Aedex | 🛑 | Aedex `100%` | [https://aedexnox.com](https://aedexnox.com) |
 | [#21234](https://github.com/keiyoushi/extensions-source/issues/21234) Komga: Unable to track reading progress when using API key for authentication | Komga | ❌ | Komga `100%` | [https://127.0.0.1:25600](https://127.0.0.1:25600) |
@@ -40,20 +39,22 @@ Count: 25
 ## Single match
 
 
-Count: 2
+Count: 0
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
-| [#21487](https://github.com/keiyoushi/extensions-source/issues/21487) 429 | Manga kütüphanem | ✅ | Manga Kütüphanem `100%` | [https://mangakutuphanem.com](https://mangakutuphanem.com) |
-| [#20349](https://github.com/keiyoushi/extensions-source/issues/20349) [Mangago] Latest Updates section is no longer updating | Mangago 1. | ✅ | Mangago `100%` | [https://www.mangago.me](https://www.mangago.me) |
 
 ## Multiple matches
 
 
-Count: 5
+Count: 7
 
 | Issue | Source | Status | Extension | URL |
 |-------|--------|:------:|-----------|-----|
+| [#21531](https://github.com/keiyoushi/extensions-source/issues/21531) Comicaso [ID] | Comicaso | ❌ | Comicaso `100%` | [https://comicaso.site](https://comicaso.site) |
+| ↳ [#21531] |  | ⚠️ | Omicaso `93%` | [https://omicaso.org](https://omicaso.org) |
+| [#21524](https://github.com/keiyoushi/extensions-source/issues/21524) Manga Lek (like-manga.net): NullPointerException when updating library | Manga Lek 1.4.x | ✅ | مانجا ليك `url` | [https://like-manga.net](https://like-manga.net) |
+| ↳ [#21524] |  | 🚧 | X-Manga `100%` | [https://x-manga.org](https://x-manga.org) |
 | [#20457](https://github.com/keiyoushi/extensions-source/issues/20457) Bookwalker: Extension Not Showing All Manga in Search | Bookwalker | ✅ | BookWalker `url` | [https://bookwalker.com](https://bookwalker.com) |
 | ↳ [#20457] |  | ✅ | BookWalker Japan `100%` | [https://bookwalker.jp](https://bookwalker.jp) |
 | ↳ [#20457] |  | ✅ | BookWalker Taiwan `100%` | [https://www.bookwalker.com.tw](https://www.bookwalker.com.tw) |
